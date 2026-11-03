@@ -1,0 +1,1 @@
+{ "private": true, "description": "Herramientas de construcción (solo para regenerar el contenido)", "dependencies": { "katex": "^0.16.11" } }

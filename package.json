@@ -1,0 +1,11 @@
+{
+  "name": "cpp-estudio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Estudio del CPP de ASIS sin conexión: resúmenes, fichas, tests y audios.",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "python3 tools/build.py"
+  }
+}

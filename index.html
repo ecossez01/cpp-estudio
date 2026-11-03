@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CPP Estudio</title>
+<meta name="description" content="Estudio del CPP de ASIS sin conexión: resúmenes, fichas, tests y audios.">
+<meta name="theme-color" content="#F6F4EF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#12151B" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="CPP">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="vendor/katex/katex.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header id="top">
+  <a id="back" class="iconbtn" href="#/" aria-label="Volver" hidden>
+    <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+  <h1 id="ttl">CPP Estudio</h1>
+  <span id="topx"></span>
+</header>
+
+<main id="view" tabindex="-1"><p class="loading">Cargando…</p></main>
+
+<div id="mini" hidden>
+  <button class="mini-play iconbtn" id="mPlay" aria-label="Reproducir"></button>
+  <div class="mini-body">
+    <a class="mini-title" id="mTitle" href="#/audios"></a>
+    <input type="range" id="mSeek" min="0" max="1000" value="0" aria-label="Posición">
+    <div class="mini-meta"><span id="mTime">0:00</span><span id="mDur">0:00</span></div>
+  </div>
+  <div class="mini-ctl">
+    <button class="iconbtn sm" id="mBack" aria-label="Atrás 15 segundos">−15</button>
+    <button class="iconbtn sm" id="mFwd" aria-label="Adelante 30 segundos">+30</button>
+    <button class="iconbtn sm" id="mSpeed" aria-label="Velocidad">1×</button>
+  </div>
+</div>
+
+<nav id="tabbar" aria-label="Secciones">
+  <a href="#/" data-tab="home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10.5L12 4l8 6.5V20a1 1 0 0 1-1 1h-5v-6h-4v6H5a1 1 0 0 1-1-1z"/></svg><span>Inicio</span></a>
+  <a href="#/test" data-tab="test"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 11l2 2 4-4M5 4h14v16H5z"/></svg><span>Simulacro</span></a>
+  <a href="#/buscar" data-tab="buscar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM20 20l-4-4"/></svg><span>Buscar</span></a>
+  <a href="#/audios" data-tab="audios"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 14v-2a8 8 0 0 1 16 0v2M4 14h3v6H4zM17 14h3v6h-3z"/></svg><span>Audios</span></a>
+  <a href="#/ajustes" data-tab="ajustes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg><span>Ajustes</span></a>
+</nav>
+
+<div id="update" hidden>Hay una versión nueva del contenido. <button id="updBtn">Actualizar</button></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<audio id="player" preload="metadata"></audio>
+
+<script src="data/index.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
