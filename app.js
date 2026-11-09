@@ -124,7 +124,7 @@ const T = {
     include: 'What to include', everything: 'Everything', myWrong: n => `My mistakes (${n})`, howMany: 'How many questions', allQ: 'All',
     startN: n => `Start (${n} questions)`, recent: 'Recent attempts', lFull: 'Full mock exam', lWrong: 'Mistakes review', lVol: d => `Mock exam: ${d}`, lTest: 'Test',
     searchPh: 'Search a concept: VRIN, Abilene, EBITDA…', searchHelp: 'Type at least 2 letters. Searches summaries, flashcards and exam notes.',
-    searchEs: ' Summaries are in Spanish.', inSum: n => `${n} in the summary`, inCards: n => `${n} in flashcards`, noRes: v => `No results for “${v}”.`,
+    searchEs: '', inSum: n => `${n} in the summary`, inCards: n => `${n} in flashcards`, noRes: v => `No results for “${v}”.`,
     audioH: 'Audio', audioSub: 'Stored inside the app on this device and playable offline.', addAudio: 'Add audio from Files',
     noIDB: "This browser can't store audio.", at: s => `at ${s}`, listened: 'listened ✓',
     audioEmpty: 'No audio yet. Download it from NotebookLM to your iPhone (Files app) and add it here.',
@@ -193,8 +193,35 @@ function loadScript(src) {
   return new Promise((res, rej) => { const s = document.createElement('script'); s.src = src; s.onload = res; s.onerror = rej; document.head.appendChild(s); });
 }
 
+// Resúmenes en inglés: archivos aparte (data/en/), se cargan solo al usar EN
+let enReady = null;
+function loadEN() {
+  if (!enReady) {
+    enReady = Promise.all(IDX.filter(d => d.ready && d.en).map(d => loadScript(`data/en/${d.id}.js`)))
+      .then(() => {
+        const E = window.CPP_EN || {};
+        for (const { c, d } of Object.values(CH)) {
+          const x = E[d.id] && E[d.id][c.id];
+          if (x && x.html) { c.htmle = x.html; c.toce = x.toc; c.ojoe = x.ojo; c.texte = null; }
+        }
+      })
+      .catch(e => { enReady = null; console.warn('EN', e); });
+  }
+  return enReady;
+}
+const hasEN = c => EN() && !!c.htmle;
+const sumHtml = c => hasEN(c) ? c.htmle : c.html;
+const sumToc = c => hasEN(c) ? c.toce : c.toc;
+const ojoOf = c => hasEN(c) ? c.ojoe : c.ojo;
+const sumText = c => {
+  if (hasEN(c)) { if (c.texte == null) c.texte = plain(c.htmle); return c.texte; }
+  if (c.text == null) c.text = plain(c.html); return c.text;
+};
+
 // textos según idioma
 const domT = d => EN() ? d.title : d.es;
+const TITLE_EN = { 'Con contenido de examen': 'Appendices with exam content', 'Apéndices': 'Appendices' };
+const chT = c => (EN() && TITLE_EN[c.title]) || c.title;
 const domSub = d => EN() ? '' : d.title;
 const chLabel = c => EN() ? (c.label || `Chapter ${c.num}`).replace(/^Capítulo/, 'Chapter').replace(/^Apéndices/, 'Appendices').replace(/^Apéndice/, 'Appendix') : (c.label || `Capítulo ${c.num}`);
 const chShort = c => EN() ? (c.short || `Ch. ${c.num}`).replace(/^Cap\./, 'Ch.').replace(/^Ap\./, 'App.') : (c.short || `Cap. ${c.num}`);
@@ -250,10 +277,11 @@ function applyLang() {
   miniUI();
 }
 let KEEP = null; // sesión a conservar al cambiar de idioma
-function setLang(l) {
+async function setLang(l) {
   if (l === L()) return;
   S.lang = l; save(true);
   applyLang();
+  if (l === 'en') await loadEN();
   KEEP = SESSION;
   const y = window.scrollY;
   route(true);
@@ -309,8 +337,8 @@ function home() {
         ${metric(t('mCards'), kn, ALLCARDS.length, `${pct(kn, ALLCARDS.length)}%`)}
         ${metric(t('mQs'), ok, ALLQ.length, `${pct(ok, ALLQ.length)}%`)}
       </div>
-      ${last ? `<a class="btn red block cont" href="#/c/${last.id}/resumen"><small>${esc(t('cont'))}</small><span>${esc(chShort(last))}: ${esc(last.title)}</span></a>`
-        : first ? `<a class="btn red block cont" href="#/c/${first.id}/resumen"><small>${esc(t('startStudy'))}</small><span>${esc(chShort(first))}: ${esc(first.title)}</span></a>` : ''}
+      ${last ? `<a class="btn red block cont" href="#/c/${last.id}/resumen"><small>${esc(t('cont'))}</small><span>${esc(chShort(last))}: ${esc(chT(last))}</span></a>`
+        : first ? `<a class="btn red block cont" href="#/c/${first.id}/resumen"><small>${esc(t('startStudy'))}</small><span>${esc(chShort(first))}: ${esc(chT(first))}</span></a>` : ''}
     </section>
     <h3 class="label">${esc(t('quick'))}</h3>
     <div class="tiles">
@@ -359,10 +387,10 @@ function domainView(id) {
     <div class="list">${cs.map(c => {
       const r = !!S.read[c.id], best = S.best[c.id], k = known(c.cards);
       return `<a class="item" href="#/c/${c.id}/resumen">${r ? icon('check', 'ok') : `<span class="ic num">${esc(c.num.length > 2 ? c.num.slice(0, 2) : c.num)}</span>`}
-        <div class="grow"><div class="t">${esc(c.title)}</div><div class="s">${esc(chLabel(c))}${c.pages ? ', ' + esc(t('pages', c.pages)) : ''}</div>
+        <div class="grow"><div class="t">${esc(chT(c))}</div><div class="s">${esc(chLabel(c))}${c.pages ? ', ' + esc(t('pages', c.pages)) : ''}</div>
         <div class="facts"><span class="fact ${k === c.cards.length && k ? 'ok' : ''}">${esc(t('factCards', k, c.cards.length))}</span>
         <span class="fact ${best >= 80 ? 'ok' : ''}">${esc(best != null ? t('testBest', best) : t('testNone'))}</span>
-        ${c.ojo.length ? `<span class="fact warn">${esc(t('ojoN', c.ojo.length))}</span>` : ''}</div></div><span class="chev">›</span></a>`;
+        ${ojoOf(c).length ? `<span class="fact warn">${esc(t('ojoN', ojoOf(c).length))}</span>` : ''}</div></div><span class="chev">›</span></a>`;
     }).join('')}</div>`;
 }
 
@@ -372,8 +400,8 @@ function chapterView(id, tab, q, keepScroll) {
   if (!x) { location.hash = '#/'; return; }
   const { c, d, i } = x;
   S.lastCh = id; save();
-  header(`${chShort(c)}: ${c.title}`, `#/d/${d.id}`);
-  const tabs = [['resumen', t('tResumen'), ''], ['fichas', t('tFichas'), c.cards.length], ['test', t('tTest'), c.quiz.length], ['ojo', t('tOjo'), c.ojo.length]];
+  header(`${chShort(c)}: ${chT(c)}`, `#/d/${d.id}`);
+  const tabs = [['resumen', t('tResumen'), ''], ['fichas', t('tFichas'), c.cards.length], ['test', t('tTest'), c.quiz.length], ['ojo', t('tOjo'), ojoOf(c).length]];
   view.innerHTML = `
     <div class="tabs-wrap"><nav class="tabs">${tabs.map(([k, l, n]) => `<a href="#/c/${id}/${k}" class="${k === tab ? 'on' : ''}">${esc(l)}${n !== '' ? ` <small>${n}</small>` : ''}</a>`).join('')}</nav></div>
     <div id="pane"></div>`;
@@ -386,12 +414,12 @@ function chapterView(id, tab, q, keepScroll) {
   if (tab === 'resumen') {
     const idea = ideaOf(c);
     pane.innerHTML = `
-      <section class="panel stripe chead">${meta}<h2>${esc(c.title)}</h2>
+      <section class="panel stripe chead">${meta}<h2>${esc(chT(c))}</h2>
         ${idea ? `<div class="idea"><div class="kicker">${esc(t('idea'))}</div><p class="txt">${idea}</p></div>` : ''}
       </section>
-      ${langNote('langNoteSum')}
-      ${c.toc.length > 1 ? `<div class="toc">${c.toc.map(s => `<a href="#" data-jump="${id}-${s.id}">${esc(s.t)}</a>`).join('')}</div>` : ''}
-      <article class="prose" id="prose" lang="es">${c.html}</article>
+      ${hasEN(c) ? '' : langNote('langNoteSum')}
+      ${sumToc(c).length > 1 ? `<div class="toc">${sumToc(c).map(s => `<a href="#" data-jump="${id}-${s.id}">${esc(s.t)}</a>`).join('')}</div>` : ''}
+      <article class="prose" id="prose" lang="${hasEN(c) ? 'en' : 'es'}">${sumHtml(c)}</article>
       <div class="readbox"><button class="btn block ${S.read[id] ? 'okb' : 'red'}" id="readBtn">${esc(S.read[id] ? t('isRead') : t('markRead'))}</button></div>
       ${nav}`;
     $$('[data-jump]', pane).forEach(a => a.addEventListener('click', e => { e.preventDefault(); document.getElementById(a.dataset.jump)?.scrollIntoView({ behavior: 'smooth', block: 'start' }); }));
@@ -432,8 +460,9 @@ function chapterView(id, tab, q, keepScroll) {
     if (KEEP?.kind === 'quiz') startQuiz(c.quiz, $('#quizArea'), { key: id, onExit: intro });
     else intro();
   } else {
-    pane.innerHTML = c.ojo.length ? `<p class="note" style="margin-top:0">${esc(t('ojoIntro'))}</p>${langNote('langNoteOjo')}
-      <div class="list">${c.ojo.map(o => `<div class="panel stripe ojo-card"><div class="where">${esc(o.s)}</div><div class="h" lang="es">${o.h}</div></div>`).join('')}</div>${nav}`
+    const oj = ojoOf(c), ol = hasEN(c) ? 'en' : 'es';
+    pane.innerHTML = oj.length ? `<p class="note" style="margin-top:0">${esc(t('ojoIntro'))}</p>${hasEN(c) ? '' : langNote('langNoteOjo')}
+      <div class="list">${oj.map(o => `<div class="panel stripe ojo-card"><div class="where">${esc(o.s)}</div><div class="h" lang="${ol}">${o.h}</div></div>`).join('')}</div>${nav}`
       : `<div class="empty">${esc(t('ojoNone'))}</div>${nav}`;
   }
 }
@@ -649,8 +678,7 @@ function searchView(term) {
     const lo = v.toLowerCase();
     const hits = [];
     for (const { c, d } of Object.values(CH)) {
-      if (c.text == null) c.text = plain(c.html);
-      const txt = c.text, Lw = txt.toLowerCase();
+      const txt = sumText(c), Lw = txt.toLowerCase();
       let k = Lw.indexOf(lo), count = 0;
       const first = k;
       while (k !== -1) { count++; k = Lw.indexOf(lo, k + lo.length); }
@@ -669,7 +697,7 @@ function searchView(term) {
     }
     hits.sort((a, b) => (b.count + b.cardHits) - (a.count + a.cardHits));
     out.innerHTML = hits.length ? `<div class="list">${hits.map(h => `<a class="item hit" href="#/c/${h.c.id}/${h.count ? 'resumen?q=' + encodeURIComponent(v) : 'fichas'}"><div class="grow">
-      <div class="t">${esc(chShort(h.c))}: ${esc(h.c.title)}</div><div class="s">${esc(domT(h.d))}</div>
+      <div class="t">${esc(chShort(h.c))}: ${esc(chT(h.c))}</div><div class="s">${esc(domT(h.d))}</div>
       <div class="snip">${h.snip}</div><div class="facts">${h.count ? `<span class="fact">${esc(t('inSum', h.count))}</span>` : ''}${h.cardHits ? `<span class="fact">${esc(t('inCards', h.cardHits))}</span>` : ''}</div></div><span class="chev">›</span></a>`).join('')}</div>`
       : `<div class="empty">${esc(t('noRes', v))}</div>`;
   };
@@ -950,6 +978,7 @@ async function start() {
   }
   DATA = window.CPP_DATA || {};
   indexData();
+  if (EN()) await loadEN();
   window.addEventListener('hashchange', route);
   syncHeader();
   route();

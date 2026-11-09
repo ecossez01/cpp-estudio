@@ -36,7 +36,18 @@ DOMAINS = [
 
 CH_RE = re.compile(r"^## Capítulo (\d+) — (.+?)(?: \(págs\. ([^)]+)\))?\s*$")
 AP_RE = re.compile(r"^## (Apéndices?)(?: ([A-Z]))?\b\s*(.*?)(?: \(págs\. ([^)]+)\))?\s*$")
-OJO_RE = re.compile(r"^\s*(?:-\s*)?(?:\*\*)?Ojo para el examen:(?:\*\*)?\s*(.*)$")
+# Marcas de cada idioma en los resúmenes (tools/src/<tomo>.md y tools/src/en/<tomo>.md).
+LANG = {
+    "es": {"ojo": "Ojo para el examen:", "idea": "**Idea central:**", "skip": "preguntas de repaso"},
+    "en": {"ojo": "Exam note:", "idea": "**Central idea:**", "skip": "review questions"},
+}
+
+
+def ojo_re(label):
+    return re.compile(r"^\s*(?:-\s*)?(?:\*\*)?" + re.escape(label) + r"(?:\*\*)?\s*(.*)$")
+
+
+OJO_RE = ojo_re(LANG["es"]["ojo"])
 LATEX_RE = re.compile(r"```latex\n(.*?)\n```", re.S)
 
 KATEX = {}  # tex -> html (se llena en main)
@@ -71,18 +82,20 @@ def formula_html(tex: str) -> str:
 
 
 # ---------- markdown ----------
-def fix_markdown(md: str) -> str:
+def fix_markdown(md: str, lang="es") -> str:
+    lab = re.escape(LANG[lang]["ojo"])
     md = re.sub(r"(?m)^  (?=(\d+\.|-) )", "    ", md)  # listas anidadas con 2 espacios
     md = LATEX_RE.sub(lambda m: "\n" + formula_html(m.group(1)) + "\n", md)
-    md = re.sub(r"(?m)^(\s*(?:-\s*)?)(?:\*\*)?Ojo para el examen:(?:\*\*)?", r"\1**Ojo para el examen:**", md)
+    md = re.sub(r"(?m)^(\s*(?:-\s*)?)(?:\*\*)?" + lab + r"(?:\*\*)?", lambda m: m.group(1) + "**" + LANG[lang]["ojo"] + "**", md)
     return md
 
 
-def md_to_html(md: str) -> str:
-    out = markdown.markdown(fix_markdown(md), extensions=["tables", "sane_lists"])
+def md_to_html(md: str, lang="es") -> str:
+    lab = LANG[lang]["ojo"]
+    out = markdown.markdown(fix_markdown(md, lang), extensions=["tables", "sane_lists"])
     out = out.replace("<table>", '<div class="tw"><table>').replace("</table>", "</table></div>")
-    out = re.sub(r"<(li|p)><strong>Ojo para el examen:</strong>",
-                 r'<\1 class="ojo"><strong>Ojo para el examen:</strong>', out)
+    out = re.sub(r"<(li|p)><strong>" + re.escape(lab) + "</strong>",
+                 lambda m: f'<{m.group(1)} class="ojo"><strong>{lab}</strong>', out)
     return out
 
 
@@ -272,6 +285,39 @@ def parse_domain(dom, md_text, quizzes):
             "intro": md_to_html("\n".join(intro)).strip(), "chapters": out}
 
 
+def parse_en_summary(dom, md_text):
+    """Resumen en inglés (mismas cabeceras «## » que el español): {capítulo: {html, toc, ojo}}."""
+    L = LANG["en"]
+    ore = ojo_re(L["ojo"])
+    _, chapters = split_chapters(md_text)
+    out = {}
+    for ch in chapters:
+        cid = f"{dom['id']}-{ch['num']}"
+        sections, pre = [], []
+        for ln in ch["lines"]:
+            if ln.startswith("### "):
+                sections.append([ln[4:].strip(), []])
+            elif sections:
+                sections[-1][1].append(ln)
+            elif ln.startswith(L["idea"]):
+                continue
+            else:
+                pre.append(ln)
+        ojo, toc, parts = [], [], []
+        if "\n".join(pre).strip():
+            parts.append(md_to_html("\n".join(pre), "en"))
+            ojo += [{"s": ch["title"], "h": md_inline(mo.group(1))} for mo in map(ore.match, pre) if mo]
+        for n, (title, sl) in enumerate(sections):
+            if title.lower().startswith(L["skip"]):
+                continue
+            ojo += [{"s": short_title(title), "h": md_inline(mo.group(1))} for mo in map(ore.match, sl) if mo]
+            sid = f"e{n}"
+            toc.append({"id": sid, "t": short_title(title)})
+            parts.append(f'<h3 id="{cid}-{sid}">{html.escape(title)}</h3>' + md_to_html("\n".join(sl), "en"))
+        out[cid] = {"html": "".join(parts), "toc": toc, "ojo": ojo}
+    return out
+
+
 def load_en(dom_id):
     p = TOOLS / "i18n" / "en" / f"{dom_id}.json"
     base = {"cards": {}, "ideas": {}, "quiz": {}}
@@ -284,7 +330,7 @@ EXPORT = {}
 
 
 def render_all_latex():
-    texts = sorted({m.group(1).strip() for f in SRC.glob("*.md") for m in LATEX_RE.finditer(f.read_text("utf-8"))})
+    texts = sorted({m.group(1).strip() for f in [*SRC.glob("*.md"), *SRC.glob("en/*.md")] for m in LATEX_RE.finditer(f.read_text("utf-8"))})
     if not texts:
         return
     node = shutil.which("node")
@@ -317,7 +363,19 @@ def main():
         (DATA / f"{dom['id']}.js").write_text(js, "utf-8")
         data_files.append(f"data/{dom['id']}.js")
         chs = d["chapters"]
-        index.append({**dom, "ready": True, "chapters": len(chs),
+        en_src = SRC / "en" / f"{dom['id']}.md"
+        has_en = en_src.exists()
+        if has_en:
+            en_sum = parse_en_summary(dom, en_src.read_text("utf-8"))
+            missing = [c["id"] for c in chs if c["id"] not in en_sum]
+            (DATA / "en").mkdir(exist_ok=True)
+            (DATA / "en" / f"{dom['id']}.js").write_text(
+                "window.CPP_EN=window.CPP_EN||{};window.CPP_EN[%s]=%s;\n" % (
+                    json.dumps(dom["id"]), json.dumps(en_sum, ensure_ascii=False, separators=(",", ":"))), "utf-8")
+            data_files.append(f"data/en/{dom['id']}.js")
+            print(f"  resumen en inglés {dom['id']}: {len(chs) - len(missing)}/{len(chs)} capítulos"
+                  + (f" (faltan {', '.join(missing)})" if missing else ""))
+        index.append({**dom, "ready": True, "en": has_en, "chapters": len(chs),
                       "cards": sum(len(c["cards"]) for c in chs), "quiz": sum(len(c["quiz"]) for c in chs)})
         auto = sum(1 for c in chs for q in c["quiz"] if q.get("auto"))
         print(f"{dom['id']}: {len(chs)} capítulos/apéndices, {index[-1]['cards']} fichas, "
