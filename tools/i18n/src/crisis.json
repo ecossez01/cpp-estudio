@@ -1,0 +1,406 @@
+{
+ "cards": {
+  "crisis-1-k0": {
+   "q": "¿Qué área atiende el impacto inmediato de un evento, como apagar un incendio o aislar la red en un ciberataque?",
+   "a": "Emergency management/response."
+  },
+  "crisis-1-k1": {
+   "q": "¿Qué área es estratégica y protege la viabilidad a largo plazo y la reputación?",
+   "a": "Crisis management."
+  },
+  "crisis-1-k2": {
+   "q": "¿Qué área lleva de funcionar durante la crisis a operar con normalidad tras una interrupción?",
+   "a": "Business continuity."
+  },
+  "crisis-1-k3": {
+   "q": "¿Qué término paraguas agrupa hoy los programas de riesgo, seguridad y crisis?",
+   "a": "Resilience."
+  },
+  "crisis-1-k4": {
+   "q": "¿Cuáles son las cuatro fases cíclicas de la gestión de emergencias?",
+   "a": "Mitigation, preparedness, response y recovery."
+  },
+  "crisis-1-k5": {
+   "q": "Atornillar armarios a la pared en una zona sísmica, ¿a qué fase corresponde?",
+   "a": "Mitigation."
+  },
+  "crisis-1-k6": {
+   "q": "¿Qué fase puede incluir reorientar objetivos estratégicos u operativos?",
+   "a": "Recovery (ASIS BCM 2021)."
+  },
+  "crisis-1-k7": {
+   "q": "¿Qué documento se cita para definir preparedness?",
+   "a": "ANSI/ASIS PAP.1-2021."
+  },
+  "crisis-1-k8": {
+   "q": "¿Cuándo empieza la gestión de crisis?",
+   "a": "Al notificarse cualquier evento disruptivo, físico o no físico."
+  },
+  "crisis-1-k9": {
+   "q": "Cite tres eventos no físicos que activan la gestión de crisis.",
+   "a": "Retirada de productos y problemas regulatorios, legales o financieros."
+  },
+  "crisis-1-k10": {
+   "q": "¿Cuál es el objetivo último de la gestión de crisis?",
+   "a": "Proteger los activos esenciales: reputación, marca, finanzas, confianza, propiedad física e intelectual y relaciones clave."
+  },
+  "crisis-1-k11": {
+   "q": "¿Qué evita un programa sano de gestión de crisis?",
+   "a": "Que un solo área funcional lo domine."
+  },
+  "crisis-1-k12": {
+   "q": "¿Por qué todo evento disruptivo debe reportarse de inmediato al CMT?",
+   "a": "Porque se decide con información y tiempo limitados, y el CMT evalúa si es crisis o incidente rutinario."
+  },
+  "crisis-1-k13": {
+   "q": "Nombre las tres estrategias de continuidad del libro.",
+   "a": "Recuperación en el sitio, subcontratación de funciones y reubicación a otros sitios."
+  },
+  "crisis-1-k14": {
+   "q": "¿Qué norma ISO fija requisitos para un sistema de gestión de continuidad, y en qué norma británica se basa ASIS/BSI BCM.01-2010?",
+   "a": "ISO 22301:2019; BS 25999 partes 1 y 2."
+  },
+  "crisis-2-k0": {
+   "q": "¿Cuál es el punto de partida lógico de toda respuesta a emergencias o crisis?",
+   "a": "Desarrollar un plan."
+  },
+  "crisis-2-k1": {
+   "q": "Cite las cinco funciones del plan según ASIS BCM 2021.",
+   "a": "Definir crisis y alcance; crear el equipo; método de recursos; entrar y salir del modo crisis; probar y mantener."
+  },
+  "crisis-2-k2": {
+   "q": "¿Qué necesita una organización grande con varios sitios?",
+   "a": "Un emergency operations plan (EOP) general más planes específicos por sitio."
+  },
+  "crisis-2-k3": {
+   "q": "¿Quién debe ser el coordinador de emergencias?",
+   "a": "Un directivo que gestione emergencias habitualmente, como el jefe de seguridad o de ingeniería."
+  },
+  "crisis-2-k4": {
+   "q": "¿Dónde se documenta el nombramiento del coordinador?",
+   "a": "En el EOP y en una política o declaración de programa general."
+  },
+  "crisis-2-k5": {
+   "q": "¿Se crea una organización nueva para gestionar emergencias?",
+   "a": "No; la organización existente se reconfigura temporalmente."
+  },
+  "crisis-2-k6": {
+   "q": "¿Qué departamentos, como mínimo, integran el comité de apoyo?",
+   "a": "Legal, personal, médico, transporte, relaciones públicas, ingeniería de instalaciones, TI y seguridad."
+  },
+  "crisis-2-k7": {
+   "q": "¿Por qué cuesta formar y probar a titulares y suplentes?",
+   "a": "Consume tiempo y recursos, y la dirección no le da prioridad."
+  },
+  "crisis-2-k8": {
+   "q": "¿Cuáles son los cinco rasgos comunes de los sistemas de mando de incidentes?",
+   "a": "Command, operations, planning, logistics y administrative/finance."
+  },
+  "crisis-2-k9": {
+   "q": "Con respuesta de seguridad pública, ¿quién suele ser el comandante del incidente?",
+   "a": "El miembro de mayor rango de la agencia que responde."
+  },
+  "crisis-2-k10": {
+   "q": "Varias agencias o jurisdicciones: ¿cómo es el mando?",
+   "a": "Colaborativo, con un solo puesto de mando (“single command” en el libro; unified command en ICS)."
+  },
+  "crisis-2-k11": {
+   "q": "¿Por qué el CMT no dirige en la escena?",
+   "a": "Porque su rol es estratégico; en la escena actúa el sistema de gestión de incidentes."
+  },
+  "crisis-2-k12": {
+   "q": "¿Qué debe hacer el profesional de seguridad con seguridad pública y cadena de suministro?",
+   "a": "Crear relaciones y hacer simulacros y ejercicios conjuntos."
+  },
+  "crisis-2-k13": {
+   "q": "¿Cómo se identifican los miembros del CMT y qué datos lleva la lista?",
+   "a": "Por puesto, con titular y suplentes; rol, contacto crítico y cadenas de mando alternativas."
+  },
+  "crisis-2-k14": {
+   "q": "¿Qué tipo de equipo de crisis ejecuta las instrucciones en la ubicación de la crisis?",
+   "a": "El táctico (tactical crisis team)."
+  },
+  "crisis-3-k0": {
+   "q": "¿Qué relación hay entre el equipo de continuidad del negocio y el equipo de gestión de crisis?",
+   "a": "Se trata por separado y es un apoyo del equipo de gestión de crisis, que está por encima."
+  },
+  "crisis-3-k1": {
+   "q": "Según la Guía ASIS BCM, ¿con qué tres criterios se recluta a los equipos de respuesta?",
+   "a": "Habilidades, nivel de compromiso e interés personal (vested interest)."
+  },
+  "crisis-3-k2": {
+   "q": "¿En qué se basan los planes y procedimientos de continuidad?",
+   "a": "En los objetivos de recuperación identificados en el BIA."
+  },
+  "crisis-3-k3": {
+   "q": "¿Cómo se estima la probabilidad de un incidente de crisis?",
+   "a": "Valorando el perfil cambiante de la organización y las medidas de seguridad existentes."
+  },
+  "crisis-3-k4": {
+   "q": "¿Qué cuatro registros vitales marca el libro como indispensables?",
+   "a": "Datos de clientes, de ingeniería, de procesos de manufactura y de nómina y personal."
+  },
+  "crisis-3-k5": {
+   "q": "¿Qué es lo más importante de la planificación según el capítulo?",
+   "a": "Que es un proceso continuo que nunca termina mientras el plan exista."
+  },
+  "crisis-3-k6": {
+   "q": "Ordena los ejercicios de menor a mayor madurez.",
+   "a": "Orientation, tabletop, functional, full scale."
+  },
+  "crisis-3-k7": {
+   "q": "¿Qué tipo de ejercicio incluye a policía, bomberos y gestión de emergencias?",
+   "a": "El de escala completa (full scale)."
+  },
+  "crisis-3-k8": {
+   "q": "¿Quién aprueba el programa de ejercicios y quién recibe el informe escrito?",
+   "a": "La alta dirección, en ambos casos."
+  },
+  "crisis-3-k9": {
+   "q": "Según ANSI/ASIS/RIMS RA.1-2015, ¿en qué pasos se divide la evaluación de riesgos?",
+   "a": "Identificación, análisis, evaluación e informes de evaluación de riesgos."
+  },
+  "crisis-3-k10": {
+   "q": "¿Qué paso compara el nivel de riesgo con los criterios de riesgo?",
+   "a": "Risk evaluation."
+  },
+  "crisis-3-k11": {
+   "q": "¿Qué es el risk register?",
+   "a": "La compilación de todos los riesgos identificados, analizados y evaluados."
+  },
+  "crisis-3-k12": {
+   "q": "Tras entender el negocio y su entorno de riesgo, ¿cuál es el primer paso del ciclo de vida del riesgo?",
+   "a": "Identificar y priorizar los activos a proteger."
+  },
+  "crisis-3-k13": {
+   "q": "¿Qué método valora un activo intangible por el ingreso futuro estimado?",
+   "a": "El income method."
+  },
+  "crisis-3-k14": {
+   "q": "¿Qué diferencia hay entre RPO y RTO?",
+   "a": "RPO: pérdida máxima tolerable de datos. RTO: tiempo máximo para devolver los sistemas críticos, dentro del tiempo máximo tolerable."
+  },
+  "crisis-4-k0": {
+   "q": "¿Qué enfoque de plan conviene a una organización expuesta a muchos tipos de amenazas y peligros?",
+   "a": "All-hazards: EOP básico común más listas de verificación por peligro."
+  },
+  "crisis-4-k1": {
+   "q": "¿Por qué funciona el enfoque all-hazards?",
+   "a": "Los requisitos de planificación se parecen, sea la amenaza natural, humana o un accidente."
+  },
+  "crisis-4-k2": {
+   "q": "¿Qué secuencia de complejidad de ejercicios recomienda David H. Gilmore?",
+   "a": "Paper → sand table → interactive → full-up."
+  },
+  "crisis-4-k3": {
+   "q": "En la lista de prioridades de 4.3.1, ¿cuál es la primera y cuál la última?",
+   "a": "Proteger la vida humana · restablecer las operaciones normales lo antes posible."
+  },
+  "crisis-4-k4": {
+   "q": "Según ESRM, ¿quién fija las prioridades de protección de activos y respuesta a riesgos?",
+   "a": "Los dueños del riesgo del negocio (business risk owners)."
+  },
+  "crisis-4-k5": {
+   "q": "¿Cuánto dura una evacuación de corto plazo y cuánto una extendida?",
+   "a": "Menos de 1 hora · más de 1 hora."
+  },
+  "crisis-4-k6": {
+   "q": "¿Cómo se obliga a practicar las salidas alternas?",
+   "a": "Bloqueando en cada simulacro la salida principal de un piso o zona distinta, con letrero o monitor."
+  },
+  "crisis-4-k7": {
+   "q": "¿Cuándo se usa el refugio en el lugar?",
+   "a": "Cuando evacuar no es posible o no conviene: liberación HAZMAT, tornado, agresor activo, terremoto."
+  },
+  "crisis-4-k8": {
+   "q": "¿Quién toma la decisión final de reocupar el sitio?",
+   "a": "La dirección de la organización; los servicios de emergencia solo asesoran."
+  },
+  "crisis-4-k9": {
+   "q": "¿En qué se diferencian emergency communications y crisis communications?",
+   "a": "Capacidad técnica de comunicar vs. mensajes y respuesta pública."
+  },
+  "crisis-4-k10": {
+   "q": "¿Qué es la interoperabilidad?",
+   "a": "Capacidad de agencias y jurisdicciones distintas de comunicarse entre sí por medios inalámbricos."
+  },
+  "crisis-4-k11": {
+   "q": "¿Cuánto hay que esperar antes de volver a marcar con la red saturada?",
+   "a": "10 segundos."
+  },
+  "crisis-4-k12": {
+   "q": "¿Dónde debe estar al menos una ubicación alterna del EOC/CMC?",
+   "a": "En un edificio distinto del que aloja el principal."
+  },
+  "crisis-4-k13": {
+   "q": "Fuera de horario, ¿quién puede asumir el mando inicial?",
+   "a": "El directivo de más rango en el sitio; puede ser un gerente, supervisor u oficial de seguridad."
+  },
+  "crisis-4-k14": {
+   "q": "¿Qué hacen los ocupantes de una oficina (instalación no industrial) ante un incendio?",
+   "a": "Identifican el problema, avisan a las autoridades y evacuan la zona."
+  },
+  "crisis-5-k0": {
+   "q": "¿Cuándo comienza la gestión de crisis?",
+   "a": "Al notificarse cualquier evento disruptivo, sea una emergencia física o un evento no físico."
+  },
+  "crisis-5-k1": {
+   "q": "¿Cuáles son las cinco partes típicas de un plan de crisis?",
+   "a": "Equipo de crisis · activación y escalamiento · mando y sucesión · logística y recursos de recuperación · comunicación de crisis."
+  },
+  "crisis-5-k2": {
+   "q": "Cite los cuatro ejemplos de disparadores de activación del libro.",
+   "a": "Huracán inminente · incendio o explosión · ciberataque · crisis en redes sociales."
+  },
+  "crisis-5-k3": {
+   "q": "¿Cuándo hay que avisar a los directivos de que el equipo de crisis se activó?",
+   "a": "Siempre, se declare o no una crisis."
+  },
+  "crisis-5-k4": {
+   "q": "¿A quién se asigna el control de los vehículos en una crisis?",
+   "a": "A una sola persona, con un suplente designado."
+  },
+  "crisis-5-k5": {
+   "q": "¿Por qué buscar recursos también lejos en un evento a gran escala?",
+   "a": "Porque los recursos locales pueden quedar saturados."
+  },
+  "crisis-5-k6": {
+   "q": "¿La comunicación de crisis es estratégica o táctica?",
+   "a": "Estratégica; las tácticas son solo las herramientas (comunicados, redes sociales, web, town halls)."
+  },
+  "crisis-5-k7": {
+   "q": "¿Qué es el «spin» y por qué se evita?",
+   "a": "Minimizar la crisis y desviar culpas en los medios; casi nunca funciona, incumple estándares de relaciones públicas y resta confianza."
+  },
+  "crisis-5-k8": {
+   "q": "¿Existe el «público en general» en una crisis?",
+   "a": "No; hay audiencias específicas, cada una con inquietudes propias."
+  },
+  "crisis-5-k9": {
+   "q": "¿Cuáles son los cinco elementos de un programa de comunicación de crisis?",
+   "a": "Planificación · capacitación · ejercicios · respuesta · recuperación."
+  },
+  "crisis-5-k10": {
+   "q": "¿Quién es el responsable último de la comunicación de crisis?",
+   "a": "El Senior Communications Advisor/Lead, que se sienta con el equipo de alta dirección."
+  },
+  "crisis-5-k11": {
+   "q": "¿Qué cinco pasos documenta el CCT para cada escenario?",
+   "a": "Audiencias · inquietudes · mensajes · vocero por audiencia · tácticas de entrega."
+  },
+  "crisis-5-k12": {
+   "q": "¿Con qué frecuencia se capacita al CCT y a los voceros?",
+   "a": "Una vez al año."
+  },
+  "crisis-5-k13": {
+   "q": "¿Cuándo se empieza a planear la comunicación de recuperación?",
+   "a": "Mientras la organización sigue en modo respuesta."
+  },
+  "crisis-5-k14": {
+   "q": "¿Cuándo se publican los nombres de muertos y heridos?",
+   "a": "Lo antes posible, pero después de informar a los familiares."
+  },
+  "crisis-6-k0": {
+   "q": "En una pandemia, ¿qué modelo recomienda el libro en lugar de antes/durante/después?",
+   "a": "Las 6 fases de pandemia de la OMS (Organización Mundial de la Salud)."
+  },
+  "crisis-6-k1": {
+   "q": "¿Qué ausentismo se toma como supuesto de planificación ante una pandemia?",
+   "a": "Hasta el 40 % de la plantilla."
+  },
+  "crisis-6-k2": {
+   "q": "¿Qué fase de alerta pandémica marca el inicio de las estrategias del plan de continuidad?",
+   "a": "La fase 3."
+  },
+  "crisis-6-k3": {
+   "q": "En una tormenta invernal, ¿a qué temperatura mínima se mantiene el edificio con equipo vulnerable?",
+   "a": "Por encima de 40 °F (4 °C)."
+  },
+  "crisis-6-k4": {
+   "q": "¿Cuánta agua hay que tener para el personal que se queda durante un huracán?",
+   "a": "1 galón por persona y día, para 3 días."
+  },
+  "crisis-6-k5": {
+   "q": "Después de un sismo, ¿cuándo se corta el gas?",
+   "a": "Solo si se detecta una fuga."
+  },
+  "crisis-6-k6": {
+   "q": "¿Qué dos papeles suele cumplir seguridad en una evacuación por incendio?",
+   "a": "Jefes de piso (floor wardens) y quien atiende el panel de alarma contra incendio."
+  },
+  "crisis-6-k7": {
+   "q": "En un incidente HAZMAT (materiales peligrosos), ¿qué función suele olvidarse en el equipo de crisis?",
+   "a": "Las relaciones públicas, por si se ve afectada la comunidad."
+  },
+  "crisis-6-k8": {
+   "q": "¿Cuáles son las etapas del pathway to violence?",
+   "a": "Ideación, planificación, adquisición, sondeo/vigilancia y acción/ejecución, a partir de un agravio sin resolver."
+  },
+  "crisis-6-k9": {
+   "q": "¿Cómo se describe la targeted violence?",
+   "a": "Planificada, sin emoción y depredadora."
+  },
+  "crisis-6-k10": {
+   "q": "¿Qué diferencia hay entre cover y concealment?",
+   "a": "Cover protege de los disparos (archivador metálico lleno); concealment solo oculta de la vista (cortina)."
+  },
+  "crisis-6-k11": {
+   "q": "Si alguien consigue el arma del atacante, ¿qué debe hacer?",
+   "a": "No usarla; asegurarla lejos del atacante."
+  },
+  "crisis-6-k12": {
+   "q": "Ante una amenaza de bomba, ¿dónde van las zonas de evacuación?",
+   "a": "Más allá del radio potencial de explosión, distintas de las de incendio."
+  },
+  "crisis-6-k13": {
+   "q": "¿Quién decide evacuar ante una amenaza de bomba en la mayoría de jurisdicciones?",
+   "a": "La dirección de la organización, salvo que se localice un artefacto."
+  },
+  "crisis-6-k14": {
+   "q": "¿Qué porcentaje de brechas atribuye el libro al factor humano y cuánto subió el ciberdelito con la COVID-19 según el FBI (Federal Bureau of Investigation)?",
+   "a": "95 % y 300 %."
+  },
+  "crisis-A-k0": {
+   "q": "¿Qué es una norma (standard)?",
+   "a": "Un conjunto de criterios, directrices y buenas prácticas para mejorar la calidad y fiabilidad de productos, servicios o procesos."
+  },
+  "crisis-A-k1": {
+   "q": "¿Con qué cuatro principios se elaboran las normas?",
+   "a": "Consenso · apertura · debido proceso · transparencia."
+  },
+  "crisis-A-k2": {
+   "q": "¿Qué diferencia una norma voluntaria de una estatutaria?",
+   "a": "La voluntaria no obliga por ley; la estatutaria es vinculante y la hacen cumplir autoridades formales."
+  },
+  "crisis-A-k3": {
+   "q": "¿Cuándo se considera mixta una norma?",
+   "a": "Cuando una voluntaria se incorpora a leyes (incendio, construcción, seguridad humana) o es obligatoria en la práctica (aseguradoras, contratos)."
+  },
+  "crisis-A-k4": {
+   "q": "¿Cuáles son las normas de sistemas de gestión más destacadas?",
+   "a": "ISO 9001 (calidad) e ISO 14001 (ambiental)."
+  },
+  "crisis-A-k5": {
+   "q": "¿Cuál es el principio operativo de las normas de sistemas de gestión?",
+   "a": "El ciclo PDCA (Plan-Do-Check-Act), centrado en la mejora continua."
+  },
+  "crisis-A-k6": {
+   "q": "¿En qué fase del PDCA se estandarizan las soluciones en toda la organización?",
+   "a": "En Act."
+  },
+  "crisis-A-k7": {
+   "q": "¿Qué organismo emite normas sobre cerraduras, alarmas y control de acceso?",
+   "a": "UL (Underwriters Laboratories)."
+  }
+ },
+ "ideas": {
+  "crisis-1": "Gestión de emergencias, gestión de crisis y continuidad del negocio son tres disciplinas distintas que a menudo se usan como sinónimos. La primera atiende el impacto inmediato; la segunda es estratégica y protege la viabilidad y la reputación; la tercera devuelve la operación a la normalidad. Juntas forman la resiliencia (resilience) de la organización.",
+  "crisis-2": "Toda respuesta empieza con un plan que define la crisis, crea equipos, prevé recursos, gestiona la entrada y salida del modo crisis y se prueba. El capítulo explica la estructura de respuesta a emergencias (coordinador, comité, suplentes, mando de incidentes), la coordinación con actores externos y cómo montar el equipo de gestión de crisis.",
+  "crisis-3": "Los planes de continuidad documentan cómo cada equipo recupera su parte del negocio tras una disrupción. Se apoyan en la evaluación de riesgos y en el análisis de impacto en el negocio (Business Impact Analysis, BIA). Deben probarse con ejercicios y actualizarse siempre: la planificación nunca termina.",
+  "crisis-4": "Un plan escrito es clave para prepararse ante emergencias, aunque no cubra todos los casos. Armarlo y formar al equipo da a la organización un marco para responder de forma sistemática. El capítulo cubre el formato del plan, sus prioridades, sus secciones típicas y cómo entrenarlo y ejercitarlo.",
+  "crisis-5": "La gestión de crisis arranca en cuanto se notifica cualquier evento disruptivo, sea físico o no. El plan se adapta a cada organización, prevé una respuesta por tipo de crisis e integra la comunicación de crisis, que es estratégica. Planificar no termina nunca: el plan se prueba, se revisa y se vuelve a probar.",
+  "crisis-6": "El libro agrupa las crisis en cuatro familias de amenaza. Los planes generales de continuidad y de respuesta sirven para todas, pero cada amenaza pide acciones propias. El capítulo da, para cada evento, qué hacer antes, durante y después.",
+  "crisis-A": "Una norma (standard) reúne criterios y buenas prácticas para mejorar la calidad y la fiabilidad; puede ser voluntaria, obligatoria por ley o mixta. Las normas de sistemas de gestión funcionan con el ciclo PDCA (Plan-Do-Check-Act). El Appendix B es una lista de lecturas sobre continuidad, emergencias, violencia y ciberseguridad."
+ },
+ "quiz": {}
+}

@@ -1,0 +1,695 @@
+{
+ "cards": {
+  "personnel-1-k0": {
+   "q": "Con oficiales de 40 horas semanales, ¿cuántos oficiales requiere un puesto cubierto 24 horas, 7 días?",
+   "a": "4.2 como mínimo; 4.5 cubriendo enfermedad, vacaciones y festivos; hasta 5 con vacaciones largas o mucha formación."
+  },
+  "personnel-1-k1": {
+   "q": "¿Qué es el control de acceso?",
+   "a": "La regulación del movimiento hacia dentro, hacia fuera y dentro de un edificio o área designada, sobre personas, transporte y materiales."
+  },
+  "personnel-1-k2": {
+   "q": "¿Por qué la ruta de patrulla no debe ser invariable?",
+   "a": "Porque permite al agresor descubrir el mejor momento para atacar."
+  },
+  "personnel-1-k3": {
+   "q": "Por regla general, ¿quién debe escoltar a un visitante?",
+   "a": "Quien lo invitó, no el personal de seguridad."
+  },
+  "personnel-1-k4": {
+   "q": "¿Qué condiciones justifican armar a un oficial?",
+   "a": "Una o ambas: mayor peligro para la vida sin el arma, o expectativa razonable de tener que usar fuerza letal."
+  },
+  "personnel-1-k5": {
+   "q": "¿Qué dos elementos son imprescindibles antes de dar armas menos que letales?",
+   "a": "Una política de uso de fuerza clara y concisa, y formación inicial y recurrente suficiente."
+  },
+  "personnel-1-k6": {
+   "q": "¿Dónde nunca debe golpear un bastón?",
+   "a": "En articulaciones o en la cabeza; solo en grandes masas musculares."
+  },
+  "personnel-1-k7": {
+   "q": "¿Cuáles son los seis niveles del continuo de fuerza de McGoey (2018)?",
+   "a": "Presencia, comunicación verbal, control y sujeción, agente químico, incapacitación temporal y fuerza letal."
+  },
+  "personnel-1-k8": {
+   "q": "¿Cómo se llama la relación en una fuerza híbrida con supervisores propios y oficiales contratados?",
+   "a": "Principal-agente (*principal-agent*)."
+  },
+  "personnel-1-k9": {
+   "q": "Según el libro, ¿en qué debe basarse la elección entre fuerza propia y contratada?",
+   "a": "En el tipo de activos, el nivel de riesgo y las expectativas sobre los oficiales, no en el costo."
+  },
+  "personnel-1-k10": {
+   "q": "¿Qué tres conceptos contiene la definición de puesto de oficial de seguridad?",
+   "a": "Ubicación o combinación de actividades; ser humano necesario; formación y competencia."
+  },
+  "personnel-1-k11": {
+   "q": "¿Cuánto suele costar la rotación de un empleado?",
+   "a": "El 25 % o más de su salario anual."
+  },
+  "personnel-1-k12": {
+   "q": "¿Qué tres requisitos hacen admisible una bitácora como excepción a la regla del testimonio de oídas (*hearsay*)?",
+   "a": "Llevarse con regularidad; llevarla alguien como parte de sus funciones; registrar hechos de conocimiento personal, o reportados por quien los conoció y debía reportarlos."
+  },
+  "personnel-1-k13": {
+   "q": "Según Miller (2010), ¿a partir de cuántas horas despierto aparece fatiga mental peligrosa y a qué horas suben los accidentes?",
+   "a": "Más de 17 horas; hacia las 0300 y a las 1500."
+  },
+  "personnel-1-k14": {
+   "q": "¿Cuál es la forma más eficaz de mantener la vigilancia del oficial?",
+   "a": "Rotarlo entre puesto fijo y patrulla, a pie y móvil."
+  },
+  "personnel-2-k0": {
+   "q": "¿Qué fórmula define el desarrollo?",
+   "a": "Educación + formación + experiencia guiada = desarrollo."
+  },
+  "personnel-2-k1": {
+   "q": "¿Qué dominio de aprendizaje cambia cómo la persona ve una situación?",
+   "a": "El afectivo."
+  },
+  "personnel-2-k2": {
+   "q": "¿Qué técnica logra la mayor retención?",
+   "a": "Que el alumno haga la tarea mientras escucha al instructor."
+  },
+  "personnel-2-k3": {
+   "q": "¿Qué es el contacto de aprendizaje (*learning contact*)?",
+   "a": "El número o proporción de empleados expuestos a la formación."
+  },
+  "personnel-2-k4": {
+   "q": "¿Qué tres elementos tiene un objetivo conductual?",
+   "a": "Tarea, condiciones y criterio de desempeño aceptable."
+  },
+  "personnel-2-k5": {
+   "q": "¿Por qué las evaluaciones de los participantes validan mal la formación?",
+   "a": "Miden lo que creen haber aprendido, no el aprendizaje real."
+  },
+  "personnel-2-k6": {
+   "q": "¿Qué diferencia a un mentor de un FTO?",
+   "a": "El mentor enseña sin evaluar; el FTO evalúa y recomienda retener o despedir."
+  },
+  "personnel-2-k7": {
+   "q": "¿Qué método es probablemente el único para la instrucción individualizada?",
+   "a": "El aprendizaje a distancia."
+  },
+  "personnel-2-k8": {
+   "q": "¿Qué es el síndrome de la rana?",
+   "a": "El gerente asume toda la formación, la abandona por la carga y queda incompleta."
+  },
+  "personnel-2-k9": {
+   "q": "¿Cuál es el primer paso al identificar necesidades de formación?",
+   "a": "Ver si aplican requisitos legales (gobierno o contrato)."
+  },
+  "personnel-2-k10": {
+   "q": "¿Cuándo es inapropiado usar formación?",
+   "a": "Ante problemas ajenos a conocimiento o habilidad: mal diseño del puesto, equipo inadecuado o moral baja."
+  },
+  "personnel-2-k11": {
+   "q": "¿Qué teoría contradice la formación obligatoria para conservar el empleo?",
+   "a": "Los principios de andragogía de Malcolm Knowles."
+  },
+  "personnel-2-k12": {
+   "q": "¿Qué certificación de instructores administra IFPO?",
+   "a": "Certified Protection Officer Instructor (CPOI)."
+  },
+  "personnel-2-k13": {
+   "q": "¿Qué rol del oficial exige conocer agravios, negligencia y contratos?",
+   "a": "El de consultor legal."
+  },
+  "personnel-2-k14": {
+   "q": "¿En qué tres partes se estructura cada tema del proceso de formación?",
+   "a": "Introducción, cuerpo y cierre (resumen y examen)."
+  },
+  "personnel-3-k0": {
+   "q": "¿Qué tres entornos de servicio distingue el capítulo?",
+   "a": "Público (desfiles), semipúblico (bancos, museos) y privado (plantas, oficinas)."
+  },
+  "personnel-3-k1": {
+   "q": "¿Por qué se prefiere un contrato expreso a uno implícito?",
+   "a": "Fija términos y condiciones definidos, en vez de deducirlos de la conducta de las partes."
+  },
+  "personnel-3-k2": {
+   "q": "¿Cuál suele ser la partida más grande del presupuesto operativo de seguridad?",
+   "a": "Los costos de personal."
+  },
+  "personnel-3-k3": {
+   "q": "¿Cuáles son los tres criterios amplios para elegir contratista?",
+   "a": "Desempeño constante; respuesta rápida, eficiente y positiva; precio competitivo."
+  },
+  "personnel-3-k4": {
+   "q": "Según McCrie (2015), ¿qué documento sale antes del RFP?",
+   "a": "El resumen de la convocatoria (*solicitation summary*)."
+  },
+  "personnel-3-k5": {
+   "q": "¿Quién debe proveer y quién aprobar las órdenes generales y especiales?",
+   "a": "Proveerlas toca al cliente (a menudo las redacta la agencia); siempre las aprueba el cliente."
+  },
+  "personnel-3-k6": {
+   "q": "¿Qué regla salarial se da para organizaciones híbridas?",
+   "a": "El salario más bajo del contratado debe igualar al menos el salario de entrada de los propios."
+  },
+  "personnel-3-k7": {
+   "q": "¿Qué tres componentes debe separar la factura de la agencia?",
+   "a": "Salario por hora del oficial, overhead (gastos generales y administrativos) y utilidad."
+  },
+  "personnel-3-k8": {
+   "q": "¿Desde cuántas horas semanales de personal contratado conviene un supervisor propio?",
+   "a": "Más de 400 horas por semana."
+  },
+  "personnel-3-k9": {
+   "q": "¿Cómo se evitan problemas laborales al supervisar al personal contratado?",
+   "a": "Pasando las instrucciones por el supervisor u oficial líder de la agencia."
+  },
+  "personnel-3-k10": {
+   "q": "¿Cuántas medidas de idoneidad propone Perry (2000) y cuáles son?",
+   "a": "Siete: personal, capacitación, supervisión, salarios y prestaciones, seguros, costo del servicio y asuntos operativos."
+  },
+  "personnel-3-k11": {
+   "q": "¿Cómo se calcula el porcentaje de facturación del ejemplo?",
+   "a": "Tarifa facturada ÷ salario base del paso ($12.72 ÷ $7.35 = 173 %)."
+  },
+  "personnel-3-k12": {
+   "q": "En el método de prestaciones, ¿cuántos puntos hay y quién gana?",
+   "a": "25 posibles, se restan 5 por cada prestación dada; gana el puntaje bajo."
+  },
+  "personnel-3-k13": {
+   "q": "¿Quién ganó el ejemplo y por qué, si no era el más barato?",
+   "a": "El Licitante 5 (1,329 puntos); costaba $2,413 más, pero ya tenía cuentas en la zona."
+  },
+  "personnel-3-k14": {
+   "q": "Con un tope de rotación, ¿qué pasa si un mes se supera?",
+   "a": "Se descuenta un porcentaje de la factura mensual."
+  },
+  "personnel-4-k0": {
+   "q": "¿Cuál es el grupo más numeroso de consultores de seguridad?",
+   "a": "Los consultores de gestión de seguridad."
+  },
+  "personnel-4-k1": {
+   "q": "¿Qué consultor convierte conceptos en planos y especificaciones de equipo?",
+   "a": "El consultor técnico de seguridad."
+  },
+  "personnel-4-k2": {
+   "q": "¿Por qué conviene usar un consultor técnico en obra nueva?",
+   "a": "Integra la seguridad en el diseño y evita el costoso *retrofit*."
+  },
+  "personnel-4-k3": {
+   "q": "¿Con qué frecuencia mínima revisa el programa un comité asesor de seguridad?",
+   "a": "Al menos cada trimestre."
+  },
+  "personnel-4-k4": {
+   "q": "¿Cuáles son los cinco pasos del método de selección?",
+   "a": "Identificar, invitar a solicitar, evaluar, entrevistar a 2–3 y negociar/cerrar."
+  },
+  "personnel-4-k5": {
+   "q": "¿Cuántos representantes de la empresa deben entrevistar a cada finalista?",
+   "a": "Al menos dos."
+  },
+  "personnel-4-k6": {
+   "q": "¿Cómo se calcula la tarifa diaria?",
+   "a": "Tarifa por hora × 8."
+  },
+  "personnel-4-k7": {
+   "q": "Se estiman 5 días con tope de 7 y el trabajo dura 8. ¿Cuánto se paga?",
+   "a": "7 días (*not-to-exceed*)."
+  },
+  "personnel-4-k8": {
+   "q": "¿Qué diferencia el *not-to-exceed* del honorario fijo?",
+   "a": "Permite pagar menos de lo estimado."
+  },
+  "personnel-4-k9": {
+   "q": "¿Cuándo no conviene el honorario fijo?",
+   "a": "Al implantar un programa que depende de empleados del cliente."
+  },
+  "personnel-4-k10": {
+   "q": "¿Qué pasa con el *retainer* si el cliente no usa los días mínimos?",
+   "a": "El consultor conserva el pago."
+  },
+  "personnel-4-k11": {
+   "q": "¿Cómo se debe ampliar el alcance del trabajo?",
+   "a": "Solo con acuerdo escrito de ambas partes, como anexo al contrato."
+  },
+  "personnel-4-k12": {
+   "q": "¿Qué riesgo legal tienen los informes escritos del consultor?",
+   "a": "Están sujetos a *discovery* y pueden pedirse por citación."
+  },
+  "personnel-4-k13": {
+   "q": "¿Qué orden sigue un informe final?",
+   "a": "Resumen ejecutivo, resultados y recomendaciones."
+  },
+  "personnel-4-k14": {
+   "q": "¿Cuánto se cobra usualmente por buscar y precalificar a un ejecutivo de seguridad?",
+   "a": "25 % a 30 % del salario del primer año, más gastos."
+  },
+  "personnel-5-k0": {
+   "q": "¿Cuál es el objetivo principal de un agente de EP, a diferencia de un policía?",
+   "a": "Mantener al protegido fuera de peligro y evitar el riesgo con planificación, no enfrentar la amenaza."
+  },
+  "personnel-5-k1": {
+   "q": "¿Cuál es el primer paso para construir un programa de EP?",
+   "a": "Evaluar el riesgo para el individuo, su familia y la organización."
+  },
+  "personnel-5-k2": {
+   "q": "¿Cuáles son los cuatro beneficios colaterales de la EP que cita el libro?",
+   "a": "Conductores de seguridad, gestión del tiempo, logística de viaje y normalidad."
+  },
+  "personnel-5-k3": {
+   "q": "¿Qué tres requisitos destaca el libro para la EP corporativa bajo las normas del IRS?",
+   "a": "Programa genuino 24/7 con profesionales capacitados, riesgo verificable y auditoría anual que demuestre el riesgo."
+  },
+  "personnel-5-k4": {
+   "q": "¿Qué ley federal da al Servicio Secreto su autoridad de protección?",
+   "a": "18 U.S.C. Section 3056."
+  },
+  "personnel-5-k5": {
+   "q": "¿Qué unidad protege al primer ministro británico?",
+   "a": "SO1, de la Policía Metropolitana."
+  },
+  "personnel-5-k6": {
+   "q": "¿Cuáles son las dos acepciones de evaluación de amenazas en EP?",
+   "a": "Proximidad a elementos criminales y evaluación basada en la conducta de personas o grupos de interés."
+  },
+  "personnel-5-k7": {
+   "q": "¿Qué cuatro vectores revisa una evaluación de amenazas integral?",
+   "a": "Técnico, reputacional, físico y salud y bienestar."
+  },
+  "personnel-5-k8": {
+   "q": "¿Qué dos aspectos fijan el perfil de riesgo de un ejecutivo en EP?",
+   "a": "El atractivo del blanco y la probabilidad de que la amenaza tenga éxito."
+  },
+  "personnel-5-k9": {
+   "q": "¿Quién apoyó en 2020 la redacción y validación de las competencias esenciales de EP?",
+   "a": "El Centro de Políticas Públicas de la Universidad de Nebraska."
+  },
+  "personnel-5-k10": {
+   "q": "¿Cuántos agentes requiere como mínimo la formación en caja?",
+   "a": "Cuatro."
+  },
+  "personnel-5-k11": {
+   "q": "¿Qué es la vigilancia protectora?",
+   "a": "Protección encubierta, desde el perímetro exterior, que avisa de actividad anormal; capa adicional o sustituto de la protección cercana."
+  },
+  "personnel-5-k12": {
+   "q": "¿Por qué el conductor designado no debe actuar como agente dentro del evento?",
+   "a": "Debe quedarse al volante para salidas y evacuaciones rápidas."
+  },
+  "personnel-5-k13": {
+   "q": "Según el libro, ¿qué modelo ha seguido el Servicio Secreto en los intentos de asesinato presidencial?",
+   "a": "\"Cubrir y evacuar\", sin responder al fuego."
+  },
+  "personnel-5-k14": {
+   "q": "¿Qué ventaja tiene un vehículo blindado de fábrica?",
+   "a": "Se parece a los demás y no atrae atención hacia el protegido."
+  },
+  "personnel-6-k0": {
+   "q": "¿Cómo define el libro la concienciación en seguridad?",
+   "a": "Conciencia del programa, de su relevancia y del efecto de la propia conducta en reducir riesgos."
+  },
+  "personnel-6-k1": {
+   "q": "¿Qué diferencia educación, formación y concienciación?",
+   "a": "Conocimiento general, habilidades específicas y atención consciente, respectivamente."
+  },
+  "personnel-6-k2": {
+   "q": "Según ESRM, ¿quién decide los niveles de concienciación?",
+   "a": "Las partes interesadas, con guía de los profesionales de seguridad."
+  },
+  "personnel-6-k3": {
+   "q": "¿Qué significa concienciación para la alta dirección?",
+   "a": "Conocer la contribución financiera del programa al resultado."
+  },
+  "personnel-6-k4": {
+   "q": "¿Qué riesgo legal crea una queja de seguridad hecha a un supervisor de primera línea?",
+   "a": "La situación se vuelve previsible y la empresa queda avisada, aunque no se escale."
+  },
+  "personnel-6-k5": {
+   "q": "¿Cuál es el propósito principal del programa de concienciación?",
+   "a": "Enseñar a proteger los activos de la empresa y reducir pérdidas."
+  },
+  "personnel-6-k6": {
+   "q": "¿Qué propósito es especialmente importante para los mandos medios?",
+   "a": "Reconocer la conexión entre objetivos del programa y medidas elegidas."
+  },
+  "personnel-6-k7": {
+   "q": "¿Qué ley estadounidense de 1968 exige orientación de seguridad a empleados?",
+   "a": "La Bank Protection Act."
+  },
+  "personnel-6-k8": {
+   "q": "¿Qué documento fija las obligaciones de contratistas con información de defensa clasificada?",
+   "a": "El National Industrial Security Program Operating Manual."
+  },
+  "personnel-6-k9": {
+   "q": "¿Qué autor propone los seis obstáculos de la concienciación?",
+   "a": "Roper (2006)."
+  },
+  "personnel-6-k10": {
+   "q": "¿Qué efecto tiene la mera existencia de un sistema de reporte?",
+   "a": "Aumenta la conciencia y el número de reportes (Kellogg 2006)."
+  },
+  "personnel-6-k11": {
+   "q": "¿Qué diferencia una política de un procedimiento?",
+   "a": "La política fija la norma; el procedimiento explica cómo cumplirla."
+  },
+  "personnel-6-k12": {
+   "q": "¿Qué dos categorías de usuarios incumplen las políticas de TI?",
+   "a": "Usuarios sin formación y usuarios arrogantes (Mallery)."
+  },
+  "personnel-6-k13": {
+   "q": "¿Qué hacer con quien se niega a cumplir tras la concienciación?",
+   "a": "Disciplinarlo."
+  },
+  "personnel-6-k14": {
+   "q": "¿Qué tono ayuda a mitigar la fatiga de seguridad?",
+   "a": "Ligero, no punitivo y atractivo."
+  },
+  "personnel-7-k0": {
+   "q": "¿Qué hace el médico revisor (MRO) antes de informar un positivo?",
+   "a": "Verifica en entrevista confidencial si hay una justificación médica."
+  },
+  "personnel-7-k1": {
+   "q": "¿Qué es el *pinch*?",
+   "a": "La porción de droga que se queda el vendedor por \"adelantarla\" a crédito."
+  },
+  "personnel-7-k2": {
+   "q": "¿Cuál es la forma más común de escapar de la disciplina?",
+   "a": "Fingir una lesión laboral."
+  },
+  "personnel-7-k3": {
+   "q": "¿Qué lista agrupa drogas de alto potencial de abuso sin uso médico aceptado en EE. UU.?",
+   "a": "La Lista I (marihuana, heroína, metacualona, LSD)."
+  },
+  "personnel-7-k4": {
+   "q": "¿Cuáles son los cuatro síntomas del alcoholismo?",
+   "a": "Ansia, pérdida de control, dependencia física y tolerancia."
+  },
+  "personnel-7-k5": {
+   "q": "¿Qué distingue al alcohólico del bebedor social?",
+   "a": "La pérdida de control sobre cuándo, dónde y cuánto bebe."
+  },
+  "personnel-7-k6": {
+   "q": "¿Por qué los opiáceos son poco comunes en el trabajo?",
+   "a": "Son caros y sus efectos son evidentes."
+  },
+  "personnel-7-k7": {
+   "q": "¿Qué es la tolerancia inversa?",
+   "a": "Por la acumulación de THC, el usuario necesita cada vez menos droga."
+  },
+  "personnel-7-k8": {
+   "q": "¿Cuál es la segunda droga más abusada en el trabajo?",
+   "a": "La marihuana, después del alcohol."
+  },
+  "personnel-7-k9": {
+   "q": "¿Qué es la facilitación (*enabling*)?",
+   "a": "Permitir o alentar, consciente o no, la conducta destructiva de otro."
+  },
+  "personnel-7-k10": {
+   "q": "¿Por qué la política debe evitar el término *under the influence*?",
+   "a": "Solo el alcohol tiene una definición legal de ese estado."
+  },
+  "personnel-7-k11": {
+   "q": "¿La intervención es una medida disciplinaria?",
+   "a": "No; es una interrupción calculada y de cuidado."
+  },
+  "personnel-7-k12": {
+   "q": "¿Protege la ADA a los consumidores actuales?",
+   "a": "No; solo a los que están en recuperación."
+  },
+  "personnel-7-k13": {
+   "q": "Además del alcohol, ¿qué cinco sustancias permite probar la normativa federal de EE. UU.?",
+   "a": "Marihuana, cocaína, anfetaminas, opiáceos y PCP."
+  },
+  "personnel-7-k14": {
+   "q": "¿Qué pasa si no se divide la muestra donde la ley lo exige?",
+   "a": "Hay que reinstalar al empleado aunque dé positivo."
+  },
+  "personnel-8-k0": {
+   "q": "¿Qué hecho de 1986 impulsó el interés por la WPV en EE. UU.?",
+   "a": "El asesinato de 14 empleados del Servicio Postal por otro empleado, que luego se suicidó."
+  },
+  "personnel-8-k1": {
+   "q": "¿Qué exige la Cláusula de Deber General de 1970, Sección 5(a)?",
+   "a": "Un empleo y un lugar de trabajo libres de peligros reconocidos que causen o puedan causar muerte o daño grave."
+  },
+  "personnel-8-k2": {
+   "q": "¿Cuántos homicidios laborales hubo en EE. UU. en 2018 y qué grupo de autores fue el mayor?",
+   "a": "453; los ladrones (106)."
+  },
+  "personnel-8-k3": {
+   "q": "¿Cómo se llama el estándar de ASIS revisado en 2020?",
+   "a": "*Workplace Violence and Active Assailant—Prevention, Intervention, and Response*."
+  },
+  "personnel-8-k4": {
+   "q": "Un excónyuge que acosa a una empleada, ¿qué tipo de agresor es?",
+   "a": "Tipo 4."
+  },
+  "personnel-8-k5": {
+   "q": "Un cliente o paciente violento, ¿qué tipo de agresor es?",
+   "a": "Tipo 2."
+  },
+  "personnel-8-k6": {
+   "q": "¿Qué término debe evitar la política de WPV y por qué?",
+   "a": "«Tolerancia cero»: reduce los reportes y disminuye la seguridad."
+  },
+  "personnel-8-k7": {
+   "q": "¿Desde dónde debe emitirse la política de WPV?",
+   "a": "Directamente desde el despacho del director general (CEO)."
+  },
+  "personnel-8-k8": {
+   "q": "¿En qué orden evolucionan los equipos del WVPI?",
+   "a": "WG multidisciplinario → SWG más pequeño → TMT permanente (también TAT o IMT)."
+  },
+  "personnel-8-k9": {
+   "q": "¿Cuáles son los tres niveles de evaluación de un sujeto conocido?",
+   "a": "Inicial, umbral e integral."
+  },
+  "personnel-8-k10": {
+   "q": "¿Se puede hacer una evaluación válida del riesgo de violencia si el agresor es anónimo?",
+   "a": "No; solo un análisis conductual preliminar de baja validez."
+  },
+  "personnel-8-k11": {
+   "q": "¿Por qué una orden de alejamiento es solo una intervención de corto plazo?",
+   "a": "Si la actitud del agresor hacia el objetivo no cambia, acabará fallando."
+  },
+  "personnel-8-k12": {
+   "q": "¿Cuándo basta el monitoreo pasivo?",
+   "a": "En casos de bajo riesgo, donde una demora en reportar no crearía riesgo significativo."
+  },
+  "personnel-8-k13": {
+   "q": "¿Qué conceptos de CPTED guiarán las medidas físicas, según el capítulo?",
+   "a": "Vigilancia natural y control de acceso, refuerzo territorial, mantenimiento y endurecimiento del objetivo."
+  },
+  "personnel-8-k14": {
+   "q": "¿Cuál es la máxima prioridad en la recuperación tras el incidente?",
+   "a": "La seguridad de las personas (*life safety*)."
+  },
+  "personnel-A-k0": {
+   "q": "¿Qué es «Conducta indebida (*misconduct*)»?",
+   "a": "Desprecio intencional o temerario de los intereses del empleador o de compañeros, o negligencia grave o repetida (1A)."
+  },
+  "personnel-A-k1": {
+   "q": "¿Qué es «Conducta indebida grave (*gross misconduct*)»?",
+   "a": "Delito laboral con condena o confesión, o desprecio flagrante y temerario de los derechos del empleador o compañeros (1A)."
+  },
+  "personnel-A-k2": {
+   "q": "¿Qué es «Conducta indebida intencional (*willful misconduct*)»?",
+   "a": "Base del despido en 1A. Incluye violar cualquiera de las 37 reglas."
+  },
+  "personnel-A-k3": {
+   "q": "¿Qué es «Disciplina progresiva (*progressive discipline*)»?",
+   "a": "Sanciones crecientes según gravedad y atenuantes: de la asesoría verbal a la última advertencia (1B)."
+  },
+  "personnel-A-k4": {
+   "q": "¿Qué es «Preponderancia de la evidencia (*preponderance of evidence*)»?",
+   "a": "Nivel de prueba que debe alcanzar la investigación disciplinaria (1A)."
+  },
+  "personnel-A-k5": {
+   "q": "¿Qué es «Justicia fundamental (*fundamental fairness*)»?",
+   "a": "Principio que guía las 17 preguntas previas a sancionar (1A)."
+  },
+  "personnel-A-k6": {
+   "q": "¿Qué es «*No-call no-show*»?",
+   "a": "Faltar sin avisar. Causa de despido inmediato (1B)."
+  },
+  "personnel-A-k7": {
+   "q": "¿Qué es «Alcance del trabajo (*scope of work*)»?",
+   "a": "Tareas, días, horas y total de horas del servicio (3A)."
+  },
+  "personnel-A-k8": {
+   "q": "¿Qué es «ST / OT»?",
+   "a": "Horas normales (*straight time*) / horas extra (*overtime*)."
+  },
+  "personnel-A-k9": {
+   "q": "¿Qué es «Órdenes generales»?",
+   "a": "Normas de desempeño para todos los oficiales (3B)."
+  },
+  "personnel-A-k10": {
+   "q": "¿Qué es «Órdenes especiales»?",
+   "a": "Deberes de cada asignación concreta (3B)."
+  },
+  "personnel-A-k11": {
+   "q": "¿Qué es «Instrucciones especiales»?",
+   "a": "Memorandos para eventos especiales, como inspecciones o visitas (3B)."
+  },
+  "personnel-A-k12": {
+   "q": "¿Qué es «Pase de salida (*property pass*)»?",
+   "a": "Autorización firmada para sacar bienes de la empresa (3B)."
+  },
+  "personnel-A-k13": {
+   "q": "¿Qué es «Ajuste de compensación»?",
+   "a": "Reducción del cobro por incumplimiento; descuento provisional de 50 dólares por ocurrencia, por día y por incidente (3C)."
+  },
+  "personnel-A-k14": {
+   "q": "¿Qué es «*Short-Notice Supplemental Service*»?",
+   "a": "Tarifa especial de refuerzo cuando no hay 4 horas de aviso (3C)."
+  },
+  "personnel-A-k15": {
+   "q": "¿Qué es «Arrendamiento con opción de compra (*lease-purchase*)»?",
+   "a": "Forma de proveer el equipo de patrulla en 3C."
+  },
+  "personnel-A-k16": {
+   "q": "¿Qué es «Cambio de combinación (*rekeying*)»?",
+   "a": "Lo paga el Contratista si pierde o duplica las llaves maestras (3C)."
+  },
+  "personnel-A-k17": {
+   "q": "¿Qué es «Contratista independiente»?",
+   "a": "Condición del consultor en 4C: no es empleado."
+  },
+  "personnel-A-k18": {
+   "q": "¿Qué es «*Subject Inventions*»?",
+   "a": "Inventos del consultor ligados al trabajo, que pasan a ser de la empresa (4C)."
+  },
+  "personnel-A-k19": {
+   "q": "¿Qué es «Habilitación de instalación (*facility clearance*)»?",
+   "a": "Requisito para guardar material clasificado fuera de la empresa (4C)."
+  },
+  "personnel-A-k20": {
+   "q": "¿Qué es «Conflicto de interés organizacional»?",
+   "a": "Se revela de inmediato y por escrito al oficial de contratación (4C)."
+  },
+  "personnel-A-k21": {
+   "q": "¿Qué es «KSAs»?",
+   "a": "Conocimientos, habilidades y aptitudes (*knowledge, skills, and abilities*) del currículum (4B)."
+  },
+  "personnel-A-k22": {
+   "q": "¿Qué es «Grupo de indicadores (*cluster*)»?",
+   "a": "Varios síntomas o conductas juntos; solo así orientan (7A)"
+  },
+  "personnel-A-k23": {
+   "q": "¿Qué es «Intervención (*intervention*)»?",
+   "a": "Actuación del supervisor para corregir, no castigar (7B)"
+  },
+  "personnel-A-k24": {
+   "q": "¿Qué es «Adaptación razonable (*reasonable accommodation*)»?",
+   "a": "Quinto paso de la intervención (7B)"
+  },
+  "personnel-A-k25": {
+   "q": "¿Qué es «Lugar de trabajo libre de drogas (*drug-free workplace*)»?",
+   "a": "Declaración de alcance de la política (7C)"
+  },
+  "personnel-A-k26": {
+   "q": "¿Qué es «Deterioro (*impairment*)»?",
+   "a": "Efecto físico o mental detectable de drogas o alcohol; a veces basta el simple consumo (7C)"
+  },
+  "personnel-A-k27": {
+   "q": "¿Qué es «Sospecha razonable (*reasonable suspicion*)»?",
+   "a": "De un supervisor o superior, respaldada por el gerente de mayor rango disponible (7C)"
+  },
+  "personnel-A-k28": {
+   "q": "¿Qué es «Prueba previa al empleo (*preemployment testing*)»?",
+   "a": "Para aspirantes; quien no la pasa, al menos un año inelegible (7C)"
+  },
+  "personnel-A-k29": {
+   "q": "¿Qué es «Prueba universal (*universal testing*)»?",
+   "a": "Selección aleatoria por el proveedor, sin aviso, en áreas designadas (7C)"
+  },
+  "personnel-A-k30": {
+   "q": "¿Qué es «Prueba de confirmación (*confirmation*)»?",
+   "a": "Segunda prueba tras un positivo inicial (7C)"
+  },
+  "personnel-A-k31": {
+   "q": "¿Qué es «Positivo verificado no impugnado (*uncontested positive verification*)»?",
+   "a": "Efecto de no responder a tiempo al aviso de positivo (7C)"
+  },
+  "personnel-A-k32": {
+   "q": "¿Qué es «Droga ilegal (*illegal drug*)»?",
+   "a": "No obtenible legalmente, u obtenida o usada de forma ilegal; incluye recetas compartidas (7C)"
+  },
+  "personnel-A-k33": {
+   "q": "¿Qué es «Droga legal (*legal drug*)»?",
+   "a": "Recetada o de venta libre, obtenida legalmente y usada para su fin (7C)"
+  },
+  "personnel-A-k34": {
+   "q": "¿Qué es «Parafernalia de drogas (*drug paraphernalia*)»?",
+   "a": "Objetos para preparar, guardar o administrar drogas ilegales (7C)"
+  },
+  "personnel-A-k35": {
+   "q": "¿Qué es «Lesión grave (*serious injury*)»?",
+   "a": "Lesión laboral que para el trabajo y requiere atención médica (7C)"
+  },
+  "personnel-A-k36": {
+   "q": "¿Qué es «Dependencia química (*chemical dependency*)»?",
+   "a": "Se evalúa como alternativa a la sanción; tratamiento ofrecido una vez (7C)"
+  },
+  "personnel-A-k37": {
+   "q": "¿Qué es «Representante designado de la dirección (DMR) (*designated management representative*)»?",
+   "a": "Recibe reportes y copias de órdenes de protección (8A)"
+  },
+  "personnel-A-k38": {
+   "q": "¿Qué es «Orden de protección o de alejamiento (*protective / restraining order*)»?",
+   "a": "Si cubre sedes de la empresa, se entregan copias al DMR (8A)"
+  },
+  "personnel-A-k39": {
+   "q": "¿Qué es «Reporte de buena fe (*good faith report*)»?",
+   "a": "Protegido contra represalias (8A)"
+  },
+  "personnel-A-k40": {
+   "q": "¿Qué es «Grupo de trabajo de partes interesadas (SWG) (*stakeholders working group*)»?",
+   "a": "Aplica las mitigaciones; base del futuro TMT (8B)"
+  },
+  "personnel-A-k41": {
+   "q": "¿Qué es «Equipo de gestión de amenazas (TMT) (*threat management team*)»?",
+   "a": "También TAT o IMT; seguridad se comunica con él (8B)"
+  },
+  "personnel-A-k42": {
+   "q": "¿Qué es «Difusión de beneficios (*diffusion of benefits*)»?",
+   "a": "Una medida contra una amenaza protege también frente a otras (8B)"
+  },
+  "personnel-A-k43": {
+   "q": "¿Qué es «Estudio de seguridad (*security survey*)»?",
+   "a": "Revisión integral de la propiedad y el edificio (8B)"
+  },
+  "personnel-A-k44": {
+   "q": "¿Qué es «Alarma de coacción o pánico (*duress/panic alarm*)»?",
+   "a": "Elemento de protección de la recepción (8B)"
+  },
+  "personnel-A-k45": {
+   "q": "¿Qué es «Norma (*standard*)»?",
+   "a": "Criterios, directrices y mejores prácticas para calidad y fiabilidad (Standards)"
+  },
+  "personnel-A-k46": {
+   "q": "¿Qué es «Organización de desarrollo de normas (SDO) (*standards developing organization*)»?",
+   "a": "Coordina normas con actores públicos y privados (Standards)"
+  },
+  "personnel-A-k47": {
+   "q": "¿Qué es «Norma voluntaria / reglamentaria / mixta (*voluntary / statutory or regulatory / mixed*)»?",
+   "a": "Los tres tipos de obligatoriedad (Standards)"
+  },
+  "personnel-A-k48": {
+   "q": "¿Qué es «Norma de sistema de gestión (*management system standard*)»?",
+   "a": "Marco de mejora continua; ejemplos ISO 9001 e ISO 14001 (Standards)"
+  },
+  "personnel-A-k49": {
+   "q": "¿Qué es «Ciclo PDCA (*Plan-Do-Check-Act*)»?",
+   "a": "Principio operativo de los sistemas de gestión (Standards)"
+  }
+ },
+ "ideas": {
+  "personnel-1": "El oficial de seguridad (*security officer*) es la parte más visible y la de mayor costo de la seguridad privada. Solo rinde como parte de un plan integral de protección. Para ello necesita buena selección, formación, supervisión, órdenes escritas, programación de turnos, reportes y un entorno que sostenga su vigilancia.",
+  "personnel-2": "La formación (*training*) es la base del desempeño profesional del oficial y debe ser continua, desde antes de asignarlo al puesto y durante toda su carrera. El capítulo cubre conceptos de aprendizaje, beneficios, detección de necesidades, diseño, métodos, evaluación, obstáculos, estrategias de bajo costo, roles del oficial y tendencias futuras.",
+  "personnel-3": "Para contratar guardias externos, el cliente define por escrito lo que necesita (solicitud de propuestas, alcance, órdenes) y la agencia responde con un acuerdo operativo detallado. Las ofertas se comparan con un método estandarizado de puntos. Después, el contrato se negocia, se adjudica y se administra con controles continuos.",
+  "personnel-4": "Los consultores de seguridad aportan pericia externa, objetividad e ideas nuevas cuando la empresa no tiene tiempo ni conocimiento interno. El capítulo cubre sus tipos, cómo encontrarlos, seleccionarlos y pagarles, y cómo gestionar el proyecto hasta el informe final.",
+  "personnel-5": "La protección ejecutiva busca mantener al protegido fuera de peligro, sobre todo con planificación anticipada, no enfrentando al agresor. Un buen programa parte de una evaluación de riesgo recurrente y se gestiona como un negocio (métricas, indicadores, proveedores). Combina habilidades duras con habilidades blandas, y cubre residencia, protección cercana, transporte y equipos especiales.",
+  "personnel-6": "La concienciación en seguridad (*security awareness*) busca atención consciente al programa de seguridad, no enseñar destrezas. Cada grupo (alta dirección, mandos medios, supervisores, empleados y no empleados) necesita un enfoque distinto. El capítulo cubre sus propósitos, cómo diseñarla e impartirla, sus obstáculos, cómo medirla y cómo implicar a los empleados para prevenir pérdidas.",
+  "personnel-7": "El abuso de sustancias, alcohol incluido, daña la productividad, la seguridad y la imagen de la empresa. El capítulo explica por qué ocurre en el trabajo, cómo progresa y qué drogas se usan. También cómo deben actuar los jefes y seguridad: política, investigación, intervención, programas de asistencia y pruebas de drogas.",
+  "personnel-8": "La violencia en el lugar de trabajo (*workplace violence*, WPV) puede venir de dentro o de fuera, y el empleador está obligado a proteger frente a ella. El capítulo explica cómo montar un programa de prevención e intervención basado en una evaluación de riesgos, un equipo de manejo de amenazas y protocolos de notificación, evaluación, intervención y monitoreo. También cubre la respuesta al incidente y la recuperación posterior."
+ },
+ "quiz": {}
+}

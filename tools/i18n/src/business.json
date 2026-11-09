@@ -1,0 +1,1965 @@
+{
+ "cards": {
+  "business-1-k0": {
+   "q": "¿Qué porcentaje de no supervisores supervisan los gerentes de primera línea?",
+   "a": "Cerca del 93 %."
+  },
+  "business-1-k1": {
+   "q": "Según Gallup, ¿qué pesa más en productividad y lealtad?",
+   "a": "La relación empleado–gerente."
+  },
+  "business-1-k2": {
+   "q": "Elegir gerentes por talento, ¿cuánto sube la rentabilidad?",
+   "a": "Un 48 %."
+  },
+  "business-1-k3": {
+   "q": "¿Eficiencia o eficacia: cuál puede no ser barata?",
+   "a": "La eficacia."
+  },
+  "business-1-k4": {
+   "q": "¿Quién creó la administración científica y cuándo?",
+   "a": "Frederick Taylor, 1911."
+  },
+  "business-1-k5": {
+   "q": "¿Qué habilidad se exige más a la alta dirección?",
+   "a": "La conceptual."
+  },
+  "business-1-k6": {
+   "q": "¿Tres características de toda organización?",
+   "a": "Propósito distinto, personas y estructura deliberada."
+  },
+  "business-1-k7": {
+   "q": "¿Cinco cubetas de riesgo del siglo XX?",
+   "a": "Estratégico, financiero, operativo, de cumplimiento y reputacional."
+  },
+  "business-1-k8": {
+   "q": "¿Postura del gerente frente a la del líder?",
+   "a": "Reactiva frente a proactiva."
+  },
+  "business-1-k9": {
+   "q": "¿Crítica principal a la teoría de rasgos?",
+   "a": "No hay lista universal; ignora la situación."
+  },
+  "business-1-k10": {
+   "q": "¿Estilo adecuado en un desastre mayor?",
+   "a": "Autoritario."
+  },
+  "business-1-k11": {
+   "q": "¿Defecto fatal más frecuente?",
+   "a": "No aprender de los errores."
+  },
+  "business-1-k12": {
+   "q": "¿Qué forma el Triple Bottom Line?",
+   "a": "Personas, planeta y beneficio."
+  },
+  "business-1-k13": {
+   "q": "¿Qué base de poder se cree, por error, que lo explica todo?",
+   "a": "La coercitiva."
+  },
+  "business-1-k14": {
+   "q": "¿Base del liderazgo ético según el libro?",
+   "a": "La honestidad."
+  },
+  "business-2-k0": {
+   "q": "¿Pensamiento crítico o creativo: cuál es convergente?",
+   "a": "El crítico."
+  },
+  "business-2-k1": {
+   "q": "¿Qué sesgo hace que un investigador busque solo pruebas de culpa?",
+   "a": "El de confirmación."
+  },
+  "business-2-k2": {
+   "q": "¿Qué encuadre llevó a aceptar la cirugía?",
+   "a": "“80 % de supervivencia”."
+  },
+  "business-2-k3": {
+   "q": "¿Cómo se llama insistir en un plan que empeora?",
+   "a": "Escalada de compromiso."
+  },
+  "business-2-k4": {
+   "q": "¿Qué decisión resuelve un problema bien estructurado?",
+   "a": "Una programada."
+  },
+  "business-2-k5": {
+   "q": "¿Ejemplo de problema mal estructurado?",
+   "a": "Qué candidato contratar."
+  },
+  "business-2-k6": {
+   "q": "¿Qué estilo tiene alta tolerancia a la ambigüedad?",
+   "a": "El conceptual."
+  },
+  "business-2-k7": {
+   "q": "¿En qué condición no hay estimaciones de probabilidad?",
+   "a": "Incertidumbre."
+  },
+  "business-2-k8": {
+   "q": "¿Qué es satisficing?",
+   "a": "Aceptar lo “suficientemente bueno”."
+  },
+  "business-2-k9": {
+   "q": "¿Paso más importante de los ocho?",
+   "a": "Identificar el problema."
+  },
+  "business-2-k10": {
+   "q": "¿Qué paso gana el compromiso para ejecutar?",
+   "a": "El 7: comunicar e implantar."
+  },
+  "business-2-k11": {
+   "q": "¿Diferencia entre Groupthink y Abilene?",
+   "a": "En Abilene se actúa contra las propias preferencias."
+  },
+  "business-2-k12": {
+   "q": "¿Ejemplo de paradoja de Abilene en el libro?",
+   "a": "Deepwater Horizon."
+  },
+  "business-2-k13": {
+   "q": "Quien está 100 % seguro, ¿cuánto acierta?",
+   "a": "Alrededor del 80 %."
+  },
+  "business-3-k0": {
+   "q": "¿Qué diferencia hay entre estrategia y táctica?",
+   "a": "La estrategia es el plan hacia la meta; la táctica, las acciones adaptativas durante el esfuerzo."
+  },
+  "business-3-k1": {
+   "q": "Ante una petición de estrategia contra violencia laboral, seguridad propone un nuevo control de acceso. ¿Qué falla?",
+   "a": "Es una táctica, no un plan coordinado."
+  },
+  "business-3-k2": {
+   "q": "¿Cuándo es estratégico el presupuesto?",
+   "a": "Cuando asigna recursos según objetivos y metas ya fijados."
+  },
+  "business-3-k3": {
+   "q": "¿Cuáles son los cinco pasos del proceso de gestión estratégica?",
+   "a": "Visión-misión-valores; objetivos; formular; ejecutar; monitorear y ajustar."
+  },
+  "business-3-k4": {
+   "q": "¿Qué responde la misión?",
+   "a": "Quiénes somos, qué hacemos y por qué estamos aquí."
+  },
+  "business-3-k5": {
+   "q": "¿Es “maximizar utilidades” una misión válida?",
+   "a": "No; la utilidad es un objetivo."
+  },
+  "business-3-k6": {
+   "q": "¿Diferencia entre objetivo y meta?",
+   "a": "El objetivo mide el avance; la meta es el resultado deseado."
+  },
+  "business-3-k7": {
+   "q": "¿Por qué pesan más los objetivos estratégicos que los financieros?",
+   "a": "Los financieros son indicadores rezagados."
+  },
+  "business-3-k8": {
+   "q": "Cite tres limitaciones del SWOT.",
+   "a": "Subjetividad, omisiones y perspectiva de un solo momento."
+  },
+  "business-3-k9": {
+   "q": "¿Qué dos estrategias de negocio distingue el libro?",
+   "a": "Liderazgo en costos y diferenciación."
+  },
+  "business-3-k10": {
+   "q": "¿Puede seguridad crear ventaja competitiva?",
+   "a": "No; solo el negocio entero. Seguridad aporta ventaja comparativa."
+  },
+  "business-3-k11": {
+   "q": "¿Qué es la estrategia realizada?",
+   "a": "La que la empresa sigue realmente, tras adaptar la intencionada."
+  },
+  "business-3-k12": {
+   "q": "¿Cuáles son las tres pruebas de una estrategia ganadora?",
+   "a": "Ajuste, competitividad y desempeño (Walker 2011)."
+  },
+  "business-3-k13": {
+   "q": "¿Qué significa VRIN?",
+   "a": "Valioso, raro, inimitable y no sustituible (Barney y Hesterly 2015)."
+  },
+  "business-4-k0": {
+   "q": "¿Seis sectores del macroentorno?",
+   "a": "Económico, demográfico, sociocultural, político-legal, tecnológico e internacional-global (Walker 2011)."
+  },
+  "business-4-k1": {
+   "q": "¿Muchas empresas, productos no homogéneos y entrada barata?",
+   "a": "Competencia monopolística."
+  },
+  "business-4-k2": {
+   "q": "¿Qué define un oligopolio?",
+   "a": "Pocas empresas, productos homogéneos y altos costos de entrada y salida."
+  },
+  "business-4-k3": {
+   "q": "¿Cuándo hay recesión?",
+   "a": "PIB negativo dos o más trimestres consecutivos."
+  },
+  "business-4-k4": {
+   "q": "¿PIB frente a PNB?",
+   "a": "El PNB suma la actividad neta de los nacionales en el exterior."
+  },
+  "business-4-k5": {
+   "q": "¿Etapas del ciclo económico?",
+   "a": "Expansión, pico, contracción y valle."
+  },
+  "business-4-k6": {
+   "q": "¿Fuerza más fuerte según el libro?",
+   "a": "La rivalidad."
+  },
+  "business-4-k7": {
+   "q": "Cite cuatro barreras de entrada.",
+   "a": "Economías de escala, lealtad de marca, patentes, efectos de red."
+  },
+  "business-4-k8": {
+   "q": "¿Qué pone techo a los precios?",
+   "a": "Sustitutos disponibles y baratos."
+  },
+  "business-4-k9": {
+   "q": "¿Qué son las slotting fees?",
+   "a": "Pagos de fabricantes a supermercados por espacio en anaquel."
+  },
+  "business-4-k10": {
+   "q": "¿Cuántas fuerzas fuertes vuelven poco atractiva una industria?",
+   "a": "Tres o más."
+  },
+  "business-4-k11": {
+   "q": "¿Último paso del mapa de grupos?",
+   "a": "Círculos proporcionales a la cuota de ventas."
+  },
+  "business-4-k12": {
+   "q": "¿Dimensiones del análisis de competidores?",
+   "a": "Estrategia actual, objetivos, recursos y capacidades, supuestos."
+  },
+  "business-4-k13": {
+   "q": "¿Cuántos KSF suele tener una industria?",
+   "a": "De tres a cinco."
+  },
+  "business-5-k0": {
+   "q": "¿Qué cuatro pruebas forman VRIN?",
+   "a": "Valioso, raro, inimitable y no sustituible; hacen falta las cuatro."
+  },
+  "business-5-k1": {
+   "q": "¿Por qué el iPhone no supera VRIN?",
+   "a": "Porque es sustituible por smartphones más baratos."
+  },
+  "business-5-k2": {
+   "q": "¿Recurso o capacidad?",
+   "a": "Recurso es un activo poseído; capacidad es la aptitud aprendida para hacer bien una actividad."
+  },
+  "business-5-k3": {
+   "q": "¿Qué es el conocimiento tácito?",
+   "a": "Habilidades no codificadas que se transmiten con práctica."
+  },
+  "business-5-k4": {
+   "q": "¿Qué distingue a una competencia central?",
+   "a": "Es central para la estrategia y el éxito competitivo."
+  },
+  "business-5-k5": {
+   "q": "¿Qué es una capacidad dinámica?",
+   "a": "La aptitud de modificar, profundizar o ampliar recursos y capacidades."
+  },
+  "business-5-k6": {
+   "q": "¿Qué tipo de actividad es seguridad?",
+   "a": "De apoyo; debe demostrar valor para una actividad primaria."
+  },
+  "business-5-k7": {
+   "q": "En la Figura 5.3, ¿costo total y precio final?",
+   "a": "$7.34 y $9.99, con $2.65 de margen."
+  },
+  "business-5-k8": {
+   "q": "¿Qué usan los tribunales en casos de seguridad negligente?",
+   "a": "Las prácticas «razonables y ordinarias» del sector."
+  },
+  "business-5-k9": {
+   "q": "¿Qué parte de las ventas de McDonald's sale del autoservicio?",
+   "a": "Casi el 70 %."
+  },
+  "business-5-k10": {
+   "q": "¿Tercer paso de la evaluación de fortaleza?",
+   "a": "Calificar a cada competidor y multiplicar por el peso."
+  },
+  "business-5-k11": {
+   "q": "¿Qué es la paridad competitiva?",
+   "a": "Igualar a un competidor o a la media del sector."
+  },
+  "business-6-k0": {
+   "q": "¿Qué dos factores distinguen las estrategias competitivas?",
+   "a": "Mercado amplio o estrecho, y ventaja por costo o por diferenciación."
+  },
+  "business-6-k1": {
+   "q": "¿Qué estrategia es híbrida y la más difícil de ejecutar?",
+   "a": "La de mejor costo (best-cost provider)."
+  },
+  "business-6-k2": {
+   "q": "¿Cuánto bajó la mano de obra por avión al duplicar la producción?",
+   "a": "20 % (Boston Consulting Group 1970)."
+  },
+  "business-6-k3": {
+   "q": "¿Cómo se diferencia la curva de aprendizaje de las economías de escala?",
+   "a": "Relaciona volumen acumulado y costo unitario; los costos bajan hasta el mínimo técnico."
+  },
+  "business-6-k4": {
+   "q": "¿Qué es un costo variable?",
+   "a": "El que cambia en proporción a la producción, como materias primas y empaque."
+  },
+  "business-6-k5": {
+   "q": "¿Qué parte del precio final suele deberse al distribuidor?",
+   "a": "Del 30 al 50 %."
+  },
+  "business-6-k6": {
+   "q": "Con 1,000 unidades a $10 y costo de $9, si el precio baja a $9.50, ¿cuántas unidades igualan la utilidad?",
+   "a": "2,000, un 100 % más."
+  },
+  "business-6-k7": {
+   "q": "¿Cuáles son las tres trampas básicas del bajo costo?",
+   "a": "Recortes agresivos, métodos copiables y obsesión por costos."
+  },
+  "business-6-k8": {
+   "q": "¿Cuál es la ruta de diferenciación menos obvia?",
+   "a": "Bajar el costo total de uso para el comprador."
+  },
+  "business-6-k9": {
+   "q": "¿Cuál es la trampa más mortal de la diferenciación?",
+   "a": "Una prima de precio excesiva."
+  },
+  "business-6-k10": {
+   "q": "¿Qué es sobrediferenciar?",
+   "a": "Dar más de lo que el comprador necesita, subiendo el precio."
+  },
+  "business-6-k11": {
+   "q": "¿Qué pregunta debe responder seguridad al pedir recursos?",
+   "a": "Considerando los costos, cómo ayuda a lograr las metas."
+  },
+  "business-7-k0": {
+   "q": "¿Cuáles son las tres pruebas de ventaja corporativa?",
+   "a": "Atractivo, coste de entrada y estar mejor; hay que pasar las tres."
+  },
+  "business-7-k1": {
+   "q": "¿Qué porcentaje de M&A fracasa (Martin, 2016)?",
+   "a": "Entre 70% y 90%."
+  },
+  "business-7-k2": {
+   "q": "¿Qué prima media se pagó la última década?",
+   "a": "Alrededor del 25% sobre la valoración."
+  },
+  "business-7-k3": {
+   "q": "¿Qué modo de entrada es el menos duradero?",
+   "a": "La JV."
+  },
+  "business-7-k4": {
+   "q": "¿Qué cuatro preguntas guían el modo de entrada?",
+   "a": "Recursos, barreras, velocidad y coste."
+  },
+  "business-7-k5": {
+   "q": "Si la velocidad es crítica, ¿qué modo conviene?",
+   "a": "La adquisición."
+  },
+  "business-7-k6": {
+   "q": "¿Qué diferencia economías de alcance y de escala?",
+   "a": "Alcance: varios negocios. Escala: mayor tamaño."
+  },
+  "business-7-k7": {
+   "q": "¿Qué tipo de recurso es la seguridad?",
+   "a": "General; no basta para justificar una diversificación relacionada."
+  },
+  "business-7-k8": {
+   "q": "Cuota de 40% frente a 30% del rival: ¿cuota relativa?",
+   "a": "1.33; la del rival, 0.75."
+  },
+  "business-7-k9": {
+   "q": "¿Qué secuencia ideal siguen los negocios de cartera?",
+   "a": "Cash hog, star, cash cow."
+  },
+  "business-7-k10": {
+   "q": "¿Cuáles son las cuatro razones equivocadas para la no relacionada?",
+   "a": "Riesgo, crecimiento, estabilidad y motivos gerenciales."
+  },
+  "business-7-k11": {
+   "q": "¿Qué pregunta orienta la desinversión?",
+   "a": "Si no estuviéramos hoy aquí, ¿entraríamos?"
+  },
+  "business-8-k0": {
+   "q": "¿Qué actitud usa el mejor enfoque y personal de todo el mundo?",
+   "a": "Geocéntrica."
+  },
+  "business-8-k1": {
+   "q": "¿Cuáles son los cuatro factores del diamante de la ventaja competitiva nacional?",
+   "a": "Demanda; factores; industrias relacionadas y de apoyo; estrategia, estructura y rivalidad."
+  },
+  "business-8-k2": {
+   "q": "Un producto cuesta 4 reales y el cambio pasa de 4 a 5 reales por euro. ¿Cuánto cuesta en euros?",
+   "a": "0.80 euros; favorable al exportador brasileño."
+  },
+  "business-8-k3": {
+   "q": "¿Un dólar débil es favorable para plantas en EE. UU.?",
+   "a": "Sí: más competitividad, exportaciones y utilidades."
+  },
+  "business-8-k4": {
+   "q": "¿Qué opción de entrada es la más conservadora y pide menos capital?",
+   "a": "La exportación."
+  },
+  "business-8-k5": {
+   "q": "¿Cuál es la gran desventaja de la licencia?",
+   "a": "Ceder know-how valioso y perder control de su uso."
+  },
+  "business-8-k6": {
+   "q": "¿Para qué recurre un franquiciador a seguridad?",
+   "a": "Evaluar franquiciados, ubicaciones y proveedores; calidad; fraude."
+  },
+  "business-8-k7": {
+   "q": "¿Cuál es la vía de entrada más lenta?",
+   "a": "La filial nueva (greenfield venture)."
+  },
+  "business-8-k8": {
+   "q": "¿Qué estrategia es “pensar global, actuar local”?",
+   "a": "Transnacional."
+  },
+  "business-8-k9": {
+   "q": "¿Cuándo conviene la estrategia multidoméstica?",
+   "a": "Con alta necesidad de respuesta local y poco ahorro por estandarizar."
+  },
+  "business-8-k10": {
+   "q": "¿Qué es un santuario de beneficios?",
+   "a": "Mercado de gran beneficio por posición fuerte o protegida."
+  },
+  "business-8-k11": {
+   "q": "¿Cómo se llama financiar una ofensiva con utilidades de otro mercado?",
+   "a": "Subsidio cruzado entre mercados (cross-market subsidization)."
+  },
+  "business-8-k12": {
+   "q": "¿Qué porcentaje de las reservas de petróleo y gas está en manos estatales?",
+   "a": "65 %; solo el 7 % está libre para privados."
+  },
+  "business-8-k13": {
+   "q": "¿Cuánto pueden variar los tipos de cambio al año?",
+   "a": "Entre 20 y 40 %."
+  },
+  "business-8-k14": {
+   "q": "¿Qué empresa local se defendió con una adquisición?",
+   "a": "Lenovo, al comprar el negocio de PC de IBM."
+  },
+  "business-9-k0": {
+   "q": "¿Por qué fallan con más frecuencia las estrategias?",
+   "a": "Por mala ejecución, no por mala formulación."
+  },
+  "business-9-k1": {
+   "q": "¿Cuáles son las dos mejores señales de buena ejecución?",
+   "a": "Cumplir o superar metas y realizar la cadena de valor con excelencia operativa."
+  },
+  "business-9-k2": {
+   "q": "¿Qué reveló el estudio de 400 CEO (Sull, Homkes y Sull, 2015)?",
+   "a": "Que la excelencia en ejecución era su principal reto."
+  },
+  "business-9-k3": {
+   "q": "¿Cuáles son las tres primeras tareas de ejecución?",
+   "a": "Dotar de personal, desarrollar recursos y capacidades, y crear una estructura de apoyo."
+  },
+  "business-9-k4": {
+   "q": "¿Cuándo es habitual traer directivos de fuera?",
+   "a": "En rescates, crecimiento rápido o falta de know-how interno."
+  },
+  "business-9-k5": {
+   "q": "¿Qué es un stretch objective?",
+   "a": "Una meta exigente que pide esfuerzo extra pero es alcanzable; si no, desmotiva."
+  },
+  "business-9-k6": {
+   "q": "¿Cuáles son los tres enfoques para crear capacidades?",
+   "a": "Desarrollo interno, fusiones y adquisiciones, y asociaciones colaborativas."
+  },
+  "business-9-k7": {
+   "q": "¿Cuál es la ventaja principal de adquirir capacidades?",
+   "a": "La rapidez."
+  },
+  "business-9-k8": {
+   "q": "¿Qué lección deja el caso Starbucks y Kraft?",
+   "a": "Aprender del socio y romper costó 2.75 mil millones, pero Starbucks ganó libertad y más del 20% del mercado de cápsulas."
+  },
+  "business-9-k9": {
+   "q": "¿Cuánto gastan las universidades corporativas?",
+   "a": "Más de 4 mil empresas gastan más de 370 mil millones de dólares al año."
+  },
+  "business-9-k10": {
+   "q": "¿Por qué la capacidad de ejecución da ventaja competitiva?",
+   "a": "Es socialmente compleja, lenta de crear y difícil de imitar."
+  },
+  "business-9-k11": {
+   "q": "¿Cuáles son los cuatro tipos de estructura según Mintzberg (1979)?",
+   "a": "Simple (la más común), funcional, multidivisional y matricial."
+  },
+  "business-9-k12": {
+   "q": "¿Qué problema crea la matriz a un gerente de seguridad de campo?",
+   "a": "Doble reporte, a la división y al CSO, con conflictos y lealtad dividida."
+  },
+  "business-10-k0": {
+   "q": "¿Qué dos errores de asignación de recursos señala el capítulo?",
+   "a": "Infrafinanciar y sobrefinanciar unidades."
+  },
+  "business-10-k1": {
+   "q": "¿Cuáles son las tres formas en que las políticas facilitan la ejecución?",
+   "a": "Guía descendente, consistencia y clima de trabajo favorable."
+  },
+  "business-10-k2": {
+   "q": "¿Qué es el \"Goldilocks Moment\"?",
+   "a": "Suficientes políticas para dar dirección y límites, con libertad dentro de ellos."
+  },
+  "business-10-k3": {
+   "q": "¿Qué papel tiene seguridad en las políticas?",
+   "a": "Revisarlas, redactarlas, establecerlas, ejecutarlas y hacerlas cumplir."
+  },
+  "business-10-k4": {
+   "q": "¿Por qué adaptar y no adoptar mejores prácticas?",
+   "a": "Cada empresa es única; adaptar da credibilidad ante la dirección."
+  },
+  "business-10-k5": {
+   "q": "Define reingeniería de procesos de negocio.",
+   "a": "Rediseño radical de una actividad para mejoras de gran salto (Hammer y Champy 1993)."
+  },
+  "business-10-k6": {
+   "q": "¿En qué se diferencian reingeniería y TQM o Six Sigma?",
+   "a": "La primera la aplica un directivo solo; las otras exigen filosofía de empresa y son incrementales."
+  },
+  "business-10-k7": {
+   "q": "¿Qué cinco áreas cubren los sistemas de información?",
+   "a": "Clientes, operaciones, empleados, proveedores o socios y finanzas."
+  },
+  "business-10-k8": {
+   "q": "¿Qué porcentaje mínimo del salario base debe tener un bono?",
+   "a": "10–15%; 20% o más atrae mucha atención; menos de 5% motiva poco."
+  },
+  "business-10-k9": {
+   "q": "¿Por qué no premiar el esfuerzo?",
+   "a": "Se premian resultados valiosos; culpar al entorno es admitir mala planificación."
+  },
+  "business-10-k10": {
+   "q": "¿A qué podría ligarse el incentivo de un director de seguridad minorista?",
+   "a": "A reducir la merma por robo."
+  },
+  "business-10-k11": {
+   "q": "¿Qué es la clasificación forzada?",
+   "a": "Ordenar a los empleados del mejor al peor y pedir salir a los últimos."
+  },
+  "business-10-k12": {
+   "q": "¿Cuáles son las seis mentalidades de Conn y McLean (2020)?",
+   "a": "Curiosidad, imperfeccionismo, ojo de libélula, conducta ocurrente, inteligencia colectiva y mostrar y contar."
+  },
+  "business-11-k0": {
+   "q": "¿Cómo define el libro la cultura corporativa?",
+   "a": "Valores, actitudes, creencias y tradiciones que fijan normas de conducta, prácticas aceptadas y estilo de operar."
+  },
+  "business-11-k1": {
+   "q": "¿Qué tareas de las 10 trata este capítulo?",
+   "a": "La 9 (cultura favorable) y la 10 (liderazgo fuerte)."
+  },
+  "business-11-k2": {
+   "q": "¿Qué aprende seguridad de la cultura de Apple?",
+   "a": "Códigos distintos por parte de proyecto compartimentan fugas y ayudan a hallar responsables."
+  },
+  "business-11-k3": {
+   "q": "¿Cuáles son los dos papeles de valores y ética?",
+   "a": "Crear convicciones compartidas y guiar qué conductas son aceptables."
+  },
+  "business-11-k4": {
+   "q": "¿Qué dos resultados produce una cultura fuerte?",
+   "a": "Valores compartidos (quien no encaja se va) y fuerte presión de pares (Deal y Kennedy 1999)."
+  },
+  "business-11-k5": {
+   "q": "¿Qué factores favorecen una cultura fuerte según Sathe (1985)?",
+   "a": "Continuidad del liderazgo, baja rotación, concentración geográfica y éxito considerable."
+  },
+  "business-11-k6": {
+   "q": "¿Toda cultura fuerte es sana?",
+   "a": "No; si choca con la estrategia es un obstáculo."
+  },
+  "business-11-k7": {
+   "q": "¿Qué puede moldear la conducta más que los incentivos financieros?",
+   "a": "Las normas de grupo y la presión de pares."
+  },
+  "business-11-k8": {
+   "q": "¿Qué dos rasgos sostienen una cultura adaptativa (Kanter 2008)?",
+   "a": "No comprometer valores centrales y satisfacer intereses legítimos de las partes clave."
+  },
+  "business-11-k9": {
+   "q": "Nombra los cinco tipos de cultura dañina.",
+   "a": "Resistente al cambio, politizada, aislada, poco ética y codiciosa, y con subculturas en choque."
+  },
+  "business-11-k10": {
+   "q": "¿Qué factor distingue un cambio cultural exitoso?",
+   "a": "Un liderazgo capaz en la cúpula, sobre todo el CEO (Hout y Carter 1995)."
+  },
+  "business-11-k11": {
+   "q": "Da un ejemplo de acción simbólica en bajo costo.",
+   "a": "Directivos de Nucor en clase turista y taxis."
+  },
+  "business-11-k12": {
+   "q": "¿Qué tres acciones exige liderar la ejecución (Montgomery 2008)?",
+   "a": "Vigilar, presionar de forma constructiva y corregir."
+  },
+  "business-11-k13": {
+   "q": "¿Cuáles son las tres pruebas de buen liderazgo estratégico?",
+   "a": "Buena estrategia, ejecución competente y metas cumplidas."
+  },
+  "business-12-k0": {
+   "q": "¿Qué distingue al presupuesto tradicional del base cero?",
+   "a": "El tradicional ajusta el año anterior; el base cero justifica todo desde cero."
+  },
+  "business-12-k1": {
+   "q": "¿Por qué el base cero puede perjudicar a seguridad?",
+   "a": "Favorece actividades primarias con retorno tangible."
+  },
+  "business-12-k2": {
+   "q": "¿Qué presupuesto es la base de los operativos?",
+   "a": "El presupuesto maestro."
+  },
+  "business-12-k3": {
+   "q": "¿Seguros y materias primas son costos fijos o variables?",
+   "a": "Seguros, fijo; materias primas, variable."
+  },
+  "business-12-k4": {
+   "q": "¿Qué estado es una “foto” en una fecha?",
+   "a": "El balance general."
+  },
+  "business-12-k5": {
+   "q": "¿Ecuación del balance?",
+   "a": "Activos = pasivos + capital contable."
+  },
+  "business-12-k6": {
+   "q": "¿Tres categorías del flujo de efectivo?",
+   "a": "Operación, inversión y financiamiento."
+  },
+  "business-12-k7": {
+   "q": "Efectivo $25,000, equivalentes $100,000, cuentas por pagar $30,000, deuda corta $25,000. ¿Razón de efectivo?",
+   "a": "125,000 ÷ 55,000 = 2.27."
+  },
+  "business-12-k8": {
+   "q": "Caterpillar 2014: ¿margen operativo?",
+   "a": "5,328 ÷ 55,184 × 100 ≈ 9.7 %."
+  },
+  "business-12-k9": {
+   "q": "¿Qué indica una razón de flujo operativo menor que 1.0?",
+   "a": "La operación no cubre los pasivos de corto plazo."
+  },
+  "business-12-k10": {
+   "q": "¿Por qué preferir la IRR al ROI en proyectos largos?",
+   "a": "Considera el valor del dinero en el tiempo."
+  },
+  "business-12-k11": {
+   "q": "IRR menor que la hurdle rate: ¿qué se decide?",
+   "a": "Rechazar el proyecto."
+  },
+  "business-12-k12": {
+   "q": "¿Qué ROE es aceptable y cuál pobre?",
+   "a": "Cerca de 14 % aceptable; menos de 10 % pobre."
+  },
+  "business-12-k13": {
+   "q": "¿Qué razón es mejor para compararse con la industria?",
+   "a": "El margen operativo."
+  },
+  "business-12-k14": {
+   "q": "¿Cuándo ocurre la parálisis por análisis?",
+   "a": "Opciones abrumadoras, sobrecomplicar, buscar lo perfecto, miedo a errar."
+  },
+  "business-A-k0": {
+   "q": "¿Con qué cuatro principios se desarrollan los estándares?",
+   "a": "Consenso, apertura, debido proceso y transparencia."
+  },
+  "business-A-k1": {
+   "q": "¿Qué distingue un estándar legal de uno voluntario?",
+   "a": "El legal es vinculante por ley y lo hacen cumplir autoridades formales."
+  },
+  "business-A-k2": {
+   "q": "Si una aseguradora fija la prima según prácticas estandarizadas, ¿qué tipo de estándar es?",
+   "a": "Mixto: voluntario en teoría, obligatorio en la práctica."
+  },
+  "business-A-k3": {
+   "q": "¿Qué organismo emite estándares para cerraduras, alarmas y control de acceso?",
+   "a": "Underwriters Laboratories (UL)."
+  },
+  "business-A-k4": {
+   "q": "¿Cuáles son los estándares de sistemas de gestión más destacados?",
+   "a": "ISO 9001 (calidad) e ISO 14001 (ambiental)."
+  },
+  "business-A-k5": {
+   "q": "¿Cuál es el principio operativo de los estándares de sistemas de gestión?",
+   "a": "El ciclo PDCA."
+  },
+  "business-A-k6": {
+   "q": "¿En qué fase del PDCA se estandarizan las soluciones en toda la organización?",
+   "a": "Actuar (Act)."
+  },
+  "business-A-k7": {
+   "q": "¿De qué estándar procede la Figura A.1?",
+   "a": "ASIS ORM.1-2017."
+  }
+ },
+ "ideas": {
+  "business-1": "Gestionar es lograr metas a través de otros, usando los recursos con eficiencia y eficacia. Liderar es inspirar, hacer propias las metas y cambiar lo que la gente cree posible. Son actividades distintas pero complementarias, y el profesional de seguridad necesita ambas.",
+  "business-2": "Decidir es elegir entre alternativas para resolver un problema. Las buenas decisiones nacen del pensamiento crítico, que debe vencer sesgos, heurísticas mal usadas y disfunciones de grupo. El libro propone un proceso de ocho pasos (Walker 2010) y advierte de los límites del big data y la inteligencia artificial.",
+  "business-3": "La estrategia es un conjunto de planes y acciones orientados a metas para competir de forma distinta a los rivales. Nace de un proceso de gestión estratégica que va de la visión a la evaluación y la adaptación. Seguridad no fija la estrategia corporativa, pero debe alinear la suya y no confundirla con tácticas.",
+  "business-4": "Antes de elegir estrategia hay que diagnosticar el entorno externo: el macroentorno y la industria con su competencia. Las herramientas son los seis sectores del macroentorno, las cinco fuerzas, los grupos estratégicos, el análisis de competidores y los factores clave de éxito. Todo termina en un juicio sobre el atractivo de la industria.",
+  "business-5": "El análisis interno indica si la estrategia puede dar ventaja sobre los rivales. Se basa en recursos, capacidades, cadena de valor (value chain), benchmarking y evaluación de fortaleza competitiva. Para seguridad, entender la cadena de valor es la vía para demostrar valor y conseguir recursos.",
+  "business-6": "La estrategia de nivel de negocio define cómo compite la empresa en un solo mercado o industria. Hay cinco estrategias genéricas según se busque costo bajo o diferenciación, y mercado amplio o nicho. Seguridad debe entender cuál eligió su empresa para justificar sus recursos.",
+  "business-7": "La estrategia corporativa decide en qué negocios, industrias y mercados compite una empresa multinegocio y cómo crecer con esa cartera. Diversificar solo se justifica si crea valor económico a largo plazo y supera tres pruebas. La diversificación relacionada suele crear más valor que la no relacionada.",
+  "business-8": "Salir al extranjero da clientes, costes menores y recursos nuevos, pero complica la estrategia. El capítulo explica por qué y cómo entrar, qué enfoque internacional elegir y cómo ganar ventaja. Cierra con amenazas recientes que amplían el papel de seguridad.",
+  "business-9": "Formular la estrategia es un trabajo analítico; ejecutarla es operativo y gira en torno a personas, procesos y estructura. Las estrategias fallan sobre todo por mala ejecución. El capítulo cubre las tres primeras de diez tareas: dotar de personal, desarrollar recursos y capacidades, y diseñar una estructura que apoye la estrategia.",
+  "business-10": "Ejecutar bien la estrategia exige gestionar cinco palancas internas: recursos, políticas, mejores prácticas y procesos, sistemas de información y recompensas. Todas deben alinearse con la estrategia y apoyarse en datos objetivos. El capítulo cierra con lecciones para gestionar durante y después de la pandemia de COVID-19.",
+  "business-11": "La cultura corporativa puede ser el mejor aliado o el mayor obstáculo para ejecutar la estrategia. El directivo debe identificarla, alinearla con la estrategia y cambiarla si es dañina. Además, debe liderar en persona la ejecución: vigilar, presionar de forma constructiva y corregir.",
+  "business-12": "El profesional de seguridad no necesita ser financiero, pero sí hablar el “lenguaje de negocio” para competir por recursos. El capítulo repasa presupuestos, estados financieros, razones financieras clave y dos medidas no financieras. Quien argumenta mejor con números obtiene más presupuesto.",
+  "business-A": "Los estándares pueden ser voluntarios, legales o mixtos y ayudan a proteger activos y ganar resiliencia. Los de sistemas de gestión giran en torno al ciclo Planificar-Hacer-Verificar-Actuar."
+ },
+ "quiz": {
+  "business-1-q0": {
+   "q": "Los gerentes de primera línea (first-line managers) supervisan aproximadamente qué porcentaje de todos los empleados no supervisores?",
+   "o": [
+    "50 %",
+    "75 %",
+    "93 %",
+    "99 %"
+   ],
+   "e": "El libro sitúa a la primera línea como el nivel gerencial más bajo, que supervisa cerca del 93 % de los no supervisores."
+  },
+  "business-1-q1": {
+   "q": "Según los estudios de Gallup, ¿qué factor pesa más en la productividad y la lealtad del empleado?",
+   "o": [
+    "El sueldo",
+    "La relación empleado–gerente",
+    "Las prestaciones",
+    "El entorno físico de trabajo"
+   ],
+   "e": "Gallup concluye que la relación con el gerente pesa más que sueldo, prestaciones o entorno. Por eso la gente suele irse por su jefe."
+  },
+  "business-1-q2": {
+   "q": "¿Cuál de estos conceptos se define como lograr el resultado buscado, aunque no siempre sea barato?",
+   "o": [
+    "Eficiencia (efficiency)",
+    "Productividad (productivity)",
+    "Eficacia (effectiveness)",
+    "Benchmarking"
+   ],
+   "e": "Eficacia es cumplir la meta. Eficiencia es el máximo resultado con el mínimo insumo. No son excluyentes."
+  },
+  "business-1-q3": {
+   "q": "¿Quién propuso la administración científica (scientific management) y la idea de la “única mejor manera” (one best way)?",
+   "o": [
+    "Henri Fayol",
+    "Frederick Taylor, 1911",
+    "Peter Drucker",
+    "Luther Gulick, 1937"
+   ],
+   "e": "Taylor, ingeniero mecánico, publicó en 1911. Fayol aportó las funciones básicas de la gestión que hoy se resumen en PODSCORB."
+  },
+  "business-1-q4": {
+   "q": "En el acrónimo PODSCORB, ¿qué función representa la letra R?",
+   "o": [
+    "Reclutar (recruiting)",
+    "Recompensar (rewarding)",
+    "Informar (reporting)",
+    "Revisar (reviewing)"
+   ],
+   "e": "Planning, Organizing, Directing, Staffing, Coordinating, Reporting, Budgeting. Reclutar está dentro de Staffing."
+  },
+  "business-1-q5": {
+   "q": "¿Qué habilidad se exige más a la alta dirección?",
+   "o": [
+    "Técnica",
+    "Conceptual",
+    "Interpersonal",
+    "Operativa"
+   ],
+   "e": "La conceptual (ver la organización entera, pensar lo abstracto) pesa en todos los niveles, pero sobre todo arriba. La técnica pesa más en niveles bajos."
+  },
+  "business-1-q6": {
+   "q": "Frente al líder, ¿qué postura atribuye el libro al gerente?",
+   "o": [
+    "Proactiva",
+    "Reactiva",
+    "Transformacional",
+    "Carismática"
+   ],
+   "e": "El gerente es reactivo y sus metas son impersonales; el líder es proactivo y hace propias las metas."
+  },
+  "business-1-q7": {
+   "q": "Una gerente de seguridad debe coordinar la respuesta a un desastre mayor. ¿Qué estilo de liderazgo es el más adecuado según el libro?",
+   "o": [
+    "Democrático",
+    "Laissez-faire",
+    "Autoritario",
+    "Situacional sin dirección"
+   ],
+   "e": "El autoritario es eficiente y productivo en crisis. Su coste es frenar el desarrollo y generar dependencia si se usa siempre."
+  },
+  "business-1-q8": {
+   "q": "¿Cuál es el defecto fatal (fatal flaw) que más descarrila a los líderes?",
+   "o": [
+    "Falta de iniciativa",
+    "Cerrazón a ideas nuevas",
+    "Falta de rendición de cuentas",
+    "No aprender de los errores"
+   ],
+   "e": "El libro lo señala como la mayor causa de fracaso, por torpeza mental o arrogancia."
+  },
+  "business-1-q9": {
+   "q": "¿Qué base de poder se cree, por error, que lo explica todo?",
+   "o": [
+    "Experto (expert)",
+    "Referente (referent)",
+    "Coercitivo (coercive)",
+    "Legítimo (legitimate)"
+   ],
+   "e": "El error común es creer que basta con poder sancionar. El experto es esencial, y sin referente y recompensa no hay éxito."
+  },
+  "business-2-q0": {
+   "q": "¿Qué rasgo corresponde al pensamiento crítico frente al creativo?",
+   "o": [
+    "Divergente",
+    "Generativo",
+    "Convergente",
+    "Suspende el juicio"
+   ],
+   "e": "El crítico es analítico, convergente y emite juicio para producir una solución. El creativo es divergente y produce ideas."
+  },
+  "business-2-q1": {
+   "q": "Un investigador de seguridad tiene indicios de culpa y descarta las pruebas que apuntan a la inocencia. ¿Qué sesgo comete?",
+   "o": [
+    "Efecto ancla (anchoring effect)",
+    "Sesgo de confirmación (confirmation bias)",
+    "Efecto de recencia (recency effect)",
+    "Error de atribución (attribution error)"
+   ],
+   "e": "Buscar solo lo que confirma la idea previa es sesgo de confirmación; el libro lo llama el que más estorba."
+  },
+  "business-2-q2": {
+   "q": "Con “80 % de supervivencia” la mayoría acepta operarse; con “20 % de muerte”, la mayoría lo rechaza. ¿Qué sesgo ilustra?",
+   "o": [
+    "Efecto encuadre (framing effect)",
+    "Exceso de confianza",
+    "Percepción selectiva",
+    "Sesgo retrospectivo"
+   ],
+   "e": "Los datos son los mismos; solo cambia cómo se presentan (Pfeffer y Sutton 2006)."
+  },
+  "business-2-q3": {
+   "q": "Un profesional de seguridad redobla su plan pese a resultados cada vez peores. ¿Cómo se llama?",
+   "o": [
+    "Satisficing",
+    "Paradoja de Abilene",
+    "Escalada de compromiso (escalation of commitment)",
+    "Error de selectividad"
+   ],
+   "e": "Es el mismo patrón que el jugador de casino o el inversor que sigue apostando por lo que pierde."
+  },
+  "business-2-q4": {
+   "q": "Una violación rutinaria del control de acceso es un problema bien estructurado. ¿Qué tipo de decisión le corresponde?",
+   "o": [
+    "No programada (nonprogrammed)",
+    "Programada (programmatic)",
+    "Conceptual",
+    "Bajo incertidumbre"
+   ],
+   "e": "Los problemas bien estructurados se resuelven con reglas, políticas y guías: decisiones programadas. Elegir a qué candidato contratar sería mal estructurado."
+  },
+  "business-2-q5": {
+   "q": "¿En qué condición de decisión no existen estimaciones de probabilidad?",
+   "o": [
+    "Certeza",
+    "Riesgo",
+    "Incertidumbre",
+    "Racionalidad limitada"
+   ],
+   "e": "Incertidumbre es la más difícil. Riesgo es la más común (se estima la probabilidad de fallo). Certeza es la más racional y la menos realista."
+  },
+  "business-2-q6": {
+   "q": "¿Qué es satisficing?",
+   "o": [
+    "Buscar la solución óptima con toda la información",
+    "Aceptar una solución “suficientemente buena” que atienda lo más urgente",
+    "Delegar la decisión al grupo",
+    "Decidir por intuición sin datos"
+   ],
+   "e": "Va de la mano con la racionalidad limitada (bounded rationality): no se puede reunir toda la información a tiempo."
+  },
+  "business-2-q7": {
+   "q": "De los ocho pasos del proceso de decisión (Walker 2010), ¿cuál es el más importante?",
+   "o": [
+    "Identificar el problema",
+    "Desarrollar alternativas",
+    "Comunicar e implantar",
+    "Evaluar la eficacia"
+   ],
+   "e": "Todo parte de detectar la brecha entre la situación actual y la deseada. El paso 7 es el que gana el compromiso para ejecutar."
+  },
+  "business-2-q8": {
+   "q": "¿Qué distingue la paradoja de Abilene del pensamiento de grupo (groupthink)?",
+   "o": [
+    "En Abilene el grupo sobrestima su moralidad",
+    "En Abilene los miembros actúan contra sus propias preferencias por ansiedad",
+    "En Abilene hay un abogado del diablo",
+    "No hay diferencia; son sinónimos"
+   ],
+   "e": "En groupthink los miembros están satisfechos con la decisión. En Abilene callan por miedo a “agitar el barco”; el ejemplo del libro es Deepwater Horizon."
+  },
+  "business-2-q9": {
+   "q": "Según Campbell, Whitehead y Finkelstein (2009), quien declara estar 100 % seguro, ¿cuánto acierta realmente?",
+   "o": [
+    "Menos de la mitad de las veces",
+    "Alrededor del 65 %",
+    "Alrededor del 80 %",
+    "Alrededor del 95 %"
+   ],
+   "e": "Con 65–75 % de confianza declarada aciertan menos de la mitad. El exceso de confianza es el problema de juicio más frecuente."
+  },
+  "business-3-q0": {
+   "q": "Le piden a seguridad una estrategia contra la violencia laboral y propone solo un nuevo control de acceso. ¿Qué falla?",
+   "o": [
+    "Nada; es una estrategia completa",
+    "Es una táctica, no un plan coordinado",
+    "Debió proponer un presupuesto",
+    "Debió hacer primero un FODA"
+   ],
+   "e": "Una política o un control aislados son tácticas. Juntas forman estrategia si integran un plan coordinado con propósito, roles y apoyo a las metas."
+  },
+  "business-3-q1": {
+   "q": "¿Cuándo es estratégico un presupuesto?",
+   "o": [
+    "Cuando lo aprueba el consejo",
+    "Cuando crece respecto al año anterior",
+    "Cuando asigna recursos según objetivos y metas ya fijados",
+    "Cuando cubre más de un año"
+   ],
+   "e": "El orden correcto es objetivos y metas, luego estrategias, luego presupuesto."
+  },
+  "business-3-q2": {
+   "q": "¿Qué responde la declaración de misión (mission statement)?",
+   "o": [
+    "Hacia dónde vamos",
+    "Quiénes somos, qué hacemos y por qué estamos aquí",
+    "Qué conductas esperamos del personal",
+    "Cómo mediremos el avance"
+   ],
+   "e": "La visión es “hacia dónde vamos”; los valores, las conductas esperadas; los objetivos, la medida del avance."
+  },
+  "business-3-q3": {
+   "q": "¿Es “maximizar utilidades” una misión válida?",
+   "o": [
+    "Sí, es la misión de toda empresa privada",
+    "Sí, si se cuantifica",
+    "No; ganar dinero es un objetivo, no una misión",
+    "No; es un valor central"
+   ],
+   "e": "La misión explica por qué existe la empresa. Ganar dinero es un objetivo."
+  },
+  "business-3-q4": {
+   "q": "¿Cuál es la diferencia entre objetivo (objective) y meta (goal) según el libro?",
+   "o": [
+    "El objetivo es a largo plazo y la meta a corto",
+    "El objetivo mide el avance; la meta es el resultado deseado",
+    "Son sinónimos",
+    "La meta es medible y el objetivo no"
+   ],
+   "e": "Visión, misión y valores son amplios; los objetivos son específicos, medibles y miden el avance hacia la meta."
+  },
+  "business-3-q5": {
+   "q": "¿Por qué pesan más los objetivos estratégicos que los financieros?",
+   "o": [
+    "Porque los financieros son indicadores rezagados (lagging indicators)",
+    "Porque los financieros no se pueden medir",
+    "Porque los estratégicos los fija el consejo",
+    "Porque los financieros son siempre de corto plazo"
+   ],
+   "e": "Los financieros muestran lo que ya pasó; los estratégicos son adelantados (leading indicators)."
+  },
+  "business-3-q6": {
+   "q": "¿Cuál NO es una de las limitaciones del análisis FODA (SWOT) que cita el libro?",
+   "o": [
+    "Subjetividad",
+    "Omisiones",
+    "Es una foto de un solo momento",
+    "Solo analiza el entorno externo"
+   ],
+   "e": "El FODA cubre lo interno (fortalezas, debilidades) y lo externo (oportunidades, amenazas). Uno de hace 3–6 meses puede no servir."
+  },
+  "business-3-q7": {
+   "q": "¿Puede la función de seguridad crear ventaja competitiva por sí sola?",
+   "o": [
+    "Sí, si reduce costos",
+    "No; solo el negocio completo la logra. Seguridad aporta ventaja comparativa",
+    "Sí, si supera la prueba VRIN",
+    "No; seguridad no aporta ninguna ventaja"
+   ],
+   "e": "Una estrategia funcional nunca es base de ventaja competitiva; puede dar ventaja comparativa con mejores sistemas internos."
+  },
+  "business-3-q8": {
+   "q": "¿Cómo se llama la estrategia que la empresa sigue realmente, tras adaptar la que había planeado?",
+   "o": [
+    "Intencionada (intended)",
+    "Emergente (emergent)",
+    "Realizada (realized)",
+    "Genérica (generic)"
+   ],
+   "e": "Intencionada es la planeada; emergente, la adaptada a la situación; realizada, la que efectivamente se sigue. Que difiera de la planeada es éxito del proceso."
+  },
+  "business-3-q9": {
+   "q": "¿Cuál NO es una de las tres pruebas de una estrategia ganadora (Walker 2011)?",
+   "o": [
+    "Ajuste (Fitness Test)",
+    "Competitividad (Competitiveness Test)",
+    "Desempeño (Performance Test)",
+    "Sostenibilidad (Sustainability Test)"
+   ],
+   "e": "Las tres son ajuste, competitividad y desempeño. Si falla alguna, hay que cambiar la estrategia."
+  },
+  "business-4-q0": {
+   "q": "¿Cuál NO es uno de los seis sectores del macroentorno (Walker 2011)?",
+   "o": [
+    "Demográfico",
+    "Político-legal",
+    "Ecológico-ambiental",
+    "Internacional-global"
+   ],
+   "e": "Los seis son económico, demográfico, sociocultural, político-legal, tecnológico e internacional-global."
+  },
+  "business-4-q1": {
+   "q": "Muchas empresas, productos no homogéneos y entrada barata (pasta de dientes, champú). ¿Qué estructura de mercado es?",
+   "o": [
+    "Competencia perfecta",
+    "Competencia monopolística",
+    "Oligopolio",
+    "Monopolio"
+   ],
+   "e": "La competencia perfecta tiene productos homogéneos (petróleo crudo); el oligopolio, pocas empresas y entrada cara."
+  },
+  "business-4-q2": {
+   "q": "¿Cómo define el libro una recesión?",
+   "o": [
+    "Inflación por encima del 10 % anual",
+    "Desempleo por encima del 8 %",
+    "Crecimiento negativo del PIB durante dos o más trimestres consecutivos",
+    "Caída de la bolsa superior al 20 %"
+   ],
+   "e": "Una depresión es una recesión severa de varios años."
+  },
+  "business-4-q3": {
+   "q": "¿Qué diferencia al producto nacional bruto (PNB, GNP) del producto interno bruto (PIB, GDP)?",
+   "o": [
+    "El PNB suma la actividad neta de los nacionales en el exterior",
+    "El PNB excluye a los no ciudadanos y al gobierno",
+    "El PNB solo mide manufactura",
+    "No hay diferencia"
+   ],
+   "e": "El PIB mide lo producido dentro de las fronteras. EE. UU. dejó el PNB por el PIB en 1991."
+  },
+  "business-4-q4": {
+   "q": "Según el libro, ¿cuál es la más fuerte de las cinco fuerzas?",
+   "o": [
+    "Amenaza de nuevos entrantes",
+    "Poder de compradores",
+    "Rivalidad entre empresas existentes",
+    "Amenaza de sustitutos"
+   ],
+   "e": "La rivalidad ocupa el centro del modelo y es la más fuerte; aumenta con demanda lenta, poca diferenciación y altas barreras de salida."
+  },
+  "business-4-q5": {
+   "q": "En consolas de videojuegos, ¿qué barrera de entrada pone el libro como ejemplo?",
+   "o": [
+    "Economías de escala",
+    "Efectos de red (network effects)",
+    "Regulación restrictiva",
+    "Acceso a distribución"
+   ],
+   "e": "El valor de la consola crece con el número de usuarios y juegos. Farmacéutica es el ejemplo de patentes."
+  },
+  "business-4-q6": {
+   "q": "¿Qué pone techo a los precios y a las utilidades de una industria?",
+   "o": [
+    "Sustitutos disponibles y baratos",
+    "Barreras de salida altas",
+    "Proveedores fragmentados",
+    "Economías de escala"
+   ],
+   "e": "La presión de sustitutos es fuerte si son baratos, de calidad similar o mejor y cambiar cuesta poco."
+  },
+  "business-4-q7": {
+   "q": "¿Qué son las slotting fees?",
+   "o": [
+    "Penalizaciones por entrega tardía",
+    "Pagos de fabricantes a supermercados por espacio en anaquel",
+    "Cuotas de entrada a una asociación sectorial",
+    "Aranceles a la importación"
+   ],
+   "e": "Son una muestra del poder de negociación de los compradores grandes."
+  },
+  "business-4-q8": {
+   "q": "¿Cuántas fuerzas fuertes vuelven poco atractiva una industria, según el libro?",
+   "o": [
+    "Una",
+    "Dos",
+    "Tres o más",
+    "Solo si son las cinco"
+   ],
+   "e": "Con tres o más fuertes la industria es poco atractiva (aerolíneas, ropa, neumáticos). Con las cinco fuertes la rentabilidad es inaceptable."
+  },
+  "business-4-q9": {
+   "q": "¿Cuántos factores clave de éxito (key success factors) suele tener una industria?",
+   "o": [
+    "Uno o dos",
+    "De tres a cinco",
+    "De seis a ocho",
+    "Más de diez"
+   ],
+   "e": "Sin una estrategia basada en ellos, la empresa difícilmente sobrevive."
+  },
+  "business-5-q0": {
+   "q": "¿Qué diferencia un recurso (resource) de una capacidad (capability)?",
+   "o": [
+    "El recurso es intangible y la capacidad tangible",
+    "El recurso es un activo que se posee; la capacidad es la aptitud aprendida para hacer bien una actividad",
+    "La capacidad se compra; el recurso se aprende",
+    "Son sinónimos"
+   ],
+   "e": "Las capacidades son más complejas, nacen de la repetición y convierten recursos en resultados."
+  },
+  "business-5-q1": {
+   "q": "¿Qué es el conocimiento tácito (tacit knowledge)?",
+   "o": [
+    "El documentado en manuales",
+    "Habilidades y experiencias no codificadas que se transmiten con práctica",
+    "Información confidencial de la empresa",
+    "Conocimiento protegido por patente"
+   ],
+   "e": "Casi todas las capacidades se basan en conocimiento tácito, y por eso son difíciles de imitar."
+  },
+  "business-5-q2": {
+   "q": "¿Por qué el iPhone no supera la prueba VRIN completa?",
+   "o": [
+    "No es valioso",
+    "No es raro",
+    "Es sustituible por smartphones más baratos",
+    "No está patentado"
+   ],
+   "e": "VRIN exige valioso, raro, inimitable y no sustituible: las cuatro. La mayoría de empresas no las pasa y aun así es rentable."
+  },
+  "business-5-q3": {
+   "q": "¿Qué es una capacidad dinámica (dynamic capability)?",
+   "o": [
+    "Una capacidad que cambia según la temporada",
+    "La aptitud para modificar, profundizar o ampliar recursos y capacidades, y crear otros",
+    "Una capacidad subcontratada",
+    "La capacidad de producir más con menos"
+   ],
+   "e": "Las capacidades decaen por descuido (benign neglect); hay que reforzarlas y sumar recursos nuevos."
+  },
+  "business-5-q4": {
+   "q": "¿Qué distingue a una competencia central (core competence)?",
+   "o": [
+    "Se hace mejor que todos los rivales",
+    "Es central para la estrategia y el éxito competitivo",
+    "Es la más barata de ejecutar",
+    "La ejecuta la alta dirección"
+   ],
+   "e": "La competencia distintiva es hacer algo mejor que los rivales. La central es la que sostiene la estrategia y suele ser motor de crecimiento."
+  },
+  "business-5-q5": {
+   "q": "En la cadena de valor, ¿qué tipo de actividad es seguridad y qué debe hacer para obtener presupuesto?",
+   "o": [
+    "Primaria; demostrar que genera ingresos",
+    "De apoyo; demostrar valor para una actividad primaria",
+    "Primaria; reducir costos de logística",
+    "De apoyo; basta con cumplir la regulación"
+   ],
+   "e": "Las de apoyo se ven como costo y serán cuestionadas. Seguridad solo consigue recursos si muestra cómo protege lo que genera dinero."
+  },
+  "business-5-q6": {
+   "q": "En el ejemplo del productor de café, el costo total de la empresa es $7.34 y el precio al consumidor $9.99. ¿Cuál es el margen del minorista?",
+   "o": [
+    "$2.30",
+    "$2.65",
+    "$3.03",
+    "$7.34"
+   ],
+   "e": "9.99 − 7.34 = 2.65. Lección: la competitividad en costos depende también de proveedores y canales."
+  },
+  "business-5-q7": {
+   "q": "En juicios por seguridad negligente (negligent security), ¿con qué criterio comparan los tribunales?",
+   "o": [
+    "Las mejores prácticas del sector",
+    "Lo “razonable y ordinario” del sector",
+    "Los estándares ISO",
+    "Todo lo técnicamente posible"
+   ],
+   "e": "No se exige la mejor práctica, sino lo razonable y ordinario de empresas similares."
+  },
+  "business-5-q8": {
+   "q": "¿Qué parte de las ventas de McDonald's sale del autoservicio (drive-through), según el libro?",
+   "o": [
+    "Cerca del 30 %",
+    "Cerca del 50 %",
+    "Casi el 70 %",
+    "Casi el 90 %"
+   ],
+   "e": "Starbucks lo copió vía benchmarking. Lección para seguridad: la práctica nueva trae riesgos nuevos."
+  },
+  "business-5-q9": {
+   "q": "¿Qué es la paridad competitiva (competitive parity) en este capítulo?",
+   "o": [
+    "Superar a la media del sector",
+    "Igualar el desempeño de un competidor o de la media del sector",
+    "Fijarse precios entre rivales",
+    "Tener la misma cuota que el líder"
+   ],
+   "e": "Recursos valiosos pero comunes dan paridad, no ventaja. Coludirse para fijar precios es ilegal."
+  },
+  "business-6-q0": {
+   "q": "¿Qué dos factores distinguen las estrategias competitivas genéricas?",
+   "o": [
+    "Tamaño de la empresa y número de productos",
+    "Amplitud del mercado objetivo y tipo de ventaja (costo o diferenciación)",
+    "Mercado local o global y precio",
+    "Calidad y servicio"
+   ],
+   "e": "De esas dos dimensiones salen bajo costo amplio, diferenciación amplia, bajo costo enfocado y diferenciación enfocada; la de mejor costo queda al centro."
+  },
+  "business-6-q1": {
+   "q": "¿Qué estrategia es híbrida y suele ser la más difícil de ejecutar con rentabilidad?",
+   "o": [
+    "Bajo costo enfocado",
+    "Diferenciación amplia",
+    "Proveedor de mejor costo (best-cost provider)",
+    "Diferenciación enfocada"
+   ],
+   "e": "Da atributos de gama alta a menor costo. Riesgo: quedar atrapada entre los de bajo costo y los diferenciadores."
+  },
+  "business-6-q2": {
+   "q": "En los aviones de la Segunda Guerra Mundial, ¿cuánto bajó la mano de obra por avión cada vez que se duplicó la producción acumulada?",
+   "o": [
+    "10 %",
+    "20 %",
+    "30 %",
+    "50 %"
+   ],
+   "e": "Es la curva de aprendizaje (Boston Consulting Group 1970): relaciona volumen acumulado y costo unitario."
+  },
+  "business-6-q3": {
+   "q": "El liderazgo en bajo costo (low-cost leadership) implica:",
+   "o": [
+    "Tener siempre el precio más bajo del sector",
+    "Ser el proveedor de menor costo, no necesariamente el de menor precio",
+    "Eliminar todos los atributos del producto",
+    "Vender solo a un nicho"
+   ],
+   "e": "Puede usar la ventaja para vender más barato o para mantener precio y ganar más margen por unidad."
+  },
+  "business-6-q4": {
+   "q": "¿Cuál de estos es un costo variable?",
+   "o": [
+    "Depreciación",
+    "Renta del local",
+    "Materias primas",
+    "Seguros"
+   ],
+   "e": "El variable cambia en proporción a la producción (materias primas, empaque). Los otros tres son fijos."
+  },
+  "business-6-q5": {
+   "q": "¿Qué parte del precio final suele deberse al distribuidor?",
+   "o": [
+    "Del 5 al 10 %",
+    "Del 10 al 20 %",
+    "Del 30 al 50 %",
+    "Del 60 al 80 %"
+   ],
+   "e": "Por eso vender directo es una vía para rediseñar la cadena de valor y bajar costos."
+  },
+  "business-6-q6": {
+   "q": "Vendes 1,000 unidades a $10 con costo de $9. Si bajas el precio a $9.50 sin cambiar el costo, ¿cuántas unidades necesitas para igualar la utilidad?",
+   "o": [
+    "1,050",
+    "1,500",
+    "2,000",
+    "2,500"
+   ],
+   "e": "Utilidad original $1,000. El margen baja a $0.50: 1,000 ÷ 0.50 = 2,000 unidades, un 100 % más."
+  },
+  "business-6-q7": {
+   "q": "¿Cuál es la ruta de diferenciación menos obvia y más olvidada?",
+   "o": [
+    "Añadir funciones tangibles",
+    "Bajar el costo total de uso para el comprador",
+    "Construir prestigio de marca",
+    "Señalar valor con un precio alto"
+   ],
+   "e": "Menos desperdicio, menos mantenimiento, ahorro de energía o soporte técnico también diferencian."
+  },
+  "business-6-q8": {
+   "q": "¿Cuál es la trampa más mortal de la diferenciación?",
+   "o": [
+    "Mejoras triviales",
+    "Atributos fáciles de copiar",
+    "Una prima de precio excesiva",
+    "Gastar de más en marketing"
+   ],
+   "e": "Con una prima excesiva el cliente se va a ofertas más baratas."
+  },
+  "business-6-q9": {
+   "q": "¿En qué contexto suele funcionar mejor la estrategia de mejor costo?",
+   "o": [
+    "En recesiones, cuando más compradores buscan valor",
+    "En mercados de materias primas",
+    "En nichos de lujo",
+    "Cuando no hay diferenciación posible"
+   ],
+   "e": "Atrae al comprador consciente del valor (value-conscious), que evita lo muy barato y lo muy caro. El caso del libro es Lexus."
+  },
+  "business-7-q0": {
+   "q": "¿Cuáles son las tres pruebas de la ventaja corporativa al diversificar?",
+   "o": [
+    "Atractivo de la industria, coste de entrada y estar mejor (better-off)",
+    "Ajuste, competitividad y desempeño",
+    "Valioso, raro e inimitable",
+    "Crecimiento, rentabilidad y riesgo"
+   ],
+   "e": "Hay que pasar las tres; pasar una o dos es sospechoso (Barney y Hesterly 2015). La opción b son las pruebas de una estrategia ganadora del capítulo 3."
+  },
+  "business-7-q1": {
+   "q": "Según Martin (2016, Harvard Business Review), ¿qué porcentaje de fusiones y adquisiciones fracasa?",
+   "o": [
+    "Entre 20 y 30 %",
+    "Entre 40 y 50 %",
+    "Entre 70 y 90 %",
+    "Más del 95 %"
+   ],
+   "e": "Causas: prima no recuperada, mala integración, fallos tecnológicos, choques culturales y factores externos."
+  },
+  "business-7-q2": {
+   "q": "¿Qué prima media se pagó en adquisiciones durante la última década?",
+   "o": [
+    "Alrededor del 10 %",
+    "Alrededor del 25 %",
+    "Alrededor del 50 %",
+    "Alrededor del 75 %"
+   ],
+   "e": "Alrededor del 25 % sobre la valoración, según la industria (Kengelbach et al. 2019)."
+  },
+  "business-7-q3": {
+   "q": "Si la velocidad es crítica para entrar en un negocio nuevo, ¿qué modo de entrada conviene?",
+   "o": [
+    "Desarrollo interno",
+    "Empresa conjunta (joint venture)",
+    "Adquisición",
+    "Licencia"
+   ],
+   "e": "La adquisición es rápida y salta barreras. Si conviene esperar a que se aclare el mercado, empresa conjunta o desarrollo interno."
+  },
+  "business-7-q4": {
+   "q": "¿Qué modo de entrada es el menos duradero y cuál es su problema más común?",
+   "o": [
+    "Adquisición; choque cultural",
+    "Empresa conjunta (JV); desacuerdos de gestión",
+    "Desarrollo interno; lentitud",
+    "Empresa conjunta (JV); falta de capital"
+   ],
+   "e": "La empresa conjunta reparte riesgo y ahorra coste de entrada, pero sufre objetivos en conflicto y desacuerdos de gestión."
+  },
+  "business-7-q5": {
+   "q": "¿Qué diferencia las economías de alcance (scope) de las de escala (scale)?",
+   "o": [
+    "Alcance: ahorro por operar en varios negocios relacionados. Escala: ahorro por mayor tamaño",
+    "Alcance: ahorro por mayor tamaño. Escala: por varios negocios",
+    "Alcance solo aplica a conglomerados",
+    "Son sinónimos"
+   ],
+   "e": "Las de alcance solo se dan en la diversificación relacionada, y la dirección debe actuar para capturarlas."
+  },
+  "business-7-q6": {
+   "q": "¿Qué tipo de recurso es seguridad según el libro?",
+   "o": [
+    "Especializado; base de la diversificación relacionada",
+    "General; por sí solo no justifica una diversificación relacionada",
+    "Intangible y raro",
+    "Estratégico de primer nivel"
+   ],
+   "e": "Informática, recursos humanos, contabilidad, presupuesto y seguridad sirven en cualquier negocio: son generales."
+  },
+  "business-7-q7": {
+   "q": "Tu empresa tiene 40 % de cuota y tu mayor rival 30 %. ¿Cuál es tu cuota de mercado relativa?",
+   "o": [
+    "0.75",
+    "1.00",
+    "1.33",
+    "10 %"
+   ],
+   "e": "40 ÷ 30 = 1.33. La del rival sería 0.75. Por debajo de 1.0 la posición es débil."
+  },
+  "business-7-q8": {
+   "q": "¿Cuál es la secuencia ideal de un negocio en la cartera?",
+   "o": [
+    "Cash cow → star → cash hog",
+    "Star → cash hog → cash cow",
+    "Cash hog → star → cash cow",
+    "Cash hog → cash cow → star"
+   ],
+   "e": "Primero devora caja por su alto crecimiento, luego se vuelve líder autosuficiente y al final genera excedente en una industria madura."
+  },
+  "business-7-q9": {
+   "q": "¿Por qué “reducir el riesgo” es una razón equivocada para la diversificación no relacionada?",
+   "o": [
+    "Porque los conglomerados son más arriesgados por ley",
+    "Porque el inversor puede diversificar mejor con su propia cartera",
+    "Porque el riesgo no se puede medir",
+    "Porque solo aplica en recesión"
+   ],
+   "e": "Las otras razones equivocadas son crecer por crecer, buscar estabilidad y los motivos gerenciales (la compensación crece con el tamaño)."
+  },
+  "business-8-q0": {
+   "q": "¿Qué actitud usa el mejor enfoque y las mejores personas de todo el mundo?",
+   "o": [
+    "Etnocéntrica",
+    "Policéntrica",
+    "Geocéntrica",
+    "Parroquial"
+   ],
+   "e": "La etnocéntrica solo valora lo del país sede; la policéntrica cree que el país anfitrión sabe más."
+  },
+  "business-8-q1": {
+   "q": "¿Cuál NO es uno de los cuatro factores del diamante de la ventaja competitiva nacional?",
+   "o": [
+    "Condiciones de la demanda",
+    "Condiciones de los factores",
+    "Poder de negociación de proveedores",
+    "Estrategia, estructura y rivalidad"
+   ],
+   "e": "El cuarto factor es industrias relacionadas y de apoyo. El poder de proveedores pertenece a las cinco fuerzas."
+  },
+  "business-8-q2": {
+   "q": "Fabricas en Brasil por 4 reales y exportas a Europa. Si el tipo de cambio pasa de 4 a 5 reales por euro, ¿cuánto cuesta el producto en euros?",
+   "o": [
+    "0.80 euros",
+    "1.00 euro",
+    "1.25 euros",
+    "1.33 euros"
+   ],
+   "e": "4 ÷ 5 = 0.80. El real débil favorece al exportador desde Brasil."
+  },
+  "business-8-q3": {
+   "q": "Para una empresa con plantas en EE. UU., un dólar débil es:",
+   "o": [
+    "Desfavorable: encarece sus exportaciones",
+    "Favorable: más competitividad, más exportaciones y más utilidades externas en dólares",
+    "Neutral",
+    "Favorable solo si importa insumos"
+   ],
+   "e": "Encarece lo de los rivales extranjeros, frena importaciones y sube en dólares las utilidades del exterior."
+  },
+  "business-8-q4": {
+   "q": "¿Qué opción de entrada es la más conservadora y pide menos capital?",
+   "o": [
+    "Filial nueva (greenfield)",
+    "Adquisición",
+    "Exportación",
+    "Empresa conjunta"
+   ],
+   "e": "Usa la capacidad existente. Es vulnerable a costos domésticos altos, tipo de cambio adverso, fletes caros y barreras."
+  },
+  "business-8-q5": {
+   "q": "¿Cuál es la gran desventaja de la licencia (licensing)?",
+   "o": [
+    "Exige mucho capital",
+    "Ceder know-how valioso y perder control de su uso",
+    "Es la vía más lenta",
+    "El licenciante asume todos los riesgos"
+   ],
+   "e": "El licenciatario asume costos y riesgos y paga regalías, pero es difícil vigilar el uso del know-how."
+  },
+  "business-8-q6": {
+   "q": "¿Cuál es la vía de entrada más lenta?",
+   "o": [
+    "Adquisición",
+    "Franquicia",
+    "Exportación",
+    "Filial nueva (greenfield venture)"
+   ],
+   "e": "Da control total de la cadena de valor, pero es cara, arriesgada y lenta. La adquisición es la más rápida."
+  },
+  "business-8-q7": {
+   "q": "¿Qué estrategia internacional se resume como “pensar global, actuar local”?",
+   "o": [
+    "Multidoméstica",
+    "Global",
+    "Transnacional",
+    "De exportación"
+   ],
+   "e": "Combina respuesta local e integración global (personalización masiva). Es la más difícil de implementar."
+  },
+  "business-8-q8": {
+   "q": "Financiar una ofensiva de precios en un mercado con las utilidades de otro se llama:",
+   "o": [
+    "Santuario de beneficios (profit sanctuary)",
+    "Subsidio cruzado entre mercados (cross-market subsidization)",
+    "Contención mutua (mutual restraint)",
+    "Dumping arancelario"
+   ],
+   "e": "El santuario es el mercado protegido que genera esas utilidades, normalmente el de origen."
+  },
+  "business-8-q9": {
+   "q": "¿Qué porcentaje de las reservas mundiales de petróleo y gas está en manos de empresas estatales?",
+   "o": [
+    "7 %",
+    "25 %",
+    "65 %",
+    "90 %"
+   ],
+   "e": "El 65 % es de estatales; solo el 7 % está libre para privados internacionales. Es un ejemplo de riesgo político."
+  },
+  "business-9-q0": {
+   "q": "¿Por qué fallan con más frecuencia las estrategias?",
+   "o": [
+    "Por mala formulación",
+    "Por mala ejecución",
+    "Por falta de presupuesto",
+    "Por cambios del entorno"
+   ],
+   "e": "Formular es analítico; ejecutar es operativo y más difícil. En un estudio de 400 directores generales, la ejecución era su reto número uno."
+  },
+  "business-9-q1": {
+   "q": "¿Cuáles son las dos mejores señales de buena ejecución (Welch y Welch 2005)?",
+   "o": [
+    "Subir el precio de la acción y bajar la rotación",
+    "Cumplir o superar las metas y realizar la cadena de valor con excelencia operativa",
+    "Ganar cuota y reducir costos",
+    "Satisfacción del cliente y del empleado"
+   ],
+   "e": "Son las dos señales que el libro destaca."
+  },
+  "business-9-q2": {
+   "q": "¿Cuáles son las tres primeras tareas de la ejecución que trata el capítulo 9?",
+   "o": [
+    "Presupuesto, políticas y sistemas",
+    "Dotar de personal, desarrollar recursos y capacidades, y crear una estructura de apoyo",
+    "Cultura, liderazgo e incentivos",
+    "Visión, misión y valores"
+   ],
+   "e": "Las tareas 4 a 8 van en el capítulo 10 y la 9 y 10 en el capítulo 11."
+  },
+  "business-9-q3": {
+   "q": "¿Qué es un objetivo exigente (stretch objective)?",
+   "o": [
+    "Una meta imposible para motivar",
+    "Una meta que pide esfuerzo extra pero es alcanzable",
+    "Una meta a más de cinco años",
+    "Una meta sin medición"
+   ],
+   "e": "Si no es alcanzable, desmotiva."
+  },
+  "business-9-q4": {
+   "q": "¿Cuál es la ventaja principal de adquirir capacidades por fusión o adquisición?",
+   "o": [
+    "El bajo costo",
+    "La rapidez",
+    "Que el conocimiento tácito se transfiere fácil",
+    "Que no hay choque cultural"
+   ],
+   "e": "Riesgos: el conocimiento tácito no se transfiere fácil y la compra puede destruir la capacidad (caso Facebook y Oculus)."
+  },
+  "business-9-q5": {
+   "q": "En el caso Starbucks y Kraft, ¿cuál fue el desenlace?",
+   "o": [
+    "Kraft compró Starbucks",
+    "Starbucks pagó 2.75 mil millones tras romper, pero ganó libertad y más del 20 % del mercado de cápsulas",
+    "Ambas crearon una empresa conjunta permanente",
+    "Starbucks perdió el arbitraje y salió de supermercados"
+   ],
+   "e": "Aprendió del socio y rompió. El acuerdo la limitaba a Tassimo mientras crecían las K-Cups de Keurig."
+  },
+  "business-9-q6": {
+   "q": "¿Cuánto gastan al año las universidades corporativas, según el libro?",
+   "o": [
+    "Más de 37 mil millones de dólares",
+    "Más de 370 mil millones de dólares",
+    "Más de 3.7 billones de dólares",
+    "Unos 4 mil millones de dólares"
+   ],
+   "e": "Más de 4 mil empresas tienen universidades internas y gastan más de 370 mil millones al año (Mazareanu 2020)."
+  },
+  "business-9-q7": {
+   "q": "Según Mintzberg (1979), ¿cuál es el tipo de estructura más común?",
+   "o": [
+    "Funcional",
+    "Multidivisional",
+    "Matricial",
+    "Simple"
+   ],
+   "e": "Típica de pequeñas empresas y startups: un ejecutivo central, plana y poco especializada. Se queda corta al crecer."
+  },
+  "business-9-q8": {
+   "q": "¿De qué depende sobre todo el tipo de estructura de una empresa?",
+   "o": [
+    "De la estrategia",
+    "Del tamaño",
+    "De la industria",
+    "Del país"
+   ],
+   "e": "Depende sobre todo del tamaño, menos de la estrategia, y evoluciona al crecer."
+  },
+  "business-9-q9": {
+   "q": "Un gerente de seguridad de campo reporta a su división y al director corporativo de seguridad. ¿Qué estructura es y qué problema crea?",
+   "o": [
+    "Funcional; guerras territoriales",
+    "Matricial; doble reporte, conflictos y lealtad dividida",
+    "Multidivisional; poca colaboración",
+    "Simple; sobrecarga del ejecutivo"
+   ],
+   "e": "El conflicto es mayor si la división controla el presupuesto. La comunicación es clave."
+  },
+  "business-10-q0": {
+   "q": "¿Qué dos errores de asignación de recursos señala el capítulo?",
+   "o": [
+    "Gastar en tecnología y en personal",
+    "Infrafinanciar y sobrefinanciar unidades",
+    "Endeudarse y emitir acciones",
+    "Centralizar y descentralizar"
+   ],
+   "e": "Infrafinanciar frena el avance; sobrefinanciar desperdicia recursos y manda un mal mensaje. Se decide con datos, no con política."
+  },
+  "business-10-q1": {
+   "q": "¿Qué es el “Goldilocks Moment” en políticas y procedimientos?",
+   "o": [
+    "Eliminar todas las políticas para dar libertad",
+    "Suficientes políticas para dar dirección y límites, con libertad para actuar dentro de ellos",
+    "Revisar las políticas cada trimestre",
+    "Copiar las políticas del líder del sector"
+   ],
+   "e": "Demasiada política estorba y confunde; muy poca deja sin dirección."
+  },
+  "business-10-q2": {
+   "q": "¿Por qué el libro recomienda adaptar y no adoptar (adapt, not adopt) las mejores prácticas?",
+   "o": [
+    "Porque copiar es ilegal",
+    "Porque cada empresa es única y adaptarlas da credibilidad ante la dirección",
+    "Porque las mejores prácticas caducan en un año",
+    "Porque ASIS lo exige"
+   ],
+   "e": "Los directivos desconfían de lo “no inventado aquí”. Mostrar cómo encaja en la estrategia da credibilidad a seguridad."
+  },
+  "business-10-q3": {
+   "q": "¿Cómo se define la reingeniería de procesos de negocio (Hammer y Champy 1993)?",
+   "o": [
+    "Mejora continua e incremental",
+    "Rediseño radical de una actividad para lograr mejoras de gran salto",
+    "Métodos estadísticos para reducir defectos",
+    "Subcontratar procesos no centrales"
+   ],
+   "e": "La hace un equipo multifuncional. Crítica: a veces es excusa para recortar plantilla."
+  },
+  "business-10-q4": {
+   "q": "¿En qué se diferencian la reingeniería y la gestión de calidad total (TQM) o Six Sigma?",
+   "o": [
+    "No hay diferencia",
+    "La reingeniería la puede aplicar un directivo solo y busca grandes saltos; TQM y Six Sigma exigen filosofía de toda la empresa y son incrementales",
+    "TQM busca grandes saltos y la reingeniería es incremental",
+    "Six Sigma solo aplica a servicios"
+   ],
+   "e": "Un directivo aislado que aplicara TQM o Six Sigma tendría rechazo."
+  },
+  "business-10-q5": {
+   "q": "¿Cuál NO es una de las cinco áreas que deben cubrir los sistemas de información (Picincu 2018)?",
+   "o": [
+    "Clientes",
+    "Empleados",
+    "Competidores",
+    "Proveedores o socios estratégicos"
+   ],
+   "e": "Las cinco son clientes, operaciones, empleados, proveedores o socios y desempeño financiero."
+  },
+  "business-10-q6": {
+   "q": "¿Qué porcentaje mínimo del salario base debe tener un bono para motivar?",
+   "o": [
+    "Al menos 5 %",
+    "Al menos 10–15 %",
+    "Al menos 30 %",
+    "Al menos 50 %"
+   ],
+   "e": "Con 20 % o más de la compensación total atrae mucha atención; con menos de 5 % motiva poco."
+  },
+  "business-10-q7": {
+   "q": "Según el enfoque “sin excusas” (No Excuses), ¿qué se premia?",
+   "o": [
+    "El esfuerzo",
+    "Las horas trabajadas",
+    "Los resultados",
+    "La antigüedad"
+   ],
+   "e": "Se premia qué se logra, no qué se hace (Kerr 1995). Culpar al entorno es admitir mala planificación."
+  },
+  "business-10-q8": {
+   "q": "¿Qué es la clasificación forzada (forced ranking)?",
+   "o": [
+    "Ordenar a los empleados del mejor al peor y pedir salir a los últimos",
+    "Ascender por antigüedad",
+    "Evaluar solo a los directivos",
+    "Asignar bonos iguales a todo el equipo"
+   ],
+   "e": "Se aplica aunque difieran poco. Regla del libro: más elementos positivos que negativos."
+  },
+  "business-10-q9": {
+   "q": "¿A qué resultado ligaría el libro el incentivo de un director de seguridad en comercio minorista?",
+   "o": [
+    "Al número de rondas realizadas",
+    "A la reducción de la merma (shrink)",
+    "Al número de cámaras instaladas",
+    "A las horas de capacitación"
+   ],
+   "e": "Indicadores asociados: investigaciones, responsables identificados, recuperación o restitución y nuevas políticas."
+  },
+  "business-11-q0": {
+   "q": "¿A quién atribuye el libro la frase “la cultura se come a la estrategia en el desayuno”?",
+   "o": [
+    "Michael Porter",
+    "Peter Drucker",
+    "Jack Welch",
+    "Henri Fayol"
+   ],
+   "e": "El libro lo llama padre de la gestión moderna."
+  },
+  "business-11-q1": {
+   "q": "¿Qué aprende seguridad de la cultura de secreto de Apple?",
+   "o": [
+    "Prohibir dispositivos personales",
+    "Usar códigos distintos por parte de proyecto para compartimentar fugas y hallar responsables",
+    "Firmar acuerdos de confidencialidad con familiares",
+    "Centralizar todo en la dirección"
+   ],
+   "e": "La compartimentación protege la propiedad intelectual y ayuda a investigar fugas."
+  },
+  "business-11-q2": {
+   "q": "Según Deal y Kennedy (1999), ¿qué dos resultados produce exigir conducta acorde con los valores?",
+   "o": [
+    "Más ventas y menos costos",
+    "Valores compartidos (quien no encaja se va) y fuerte presión de pares",
+    "Menos rotación y más ascensos",
+    "Más innovación y más riesgo"
+   ],
+   "e": "Son los dos rasgos que consolidan una cultura fuerte."
+  },
+  "business-11-q3": {
+   "q": "¿Toda cultura fuerte es sana?",
+   "o": [
+    "Sí, siempre ayuda a ejecutar",
+    "No; si choca con la estrategia es un obstáculo",
+    "Sí, si la fundó un líder fuerte",
+    "No; las culturas fuertes siempre resisten el cambio"
+   ],
+   "e": "Una cultura fuerte puede tener impacto positivo o negativo según su ajuste con la estrategia."
+  },
+  "business-11-q4": {
+   "q": "Según el libro, ¿qué puede moldear la conducta más que los incentivos financieros?",
+   "o": [
+    "Las políticas escritas",
+    "La supervisión directa",
+    "Las normas de grupo y la presión de pares",
+    "Los sistemas de información"
+   ],
+   "e": "Es una de las tres formas en que una cultura alineada ayuda a ejecutar."
+  },
+  "business-11-q5": {
+   "q": "¿Qué factores favorecen una cultura fuerte según Sathe (1985)?",
+   "o": [
+    "Alta rotación y dispersión geográfica",
+    "Continuidad del liderazgo, baja rotación, concentración geográfica y éxito considerable",
+    "Crecimiento por adquisiciones",
+    "Cambios frecuentes de director general"
+   ],
+   "e": "Una cultura fuerte requiere años de trabajo deliberado."
+  },
+  "business-11-q6": {
+   "q": "Una cultura que cree tener todas las respuestas, ignora al cliente y no contrata directivos externos es:",
+   "o": [
+    "Politizada",
+    "Aislada (insular, inwardly focused)",
+    "Adaptativa",
+    "De alto desempeño"
+   ],
+   "e": "Tiene mentalidad de “tiene que inventarse aquí” (must-be invented here) y subestima a los rivales."
+  },
+  "business-11-q7": {
+   "q": "¿Cuál es el factor más visible de un cambio cultural exitoso (Hout y Carter 1995)?",
+   "o": [
+    "Un consultor externo",
+    "Un liderazgo capaz en la cúpula, sobre todo el director general",
+    "Un nuevo sistema de incentivos",
+    "La presión de los empleados de base"
+   ],
+   "e": "Solo la alta dirección tiene poder suficiente, aunque participa todo el equipo directivo."
+  },
+  "business-11-q8": {
+   "q": "¿Cuál es un ejemplo de acción simbólica de cambio cultural en una estrategia de bajo costo?",
+   "o": [
+    "Reemplazar a ejecutivos que obstruyen el cambio",
+    "Directivos de Nucor que vuelan en clase turista y usan taxis",
+    "Revisar políticas y procedimientos",
+    "Contratar solo candidatos que encajen"
+   ],
+   "e": "Las otras tres son acciones sustantivas. La simbólica más importante es dar ejemplo (lead by example)."
+  },
+  "business-11-q9": {
+   "q": "¿Qué tres acciones exige liderar la ejecución, según Montgomery (2008)?",
+   "o": [
+    "Planificar, organizar y controlar",
+    "Vigilar el avance, ejercer presión constructiva y corregir",
+    "Contratar, formar y retener",
+    "Medir, premiar y sancionar"
+   ],
+   "e": "La gestión paseando (management by walking around) sirve para vigilar; no un espectáculo montado (dog and pony show)."
+  },
+  "business-12-q0": {
+   "q": "¿Qué distingue el presupuesto tradicional del presupuesto base cero (zero-based budgeting)?",
+   "o": [
+    "El tradicional justifica todo desde cero; el base cero ajusta el año anterior",
+    "El tradicional ajusta el año anterior; el base cero justifica todo gasto desde cero cada periodo",
+    "El base cero solo aplica a gastos de capital",
+    "No hay diferencia práctica"
+   ],
+   "e": "El base cero rechaza el “costo más incremento” (cost-plus): nada es intocable."
+  },
+  "business-12-q1": {
+   "q": "¿Por qué el presupuesto base cero puede perjudicar a seguridad?",
+   "o": [
+    "Porque congela los salarios",
+    "Porque favorece actividades primarias con retorno tangible",
+    "Porque prohíbe la subcontratación",
+    "Porque solo se revisa cada cinco años"
+   ],
+   "e": "Seguridad, recursos humanos y contabilidad obtienen menos. El argumento: la mala seguridad daña el crecimiento con litigios y gastos extra."
+  },
+  "business-12-q2": {
+   "q": "¿Qué estado financiero es una “foto” en una fecha concreta?",
+   "o": [
+    "Estado de resultados",
+    "Flujo de efectivo",
+    "Balance general",
+    "Presupuesto maestro"
+   ],
+   "e": "Se rige por activos = pasivos + capital contable. Los otros dos estados cubren un periodo."
+  },
+  "business-12-q3": {
+   "q": "Efectivo $25,000, equivalentes $100,000, cuentas por pagar $30,000 y deuda corta $25,000. ¿Cuál es la razón de efectivo (cash ratio)?",
+   "o": [
+    "0.44",
+    "1.25",
+    "2.27",
+    "4.17"
+   ],
+   "e": "(25,000 + 100,000) ÷ (30,000 + 25,000) = 125,000 ÷ 55,000 = 2.27. Mayor que 1.0: cubre todo y sobra."
+  },
+  "business-12-q4": {
+   "q": "Caterpillar 2014: utilidad operativa 5,328 y ventas e ingresos totales 55,184 (millones). ¿Margen operativo?",
+   "o": [
+    "≈ 6.7 %",
+    "≈ 9.7 %",
+    "≈ 12.3 %",
+    "≈ 27.9 %"
+   ],
+   "e": "5,328 ÷ 55,184 × 100 ≈ 9.7 %. El libro lo considera la mejor razón para compararse con la industria."
+  },
+  "business-12-q5": {
+   "q": "¿Qué indica una razón de flujo de efectivo operativo (operating cash flow ratio) menor que 1.0?",
+   "o": [
+    "Que la operación no cubre los pasivos de corto plazo",
+    "Que la empresa tiene exceso de liquidez",
+    "Que el capital supera a la deuda",
+    "Que el margen bruto es negativo"
+   ],
+   "e": "De 1.5 a 2.0 cubre los pasivos 1.5 a 2 veces. Lo usan mucho los prestamistas."
+  },
+  "business-12-q6": {
+   "q": "Un proyecto tiene una tasa interna de retorno (IRR) menor que la tasa mínima de rendimiento (hurdle rate). ¿Qué se decide?",
+   "o": [
+    "Aceptarlo",
+    "Rechazarlo",
+    "Recalcular el ROI",
+    "Aceptarlo si el ROI es positivo"
+   ],
+   "e": "Mayor que la hurdle rate: aceptar; menor: rechazar. La IRR considera el valor del dinero en el tiempo; el retorno sobre la inversión (ROI) no."
+  },
+  "business-12-q7": {
+   "q": "¿Qué retorno sobre capital (ROE) considera el libro aceptable y cuál pobre?",
+   "o": [
+    "Aceptable cerca de 5 %; pobre menos de 2 %",
+    "Aceptable cerca de 14 %; pobre menos de 10 %",
+    "Aceptable cerca de 25 %; pobre menos de 15 %",
+    "Aceptable cualquier valor positivo"
+   ],
+   "e": "14 % es el promedio del índice Standard & Poor's 500."
+  },
+  "business-12-q8": {
+   "q": "¿Seguros y materias primas son costos fijos o variables?",
+   "o": [
+    "Ambos fijos",
+    "Ambos variables",
+    "Seguros fijo; materias primas variable",
+    "Seguros variable; materias primas fijo"
+   ],
+   "e": "Los fijos no dependen de lo producido (renta, seguros, nómina); los variables fluctúan con la actividad."
+  },
+  "business-12-q9": {
+   "q": "¿Qué partida NO se suma a la utilidad neta para obtener el EBITDA?",
+   "o": [
+    "Intereses",
+    "Impuestos",
+    "Amortización",
+    "Dividendos"
+   ],
+   "e": "EBITDA = utilidad neta + intereses + impuestos + depreciación + amortización. Se usa como aproximación del flujo de efectivo."
+  },
+  "business-A-q0": {
+   "q": "¿Cuál NO es uno de los cuatro principios con que se desarrollan los estándares?",
+   "o": [
+    "Consenso",
+    "Apertura",
+    "Confidencialidad",
+    "Debido proceso"
+   ],
+   "e": "Los cuatro son consenso, apertura, debido proceso y transparencia."
+  },
+  "business-A-q1": {
+   "q": "¿Qué distingue un estándar legal o regulatorio de uno voluntario?",
+   "o": [
+    "Lo emite ISO",
+    "Es vinculante por ley y lo hacen cumplir autoridades formales",
+    "Solo aplica en EE. UU.",
+    "Es más reciente"
+   ],
+   "e": "Los voluntarios no son obligatorios, aunque algunos ya se integraron en la regulación de varios países."
+  },
+  "business-A-q2": {
+   "q": "Una aseguradora fija la prima según si se usan prácticas estandarizadas. ¿Qué tipo de estándar es en la práctica?",
+   "o": [
+    "Voluntario puro",
+    "Legal",
+    "Mixto: voluntario en teoría, obligatorio en la práctica",
+    "De sistema de gestión"
+   ],
+   "e": "También son mixtos los voluntarios incorporados a leyes y los que exige un contrato."
+  },
+  "business-A-q3": {
+   "q": "¿Qué organismo emite estándares para cerraduras, alarmas y control de acceso?",
+   "o": [
+    "National Fire Protection Association (NFPA)",
+    "Underwriters Laboratories (UL)",
+    "Illuminating Engineering Society",
+    "Electronic Industries Association"
+   ],
+   "e": "NFPA cubre incendios y códigos de edificación; Illuminating Engineering Society, iluminación; Electronic Industries Association, componentes electrónicos."
+  },
+  "business-A-q4": {
+   "q": "¿Cuáles son los estándares de sistemas de gestión más destacados según el libro?",
+   "o": [
+    "ISO 27001 e ISO 31000",
+    "ISO 9001 (calidad) e ISO 14001 (ambiental)",
+    "ISO 22301 e ISO 45001",
+    "ASIS ORM.1 e ISO 9001"
+   ],
+   "e": "Dan un marco de mejora continua (continual improvement)."
+  },
+  "business-A-q5": {
+   "q": "En el ciclo Planificar-Hacer-Verificar-Actuar (PDCA), ¿en qué fase se estandarizan las soluciones en toda la organización?",
+   "o": [
+    "Planificar (Plan)",
+    "Hacer (Do)",
+    "Verificar (Check)",
+    "Actuar (Act)"
+   ],
+   "e": "En Actuar se estandariza, se revisa la lista de problemas y se definen los siguientes; el ciclo vuelve a empezar. La figura del libro sale de ASIS ORM.1-2017."
+  }
+ }
+}

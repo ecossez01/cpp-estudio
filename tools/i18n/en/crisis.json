@@ -1,0 +1,406 @@
+{
+ "cards": {
+  "crisis-1-k0": {
+   "q": "Which area addresses the immediate impact of an event, such as putting out a fire or isolating the network during a cyberattack?",
+   "a": "Emergency management/response."
+  },
+  "crisis-1-k1": {
+   "q": "Which area is strategic and protects long-term viability and reputation?",
+   "a": "Crisis management."
+  },
+  "crisis-1-k2": {
+   "q": "Which area takes the organization from functioning during the crisis to operating normally after a disruption?",
+   "a": "Business continuity."
+  },
+  "crisis-1-k3": {
+   "q": "What umbrella term groups risk, security, and crisis programs today?",
+   "a": "Resilience."
+  },
+  "crisis-1-k4": {
+   "q": "What are the four cyclical phases of emergency management?",
+   "a": "Mitigation, preparedness, response, and recovery."
+  },
+  "crisis-1-k5": {
+   "q": "Bolting cabinets to the wall in a seismic zone corresponds to which phase?",
+   "a": "Mitigation."
+  },
+  "crisis-1-k6": {
+   "q": "Which phase may include reorienting strategic or operational objectives?",
+   "a": "Recovery (ASIS BCM 2021)."
+  },
+  "crisis-1-k7": {
+   "q": "Which document is cited to define preparedness?",
+   "a": "ANSI/ASIS PAP.1-2021."
+  },
+  "crisis-1-k8": {
+   "q": "When does crisis management begin?",
+   "a": "Upon notification of any disruptive event, physical or nonphysical."
+  },
+  "crisis-1-k9": {
+   "q": "Name three nonphysical events that trigger crisis management.",
+   "a": "Product recalls and regulatory, legal, or financial issues."
+  },
+  "crisis-1-k10": {
+   "q": "What is the ultimate goal of crisis management?",
+   "a": "To protect essential assets: reputation, brand, finances, trust, physical and intellectual property, and key relationships."
+  },
+  "crisis-1-k11": {
+   "q": "What does a healthy crisis management program prevent?",
+   "a": "A single functional area dominating it."
+  },
+  "crisis-1-k12": {
+   "q": "Why must every disruptive event be reported immediately to the CMT?",
+   "a": "Because decisions are made with limited information and time, and the CMT assesses whether it is a crisis or a routine incident."
+  },
+  "crisis-1-k13": {
+   "q": "Name the book's three continuity strategies.",
+   "a": "On-site recovery, outsourcing of functions, and relocation to other sites."
+  },
+  "crisis-1-k14": {
+   "q": "Which ISO standard sets requirements for a business continuity management system, and which British standard is ASIS/BSI BCM.01-2010 based on?",
+   "a": "ISO 22301:2019; BS 25999 Parts 1 and 2."
+  },
+  "crisis-2-k0": {
+   "q": "What is the logical starting point of any emergency or crisis response?",
+   "a": "Developing a plan."
+  },
+  "crisis-2-k1": {
+   "q": "Name the five functions of the plan according to ASIS BCM 2021.",
+   "a": "Define the crisis and scope; create the team; establish a method for resources; enter and exit crisis mode; test and maintain."
+  },
+  "crisis-2-k2": {
+   "q": "What does a large organization with multiple sites need?",
+   "a": "A general emergency operations plan (EOP) plus site-specific plans."
+  },
+  "crisis-2-k3": {
+   "q": "Who should be the emergency coordinator?",
+   "a": "A senior manager who handles emergencies routinely, such as the head of security or engineering."
+  },
+  "crisis-2-k4": {
+   "q": "Where is the coordinator's appointment documented?",
+   "a": "In the EOP and in a general program policy or statement."
+  },
+  "crisis-2-k5": {
+   "q": "Is a new organization created to manage emergencies?",
+   "a": "No; the existing organization is temporarily reconfigured."
+  },
+  "crisis-2-k6": {
+   "q": "At a minimum, which departments make up the support committee?",
+   "a": "Legal, personnel, medical, transportation, public relations, facilities engineering, IT, and security."
+  },
+  "crisis-2-k7": {
+   "q": "Why is it difficult to train and test primary members and alternates?",
+   "a": "It consumes time and resources, and management does not make it a priority."
+  },
+  "crisis-2-k8": {
+   "q": "What are the five common features of incident command systems?",
+   "a": "Command, operations, planning, logistics, and administrative/finance."
+  },
+  "crisis-2-k9": {
+   "q": "When public safety responds, who is usually the incident commander?",
+   "a": "The highest-ranking member of the responding agency."
+  },
+  "crisis-2-k10": {
+   "q": "Multiple agencies or jurisdictions: what does command look like?",
+   "a": "Collaborative, with a single command post (“single command” in the book; unified command in ICS)."
+  },
+  "crisis-2-k11": {
+   "q": "Why doesn't the CMT direct activities at the scene?",
+   "a": "Because its role is strategic; the incident management system operates at the scene."
+  },
+  "crisis-2-k12": {
+   "q": "What should the security professional do with public safety and the supply chain?",
+   "a": "Build relationships and conduct joint drills and exercises."
+  },
+  "crisis-2-k13": {
+   "q": "How are CMT members identified, and what information does the list include?",
+   "a": "By position, with a primary member and alternates; role, critical contact information, and alternate chains of command."
+  },
+  "crisis-2-k14": {
+   "q": "Which type of crisis team carries out instructions at the crisis location?",
+   "a": "The tactical crisis team."
+  },
+  "crisis-3-k0": {
+   "q": "What is the relationship between the business continuity team and the crisis management team?",
+   "a": "It is addressed separately and supports the crisis management team, which sits above it."
+  },
+  "crisis-3-k1": {
+   "q": "According to the ASIS BCM Guideline, what three criteria are used to recruit response teams?",
+   "a": "Skills, level of commitment, and vested interest."
+  },
+  "crisis-3-k2": {
+   "q": "What are continuity plans and procedures based on?",
+   "a": "The recovery objectives identified in the BIA."
+  },
+  "crisis-3-k3": {
+   "q": "How is the likelihood of a crisis incident estimated?",
+   "a": "By assessing the organization's changing profile and its existing security measures."
+  },
+  "crisis-3-k4": {
+   "q": "Which four vital records does the book identify as indispensable?",
+   "a": "Customer data, engineering data, manufacturing process data, and payroll and personnel data."
+  },
+  "crisis-3-k5": {
+   "q": "According to the chapter, what is the most important thing about planning?",
+   "a": "That it is an ongoing process that never ends as long as the plan exists."
+  },
+  "crisis-3-k6": {
+   "q": "Order the exercises from least to most mature.",
+   "a": "Orientation, tabletop, functional, full scale."
+  },
+  "crisis-3-k7": {
+   "q": "Which type of exercise involves police, fire, and emergency management?",
+   "a": "The full-scale exercise."
+  },
+  "crisis-3-k8": {
+   "q": "Who approves the exercise program, and who receives the written report?",
+   "a": "Senior management, in both cases."
+  },
+  "crisis-3-k9": {
+   "q": "According to ANSI/ASIS/RIMS RA.1-2015, into what steps is risk assessment divided?",
+   "a": "Risk identification, analysis, evaluation, and risk assessment reporting."
+  },
+  "crisis-3-k10": {
+   "q": "Which step compares the level of risk with the risk criteria?",
+   "a": "Risk evaluation."
+  },
+  "crisis-3-k11": {
+   "q": "What is the risk register?",
+   "a": "The compilation of all identified, analyzed, and evaluated risks."
+  },
+  "crisis-3-k12": {
+   "q": "After understanding the business and its risk environment, what is the first step of the risk life cycle?",
+   "a": "Identify and prioritize the assets to be protected."
+  },
+  "crisis-3-k13": {
+   "q": "Which method values an intangible asset based on estimated future income?",
+   "a": "The income method."
+  },
+  "crisis-3-k14": {
+   "q": "What is the difference between RPO and RTO?",
+   "a": "RPO: maximum tolerable data loss. RTO: maximum time to restore critical systems, within the maximum tolerable downtime."
+  },
+  "crisis-4-k0": {
+   "q": "Which planning approach suits an organization exposed to many types of threats and hazards?",
+   "a": "All-hazards: a common basic EOP plus hazard-specific checklists."
+  },
+  "crisis-4-k1": {
+   "q": "Why does the all-hazards approach work?",
+   "a": "Planning requirements are similar whether the threat is natural, human-caused, or an accident."
+  },
+  "crisis-4-k2": {
+   "q": "What sequence of exercise complexity does David H. Gilmore recommend?",
+   "a": "Paper → sand table → interactive → full-up."
+  },
+  "crisis-4-k3": {
+   "q": "In the priority list in 4.3.1, which priority is first and which is last?",
+   "a": "Protect human life · restore normal operations as soon as possible."
+  },
+  "crisis-4-k4": {
+   "q": "Under ESRM, who sets the priorities for asset protection and risk response?",
+   "a": "The business risk owners."
+  },
+  "crisis-4-k5": {
+   "q": "How long does a short-term evacuation last, and how long does an extended one last?",
+   "a": "Less than 1 hour · more than 1 hour."
+  },
+  "crisis-4-k6": {
+   "q": "How do you force people to practice using alternate exits?",
+   "a": "By blocking the main exit of a different floor or area in each drill, with a sign or a monitor."
+  },
+  "crisis-4-k7": {
+   "q": "When is shelter-in-place used?",
+   "a": "When evacuation is not possible or not advisable: HAZMAT release, tornado, active assailant, earthquake."
+  },
+  "crisis-4-k8": {
+   "q": "Who makes the final decision to reoccupy the site?",
+   "a": "The organization's management; emergency services only advise."
+  },
+  "crisis-4-k9": {
+   "q": "How do emergency communications and crisis communications differ?",
+   "a": "Technical capability to communicate vs. messaging and public response."
+  },
+  "crisis-4-k10": {
+   "q": "What is interoperability?",
+   "a": "The ability of different agencies and jurisdictions to communicate with one another by wireless means."
+  },
+  "crisis-4-k11": {
+   "q": "How long should you wait before redialing when the network is overloaded?",
+   "a": "10 seconds."
+  },
+  "crisis-4-k12": {
+   "q": "Where should at least one alternate EOC/CMC location be?",
+   "a": "In a different building from the one that houses the primary."
+  },
+  "crisis-4-k13": {
+   "q": "After hours, who may assume initial command?",
+   "a": "The highest-ranking official on site; this may be a manager, supervisor, or security officer."
+  },
+  "crisis-4-k14": {
+   "q": "What do the occupants of an office (a nonindustrial facility) do in a fire?",
+   "a": "They identify the problem, notify the authorities, and evacuate the area."
+  },
+  "crisis-5-k0": {
+   "q": "When does crisis management begin?",
+   "a": "Upon notification of any disruptive event, whether a physical emergency or a nonphysical event."
+  },
+  "crisis-5-k1": {
+   "q": "What are the five typical parts of a crisis plan?",
+   "a": "Crisis team · activation and escalation · command and succession · logistics and recovery resources · crisis communications."
+  },
+  "crisis-5-k2": {
+   "q": "Name the book's four examples of activation triggers.",
+   "a": "Imminent hurricane · fire or explosion · cyberattack · social media crisis."
+  },
+  "crisis-5-k3": {
+   "q": "When must executives be notified that the crisis team has been activated?",
+   "a": "Always, whether or not a crisis is declared."
+  },
+  "crisis-5-k4": {
+   "q": "Who is assigned control of vehicles in a crisis?",
+   "a": "A single person, with a designated alternate."
+  },
+  "crisis-5-k5": {
+   "q": "Why also look for resources farther away in a large-scale event?",
+   "a": "Because local resources may be overwhelmed."
+  },
+  "crisis-5-k6": {
+   "q": "Is crisis communications strategic or tactical?",
+   "a": "Strategic; tactics are only the tools (press releases, social media, website, town halls)."
+  },
+  "crisis-5-k7": {
+   "q": "What is “spin,” and why is it avoided?",
+   "a": "Minimizing the crisis and deflecting blame in the media; it almost never works, violates public relations standards, and erodes trust."
+  },
+  "crisis-5-k8": {
+   "q": "Is there a “general public” in a crisis?",
+   "a": "No; there are specific audiences, each with its own concerns."
+  },
+  "crisis-5-k9": {
+   "q": "What are the five elements of a crisis communications program?",
+   "a": "Planning · training · exercises · response · recovery."
+  },
+  "crisis-5-k10": {
+   "q": "Who is ultimately responsible for crisis communications?",
+   "a": "The Senior Communications Advisor/Lead, who sits with the senior management team."
+  },
+  "crisis-5-k11": {
+   "q": "What five steps does the CCT document for each scenario?",
+   "a": "Audiences · concerns · messages · spokesperson for each audience · delivery tactics."
+  },
+  "crisis-5-k12": {
+   "q": "How often are the CCT and spokespersons trained?",
+   "a": "Once a year."
+  },
+  "crisis-5-k13": {
+   "q": "When does planning for recovery communications begin?",
+   "a": "While the organization is still in response mode."
+  },
+  "crisis-5-k14": {
+   "q": "When are the names of the dead and injured released?",
+   "a": "As soon as possible, but after next of kin have been notified."
+  },
+  "crisis-6-k0": {
+   "q": "In a pandemic, which model does the book recommend instead of before/during/after?",
+   "a": "The 6 pandemic phases of the WHO (World Health Organization)."
+  },
+  "crisis-6-k1": {
+   "q": "What level of absenteeism is used as a planning assumption for a pandemic?",
+   "a": "Up to 40% of the workforce."
+  },
+  "crisis-6-k2": {
+   "q": "Which pandemic alert phase marks the start of the business continuity plan strategies?",
+   "a": "Phase 3."
+  },
+  "crisis-6-k3": {
+   "q": "In a winter storm, what minimum temperature is a building with vulnerable equipment kept at?",
+   "a": "Above 40°F (4°C)."
+  },
+  "crisis-6-k4": {
+   "q": "How much water is needed for personnel who stay on site during a hurricane?",
+   "a": "1 gallon per person per day, for 3 days."
+  },
+  "crisis-6-k5": {
+   "q": "After an earthquake, when is the gas shut off?",
+   "a": "Only if a leak is detected."
+  },
+  "crisis-6-k6": {
+   "q": "What two roles does security usually fill in a fire evacuation?",
+   "a": "Floor wardens and the person who staffs the fire alarm panel."
+  },
+  "crisis-6-k7": {
+   "q": "In a HAZMAT (hazardous materials) incident, which function is often overlooked on the crisis team?",
+   "a": "Public relations, in case the community is affected."
+  },
+  "crisis-6-k8": {
+   "q": "What are the stages of the pathway to violence?",
+   "a": "Ideation, planning, acquisition, probing/surveillance, and action/execution, starting from an unresolved grievance."
+  },
+  "crisis-6-k9": {
+   "q": "How is targeted violence described?",
+   "a": "Planned, emotionless, and predatory."
+  },
+  "crisis-6-k10": {
+   "q": "What is the difference between cover and concealment?",
+   "a": "Cover protects against gunfire (a full metal filing cabinet); concealment only hides you from view (a curtain)."
+  },
+  "crisis-6-k11": {
+   "q": "If someone gets hold of the attacker's weapon, what should they do?",
+   "a": "Not use it; secure it away from the attacker."
+  },
+  "crisis-6-k12": {
+   "q": "In a bomb threat, where are the evacuation zones located?",
+   "a": "Beyond the potential blast radius, and separate from the fire evacuation zones."
+  },
+  "crisis-6-k13": {
+   "q": "In most jurisdictions, who decides whether to evacuate in a bomb threat?",
+   "a": "The organization's management, unless a device is found."
+  },
+  "crisis-6-k14": {
+   "q": "What percentage of breaches does the book attribute to the human factor, and by how much did cybercrime rise with COVID-19 according to the FBI (Federal Bureau of Investigation)?",
+   "a": "95% and 300%."
+  },
+  "crisis-A-k0": {
+   "q": "What is a standard?",
+   "a": "A set of criteria, guidelines, and best practices for improving the quality and reliability of products, services, or processes."
+  },
+  "crisis-A-k1": {
+   "q": "What four principles are standards developed under?",
+   "a": "Consensus · openness · due process · transparency."
+  },
+  "crisis-A-k2": {
+   "q": "What distinguishes a voluntary standard from a statutory one?",
+   "a": "A voluntary standard is not legally binding; a statutory standard is binding and enforced by formal authorities."
+  },
+  "crisis-A-k3": {
+   "q": "When is a standard considered mixed?",
+   "a": "When a voluntary standard is incorporated into laws (fire, building, life safety) or is mandatory in practice (insurers, contracts)."
+  },
+  "crisis-A-k4": {
+   "q": "What are the most prominent management system standards?",
+   "a": "ISO 9001 (quality) and ISO 14001 (environmental)."
+  },
+  "crisis-A-k5": {
+   "q": "What is the operating principle of management system standards?",
+   "a": "The PDCA (Plan-Do-Check-Act) cycle, focused on continual improvement."
+  },
+  "crisis-A-k6": {
+   "q": "In which PDCA phase are solutions standardized across the organization?",
+   "a": "Act."
+  },
+  "crisis-A-k7": {
+   "q": "Which organization issues standards for locks, alarms, and access control?",
+   "a": "UL (Underwriters Laboratories)."
+  }
+ },
+ "ideas": {
+  "crisis-1": "Emergency management, crisis management, and business continuity are three distinct disciplines that are often used interchangeably. The first addresses the immediate impact; the second is strategic and protects viability and reputation; the third returns operations to normal. Together they make up the organization's resilience.",
+  "crisis-2": "Every response begins with a plan that defines the crisis, creates teams, provides for resources, manages entry into and exit from crisis mode, and is tested. The chapter explains the emergency response structure (coordinator, committee, alternates, incident command), coordination with external parties, and how to build the crisis management team.",
+  "crisis-3": "Business continuity plans document how each team recovers its part of the business after a disruption. They are based on the risk assessment and the business impact analysis (BIA). They must be tested through exercises and kept up to date at all times: planning never ends.",
+  "crisis-4": "A written plan is key to emergency preparedness, even if it does not cover every case. Developing it and training the team give the organization a framework for responding systematically. The chapter covers the plan's format, its priorities, its typical sections, and how to train on it and exercise it.",
+  "crisis-5": "Crisis management begins as soon as any disruptive event is reported, whether physical or nonphysical. The plan is tailored to each organization, provides a response for each type of crisis, and integrates crisis communications, which is strategic. Planning never ends: the plan is tested, revised, and tested again.",
+  "crisis-6": "The book groups crises into four threat families. The general business continuity and response plans apply to all of them, but each threat calls for its own specific actions. For each event, the chapter sets out what to do before, during, and after.",
+  "crisis-A": "A standard brings together criteria and best practices for improving quality and reliability; it can be voluntary, legally mandated, or mixed. Management system standards operate on the PDCA (Plan-Do-Check-Act) cycle. Appendix B is a reading list on continuity, emergencies, violence, and cybersecurity."
+ },
+ "quiz": {}
+}

@@ -1,0 +1,1965 @@
+{
+ "cards": {
+  "business-1-k0": {
+   "q": "What percentage of nonsupervisory employees do first-line managers supervise?",
+   "a": "About 93%."
+  },
+  "business-1-k1": {
+   "q": "According to Gallup, what matters most for productivity and loyalty?",
+   "a": "The employee–manager relationship."
+  },
+  "business-1-k2": {
+   "q": "Selecting managers for talent raises profitability by how much?",
+   "a": "48%."
+  },
+  "business-1-k3": {
+   "q": "Efficiency or effectiveness: which one may not be cheap?",
+   "a": "Effectiveness."
+  },
+  "business-1-k4": {
+   "q": "Who created scientific management, and when?",
+   "a": "Frederick Taylor, 1911."
+  },
+  "business-1-k5": {
+   "q": "Which skill is most required of top management?",
+   "a": "Conceptual skill."
+  },
+  "business-1-k6": {
+   "q": "Three characteristics of every organization?",
+   "a": "A distinct purpose, people, and a deliberate structure."
+  },
+  "business-1-k7": {
+   "q": "Five risk buckets of the 20th century?",
+   "a": "Strategic, financial, operational, compliance, and reputational."
+  },
+  "business-1-k8": {
+   "q": "The manager's stance versus the leader's?",
+   "a": "Reactive versus proactive."
+  },
+  "business-1-k9": {
+   "q": "Main criticism of trait theory?",
+   "a": "There is no universal list; it ignores the situation."
+  },
+  "business-1-k10": {
+   "q": "Appropriate style in a major disaster?",
+   "a": "Authoritarian."
+  },
+  "business-1-k11": {
+   "q": "Most common fatal flaw?",
+   "a": "Failing to learn from mistakes."
+  },
+  "business-1-k12": {
+   "q": "What makes up the Triple Bottom Line?",
+   "a": "People, planet, and profit."
+  },
+  "business-1-k13": {
+   "q": "Which power base is wrongly believed to explain everything?",
+   "a": "Coercive power."
+  },
+  "business-1-k14": {
+   "q": "Foundation of ethical leadership according to the book?",
+   "a": "Honesty."
+  },
+  "business-2-k0": {
+   "q": "Critical or creative thinking: which one is convergent?",
+   "a": "Critical thinking."
+  },
+  "business-2-k1": {
+   "q": "Which bias makes an investigator look only for evidence of guilt?",
+   "a": "Confirmation bias."
+  },
+  "business-2-k2": {
+   "q": "Which framing led people to accept surgery?",
+   "a": "“80% survival.”"
+  },
+  "business-2-k3": {
+   "q": "What is it called to persist with a plan that is getting worse?",
+   "a": "Escalation of commitment."
+  },
+  "business-2-k4": {
+   "q": "What kind of decision solves a well-structured problem?",
+   "a": "A programmatic decision."
+  },
+  "business-2-k5": {
+   "q": "Example of an ill-structured problem?",
+   "a": "Which candidate to hire."
+  },
+  "business-2-k6": {
+   "q": "Which style has a high tolerance for ambiguity?",
+   "a": "The conceptual style."
+  },
+  "business-2-k7": {
+   "q": "Under which condition are there no probability estimates?",
+   "a": "Uncertainty."
+  },
+  "business-2-k8": {
+   "q": "What is satisficing?",
+   "a": "Accepting what is “good enough.”"
+  },
+  "business-2-k9": {
+   "q": "Most important of the eight steps?",
+   "a": "Identifying the problem."
+  },
+  "business-2-k10": {
+   "q": "Which step wins commitment to execution?",
+   "a": "Step 7: communicate and implement."
+  },
+  "business-2-k11": {
+   "q": "Difference between Groupthink and Abilene?",
+   "a": "In Abilene, people act against their own preferences."
+  },
+  "business-2-k12": {
+   "q": "The book's example of the Abilene paradox?",
+   "a": "Deepwater Horizon."
+  },
+  "business-2-k13": {
+   "q": "When someone is 100% sure, how often are they right?",
+   "a": "About 80% of the time."
+  },
+  "business-3-k0": {
+   "q": "What is the difference between strategy and tactics?",
+   "a": "Strategy is the plan to reach the goal; tactics are the adaptive actions taken during the effort."
+  },
+  "business-3-k1": {
+   "q": "Asked for a strategy against workplace violence, security proposes a new access control. What is wrong?",
+   "a": "It is a tactic, not a coordinated plan."
+  },
+  "business-3-k2": {
+   "q": "When is the budget strategic?",
+   "a": "When it allocates resources according to objectives and goals that have already been set."
+  },
+  "business-3-k3": {
+   "q": "What are the five steps of the strategic management process?",
+   "a": "Vision-mission-values; objectives; formulate; execute; monitor and adjust."
+  },
+  "business-3-k4": {
+   "q": "What does the mission answer?",
+   "a": "Who we are, what we do, and why we are here."
+  },
+  "business-3-k5": {
+   "q": "Is “maximizing profits” a valid mission?",
+   "a": "No; profit is an objective."
+  },
+  "business-3-k6": {
+   "q": "Difference between an objective and a goal?",
+   "a": "The objective measures progress; the goal is the desired result."
+  },
+  "business-3-k7": {
+   "q": "Why do strategic objectives carry more weight than financial ones?",
+   "a": "Financial objectives are lagging indicators."
+  },
+  "business-3-k8": {
+   "q": "Name three limitations of SWOT.",
+   "a": "Subjectivity, omissions, and a single-point-in-time perspective."
+  },
+  "business-3-k9": {
+   "q": "Which two business strategies does the book distinguish?",
+   "a": "Cost leadership and differentiation."
+  },
+  "business-3-k10": {
+   "q": "Can security create competitive advantage?",
+   "a": "No; only the business as a whole can. Security contributes comparative advantage."
+  },
+  "business-3-k11": {
+   "q": "What is realized strategy?",
+   "a": "The strategy the company actually follows, after adapting the intended one."
+  },
+  "business-3-k12": {
+   "q": "What are the three tests of a winning strategy?",
+   "a": "Fitness, competitiveness, and performance (Walker 2011)."
+  },
+  "business-3-k13": {
+   "q": "What does VRIN stand for?",
+   "a": "Valuable, rare, inimitable, and nonsubstitutable (Barney and Hesterly 2015)."
+  },
+  "business-4-k0": {
+   "q": "Six sectors of the macroenvironment?",
+   "a": "Economic, demographic, sociocultural, political-legal, technological, and international-global (Walker 2011)."
+  },
+  "business-4-k1": {
+   "q": "Many firms, non-homogeneous products, and cheap entry?",
+   "a": "Monopolistic competition."
+  },
+  "business-4-k2": {
+   "q": "What defines an oligopoly?",
+   "a": "Few firms, homogeneous products, and high entry and exit costs."
+  },
+  "business-4-k3": {
+   "q": "When is there a recession?",
+   "a": "Negative GDP for two or more consecutive quarters."
+  },
+  "business-4-k4": {
+   "q": "GDP versus GNP?",
+   "a": "GNP adds the net activity of nationals abroad."
+  },
+  "business-4-k5": {
+   "q": "Stages of the business cycle?",
+   "a": "Expansion, peak, contraction, and trough."
+  },
+  "business-4-k6": {
+   "q": "Strongest force according to the book?",
+   "a": "Rivalry."
+  },
+  "business-4-k7": {
+   "q": "Name four barriers to entry.",
+   "a": "Economies of scale, brand loyalty, patents, network effects."
+  },
+  "business-4-k8": {
+   "q": "What puts a ceiling on prices?",
+   "a": "Readily available, inexpensive substitutes."
+  },
+  "business-4-k9": {
+   "q": "What are slotting fees?",
+   "a": "Payments from manufacturers to supermarkets for shelf space."
+  },
+  "business-4-k10": {
+   "q": "How many strong forces make an industry unattractive?",
+   "a": "Three or more."
+  },
+  "business-4-k11": {
+   "q": "Last step of the strategic group map?",
+   "a": "Circles proportional to share of sales."
+  },
+  "business-4-k12": {
+   "q": "Dimensions of competitor analysis?",
+   "a": "Current strategy, objectives, resources and capabilities, assumptions."
+  },
+  "business-4-k13": {
+   "q": "How many KSFs does an industry usually have?",
+   "a": "Three to five."
+  },
+  "business-5-k0": {
+   "q": "Which four tests make up VRIN?",
+   "a": "Valuable, rare, inimitable, and nonsubstitutable; all four are required."
+  },
+  "business-5-k1": {
+   "q": "Why doesn't the iPhone pass VRIN?",
+   "a": "Because it can be substituted by cheaper smartphones."
+  },
+  "business-5-k2": {
+   "q": "Resource or capability?",
+   "a": "A resource is an asset that is owned; a capability is the learned ability to perform an activity well."
+  },
+  "business-5-k3": {
+   "q": "What is tacit knowledge?",
+   "a": "Uncodified skills that are passed on through practice."
+  },
+  "business-5-k4": {
+   "q": "What distinguishes a core competence?",
+   "a": "It is central to the strategy and to competitive success."
+  },
+  "business-5-k5": {
+   "q": "What is a dynamic capability?",
+   "a": "The ability to modify, deepen, or expand resources and capabilities."
+  },
+  "business-5-k6": {
+   "q": "What type of activity is security?",
+   "a": "A support activity; it must demonstrate value to a primary activity."
+  },
+  "business-5-k7": {
+   "q": "In Figure 5.3, total cost and final price?",
+   "a": "$7.34 and $9.99, with a $2.65 margin."
+  },
+  "business-5-k8": {
+   "q": "What do courts use in negligent security cases?",
+   "a": "The industry's “reasonable and ordinary” practices."
+  },
+  "business-5-k9": {
+   "q": "What share of McDonald's sales comes from the drive-through?",
+   "a": "Almost 70%."
+  },
+  "business-5-k10": {
+   "q": "Third step of the competitive strength assessment?",
+   "a": "Rate each competitor and multiply by the weight."
+  },
+  "business-5-k11": {
+   "q": "What is competitive parity?",
+   "a": "Matching a competitor or the industry average."
+  },
+  "business-6-k0": {
+   "q": "Which two factors distinguish competitive strategies?",
+   "a": "A broad or narrow market, and an advantage based on cost or on differentiation."
+  },
+  "business-6-k1": {
+   "q": "Which strategy is a hybrid and the hardest to execute?",
+   "a": "The best-cost provider strategy."
+  },
+  "business-6-k2": {
+   "q": "How much did labor per airplane fall when production doubled?",
+   "a": "20% (Boston Consulting Group 1970)."
+  },
+  "business-6-k3": {
+   "q": "How does the learning curve differ from economies of scale?",
+   "a": "It relates cumulative volume to unit cost; costs fall until they reach the technical minimum."
+  },
+  "business-6-k4": {
+   "q": "What is a variable cost?",
+   "a": "A cost that changes in proportion to output, such as raw materials and packaging."
+  },
+  "business-6-k5": {
+   "q": "What share of the final price is usually due to the distributor?",
+   "a": "30 to 50%."
+  },
+  "business-6-k6": {
+   "q": "With 1,000 units at $10 and a cost of $9, if the price drops to $9.50, how many units are needed to match the profit?",
+   "a": "2,000, which is 100% more."
+  },
+  "business-6-k7": {
+   "q": "What are the three basic pitfalls of low cost?",
+   "a": "Aggressive cutting, easily copied methods, and an obsession with costs."
+  },
+  "business-6-k8": {
+   "q": "What is the least obvious route to differentiation?",
+   "a": "Lowering the buyer's total cost of use."
+  },
+  "business-6-k9": {
+   "q": "What is the deadliest pitfall of differentiation?",
+   "a": "An excessive price premium."
+  },
+  "business-6-k10": {
+   "q": "What is overdifferentiating?",
+   "a": "Offering more than the buyer needs, which raises the price."
+  },
+  "business-6-k11": {
+   "q": "What question must security answer when requesting resources?",
+   "a": "Considering the costs, how it helps achieve the goals."
+  },
+  "business-7-k0": {
+   "q": "What are the three tests of corporate advantage?",
+   "a": "Attractiveness, cost of entry, and better-off; all three must be passed."
+  },
+  "business-7-k1": {
+   "q": "What percentage of M&A fails (Martin, 2016)?",
+   "a": "Between 70% and 90%."
+  },
+  "business-7-k2": {
+   "q": "What average premium was paid over the last decade?",
+   "a": "About 25% over the valuation."
+  },
+  "business-7-k3": {
+   "q": "Which entry mode is the least durable?",
+   "a": "The JV."
+  },
+  "business-7-k4": {
+   "q": "Which four questions guide the choice of entry mode?",
+   "a": "Resources, barriers, speed, and cost."
+  },
+  "business-7-k5": {
+   "q": "If speed is critical, which mode is best?",
+   "a": "Acquisition."
+  },
+  "business-7-k6": {
+   "q": "What differentiates economies of scope from economies of scale?",
+   "a": "Scope: multiple businesses. Scale: larger size."
+  },
+  "business-7-k7": {
+   "q": "What type of resource is security?",
+   "a": "General; it is not enough to justify related diversification."
+  },
+  "business-7-k8": {
+   "q": "A 40% share versus the rival's 30%: relative share?",
+   "a": "1.33; the rival's is 0.75."
+  },
+  "business-7-k9": {
+   "q": "What ideal sequence do portfolio businesses follow?",
+   "a": "Cash hog, star, cash cow."
+  },
+  "business-7-k10": {
+   "q": "What are the four wrong reasons for unrelated diversification?",
+   "a": "Risk, growth, stability, and managerial motives."
+  },
+  "business-7-k11": {
+   "q": "What question guides divestiture?",
+   "a": "If we were not already here today, would we enter?"
+  },
+  "business-8-k0": {
+   "q": "Which attitude uses the best approach and the best people from around the world?",
+   "a": "Geocentric."
+  },
+  "business-8-k1": {
+   "q": "What are the four factors of the diamond of national competitive advantage?",
+   "a": "Demand; factors; related and supporting industries; strategy, structure, and rivalry."
+  },
+  "business-8-k2": {
+   "q": "A product costs 4 reais and the exchange rate moves from 4 to 5 reais per euro. How much does it cost in euros?",
+   "a": "0.80 euros; favorable to the Brazilian exporter."
+  },
+  "business-8-k3": {
+   "q": "Is a weak dollar favorable for plants in the U.S.?",
+   "a": "Yes: more competitiveness, exports, and profits."
+  },
+  "business-8-k4": {
+   "q": "Which entry option is the most conservative and requires the least capital?",
+   "a": "Exporting."
+  },
+  "business-8-k5": {
+   "q": "What is the major disadvantage of licensing?",
+   "a": "Giving away valuable know-how and losing control over its use."
+  },
+  "business-8-k6": {
+   "q": "Why does a franchisor turn to security?",
+   "a": "To evaluate franchisees, locations, and suppliers; quality; fraud."
+  },
+  "business-8-k7": {
+   "q": "What is the slowest entry route?",
+   "a": "A greenfield venture."
+  },
+  "business-8-k8": {
+   "q": "Which strategy is “think global, act local”?",
+   "a": "Transnational."
+  },
+  "business-8-k9": {
+   "q": "When is a multidomestic strategy appropriate?",
+   "a": "When the need for local responsiveness is high and there is little to be saved by standardizing."
+  },
+  "business-8-k10": {
+   "q": "What is a profit sanctuary?",
+   "a": "A highly profitable market due to a strong or protected position."
+  },
+  "business-8-k11": {
+   "q": "What is it called to fund an offensive with profits from another market?",
+   "a": "Cross-market subsidization."
+  },
+  "business-8-k12": {
+   "q": "What percentage of oil and gas reserves is in state hands?",
+   "a": "65%; only 7% is open to private companies."
+  },
+  "business-8-k13": {
+   "q": "How much can exchange rates vary in a year?",
+   "a": "Between 20 and 40%."
+  },
+  "business-8-k14": {
+   "q": "Which local company defended itself with an acquisition?",
+   "a": "Lenovo, by buying IBM's PC business."
+  },
+  "business-9-k0": {
+   "q": "Why do strategies fail most often?",
+   "a": "Because of poor execution, not poor formulation."
+  },
+  "business-9-k1": {
+   "q": "What are the two best signs of good execution?",
+   "a": "Meeting or beating goals and performing the value chain with operational excellence."
+  },
+  "business-9-k2": {
+   "q": "What did the study of 400 CEOs (Sull, Homkes, and Sull, 2015) reveal?",
+   "a": "That execution excellence was their top challenge."
+  },
+  "business-9-k3": {
+   "q": "What are the first three execution tasks?",
+   "a": "Staffing, building resources and capabilities, and creating a supportive structure."
+  },
+  "business-9-k4": {
+   "q": "When is it common to bring in managers from outside?",
+   "a": "In turnarounds, during rapid growth, or when in-house know-how is lacking."
+  },
+  "business-9-k5": {
+   "q": "What is a stretch objective?",
+   "a": "A demanding goal that requires extra effort but is achievable; otherwise, it demotivates."
+  },
+  "business-9-k6": {
+   "q": "What are the three approaches to building capabilities?",
+   "a": "Internal development, mergers and acquisitions, and collaborative partnerships."
+  },
+  "business-9-k7": {
+   "q": "What is the main advantage of acquiring capabilities?",
+   "a": "Speed."
+  },
+  "business-9-k8": {
+   "q": "What lesson does the Starbucks and Kraft case teach?",
+   "a": "Learning from the partner and breaking away cost 2.75 billion, but Starbucks gained freedom and more than 20% of the pod market."
+  },
+  "business-9-k9": {
+   "q": "How much do corporate universities spend?",
+   "a": "More than 4,000 companies spend more than $370 billion a year."
+  },
+  "business-9-k10": {
+   "q": "Why does execution capability provide competitive advantage?",
+   "a": "It is socially complex, slow to build, and hard to imitate."
+  },
+  "business-9-k11": {
+   "q": "What are the four types of structure according to Mintzberg (1979)?",
+   "a": "Simple (the most common), functional, multidivisional, and matrix."
+  },
+  "business-9-k12": {
+   "q": "What problem does a matrix create for a field security manager?",
+   "a": "Dual reporting, to the division and to the CSO, with conflicts and divided loyalty."
+  },
+  "business-10-k0": {
+   "q": "Which two resource allocation errors does the chapter point out?",
+   "a": "Underfunding and overfunding units."
+  },
+  "business-10-k1": {
+   "q": "What are the three ways in which policies facilitate execution?",
+   "a": "Top-down guidance, consistency, and a favorable work climate."
+  },
+  "business-10-k2": {
+   "q": "What is the \"Goldilocks Moment\"?",
+   "a": "Enough policies to provide direction and boundaries, with freedom within them."
+  },
+  "business-10-k3": {
+   "q": "What role does security play in policies?",
+   "a": "Reviewing, drafting, establishing, executing, and enforcing them."
+  },
+  "business-10-k4": {
+   "q": "Why adapt rather than adopt best practices?",
+   "a": "Every company is unique; adapting them builds credibility with management."
+  },
+  "business-10-k5": {
+   "q": "Define business process reengineering.",
+   "a": "Radical redesign of an activity to achieve quantum-leap improvements (Hammer and Champy 1993)."
+  },
+  "business-10-k6": {
+   "q": "How do reengineering and TQM or Six Sigma differ?",
+   "a": "The former can be applied by a single manager; the others require a company-wide philosophy and are incremental."
+  },
+  "business-10-k7": {
+   "q": "What five areas do information systems cover?",
+   "a": "Customers, operations, employees, suppliers or partners, and finances."
+  },
+  "business-10-k8": {
+   "q": "What minimum percentage of base salary should a bonus be?",
+   "a": "10–15%; 20% or more draws a lot of attention; less than 5% motivates little."
+  },
+  "business-10-k9": {
+   "q": "Why not reward effort?",
+   "a": "Valuable results are what get rewarded; blaming the environment is admitting poor planning."
+  },
+  "business-10-k10": {
+   "q": "What could a retail security director's incentive be tied to?",
+   "a": "Reducing theft-related shrink."
+  },
+  "business-10-k11": {
+   "q": "What is forced ranking?",
+   "a": "Ranking employees from best to worst and asking those at the bottom to leave."
+  },
+  "business-10-k12": {
+   "q": "What are Conn and McLean's (2020) six mindsets?",
+   "a": "Curiosity, imperfectionism, dragonfly eye, occurrent behavior, collective intelligence, and show and tell."
+  },
+  "business-11-k0": {
+   "q": "How does the book define corporate culture?",
+   "a": "The values, attitudes, beliefs, and traditions that set norms of behavior, accepted practices, and the style of operating."
+  },
+  "business-11-k1": {
+   "q": "Which of the 10 tasks does this chapter cover?",
+   "a": "Task 9 (a supportive culture) and Task 10 (strong leadership)."
+  },
+  "business-11-k2": {
+   "q": "What does security learn from Apple's culture?",
+   "a": "Different codes for each part of a project compartmentalize leaks and help identify those responsible."
+  },
+  "business-11-k3": {
+   "q": "What are the two roles of values and ethics?",
+   "a": "Creating shared convictions and guiding which behaviors are acceptable."
+  },
+  "business-11-k4": {
+   "q": "What two results does a strong culture produce?",
+   "a": "Shared values (those who don't fit in leave) and strong peer pressure (Deal and Kennedy 1999)."
+  },
+  "business-11-k5": {
+   "q": "What factors favor a strong culture according to Sathe (1985)?",
+   "a": "Leadership continuity, low turnover, geographic concentration, and considerable success."
+  },
+  "business-11-k6": {
+   "q": "Is every strong culture healthy?",
+   "a": "No; if it clashes with the strategy, it is an obstacle."
+  },
+  "business-11-k7": {
+   "q": "What can shape behavior more than financial incentives?",
+   "a": "Group norms and peer pressure."
+  },
+  "business-11-k8": {
+   "q": "What two traits sustain an adaptive culture (Kanter 2008)?",
+   "a": "Not compromising core values and satisfying the legitimate interests of key stakeholders."
+  },
+  "business-11-k9": {
+   "q": "Name the five types of unhealthy culture.",
+   "a": "Change-resistant, politicized, insular, unethical and greed-driven, and with clashing subcultures."
+  },
+  "business-11-k10": {
+   "q": "What factor distinguishes a successful culture change?",
+   "a": "Capable leadership at the top, especially the CEO (Hout and Carter 1995)."
+  },
+  "business-11-k11": {
+   "q": "Give an example of symbolic action in a low-cost strategy.",
+   "a": "Nucor executives flying coach and taking taxis."
+  },
+  "business-11-k12": {
+   "q": "What three actions does leading execution require (Montgomery 2008)?",
+   "a": "Monitoring, exerting constructive pressure, and correcting."
+  },
+  "business-11-k13": {
+   "q": "What are the three tests of good strategic leadership?",
+   "a": "Good strategy, competent execution, and goals achieved."
+  },
+  "business-12-k0": {
+   "q": "What distinguishes traditional budgeting from zero-based budgeting?",
+   "a": "The traditional budget adjusts the previous year's; zero-based budgeting justifies everything from scratch."
+  },
+  "business-12-k1": {
+   "q": "Why can zero-based budgeting hurt security?",
+   "a": "It favors primary activities with a tangible return."
+  },
+  "business-12-k2": {
+   "q": "Which budget is the basis for operating budgets?",
+   "a": "The master budget."
+  },
+  "business-12-k3": {
+   "q": "Are insurance and raw materials fixed or variable costs?",
+   "a": "Insurance, fixed; raw materials, variable."
+  },
+  "business-12-k4": {
+   "q": "Which statement is a “snapshot” on a given date?",
+   "a": "The balance sheet."
+  },
+  "business-12-k5": {
+   "q": "Balance sheet equation?",
+   "a": "Assets = liabilities + shareholders' equity."
+  },
+  "business-12-k6": {
+   "q": "Three categories of the cash flow statement?",
+   "a": "Operating, investing, and financing."
+  },
+  "business-12-k7": {
+   "q": "Cash $25,000, equivalents $100,000, accounts payable $30,000, short-term debt $25,000. Cash ratio?",
+   "a": "125,000 ÷ 55,000 = 2.27."
+  },
+  "business-12-k8": {
+   "q": "Caterpillar 2014: operating margin?",
+   "a": "5,328 ÷ 55,184 × 100 ≈ 9.7%."
+  },
+  "business-12-k9": {
+   "q": "What does an operating cash flow ratio below 1.0 indicate?",
+   "a": "Operations do not cover short-term liabilities."
+  },
+  "business-12-k10": {
+   "q": "Why prefer IRR over ROI for long projects?",
+   "a": "It accounts for the time value of money."
+  },
+  "business-12-k11": {
+   "q": "IRR lower than the hurdle rate: what is decided?",
+   "a": "Reject the project."
+  },
+  "business-12-k12": {
+   "q": "What ROE is acceptable and what ROE is poor?",
+   "a": "Around 14% is acceptable; under 10% is poor."
+  },
+  "business-12-k13": {
+   "q": "Which ratio is best for comparing against the industry?",
+   "a": "Operating margin."
+  },
+  "business-12-k14": {
+   "q": "When does analysis paralysis occur?",
+   "a": "Overwhelming options, overcomplicating, seeking perfection, fear of making mistakes."
+  },
+  "business-A-k0": {
+   "q": "With what four principles are standards developed?",
+   "a": "Consensus, openness, due process, and transparency."
+  },
+  "business-A-k1": {
+   "q": "What distinguishes a legal standard from a voluntary one?",
+   "a": "A legal standard is binding by law and is enforced by formal authorities."
+  },
+  "business-A-k2": {
+   "q": "If an insurer sets the premium based on standardized practices, what type of standard is it?",
+   "a": "Hybrid: voluntary in theory, mandatory in practice."
+  },
+  "business-A-k3": {
+   "q": "Which body issues standards for locks, alarms, and access control?",
+   "a": "Underwriters Laboratories (UL)."
+  },
+  "business-A-k4": {
+   "q": "What are the most prominent management system standards?",
+   "a": "ISO 9001 (quality) and ISO 14001 (environmental)."
+  },
+  "business-A-k5": {
+   "q": "What is the operating principle of management system standards?",
+   "a": "The PDCA cycle."
+  },
+  "business-A-k6": {
+   "q": "In which PDCA phase are solutions standardized across the organization?",
+   "a": "Act."
+  },
+  "business-A-k7": {
+   "q": "Which standard does Figure A.1 come from?",
+   "a": "ASIS ORM.1-2017."
+  }
+ },
+ "ideas": {
+  "business-1": "Managing is achieving goals through others, using resources efficiently and effectively. Leading is inspiring, making the goals one's own, and changing what people believe is possible. They are distinct but complementary activities, and the security professional needs both.",
+  "business-2": "Decision making is choosing among alternatives to solve a problem. Good decisions come from critical thinking, which must overcome biases, misused heuristics, and group dysfunctions. The book proposes an eight-step process (Walker 2010) and warns about the limits of big data and artificial intelligence.",
+  "business-3": "Strategy is a set of goal-oriented plans and actions for competing differently from rivals. It comes from a strategic management process that runs from vision to evaluation and adaptation. Security does not set corporate strategy, but it must align its own strategy with it and not confuse it with tactics.",
+  "business-4": "Before choosing a strategy, the external environment must be diagnosed: the macroenvironment and the industry with its competition. The tools are the six sectors of the macroenvironment, the five forces, strategic groups, competitor analysis, and key success factors. It all ends in a judgment about the industry's attractiveness.",
+  "business-5": "Internal analysis shows whether the strategy can provide an advantage over rivals. It is based on resources, capabilities, the value chain, benchmarking, and competitive strength assessment. For security, understanding the value chain is the way to demonstrate value and obtain resources.",
+  "business-6": "Business-level strategy defines how the company competes in a single market or industry. There are five generic strategies, depending on whether the company seeks low cost or differentiation, and a broad market or a niche. Security must understand which one its company chose in order to justify its resources.",
+  "business-7": "Corporate strategy decides which businesses, industries, and markets a multibusiness company competes in and how to grow with that portfolio. Diversification is justified only if it creates long-term economic value and passes three tests. Related diversification usually creates more value than unrelated diversification.",
+  "business-8": "Going abroad brings customers, lower costs, and new resources, but it complicates strategy. The chapter explains why and how to enter, which international approach to choose, and how to gain an advantage. It closes with recent threats that broaden security's role.",
+  "business-9": "Formulating strategy is analytical work; executing it is operational and revolves around people, processes, and structure. Strategies fail mainly because of poor execution. The chapter covers the first three of ten tasks: staffing, building resources and capabilities, and designing a structure that supports the strategy.",
+  "business-10": "Executing strategy well requires managing five internal levers: resources, policies, best practices and processes, information systems, and rewards. All of them must be aligned with the strategy and supported by objective data. The chapter closes with lessons for managing during and after the COVID-19 pandemic.",
+  "business-11": "Corporate culture can be the best ally or the biggest obstacle to executing strategy. The manager must identify it, align it with the strategy, and change it if it is harmful. The manager must also personally lead execution: monitor, apply constructive pressure, and correct.",
+  "business-12": "The security professional does not need to be a finance expert but must speak the “language of business” to compete for resources. The chapter reviews budgets, financial statements, key financial ratios, and two nonfinancial measures. Whoever argues better with numbers gets more budget.",
+  "business-A": "Standards can be voluntary, legal, or hybrid, and they help protect assets and build resilience. Management system standards revolve around the Plan-Do-Check-Act cycle."
+ },
+ "quiz": {
+  "business-1-q0": {
+   "q": "First-line managers supervise approximately what percentage of all nonsupervisory employees?",
+   "o": [
+    "50%",
+    "75%",
+    "93%",
+    "99%"
+   ],
+   "e": "The book places first-line management as the lowest managerial level, which supervises about 93% of nonsupervisory employees."
+  },
+  "business-1-q1": {
+   "q": "According to Gallup studies, which factor matters most for employee productivity and loyalty?",
+   "o": [
+    "Pay",
+    "The employee–manager relationship",
+    "Benefits",
+    "The physical work environment"
+   ],
+   "e": "Gallup concludes that the relationship with the manager matters more than pay, benefits, or environment. That is why people usually leave because of their boss."
+  },
+  "business-1-q2": {
+   "q": "Which of these concepts is defined as achieving the intended result, even though it is not always cheap?",
+   "o": [
+    "Efficiency",
+    "Productivity",
+    "Effectiveness",
+    "Benchmarking"
+   ],
+   "e": "Effectiveness is meeting the goal. Efficiency is the maximum output with the minimum input. They are not mutually exclusive."
+  },
+  "business-1-q3": {
+   "q": "Who proposed scientific management and the idea of the “one best way”?",
+   "o": [
+    "Henri Fayol",
+    "Frederick Taylor, 1911",
+    "Peter Drucker",
+    "Luther Gulick, 1937"
+   ],
+   "e": "Taylor, a mechanical engineer, published in 1911. Fayol contributed the basic management functions that are summarized today in PODSCORB."
+  },
+  "business-1-q4": {
+   "q": "In the acronym PODSCORB, which function does the letter R stand for?",
+   "o": [
+    "Recruiting",
+    "Rewarding",
+    "Reporting",
+    "Reviewing"
+   ],
+   "e": "Planning, Organizing, Directing, Staffing, Coordinating, Reporting, Budgeting. Recruiting falls under Staffing."
+  },
+  "business-1-q5": {
+   "q": "Which skill is most required of top management?",
+   "o": [
+    "Technical",
+    "Conceptual",
+    "Interpersonal",
+    "Operational"
+   ],
+   "e": "Conceptual skill (seeing the whole organization, thinking abstractly) matters at all levels, but especially at the top. Technical skill matters more at lower levels."
+  },
+  "business-1-q6": {
+   "q": "Compared with the leader, what stance does the book attribute to the manager?",
+   "o": [
+    "Proactive",
+    "Reactive",
+    "Transformational",
+    "Charismatic"
+   ],
+   "e": "The manager is reactive and has impersonal goals; the leader is proactive and makes the goals their own."
+  },
+  "business-1-q7": {
+   "q": "A security manager must coordinate the response to a major disaster. Which leadership style is most appropriate according to the book?",
+   "o": [
+    "Democratic",
+    "Laissez-faire",
+    "Authoritarian",
+    "Situational without direction"
+   ],
+   "e": "The authoritarian style is efficient and productive in a crisis. Its cost is that it stunts development and creates dependency if it is always used."
+  },
+  "business-1-q8": {
+   "q": "Which fatal flaw derails leaders the most?",
+   "o": [
+    "Lack of initiative",
+    "Being closed to new ideas",
+    "Lack of accountability",
+    "Failing to learn from mistakes"
+   ],
+   "e": "The book identifies it as the biggest cause of failure, due to mental sluggishness or arrogance."
+  },
+  "business-1-q9": {
+   "q": "Which power base is wrongly believed to explain everything?",
+   "o": [
+    "Expert",
+    "Referent",
+    "Coercive",
+    "Legitimate"
+   ],
+   "e": "The common mistake is believing that the power to sanction is enough. Expert power is essential, and without referent and reward power there is no success."
+  },
+  "business-2-q0": {
+   "q": "Which trait belongs to critical thinking as opposed to creative thinking?",
+   "o": [
+    "Divergent",
+    "Generative",
+    "Convergent",
+    "Suspends judgment"
+   ],
+   "e": "Critical thinking is analytical and convergent, and it makes judgments to produce a solution. Creative thinking is divergent and produces ideas."
+  },
+  "business-2-q1": {
+   "q": "A security investigator has indications of guilt and discards the evidence pointing to innocence. Which bias is the investigator committing?",
+   "o": [
+    "Anchoring effect",
+    "Confirmation bias",
+    "Recency effect",
+    "Attribution error"
+   ],
+   "e": "Looking only for what confirms a prior idea is confirmation bias; the book calls it the one that gets in the way the most."
+  },
+  "business-2-q2": {
+   "q": "With “80% survival,” most people accept surgery; with “20% death,” most reject it. Which bias does this illustrate?",
+   "o": [
+    "Framing effect",
+    "Overconfidence",
+    "Selective perception",
+    "Hindsight bias"
+   ],
+   "e": "The data are the same; only the way they are presented changes (Pfeffer and Sutton 2006)."
+  },
+  "business-2-q3": {
+   "q": "A security professional doubles down on a plan despite increasingly worse results. What is this called?",
+   "o": [
+    "Satisficing",
+    "Abilene paradox",
+    "Escalation of commitment",
+    "Selectivity error"
+   ],
+   "e": "It is the same pattern as the casino gambler or the investor who keeps betting on what is losing."
+  },
+  "business-2-q4": {
+   "q": "A routine access control violation is a well-structured problem. What type of decision does it call for?",
+   "o": [
+    "Nonprogrammed",
+    "Programmatic",
+    "Conceptual",
+    "Under uncertainty"
+   ],
+   "e": "Well-structured problems are solved with rules, policies, and guidelines: programmatic decisions. Choosing which candidate to hire would be ill-structured."
+  },
+  "business-2-q5": {
+   "q": "Under which decision-making condition are there no probability estimates?",
+   "o": [
+    "Certainty",
+    "Risk",
+    "Uncertainty",
+    "Bounded rationality"
+   ],
+   "e": "Uncertainty is the most difficult. Risk is the most common (the probability of failure is estimated). Certainty is the most rational and the least realistic."
+  },
+  "business-2-q6": {
+   "q": "What is satisficing?",
+   "o": [
+    "Seeking the optimal solution with all the information",
+    "Accepting a “good enough” solution that addresses what is most urgent",
+    "Delegating the decision to the group",
+    "Deciding by intuition without data"
+   ],
+   "e": "It goes hand in hand with bounded rationality: not all the information can be gathered in time."
+  },
+  "business-2-q7": {
+   "q": "Of the eight steps of the decision-making process (Walker 2010), which is the most important?",
+   "o": [
+    "Identifying the problem",
+    "Developing alternatives",
+    "Communicating and implementing",
+    "Evaluating effectiveness"
+   ],
+   "e": "Everything starts with detecting the gap between the current situation and the desired one. Step 7 is the one that wins commitment to execution."
+  },
+  "business-2-q8": {
+   "q": "What distinguishes the Abilene paradox from groupthink?",
+   "o": [
+    "In Abilene, the group overestimates its morality",
+    "In Abilene, members act against their own preferences out of anxiety",
+    "In Abilene, there is a devil's advocate",
+    "There is no difference; they are synonyms"
+   ],
+   "e": "In groupthink, members are satisfied with the decision. In Abilene, they stay silent for fear of “rocking the boat”; the book's example is Deepwater Horizon."
+  },
+  "business-2-q9": {
+   "q": "According to Campbell, Whitehead, and Finkelstein (2009), how often is someone who claims to be 100% sure actually right?",
+   "o": [
+    "Less than half the time",
+    "About 65%",
+    "About 80%",
+    "About 95%"
+   ],
+   "e": "With 65–75% stated confidence, people are right less than half the time. Overconfidence is the most common judgment problem."
+  },
+  "business-3-q0": {
+   "q": "Security is asked for a strategy against workplace violence and proposes only a new access control. What is wrong?",
+   "o": [
+    "Nothing; it is a complete strategy",
+    "It is a tactic, not a coordinated plan",
+    "It should have proposed a budget",
+    "It should have done a SWOT first"
+   ],
+   "e": "An isolated policy or control is a tactic. Together, they form a strategy if they make up a coordinated plan with a purpose, roles, and support for the goals."
+  },
+  "business-3-q1": {
+   "q": "When is a budget strategic?",
+   "o": [
+    "When the board approves it",
+    "When it grows compared with the previous year",
+    "When it allocates resources according to objectives and goals that have already been set",
+    "When it covers more than one year"
+   ],
+   "e": "The correct order is objectives and goals, then strategies, then the budget."
+  },
+  "business-3-q2": {
+   "q": "What does the mission statement answer?",
+   "o": [
+    "Where we are going",
+    "Who we are, what we do, and why we are here",
+    "What behaviors we expect from staff",
+    "How we will measure progress"
+   ],
+   "e": "The vision is “where we are going”; the values, the expected behaviors; the objectives, the measure of progress."
+  },
+  "business-3-q3": {
+   "q": "Is “maximizing profits” a valid mission?",
+   "o": [
+    "Yes, it is the mission of every private company",
+    "Yes, if it is quantified",
+    "No; making money is an objective, not a mission",
+    "No; it is a core value"
+   ],
+   "e": "The mission explains why the company exists. Making money is an objective."
+  },
+  "business-3-q4": {
+   "q": "What is the difference between an objective and a goal according to the book?",
+   "o": [
+    "The objective is long-term and the goal is short-term",
+    "The objective measures progress; the goal is the desired result",
+    "They are synonyms",
+    "The goal is measurable and the objective is not"
+   ],
+   "e": "Vision, mission, and values are broad; objectives are specific and measurable, and they measure progress toward the goal."
+  },
+  "business-3-q5": {
+   "q": "Why do strategic objectives carry more weight than financial ones?",
+   "o": [
+    "Because financial objectives are lagging indicators",
+    "Because financial objectives cannot be measured",
+    "Because strategic objectives are set by the board",
+    "Because financial objectives are always short-term"
+   ],
+   "e": "Financial objectives show what has already happened; strategic objectives are leading indicators."
+  },
+  "business-3-q6": {
+   "q": "Which is NOT one of the limitations of SWOT analysis that the book cites?",
+   "o": [
+    "Subjectivity",
+    "Omissions",
+    "It is a snapshot of a single moment",
+    "It analyzes only the external environment"
+   ],
+   "e": "SWOT covers the internal (strengths, weaknesses) and the external (opportunities, threats). One done 3–6 months ago may no longer be useful."
+  },
+  "business-3-q7": {
+   "q": "Can the security function create competitive advantage on its own?",
+   "o": [
+    "Yes, if it reduces costs",
+    "No; only the business as a whole achieves it. Security contributes comparative advantage",
+    "Yes, if it passes the VRIN test",
+    "No; security provides no advantage at all"
+   ],
+   "e": "A functional strategy is never the basis of competitive advantage; it can provide comparative advantage through better internal systems."
+  },
+  "business-3-q8": {
+   "q": "What is the strategy that the company actually follows, after adapting the one it had planned, called?",
+   "o": [
+    "Intended",
+    "Emergent",
+    "Realized",
+    "Generic"
+   ],
+   "e": "Intended is the planned strategy; emergent, the one adapted to the situation; realized, the one actually followed. Differing from the planned strategy is a success of the process."
+  },
+  "business-3-q9": {
+   "q": "Which is NOT one of the three tests of a winning strategy (Walker 2011)?",
+   "o": [
+    "Fitness Test",
+    "Competitiveness Test",
+    "Performance Test",
+    "Sustainability Test"
+   ],
+   "e": "The three are fitness, competitiveness, and performance. If any of them fails, the strategy must be changed."
+  },
+  "business-4-q0": {
+   "q": "Which is NOT one of the six sectors of the macroenvironment (Walker 2011)?",
+   "o": [
+    "Demographic",
+    "Political-legal",
+    "Ecological-environmental",
+    "International-global"
+   ],
+   "e": "The six are economic, demographic, sociocultural, political-legal, technological, and international-global."
+  },
+  "business-4-q1": {
+   "q": "Many firms, non-homogeneous products, and cheap entry (toothpaste, shampoo). What market structure is this?",
+   "o": [
+    "Perfect competition",
+    "Monopolistic competition",
+    "Oligopoly",
+    "Monopoly"
+   ],
+   "e": "Perfect competition has homogeneous products (crude oil); oligopoly has few firms and expensive entry."
+  },
+  "business-4-q2": {
+   "q": "How does the book define a recession?",
+   "o": [
+    "Inflation above 10% per year",
+    "Unemployment above 8%",
+    "Negative GDP growth for two or more consecutive quarters",
+    "A stock market drop of more than 20%"
+   ],
+   "e": "A depression is a severe recession lasting several years."
+  },
+  "business-4-q3": {
+   "q": "What differentiates gross national product (GNP) from gross domestic product (GDP)?",
+   "o": [
+    "GNP adds the net activity of nationals abroad",
+    "GNP excludes noncitizens and the government",
+    "GNP measures only manufacturing",
+    "There is no difference"
+   ],
+   "e": "GDP measures what is produced within the country's borders. The U.S. switched from GNP to GDP in 1991."
+  },
+  "business-4-q4": {
+   "q": "According to the book, which is the strongest of the five forces?",
+   "o": [
+    "Threat of new entrants",
+    "Bargaining power of buyers",
+    "Rivalry among existing firms",
+    "Threat of substitutes"
+   ],
+   "e": "Rivalry is at the center of the model and is the strongest; it increases with slow demand, little differentiation, and high exit barriers."
+  },
+  "business-4-q5": {
+   "q": "In video game consoles, which barrier to entry does the book use as an example?",
+   "o": [
+    "Economies of scale",
+    "Network effects",
+    "Restrictive regulation",
+    "Access to distribution"
+   ],
+   "e": "The console's value grows with the number of users and games. Pharmaceuticals is the example for patents."
+  },
+  "business-4-q6": {
+   "q": "What puts a ceiling on an industry's prices and profits?",
+   "o": [
+    "Readily available, inexpensive substitutes",
+    "High exit barriers",
+    "Fragmented suppliers",
+    "Economies of scale"
+   ],
+   "e": "Pressure from substitutes is strong if they are cheap, of similar or better quality, and switching costs little."
+  },
+  "business-4-q7": {
+   "q": "What are slotting fees?",
+   "o": [
+    "Penalties for late delivery",
+    "Payments from manufacturers to supermarkets for shelf space",
+    "Membership fees for an industry association",
+    "Import tariffs"
+   ],
+   "e": "They are a sign of the bargaining power of large buyers."
+  },
+  "business-4-q8": {
+   "q": "How many strong forces make an industry unattractive, according to the book?",
+   "o": [
+    "One",
+    "Two",
+    "Three or more",
+    "Only if all five are strong"
+   ],
+   "e": "With three or more strong forces, the industry is unattractive (airlines, apparel, tires). With all five strong, profitability is unacceptable."
+  },
+  "business-4-q9": {
+   "q": "How many key success factors does an industry usually have?",
+   "o": [
+    "One or two",
+    "Three to five",
+    "Six to eight",
+    "More than ten"
+   ],
+   "e": "Without a strategy built on them, the company is unlikely to survive."
+  },
+  "business-5-q0": {
+   "q": "What differentiates a resource from a capability?",
+   "o": [
+    "A resource is intangible and a capability is tangible",
+    "A resource is an asset that is owned; a capability is the learned ability to perform an activity well",
+    "A capability is bought; a resource is learned",
+    "They are synonyms"
+   ],
+   "e": "Capabilities are more complex, arise from repetition, and turn resources into results."
+  },
+  "business-5-q1": {
+   "q": "What is tacit knowledge?",
+   "o": [
+    "Knowledge documented in manuals",
+    "Uncodified skills and experience that are passed on through practice",
+    "Confidential company information",
+    "Patent-protected knowledge"
+   ],
+   "e": "Almost all capabilities are based on tacit knowledge, which is why they are hard to imitate."
+  },
+  "business-5-q2": {
+   "q": "Why doesn't the iPhone pass the full VRIN test?",
+   "o": [
+    "It is not valuable",
+    "It is not rare",
+    "It can be substituted by cheaper smartphones",
+    "It is not patented"
+   ],
+   "e": "VRIN requires valuable, rare, inimitable, and nonsubstitutable: all four. Most companies do not pass all four and are still profitable."
+  },
+  "business-5-q3": {
+   "q": "What is a dynamic capability?",
+   "o": [
+    "A capability that changes with the season",
+    "The ability to modify, deepen, or expand resources and capabilities, and to create new ones",
+    "An outsourced capability",
+    "The ability to produce more with less"
+   ],
+   "e": "Capabilities decay through benign neglect; they must be reinforced and new resources added."
+  },
+  "business-5-q4": {
+   "q": "What distinguishes a core competence?",
+   "o": [
+    "It is performed better than by all rivals",
+    "It is central to the strategy and to competitive success",
+    "It is the cheapest to perform",
+    "It is performed by top management"
+   ],
+   "e": "A distinctive competence is doing something better than rivals. A core competence is the one that sustains the strategy and is often an engine of growth."
+  },
+  "business-5-q5": {
+   "q": "In the value chain, what type of activity is security, and what must it do to obtain budget?",
+   "o": [
+    "Primary; demonstrate that it generates revenue",
+    "Support; demonstrate value to a primary activity",
+    "Primary; reduce logistics costs",
+    "Support; complying with regulations is enough"
+   ],
+   "e": "Support activities are seen as a cost and will be questioned. Security obtains resources only if it shows how it protects what generates money."
+  },
+  "business-5-q6": {
+   "q": "In the coffee producer example, the company's total cost is $7.34 and the consumer price is $9.99. What is the retailer's margin?",
+   "o": [
+    "$2.30",
+    "$2.65",
+    "$3.03",
+    "$7.34"
+   ],
+   "e": "9.99 − 7.34 = 2.65. Lesson: cost competitiveness also depends on suppliers and channels."
+  },
+  "business-5-q7": {
+   "q": "In negligent security lawsuits, what standard do courts compare against?",
+   "o": [
+    "The industry's best practices",
+    "What is “reasonable and ordinary” in the industry",
+    "ISO standards",
+    "Everything that is technically possible"
+   ],
+   "e": "Best practice is not required; what is required is what is reasonable and ordinary for similar companies."
+  },
+  "business-5-q8": {
+   "q": "What share of McDonald's sales comes from the drive-through, according to the book?",
+   "o": [
+    "About 30%",
+    "About 50%",
+    "Almost 70%",
+    "Almost 90%"
+   ],
+   "e": "Starbucks copied it through benchmarking. Lesson for security: a new practice brings new risks."
+  },
+  "business-5-q9": {
+   "q": "What is competitive parity in this chapter?",
+   "o": [
+    "Outperforming the industry average",
+    "Matching the performance of a competitor or the industry average",
+    "Rivals fixing prices among themselves",
+    "Having the same share as the leader"
+   ],
+   "e": "Valuable but common resources provide parity, not advantage. Colluding to fix prices is illegal."
+  },
+  "business-6-q0": {
+   "q": "Which two factors distinguish the generic competitive strategies?",
+   "o": [
+    "Company size and number of products",
+    "Breadth of the target market and type of advantage (cost or differentiation)",
+    "Local or global market and price",
+    "Quality and service"
+   ],
+   "e": "Those two dimensions yield broad low-cost, broad differentiation, focused low-cost, and focused differentiation; best-cost sits in the middle."
+  },
+  "business-6-q1": {
+   "q": "Which strategy is a hybrid and usually the hardest to execute profitably?",
+   "o": [
+    "Focused low-cost",
+    "Broad differentiation",
+    "Best-cost provider",
+    "Focused differentiation"
+   ],
+   "e": "It provides upscale attributes at a lower cost. Risk: getting stuck between the low-cost providers and the differentiators."
+  },
+  "business-6-q2": {
+   "q": "In World War II aircraft, how much did labor per airplane fall each time cumulative production doubled?",
+   "o": [
+    "10%",
+    "20%",
+    "30%",
+    "50%"
+   ],
+   "e": "This is the learning curve (Boston Consulting Group 1970): it relates cumulative volume to unit cost."
+  },
+  "business-6-q3": {
+   "q": "Low-cost leadership means:",
+   "o": [
+    "Always having the lowest price in the industry",
+    "Being the lowest-cost provider, not necessarily the lowest-price one",
+    "Eliminating all product attributes",
+    "Selling only to a niche"
+   ],
+   "e": "The company can use the advantage to undercut rivals' prices or to hold its price and earn a higher margin per unit."
+  },
+  "business-6-q4": {
+   "q": "Which of these is a variable cost?",
+   "o": [
+    "Depreciation",
+    "Facility rent",
+    "Raw materials",
+    "Insurance"
+   ],
+   "e": "A variable cost changes in proportion to output (raw materials, packaging). The other three are fixed."
+  },
+  "business-6-q5": {
+   "q": "What share of the final price is usually due to the distributor?",
+   "o": [
+    "5 to 10%",
+    "10 to 20%",
+    "30 to 50%",
+    "60 to 80%"
+   ],
+   "e": "That is why selling direct is one way to redesign the value chain and lower costs."
+  },
+  "business-6-q6": {
+   "q": "You sell 1,000 units at $10 with a cost of $9. If you lower the price to $9.50 without changing the cost, how many units do you need to match the profit?",
+   "o": [
+    "1,050",
+    "1,500",
+    "2,000",
+    "2,500"
+   ],
+   "e": "Original profit is $1,000. The margin drops to $0.50: 1,000 ÷ 0.50 = 2,000 units, 100% more."
+  },
+  "business-6-q7": {
+   "q": "What is the least obvious and most overlooked route to differentiation?",
+   "o": [
+    "Adding tangible features",
+    "Lowering the buyer's total cost of use",
+    "Building brand prestige",
+    "Signaling value with a high price"
+   ],
+   "e": "Less waste, less maintenance, energy savings, or technical support also differentiate."
+  },
+  "business-6-q8": {
+   "q": "What is the deadliest pitfall of differentiation?",
+   "o": [
+    "Trivial improvements",
+    "Attributes that are easy to copy",
+    "An excessive price premium",
+    "Overspending on marketing"
+   ],
+   "e": "With an excessive premium, customers switch to cheaper offerings."
+  },
+  "business-6-q9": {
+   "q": "In what context does the best-cost strategy usually work best?",
+   "o": [
+    "In recessions, when more buyers are looking for value",
+    "In commodity markets",
+    "In luxury niches",
+    "When no differentiation is possible"
+   ],
+   "e": "It attracts the value-conscious buyer, who avoids both the very cheap and the very expensive. The book's case is Lexus."
+  },
+  "business-7-q0": {
+   "q": "What are the three tests of corporate advantage when diversifying?",
+   "o": [
+    "Industry attractiveness, cost of entry, and better-off",
+    "Fitness, competitiveness, and performance",
+    "Valuable, rare, and inimitable",
+    "Growth, profitability, and risk"
+   ],
+   "e": "All three must be passed; passing only one or two is suspect (Barney and Hesterly 2015). Option b lists the tests of a winning strategy from Chapter 3."
+  },
+  "business-7-q1": {
+   "q": "According to Martin (2016, Harvard Business Review), what percentage of mergers and acquisitions fail?",
+   "o": [
+    "Between 20 and 30%",
+    "Between 40 and 50%",
+    "Between 70 and 90%",
+    "More than 95%"
+   ],
+   "e": "Causes: an unrecovered premium, poor integration, technology failures, culture clashes, and external factors."
+  },
+  "business-7-q2": {
+   "q": "What average premium was paid in acquisitions over the last decade?",
+   "o": [
+    "About 10%",
+    "About 25%",
+    "About 50%",
+    "About 75%"
+   ],
+   "e": "About 25% over the valuation, depending on the industry (Kengelbach et al. 2019)."
+  },
+  "business-7-q3": {
+   "q": "If speed is critical for entering a new business, which entry mode is best?",
+   "o": [
+    "Internal development",
+    "Joint venture",
+    "Acquisition",
+    "Licensing"
+   ],
+   "e": "Acquisition is fast and overcomes barriers. If it is better to wait for the market to become clearer, a joint venture or internal development."
+  },
+  "business-7-q4": {
+   "q": "Which entry mode is the least durable, and what is its most common problem?",
+   "o": [
+    "Acquisition; culture clash",
+    "Joint venture (JV); management disagreements",
+    "Internal development; slowness",
+    "Joint venture (JV); lack of capital"
+   ],
+   "e": "A joint venture spreads risk and saves on entry costs, but it suffers from conflicting objectives and management disagreements."
+  },
+  "business-7-q5": {
+   "q": "What differentiates economies of scope from economies of scale?",
+   "o": [
+    "Scope: savings from operating in several related businesses. Scale: savings from larger size",
+    "Scope: savings from larger size. Scale: from several businesses",
+    "Scope applies only to conglomerates",
+    "They are synonyms"
+   ],
+   "e": "Economies of scope arise only in related diversification, and management must act to capture them."
+  },
+  "business-7-q6": {
+   "q": "What type of resource is security according to the book?",
+   "o": [
+    "Specialized; the basis for related diversification",
+    "General; on its own, it does not justify related diversification",
+    "Intangible and rare",
+    "A top-tier strategic resource"
+   ],
+   "e": "Information technology, human resources, accounting, budgeting, and security are useful in any business: they are general resources."
+  },
+  "business-7-q7": {
+   "q": "Your company has a 40% share and your largest rival has 30%. What is your relative market share?",
+   "o": [
+    "0.75",
+    "1.00",
+    "1.33",
+    "10%"
+   ],
+   "e": "40 ÷ 30 = 1.33. The rival's would be 0.75. Below 1.0, the position is weak."
+  },
+  "business-7-q8": {
+   "q": "What is the ideal sequence for a business in the portfolio?",
+   "o": [
+    "Cash cow → star → cash hog",
+    "Star → cash hog → cash cow",
+    "Cash hog → star → cash cow",
+    "Cash hog → cash cow → star"
+   ],
+   "e": "First it devours cash because of its high growth, then it becomes a self-sufficient leader, and finally it generates surplus cash in a mature industry."
+  },
+  "business-7-q9": {
+   "q": "Why is “reducing risk” a wrong reason for unrelated diversification?",
+   "o": [
+    "Because conglomerates are riskier by law",
+    "Because investors can diversify better with their own portfolios",
+    "Because risk cannot be measured",
+    "Because it applies only in a recession"
+   ],
+   "e": "The other wrong reasons are growth for growth's sake, seeking stability, and managerial motives (compensation grows with size)."
+  },
+  "business-8-q0": {
+   "q": "Which attitude uses the best approach and the best people from around the world?",
+   "o": [
+    "Ethnocentric",
+    "Polycentric",
+    "Geocentric",
+    "Parochial"
+   ],
+   "e": "The ethnocentric attitude values only what comes from the home country; the polycentric attitude believes the host country knows best."
+  },
+  "business-8-q1": {
+   "q": "Which is NOT one of the four factors of the diamond of national competitive advantage?",
+   "o": [
+    "Demand conditions",
+    "Factor conditions",
+    "Bargaining power of suppliers",
+    "Strategy, structure, and rivalry"
+   ],
+   "e": "The fourth factor is related and supporting industries. Supplier power belongs to the five forces."
+  },
+  "business-8-q2": {
+   "q": "You manufacture in Brazil for 4 reais and export to Europe. If the exchange rate moves from 4 to 5 reais per euro, how much does the product cost in euros?",
+   "o": [
+    "0.80 euros",
+    "1.00 euro",
+    "1.25 euros",
+    "1.33 euros"
+   ],
+   "e": "4 ÷ 5 = 0.80. A weak real favors exporters operating from Brazil."
+  },
+  "business-8-q3": {
+   "q": "For a company with plants in the U.S., a weak dollar is:",
+   "o": [
+    "Unfavorable: it makes its exports more expensive",
+    "Favorable: more competitiveness, more exports, and higher foreign profits in dollars",
+    "Neutral",
+    "Favorable only if it imports inputs"
+   ],
+   "e": "It makes foreign rivals' goods more expensive, slows imports, and raises the dollar value of foreign profits."
+  },
+  "business-8-q4": {
+   "q": "Which entry option is the most conservative and requires the least capital?",
+   "o": [
+    "Greenfield venture",
+    "Acquisition",
+    "Exporting",
+    "Joint venture"
+   ],
+   "e": "It uses existing capacity. It is vulnerable to high domestic costs, unfavorable exchange rates, expensive freight, and barriers."
+  },
+  "business-8-q5": {
+   "q": "What is the major disadvantage of licensing?",
+   "o": [
+    "It requires a lot of capital",
+    "Giving away valuable know-how and losing control over its use",
+    "It is the slowest route",
+    "The licensor bears all the risks"
+   ],
+   "e": "The licensee bears the costs and risks and pays royalties, but it is hard to monitor how the know-how is used."
+  },
+  "business-8-q6": {
+   "q": "What is the slowest entry route?",
+   "o": [
+    "Acquisition",
+    "Franchising",
+    "Exporting",
+    "Greenfield venture"
+   ],
+   "e": "It gives full control of the value chain, but it is expensive, risky, and slow. Acquisition is the fastest."
+  },
+  "business-8-q7": {
+   "q": "Which international strategy is summed up as “think global, act local”?",
+   "o": [
+    "Multidomestic",
+    "Global",
+    "Transnational",
+    "Export"
+   ],
+   "e": "It combines local responsiveness and global integration (mass customization). It is the hardest to implement."
+  },
+  "business-8-q8": {
+   "q": "Using the profits from one market to fund a price offensive in another is called:",
+   "o": [
+    "Profit sanctuary",
+    "Cross-market subsidization",
+    "Mutual restraint",
+    "Tariff dumping"
+   ],
+   "e": "The sanctuary is the protected market that generates those profits, usually the home market."
+  },
+  "business-8-q9": {
+   "q": "What percentage of the world's oil and gas reserves is held by state-owned companies?",
+   "o": [
+    "7%",
+    "25%",
+    "65%",
+    "90%"
+   ],
+   "e": "65% is held by state-owned companies; only 7% is open to private international companies. It is an example of political risk."
+  },
+  "business-9-q0": {
+   "q": "Why do strategies fail most often?",
+   "o": [
+    "Because of poor formulation",
+    "Because of poor execution",
+    "Because of a lack of budget",
+    "Because of changes in the environment"
+   ],
+   "e": "Formulating is analytical; executing is operational and harder. In a study of 400 CEOs, execution was their number one challenge."
+  },
+  "business-9-q1": {
+   "q": "What are the two best signs of good execution (Welch and Welch 2005)?",
+   "o": [
+    "Raising the share price and lowering turnover",
+    "Meeting or beating goals and performing the value chain with operational excellence",
+    "Gaining share and cutting costs",
+    "Customer and employee satisfaction"
+   ],
+   "e": "They are the two signs the book highlights."
+  },
+  "business-9-q2": {
+   "q": "What are the first three execution tasks covered in Chapter 9?",
+   "o": [
+    "Budget, policies, and systems",
+    "Staffing, building resources and capabilities, and creating a supportive structure",
+    "Culture, leadership, and incentives",
+    "Vision, mission, and values"
+   ],
+   "e": "Tasks 4 through 8 are covered in Chapter 10, and Tasks 9 and 10 in Chapter 11."
+  },
+  "business-9-q3": {
+   "q": "What is a stretch objective?",
+   "o": [
+    "An impossible goal meant to motivate",
+    "A goal that requires extra effort but is achievable",
+    "A goal more than five years out",
+    "A goal without measurement"
+   ],
+   "e": "If it is not achievable, it demotivates."
+  },
+  "business-9-q4": {
+   "q": "What is the main advantage of acquiring capabilities through a merger or acquisition?",
+   "o": [
+    "Low cost",
+    "Speed",
+    "That tacit knowledge transfers easily",
+    "That there is no culture clash"
+   ],
+   "e": "Risks: tacit knowledge does not transfer easily, and the purchase can destroy the capability (the Facebook and Oculus case)."
+  },
+  "business-9-q5": {
+   "q": "In the Starbucks and Kraft case, what was the outcome?",
+   "o": [
+    "Kraft bought Starbucks",
+    "Starbucks paid 2.75 billion after breaking away, but gained freedom and more than 20% of the pod market",
+    "The two created a permanent joint venture",
+    "Starbucks lost the arbitration and pulled out of supermarkets"
+   ],
+   "e": "It learned from its partner and broke away. The agreement limited it to Tassimo while Keurig's K-Cups were growing."
+  },
+  "business-9-q6": {
+   "q": "How much do corporate universities spend per year, according to the book?",
+   "o": [
+    "More than $37 billion",
+    "More than $370 billion",
+    "More than $3.7 trillion",
+    "About $4 billion"
+   ],
+   "e": "More than 4,000 companies have in-house universities and spend more than $370 billion a year (Mazareanu 2020)."
+  },
+  "business-9-q7": {
+   "q": "According to Mintzberg (1979), what is the most common type of structure?",
+   "o": [
+    "Functional",
+    "Multidivisional",
+    "Matrix",
+    "Simple"
+   ],
+   "e": "Typical of small businesses and startups: one central executive, flat, and with little specialization. It falls short as the company grows."
+  },
+  "business-9-q8": {
+   "q": "What does a company's type of structure depend on most?",
+   "o": [
+    "Strategy",
+    "Size",
+    "Industry",
+    "Country"
+   ],
+   "e": "It depends mainly on size, less on strategy, and it evolves as the company grows."
+  },
+  "business-9-q9": {
+   "q": "A field security manager reports to the division and to the corporate security director. What structure is this, and what problem does it create?",
+   "o": [
+    "Functional; turf wars",
+    "Matrix; dual reporting, conflicts, and divided loyalty",
+    "Multidivisional; little collaboration",
+    "Simple; executive overload"
+   ],
+   "e": "The conflict is greater if the division controls the budget. Communication is key."
+  },
+  "business-10-q0": {
+   "q": "Which two resource allocation errors does the chapter point out?",
+   "o": [
+    "Spending on technology and on personnel",
+    "Underfunding and overfunding units",
+    "Taking on debt and issuing shares",
+    "Centralizing and decentralizing"
+   ],
+   "e": "Underfunding slows progress; overfunding wastes resources and sends the wrong message. The decision is made with data, not politics."
+  },
+  "business-10-q1": {
+   "q": "What is the “Goldilocks Moment” in policies and procedures?",
+   "o": [
+    "Eliminating all policies to provide freedom",
+    "Enough policies to provide direction and boundaries, with freedom to act within them",
+    "Reviewing policies every quarter",
+    "Copying the industry leader's policies"
+   ],
+   "e": "Too much policy gets in the way and confuses; too little leaves people without direction."
+  },
+  "business-10-q2": {
+   "q": "Why does the book recommend that best practices be adapted, not adopted?",
+   "o": [
+    "Because copying is illegal",
+    "Because every company is unique and adapting them builds credibility with management",
+    "Because best practices expire after a year",
+    "Because ASIS requires it"
+   ],
+   "e": "Executives distrust what is “not invented here.” Showing how it fits into the strategy gives security credibility."
+  },
+  "business-10-q3": {
+   "q": "How is business process reengineering defined (Hammer and Champy 1993)?",
+   "o": [
+    "Continuous, incremental improvement",
+    "Radical redesign of an activity to achieve quantum-leap improvements",
+    "Statistical methods to reduce defects",
+    "Outsourcing noncore processes"
+   ],
+   "e": "It is done by a cross-functional team. Criticism: it is sometimes an excuse to cut headcount."
+  },
+  "business-10-q4": {
+   "q": "How do reengineering and total quality management (TQM) or Six Sigma differ?",
+   "o": [
+    "There is no difference",
+    "Reengineering can be applied by a single manager and seeks big leaps; TQM and Six Sigma require a company-wide philosophy and are incremental",
+    "TQM seeks big leaps and reengineering is incremental",
+    "Six Sigma applies only to services"
+   ],
+   "e": "A lone manager who applied TQM or Six Sigma would meet with rejection."
+  },
+  "business-10-q5": {
+   "q": "Which is NOT one of the five areas that information systems should cover (Picincu 2018)?",
+   "o": [
+    "Customers",
+    "Employees",
+    "Competitors",
+    "Suppliers or strategic partners"
+   ],
+   "e": "The five are customers, operations, employees, suppliers or partners, and financial performance."
+  },
+  "business-10-q6": {
+   "q": "What minimum percentage of base salary should a bonus be in order to motivate?",
+   "o": [
+    "At least 5%",
+    "At least 10–15%",
+    "At least 30%",
+    "At least 50%"
+   ],
+   "e": "At 20% or more of total compensation, it draws a lot of attention; at less than 5%, it motivates little."
+  },
+  "business-10-q7": {
+   "q": "Under the “No Excuses” approach, what is rewarded?",
+   "o": [
+    "Effort",
+    "Hours worked",
+    "Results",
+    "Seniority"
+   ],
+   "e": "What is achieved is rewarded, not what is done (Kerr 1995). Blaming the environment is admitting poor planning."
+  },
+  "business-10-q8": {
+   "q": "What is forced ranking?",
+   "o": [
+    "Ranking employees from best to worst and asking those at the bottom to leave",
+    "Promoting by seniority",
+    "Evaluating only managers",
+    "Giving equal bonuses to the whole team"
+   ],
+   "e": "It is applied even when employees differ only slightly. The book's rule: more positive elements than negative ones."
+  },
+  "business-10-q9": {
+   "q": "What result would the book tie a retail security director's incentive to?",
+   "o": [
+    "The number of patrols completed",
+    "Reduction in shrink",
+    "The number of cameras installed",
+    "Training hours"
+   ],
+   "e": "Associated indicators: investigations, responsible parties identified, recovery or restitution, and new policies."
+  },
+  "business-11-q0": {
+   "q": "To whom does the book attribute the phrase “culture eats strategy for breakfast”?",
+   "o": [
+    "Michael Porter",
+    "Peter Drucker",
+    "Jack Welch",
+    "Henri Fayol"
+   ],
+   "e": "The book calls him the father of modern management."
+  },
+  "business-11-q1": {
+   "q": "What does security learn from Apple's culture of secrecy?",
+   "o": [
+    "Banning personal devices",
+    "Using different codes for each part of a project to compartmentalize leaks and identify those responsible",
+    "Having family members sign confidentiality agreements",
+    "Centralizing everything in top management"
+   ],
+   "e": "Compartmentalization protects intellectual property and helps investigate leaks."
+  },
+  "business-11-q2": {
+   "q": "According to Deal and Kennedy (1999), what two results come from requiring behavior consistent with the values?",
+   "o": [
+    "More sales and lower costs",
+    "Shared values (those who don't fit in leave) and strong peer pressure",
+    "Lower turnover and more promotions",
+    "More innovation and more risk"
+   ],
+   "e": "They are the two traits that consolidate a strong culture."
+  },
+  "business-11-q3": {
+   "q": "Is every strong culture healthy?",
+   "o": [
+    "Yes, it always helps execution",
+    "No; if it clashes with the strategy, it is an obstacle",
+    "Yes, if a strong leader founded it",
+    "No; strong cultures always resist change"
+   ],
+   "e": "A strong culture can have a positive or negative impact, depending on how well it fits the strategy."
+  },
+  "business-11-q4": {
+   "q": "According to the book, what can shape behavior more than financial incentives?",
+   "o": [
+    "Written policies",
+    "Direct supervision",
+    "Group norms and peer pressure",
+    "Information systems"
+   ],
+   "e": "It is one of the three ways in which an aligned culture helps execution."
+  },
+  "business-11-q5": {
+   "q": "What factors favor a strong culture according to Sathe (1985)?",
+   "o": [
+    "High turnover and geographic dispersion",
+    "Leadership continuity, low turnover, geographic concentration, and considerable success",
+    "Growth through acquisitions",
+    "Frequent CEO changes"
+   ],
+   "e": "A strong culture takes years of deliberate work."
+  },
+  "business-11-q6": {
+   "q": "A culture that believes it has all the answers, ignores the customer, and does not hire outside executives is:",
+   "o": [
+    "Politicized",
+    "Insular, inwardly focused",
+    "Adaptive",
+    "High-performance"
+   ],
+   "e": "It has a “must-be invented here” mindset and underestimates rivals."
+  },
+  "business-11-q7": {
+   "q": "What is the most visible factor in a successful culture change (Hout and Carter 1995)?",
+   "o": [
+    "An outside consultant",
+    "Capable leadership at the top, especially the CEO",
+    "A new incentive system",
+    "Pressure from rank-and-file employees"
+   ],
+   "e": "Only top management has enough power, although the entire management team takes part."
+  },
+  "business-11-q8": {
+   "q": "What is an example of a symbolic culture-change action in a low-cost strategy?",
+   "o": [
+    "Replacing executives who obstruct change",
+    "Nucor executives who fly coach and take taxis",
+    "Revising policies and procedures",
+    "Hiring only candidates who fit in"
+   ],
+   "e": "The other three are substantive actions. The most important symbolic action is to lead by example."
+  },
+  "business-11-q9": {
+   "q": "According to Montgomery (2008), what three actions does leading execution require?",
+   "o": [
+    "Plan, organize, and control",
+    "Monitor progress, exert constructive pressure, and correct",
+    "Hire, train, and retain",
+    "Measure, reward, and sanction"
+   ],
+   "e": "Management by walking around is useful for monitoring, as long as it is not a staged dog and pony show."
+  },
+  "business-12-q0": {
+   "q": "What distinguishes traditional budgeting from zero-based budgeting?",
+   "o": [
+    "Traditional budgeting justifies everything from scratch; zero-based budgeting adjusts the previous year's budget",
+    "Traditional budgeting adjusts the previous year's budget; zero-based budgeting justifies every expense from scratch each period",
+    "Zero-based budgeting applies only to capital expenditures",
+    "There is no practical difference"
+   ],
+   "e": "Zero-based budgeting rejects “cost-plus”: nothing is untouchable."
+  },
+  "business-12-q1": {
+   "q": "Why can zero-based budgeting hurt security?",
+   "o": [
+    "Because it freezes salaries",
+    "Because it favors primary activities with a tangible return",
+    "Because it prohibits outsourcing",
+    "Because it is reviewed only every five years"
+   ],
+   "e": "Security, human resources, and accounting get less. The argument: poor security hurts growth through litigation and extra expenses."
+  },
+  "business-12-q2": {
+   "q": "Which financial statement is a “snapshot” on a specific date?",
+   "o": [
+    "Income statement",
+    "Cash flow statement",
+    "Balance sheet",
+    "Master budget"
+   ],
+   "e": "It follows assets = liabilities + shareholders' equity. The other two statements cover a period."
+  },
+  "business-12-q3": {
+   "q": "Cash $25,000, equivalents $100,000, accounts payable $30,000, and short-term debt $25,000. What is the cash ratio?",
+   "o": [
+    "0.44",
+    "1.25",
+    "2.27",
+    "4.17"
+   ],
+   "e": "(25,000 + 100,000) ÷ (30,000 + 25,000) = 125,000 ÷ 55,000 = 2.27. Greater than 1.0: it covers everything, with some left over."
+  },
+  "business-12-q4": {
+   "q": "Caterpillar 2014: operating profit 5,328 and total sales and revenues 55,184 (millions). Operating margin?",
+   "o": [
+    "≈ 6.7%",
+    "≈ 9.7%",
+    "≈ 12.3%",
+    "≈ 27.9%"
+   ],
+   "e": "5,328 ÷ 55,184 × 100 ≈ 9.7%. The book considers it the best ratio for comparing against the industry."
+  },
+  "business-12-q5": {
+   "q": "What does an operating cash flow ratio below 1.0 indicate?",
+   "o": [
+    "That operations do not cover short-term liabilities",
+    "That the company has excess liquidity",
+    "That equity exceeds debt",
+    "That the gross margin is negative"
+   ],
+   "e": "From 1.5 to 2.0, it covers liabilities 1.5 to 2 times. Lenders use it widely."
+  },
+  "business-12-q6": {
+   "q": "A project has an internal rate of return (IRR) lower than the hurdle rate. What is decided?",
+   "o": [
+    "Accept it",
+    "Reject it",
+    "Recalculate the ROI",
+    "Accept it if the ROI is positive"
+   ],
+   "e": "Higher than the hurdle rate: accept; lower: reject. IRR accounts for the time value of money; return on investment (ROI) does not."
+  },
+  "business-12-q7": {
+   "q": "What return on equity (ROE) does the book consider acceptable, and what does it consider poor?",
+   "o": [
+    "Acceptable around 5%; poor below 2%",
+    "Acceptable around 14%; poor below 10%",
+    "Acceptable around 25%; poor below 15%",
+    "Any positive value is acceptable"
+   ],
+   "e": "14% is the average of the Standard & Poor's 500 index."
+  },
+  "business-12-q8": {
+   "q": "Are insurance and raw materials fixed or variable costs?",
+   "o": [
+    "Both fixed",
+    "Both variable",
+    "Insurance fixed; raw materials variable",
+    "Insurance variable; raw materials fixed"
+   ],
+   "e": "Fixed costs do not depend on output (rent, insurance, payroll); variable costs fluctuate with activity."
+  },
+  "business-12-q9": {
+   "q": "Which item is NOT added to net income to obtain EBITDA?",
+   "o": [
+    "Interest",
+    "Taxes",
+    "Amortization",
+    "Dividends"
+   ],
+   "e": "EBITDA = net income + interest + taxes + depreciation + amortization. It is used as an approximation of cash flow."
+  },
+  "business-A-q0": {
+   "q": "Which is NOT one of the four principles by which standards are developed?",
+   "o": [
+    "Consensus",
+    "Openness",
+    "Confidentiality",
+    "Due process"
+   ],
+   "e": "The four are consensus, openness, due process, and transparency."
+  },
+  "business-A-q1": {
+   "q": "What distinguishes a legal or regulatory standard from a voluntary one?",
+   "o": [
+    "It is issued by ISO",
+    "It is binding by law and enforced by formal authorities",
+    "It applies only in the U.S.",
+    "It is more recent"
+   ],
+   "e": "Voluntary standards are not mandatory, although some have already been incorporated into the regulations of several countries."
+  },
+  "business-A-q2": {
+   "q": "An insurer sets the premium based on whether standardized practices are used. What type of standard is this in practice?",
+   "o": [
+    "Purely voluntary",
+    "Legal",
+    "Hybrid: voluntary in theory, mandatory in practice",
+    "Management system"
+   ],
+   "e": "Voluntary standards incorporated into laws and those required by a contract are also hybrid."
+  },
+  "business-A-q3": {
+   "q": "Which body issues standards for locks, alarms, and access control?",
+   "o": [
+    "National Fire Protection Association (NFPA)",
+    "Underwriters Laboratories (UL)",
+    "Illuminating Engineering Society",
+    "Electronic Industries Association"
+   ],
+   "e": "NFPA covers fire and building codes; Illuminating Engineering Society, lighting; Electronic Industries Association, electronic components."
+  },
+  "business-A-q4": {
+   "q": "What are the most prominent management system standards according to the book?",
+   "o": [
+    "ISO 27001 and ISO 31000",
+    "ISO 9001 (quality) and ISO 14001 (environmental)",
+    "ISO 22301 and ISO 45001",
+    "ASIS ORM.1 and ISO 9001"
+   ],
+   "e": "They provide a framework for continual improvement."
+  },
+  "business-A-q5": {
+   "q": "In the Plan-Do-Check-Act (PDCA) cycle, in which phase are solutions standardized across the organization?",
+   "o": [
+    "Plan",
+    "Do",
+    "Check",
+    "Act"
+   ],
+   "e": "In Act, solutions are standardized, the problem list is reviewed, and the next problems are defined; then the cycle starts again. The book's figure comes from ASIS ORM.1-2017."
+  }
+ }
+}

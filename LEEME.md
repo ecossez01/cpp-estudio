@@ -6,6 +6,9 @@ Investigations, Crisis Management y Security Management.
 Resúmenes por capítulo, fichas, tests con explicación, notas de «ojo para el examen»,
 buscador y reproductor de audios. Todo el avance se guarda en el dispositivo.
 
+Español e inglés: el botón ES / EN de la barra superior cambia toda la app con un toque
+(interfaz, fichas, tests e idea central). Los resúmenes y las notas «ojo» están en español.
+
 ## En la computadora
 
 ```
@@ -30,6 +33,8 @@ desde la app instalada (pestaña Audios → «Añadir audios desde Archivos»).
 
 - Resumen de un dominio: `tools/src/<dominio>.md` (dominios en `tools/build.py`).
 - Tests: `tools/quizzes/<dominio>.json`.
+- Inglés: `tools/i18n/en/<dominio>.json`. `npm run build` deja en `tools/i18n/src/` los textos
+  en español con las mismas claves, para traducir lo nuevo.
 - Sin archivo de tests, el test de cada capítulo se arma solo con sus preguntas de repaso.
 - Después: `npm run build` (requiere Python 3 con el paquete `markdown`; para dibujar
   las fórmulas, `npm install` dentro de `tools/`). Regenera `data/`, `assets.js` y `sw.js`;

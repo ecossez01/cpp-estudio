@@ -1,0 +1,800 @@
+{
+ "cards": {
+  "security-1-k0": {
+   "q": "¿Qué sustituye ESRM en la gestión de la seguridad?",
+   "a": "La metodología de programas y subprogramas de seguridad."
+  },
+  "security-1-k1": {
+   "q": "¿Qué grupo empezó a impulsar ESRM y en qué año?",
+   "a": "El CSO Roundtable de ASIS (hoy CSO Center), en 2010."
+  },
+  "security-1-k2": {
+   "q": "¿En qué año decidió el Consejo de ASIS integrar ESRM como fundamento de la gestión de seguridad?",
+   "a": "2017."
+  },
+  "security-1-k3": {
+   "q": "¿Cuándo se publicó la ESRM Guideline?",
+   "a": "2019."
+  },
+  "security-1-k4": {
+   "q": "¿Cuáles son los dos objetivos del Consejo al adoptar ESRM?",
+   "a": "Integrar al profesional en el liderazgo del negocio y pasar de gestionar programas a gestionar riesgos."
+  },
+  "security-1-k5": {
+   "q": "¿Quién es el dueño del riesgo en ESRM?",
+   "a": "El dueño del activo (asset owner)."
+  },
+  "security-1-k6": {
+   "q": "¿ESRM exige convergencia de seguridad física y ciber bajo un solo líder?",
+   "a": "No; funciona con cualquier estructura organizativa."
+  },
+  "security-1-k7": {
+   "q": "¿En qué se diferencia ERM de ESRM?",
+   "a": "ERM cubre todos los riesgos clave (financieros, operativos, estratégicos); ESRM solo los de seguridad y puede ser subcomponente de ERM."
+  },
+  "security-1-k8": {
+   "q": "¿Cuáles son los tres componentes de ESRM?",
+   "a": "Contexto, ciclo y fundamento."
+  },
+  "security-1-k9": {
+   "q": "¿Cuáles son los tres tipos de entorno operativo?",
+   "a": "Físico, no físico y lógico."
+  },
+  "security-1-k10": {
+   "q": "¿Cuáles son los cuatro procesos del ciclo ESRM, en orden?",
+   "a": "Identificar y priorizar activos; identificar y priorizar riesgos; mitigar riesgos priorizados; mejora continua."
+  },
+  "security-1-k11": {
+   "q": "¿Con qué criterio se priorizan los activos?",
+   "a": "Su criticidad para la misión y la estrategia de la organización."
+  },
+  "security-1-k12": {
+   "q": "¿Quién aprueba los controles y quién ejecuta el plan de gestión de riesgos?",
+   "a": "Aprueba el dueño del activo; ejecuta el profesional de seguridad."
+  },
+  "security-1-k13": {
+   "q": "¿Cuáles son los cuatro conceptos del fundamento de ESRM?",
+   "a": "Gestión holística del riesgo, asociación con partes interesadas, transparencia y gobernanza."
+  },
+  "security-1-k14": {
+   "q": "¿Qué documento usa \"shall/must\" y cuál \"should/may\"?",
+   "a": "Las normas (standards) usan \"shall/must\"; las guías (guidelines), \"should/may\"."
+  },
+  "security-2-k0": {
+   "q": "¿Cuáles son los tres tipos tradicionales de activos en seguridad?",
+   "a": "Personas, bienes (property) e información."
+  },
+  "security-2-k1": {
+   "q": "¿Qué distingue un activo tangible de uno intangible?",
+   "a": "El tangible se ve, se toca o se mide directamente; el intangible no tiene forma física."
+  },
+  "security-2-k2": {
+   "q": "Según el libro, ¿los datos de clientes son activo tangible o intangible?",
+   "a": "Tangible."
+  },
+  "security-2-k3": {
+   "q": "¿Quién toma la decisión final sobre el riesgo de un activo?",
+   "a": "El dueño del activo; el profesional asesora y guía."
+  },
+  "security-2-k4": {
+   "q": "¿Qué tres elementos deben incluir las contramedidas actuales?",
+   "a": "Personas, procesos y tecnología."
+  },
+  "security-2-k5": {
+   "q": "¿En qué década surgió la seguridad informática como disciplina separada?",
+   "a": "En los años 70."
+  },
+  "security-2-k6": {
+   "q": "¿Qué dos ataques aumentaron en Estados Unidos la atención a la infraestructura crítica antes del 11-S?",
+   "a": "El ataque al World Trade Center de 1993 y el atentado de Oklahoma City dos años después."
+  },
+  "security-2-k7": {
+   "q": "¿Quién posee u opera la mayor parte de la infraestructura crítica no militar de Estados Unidos?",
+   "a": "Empresas privadas (Cato Institute, 2017)."
+  },
+  "security-2-k8": {
+   "q": "¿Cuál fue el efecto negativo del 11-S en la protección de activos?",
+   "a": "Se priorizó el terrorismo y se desviaron recursos de seguridad informática, información y prevención de pérdidas."
+  },
+  "security-2-k9": {
+   "q": "¿Cuál es el cambio más importante en la protección de activos?",
+   "a": "Que ahora se gestiona con principios de ESRM, como proceso de riesgo y no por programas."
+  },
+  "security-2-k10": {
+   "q": "¿Cómo define riesgo la ESRM Guideline (2019)?",
+   "a": "Efecto de la incertidumbre sobre el logro de objetivos estratégicos, tácticos y operativos."
+  },
+  "security-2-k11": {
+   "q": "¿Cuál es el objetivo principal de la protección de activos?",
+   "a": "Gestionar riesgos equilibrando costes y beneficios de las medidas de protección."
+  },
+  "security-2-k12": {
+   "q": "¿Cuáles son las cuatro formas de gestionar el riesgo y cómo se suele transferir?",
+   "a": "Eliminar, reducir, transferir y aceptar; se transfiere normalmente con un seguro."
+  },
+  "security-2-k13": {
+   "q": "¿Cuándo es correcto aceptar un riesgo?",
+   "a": "Cuando reducirlo, eliminarlo o transferirlo cuesta más que las pérdidas potenciales."
+  },
+  "security-2-k14": {
+   "q": "¿Cuáles son las cuatro D, en orden?",
+   "a": "Deter, deny, detect, delay."
+  },
+  "security-3-k0": {
+   "q": "¿Cuál es la definición de robo (theft) en el common law?",
+   "a": "Apropiación deshonesta de un bien ajeno con intención de privar al dueño de forma permanente."
+  },
+  "security-3-k1": {
+   "q": "¿Cómo se define el fraude en su forma más simple?",
+   "a": "Robo mediante engaño (theft by deception)."
+  },
+  "security-3-k2": {
+   "q": "Según la ACFE 2018, ¿cuál es el método de detección más común y su porcentaje?",
+   "a": "Las denuncias (tips), 40 %."
+  },
+  "security-3-k3": {
+   "q": "¿Qué porcentaje de casos se detectó por denuncia con hotline y sin ella?",
+   "a": "46 % con hotline y 30 % sin ella."
+  },
+  "security-3-k4": {
+   "q": "¿Qué tipo de fraude ocupacional es el más común y el menos costoso?",
+   "a": "La apropiación indebida de activos, con pérdida mediana de $114,000."
+  },
+  "security-3-k5": {
+   "q": "¿Cuánto más cuestan los fraudes de más de 60 meses frente a los detectados en menos de 6?",
+   "a": "20 veces más."
+  },
+  "security-3-k6": {
+   "q": "¿Cuáles son las 5 hipótesis de Clark y Hollinger?",
+   "a": "Presiones económicas externas, juventud y trabajo, oportunidad, insatisfacción laboral y control social."
+  },
+  "security-3-k7": {
+   "q": "Pausas alargadas, mal uso de días por enfermedad y checar por otro son ejemplos de…",
+   "a": "Desviación en la producción (production deviance), es decir, robo de tiempo."
+  },
+  "security-3-k8": {
+   "q": "¿Qué teoría sostiene que la conducta criminal se aprende por asociación con otros?",
+   "a": "La asociación diferencial de Sutherland."
+  },
+  "security-3-k9": {
+   "q": "¿Cuáles son los tres elementos del fraude según Cressey?",
+   "a": "Problema financiero no compartible, oportunidad de violar la confianza y racionalización."
+  },
+  "security-3-k10": {
+   "q": "Según Wells, ¿cuál es el factor predominante del fraude?",
+   "a": "La codicia (greed)."
+  },
+  "security-3-k11": {
+   "q": "¿Qué diferencia al fraude del robo laboral en cuanto a planificación?",
+   "a": "El fraude es premeditado; el robo suele ser espontáneo."
+  },
+  "security-3-k12": {
+   "q": "¿Cuál es el objetivo principal de una investigación preliminar?",
+   "a": "Determinar qué delito o violación existe."
+  },
+  "security-3-k13": {
+   "q": "¿Cuál es el último recurso para hacer pruebas de cumplimiento (Elemento 10)?",
+   "a": "Las operaciones encubiertas (undercover operations)."
+  },
+  "security-3-k14": {
+   "q": "¿Qué riesgo tiene publicar nombres en incidentes no procesados judicialmente?",
+   "a": "Difamación y demandas civiles; hay que consultar antes a un abogado."
+  },
+  "security-4-k0": {
+   "q": "¿Cómo define el libro la costo-efectividad?",
+   "a": "Producir buenos resultados por el dinero gastado."
+  },
+  "security-4-k1": {
+   "q": "¿Cuáles son las contramedidas más baratas y a menudo olvidadas?",
+   "a": "Los controles de procedimiento (procedural controls)."
+  },
+  "security-4-k2": {
+   "q": "¿Qué es el \"costo evitado\" (cost avoidance) en la prevención de pérdidas mayores?",
+   "a": "El costo total de las pérdidas probables que se supone se previnieron."
+  },
+  "security-4-k3": {
+   "q": "Ventas de $250 millones y seguridad de $1 millón: ¿qué porcentaje es y cuál es su costo real con un retorno alternativo del 4.5 %?",
+   "a": "0.4 % de las ventas; $1,045,000."
+  },
+  "security-4-k4": {
+   "q": "¿Cuáles son las tres categorías principales de gasto de un presupuesto de seguridad?",
+   "a": "Salarios, gastos operativos y gastos de capital."
+  },
+  "security-4-k5": {
+   "q": "¿Cuál es la fórmula del ROI?",
+   "a": "(Valor actual de la inversión − costo) ÷ costo."
+  },
+  "security-4-k6": {
+   "q": "En el caso de las alarmas molestas, ¿cuánto se ahorra por cada $1 invertido según el libro?",
+   "a": "$4 ($40,000 evitados con $10,000 de costo)."
+  },
+  "security-4-k7": {
+   "q": "En el caso de las radios, ¿qué retorno da el libro a 1 y a 10 años?",
+   "a": "$0.41 y $4.10 por cada $1 invertido."
+  },
+  "security-4-k8": {
+   "q": "¿Qué tres condiciones necesita una disuasión eficaz?",
+   "a": "Que sea rápida, segura y severa (swift, certain, severe)."
+  },
+  "security-4-k9": {
+   "q": "¿Quiénes definen las métricas como medir costos, beneficios, éxitos y fracasos del programa?",
+   "a": "Kovacich y Halibozek (2016)."
+  },
+  "security-4-k10": {
+   "q": "¿Cuánto debe durar como máximo una presentación de métricas a la alta dirección?",
+   "a": "5 minutos o menos."
+  },
+  "security-4-k11": {
+   "q": "¿Cuáles son los 8 pasos del caso de negocio?",
+   "a": "Resumen ejecutivo, descripción del proyecto, impacto en el negocio, justificación, análisis costo-beneficio, alternativas y análisis, recomendación y aprobaciones."
+  },
+  "security-4-k12": {
+   "q": "¿Qué tres opciones suele incluir la recomendación?",
+   "a": "Adopción completa, opción intermedia o mixta, y no hacer nada."
+  },
+  "security-4-k13": {
+   "q": "¿Qué hacer si el 80 % de los reportes mensuales cae en \"otros\"?",
+   "a": "Crear categorías nuevas."
+  },
+  "security-4-k14": {
+   "q": "¿Cómo se hace una verificación piloto?",
+   "a": "Se protegen unos puntos y se dejan sin proteger otros de igual probabilidad de pérdida, y se comparan las pérdidas."
+  },
+  "security-5-k0": {
+   "q": "¿Cuánto dura una patente según el capítulo?",
+   "a": "20 años."
+  },
+  "security-5-k1": {
+   "q": "¿Qué tres cosas debe probar el dueño para que una información sea secreto comercial?",
+   "a": "Que aporta valor o beneficio, que fue identificada específicamente y que tuvo protección razonable."
+  },
+  "security-5-k2": {
+   "q": "¿Qué ley de 1996 hizo delito federal robar secretos comerciales en EE. UU.?",
+   "a": "La Economic Espionage Act (EEA)."
+  },
+  "security-5-k3": {
+   "q": "¿Cuántos niveles de sensibilidad usa la mayoría de las organizaciones?",
+   "a": "De 2 a 4."
+  },
+  "security-5-k4": {
+   "q": "¿Qué tipo de amenaza es la más ignorada y la más difícil de evaluar?",
+   "a": "La inadvertida (error humano)."
+  },
+  "security-5-k5": {
+   "q": "¿Por qué desaparecen muchas empresas tras un desastre natural?",
+   "a": "Pierden su información, no sus instalaciones; no tenían respaldo fuera del sitio ni sitios alternos."
+  },
+  "security-5-k6": {
+   "q": "¿En qué debe basarse el acceso de un empleado a la información?",
+   "a": "En su función actual y su necesidad de saber, no solo en su puesto."
+  },
+  "security-5-k7": {
+   "q": "¿Cuáles son las tres perspectivas del defense in depth?",
+   "a": "Niveles crecientes de confianza; medidas diversas que operan juntas; capas que retrasan, detectan y disuaden."
+  },
+  "security-5-k8": {
+   "q": "¿Qué principio justifica OPSEC y en qué año se implantó en el ejecutivo federal de EE. UU.?",
+   "a": "Datos pequeños combinados revelan información sensible; 1988."
+  },
+  "security-5-k9": {
+   "q": "¿El copyright necesita registro para estar protegido bajo el derecho internacional?",
+   "a": "No; registrarlo solo ayuda a hacerlo valer."
+  },
+  "security-5-k10": {
+   "q": "¿Hay leyes penales contra la infracción de patentes?",
+   "a": "No (DOJ 2006); sí puede haberlas por robo de secretos comerciales."
+  },
+  "security-5-k11": {
+   "q": "¿Cuál es el medio principal para proteger una marca en otro país?",
+   "a": "Registrarla antes de que el producto entre a su comercio."
+  },
+  "security-5-k12": {
+   "q": "¿El certificado de destrucción transfiere al contratista la responsabilidad de confidencialidad?",
+   "a": "No; la empresa sigue siendo responsable y debe hacer debida diligencia."
+  },
+  "security-5-k13": {
+   "q": "¿Cuáles son los dos elementos primarios de la recuperación tras una pérdida de información?",
+   "a": "Volver cuanto antes a la operación normal e impedir que se repita."
+  },
+  "security-5-k14": {
+   "q": "¿Cuál es el primer impacto de negocio de una pérdida según Trends in Proprietary Information Loss (2007)?",
+   "a": "Pérdida de reputación, imagen o goodwill de la empresa."
+  },
+  "security-6-k0": {
+   "q": "¿Cuáles son las tres preguntas del test de conducta ética de Blanchard y Peale (1988)?",
+   "a": "¿Es legal? ¿Es equilibrado? ¿Cómo me hará sentir conmigo mismo?"
+  },
+  "security-6-k1": {
+   "q": "¿Qué tipo de ética es la más relevante para la empresa?",
+   "a": "La ética aplicada (applied ethics)."
+  },
+  "security-6-k2": {
+   "q": "¿En qué tres niveles se aplica la ética empresarial?",
+   "a": "Empleado individual, organización y sociedad."
+  },
+  "security-6-k3": {
+   "q": "¿Qué tres factores motivan los actos no éticos, según los psicólogos?",
+   "a": "Deseo, racionalización y oportunidad."
+  },
+  "security-6-k4": {
+   "q": "¿Qué tres causas llevan a malas decisiones éticas en los negocios?",
+   "a": "Comodidad, ganar y relativismo (ética situacional)."
+  },
+  "security-6-k5": {
+   "q": "¿Cómo se llama actuar mal por interés propio sin darse cuenta?",
+   "a": "Ceguera motivada (motivated blindness), según Bazerman 2020."
+  },
+  "security-6-k6": {
+   "q": "¿Qué diferencia hay entre código de ética y programa de ética?",
+   "a": "El código enuncia los principios; el programa da la estructura y guía para cumplirlo."
+  },
+  "security-6-k7": {
+   "q": "¿Qué es imprescindible para que un código y un programa de ética funcionen?",
+   "a": "El apoyo activo de la alta dirección y del consejo u órgano de gobierno."
+  },
+  "security-6-k8": {
+   "q": "Según la literatura empírica, ¿qué influye más en la conducta ética: la conciencia individual o el entorno?",
+   "a": "Los principios del negocio y la conducta de los ejecutivos."
+  },
+  "security-6-k9": {
+   "q": "¿Por qué se exige al profesional de seguridad un estándar ético más alto?",
+   "a": "Porque evalúa los actos de otros y debe igualar o superar lo que les exige."
+  },
+  "security-6-k10": {
+   "q": "¿Qué es una fuente primaria de información legal?",
+   "a": "Una ley o un caso del propio estado o federal; es la fuente más fuerte."
+  },
+  "security-6-k11": {
+   "q": "¿Cuál es la última opción como referencia legal?",
+   "a": "Las publicaciones del sector (trade publications)."
+  },
+  "security-6-k12": {
+   "q": "¿Qué significa stare decisis?",
+   "a": "\"Que la decisión se mantenga\": un fallo previo debe seguirse en esa jurisdicción."
+  },
+  "security-6-k13": {
+   "q": "Según el Código de ASIS, ¿la información que el mandante confía a un miembro es privilegiada en juicio?",
+   "a": "No; el miembro puede tener que declararla aunque se oponga el abogado del mandante."
+  },
+  "security-6-k14": {
+   "q": "¿Qué ventaja tiene contratar con una aseguradora admitida?",
+   "a": "El fondo de garantía estatal paga los siniestros, hasta un límite, si la aseguradora quiebra."
+  },
+  "security-7-k0": {
+   "q": "¿Cómo define el libro la gestión (management)?",
+   "a": "Actividades para usar los recursos de forma eficiente y eficaz y lograr una o más metas."
+  },
+  "security-7-k1": {
+   "q": "Además de lo técnico, ¿qué habilidades exige subir de nivel gerencial?",
+   "a": "Interpersonales y conceptuales."
+  },
+  "security-7-k2": {
+   "q": "Según el libro, ¿por qué los gerentes son reactivos?",
+   "a": "Sus metas son impersonales, nacen de la necesidad y dependen de la historia y cultura de la organización."
+  },
+  "security-7-k3": {
+   "q": "¿El pensamiento crítico consiste en encontrar fallas?",
+   "a": "No. Es un proceso neutral e imparcial para evaluar afirmaciones, opiniones y hechos."
+  },
+  "security-7-k4": {
+   "q": "¿Quién define la estrategia como \"teoría sobre cómo lograr ventaja competitiva\"?",
+   "a": "Barney (2015)."
+  },
+  "security-7-k5": {
+   "q": "¿Cuáles son los seis componentes del macroentorno según Walker (2011)?",
+   "a": "Económico, demográfico, sociocultural, político-legal, tecnológico e internacional-global."
+  },
+  "security-7-k6": {
+   "q": "Muchas empresas, bajo costo de entrada y salida, productos no homogéneos: ¿qué tipo de competencia es?",
+   "a": "Competencia monopolística."
+  },
+  "security-7-k7": {
+   "q": "Si todas las amenazas de una industria son muy bajas, ¿cómo la ven los economistas?",
+   "a": "Como monopolio."
+  },
+  "security-7-k8": {
+   "q": "¿Qué ejemplo actual de oligopolio da el libro y con qué cifra?",
+   "a": "Cereal de desayuno en EE. UU.: cuatro empresas producen cerca del 90 %."
+  },
+  "security-7-k9": {
+   "q": "¿Qué son las capacidades organizacionales?",
+   "a": "Rutinas y procesos que transforman recursos (inputs) en productos o servicios (outputs)."
+  },
+  "security-7-k10": {
+   "q": "¿Qué nivel de estrategia busca ventaja operando en varios mercados a la vez?",
+   "a": "Corporate-level (Porter 1996), con enfoque de cartera."
+  },
+  "security-7-k11": {
+   "q": "¿Qué tipo de recursos deben explotar las estrategias internacionales?",
+   "a": "Valiosos, raros y costosos de imitar."
+  },
+  "security-7-k12": {
+   "q": "¿Qué diferencia hay entre formular y ejecutar la estrategia?",
+   "a": "Formular se impulsa por análisis; ejecutar, por operaciones (personas, procesos y estructura)."
+  },
+  "security-7-k13": {
+   "q": "Si el flujo de caja interno no cubre las iniciativas estratégicas, ¿qué opciones hay?",
+   "a": "Pedir prestado o vender acciones adicionales."
+  },
+  "security-7-k14": {
+   "q": "¿Con qué metáfora describe el libro la cultura corporativa?",
+   "a": "Como el \"ADN\" (DNA) de la empresa."
+  },
+  "security-8-k0": {
+   "q": "¿Qué diferencia hay entre gestión de emergencias y gestión de crisis?",
+   "a": "Emergencias atiende el impacto inmediato. Crisis es estratégica y protege la viabilidad a largo plazo y la reputación."
+  },
+  "security-8-k1": {
+   "q": "¿Qué término paraguas agrupa riesgos, seguridad y crisis?",
+   "a": "Resiliencia (resilience)."
+  },
+  "security-8-k2": {
+   "q": "¿Cuáles son los cuatro elementos cíclicos de la gestión de emergencias?",
+   "a": "Mitigation, preparedness, response y recovery."
+  },
+  "security-8-k3": {
+   "q": "Atornillar gabinetes a la pared en zona sísmica, ¿a qué fase corresponde?",
+   "a": "Mitigación."
+  },
+  "security-8-k4": {
+   "q": "¿Para quién se creó originalmente el modelo cíclico de emergencias?",
+   "a": "Para agencias gubernamentales de EE. UU."
+  },
+  "security-8-k5": {
+   "q": "¿Qué enfoque conviene a una organización expuesta a muchas amenazas?",
+   "a": "All-hazards: un EOP básico más checklists por tipo de amenaza."
+  },
+  "security-8-k6": {
+   "q": "¿Cuándo empieza la gestión de crisis?",
+   "a": "Al notificarse cualquier evento disruptivo, físico o no físico."
+  },
+  "security-8-k7": {
+   "q": "¿Cuál es la meta última de la gestión de crisis?",
+   "a": "Proteger los activos centrales: reputación, marca, bienestar financiero, confianza, propiedad física e intelectual y relaciones clave."
+  },
+  "security-8-k8": {
+   "q": "¿Cuál es el primer paso de un programa de gestión de crisis?",
+   "a": "Nombrar al personal crítico del CMT."
+  },
+  "security-8-k9": {
+   "q": "¿Cómo deben identificarse los miembros del CMT?",
+   "a": "Por puesto, con titular y suplentes."
+  },
+  "security-8-k10": {
+   "q": "¿Qué equipo de crisis actúa en la ubicación del incidente?",
+   "a": "El equipo táctico (tactical)."
+  },
+  "security-8-k11": {
+   "q": "¿Cuáles son las tres estrategias de continuidad del negocio?",
+   "a": "Recuperar en sitio, subcontratar funciones y reubicar funciones críticas y personal."
+  },
+  "security-8-k12": {
+   "q": "¿Qué se identifica antes de iniciar el ciclo de riesgo?",
+   "a": "Misión, metas, funciones y activos críticos, y el stakeholder que decide sobre riesgos."
+  },
+  "security-8-k13": {
+   "q": "¿Cómo se estima la probabilidad de un incidente de crisis?",
+   "a": "Con el perfil cambiante de la organización y las medidas de seguridad existentes."
+  },
+  "security-8-k14": {
+   "q": "¿Cuáles son las tres fases posteriores a un evento de agresor activo?",
+   "a": "Inmediata, de corto plazo y de largo plazo."
+  },
+  "security-9-k0": {
+   "q": "¿Cuáles son los cinco atributos de una investigación eficaz y fiable?",
+   "a": "Objetividad, exhaustividad, pertinencia, exactitud y oportunidad (objectivity, thoroughness, relevance, accuracy, timeliness)."
+  },
+  "security-9-k1": {
+   "q": "¿Cómo se mide el valor de las investigaciones privadas, frente a las públicas?",
+   "a": "Por recuperación, restitución, mitigación de litigios y reducción de riesgo; las públicas, por arrestos y condenas."
+  },
+  "security-9-k2": {
+   "q": "¿Qué documento da credibilidad y autoridad a la IU, y quién lo emite?",
+   "a": "La carta funcional (functional charter), emitida por el CEO o un cargo equivalente."
+  },
+  "security-9-k3": {
+   "q": "¿Cuál de los tres niveles de definición de la IU se revisa normalmente cada año?",
+   "a": "Los objetivos (objectives), con métricas de desempeño y metas de mejora."
+  },
+  "security-9-k4": {
+   "q": "¿Cuáles son las cuatro fases del proceso de investigación?",
+   "a": "Inicio, investigación, reporte (con retención de la información) y uso de los resultados."
+  },
+  "security-9-k5": {
+   "q": "¿Cuál es la principal diferencia entre una investigación encubierta y las demás?",
+   "a": "El operativo no oculta su presencia; oculta su identidad real o el propósito."
+  },
+  "security-9-k6": {
+   "q": "¿Se puede usar una investigación encubierta para vigilar actividades sindicales protegidas?",
+   "a": "No; tampoco actividades protegidas por ley ni para sustituir otra investigación igual de eficaz."
+  },
+  "security-9-k7": {
+   "q": "¿Cuál es el principal problema potencial de una investigación encubierta?",
+   "a": "Que se exponga o quede comprometida."
+  },
+  "security-9-k8": {
+   "q": "¿Con qué doctrina legal se compara la due diligence?",
+   "a": "Con la negligencia: la diligencia es el lado positivo del cuidado debido; la negligencia, su falta."
+  },
+  "security-9-k9": {
+   "q": "¿Qué diferencia un background check de una background investigation?",
+   "a": "El check confirma lo que declara el candidato; la investigation busca activamente lo que podría ocultar."
+  },
+  "security-9-k10": {
+   "q": "¿Cuáles son las \"tres I\" del investigador?",
+   "a": "Information, interrogation e instrumentation."
+  },
+  "security-9-k11": {
+   "q": "¿Qué es la cadena de custodia (chain of custody)?",
+   "a": "El control ininterrumpido de la evidencia."
+  },
+  "security-9-k12": {
+   "q": "En juicio, ¿quién decide la competencia y materialidad de la evidencia?",
+   "a": "El juez, normalmente según la jurisprudencia (case law)."
+  },
+  "security-9-k13": {
+   "q": "¿Qué otros nombres recibe el testigo de opinión y qué debe demostrar?",
+   "a": "Testigo experto o forense; capacitación, educación y experiencia en un tema concreto."
+  },
+  "security-9-k14": {
+   "q": "¿Qué informe puede complementar al de avance pero debe sostenerse por sí solo?",
+   "a": "El informe especial (special report)."
+  },
+  "security-10-k0": {
+   "q": "Según el libro, ¿qué suele ser la partida más cara del presupuesto de seguridad?",
+   "a": "Los vigilantes de seguridad."
+  },
+  "security-10-k1": {
+   "q": "¿Cuántos trabajadores de seguridad privada había en 2017 y cuánto valía la industria?",
+   "a": "Unos 20 millones; unos 180,000 millones de dólares."
+  },
+  "security-10-k2": {
+   "q": "¿Cuándo se justifica armar a un vigilante?",
+   "a": "Si sin arma hay más peligro para la vida, o si puede tener que usar fuerza letal."
+  },
+  "security-10-k3": {
+   "q": "¿Entre qué extremos va el continuo de fuerza?",
+   "a": "De la presencia del vigilante a la fuerza letal."
+  },
+  "security-10-k4": {
+   "q": "¿Qué factores deben decidir entre vigilantes propios, subcontratados o híbridos?",
+   "a": "Tipo de activos, nivel de riesgo y expectativas sobre los vigilantes; no el costo."
+  },
+  "security-10-k5": {
+   "q": "¿En qué se diferencian las órdenes generales de las órdenes de puesto?",
+   "a": "Las generales son principios básicos de conducta; las de puesto tratan un solo tema y están en cada puesto."
+  },
+  "security-10-k6": {
+   "q": "¿Qué bitácora recoge la historia acumulada de todos los turnos?",
+   "a": "La bitácora principal o de control (main / control log)."
+  },
+  "security-10-k7": {
+   "q": "¿Con qué frecuencia mínima se evalúa a un vigilante?",
+   "a": "Una evaluación formal al año y una revisión informal a los seis meses."
+  },
+  "security-10-k8": {
+   "q": "¿Cuál es el primer paso al detectar necesidades de formación?",
+   "a": "Ver si la ley exige alguna formación."
+  },
+  "security-10-k9": {
+   "q": "¿Quién debe fijar las tarifas por hora en un contrato de vigilancia?",
+   "a": "El cliente, no la agencia."
+  },
+  "security-10-k10": {
+   "q": "¿Cuáles son las tres categorías de consultores de seguridad?",
+   "a": "De gestión, técnicos y forenses."
+  },
+  "security-10-k11": {
+   "q": "En la selección de consultores, ¿a cuántos candidatos se entrevista?",
+   "a": "A los dos o tres mejores."
+  },
+  "security-10-k12": {
+   "q": "¿Cuál es la diferencia clave entre un agente de protección y un policía?",
+   "a": "El agente saca al protegido del peligro y huye; el policía corre hacia el problema."
+  },
+  "security-10-k13": {
+   "q": "¿Qué dos aspectos fijan el perfil de riesgo de un ejecutivo?",
+   "a": "Lo atractivo del blanco y la probabilidad de que una amenaza tenga éxito."
+  },
+  "security-10-k14": {
+   "q": "¿Qué es la intervención y en qué se diferencia de la disciplina?",
+   "a": "Interrumpir de forma planeada las conductas destructivas del consumidor; es un acto de cuidado, no una sanción."
+  },
+  "security-10-k15": {
+   "q": "¿Cuándo nacieron los programas de ayuda al empleado y cómo se llamaban?",
+   "a": "En los años 40; se llamaban programas de alcoholismo laboral."
+  },
+  "security-10-k16": {
+   "q": "¿En qué se diferencian educación, formación y concienciación?",
+   "a": "La educación da conocimiento general, la formación da habilidades concretas y la concienciación busca atención consciente."
+  },
+  "security-10-k17": {
+   "q": "Si un supervisor directo recibe una queja por amenaza de violencia y no la escala, ¿la empresa queda enterada?",
+   "a": "Sí: la situación se considera previsible y conocida por la empresa."
+  },
+  "security-11-k0": {
+   "q": "¿Qué cambio de enfoque busca la ESRM?",
+   "a": "Pasar de gestionar programas a gestionar riesgos, con seguridad dentro del liderazgo del negocio."
+  },
+  "security-11-k1": {
+   "q": "Según este libro, ¿cuáles son las cuatro D?",
+   "a": "Deter, detect, delay y deny."
+  },
+  "security-11-k2": {
+   "q": "¿Qué herramienta debe dominar a fondo el profesional de seguridad física?",
+   "a": "La inspección de seguridad (security survey)."
+  },
+  "security-11-k3": {
+   "q": "¿Cuál es el primer paso de una evaluación de riesgos integral?",
+   "a": "Identificar los activos y darles un valor absoluto o relativo."
+  },
+  "security-11-k4": {
+   "q": "Una empresa costera nunca se ha inundado. ¿Su probabilidad de inundación es baja?",
+   "a": "No; la ubicación eleva la probabilidad aunque no haya historial."
+  },
+  "security-11-k5": {
+   "q": "¿Cuál es la meta de las métricas de sistemas vigilados por el SOC?",
+   "a": "Reducir el ruido para que solo lleguen alarmas legítimas."
+  },
+  "security-11-k6": {
+   "q": "Defina el punto crítico de detección.",
+   "a": "Punto donde el tiempo de retardo restante supera el tiempo de la fuerza de respuesta."
+  },
+  "security-11-k7": {
+   "q": "¿Qué red troncal es preferible para los sistemas de seguridad?",
+   "a": "Una red independiente, no la corporativa."
+  },
+  "security-11-k8": {
+   "q": "¿Cuáles son los tres elementos básicos de CPTED?",
+   "a": "Territorialidad, vigilancia y control de acceso."
+  },
+  "security-11-k9": {
+   "q": "Un programa de vigilancia vecinal, ¿qué tipo de medida CPTED es?",
+   "a": "Organizacional."
+  },
+  "security-11-k10": {
+   "q": "¿Qué método de control de acceso verifica la identidad de la persona?",
+   "a": "La biometría (lo que eres)."
+  },
+  "security-11-k11": {
+   "q": "¿Qué desventaja tiene combinar tecnologías de control de acceso?",
+   "a": "Puede reducir el flujo de paso (throughput)."
+  },
+  "security-11-k12": {
+   "q": "¿Cuál suele ser el componente más caro de un programa de seguridad?",
+   "a": "El personal de seguridad."
+  },
+  "security-11-k13": {
+   "q": "¿Se acorta el diseño de sistemas con más personal o presupuesto?",
+   "a": "No de forma sustancial; es un proceso en serie."
+  },
+  "security-11-k14": {
+   "q": "¿Cuál es el paso más importante al instalar un sistema de protección física?",
+   "a": "La preparación y planificación del sitio."
+  },
+  "security-12-k0": {
+   "q": "¿Cuáles son las cuatro tendencias globales del capítulo?",
+   "a": "Disturbios civiles, terrorismo, violencia laboral y ciberseguridad."
+  },
+  "security-12-k1": {
+   "q": "¿Qué informe respalda esas tendencias?",
+   "a": "*The Global Risks Report 2021* del WEF."
+  },
+  "security-12-k2": {
+   "q": "Si la empresa es blanco de una protesta, ¿cuál es la tarea del director de seguridad?",
+   "a": "Proteger personas, bienes, información y reputación; no impedir la protesta."
+  },
+  "security-12-k3": {
+   "q": "¿Cuál es la meta de seguridad en disturbios civiles?",
+   "a": "Prevenir problemas, no arrestar; seguridad no es aplicación de la ley."
+  },
+  "security-12-k4": {
+   "q": "¿En qué se basa la evaluación de la amenaza ante una protesta?",
+   "a": "En la recolección de inteligencia (Herman 2017)."
+  },
+  "security-12-k5": {
+   "q": "¿Qué definición de terrorismo exige una causa política, religiosa, racial o ideológica?",
+   "a": "La del Crown Prosecution Service del Reino Unido."
+  },
+  "security-12-k6": {
+   "q": "¿Qué definición limita las víctimas a civiles o no combatientes?",
+   "a": "La del panel de Naciones Unidas (2005)."
+  },
+  "security-12-k7": {
+   "q": "Según el FBI, ¿qué distingue al terrorismo doméstico?",
+   "a": "Persigue metas ideológicas de influencias internas, no extranjeras."
+  },
+  "security-12-k8": {
+   "q": "¿Cuál es el vector principal del terrorismo?",
+   "a": "Atacar la sensación de seguridad del público donde vive o trabaja."
+  },
+  "security-12-k9": {
+   "q": "¿Cuál es el paso más importante al iniciar un programa WVPI?",
+   "a": "Crear una política respaldada por la alta dirección."
+  },
+  "security-12-k10": {
+   "q": "¿Por qué evitar \"tolerancia cero\" en la política?",
+   "a": "Reduce los reportes y disminuye la seguridad."
+  },
+  "security-12-k11": {
+   "q": "¿Cuáles son las cuatro fases de la norma ASIS de violencia laboral?",
+   "a": "Prevención, intervención, respuesta y secuelas."
+  },
+  "security-12-k12": {
+   "q": "En un ataque de ransomware, ¿qué suele costar más?",
+   "a": "La pérdida de productividad, más que la limpieza."
+  },
+  "security-12-k13": {
+   "q": "¿Qué es un BEC?",
+   "a": "Suplantar a un ejecutivo para ordenar una transferencia a una cuenta criminal."
+  },
+  "security-12-k14": {
+   "q": "¿Qué dejó el ataque a SolarWinds según la Casa Blanca?",
+   "a": "9 agencias federales y unas 100 empresas comprometidas; unas 18,000 entidades descargaron la actualización."
+  },
+  "security-A-k0": {
+   "q": "¿Qué es un estándar?",
+   "a": "Conjunto de criterios, directrices y mejores prácticas para mejorar la calidad y fiabilidad de productos, servicios o procesos."
+  },
+  "security-A-k1": {
+   "q": "¿Bajo qué cuatro principios se desarrollan los estándares?",
+   "a": "Consenso, apertura, debido proceso y transparencia."
+  },
+  "security-A-k2": {
+   "q": "¿Quién coordina el desarrollo de estándares?",
+   "a": "Organismos acreditados de desarrollo de estándares (SDOs)."
+  },
+  "security-A-k3": {
+   "q": "¿Qué diferencia un estándar voluntario de uno legal o regulatorio?",
+   "a": "El legal es obligatorio por ley y lo hacen cumplir autoridades formales."
+  },
+  "security-A-k4": {
+   "q": "¿Cuándo se habla de estándar mixto?",
+   "a": "Cuando un estándar voluntario se incorpora a leyes o reglamentos, como en incendio, construcción y seguridad de la vida."
+  },
+  "security-A-k5": {
+   "q": "¿Cómo puede un estándar voluntario volverse obligatorio en la práctica?",
+   "a": "Por aseguradoras que condicionan el seguro o por contratos que lo exigen."
+  },
+  "security-A-k6": {
+   "q": "¿Qué organismo emite estándares sobre cerraduras, alarmas y control de acceso?",
+   "a": "UL (Underwriters Laboratories)."
+  },
+  "security-A-k7": {
+   "q": "¿Son voluntarios todos los estándares de la NFPA?",
+   "a": "No. Algunos se incorporan a reglamentos, como los códigos de construcción."
+  },
+  "security-A-k8": {
+   "q": "¿Cuáles son los estándares de sistemas de gestión más destacados?",
+   "a": "ISO 9001 (calidad) e ISO 14001 (ambiental)."
+  },
+  "security-A-k9": {
+   "q": "¿Cuál es el principio operativo de los estándares de sistemas de gestión?",
+   "a": "El ciclo Plan-Do-Check-Act (PDCA)."
+  },
+  "security-A-k10": {
+   "q": "¿Qué ocurre en la fase \"Act\"?",
+   "a": "Se estandarizan las soluciones que funcionan, se revisan los problemas y se definen otros nuevos; el ciclo reinicia."
+  },
+  "security-A-k11": {
+   "q": "¿Qué norma de ASIS se cita en la figura A.1?",
+   "a": "ASIS ORM.1-2017, Security and Resilience in Organizations and their Supply Chains."
+  }
+ },
+ "ideas": {
+  "security-1": "La gestión de riesgos de seguridad empresarial (Enterprise Security Risk Management, ESRM) sustituye la gestión por \"programas de seguridad\" por un proceso de gestión de riesgos. El dueño del activo (asset owner) decide sobre el riesgo, y el profesional de seguridad lo guía como asesor de confianza (trusted advisor). ASIS International, la asociación que otorga el CPP (Certified Protection Professional), adoptó ESRM como base de toda la gestión de seguridad.",
+  "security-2": "La protección de activos (assets protection) abarca personas, bienes, información e intangibles. Con la gestión de riesgos de seguridad empresarial (Enterprise Security Risk Management, ESRM), el profesional guía y el dueño del activo decide. El capítulo repasa qué es un activo, qué ha cambiado la profesión y dos marcos básicos: las cuatro formas de gestionar el riesgo y las cuatro D.",
+  "security-3": "El robo y el fraude de empleados están entre las mayores amenazas de una organización. Se previenen reduciendo la tentación y aumentando la probabilidad de detección, con un programa proactivo y permanente. El capítulo aporta cifras de referencia, teorías sobre la motivación, señales de alerta (red flags), una estrategia de respuesta y un modelo integral de 10 elementos.",
+  "security-4": "La protección de activos debe ser costo-efectiva y demostrable en dinero. El capítulo enseña a cuantificar las pérdidas evitadas, calcular el retorno sobre la inversión (ROI), usar y presentar métricas, redactar un caso de negocio en 8 pasos y usar los reportes de incidentes para predecir y prevenir pérdidas.",
+  "security-5": "La protección de activos de información (Information Asset Protection, IAP) es otro nombre de la seguridad de la información. Debe basarse en riesgo, con el enfoque de gestión de riesgos de seguridad empresarial (Enterprise Security Risk Management, ESRM). Debe apoyar al negocio y combinar medidas de seguridad con medidas legales. El programa busca prevenir pérdidas, pero también debe responder y recuperarse cuando ocurren.",
+  "security-6": "La ética se aplica a la empresa en tres niveles: individuo, organización y sociedad. Un código de ética solo funciona si lo sostiene un programa de ética con apoyo de la alta dirección. El profesional de seguridad tiene un estándar ético más alto que los demás empleados. En lo legal, debe distinguir fuentes primarias de secundarias y prever cómo la ley afectará a la nueva tecnología. Cierran el capítulo el Código de Ética de ASIS (Appendix 6A) y el seguro como herramienta de gestión de riesgos (Appendix 6B).",
+  "security-7": "El profesional de seguridad necesita entender cómo funciona un negocio para competir por recursos. El capítulo cubre gestión y liderazgo, toma de decisiones, estrategia (entorno externo e interno, niveles de estrategia, expansión internacional), ejecución de la estrategia y cultura corporativa. La pág. 130 está en blanco.",
+  "security-8": "Gestión de emergencias, de crisis y de continuidad suelen usarse como sinónimos, pero no lo son. La emergencia atiende el impacto inmediato; la crisis es estratégica y protege la viabilidad y la reputación; la continuidad devuelve la operación a la normalidad. Hoy se agrupan bajo el paraguas de la resiliencia (resilience).",
+  "security-9": "Una investigación reúne y documenta hechos de forma lógica, metódica y legal para llegar a una conclusión objetiva. En el sector privado su fin es proteger los intereses de la empresa, no el bien público. El capítulo cubre la gestión de la unidad de investigación, tres tipos de investigación y las herramientas: entrevista, evidencia, testimonio, multiplicadores de fuerza e informes.",
+  "security-10": "La seguridad depende de las personas: unas la defienden y otras intentan romperla. El capítulo cubre los puestos de seguridad (vigilantes, consultores y protección ejecutiva) y los temas de personal que afectan a la seguridad: formación, consumo de sustancias, concienciación y violencia laboral. El gerente debe fijar políticas claras y lograr que la gente entienda las reglas y sus razones.",
+  "security-11": "La seguridad física combina medidas físicas para proteger activos frente a amenazas realistas y creíbles. Se apoya en la gestión de riesgos de seguridad empresarial, en las cuatro D y en la defensa en profundidad. Integra estructura, tecnología y personas, y exige buena gestión de proyectos y mantenimiento.",
+  "security-12": "Los riesgos de seguridad son globales y la pandemia de COVID-19 los agravó. El capítulo trata cuatro tendencias: disturbios civiles, terrorismo, violencia en el lugar de trabajo y ciberseguridad. Para cada una da definiciones, datos y el papel del profesional de seguridad.",
+  "security-A": "Un estándar reúne criterios y buenas prácticas para mejorar la calidad y la fiabilidad. Los estándares pueden ser voluntarios, obligatorios por ley o mixtos. Los estándares de sistemas de gestión funcionan con el ciclo Plan-Do-Check-Act."
+ },
+ "quiz": {}
+}

@@ -1,0 +1,491 @@
+{
+ "cards": {
+  "investigations-1-k0": {
+   "q": "¿Cuáles son las cinco cualidades de una investigación eficaz?",
+   "a": "Objectivity, thoroughness, relevance, accuracy y timeliness."
+  },
+  "investigations-1-k1": {
+   "q": "Según la norma de investigaciones de ASIS (2015), ¿en qué seis aspectos difieren las investigaciones públicas de las privadas?",
+   "a": "Powers of arrest, search and seizure, testimony, prosecution, due process y consequences."
+  },
+  "investigations-1-k2": {
+   "q": "Según la Figura 1.1, ¿qué cinco funciones de gestión se aplican y en qué tres niveles?",
+   "a": "Plan, organize, direct, coordinate y control; en los niveles strategic, operational y case."
+  },
+  "investigations-1-k3": {
+   "q": "¿Qué documento da credibilidad y autoridad a una IU, quién lo emite y qué extensión suele tener?",
+   "a": "La carta funcional (functional charter). La emite el CEO o un equivalente; suele ocupar una página o menos."
+  },
+  "investigations-1-k4": {
+   "q": "¿Cuáles son las tres \"I\" del investigador?",
+   "a": "Information, interrogation e instrumentation."
+  },
+  "investigations-1-k5": {
+   "q": "¿Cuándo debe el investigador sacar el tema de la restitución con el sospechoso?",
+   "a": "Solo después de una confesión o cuando los hechos permitan una conclusión fiable. Antes, se arriesga a que luego alegue coacción."
+  },
+  "investigations-1-k6": {
+   "q": "¿Qué norma de Estados Unidos exige un canal interno de denuncia sin represalias a las empresas que cotizan en bolsa, y cuál a las condenadas por delitos?",
+   "a": "Sarbanes-Oxley Act de 2002 para las que cotizan; Federal Sentencing Guidelines para las condenadas."
+  },
+  "investigations-1-k7": {
+   "q": "¿Cuáles son, en orden, los cinco pasos del ciclo de inteligencia criminal de la Figura 1.5?",
+   "a": "Requerimientos, recolección, integración/análisis, difusión y evaluación."
+  },
+  "investigations-1-k8": {
+   "q": "Según la U.S. Sentencing Commission, ¿qué dos factores mitigan la pena de una organización?",
+   "a": "Un programa eficaz de cumplimiento y ética; y autodenuncia, cooperación o aceptación de responsabilidad."
+  },
+  "investigations-1-k9": {
+   "q": "¿Qué diferencia hay entre operational security y OPSEC?",
+   "a": "La primera reúne todas las medidas de una operación concreta y de seguridad del investigador (encubiertas, sting). OPSEC es un método sistemático de cinco pasos cíclicos para proteger información crítica."
+  },
+  "investigations-1-k10": {
+   "q": "Con la directriz de muestra del libro, ¿quién atiende un robo con pérdida estimada de $12,000?",
+   "a": "Se remite a la IU, porque supera los $10,000."
+  },
+  "investigations-1-k11": {
+   "q": "¿Qué cinco cualidades básicas ayudan a asegurar una conclusión apropiada del caso?",
+   "a": "Objetividad, exhaustividad, relevancia, exactitud y oportunidad."
+  },
+  "investigations-1-k12": {
+   "q": "¿Cuál es la herramienta más usada en el análisis táctico de inteligencia criminal y qué asociación la impulsó?",
+   "a": "El análisis de vínculos (link analysis), impulsado por la IALEIA."
+  },
+  "investigations-1-k13": {
+   "q": "¿En qué se diferencia la informática forense de la forense tradicional respecto a los datos del caso?",
+   "a": "La tradicional no necesita detalles del caso (p. ej., ADN). La informática debe guiarse por la investigación, porque no puede revisar todos los archivos."
+  },
+  "investigations-2-k0": {
+   "q": "Según el libro, ¿qué distingue al undercover de otras investigaciones?",
+   "a": "El operativo no oculta su presencia; lo secreto es su identidad real o el propósito de la investigación."
+  },
+  "investigations-2-k1": {
+   "q": "¿Desde qué año el undercover es un método preferido para investigar el abuso de sustancias en el trabajo?",
+   "a": "Desde 1985 (la industria reconoció el problema en 1981)."
+  },
+  "investigations-2-k2": {
+   "q": "¿Se puede colocar a un operativo en una plantilla sindicalizada?",
+   "a": "Sí, si no interfiere en actividades sindicales protegidas. Nunca se usa como operativo a un empleado sindicalizado actual."
+  },
+  "investigations-2-k3": {
+   "q": "Ordena las cinco fases.",
+   "a": "Planning and preparation; information gathering; verification and analysis; disciplinary and corrective action; prevention and education."
+  },
+  "investigations-2-k4": {
+   "q": "¿Quiénes forman, como mínimo, el investigative team?",
+   "a": "Un decisor corporativo, un representante de recursos humanos, un profesional de seguridad corporativa y un abogado que conozca la legislación laboral estatal y local."
+  },
+  "investigations-2-k5": {
+   "q": "¿Qué seguro debe exigirse a la agencia?",
+   "a": "Un certificado que nombre a la empresa como additional insured, con cobertura por ocurrencia (occurrence) y no por reclamación (claims-made)."
+  },
+  "investigations-2-k6": {
+   "q": "¿Qué forma de entrada del operativo es preferible y cuál es su pega?",
+   "a": "El cold hire; puede ser la menos práctica."
+  },
+  "investigations-2-k7": {
+   "q": "¿Quiénes son los cinco miembros del project management team?",
+   "a": "El operativo, el jefe de proyecto, el representante del cliente, el abogado corporativo y, si hace falta, un representante de la policía."
+  },
+  "investigations-2-k8": {
+   "q": "¿Cuál es la razón principal para meter a un abogado en ese equipo?",
+   "a": "Proteger el work product del investigador frente al discovery."
+  },
+  "investigations-2-k9": {
+   "q": "Da las dos razones para escribir los informes en tercera persona.",
+   "a": "Se pueden editar sin que el operativo los vuelva a autenticar, y el jefe de proyecto puede declarar que su informe no es una versión alterada."
+  },
+  "investigations-2-k10": {
+   "q": "¿Cada cuánto se prepara normalmente el investigative summary?",
+   "a": "Tras 10 días seguidos de trabajo del operativo."
+  },
+  "investigations-2-k11": {
+   "q": "¿En qué orden se hacen las entrevistas tras un undercover?",
+   "a": "De los más implicados a los menos implicados."
+  },
+  "investigations-2-k12": {
+   "q": "¿Qué es el entrapment y cómo se neutraliza?",
+   "a": "Inducir a alguien a cometer un delito; es una defensa penal, no un delito. Se neutraliza calificando al vendedor: conducta previa y motivo propio, idealmente económico."
+  },
+  "investigations-2-k13": {
+   "q": "¿Cuándo conviene retirar al operativo?",
+   "a": "Lo más tarde posible: cuando se le nombra como infractor y se despide a otros, y con una explicación creíble."
+  },
+  "investigations-2-k14": {
+   "q": "¿Cómo cobran las firmas con experiencia?",
+   "a": "Por semana: 40 horas más una cover pay mínima. Incluye todo salvo los gastos de bolsillo y otras investigaciones especiales."
+  },
+  "investigations-3-k0": {
+   "q": "¿Qué ley dio el primer uso común del término due diligence?",
+   "a": "La Securities Act of 1933, con su \"Due Diligence Defense\" para broker-dealers."
+  },
+  "investigations-3-k1": {
+   "q": "¿Qué diferencia hay entre due care y due diligence?",
+   "a": "Due care es dar una protección razonable. Due diligence es el esfuerzo que demuestra ese due care."
+  },
+  "investigations-3-k2": {
+   "q": "¿Con qué doctrina legal se compara la due diligence?",
+   "a": "Con la negligencia, que es no ejercer el cuidado debido."
+  },
+  "investigations-3-k3": {
+   "q": "¿Cuándo se puede saber si hubo due diligence?",
+   "a": "A posteriori, tras cerrar el trato y comparar la investigación con los resultados."
+  },
+  "investigations-3-k4": {
+   "q": "¿Cuál es un error común en una due diligence?",
+   "a": "Fiarse solo de la información del objetivo en vez de verificarla con fuentes primarias."
+  },
+  "investigations-3-k5": {
+   "q": "¿Cuál es el primer paso de toda due diligence?",
+   "a": "Examinar el asunto y entender en qué factores fijarse."
+  },
+  "investigations-3-k6": {
+   "q": "¿Cuáles son las fuentes primarias?",
+   "a": "Las entrevistas y la observación directa."
+  },
+  "investigations-3-k7": {
+   "q": "¿Qué diferencia hay entre el 10-K y el 10-Q?",
+   "a": "El 10-K es el informe anual ante la SEC. El 10-Q es trimestral y lo actualiza."
+  },
+  "investigations-3-k8": {
+   "q": "¿Quién presenta los registros UCC y qué registran?",
+   "a": "Los vendedores o acreedores, para registrar deudas comerciales."
+  },
+  "investigations-3-k9": {
+   "q": "¿Qué repositorio reúne los registros federales penales, civiles, de quiebra y de apelación?",
+   "a": "PACER."
+  },
+  "investigations-3-k10": {
+   "q": "¿A qué cuatro categorías conviene limitar una búsqueda en redes sociales?",
+   "a": "Conducta violenta, actividad ilegal, material sexual explícito y vínculos con grupos criminales, terroristas u hostiles."
+  },
+  "investigations-3-k11": {
+   "q": "¿Qué siete elementos lleva el informe de due diligence?",
+   "a": "Cliente y proveedor, propósito y antecedentes, alcance, metodología, hallazgos, conclusión y aviso legal."
+  },
+  "investigations-3-k12": {
+   "q": "¿Qué enseña el caso Marriott–Starwood?",
+   "a": "Que la due diligence debe incluir ciberseguridad. Marriott no detectó la brecha y pagó más de 100 millones en multas."
+  },
+  "investigations-3-k13": {
+   "q": "¿De qué tamaño fue el esquema de Madoff y cuál es su lección?",
+   "a": "De 50 mil millones de dólares (2008). Lección: usar investigadores, abogados y contadores externos."
+  },
+  "investigations-3-k14": {
+   "q": "¿En qué años publicó el DOJ las versiones de la ECCP?",
+   "a": "En 2017, 2019 y 2020."
+  },
+  "investigations-4-k0": {
+   "q": "¿Qué diferencia hay entre background check y background investigation?",
+   "a": "La check confirma lo que da el candidato. La investigation busca de forma activa lo que oculta."
+  },
+  "investigations-4-k1": {
+   "q": "¿Cuáles son las dos estrategias principales de prevención de pérdidas según el capítulo?",
+   "a": "El screening de candidatos y la socialización del empleado."
+  },
+  "investigations-4-k2": {
+   "q": "¿Qué enseña el caso Calden?",
+   "a": "Que callar información peligrosa al dar referencias generó la primera demanda por negligent referral."
+  },
+  "investigations-4-k3": {
+   "q": "¿Qué porcentaje de empleadores usa algún tipo de screening, según el informe de 2019?",
+   "a": "El 96 %."
+  },
+  "investigations-4-k4": {
+   "q": "¿Cuántos homicidios laborales hubo en EE. UU. en 2018?",
+   "a": "453, de 5,250 muertes laborales. Es la cuarta causa de muerte laboral."
+  },
+  "investigations-4-k5": {
+   "q": "¿Qué componentes del screening se aplican al final?",
+   "a": "Los más caros, para que la política sea costo-eficiente."
+  },
+  "investigations-4-k6": {
+   "q": "¿Qué estándar de prueba se necesita para no contratar a un candidato?",
+   "a": "La \"buena fe\" (good faith)."
+  },
+  "investigations-4-k7": {
+   "q": "¿Desde cuántos empleados aplica la ADA al definir requisitos de un puesto?",
+   "a": "Desde 15 empleados."
+  },
+  "investigations-4-k8": {
+   "q": "¿Qué exige la FCRA si se usa un servicio externo de screening?",
+   "a": "Avisar al candidato y tener su autorización escrita, ambas separadas de la solicitud."
+  },
+  "investigations-4-k9": {
+   "q": "¿Qué es Ban-the-Box?",
+   "a": "La prohibición de preguntar por antecedentes penales en la solicitud hasta después de una oferta condicional."
+  },
+  "investigations-4-k10": {
+   "q": "¿Qué lagunas de empleo se deben investigar?",
+   "a": "Todas las de más de un mes."
+  },
+  "investigations-4-k11": {
+   "q": "¿Cuál es el orden de cartas de la FCRA ante una decisión adversa?",
+   "a": "Primero el aviso previo con el informe y el Summary of Rights, luego un plazo razonable y al final la adverse decision letter."
+  },
+  "investigations-4-k12": {
+   "q": "¿Qué diferencia hay entre los tests de integridad overt y personality-oriented?",
+   "a": "Los overt preguntan por actos deshonestos pasados. Los indirectos miden rasgos como la confiabilidad y el respeto a la autoridad."
+  },
+  "investigations-4-k13": {
+   "q": "¿Qué dato hace falta para buscar registros en México y América Latina?",
+   "a": "El apellido de soltera de la madre."
+  },
+  "investigations-4-k14": {
+   "q": "¿Qué ley de EE. UU. prohíbe el polígrafo preempleo?",
+   "a": "La Employee Polygraph Protection Act de 1988."
+  },
+  "investigations-5-k0": {
+   "q": "¿Cuáles son las \"tres I\" que usa el investigador?",
+   "a": "Information, interrogation e instrumentation."
+  },
+  "investigations-5-k1": {
+   "q": "¿Qué terminología recomienda el libro para el ámbito corporativo y privado, y de qué autor es?",
+   "a": "Informational vs. confrontational interview, de Deming (1997)."
+  },
+  "investigations-5-k2": {
+   "q": "¿Cuáles son los cuatro objetivos de la entrevista según John E. Reid and Associates?",
+   "a": "Obtener hechos valiosos, eliminar inocentes, identificar al culpable y obtener una confesión."
+  },
+  "investigations-5-k3": {
+   "q": "¿Qué tipo de informante es el más propenso a dar información falsa o sesgada?",
+   "a": "El informante anónimo."
+  },
+  "investigations-5-k4": {
+   "q": "¿Cuál es el factor más importante para el éxito de una entrevista?",
+   "a": "Establecer un buen rapport con el entrevistado."
+  },
+  "investigations-5-k5": {
+   "q": "¿Qué lado del triángulo del robo aprovecha el entrevistador para lograr la confesión?",
+   "a": "La racionalización: ayudar al sujeto a formar una justificación socialmente aceptable."
+  },
+  "investigations-5-k6": {
+   "q": "¿En qué orden se entrevista a las personas?",
+   "a": "Primero quien no estará disponible después; luego quien tiene la información más pertinente; luego los probables hostiles; el sujeto, al final."
+  },
+  "investigations-5-k7": {
+   "q": "¿A qué distancia del sujeto debe sentarse el entrevistador y por qué no tras un escritorio?",
+   "a": "Unos 5 pies; el escritorio dificulta el rapport e impide observar la conducta no verbal."
+  },
+  "investigations-5-k8": {
+   "q": "¿Qué tipo de negación es típica de una persona engañosa?",
+   "a": "Muy específica (por ejemplo, \"no tomé esos $12,437.18\")."
+  },
+  "investigations-5-k9": {
+   "q": "En la entrevista de análisis de conducta, ¿cómo responde un engañoso a la pregunta \"vouch\" o \"trust\"?",
+   "a": "No avala a nadie, para no reducir la lista de sospechosos."
+  },
+  "investigations-5-k10": {
+   "q": "¿En qué paso de Reid se queda siempre el inocente?",
+   "a": "En el paso 3, la negación: nunca pasa de ahí."
+  },
+  "investigations-5-k11": {
+   "q": "¿Cómo debe formularse la pregunta alternativa del paso 7?",
+   "a": "Dos opciones incriminatorias, asumiendo la culpa; nunca \"¿lo hizo o no?\"."
+  },
+  "investigations-5-k12": {
+   "q": "¿Qué técnica se creó para la policía británica con el fin de reducir las confesiones falsas?",
+   "a": "El modelo PEACE."
+  },
+  "investigations-5-k13": {
+   "q": "¿Qué reconoce el caso Weingarten (EE. UU., 1975)?",
+   "a": "El derecho del entrevistado a tener un representante sindical en una entrevista de investigación."
+  },
+  "investigations-5-k14": {
+   "q": "¿Puede un menor consentir una entrevista, y puede retirarse el consentimiento?",
+   "a": "No puede consentir (tampoco alguien intoxicado); el consentimiento puede retirarse en cualquier momento."
+  },
+  "investigations-6-k0": {
+   "q": "¿Cómo define el libro la cadena de custodia y cómo se mantiene?",
+   "a": "Es el control ininterrumpido de la evidencia. Se mantiene marcándola con las iniciales del investigador, limitando al mínimo quién la toca y documentando cada transferencia."
+  },
+  "investigations-6-k1": {
+   "q": "¿Qué tres condiciones debe cumplir la evidencia física para presentarse en un juicio?",
+   "a": "Cadena de custodia claramente demostrada, identificación correcta y relevancia para el caso."
+  },
+  "investigations-6-k2": {
+   "q": "¿Qué dos subtipos forman la evidencia indirecta?",
+   "a": "La circunstancial y la de oídas (circumstantial and hearsay). La directa es la real y material."
+  },
+  "investigations-6-k3": {
+   "q": "¿Qué excepción al hearsay se basa en declaraciones espontáneas hechas durante el evento, y cuáles son sus tres categorías?",
+   "a": "Res gestae: palabras que forman parte de un acto físico o lo explican, exclamaciones espontáneas y declaraciones sobre el estado mental."
+  },
+  "investigations-6-k4": {
+   "q": "En un entorno sindicalizado, ¿cuándo puede el investigador del empleador exigir confidencialidad?",
+   "a": "Solo si los testigos necesitan protección, la evidencia puede destruirse, el testimonio puede inventarse o hay que evitar un encubrimiento."
+  },
+  "investigations-6-k5": {
+   "q": "¿Qué consecuencia tiene ofrecer una recompensa a un testigo para que declare?",
+   "a": "Si se descubre, anula la declaración y puede acarrear un cargo de manipulación de testigos (witness tampering)."
+  },
+  "investigations-6-k6": {
+   "q": "¿Qué tipo de firma falsa se escribe con la letra normal del falsificador, sin intentar imitar?",
+   "a": "La firma a mano alzada (freehand)."
+  },
+  "investigations-6-k7": {
+   "q": "¿Cuántas copias se sacan para comparar fotocopias y con qué métodos?",
+   "a": "10 copias con cada uno de cuatro métodos: sin documento y tapa bajada, sin documento y tapa levantada, con documento y tapa bajada, y por el alimentador automático."
+  },
+  "investigations-6-k8": {
+   "q": "¿Qué categoría de evidencia física ayuda a localizar al sospechoso, como un recibo de tarjeta de crédito?",
+   "a": "Tracing evidence, que no hay que confundir con trace evidence (fibras, pintura, vidrio)."
+  },
+  "investigations-6-k9": {
+   "q": "¿Cuál es la evidencia física más común y qué se hace con ella?",
+   "a": "Las huellas dactilares. Se recogen y preservan primero, con guantes de látex o de algodón."
+  },
+  "investigations-6-k10": {
+   "q": "¿Quién puede entregar la escena y qué debe constar en la entrega?",
+   "a": "Solo la persona a cargo, cuando todos estén seguros de que la búsqueda fue completa. Consta la hora y la fecha, a quién se entregó y quién la entregó."
+  },
+  "investigations-6-k11": {
+   "q": "¿Cómo se extrae y se envía sangre para análisis de ADN?",
+   "a": "Personal médico extrae al menos dos tubos de 5 ml de tapón morado con EDTA. Se refrigeran sin congelar, con bolsas de frío y no hielo seco."
+  },
+  "investigations-6-k12": {
+   "q": "En una agresión facilitada por drogas, ¿qué muestra es obligatoria y en qué plazo?",
+   "a": "Orina, recogida cuanto antes y nunca más de 96 horas después del supuesto drogado."
+  },
+  "investigations-6-k13": {
+   "q": "¿Con qué material se moldea una pisada y qué tiempos se respetan?",
+   "a": "Con yeso dental piedra (dental stone), no con yeso de París. Reposo de 20 a 30 minutos con calor y secado al aire de al menos 48 horas; se empaca en papel."
+  },
+  "investigations-6-k14": {
+   "q": "¿Qué norma regula los patógenos de la sangre y qué concepto la sostiene?",
+   "a": "29 CFR 1910.1030 de OSHA, basada en las precauciones universales. El equipo se descontamina con lejía 1:10 preparada cada día o alcohol isopropílico al 70 %."
+  },
+  "investigations-7-k0": {
+   "q": "¿Sobre qué puede declarar un testigo de hechos?",
+   "a": "Solo sobre lo que vio, oyó, olió, tocó o saboreó."
+  },
+  "investigations-7-k1": {
+   "q": "¿Cuál es la excepción típica al hearsay que cita el libro?",
+   "a": "La dying declaration: las últimas palabras de la víctima que identifica al autor."
+  },
+  "investigations-7-k2": {
+   "q": "¿Qué otros dos nombres recibe el opinion witness?",
+   "a": "Expert witness y forensic witness."
+  },
+  "investigations-7-k3": {
+   "q": "¿Qué datos lleva la marca de una evidencia?",
+   "a": "Iniciales, fecha y número de seguimiento o de informe, en el mismo lugar siempre que se pueda."
+  },
+  "investigations-7-k4": {
+   "q": "¿Qué es un duces tecum?",
+   "a": "La petición entre las partes de presentar toda la evidencia tangible."
+  },
+  "investigations-7-k5": {
+   "q": "¿Qué son los interrogatories?",
+   "a": "Preguntas por escrito que se intercambian las partes antes del juicio."
+  },
+  "investigations-7-k6": {
+   "q": "¿Quién decide el resultado en un bench trial?",
+   "a": "El juez, porque no hay jurado."
+  },
+  "investigations-7-k7": {
+   "q": "¿Cómo se llama el proceso para ver si un candidato sirve como jurado?",
+   "a": "Voir dire."
+  },
+  "investigations-7-k8": {
+   "q": "¿Qué tres criterios usa el juez para indicar al jurado qué es evidencia?",
+   "a": "Relevancy, materiality y competency."
+  },
+  "investigations-7-k9": {
+   "q": "¿Cuándo debe el empleado examinar en persona la evidencia física?",
+   "a": "En la conferencia previa al juicio, para confirmar que existe completa."
+  },
+  "investigations-7-k10": {
+   "q": "Tras pedir aclaración, sigue sin entender la pregunta. ¿Qué tres opciones tiene?",
+   "a": "Decir que está confundido, pedir dar una respuesta matizada o decir que no puede responder sí o no."
+  },
+  "investigations-7-k11": {
+   "q": "¿Cómo se maneja hoy el contacto visual?",
+   "a": "Mirar al abogado mientras pregunta y repartir la mirada entre jurado y abogado al responder (Broda-Bahm 2015)."
+  },
+  "investigations-7-k12": {
+   "q": "¿Cuáles son los cuatro tipos de contradicciones?",
+   "a": "Dentro de una misma declaración, entre declaraciones del testigo, con lo dicho por otros y con otra evidencia."
+  },
+  "investigations-7-k13": {
+   "q": "¿Qué caso amplió Daubert a todo perito, científico o no?",
+   "a": "Kumho Tire v. Carmichael (1999)."
+  },
+  "investigations-7-k14": {
+   "q": "¿Qué tipo de testigo está obligado a responder preguntas hipotéticas?",
+   "a": "Solo el perito. El testigo de hechos no."
+  },
+  "investigations-8-k0": {
+   "q": "¿Cuáles son los cuatro force multipliers del capítulo?",
+   "a": "Fuentes en línea, liaison, información de inteligencia y tecnología."
+  },
+  "investigations-8-k1": {
+   "q": "¿Qué porcentaje de Internet es surface web, deep web y dark web según el libro?",
+   "a": "Alrededor del 4 %, más del 93 % y alrededor del 3 %."
+  },
+  "investigations-8-k2": {
+   "q": "¿Qué capa de Internet es la única indexada por buscadores como Google?",
+   "a": "La surface web o clear web."
+  },
+  "investigations-8-k3": {
+   "q": "¿Qué sistema permite buscar casos federales penales, civiles y de quiebra en EE. UU.?",
+   "a": "PACER (Public Access to Court Electronic Records)."
+  },
+  "investigations-8-k4": {
+   "q": "¿Qué se busca en la OFAC y en la FEC?",
+   "a": "Sanciones económicas en la OFAC; aportaciones a campañas políticas en la FEC."
+  },
+  "investigations-8-k5": {
+   "q": "¿Cuáles son las cuatro sugerencias para mantener el enlace?",
+   "a": "Beneficio mutuo sin quid pro quo obligatorio, respetar límites de regalos, nunca traicionar la confianza y contacto periódico."
+  },
+  "investigations-8-k6": {
+   "q": "Da un ejemplo de JTF de caso concreto y otro de JTF permanente.",
+   "a": "National Capital Area Sniper Case (2002) o Unabomber; Joint Terrorism Task Forces o Crimes Against Children Task Force."
+  },
+  "investigations-8-k7": {
+   "q": "¿Qué plan protege la información en una JTF?",
+   "a": "Un plan OPSEC a medida, para formato físico y electrónico."
+  },
+  "investigations-8-k8": {
+   "q": "¿Cuál es la máxima básica de la inteligencia en investigaciones?",
+   "a": "\"Check your own files first\": revisar primero los archivos propios."
+  },
+  "investigations-8-k9": {
+   "q": "¿Cuáles son los tres enfoques para usar data mining y analytics?",
+   "a": "Funciones de programas estándar, suites específicas compradas o subcontratar a un especialista."
+  },
+  "investigations-8-k10": {
+   "q": "¿Cuáles son los cinco pasos de la redacción de informes?",
+   "a": "Reunir hechos, registrarlos de inmediato, organizarlos, redactar y evaluar o corregir."
+  },
+  "investigations-8-k11": {
+   "q": "¿Cada cuánto se presenta el progress report en el sector privado?",
+   "a": "Cada 30 días."
+  },
+  "investigations-8-k12": {
+   "q": "¿En qué tres casos se presenta el final report?",
+   "a": "Cierre con éxito, pistas agotadas sin éxito o por orden de quien autorizó el caso."
+  },
+  "investigations-8-k13": {
+   "q": "¿En qué persona se escribe la narración de un agente encubierto?",
+   "a": "En primera persona."
+  },
+  "investigations-8-k14": {
+   "q": "¿Cómo se busca que el informe quede protegido frente a una subpoena?",
+   "a": "Entregándolo solo al abogado de registro de la empresa, como attorney work product."
+  }
+ },
+ "ideas": {
+  "investigations-1": "Una investigación es un proceso lícito y metódico de búsqueda de hechos que lleva a una conclusión razonable. Para gestionarla bien hacen falta cinco cualidades, una estructura que encaje en la empresa (interna, subcontratada o mixta) y control en cada fase del ciclo de vida. En el sector privado manda el interés de la empresa, no el castigo público.",
+  "investigations-2": "En una investigación encubierta (undercover investigation) se mete a un investigador entrenado en una plantilla que no lo sabe. Sirve para reunir información y entender el \"cómo\" y el \"porqué\" de lo que pasa. Es un último recurso: es cara y lenta, y tiene riesgo legal. Solo funciona con un plan de cinco fases, un abogado desde el inicio, confidencialidad estricta e informes bien escritos.",
+  "investigations-3": "La due diligence (diligencia debida) es un proceso de investigación proactivo. Sirve para tomar decisiones de gestión de riesgos de seguridad. No hay un estándar único: depende del objetivo, la situación, la jurisdicción, las leyes de privacidad y el plazo. La clave es entender qué necesita el cliente y verificar todo con fuentes primarias, no solo con lo que entrega la otra parte.",
+  "investigations-4": "Una sola mala contratación puede costar mucho en robos, violencia, demandas y reputación. Un programa de investigación de antecedentes legal, justo y aplicado con constancia previene pérdidas y protege contra demandas por negligent hiring y por discriminación. Se diseña según el puesto, el riesgo, la regulación y la información disponible, con seguridad, recursos humanos (RR. HH.) y asesoría legal trabajando juntos.",
+  "investigations-5": "La entrevista es la herramienta principal del investigador privado y corporativo para obtener información. El capítulo cubre la preparación, la documentación, los factores del entrevistado, cómo leer la conducta verbal y no verbal, la entrevista confrontacional (Reid) y los límites legales. Toda entrevista debe resistir una revisión judicial.",
+  "investigations-6": "La evidencia es lo que prueba o indica una afirmación, y puede ser oral, documental o física. El profesional de seguridad debe recogerla, protegerla, examinarla y transportarla con el estándar de los juicios penales y civiles, aunque el caso no llegue a juicio. Dos cosas no se negocian: la cadena de custodia y la seguridad del personal en la escena.",
+  "investigations-7": "El testimonio es el final de un recorrido que empieza con el incidente. El testimonio del profesional de seguridad vale lo que valgan sus procedimientos, sus informes y su preparación. También cuenta conocer a los participantes del juicio y las trampas del abogado contrario. El capítulo distingue entre testigo de hechos (fact witness) y testigo experto (expert witness), y cita los tres casos del Tribunal Supremo de EE. UU. sobre peritos.",
+  "investigations-8": "Para sacar el máximo de una investigación hay que usar multiplicadores de fuerza (force multipliers): fuentes en línea, enlace (liaison), inteligencia y tecnología. Los hallazgos deben comunicarse en informes claros y protegidos. Además, deben servir para mejorar el proceso de investigación y la postura de seguridad de la organización. El capítulo cierra con las tendencias de futuro."
+ },
+ "quiz": {}
+}

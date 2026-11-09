@@ -129,10 +129,11 @@ def glossary_cards(lines):
 def auto_quiz(cards, pool_domain, seed):
     """Opción múltiple a partir de las preguntas de repaso: la respuesta correcta y
     tres respuestas de otras preguntas del mismo capítulo (o del tomo si faltan),
-    elegidas por parecido de forma (si llevan cifras y longitud)."""
+    elegidas por parecido de forma (si llevan cifras y longitud). Guarda referencias
+    a las fichas, así la app arma el test en el idioma elegido."""
     rng = random.Random(seed)
     out = []
-    for i, card in enumerate(cards):
+    for card in cards:
         ans = plain(card["a"])
         has_d = bool(re.search(r"\d", ans))
         seen = {ans.lower()}
@@ -145,12 +146,12 @@ def auto_quiz(cards, pool_domain, seed):
             same_ch = c in cards
             score = (2.0 if bool(re.search(r"\d", t)) == has_d else 0) \
                 - abs(math.log((len(t) + 5) / (len(ans) + 5))) + (1.5 if same_ch else 0) + rng.random() * 0.6
-            cands.append((score, t))
+            cands.append((score, c["id"]))
         cands.sort(reverse=True)
-        distract = [t for _, t in cands[:3]]
+        distract = [cid for _, cid in cands[:3]]
         if len(distract) < 3:
             continue
-        out.append({"q": plain(card["q"]), "o": [ans] + distract, "c": 0, "e": "", "auto": 1})
+        out.append({"auto": 1, "k": card["id"], "d": distract})
     return out
 
 
@@ -198,6 +199,7 @@ def parse_domain(dom, md_text, quizzes):
                 sections[-1][1].append(ln)
             elif ln.startswith("**Idea central:**") and not idea:
                 idea = ln.replace("**Idea central:**", "").strip()
+                ch["idea_md"] = idea
             else:
                 pre.append(ln)
 
@@ -225,6 +227,8 @@ def parse_domain(dom, md_text, quizzes):
             parts.append(f'<h3 id="{cid}-{sid}">{html.escape(title)}</h3>' + md_to_html("\n".join(sl)))
         if not cards:  # sin preguntas de repaso: usa las tablas de glosario («Término | …»)
             cards = glossary_cards(ch["lines"])
+        for j, c in enumerate(cards):
+            c["id"] = f"{cid}-k{j}"
         out.append({
             "id": cid, "num": ch["num"], "label": ch["label"], "short": ch["short"],
             "title": ch["title"], "pages": ch["pages"],
@@ -234,17 +238,49 @@ def parse_domain(dom, md_text, quizzes):
         })
 
     all_cards = [c for ch in out for c in ch["cards"]]
-    for ch in out:
+    en = load_en(dom["id"])
+    exp = {"cards": {}, "ideas": {}, "quiz": {}}
+    for ch, raw in zip(out, chapters):
         hand = quizzes.get(ch["num"], [])
         if hand:
             ch["quiz"] = [{"q": q[0], "o": q[1], "c": q[2], "e": q[3]} for q in hand]
+            for j, q in enumerate(ch["quiz"]):
+                qid = f"{ch['id']}-q{j}"
+                exp["quiz"][qid] = {"q": q["q"], "o": q["o"], "e": q["e"]}
+                t = en["quiz"].get(qid)
+                if t and len(t.get("o", [])) == len(q["o"]):
+                    q.update({"qe": t["q"], "oe": t["o"], "ee": t.get("e", "")})
         elif ch["cards"]:
             others = [c for c in all_cards if c not in ch["cards"]]
             ch["quiz"] = auto_quiz(ch["cards"], others, ch["id"])
+        if raw.get("idea_md"):
+            exp["ideas"][ch["id"]] = raw["idea_md"]
+            if en["ideas"].get(ch["id"]):
+                ch["ideae"] = md_inline(en["ideas"][ch["id"]])
         # Fichas en HTML para mostrar negritas, cursivas, etc.
-        ch["cards"] = [{"q": md_inline(c["q"]), "a": md_inline(c["a"])} for c in ch["cards"]]
+        cards_html = []
+        for c in ch["cards"]:
+            exp["cards"][c["id"]] = {"q": c["q"], "a": c["a"]}
+            item = {"q": md_inline(c["q"]), "a": md_inline(c["a"])}
+            t = en["cards"].get(c["id"])
+            if t and t.get("q") and t.get("a"):
+                item.update({"qe": md_inline(t["q"]), "ae": md_inline(t["a"])})
+            cards_html.append(item)
+        ch["cards"] = cards_html
+    EXPORT[dom["id"]] = exp
     return {"id": dom["id"], "title": dom["title"], "es": dom["es"],
             "intro": md_to_html("\n".join(intro)).strip(), "chapters": out}
+
+
+def load_en(dom_id):
+    p = TOOLS / "i18n" / "en" / f"{dom_id}.json"
+    base = {"cards": {}, "ideas": {}, "quiz": {}}
+    if p.exists():
+        base.update(json.loads(p.read_text("utf-8")))
+    return base
+
+
+EXPORT = {}
 
 
 def render_all_latex():
@@ -288,10 +324,20 @@ def main():
               f"{index[-1]['quiz']} preguntas de test ({auto} automáticas), "
               f"{sum(len(c['ojo']) for c in chs)} notas 'ojo', {len(js) // 1024} KB")
 
+    src_dir = TOOLS / "i18n" / "src"
+    src_dir.mkdir(parents=True, exist_ok=True)
+    for dom_id, exp in EXPORT.items():
+        (src_dir / f"{dom_id}.json").write_text(json.dumps(exp, ensure_ascii=False, indent=1), "utf-8")
+        en = load_en(dom_id)
+        print(f"  inglés {dom_id}: {sum(1 for k in exp['cards'] if k in en['cards'])}/{len(exp['cards'])} fichas, "
+              f"{sum(1 for k in exp['quiz'] if k in en['quiz'])}/{len(exp['quiz'])} preguntas, "
+              f"{sum(1 for k in exp['ideas'] if k in en['ideas'])}/{len(exp['ideas'])} ideas")
+
     (DATA / "index.js").write_text(
         "window.CPP_INDEX=%s;\n" % json.dumps(index, ensure_ascii=False, separators=(",", ":")), "utf-8")
 
     fonts = sorted(f"vendor/katex/fonts/{p.name}" for p in (ROOT / "vendor/katex/fonts").glob("*.woff2"))
+    fonts += sorted(f"vendor/fonts/{p.name}" for p in (ROOT / "vendor/fonts").glob("*.woff2"))
     assets = ["./", "index.html", "styles.css", "app.js", "assets.js", "manifest.webmanifest",
               "vendor/katex/katex.min.css", *fonts,
               "icons/icon-180.png", "icons/icon-192.png", "icons/icon-512.png",

@@ -1,0 +1,1329 @@
+{
+ "cards": {
+  "physical-1-k0": {
+   "q": "When and by whom was the ESRM concept developed?",
+   "a": "In 2010, by members of the ASIS CSO Roundtable (now the CSO Center)."
+  },
+  "physical-1-k1": {
+   "q": "Is ESRM a security program?",
+   "a": "No; it is a management process or system that replaces the program methodology."
+  },
+  "physical-1-k2": {
+   "q": "In ESRM, who owns the risk?",
+   "a": "The asset owner."
+  },
+  "physical-1-k3": {
+   "q": "Does ESRM require physical security and cybersecurity to be under a single leader?",
+   "a": "No; ESRM is not convergence and works with any structure."
+  },
+  "physical-1-k4": {
+   "q": "How does ERM differ from ESRM?",
+   "a": "ERM covers all key risks (financial, operational, strategic); ESRM covers security risks. ESRM can be a subcomponent of ERM or stand alone."
+  },
+  "physical-1-k5": {
+   "q": "What are the three components of ESRM?",
+   "a": "Context, Foundation, and Cycle."
+  },
+  "physical-1-k6": {
+   "q": "What are the four processes of the ESRM Cycle?",
+   "a": "Identify and prioritize assets; identify and prioritize risks; mitigate prioritized risks; continuous improvement."
+  },
+  "physical-1-k7": {
+   "q": "By what criterion are assets prioritized?",
+   "a": "By their criticality to the organization's mission and strategy."
+  },
+  "physical-1-k8": {
+   "q": "Does senior management include the CSO?",
+   "a": "No; it sits above the security leader and does not include that role."
+  },
+  "physical-1-k9": {
+   "q": "Who approves the controls and who executes the plan?",
+   "a": "The asset owner approves; the security professional executes."
+  },
+  "physical-1-k10": {
+   "q": "Which security functions contribute most to continuous improvement?",
+   "a": "Incident response, investigations and analysis, and information sharing."
+  },
+  "physical-1-k11": {
+   "q": "What are the four components of the Foundation?",
+   "a": "Holistic risk management, stakeholder partnership, transparency, and governance."
+  },
+  "physical-1-k12": {
+   "q": "What three operating environments must security understand?",
+   "a": "Physical, nonphysical, and logical."
+  },
+  "physical-1-k13": {
+   "q": "Which stakeholder is frequently forgotten?",
+   "a": "The surrounding community."
+  },
+  "physical-1-k14": {
+   "q": "Who should make up the majority of the ESRM governance body?",
+   "a": "Security risk stakeholders, not security professionals."
+  },
+  "physical-1-k15": {
+   "q": "Which governance document uses \"should/may\" and which uses \"shall/must\"?",
+   "a": "Guidelines use \"should/may\"; standards use \"shall/must\"."
+  },
+  "physical-2-k0": {
+   "q": "What is the basic purpose of physical security?",
+   "a": "To protect tangible, intangible, or mixed assets: people, property, or information."
+  },
+  "physical-2-k1": {
+   "q": "Which definition of physical security mentions espionage, sabotage, damage, and theft?",
+   "a": "The one from the U.S. Department of Homeland Security (DHS)."
+  },
+  "physical-2-k2": {
+   "q": "How does this volume define \"security\"?",
+   "a": "The condition of being protected against hazards, threats, risks, tampering, or loss."
+  },
+  "physical-2-k3": {
+   "q": "What are the 4 Ds?",
+   "a": "Deter, detect, delay, deny."
+  },
+  "physical-2-k4": {
+   "q": "What are the seven functions of physical security?",
+   "a": "Access control, deterrence, detection, assessment, delay, response, and evidence gathering."
+  },
+  "physical-2-k5": {
+   "q": "Which function is the hardest to measure?",
+   "a": "Deterrence."
+  },
+  "physical-2-k6": {
+   "q": "Why is detection alone of little value?",
+   "a": "Because false positives depend on the system's sensitivity."
+  },
+  "physical-2-k7": {
+   "q": "Which function determines what was detected and whether a response is initiated?",
+   "a": "Assessment."
+  },
+  "physical-2-k8": {
+   "q": "According to Figure 2.1, which measure covers all the columns?",
+   "a": "Guards."
+  },
+  "physical-2-k9": {
+   "q": "Which lock does the book recommend if there are windows next to the door?",
+   "a": "A keyed double-cylinder deadbolt."
+  },
+  "physical-2-k10": {
+   "q": "Why is CPTED a \"force multiplier\"?",
+   "a": "It enhances other components and can reduce more expensive physical measures."
+  },
+  "physical-2-k11": {
+   "q": "What three elements does an IDS usually have?",
+   "a": "Sensors; alarms or annunciators; and a communication or transmission mechanism."
+  },
+  "physical-2-k12": {
+   "q": "What other names are used for security operations centers?",
+   "a": "Control centers and fusion centers."
+  },
+  "physical-2-k13": {
+   "q": "Why does the dual use of the credential require coordinating physical and IT security?",
+   "a": "Because the same credential grants physical access and logical access."
+  },
+  "physical-2-k14": {
+   "q": "What is a major challenge with peripherals during construction or renovations?",
+   "a": "The conflict between security systems and life safety systems."
+  },
+  "physical-3-k0": {
+   "q": "What does a security survey emphasize more than a full risk assessment does?",
+   "a": "Vulnerabilities; the risk assessment weighs assets, threats, vulnerabilities, and consequences equally."
+  },
+  "physical-3-k1": {
+   "q": "What are the four purposes of a security survey?",
+   "a": "To document the current posture, identify deficiencies and excesses, compare it with the level needed, and recommend improvements."
+  },
+  "physical-3-k2": {
+   "q": "Who gave the classic definition of a security survey cited by Broder (2012)?",
+   "a": "Momboisse (1977)."
+  },
+  "physical-3-k3": {
+   "q": "In K = Cp + Ct + Cr + Ci – I, what is I and how does it enter the formula?",
+   "a": "The available insurance or indemnity; it is subtracted."
+  },
+  "physical-3-k4": {
+   "q": "How does the book define an asset's criticality?",
+   "a": "The impact of its loss, measured in monetary terms."
+  },
+  "physical-3-k5": {
+   "q": "In Risk = (T × V × I)^1/3, what scale does each factor use and what is the cube root for?",
+   "a": "0 to 100; the root returns the result to the 0–100 scale."
+  },
+  "physical-3-k6": {
+   "q": "With that formula, if vulnerability is 0, what is the risk?",
+   "a": "Zero (at that time and place), because the factors are multiplied."
+  },
+  "physical-3-k7": {
+   "q": "What two attributes are commonly used to measure a vulnerability?",
+   "a": "Observability and exploitability."
+  },
+  "physical-3-k8": {
+   "q": "For natural threats, what does observability mean?",
+   "a": "The ability of security personnel to detect and track the approaching threat (early warning)."
+  },
+  "physical-3-k9": {
+   "q": "Which threats and vulnerabilities are the hardest to identify and measure?",
+   "a": "Inadvertent ones."
+  },
+  "physical-3-k10": {
+   "q": "What role does the team take on in the outside-inward methodology?",
+   "a": "The adversary's; it is a penetration test from the outside in toward the asset."
+  },
+  "physical-3-k11": {
+   "q": "In inside-outward, what example of interdependence does the book give?",
+   "a": "The effect of a power outage, or how many layers an intruder with a stolen master key could get through."
+  },
+  "physical-3-k12": {
+   "q": "What are the five criteria of a good report according to Broder (2012)?",
+   "a": "Accuracy, clarity, conciseness, timeliness, and slant or pitch."
+  },
+  "physical-3-k13": {
+   "q": "Who is responsible for mitigation and owns the plan?",
+   "a": "The risk owner; the security team advises and supports."
+  },
+  "physical-3-k14": {
+   "q": "When are automated assessment tools most useful?",
+   "a": "In low-risk scenarios, or when the assessor knows little and is looking for a best-practices baseline."
+  },
+  "physical-4-k0": {
+   "q": "According to Rathburn (2009), what is a metric?",
+   "a": "A measurement against a reference with at least two points (e.g., quantity over time)."
+  },
+  "physical-4-k1": {
+   "q": "What risk do Williams and Schultz (2016) point out?",
+   "a": "Executing a bad process well: brilliant metrics on a broken process (17,000 viruses cleaned, 5,000 undetected)."
+  },
+  "physical-4-k2": {
+   "q": "What are the three groups of Security MET criteria, and how many criteria are there in total?",
+   "a": "Technical, operational, and strategic; 9 criteria."
+  },
+  "physical-4-k3": {
+   "q": "What does a low score on the Security MET worksheet indicate?",
+   "a": "Where the metric has room for improvement."
+  },
+  "physical-4-k4": {
+   "q": "What do the R and the T stand for in Payne's (2006) SMART?",
+   "a": "Repeatable and Time-dependent."
+  },
+  "physical-4-k5": {
+   "q": "What test must a metric pass so it is not just noise?",
+   "a": "The who cares? test: there must be a consumer with a defined need (Rathburn, 2009)."
+  },
+  "physical-4-k6": {
+   "q": "What are the three ideas of the Enterprise Performance Framework (Frost, 2007)?",
+   "a": "Effectiveness, efficiency, and strategic improvement."
+  },
+  "physical-4-k7": {
+   "q": "What are the three components of a physical security program for metrics purposes?",
+   "a": "Systems, personnel, and compliance."
+  },
+  "physical-4-k8": {
+   "q": "What are systems metrics aiming for in the SOC?",
+   "a": "Reducing noise so that only legitimate alarms come through."
+  },
+  "physical-4-k9": {
+   "q": "After card-out exit was removed, every exit through the turnstile triggers a door forced alarm. Cause?",
+   "a": "The system was not programmed for free egress mode."
+  },
+  "physical-4-k10": {
+   "q": "In the example, what reduced the door held open alarms?",
+   "a": "Programming the alarm to trigger only after 15 minutes."
+  },
+  "physical-4-k11": {
+   "q": "In a contract surveillance plan, who measures the guard force's response, and with what?",
+   "a": "The COR, with a stopwatch (e.g., by activating a duress alarm)."
+  },
+  "physical-4-k12": {
+   "q": "A security officer completed 9 of 15 required courses. Compliance rate?",
+   "a": "60%."
+  },
+  "physical-4-k13": {
+   "q": "What does MTTMV measure, and in what units?",
+   "a": "The mean time to mitigate known vulnerabilities; in units of time."
+  },
+  "physical-4-k14": {
+   "q": "Stable system with few failures: which maintenance contract is best?",
+   "a": "Time and materials; with a high failure rate, fixed price."
+  },
+  "physical-5-k0": {
+   "q": "What are the two foundational principles of physical security design?",
+   "a": "The 4 Ds (deter, detect, delay, deny) and defense-in-depth."
+  },
+  "physical-5-k1": {
+   "q": "According to the book, what is the critical detection point?",
+   "a": "The point where the remaining delay exceeds the response force time."
+  },
+  "physical-5-k2": {
+   "q": "What is the difference between area security and point security?",
+   "a": "Area: strong perimeter and strict entry at a single access point. Point: loose perimeter and focus on buildings or restricted areas."
+  },
+  "physical-5-k3": {
+   "q": "What does the choice between point and area security depend on?",
+   "a": "The nature of the threat; the usual answer is a bit of both."
+  },
+  "physical-5-k4": {
+   "q": "According to the ASIS PAP 2021 standard, what is done before choosing measures?",
+   "a": "A risk assessment."
+  },
+  "physical-5-k5": {
+   "q": "What is a balanced system?",
+   "a": "Equal minimum penetration time or difficulty and equal probability of detection at each barrier."
+  },
+  "physical-5-k6": {
+   "q": "What usually determines whether an electronic lock is fail safe or fail secure?",
+   "a": "Building or fire codes."
+  },
+  "physical-5-k7": {
+   "q": "Why avoid feature-based criteria in standards?",
+   "a": "They lead to checklists; what matters is overall performance, not the presence of components."
+  },
+  "physical-5-k8": {
+   "q": "What do performance-based criteria allow?",
+   "a": "Comparing the baseline and upgraded systems, quantifying the improvement, and performing cost-benefit analysis."
+  },
+  "physical-5-k9": {
+   "q": "Which performance measure corresponds to delay?",
+   "a": "The time to defeat the obstacles."
+  },
+  "physical-5-k10": {
+   "q": "When a component fails, what is more important than knowing its cause?",
+   "a": "Having contingency plans to maintain operations or the security level for a specified time."
+  },
+  "physical-5-k11": {
+   "q": "What two types of investigation does the book mention as a procedural tool?",
+   "a": "Incident and exploratory."
+  },
+  "physical-5-k12": {
+   "q": "What does Figure 5.8 teach?",
+   "a": "Lack of coordination with the neighbor: bollards across half an entrance that the attacker goes around."
+  },
+  "physical-5-k13": {
+   "q": "What does the attacker who continued on foot with explosives teach?",
+   "a": "A vehicle barrier may not stop a pedestrian; scenarios must be thought through holistically."
+  },
+  "physical-5-k14": {
+   "q": "What principle does Vellani (2007) sum up?",
+   "a": "Fit the product to the need, not the need to the product."
+  },
+  "physical-6-k0": {
+   "q": "What assets other than a building does the book mention?",
+   "a": "A person, intellectual property, an event, a vehicle, data, a high-value object, living beings, and a capability."
+  },
+  "physical-6-k1": {
+   "q": "What three questions guide protection based on the type of asset?",
+   "a": "Mobile measures? Adaptable or static? Constant or variable threat?"
+  },
+  "physical-6-k2": {
+   "q": "Why is it better to deal with the owner rather than a tenant?",
+   "a": "It gives more negotiating power and more flexibility to modify the structure and to contract."
+  },
+  "physical-6-k3": {
+   "q": "What does a multi-tenant building require?",
+   "a": "A more adaptable design over the entire life of the facility."
+  },
+  "physical-6-k4": {
+   "q": "What does the case of the two U.S. agencies teach?",
+   "a": "Removing and reinstalling the same equipment creates great cost, waste, and delays."
+  },
+  "physical-6-k5": {
+   "q": "Name three elements that depend on the facility's purpose.",
+   "a": "Access control, standoff, sensor types, the guard force, or reliance on utilities."
+  },
+  "physical-6-k6": {
+   "q": "What types of intended access does the book distinguish?",
+   "a": "Private, public, or mixed."
+  },
+  "physical-6-k7": {
+   "q": "What does the museum case teach?",
+   "a": "A neighbor's incident can cut off the only access route to your own facility."
+  },
+  "physical-6-k8": {
+   "q": "Why does a rural or remote location matter?",
+   "a": "Response time is longer, which demands more self-sufficiency."
+  },
+  "physical-6-k9": {
+   "q": "What is the biggest predictor of business continuity planning success?",
+   "a": "Senior management commitment."
+  },
+  "physical-6-k10": {
+   "q": "What are the five general categories of security options?",
+   "a": "Architectural enhancements, systems, policies and procedures, management practices, and security personnel."
+  },
+  "physical-6-k11": {
+   "q": "How is the financial risk of loss transferred?",
+   "a": "Through insurance or contractual terms, such as indemnification clauses."
+  },
+  "physical-6-k12": {
+   "q": "Which treatment option is always available?",
+   "a": "Accepting the risk as a cost of doing business."
+  },
+  "physical-6-k13": {
+   "q": "What four criteria are used to evaluate a mitigation option?",
+   "a": "Availability, affordability, feasibility, and risk acceptance."
+  },
+  "physical-6-k14": {
+   "q": "According to its guiding principle, what should a continuity plan contain?",
+   "a": "A risk assessment and a business impact analysis, with the flexibility to adapt."
+  },
+  "physical-7-k0": {
+   "q": "What are the 4 Ds of perimeter design?",
+   "a": "Deter, detect, deny, delay."
+  },
+  "physical-7-k1": {
+   "q": "What is the chapter's simple risk equation?",
+   "a": "Risk = Vulnerability × Threat × Asset Value."
+  },
+  "physical-7-k2": {
+   "q": "What is the design basis threat?",
+   "a": "A profile of the adversary (type, composition, capabilities, methods, goals, intent, motivation) that serves as the basis for design and operations."
+  },
+  "physical-7-k3": {
+   "q": "According to FEMA, what two classes are hazards divided into?",
+   "a": "Natural and human-caused (intentional)."
+  },
+  "physical-7-k4": {
+   "q": "Which UFC series deals with security?",
+   "a": "Series 4."
+  },
+  "physical-7-k5": {
+   "q": "What is the change review board's most important duty?",
+   "a": "To serve as the clearinghouse for changes."
+  },
+  "physical-7-k6": {
+   "q": "Which lamp favors color CCTV?",
+   "a": "Metal halide, because of its white light."
+  },
+  "physical-7-k7": {
+   "q": "What pressure can exceed the initial wave at the same distance?",
+   "a": "Reflective pressure."
+  },
+  "physical-7-k8": {
+   "q": "From how many stories up is progressive collapse considered, and which standard defines it?",
+   "a": "Three or more stories; ASCE/SEI 59-11."
+  },
+  "physical-7-k9": {
+   "q": "Where is the mailroom located?",
+   "a": "Next to exterior walls; ideally, screening is done at another location."
+  },
+  "physical-7-k10": {
+   "q": "In the GSA table, which condition describes glass that is cracked but retained by the frame?",
+   "a": "Condition 2 (protection level Very High, hazard level None)."
+  },
+  "physical-7-k11": {
+   "q": "What is the bite of a window?",
+   "a": "The overlap of the frame over the glass."
+  },
+  "physical-7-k12": {
+   "q": "What maximum relative humidity is recommended to prevent mold?",
+   "a": "Less than 60%."
+  },
+  "physical-7-k13": {
+   "q": "Can security override the life safety code?",
+   "a": "No; locks must be failsafe in an emergency."
+  },
+  "physical-7-k14": {
+   "q": "How are assembly points identified?",
+   "a": "By color or letter, not by department name."
+  },
+  "physical-8-k0": {
+   "q": "What are the chapter's four levels of integration?",
+   "a": "Integrated electronic systems, integrated physical security elements, integrated security programs, and integration into enterprise risk management."
+  },
+  "physical-8-k1": {
+   "q": "Which backbone network is preferable for security systems?",
+   "a": "One that is independent of the enterprise network."
+  },
+  "physical-8-k2": {
+   "q": "What problems come with using the enterprise network?",
+   "a": "Bandwidth limits, traffic spikes, and permission difficulties."
+  },
+  "physical-8-k3": {
+   "q": "What is the advantage of a single source for maintenance?",
+   "a": "It is the single point of contact: it diagnoses and manages the solution."
+  },
+  "physical-8-k4": {
+   "q": "What is a system integrator?",
+   "a": "A third party that supplies or maintains specific system components."
+  },
+  "physical-8-k5": {
+   "q": "What are the three general categories of physical security elements?",
+   "a": "Electronic systems, structural measures, and human capital."
+  },
+  "physical-8-k6": {
+   "q": "What factors is the physical security strategy tailored to?",
+   "a": "The facility's mission, nature, location, and threat profile."
+  },
+  "physical-8-k7": {
+   "q": "What three primary elements does a successful design integrate?",
+   "a": "Architectural aspects, security systems, and operational factors."
+  },
+  "physical-8-k8": {
+   "q": "Does technology replace personnel?",
+   "a": "No; it is a force multiplier and provides cross-checks."
+  },
+  "physical-8-k9": {
+   "q": "When should operating procedures for each threat level be defined?",
+   "a": "Before the systems are purchased or installed."
+  },
+  "physical-8-k10": {
+   "q": "When is the human element integrated?",
+   "a": "In the design phase, not afterward."
+  },
+  "physical-8-k11": {
+   "q": "How do ERM and ESRM differ?",
+   "a": "ERM covers all key risks; ESRM covers security risks and can operate with or without ERM."
+  },
+  "physical-8-k12": {
+   "q": "What foundations is ESRM built on?",
+   "a": "Holistic risk management, transparency, governance, and stakeholder partnership."
+  },
+  "physical-8-k13": {
+   "q": "Put the integration chain in order.",
+   "a": "Components → electronic system → physical security → security program → ERM."
+  },
+  "physical-8-k14": {
+   "q": "What example does the book give of physical security within ERM?",
+   "a": "Liability for robberies at or near ATMs at a financial institution."
+  },
+  "physical-9-k0": {
+   "q": "Which provides more delay: two walls in series or a single wall of the same total thickness?",
+   "a": "Two in series: they force the effort to be repeated and the tools to be passed through each wall."
+  },
+  "physical-9-k1": {
+   "q": "How far from the roof should the optimal secondary barrier be placed?",
+   "a": "10–12 in (25.4–30.5 cm)."
+  },
+  "physical-9-k2": {
+   "q": "What are the two categories of vehicle barriers, and where does each go?",
+   "a": "Passive (fixed, on the perimeter away from entrances) and active (operable, at vehicle control points)."
+  },
+  "physical-9-k3": {
+   "q": "Which ASTM rating is equivalent to the Department of State K12?",
+   "a": "M50: 15,000 lb at 50 mph (80 km/h)."
+  },
+  "physical-9-k4": {
+   "q": "What is the absolute maximum height of a bollard?",
+   "a": "38 in (≈1 m) including the cover; the typical height is 30 in or less."
+  },
+  "physical-9-k5": {
+   "q": "Why is a Jersey barrier resting on the ground ineffective?",
+   "a": "Its mass is not enough: it must be embedded and anchored with vertical reinforcing steel."
+  },
+  "physical-9-k6": {
+   "q": "What does the UL 350-4 label mean?",
+   "a": "With the exterior at 1,700 °F, the interior stays below 350 °F for at least 4 hours."
+  },
+  "physical-9-k7": {
+   "q": "Below what weight does UL require a safe to be anchored?",
+   "a": "750 lb (340 kg)."
+  },
+  "physical-9-k8": {
+   "q": "Which UL class protects magnetic media, and with what limits?",
+   "a": "Class 150: interior below 150 °F and relative humidity up to 80%."
+  },
+  "physical-9-k9": {
+   "q": "What minimum thickness does a cast-in-place concrete vault need?",
+   "a": "12 in for walls, ceiling, and floor, with additional detection."
+  },
+  "physical-9-k10": {
+   "q": "Which electrified lock is inherently fail safe?",
+   "a": "The electromagnetic lock (Maglock): when power is cut, it releases the armature."
+  },
+  "physical-9-k11": {
+   "q": "How many theoretical combinations does a 4-wheel padlock with 100 positions have?",
+   "a": "100⁴ = 100,000,000."
+  },
+  "physical-9-k12": {
+   "q": "What are the three security problems with master keying?",
+   "a": "Control of the master keys, more shear lines for surreptitious opening, and more maintenance."
+  },
+  "physical-9-k13": {
+   "q": "What reflected light levels does the rule of thumb recommend for detection, recognition, and identification?",
+   "a": "0.5 fc, 1.0 fc, and 2.0 fc."
+  },
+  "physical-9-k14": {
+   "q": "What share of the cost of operating lighting is energy?",
+   "a": "About 88% (8% capital, 4% maintenance)."
+  },
+  "physical-10-k0": {
+   "q": "Who coined the term CPTED (1971), and which work by Oscar Newman (1972) gave rise to it?",
+   "a": "Ray Jeffery (the book spells it \"Jeffrey\"); *Defensible Space*."
+  },
+  "physical-10-k1": {
+   "q": "What are the three underlying elements of CPTED?",
+   "a": "Territoriality, surveillance, and access control."
+  },
+  "physical-10-k2": {
+   "q": "According to Crowe (1991), what three types of CPTED measures exist?",
+   "a": "Mechanical, organizational, and natural."
+  },
+  "physical-10-k3": {
+   "q": "Which theory holds that unrepaired deterioration invites more crime, and whose is it?",
+   "a": "Broken windows, Wilson and Kelling (1982)."
+  },
+  "physical-10-k4": {
+   "q": "What does situational crime prevention seek to do?",
+   "a": "Increase the offender's effort and risk, and reduce the perceived reward."
+  },
+  "physical-10-k5": {
+   "q": "What are the 4 strategies of second-generation CPTED (Saville and Cleveland, 2013)?",
+   "a": "Cohesion, capacity threshold, community culture, and connectivity."
+  },
+  "physical-10-k6": {
+   "q": "What does third-generation CPTED focus on?",
+   "a": "Environmental sustainability, green technology, and digital media."
+  },
+  "physical-10-k7": {
+   "q": "What three Ds make up 3-D CPTED?",
+   "a": "Designation, Definition, and Design."
+  },
+  "physical-10-k8": {
+   "q": "In which phase of the design process should security needs be addressed?",
+   "a": "In programming."
+  },
+  "physical-10-k9": {
+   "q": "What are the three types of security zones?",
+   "a": "Unrestricted, controlled, and restricted."
+  },
+  "physical-10-k10": {
+   "q": "Which openings in an industrial building should be reinforced?",
+   "a": "Those larger than 96 sq in (619 cm²) and less than 18 ft (5.5 m) above the ground."
+  },
+  "physical-10-k11": {
+   "q": "How many vehicle entrances does CPTED prefer for a parking facility?",
+   "a": "A single entrance and exit."
+  },
+  "physical-10-k12": {
+   "q": "Which lamp do CPTED practitioners prefer, and why?",
+   "a": "Metal halide: it lasts about 20,000 h and renders color well."
+  },
+  "physical-10-k13": {
+   "q": "What typical minimum lighting is called for at the front of an ATM?",
+   "a": "25 fc (269 lux), measured 3 ft above the ground."
+  },
+  "physical-10-k14": {
+   "q": "What setback does the book suggest for federal buildings against bombs?",
+   "a": "100 ft (30 m)."
+  },
+  "physical-11-k0": {
+   "q": "What unit measures the coercivity of a magnetic stripe, and what range does high coercivity cover?",
+   "a": "The oersted: 2,500–4,000 Oe; credit cards use 300 Oe."
+  },
+  "physical-11-k1": {
+   "q": "Which electrified lock is inherently fail-safe?",
+   "a": "The electromagnetic lock (maglock)."
+  },
+  "physical-11-k2": {
+   "q": "What is the point where Type I and Type II errors are equal called?",
+   "a": "Equal error rate (EER); it is used for comparison and is not necessarily the operating point."
+  },
+  "physical-11-k3": {
+   "q": "Why isn't a traditional magnetometer used to detect contraband?",
+   "a": "It is passive and detects only ferromagnetic metals."
+  },
+  "physical-11-k4": {
+   "q": "Which X-ray technique is the only one that calculates mass, density, and absorption coefficient?",
+   "a": "Computed tomography (CT); it is expensive and produces up to 20% nuisance alarms."
+  },
+  "physical-11-k5": {
+   "q": "How does a false alarm differ from a nuisance alarm?",
+   "a": "Nuisance: any alarm not caused by an intrusion. False: generated by the equipment itself."
+  },
+  "physical-11-k6": {
+   "q": "Two independent sensors with a PD of 0.9 combined with AND: what PD does the system have?",
+   "a": "0.81; the NAR goes down. With OR, the NARs add up."
+  },
+  "physical-11-k7": {
+   "q": "Under the European standard, what grade is a system with grade 3 and grade 2 equipment?",
+   "a": "Grade 2, the grade of the lowest-grade equipment."
+  },
+  "physical-11-k8": {
+   "q": "According to UL 634, which switch does a new installation in a SCIF require?",
+   "a": "HSS2; HSS1 (formerly BMS) remains only in an existing, unmodified SCIF."
+  },
+  "physical-11-k9": {
+   "q": "In what order are camera criteria chosen?",
+   "a": "Sensitivity, resolution, and features; the camera before the lens."
+  },
+  "physical-11-k10": {
+   "q": "How many pixels per foot do facial recognition and license plate reading require?",
+   "a": "88 px/ft (289 px/m) and 70 px/ft (231 px/m)."
+  },
+  "physical-11-k11": {
+   "q": "Why are fake cameras a legal liability?",
+   "a": "They create an expectation of protection that does not exist."
+  },
+  "physical-11-k12": {
+   "q": "What are the two critical elements of an AC&D system?",
+   "a": "Communicating the data and presenting it to the operator in an understandable way."
+  },
+  "physical-11-k13": {
+   "q": "What advantage does the McCulloh circuit provide, and when does it fail?",
+   "a": "With one break, it keeps both sides active; with two breaks, whatever lies between them is lost."
+  },
+  "physical-11-k14": {
+   "q": "Graphical interface rules: maximum items per menu, levels, icons per map, and colors?",
+   "a": "9 items, 3 levels, 50 icons, and 7 colors."
+  },
+  "physical-12-k0": {
+   "q": "What five capabilities in the \"necessary human being\" concept justify placing a person at a post?",
+   "a": "Distinguishing based on complex criteria, interacting face to face, using or threatening force, making decisions in unforeseen situations, and reporting continuously."
+  },
+  "physical-12-k1": {
+   "q": "With personal recognition and low traffic, how many entrances can a remote operator control?",
+   "a": "3 or 4."
+  },
+  "physical-12-k2": {
+   "q": "How do the post log and the main/control log differ?",
+   "a": "The post log is chronological and covers a single post; the control log compiles the significant events from all posts."
+  },
+  "physical-12-k3": {
+   "q": "In a paper log, what format is used for the time, and how is an error corrected?",
+   "a": "Military time (24 h); the correction goes on a separate line, as a new entry, in ink."
+  },
+  "physical-12-k4": {
+   "q": "When should an officer be armed, if regulations permit it?",
+   "a": "When there is greater danger to life without the weapon, or when the officer can reasonably be expected to use deadly force."
+  },
+  "physical-12-k5": {
+   "q": "In a bomb threat on one floor, where is a partial evacuation concentrated?",
+   "a": "On the floors immediately above and below."
+  },
+  "physical-12-k6": {
+   "q": "For the officer, what is a person with an altered mental state?",
+   "a": "A medical emergency: the officer secures the person and the scene and calls EMS."
+  },
+  "physical-12-k7": {
+   "q": "What is the largest cost of contract security, and how is quality protected?",
+   "a": "The officer's wages; through detailed bid specifications (requirements, wages, benefits, performance)."
+  },
+  "physical-12-k8": {
+   "q": "Which training method originated at Harvard in the 1880s, and what is it used for?",
+   "a": "The case study; for topics requiring discretionary judgment (crises, use of force, ethics)."
+  },
+  "physical-12-k9": {
+   "q": "What distinguishes a mentor from an FTO?",
+   "a": "The mentor teaches without evaluating; the FTO evaluates and recommends retention or termination."
+  },
+  "physical-12-k10": {
+   "q": "What are the three domains of learning, and which one requires periodic repetition?",
+   "a": "Cognitive, affective, and psychomotor; the psychomotor domain."
+  },
+  "physical-12-k11": {
+   "q": "What is the \"Frog Syndrome\" (Hertig, 1993)?",
+   "a": "The manager who jumps in to train everyone single-handedly and gives up upon seeing the workload; it is the \"ego\" obstacle."
+  },
+  "physical-12-k12": {
+   "q": "What are the most important written instructions for the security force?",
+   "a": "Post orders."
+  },
+  "physical-12-k13": {
+   "q": "How are sick days estimated for a proprietary force?",
+   "a": "Using the average for the last 2 years and its distribution (more in winter)."
+  },
+  "physical-12-k14": {
+   "q": "Why is it advisable to use independent inspectors?",
+   "a": "The officer does not know them, they are more objective, and they are useful for reaction tests, such as a suspicious package."
+  },
+  "physical-13-k0": {
+   "q": "What distinguishes a project from ordinary operations?",
+   "a": "It is temporary, with a defined start and end, and specific goals."
+  },
+  "physical-13-k1": {
+   "q": "What are the four constraints of every security project?",
+   "a": "Scope, schedule, budget, and quality."
+  },
+  "physical-13-k2": {
+   "q": "What is exceeding a constraint usually due to?",
+   "a": "Poor project conception or poor project management."
+  },
+  "physical-13-k3": {
+   "q": "Which PMI area does integrated change control fall under?",
+   "a": "Project integration management."
+  },
+  "physical-13-k4": {
+   "q": "What subprocesses make up project quality management?",
+   "a": "Quality planning, quality assurance, and quality control."
+  },
+  "physical-13-k5": {
+   "q": "Which area do source selection and contract closeout fall under?",
+   "a": "Project procurement management."
+  },
+  "physical-13-k6": {
+   "q": "What role does the security manager have when others control the scope and funds?",
+   "a": "Project stakeholder."
+  },
+  "physical-13-k7": {
+   "q": "Who are examples of a project influencer?",
+   "a": "Security manager, chief legal counsel, or consultant."
+  },
+  "physical-13-k8": {
+   "q": "What should every security project be based on?",
+   "a": "A security risk assessment."
+  },
+  "physical-13-k9": {
+   "q": "What is the last basic implementation task of a PPS?",
+   "a": "Installation, testing, and commissioning."
+  },
+  "physical-13-k10": {
+   "q": "When is the bidder’s conference or site visit scheduled?",
+   "a": "One week after the RFP is issued, if applicable."
+  },
+  "physical-13-k11": {
+   "q": "How long before acceptance testing should monitoring training be provided?",
+   "a": "30 days before."
+  },
+  "physical-13-k12": {
+   "q": "How long is the warranty period of the typical project?",
+   "a": "12 months."
+  },
+  "physical-13-k13": {
+   "q": "Which meeting sets the direction for scope, schedule, and budget when the contract is signed?",
+   "a": "The kick-off meeting."
+  },
+  "physical-13-k14": {
+   "q": "What is the PMP certification based on?",
+   "a": "The Project Management Institute's PMBOK."
+  },
+  "physical-14-k0": {
+   "q": "What is the first and most important output of the design process?",
+   "a": "The security basis of design."
+  },
+  "physical-14-k1": {
+   "q": "How much spare capacity is usually added in the design?",
+   "a": "10 to 15%."
+  },
+  "physical-14-k2": {
+   "q": "If the drawings and the specifications do not match, which one governs?",
+   "a": "The specifications."
+  },
+  "physical-14-k3": {
+   "q": "What is the ideal time to seek management approval?",
+   "a": "The conceptual design stage."
+  },
+  "physical-14-k4": {
+   "q": "When is a preliminary design estimate prepared, and with what contingency?",
+   "a": "At the 50% design review, with ±10%."
+  },
+  "physical-14-k5": {
+   "q": "Which component is usually the largest percentage of the life-cycle cost?",
+   "a": "Installation costs."
+  },
+  "physical-14-k6": {
+   "q": "What three parts is a standard specification divided into?",
+   "a": "General, products, and execution."
+  },
+  "physical-14-k7": {
+   "q": "What are the four main strategies according to security designers?",
+   "a": "Prevention, detection, control, and intervention."
+  },
+  "physical-14-k8": {
+   "q": "What maximum percentage of bandwidth should video use on any port, switch, or segment?",
+   "a": "45%."
+  },
+  "physical-14-k9": {
+   "q": "Which generations of alarm and access control systems are still in use?",
+   "a": "The 1st, 4th, and 5th."
+  },
+  "physical-14-k10": {
+   "q": "Which type of video analytics learns a \"baseline\" and alerts on what is abnormal?",
+   "a": "The learning algorithm, not the preprogrammed type."
+  },
+  "physical-14-k11": {
+   "q": "Which ONVIF profile covers recording and storage?",
+   "a": "Profile G (S = basic streaming, T = advanced)."
+  },
+  "physical-14-k12": {
+   "q": "Which form of procurement leaves all brand selection to the design team and awards to the lowest qualified bidder?",
+   "a": "The IFB (invitation for bid)."
+  },
+  "physical-14-k13": {
+   "q": "Main advantage of the hardware (dry contact) alarm interface?",
+   "a": "It is immune to software updates."
+  },
+  "physical-14-k14": {
+   "q": "How much do maintenance and warranty usually cost, and how long does a typical implementation take?",
+   "a": "11% of construction cost; 18 to 24 months."
+  },
+  "physical-15-k0": {
+   "q": "What is the most important step when installing PPS elements?",
+   "a": "Site preparation and planning."
+  },
+  "physical-15-k1": {
+   "q": "What does the contractor do if the site does not match the design?",
+   "a": "A written change report; nothing is corrected without the client's written permission."
+  },
+  "physical-15-k2": {
+   "q": "Maximum change-of-state time for an electric strike and for an electromagnetic lock?",
+   "a": "500 ms and 300 ms."
+  },
+  "physical-15-k3": {
+   "q": "Minimum holding force of an electromagnetic lock?",
+   "a": "1,200 lb (544 kg)."
+  },
+  "physical-15-k4": {
+   "q": "Maximum length of a digital video connection over TCP/IP?",
+   "a": "328 ft (100 m)."
+  },
+  "physical-15-k5": {
+   "q": "What change in current triggers an alarm in line supervision?",
+   "a": "10% or more (UL 1076)."
+  },
+  "physical-15-k6": {
+   "q": "Which NEMA 250 enclosure houses exterior electronics, and which houses interior electronics?",
+   "a": "Type 4X exterior; Type 12 interior."
+  },
+  "physical-15-k7": {
+   "q": "Minimum zinc content of cold galvanizing paint?",
+   "a": "95% by weight."
+  },
+  "physical-15-k8": {
+   "q": "How quickly should faults be located using the service points?",
+   "a": "In less than 20 minutes."
+  },
+  "physical-15-k9": {
+   "q": "How far in advance are configuration data forms submitted?",
+   "a": "At least 30 days before the database test."
+  },
+  "physical-15-k10": {
+   "q": "When should the client receive the pre-test report for the on-site test?",
+   "a": "At least 2 weeks before."
+  },
+  "physical-15-k11": {
+   "q": "How long does each phase of the reliability test last?",
+   "a": "24 hours a day for 15 consecutive calendar days."
+  },
+  "physical-15-k12": {
+   "q": "What distinguishes an operational test from a performance test?",
+   "a": "The operational test confirms that it works; the performance test verifies specifications, such as the probability of detection."
+  },
+  "physical-15-k13": {
+   "q": "Which test validates the vulnerability analysis, and how often?",
+   "a": "The *evaluation test*, at least once a year."
+  },
+  "physical-15-k14": {
+   "q": "Warranty duration and usual arrival time?",
+   "a": "12 months from the certificate of practical completion; 4 hours."
+  },
+  "physical-16-k0": {
+   "q": "What are the three essential elements of a successful security system program?",
+   "a": "Maintenance, evaluation, and replacement."
+  },
+  "physical-16-k1": {
+   "q": "What are the two main types of PPS maintenance?",
+   "a": "Remedial and preventive."
+  },
+  "physical-16-k2": {
+   "q": "What three signs indicate a poor maintenance program?",
+   "a": "Frequent failures, superficial testing, and many components awaiting repair."
+  },
+  "physical-16-k3": {
+   "q": "What types of service does a maintenance agreement normally include?",
+   "a": "Both: remedial and preventive."
+  },
+  "physical-16-k4": {
+   "q": "Why is a single contractor or integrator usually preferable?",
+   "a": "It avoids finger-pointing and delays; it diagnoses and manages the solution as the single point of contact."
+  },
+  "physical-16-k5": {
+   "q": "What response does the client usually require when a failure occurs?",
+   "a": "An immediate callback and arrival on site within 2 to 4 hours."
+  },
+  "physical-16-k6": {
+   "q": "What happens if a response in less than 4 hours is required?",
+   "a": "Costs rise quickly due to staff hours, travel, and equipment."
+  },
+  "physical-16-k7": {
+   "q": "Which components require a higher level of support?",
+   "a": "Those with the greatest impact on the system if they fail."
+  },
+  "physical-16-k8": {
+   "q": "What is the rule of thumb for budgeting spare parts?",
+   "a": "About 5% of the capital cost of a site's equipment, each year."
+  },
+  "physical-16-k9": {
+   "q": "What does a maintenance agreement usually not cover?",
+   "a": "Misuse, vandalism, lack of training due to turnover, and acts of God."
+  },
+  "physical-16-k10": {
+   "q": "Why is a generator alone not enough as backup?",
+   "a": "It does not provide immediate switchover; batteries provide coverage until the generator reaches full power."
+  },
+  "physical-16-k11": {
+   "q": "What should each test of the backup equipment record?",
+   "a": "The date, the name of the person who performed it, and the results."
+  },
+  "physical-16-k12": {
+   "q": "Why are maintenance records cross-referenced with the subsystems?",
+   "a": "To see repair patterns and know what to inspect during preventive maintenance."
+  },
+  "physical-16-k13": {
+   "q": "What factors justify replacing a system?",
+   "a": "Maintenance cost, lack of spare parts, obsolescence, operating costs, and poor reliability; also new technology or reduced staffing."
+  },
+  "physical-16-k14": {
+   "q": "What does a PSIM offer compared with proprietary software?",
+   "a": "It integrates alarms, video, audio, maps, and resources into one picture; it distinguishes related incidents from separate ones."
+  },
+  "physical-A-k0": {
+   "q": "What is access control?",
+   "a": "Control of people, vehicles, and materials through security measures applied to a protected area."
+  },
+  "physical-A-k1": {
+   "q": "What is an alarm system?",
+   "a": "A combination of sensors, controls, and annunciators arranged to detect and report an intrusion or other emergency. Annunciator: a device that signals by sound, light, or other means."
+  },
+  "physical-A-k2": {
+   "q": "What is an asset?",
+   "a": "Anything tangible or intangible that has value to a person or organization: people, property, and information."
+  },
+  "physical-A-k3": {
+   "q": "What is a barrier?",
+   "a": "A natural or man-made obstacle to the movement or direction of people, animals, vehicles, or materials."
+  },
+  "physical-A-k4": {
+   "q": "What is a bollard?",
+   "a": "A vehicle barrier: a vertical cylinder (almost always steel filled with concrete) anchored in a deep foundation. It stops vehicles while letting pedestrians and bicycles through. It can take ornamental caps or aluminum, iron, or bronze covers over the crash tube."
+  },
+  "physical-A-k5": {
+   "q": "What is the building envelope?",
+   "a": "The separation between the interior and the exterior of the building. It is the shell that protects the indoor environment and facilitates its climate control. Its design is an architectural and engineering specialty based on building science."
+  },
+  "physical-A-k6": {
+   "q": "What is a camera?",
+   "a": "A device that captures still or moving images. In security, it is part of a video surveillance system."
+  },
+  "physical-A-k7": {
+   "q": "What is a CCT rating?",
+   "a": "CCT (Corrected Color Temperature): measures how warm or cool a light is, in kelvins. The book says: sunlight = 5,000 K; above that, warmer (yellowish); below, cooler (bluish). **Exam note:** this is backwards; the higher the kelvins, the cooler or bluer the light, and the lower, the warmer (outside the book). The usual name is Correlated Color Temperature (outside the book)."
+  },
+  "physical-A-k8": {
+   "q": "What is closed-circuit television (CCTV)?",
+   "a": "See video surveillance."
+  },
+  "physical-A-k9": {
+   "q": "What is a contract security service?",
+   "a": "A company that provides security services to another entity for a fee; typically, security officers."
+  },
+  "physical-A-k10": {
+   "q": "What is crime prevention through environmental design (CPTED)?",
+   "a": "Pronounced “sep-ted.” It reduces crime and the fear of crime through the proper design and use of the built environment. It uses organizational, mechanical, and natural methods to control access, enhance natural surveillance, and foster territoriality, supporting legitimate activity."
+  },
+  "physical-A-k11": {
+   "q": "What is a crime?",
+   "a": "An act or omission that violates a law forbidding or commanding it, and that can be punished with penalties."
+  },
+  "physical-A-k12": {
+   "q": "What is defense-in-depth (layered security)?",
+   "a": "A strategy of forming layers of protection for an asset."
+  },
+  "physical-A-k13": {
+   "q": "What is denial?",
+   "a": "Frustrating an adversary's attempt to engage in behavior that would constitute a security incident."
+  },
+  "physical-A-k14": {
+   "q": "What is a design basis threat (DBT)?",
+   "a": "The threat against which the asset is protected and on which the protection system is designed. It is the baseline type and size of threat the building must withstand. It includes the aggressors' tactics and their tools, weapons, and explosives."
+  },
+  "physical-A-k15": {
+   "q": "What is detection?",
+   "a": "Discovering an attempt, successful or not, to breach a secured physical or logical perimeter. Physical examples: climbing a fence, opening a locked window, entering an area without authorization."
+  },
+  "physical-A-k16": {
+   "q": "What is a duress alarm?",
+   "a": "A device that lets a person under duress call for help without arousing suspicion."
+  },
+  "physical-A-k17": {
+   "q": "What is an event?",
+   "a": "A noteworthy occurrence; typically a security incident, an alarm, a medical emergency, or something similar."
+  },
+  "physical-A-k18": {
+   "q": "What is a facility?",
+   "a": "One or more buildings or structures and parking areas, related by function and location, that form an operating entity."
+  },
+  "physical-A-k19": {
+   "q": "What is an intrusion detection system?",
+   "a": "A system with one or more sensors that detects an imminent or actual breach (physical or logical). It initiates an alarm, a notification, or a response."
+  },
+  "physical-A-k20": {
+   "q": "What is a lamp?",
+   "a": "A manufactured light source: the filament or arc tube, its glass envelope, and its electrical connectors."
+  },
+  "physical-A-k21": {
+   "q": "What is light level (intensity, illuminance)?",
+   "a": "The concentration of light over an area. It is measured in lux (lumens per square meter) or foot-candles (lumens per square foot)."
+  },
+  "physical-A-k22": {
+   "q": "What is lighting?",
+   "a": "Degree of illumination. Also, the interior or exterior equipment used to increase it (measured in lux or foot-candles)."
+  },
+  "physical-A-k23": {
+   "q": "What is a lock?",
+   "a": "Equipment that prevents an opening from being opened without authorization (gate, window, building door, vault door; not an exhaustive list) and allows authorized users to open it."
+  },
+  "physical-A-k24": {
+   "q": "What is a luminaire (fixture)?",
+   "a": "A complete lighting unit: lamp, lampholder, and the reflectors and diffusers that distribute and focus the light."
+  },
+  "physical-A-k25": {
+   "q": "What are metrics?",
+   "a": "Measurements with a reference and at least two points (e.g., quantity over time) that provide insight into performance, operations, or quality."
+  },
+  "physical-A-k26": {
+   "q": "What is perimeter protection?",
+   "a": "Safeguarding a physical or logical boundary or border."
+  },
+  "physical-A-k27": {
+   "q": "What is physical security?",
+   "a": "The part of security that uses physical measures to safeguard, protect, or prevent unauthorized access to assets. Assets: facilities, equipment, people, intangibles, data, and other property."
+  },
+  "physical-A-k28": {
+   "q": "What is a physical security assessment?",
+   "a": "See security survey."
+  },
+  "physical-A-k29": {
+   "q": "What is physical security information management (PSIM)?",
+   "a": "A software platform that integrates unconnected security applications and devices (video, access control, sensors, analytics, networks, building systems; not an exhaustive list) and controls them through one comprehensive interface. It collects and correlates events from disparate systems to identify and resolve situations proactively."
+  },
+  "physical-A-k30": {
+   "q": "What is a physical security measure?",
+   "a": "A tangible device, system, or practice to protect people and prevent damage, loss, or unauthorized access to assets."
+  },
+  "physical-A-k31": {
+   "q": "What is a policy?",
+   "a": "A general statement of a principle according to which the organization performs its business functions."
+  },
+  "physical-A-k32": {
+   "q": "What is private security?",
+   "a": "A nongovernmental, private-sector practice: protecting people, property, and information, conducting investigations, and safeguarding assets. It is performed by an in-house department (proprietary security) or an outside provider (contract security)."
+  },
+  "physical-A-k33": {
+   "q": "What is a private security officer?",
+   "a": "A person, uniformed or in plain clothes, employed by an organization to protect assets. Formerly often called a “guard.”"
+  },
+  "physical-A-k34": {
+   "q": "What is a procedure?",
+   "a": "Detailed instructions for implementing policies (security, organizational, or other) or a business practice of a specific function."
+  },
+  "physical-A-k35": {
+   "q": "What is progressive collapse?",
+   "a": "The failure of a primary structural element causes adjacent elements to fail, and those cause others to fail. The damage spreads until the building partially or totally collapses."
+  },
+  "physical-A-k36": {
+   "q": "What is a proprietary security organization?",
+   "a": "Typically, a company department that provides security services to the company itself."
+  },
+  "physical-A-k37": {
+   "q": "What is risk?",
+   "a": "The likelihood or potential that a threat will exploit vulnerabilities and cause loss of or damage to an asset."
+  },
+  "physical-A-k38": {
+   "q": "What is a risk assessment?",
+   "a": "A systematic process: identifying and valuing assets, listing credible threats, documenting vulnerabilities, describing the impacts of a loss event, and analyzing the risks qualitatively or quantitatively. Risks are reported by priority or severity, with a risk level."
+  },
+  "physical-A-k39": {
+   "q": "What is risk management?",
+   "a": "A business discipline that identifies, analyzes, and communicates risk. It then accepts, avoids, transfers, or controls it to an acceptable level, weighing costs and benefits."
+  },
+  "physical-A-k40": {
+   "q": "What is a risk profile?",
+   "a": "A description or representation of the risks to an asset, system, geographic area, or other entity, considering situational and influencing factors."
+  },
+  "physical-A-k41": {
+   "q": "What is a security incident?",
+   "a": "An undesired occurrence or action that is likely to affect assets."
+  },
+  "physical-A-k42": {
+   "q": "What is a security measure?",
+   "a": "A practice or device to protect people and prevent damage, loss, or unauthorized access to equipment, facilities, material, and information."
+  },
+  "physical-A-k43": {
+   "q": "What is a security officer?",
+   "a": "A person, uniformed or in plain clothes, employed to protect assets."
+  },
+  "physical-A-k44": {
+   "q": "What is a security survey (physical security assessment)?",
+   "a": "A critical on-site examination of a building or facility. It seeks to determine its security status, find deficiencies or excesses, establish the protection needed, and recommend improvements. Data: interviews, observation, and document review."
+  },
+  "physical-A-k45": {
+   "q": "What is a sensor?",
+   "a": "An electronic device that measures a physical quantity (temperature, pressure, or sound intensity) and converts it into an electronic signal."
+  },
+  "physical-A-k46": {
+   "q": "What is site hardening?",
+   "a": "Applying reinforcement measures to make a site more difficult to penetrate."
+  },
+  "physical-A-k47": {
+   "q": "What is standoff distance (setback)?",
+   "a": "The distance between the asset and the threat, typically for an explosive threat."
+  },
+  "physical-A-k48": {
+   "q": "What is surveillance?",
+   "a": "Observation of a place, an activity, or a person."
+  },
+  "physical-A-k49": {
+   "q": "What is tailgating (piggybacking)?",
+   "a": "Following closely behind a person or vehicle. In access control: attempting to enter a controlled area right behind an authorized person."
+  },
+  "physical-A-k50": {
+   "q": "What is a threat?",
+   "a": "Any entity or action that could cause a loss event, adverse impact, or other harm. It includes threat actors (e.g., a terrorist) and threat actions (e.g., a bombing)."
+  },
+  "physical-A-k51": {
+   "q": "What is a threat vector?",
+   "a": "Any path for carrying out a threat action: a physical route, a sequence of events, or a logical route (through cyber infrastructure)."
+  },
+  "physical-A-k52": {
+   "q": "What is throughput?",
+   "a": "The average rate of flow of people, vehicles, objects, or data through an access point, system, or process."
+  },
+  "physical-A-k53": {
+   "q": "What is a token?",
+   "a": "An electronically encoded device (smart card, electronic key fob, USB device; not an exhaustive list) containing data to authenticate the user's identity. It is used for access control to facilities or to IT equipment."
+  },
+  "physical-A-k54": {
+   "q": "What is an uninterruptible power supply (UPS)?",
+   "a": "A system that provides continuous power to an alternating current (AC) line within tolerances. It protects against overvoltage, loss of main power, and intermittent brownouts. It is often used with an emergency generator."
+  },
+  "physical-A-k55": {
+   "q": "What is a vault?",
+   "a": "A room or area of special construction that limits access and protects assets (e.g., against forced entry or fire)."
+  },
+  "physical-A-k56": {
+   "q": "What is video analytics?",
+   "a": "Computer processing of surveillance video for automated tasks: detecting events in real time, recognizing activities, searching for items (faces, license plates, objects), or extracting data from recorded video."
+  },
+  "physical-A-k57": {
+   "q": "What is a video management system (VMS)?",
+   "a": "Software that manages video surveillance system functions: network storage, transmission, camera control, alerts, and IP (Internet protocol) interface."
+  },
+  "physical-A-k58": {
+   "q": "What is video surveillance?",
+   "a": "A system that captures images and transmits them, typically to monitors, recorders, and control equipment. It includes CCTV and network video systems."
+  },
+  "physical-A-k59": {
+   "q": "What is a vulnerability?",
+   "a": "A weakness, condition, or organizational practice that facilitates or allows a threat (intentional, natural, or inadvertent) to cause harm, or that magnifies a loss event."
+  },
+  "physical-B-k0": {
+   "q": "How does the book define a high-rise, and what height range does it give?",
+   "a": "Taller than the reach of fire department equipment; 75–100 ft (23–30 m), about 7–10 stories."
+  },
+  "physical-B-k1": {
+   "q": "What are the most critical life threats in a high-rise?",
+   "a": "Fire, explosion, and contamination of air and drinking water."
+  },
+  "physical-B-k2": {
+   "q": "How many minutes are critical at the start of a fire?",
+   "a": "The first 3 to 4 minutes."
+  },
+  "physical-B-k3": {
+   "q": "Which automatic detector has the lowest false alarm rate?",
+   "a": "The heat detector."
+  },
+  "physical-B-k4": {
+   "q": "Why are manual pull stations not enough?",
+   "a": "They do not locate the fire accurately; a fire on the 4th floor may be reported as \"Fire in Lobby\"."
+  },
+  "physical-B-k5": {
+   "q": "According to Cote (2003), how much do sprinklers reduce fire deaths and losses?",
+   "a": "By one-third to two-thirds."
+  },
+  "physical-B-k6": {
+   "q": "What three factors predominate in smoke movement in tall buildings?",
+   "a": "Stack effect, external wind, and forced air movement."
+  },
+  "physical-B-k7": {
+   "q": "If the code prohibits linking the fire alarm and security, how are the locks released?",
+   "a": "The alarm controls an approved relay connected to the lock's approved power supply."
+  },
+  "physical-B-k8": {
+   "q": "What building operating modes does the appendix describe?",
+   "a": "Open, closed, and hybrid (plus time-based modes: regular, intermediate, and after-hours)."
+  },
+  "physical-B-k9": {
+   "q": "What are the three classes of interior space for access control?",
+   "a": "Public or common areas, tenant spaces, and maintenance spaces."
+  },
+  "physical-B-k10": {
+   "q": "What delay does a delayed egress lock allow, and when must it release?",
+   "a": "15 to 30 s; upon power failure or activation of the fire life safety system."
+  },
+  "physical-B-k11": {
+   "q": "What is Phase II elevator operation, and who uses the key?",
+   "a": "Firefighter service after automatic recall (Phase I); firefighters only."
+  },
+  "physical-B-k12": {
+   "q": "How do you respond to an intrusion alarm in a stairwell locked against reentry?",
+   "a": "One officer goes to the ground-floor door and another enters the shaft above the point of alarm."
+  },
+  "physical-B-k13": {
+   "q": "Which lock is recommended on the stair side of stairwell doors?",
+   "a": "Hightower-function mortise lock (stair tower lock)."
+  },
+  "physical-B-k14": {
+   "q": "Where should the security operations center ideally be?",
+   "a": "In a dedicated space, the most secure location in the building."
+  },
+  "physical-C-k0": {
+   "q": "What is a standard?",
+   "a": "Criteria, guidelines, and best practices that improve the quality and reliability of products, services, or processes."
+  },
+  "physical-C-k1": {
+   "q": "Who coordinates standards development?",
+   "a": "Accredited standards development organizations (SDOs)."
+  },
+  "physical-C-k2": {
+   "q": "What are the four principles of standards development?",
+   "a": "Consensus, openness, due process, and transparency."
+  },
+  "physical-C-k3": {
+   "q": "What distinguishes a legal or regulatory standard from a voluntary one?",
+   "a": "It is binding by law and enforced by formal authorities."
+  },
+  "physical-C-k4": {
+   "q": "What is a hybrid standard?",
+   "a": "A voluntary standard incorporated into laws, or one that is voluntary in theory but mandatory in practice (e.g., because of insurers or contracts)."
+  },
+  "physical-C-k5": {
+   "q": "What are the most prominent management system standards?",
+   "a": "ISO 9001 (quality) and ISO 14001 (environmental)."
+  },
+  "physical-C-k6": {
+   "q": "What is the operating principle of management system standards?",
+   "a": "The Plan-Do-Check-Act (PDCA) cycle."
+  },
+  "physical-C-k7": {
+   "q": "What is done in the Act phase of PDCA?",
+   "a": "Standardize the solutions that work, review problems, and define new ones; the cycle starts again."
+  },
+  "physical-C-k8": {
+   "q": "Which standard is Figure C.1 taken from?",
+   "a": "ASIS ORM.1-2017, security and resilience in organizations and their supply chains."
+  },
+  "physical-C-k9": {
+   "q": "Which organization has standards for locks, alarms, and access control?",
+   "a": "UL (Underwriters Laboratories)."
+  }
+ },
+ "ideas": {
+  "physical-1": "Enterprise Security Risk Management (ESRM) is now the foundation of security management. It replaces the \"program-based\" approach with a risk management process. The asset owner makes decisions about risk; the security professional advises as a trusted partner.",
+  "physical-2": "Physical security protects assets (people, property, and information) with physical measures. Its conceptual basis is the 4 Ds (deter, detect, delay, deny), and it is carried out through seven combined functions. Measures are chosen from a menu, stacked in layers, and coordinated with peripheral systems.",
+  "physical-3": "No physical security project should begin without understanding the risk: assets, threats, and vulnerabilities. The basic tool is the risk assessment or the security survey (or physical security assessment). The chapter provides a general risk assessment framework and a more specific one for the physical security survey: methodologies, areas to review, testing, the report, and automated tools.",
+  "physical-4": "Metrics turn the physical security program into data that can be compared over time. They show status, trends, and return on investment (ROI) to management. They are useful only if they measure a sound process, have an interested consumer, and are planned before data is collected.",
+  "physical-5": "Every physical security project should apply risk management and a set of basic design principles from the planning stage. The two pillars are the 4 Ds and defense-in-depth. The chapter adds concepts (point vs. area, avoiding conflicts, balance, design criteria, procedures) and cases of good and bad practice.",
+  "physical-6": "Many factors determine whether a physical security strategy is appropriate, effective, and cost-effective. The team must analyze them at the outset and throughout the project: the asset, the building, the environment, the location, and others (management support, budget, vendors, integration). The chosen mitigation must fit the mission, the risk profile, and operations.",
+  "physical-7": "Security is built into the design from the start of the project, not added at the end. Everything begins with the risk assessment and the *design basis threat* (DBT). The site, structure, materials, utilities, and *life safety* systems must work together and in layers.",
+  "physical-8": "“Integrated” and “integration” are used with different meanings in the profession. The chapter organizes them into four levels, each broader than the one before. It goes from electronic systems up to enterprise-wide risk management (ERM and ESRM).",
+  "physical-9": "Physical security has three components that must work in coordination: structural security, electronic security systems, and the human element (security officers and response forces). This chapter covers the structural part: barriers (9.1), containers and vaults (9.2), locks (9.3), and lighting (9.4). Each structural element is a layer that provides delay, and the weakest part sets the value of the whole.",
+  "physical-10": "CPTED (Crime Prevention Through Environmental Design) uses the design and use of the built environment to reduce crime and the fear of crime. It rests on three elements: territoriality, surveillance, and access control, applied through natural, mechanical, and organizational means. It is cheaper to integrate it from the planning stage and to combine it with traditional security.",
+  "physical-11": "Electronic systems decide who gets in, detect what should not come in or go out, and warn of intrusions. They then make it possible to view, assess, and communicate alarms so that response is timely. The chapter closes with the integration of all these subsystems and their trends.",
+  "physical-12": "Despite the rise of technology, the security officer is still an essential part of integrated asset protection; the key is to combine people, processes, and technology. The chapter covers when personnel are needed, which force model to use, their functions and roles, uniforms and weapons, selection, training, managing the force (orders, schedules, supervision, evaluation), and how to make the most of the human element.",
+  "physical-13": "A project is a temporary endeavor, with a start and an end, constrained by scope, schedule, budget, and quality. The security project manager must balance those constraints and base every project on a risk analysis. The chapter presents the typical process for an integrated physical protection system project, from concept to the 12-month warranty.",
+  "physical-14": "Designing a security system is a sequential process: risk analysis, requirements, basis of design, and conceptual design; then design and documentation (specifications, drawings, schedules), cost estimating, contracting, and the consultant's role. The chapter then covers video systems (from analog to digital, megapixel, and analytics), integration of legacy systems (access control, video, intercom, and networks), and procurement (forms and process).",
+  "physical-15": "Implementation of a *Physical Protection System* (PPS) begins right after the contractor is selected. It has five steps, from site preparation to personnel training. The client controls each phase through reports, tests, and written permissions before accepting the system.",
+  "physical-16": "Many security systems fail simply because of poor maintenance. Maintenance is planned from the design stage and budgeted from the time of purchase. A successful program has three elements: maintenance, evaluation, and replacement.",
+  "physical-B": "A high-rise building exceeds the reach of fire department equipment, so fires are fought from inside. It concentrates people and property and cannot be evacuated all at once. Protecting it requires balancing life safety, which is mandated by codes, with physical security, which sometimes pursues the opposite.",
+  "physical-C": "A standard is a set of criteria, guidelines, and best practices that improves the quality and reliability of products, services, or processes. There are voluntary standards, standards mandated by law, and hybrid standards."
+ },
+ "quiz": {}
+}

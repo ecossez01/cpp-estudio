@@ -1,0 +1,491 @@
+{
+ "cards": {
+  "investigations-1-k0": {
+   "q": "What are the five qualities of an effective investigation?",
+   "a": "Objectivity, thoroughness, relevance, accuracy, and timeliness."
+  },
+  "investigations-1-k1": {
+   "q": "According to the ASIS Investigations Standard (2015), in what six areas do public and private investigations differ?",
+   "a": "Powers of arrest, search and seizure, testimony, prosecution, due process, and consequences."
+  },
+  "investigations-1-k2": {
+   "q": "According to Figure 1.1, what five management functions apply, and at what three levels?",
+   "a": "Plan, organize, direct, coordinate, and control; at the strategic, operational, and case levels."
+  },
+  "investigations-1-k3": {
+   "q": "What document gives an IU credibility and authority, who issues it, and how long is it usually?",
+   "a": "The functional charter. It is issued by the CEO or an equivalent; it is usually one page or less."
+  },
+  "investigations-1-k4": {
+   "q": "What are the investigator's three \"I's\"?",
+   "a": "Information, interrogation, and instrumentation."
+  },
+  "investigations-1-k5": {
+   "q": "When should the investigator raise the subject of restitution with the suspect?",
+   "a": "Only after a confession or when the facts allow a reliable conclusion. Raising it earlier risks the suspect later claiming coercion."
+  },
+  "investigations-1-k6": {
+   "q": "Which U.S. rule requires publicly traded companies to have an internal reporting channel free of retaliation, and which one applies to organizations convicted of crimes?",
+   "a": "The Sarbanes-Oxley Act of 2002 for publicly traded companies; the Federal Sentencing Guidelines for convicted organizations."
+  },
+  "investigations-1-k7": {
+   "q": "What are the five steps, in order, of the criminal intelligence cycle in Figure 1.5?",
+   "a": "Requirements, collection, integration/analysis, dissemination, and evaluation."
+  },
+  "investigations-1-k8": {
+   "q": "According to the U.S. Sentencing Commission, what two factors mitigate an organization's sentence?",
+   "a": "An effective compliance and ethics program; and self-reporting, cooperation, or acceptance of responsibility."
+  },
+  "investigations-1-k9": {
+   "q": "What is the difference between operational security and OPSEC?",
+   "a": "The former covers all the measures for a specific operation and for investigator safety (undercover, sting). OPSEC is a systematic, five-step cyclical method for protecting critical information."
+  },
+  "investigations-1-k10": {
+   "q": "Under the book's sample guideline, who handles a theft with an estimated loss of $12,000?",
+   "a": "It is referred to the IU, because it exceeds $10,000."
+  },
+  "investigations-1-k11": {
+   "q": "What five basic qualities help ensure a proper case conclusion?",
+   "a": "Objectivity, thoroughness, relevance, accuracy, and timeliness."
+  },
+  "investigations-1-k12": {
+   "q": "What is the most widely used tool in tactical criminal intelligence analysis, and which association promoted it?",
+   "a": "Link analysis, promoted by IALEIA."
+  },
+  "investigations-1-k13": {
+   "q": "How does computer forensics differ from traditional forensics with respect to case data?",
+   "a": "Traditional forensics does not need case details (e.g., DNA). Computer forensics must be guided by the investigation, because it cannot review every file."
+  },
+  "investigations-2-k0": {
+   "q": "According to the book, what distinguishes undercover from other investigations?",
+   "a": "The operative does not conceal his or her presence; what is kept secret is the operative's true identity or the purpose of the investigation."
+  },
+  "investigations-2-k1": {
+   "q": "Since what year has undercover been a preferred method for investigating workplace substance abuse?",
+   "a": "Since 1985 (industry recognized the problem in 1981)."
+  },
+  "investigations-2-k2": {
+   "q": "Can an operative be placed in a unionized workforce?",
+   "a": "Yes, as long as the operative does not interfere with protected union activities. A current unionized employee is never used as an operative."
+  },
+  "investigations-2-k3": {
+   "q": "Put the five phases in order.",
+   "a": "Planning and preparation; information gathering; verification and analysis; disciplinary and corrective action; prevention and education."
+  },
+  "investigations-2-k4": {
+   "q": "At a minimum, who makes up the investigative team?",
+   "a": "A corporate decision maker, a human resources representative, a corporate security professional, and an attorney familiar with state and local employment law."
+  },
+  "investigations-2-k5": {
+   "q": "What insurance should be required of the agency?",
+   "a": "A certificate naming the company as an additional insured, with occurrence coverage rather than claims-made coverage."
+  },
+  "investigations-2-k6": {
+   "q": "Which method of placing the operative is preferable, and what is its drawback?",
+   "a": "The cold hire; it may be the least practical."
+  },
+  "investigations-2-k7": {
+   "q": "Who are the five members of the project management team?",
+   "a": "The operative, the project manager, the client representative, corporate counsel, and, if needed, a law enforcement representative."
+  },
+  "investigations-2-k8": {
+   "q": "What is the main reason for including an attorney on that team?",
+   "a": "To protect the investigator's work product from discovery."
+  },
+  "investigations-2-k9": {
+   "q": "Give the two reasons for writing reports in the third person.",
+   "a": "They can be edited without the operative having to re-authenticate them, and the project manager can testify that his or her report is not an altered version."
+  },
+  "investigations-2-k10": {
+   "q": "How often is the investigative summary normally prepared?",
+   "a": "After 10 consecutive days of work by the operative."
+  },
+  "investigations-2-k11": {
+   "q": "In what order are interviews conducted after an undercover investigation?",
+   "a": "From the most involved to the least involved."
+  },
+  "investigations-2-k12": {
+   "q": "What is entrapment, and how is it neutralized?",
+   "a": "Inducing someone to commit a crime; it is a criminal defense, not a crime. It is neutralized by qualifying the seller: prior conduct and the seller's own motive, ideally financial."
+  },
+  "investigations-2-k13": {
+   "q": "When should the operative be extracted?",
+   "a": "As late as possible: when the operative is named as an offender and others are terminated, and with a credible explanation."
+  },
+  "investigations-2-k14": {
+   "q": "How do experienced firms bill?",
+   "a": "Weekly: 40 hours plus a minimum cover pay. This covers everything except out-of-pocket expenses and other special investigations."
+  },
+  "investigations-3-k0": {
+   "q": "What law gave the term due diligence its first common use?",
+   "a": "The Securities Act of 1933, with its \"Due Diligence Defense\" for broker-dealers."
+  },
+  "investigations-3-k1": {
+   "q": "What is the difference between due care and due diligence?",
+   "a": "Due care is providing reasonable protection. Due diligence is the effort that demonstrates that due care."
+  },
+  "investigations-3-k2": {
+   "q": "What legal doctrine is due diligence compared with?",
+   "a": "Negligence, which is the failure to exercise due care."
+  },
+  "investigations-3-k3": {
+   "q": "When can you tell whether due diligence was performed?",
+   "a": "After the fact, once the deal has closed and the investigation is compared with the results."
+  },
+  "investigations-3-k4": {
+   "q": "What is a common mistake in due diligence?",
+   "a": "Relying solely on the target's information instead of verifying it with primary sources."
+  },
+  "investigations-3-k5": {
+   "q": "What is the first step in any due diligence?",
+   "a": "Examining the matter and understanding which factors to focus on."
+  },
+  "investigations-3-k6": {
+   "q": "What are primary sources?",
+   "a": "Interviews and direct observation."
+  },
+  "investigations-3-k7": {
+   "q": "What is the difference between the 10-K and the 10-Q?",
+   "a": "The 10-K is the annual report filed with the SEC. The 10-Q is quarterly and updates it."
+  },
+  "investigations-3-k8": {
+   "q": "Who files UCC filings, and what do they record?",
+   "a": "Sellers or creditors, to record commercial debts."
+  },
+  "investigations-3-k9": {
+   "q": "What repository brings together federal criminal, civil, bankruptcy, and appellate records?",
+   "a": "PACER."
+  },
+  "investigations-3-k10": {
+   "q": "To what four categories should a social media search be limited?",
+   "a": "Violent conduct, illegal activity, sexually explicit material, and ties to criminal, terrorist, or hostile groups."
+  },
+  "investigations-3-k11": {
+   "q": "What seven elements does the due diligence report include?",
+   "a": "Client and provider, purpose and background, scope, methodology, findings, conclusion, and disclaimer."
+  },
+  "investigations-3-k12": {
+   "q": "What does the Marriott–Starwood case teach?",
+   "a": "That due diligence must include cybersecurity. Marriott did not detect the breach and paid more than 100 million in fines."
+  },
+  "investigations-3-k13": {
+   "q": "How large was the Madoff scheme, and what is its lesson?",
+   "a": "$50 billion (2008). Lesson: use outside investigators, attorneys, and accountants."
+  },
+  "investigations-3-k14": {
+   "q": "In what years did the DOJ publish versions of the ECCP?",
+   "a": "In 2017, 2019, and 2020."
+  },
+  "investigations-4-k0": {
+   "q": "What is the difference between a background check and a background investigation?",
+   "a": "A check confirms what the applicant provides. An investigation actively looks for what the applicant conceals."
+  },
+  "investigations-4-k1": {
+   "q": "According to the chapter, what are the two main loss prevention strategies?",
+   "a": "Applicant screening and employee socialization."
+  },
+  "investigations-4-k2": {
+   "q": "What does the Calden case teach?",
+   "a": "That withholding dangerous information when giving references led to the first negligent referral lawsuit."
+  },
+  "investigations-4-k3": {
+   "q": "According to the 2019 report, what percentage of employers use some form of screening?",
+   "a": "96%."
+  },
+  "investigations-4-k4": {
+   "q": "How many workplace homicides were there in the U.S. in 2018?",
+   "a": "453, out of 5,250 workplace deaths. It is the fourth leading cause of workplace death."
+  },
+  "investigations-4-k5": {
+   "q": "Which screening components are applied last?",
+   "a": "The most expensive ones, so that the policy is cost-effective."
+  },
+  "investigations-4-k6": {
+   "q": "What standard of proof is needed to decline to hire an applicant?",
+   "a": "Good faith."
+  },
+  "investigations-4-k7": {
+   "q": "At what number of employees does the ADA apply when defining a position's requirements?",
+   "a": "15 or more employees."
+  },
+  "investigations-4-k8": {
+   "q": "What does the FCRA require if an outside screening service is used?",
+   "a": "Notifying the applicant and obtaining his or her written authorization, both separate from the application."
+  },
+  "investigations-4-k9": {
+   "q": "What is Ban-the-Box?",
+   "a": "A prohibition on asking about criminal history on the application until after a conditional offer."
+  },
+  "investigations-4-k10": {
+   "q": "Which employment gaps should be investigated?",
+   "a": "All gaps longer than one month."
+  },
+  "investigations-4-k11": {
+   "q": "What is the FCRA sequence of letters for an adverse decision?",
+   "a": "First the pre-adverse notice with the report and the Summary of Rights, then a reasonable waiting period, and finally the adverse decision letter."
+  },
+  "investigations-4-k12": {
+   "q": "What is the difference between overt and personality-oriented integrity tests?",
+   "a": "Overt tests ask about past dishonest acts. Indirect tests measure traits such as dependability and respect for authority."
+  },
+  "investigations-4-k13": {
+   "q": "What piece of information is needed to search records in Mexico and Latin America?",
+   "a": "The mother's maiden name."
+  },
+  "investigations-4-k14": {
+   "q": "Which U.S. law prohibits preemployment polygraph testing?",
+   "a": "The Employee Polygraph Protection Act of 1988."
+  },
+  "investigations-5-k0": {
+   "q": "What are the \"three I's\" the investigator uses?",
+   "a": "Information, interrogation, and instrumentation."
+  },
+  "investigations-5-k1": {
+   "q": "What terminology does the book recommend for the corporate and private sector, and who is the author?",
+   "a": "Informational vs. confrontational interview, from Deming (1997)."
+  },
+  "investigations-5-k2": {
+   "q": "According to John E. Reid and Associates, what are the four objectives of the interview?",
+   "a": "Obtain valuable facts, eliminate the innocent, identify the guilty, and obtain a confession."
+  },
+  "investigations-5-k3": {
+   "q": "Which type of informant is most likely to provide false or biased information?",
+   "a": "The anonymous informant."
+  },
+  "investigations-5-k4": {
+   "q": "What is the most important factor in the success of an interview?",
+   "a": "Establishing good rapport with the interviewee."
+  },
+  "investigations-5-k5": {
+   "q": "Which side of the theft triangle does the interviewer use to obtain a confession?",
+   "a": "Rationalization: helping the subject form a socially acceptable justification."
+  },
+  "investigations-5-k6": {
+   "q": "In what order are people interviewed?",
+   "a": "First, those who will not be available later; then those with the most pertinent information; then those likely to be hostile; the subject comes last."
+  },
+  "investigations-5-k7": {
+   "q": "How far from the subject should the interviewer sit, and why not behind a desk?",
+   "a": "About 5 feet; a desk hinders rapport and prevents observation of nonverbal behavior."
+  },
+  "investigations-5-k8": {
+   "q": "What type of denial is typical of a deceptive person?",
+   "a": "A very specific one (for example, \"I didn't take that $12,437.18\")."
+  },
+  "investigations-5-k9": {
+   "q": "In the behavior analysis interview, how does a deceptive person respond to the \"vouch\" or \"trust\" question?",
+   "a": "He or she does not vouch for anyone, to avoid narrowing the list of suspects."
+  },
+  "investigations-5-k10": {
+   "q": "At which Reid step does an innocent person always remain?",
+   "a": "Step 3, denial: an innocent person never moves past it."
+  },
+  "investigations-5-k11": {
+   "q": "How should the alternative question in step 7 be phrased?",
+   "a": "As two incriminating choices that assume guilt; never \"Did you do it or not?\""
+  },
+  "investigations-5-k12": {
+   "q": "What technique was developed for the British police to reduce false confessions?",
+   "a": "The PEACE model."
+  },
+  "investigations-5-k13": {
+   "q": "What does the Weingarten case (U.S., 1975) recognize?",
+   "a": "The interviewee's right to have a union representative present at an investigatory interview."
+  },
+  "investigations-5-k14": {
+   "q": "Can a minor consent to an interview, and can consent be withdrawn?",
+   "a": "A minor cannot consent (nor can an intoxicated person); consent can be withdrawn at any time."
+  },
+  "investigations-6-k0": {
+   "q": "How does the book define chain of custody, and how is it maintained?",
+   "a": "It is the unbroken control of evidence. It is maintained by marking the evidence with the investigator's initials, keeping the number of people who handle it to a minimum, and documenting every transfer."
+  },
+  "investigations-6-k1": {
+   "q": "What three conditions must physical evidence meet to be presented at trial?",
+   "a": "A clearly demonstrated chain of custody, proper identification, and relevance to the case."
+  },
+  "investigations-6-k2": {
+   "q": "What two subtypes make up indirect evidence?",
+   "a": "Circumstantial and hearsay. Direct evidence is real and material evidence."
+  },
+  "investigations-6-k3": {
+   "q": "Which hearsay exception is based on spontaneous statements made during the event, and what are its three categories?",
+   "a": "Res gestae: words that are part of or explain a physical act, spontaneous exclamations, and statements about state of mind."
+  },
+  "investigations-6-k4": {
+   "q": "In a unionized environment, when can the employer's investigator require confidentiality?",
+   "a": "Only if witnesses need protection, evidence may be destroyed, testimony may be fabricated, or a cover-up must be prevented."
+  },
+  "investigations-6-k5": {
+   "q": "What is the consequence of offering a witness a reward to give a statement?",
+   "a": "If discovered, it invalidates the statement and may lead to a witness tampering charge."
+  },
+  "investigations-6-k6": {
+   "q": "What type of forged signature is written in the forger's normal handwriting, with no attempt at imitation?",
+   "a": "The freehand forgery."
+  },
+  "investigations-6-k7": {
+   "q": "How many copies are made to compare photocopies, and using what methods?",
+   "a": "10 copies with each of four methods: no document with the cover down, no document with the cover up, with the document and the cover down, and through the automatic document feeder."
+  },
+  "investigations-6-k8": {
+   "q": "Which category of physical evidence helps locate the suspect, such as a credit card receipt?",
+   "a": "Tracing evidence, not to be confused with trace evidence (fibers, paint, glass)."
+  },
+  "investigations-6-k9": {
+   "q": "What is the most common physical evidence, and what is done with it?",
+   "a": "Fingerprints. They are collected and preserved first, using latex or cotton gloves."
+  },
+  "investigations-6-k10": {
+   "q": "Who may release the scene, and what must be recorded upon release?",
+   "a": "Only the person in charge, once everyone is confident the search was complete. The record shows the time and date, to whom the scene was released, and who released it."
+  },
+  "investigations-6-k11": {
+   "q": "How is blood drawn and sent for DNA analysis?",
+   "a": "Medical personnel draw at least two 5 ml purple-top tubes with EDTA. They are refrigerated, not frozen, using cold packs rather than dry ice."
+  },
+  "investigations-6-k12": {
+   "q": "In a drug-facilitated assault, which sample is mandatory, and within what time frame?",
+   "a": "Urine, collected as soon as possible and never more than 96 hours after the alleged drugging."
+  },
+  "investigations-6-k13": {
+   "q": "What material is used to cast a footwear impression, and what times must be observed?",
+   "a": "Dental stone, not plaster of Paris. Let it set for 20 to 30 minutes with heat and air-dry it for at least 48 hours; package it in paper."
+  },
+  "investigations-6-k14": {
+   "q": "Which regulation governs bloodborne pathogens, and what concept underlies it?",
+   "a": "OSHA's 29 CFR 1910.1030, based on universal precautions. Equipment is decontaminated with a 1:10 bleach solution prepared daily or with 70% isopropyl alcohol."
+  },
+  "investigations-7-k0": {
+   "q": "What can a fact witness testify about?",
+   "a": "Only what he or she saw, heard, smelled, touched, or tasted."
+  },
+  "investigations-7-k1": {
+   "q": "What is the typical hearsay exception the book cites?",
+   "a": "The dying declaration: the last words of a victim identifying the perpetrator."
+  },
+  "investigations-7-k2": {
+   "q": "What two other names is the opinion witness known by?",
+   "a": "Expert witness and forensic witness."
+  },
+  "investigations-7-k3": {
+   "q": "What information goes into the marking on a piece of evidence?",
+   "a": "Initials, date, and tracking or report number, in the same place whenever possible."
+  },
+  "investigations-7-k4": {
+   "q": "What is a duces tecum?",
+   "a": "A request between the parties to produce all tangible evidence."
+  },
+  "investigations-7-k5": {
+   "q": "What are interrogatories?",
+   "a": "Written questions the parties exchange before trial."
+  },
+  "investigations-7-k6": {
+   "q": "Who decides the outcome in a bench trial?",
+   "a": "The judge, because there is no jury."
+  },
+  "investigations-7-k7": {
+   "q": "What is the process of determining whether a prospective juror is suitable called?",
+   "a": "Voir dire."
+  },
+  "investigations-7-k8": {
+   "q": "What three criteria does the judge use to instruct the jury on what constitutes evidence?",
+   "a": "Relevancy, materiality, and competency."
+  },
+  "investigations-7-k9": {
+   "q": "When should the employee examine the physical evidence in person?",
+   "a": "At the pretrial conference, to confirm that it exists and is complete."
+  },
+  "investigations-7-k10": {
+   "q": "After asking for clarification, the witness still does not understand the question. What three options does the witness have?",
+   "a": "Say that he or she is confused, ask to give a qualified answer, or say that he or she cannot answer yes or no."
+  },
+  "investigations-7-k11": {
+   "q": "How is eye contact handled today?",
+   "a": "Look at the attorney while he or she asks the question, and divide your gaze between the jury and the attorney when answering (Broda-Bahm 2015)."
+  },
+  "investigations-7-k12": {
+   "q": "What are the four types of contradictions?",
+   "a": "Within a single statement, between the witness's own statements, with what others have said, and with other evidence."
+  },
+  "investigations-7-k13": {
+   "q": "Which case extended Daubert to all experts, scientific or not?",
+   "a": "Kumho Tire v. Carmichael (1999)."
+  },
+  "investigations-7-k14": {
+   "q": "Which type of witness is required to answer hypothetical questions?",
+   "a": "Only the expert witness. The fact witness is not."
+  },
+  "investigations-8-k0": {
+   "q": "What are the chapter's four force multipliers?",
+   "a": "Online sources, liaison, intelligence information, and technology."
+  },
+  "investigations-8-k1": {
+   "q": "According to the book, what percentage of the Internet is the surface web, the deep web, and the dark web?",
+   "a": "About 4%, more than 93%, and about 3%."
+  },
+  "investigations-8-k2": {
+   "q": "Which layer of the Internet is the only one indexed by search engines such as Google?",
+   "a": "The surface web, or clear web."
+  },
+  "investigations-8-k3": {
+   "q": "Which system allows searching federal criminal, civil, and bankruptcy cases in the U.S.?",
+   "a": "PACER (Public Access to Court Electronic Records)."
+  },
+  "investigations-8-k4": {
+   "q": "What do you search for in OFAC and in the FEC?",
+   "a": "Economic sanctions in OFAC; political campaign contributions in the FEC."
+  },
+  "investigations-8-k5": {
+   "q": "What are the four suggestions for maintaining liaison?",
+   "a": "Mutual benefit without a mandatory quid pro quo, respecting gift limits, never betraying a confidence, and periodic contact."
+  },
+  "investigations-8-k6": {
+   "q": "Give an example of a case-specific JTF and one of a permanent JTF.",
+   "a": "National Capital Area Sniper Case (2002) or Unabomber; Joint Terrorism Task Forces or Crimes Against Children Task Force."
+  },
+  "investigations-8-k7": {
+   "q": "What plan protects information in a JTF?",
+   "a": "A tailored OPSEC plan, for both physical and electronic formats."
+  },
+  "investigations-8-k8": {
+   "q": "What is the basic maxim of intelligence in investigations?",
+   "a": "\"Check your own files first\": start by reviewing your own records."
+  },
+  "investigations-8-k9": {
+   "q": "What are the three approaches to using data mining and analytics?",
+   "a": "Features of standard software programs, purchased specialized suites, or outsourcing to a specialist."
+  },
+  "investigations-8-k10": {
+   "q": "What are the five steps of report writing?",
+   "a": "Gather the facts, record them immediately, organize them, write the report, and evaluate or edit it."
+  },
+  "investigations-8-k11": {
+   "q": "How often is the progress report submitted in the private sector?",
+   "a": "Every 30 days."
+  },
+  "investigations-8-k12": {
+   "q": "In what three cases is the final report submitted?",
+   "a": "Successful closure, leads exhausted without success, or by order of the person who authorized the case."
+  },
+  "investigations-8-k13": {
+   "q": "In what person is an undercover agent's narrative written?",
+   "a": "In the first person."
+  },
+  "investigations-8-k14": {
+   "q": "How do you seek to protect the report from a subpoena?",
+   "a": "By delivering it only to the company's attorney of record, as attorney work product."
+  }
+ },
+ "ideas": {
+  "investigations-1": "An investigation is a lawful, methodical fact-finding process that leads to a reasonable conclusion. Managing one well requires five qualities, a structure that fits the organization (in-house, outsourced, or hybrid), and control at every phase of the life cycle. In the private sector, the organization's interest is what counts, not public punishment.",
+  "investigations-2": "In an undercover investigation, a trained investigator is placed in a workforce that is unaware of it. It is used to gather information and to understand the \"how\" and \"why\" of what is happening. It is a last resort: it is expensive and slow, and it carries legal risk. It works only with a five-phase plan, an attorney from the outset, strict confidentiality, and well-written reports.",
+  "investigations-3": "Due diligence is a proactive investigative process. It supports security risk management decisions. There is no single standard: it depends on the objective, the situation, the jurisdiction, privacy laws, and the time frame. The key is to understand what the client needs and to verify everything with primary sources, not just with what the other party provides.",
+  "investigations-4": "A single bad hire can be very costly in theft, violence, lawsuits, and reputation. A background investigation program that is legal, fair, and consistently applied prevents losses and protects against negligent hiring and discrimination lawsuits. It is designed according to the position, the risk, regulations, and the information available, with security, human resources (HR), and legal counsel working together.",
+  "investigations-5": "The interview is the private and corporate investigator's primary tool for obtaining information. The chapter covers preparation, documentation, interviewee factors, how to read verbal and nonverbal behavior, the confrontational interview (Reid), and legal limits. Every interview must withstand judicial review.",
+  "investigations-6": "Evidence is whatever proves or indicates an assertion, and it may be oral, documentary, or physical. The security professional must collect, protect, examine, and transport it to the standard of criminal and civil trials, even if the case never goes to trial. Two things are non-negotiable: the chain of custody and the safety of personnel at the scene.",
+  "investigations-7": "Testimony is the end of a path that begins with the incident. A security professional's testimony is only as good as his or her procedures, reports, and preparation. Knowing the trial participants and opposing counsel's traps also matters. The chapter distinguishes between the fact witness and the expert witness, and cites the three U.S. Supreme Court cases on expert witnesses.",
+  "investigations-8": "To get the most out of an investigation, you must use force multipliers: online sources, liaison, intelligence, and technology. Findings must be communicated in clear, protected reports. They should also be used to improve the investigative process and the organization's security posture. The chapter closes with future trends."
+ },
+ "quiz": {}
+}
