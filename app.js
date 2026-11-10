@@ -73,14 +73,14 @@ const T = {
     audioTotal: (n, mb) => `${n} ${n === 1 ? 'audio' : 'audios'}, ${mb} en este dispositivo.`, rename: 'Renombrar', del: 'Borrar', audioName: 'Nombre del audio',
     delQ: n => `¿Borrar «${n}» de este dispositivo?`, audioDeleted: 'Audio borrado', saving: (i, n, f) => `Guardando ${i} de ${n}: ${f}…`,
     noSpace: 'No hay espacio suficiente en el dispositivo', cantSave: f => `No se pudo guardar ${f}`, savedN: n => `${n} audios guardados`, saved1: 'Audio guardado',
-    audioMissing: 'No se encontró el audio', play: 'Reproducir', pause: 'Pausar', back15: 'Atrás 15 segundos', fwd30: 'Adelante 30 segundos', speed: 'Velocidad', seek: 'Posición',
+    audioMissing: 'No se encontró el audio', play: 'Reproducir', pause: 'Pausar', back15: 'Atrás 15 segundos', fwd30: 'Adelante 30 segundos', speed: 'Velocidad', seek: 'Posición', closePlayer: 'Cerrar reproductor',
     setTitle: 'Ajustes', version: v => `Versión ${v}`, language: 'Idioma', profile: 'Perfil', nameLbl: 'Tu nombre (opcional)', nameNote: 'Solo se guarda en este dispositivo y aparece en el inicio.',
     offline: 'Sin conexión', standalone: 'Estás usando la app instalada.',
     installHow: 'En el iPhone: botón Compartir, «Añadir a pantalla de inicio», y ábrela desde el icono. La app instalada guarda su propio avance y audios, separados de Safari.',
     used: 'Espacio usado', of: 'de', persistent: 'Almacenamiento persistente', on: 'activado', notConf: 'no confirmado',
     persist: 'Asegurar datos', checkUpd: 'Buscar actualización', persistOk: 'Almacenamiento persistente activado',
     persistNo: 'El sistema no lo concedió (las apps instaladas en iPhone suelen conservar sus datos igualmente)',
-    noSW: 'Modo sin conexión no disponible en este navegador', checked: 'Comprobado', noNet: 'Sin internet: se comprobará más tarde',
+    noSW: 'Modo sin conexión no disponible en este navegador', checked: 'Comprobado', noNet: 'Sin internet: conéctate para actualizar', updChecking: 'Buscando actualización…', updLatest: 'Ya tienes la última versión', updApplying: 'Descargando la versión nueva. La app se recargará sola.',
     backup: 'Copia de seguridad del avance', backupNote: 'Guarda lo leído, las fichas, los tests y la posición de los audios (los audios no se incluyen). Úsala para pasar el avance a otro dispositivo.',
     exp: 'Exportar', imp: 'Importar', reset: 'Reiniciar', rCards: 'Reiniciar fichas', rTests: 'Reiniciar tests', rAll: 'Borrar todo el avance',
     rCardsQ: '¿Reiniciar todas las fichas?', rTestsQ: '¿Reiniciar resultados de tests y simulacros?', rAllQ: '¿Borrar TODO el avance de este dispositivo? Los audios y la bitácora de tiempo se conservan.',
@@ -136,14 +136,14 @@ const T = {
     audioTotal: (n, mb) => `${n} ${n === 1 ? 'file' : 'files'}, ${mb} on this device.`, rename: 'Rename', del: 'Delete', audioName: 'Audio name',
     delQ: n => `Delete “${n}” from this device?`, audioDeleted: 'Audio deleted', saving: (i, n, f) => `Saving ${i} of ${n}: ${f}…`,
     noSpace: 'Not enough space on this device', cantSave: f => `Couldn't save ${f}`, savedN: n => `${n} files saved`, saved1: 'Audio saved',
-    audioMissing: 'Audio not found', play: 'Play', pause: 'Pause', back15: 'Back 15 seconds', fwd30: 'Forward 30 seconds', speed: 'Speed', seek: 'Position',
+    audioMissing: 'Audio not found', play: 'Play', pause: 'Pause', back15: 'Back 15 seconds', fwd30: 'Forward 30 seconds', speed: 'Speed', seek: 'Position', closePlayer: 'Close player',
     setTitle: 'Settings', version: v => `Version ${v}`, language: 'Language', profile: 'Profile', nameLbl: 'Your name (optional)', nameNote: 'Stored only on this device and shown on the home screen.',
     offline: 'Offline', standalone: "You're using the installed app.",
     installHow: 'On iPhone: tap Share, then “Add to Home Screen”, and open it from the icon. The installed app keeps its own progress and audio, separate from Safari.',
     used: 'Storage used', of: 'of', persistent: 'Persistent storage', on: 'on', notConf: 'not confirmed',
     persist: 'Protect data', checkUpd: 'Check for update', persistOk: 'Persistent storage is on',
     persistNo: "The system didn't grant it (installed iPhone apps usually keep their data anyway)",
-    noSW: 'Offline mode is not available in this browser', checked: 'Checked', noNet: 'No internet: it will check later',
+    noSW: 'Offline mode is not available in this browser', checked: 'Checked', noNet: 'No internet: connect to update', updChecking: 'Checking for updates…', updLatest: 'You already have the latest version', updApplying: 'Downloading the new version. The app will reload on its own.',
     backup: 'Progress backup', backupNote: 'Saves chapters read, flashcards, tests and audio positions (audio files are not included). Use it to move your progress to another device.',
     exp: 'Export', imp: 'Import', reset: 'Reset', rCards: 'Reset flashcards', rTests: 'Reset tests', rAll: 'Erase all progress',
     rCardsQ: 'Reset all flashcards?', rTestsQ: 'Reset test and mock exam results?', rAllQ: 'Erase ALL progress on this device? Audio files and the study-time log are kept.',
@@ -285,6 +285,7 @@ function applyLang() {
   $('#mFwd').setAttribute('aria-label', t('fwd30'));
   $('#mSpeed').setAttribute('aria-label', t('speed'));
   $('#mSeek').setAttribute('aria-label', t('seek'));
+  $('#mClose').setAttribute('aria-label', t('closePlayer'));
   miniUI();
 }
 let KEEP = null; // sesión a conservar al cambiar de idioma
@@ -798,6 +799,15 @@ window.addEventListener('pagehide', savePos);
 $('#mPlay').onclick = () => player.paused ? player.play().catch(() => {}) : player.pause();
 $('#mBack').onclick = () => { player.currentTime = Math.max(0, player.currentTime - 15); };
 $('#mFwd').onclick = () => { player.currentTime = Math.min(player.duration || 0, player.currentTime + 30); };
+$('#mClose').onclick = () => {
+  savePos();
+  player.pause(); player.removeAttribute('src'); player.load();
+  if (curURL) { URL.revokeObjectURL(curURL); curURL = null; }
+  current = null; delete S.lastAudio; save(true);
+  $('#mini').hidden = true; document.body.classList.remove('has-mini');
+  if ('mediaSession' in navigator) navigator.mediaSession.metadata = null;
+  if (location.hash.startsWith('#/audios')) audiosView();
+};
 $('#mSpeed').onclick = () => { const i = SPEEDS.indexOf(S.speed || 1); S.speed = SPEEDS[(i + 1) % SPEEDS.length]; player.playbackRate = S.speed; save(); miniUI(); };
 const seekEl = $('#mSeek');
 seekEl.addEventListener('input', () => { seeking = true; const d = player.duration || 0; $('#mTime').textContent = fmtTime(d * seekEl.value / 1000); });
@@ -1040,7 +1050,18 @@ async function settingsView() {
   let nt;
   $('#nm').addEventListener('input', e => { clearTimeout(nt); nt = setTimeout(() => { S.name = e.target.value.trim(); save(); }, 300); });
   $('#persist').onclick = async () => { const ok = await navigator.storage?.persist?.(); toast(ok ? t('persistOk') : t('persistNo')); settingsView(); };
-  $('#upd').onclick = async () => { const r = await navigator.serviceWorker?.getRegistration(); if (!r) return toast(t('noSW')); try { await r.update(); } catch (e) { /* sin red */ } toast(navigator.onLine ? t('checked') : t('noNet')); };
+  $('#upd').onclick = async () => {
+    const r = await navigator.serviceWorker?.getRegistration();
+    if (!r) return toast(t('noSW'));
+    if (!navigator.onLine) return toast(t('noNet'));
+    toast(t('updChecking'));
+    try { await r.update(); } catch (e) { return toast(t('noNet')); }
+    const w = r.waiting || r.installing;
+    if (!w) return toast(t('updLatest'));
+    toast(t('updApplying'));
+    const go = () => w.postMessage('skip');
+    if (w.state === 'installed') go(); else w.addEventListener('statechange', () => { if (w.state === 'installed') go(); });
+  };
   $('#exp').onclick = exportProgress;
   $('#impf').onchange = e => importProgress(e.target.files[0]);
   $('#rCards').onclick = () => { if (confirm(t('rCardsQ'))) { S.cards = {}; save(true); toast(t('rCardsOk')); } };
@@ -1071,6 +1092,11 @@ async function importProgress(f) {
 function registerSW() {
   if (!('serviceWorker' in navigator) || location.protocol === 'file:') return;
   navigator.serviceWorker.register('sw.js').then(reg => {
+    // El iPhone reanuda la app sin recargarla: buscar versión nueva cada vez que vuelve a pantalla
+    let lastCheck = Date.now();
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible' && navigator.onLine && Date.now() - lastCheck > 60000) { lastCheck = Date.now(); reg.update().catch(() => {}); }
+    });
     const ask = w => {
       if (!w) return;
       $('#update').hidden = false;
