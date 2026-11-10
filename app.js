@@ -86,7 +86,7 @@ const T = {
     rCardsQ: '¿Reiniciar todas las fichas?', rTestsQ: '¿Reiniciar resultados de tests y simulacros?', rAllQ: '¿Borrar TODO el avance de este dispositivo? Los audios y la bitácora de tiempo se conservan.',
     timeTitle: 'Tiempo de estudio', timeKicker: 'Tiempo total en la app', timeSess: (n, d) => `${n} ${n === 1 ? 'sesión' : 'sesiones'} desde el ${d}`,
     timeToday: 'Hoy', time7: 'Últimos 7 días', timeLog: 'Bitácora', timeLive: 'en curso', seeLog: 'Ver bitácora',
-    timeHow: 'Cuenta el tiempo con la app abierta en pantalla y mientras suena un audio. Si la dejas abierta sin tocarla 10 minutos, deja de contar. Cada celular lleva su propia bitácora.',
+    timeHow: 'Solo cuenta el tiempo con la app en pantalla. Si cambias a otra app o bloqueas el celular, se detiene al momento. También se detiene si la dejas abierta 10 minutos sin tocarla, salvo que esté sonando un audio. Cada celular lleva su propia bitácora.',
     timeEmpty: 'Todavía no hay sesiones registradas.', timeMore: 'Ver días anteriores', timeDel: 'Borrar bitácora',
     timeDelQ: '¿Borrar toda la bitácora de tiempo de este dispositivo?', timeDelOk: 'Bitácora borrada', lt1: 'menos de 1 min',
     rCardsOk: 'Fichas reiniciadas', rTestsOk: 'Tests reiniciados', rAllOk: 'Avance borrado',
@@ -149,7 +149,7 @@ const T = {
     rCardsQ: 'Reset all flashcards?', rTestsQ: 'Reset test and mock exam results?', rAllQ: 'Erase ALL progress on this device? Audio files and the study-time log are kept.',
     timeTitle: 'Study time', timeKicker: 'Total time in the app', timeSess: (n, d) => `${n} ${n === 1 ? 'session' : 'sessions'} since ${d}`,
     timeToday: 'Today', time7: 'Last 7 days', timeLog: 'Log', timeLive: 'in progress', seeLog: 'See log',
-    timeHow: 'Time counts while the app is open on screen and while audio is playing. If you leave it open without touching it for 10 minutes, it stops counting. Each phone keeps its own log.',
+    timeHow: 'Only time with the app on screen counts. Switching to another app or locking the phone stops it immediately. It also stops if you leave the app open for 10 minutes without touching it, unless audio is playing. Each phone keeps its own log.',
     timeEmpty: 'No sessions recorded yet.', timeMore: 'Show earlier days', timeDel: 'Delete log',
     timeDelQ: 'Delete the whole study-time log on this device?', timeDelOk: 'Log deleted', lt1: 'under 1 min',
     rCardsOk: 'Flashcards reset', rTestsOk: 'Tests reset', rAllOk: 'Progress erased',
@@ -898,7 +898,8 @@ const MERGE = 5 * 60 * 1000;   // volver antes de 5 min continúa la misma sesi�
 let runStart = null, cur = null, curBase = 0, lastAct = Date.now();
 const audioOn = () => !player.paused && !player.ended && !!player.src;
 const visible = () => document.visibilityState === 'visible';
-const clockActive = now => audioOn() || (visible() && now - lastAct < IDLE);
+// Solo cuenta con la app en pantalla. Con un audio sonando no se considera inactiva.
+const clockActive = now => visible() && (audioOn() || now - lastAct < IDLE);
 function clockOn(now) {
   if (runStart != null) return;
   if (!Array.isArray(S.time)) S.time = [];
@@ -917,7 +918,7 @@ function clockOff(end) {
 }
 function clockTick() {
   const now = Date.now();
-  if (audioOn()) lastAct = now;
+  if (audioOn() && visible()) lastAct = now;
   if (runStart != null && !clockActive(now)) return clockOff(visible() ? lastAct : now);
   if (runStart == null) { if (visible() && clockActive(now)) clockOn(now); return; }
   clockFlush(now); save();
@@ -929,12 +930,11 @@ function initClock() {
   document.addEventListener('visibilitychange', () => {
     const now = Date.now();
     if (visible()) { lastAct = now; clockOn(now); }
-    else if (audioOn()) { clockFlush(now); save(true); }
-    else clockOff(now);
+    else clockOff(now);   // otra app o pantalla bloqueada: se detiene al momento
   });
-  window.addEventListener('pagehide', () => { clockFlush(Date.now()); save(true); });
-  player.addEventListener('play', () => { lastAct = Date.now(); clockOn(lastAct); });
-  const stop = () => { lastAct = Date.now(); if (!visible()) clockOff(lastAct); else { clockFlush(lastAct); save(); } };
+  window.addEventListener('pagehide', () => clockOff(Date.now()));
+  player.addEventListener('play', () => { lastAct = Date.now(); if (visible()) clockOn(lastAct); });
+  const stop = () => { if (!visible()) return; lastAct = Date.now(); clockFlush(lastAct); save(); };
   player.addEventListener('pause', stop);
   player.addEventListener('ended', stop);
   setInterval(clockTick, 15000);
