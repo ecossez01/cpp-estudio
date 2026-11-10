@@ -1066,6 +1066,7 @@ async function audiosView() {
   let items = [];
   try { items = await ADB.list(); } catch (e) { $('#alist').innerHTML = `<div class="empty">${esc(t('noIDB'))}</div>`; return; }
   if (!location.hash.startsWith('#/audios')) return;
+  for (const m of items) { const c = cleanName(m.name); if (c !== m.name) { m.name = c; ADB.putMeta(m).catch(() => {}); } }
   const total = items.reduce((s, x) => s + x.size, 0);
   $('#alist').innerHTML = items.length ? `
     <div class="list">${items.map(m => {
@@ -1107,7 +1108,7 @@ async function importAudios(files) {
     try {
       const buf = await f.arrayBuffer();
       const id = 'a' + Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
-      const meta = { id, name: f.name.replace(/\.[^.]+$/, ''), size: f.size, type: f.type || guessType(f.name), added: Date.now(), dur: 0 };
+      const meta = { id, name: cleanName(f.name.replace(/\.[^.]+$/, '')), size: f.size, type: f.type || guessType(f.name), added: Date.now(), dur: 0 };
       meta.dur = await probeDuration(buf, meta.type);
       await ADB.add(meta, buf);
     } catch (e) {
@@ -1119,6 +1120,8 @@ async function importAudios(files) {
   toast(files.length > 1 ? t('savedN', files.length) : t('saved1'));
   audiosView();
 }
+// Los nombres de archivo del iPhone traen espacios que no permiten cortar la línea
+const cleanName = n => String(n || '').replace(/[\u00a0\u202f\u2007\u2009\u200a]/g, ' ').replace(/\s+/g, ' ').trim();
 function guessType(name) {
   const e = name.split('.').pop().toLowerCase();
   return { mp3: 'audio/mpeg', m4a: 'audio/mp4', mp4: 'audio/mp4', aac: 'audio/aac', wav: 'audio/wav', ogg: 'audio/ogg' }[e] || 'audio/mpeg';
