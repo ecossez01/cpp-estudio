@@ -18,7 +18,7 @@ function toast(msg) { const el = $('#toast'); el.textContent = msg; el.classList
 
 // ---------- avance (localStorage) ----------
 const KEY = 'cpp-estudio-v1';
-const blank = () => ({ read: {}, cards: {}, qa: {}, best: {}, last: {}, apos: {}, adone: {}, scroll: {}, sims: [], speed: 1, lastCh: null, lang: 'es', name: '' });
+const blank = () => ({ read: {}, cards: {}, qa: {}, best: {}, last: {}, apos: {}, adone: {}, scroll: {}, sims: [], speed: 1, lastCh: null, lang: 'es', name: '', time: [] });
 let S = blank();
 try { S = Object.assign(blank(), JSON.parse(localStorage.getItem(KEY) || '{}')); } catch (e) { /* sin datos */ }
 let saveT;
@@ -83,7 +83,12 @@ const T = {
     noSW: 'Modo sin conexión no disponible en este navegador', checked: 'Comprobado', noNet: 'Sin internet: se comprobará más tarde',
     backup: 'Copia de seguridad del avance', backupNote: 'Guarda lo leído, las fichas, los tests y la posición de los audios (los audios no se incluyen). Úsala para pasar el avance a otro dispositivo.',
     exp: 'Exportar', imp: 'Importar', reset: 'Reiniciar', rCards: 'Reiniciar fichas', rTests: 'Reiniciar tests', rAll: 'Borrar todo el avance',
-    rCardsQ: '¿Reiniciar todas las fichas?', rTestsQ: '¿Reiniciar resultados de tests y simulacros?', rAllQ: '¿Borrar TODO el avance de este dispositivo? Los audios se conservan.',
+    rCardsQ: '¿Reiniciar todas las fichas?', rTestsQ: '¿Reiniciar resultados de tests y simulacros?', rAllQ: '¿Borrar TODO el avance de este dispositivo? Los audios y la bitácora de tiempo se conservan.',
+    timeTitle: 'Tiempo de estudio', timeKicker: 'Tiempo total en la app', timeSess: (n, d) => `${n} ${n === 1 ? 'sesión' : 'sesiones'} desde el ${d}`,
+    timeToday: 'Hoy', time7: 'Últimos 7 días', timeLog: 'Bitácora', timeLive: 'en curso', seeLog: 'Ver bitácora',
+    timeHow: 'Cuenta el tiempo con la app abierta en pantalla y mientras suena un audio. Si la dejas abierta sin tocarla 10 minutos, deja de contar. Cada celular lleva su propia bitácora.',
+    timeEmpty: 'Todavía no hay sesiones registradas.', timeMore: 'Ver días anteriores', timeDel: 'Borrar bitácora',
+    timeDelQ: '¿Borrar toda la bitácora de tiempo de este dispositivo?', timeDelOk: 'Bitácora borrada', lt1: 'menos de 1 min',
     rCardsOk: 'Fichas reiniciadas', rTestsOk: 'Tests reiniciados', rAllOk: 'Avance borrado',
     impQ: 'Esto reemplaza el avance de este dispositivo por el del archivo. ¿Continuar?', impOk: 'Avance importado', impBad: 'El archivo no es una copia válida del avance',
     upd: 'Hay una versión nueva del contenido.', updBtn: 'Actualizar',
@@ -141,7 +146,12 @@ const T = {
     noSW: 'Offline mode is not available in this browser', checked: 'Checked', noNet: 'No internet: it will check later',
     backup: 'Progress backup', backupNote: 'Saves chapters read, flashcards, tests and audio positions (audio files are not included). Use it to move your progress to another device.',
     exp: 'Export', imp: 'Import', reset: 'Reset', rCards: 'Reset flashcards', rTests: 'Reset tests', rAll: 'Erase all progress',
-    rCardsQ: 'Reset all flashcards?', rTestsQ: 'Reset test and mock exam results?', rAllQ: 'Erase ALL progress on this device? Audio files are kept.',
+    rCardsQ: 'Reset all flashcards?', rTestsQ: 'Reset test and mock exam results?', rAllQ: 'Erase ALL progress on this device? Audio files and the study-time log are kept.',
+    timeTitle: 'Study time', timeKicker: 'Total time in the app', timeSess: (n, d) => `${n} ${n === 1 ? 'session' : 'sessions'} since ${d}`,
+    timeToday: 'Today', time7: 'Last 7 days', timeLog: 'Log', timeLive: 'in progress', seeLog: 'See log',
+    timeHow: 'Time counts while the app is open on screen and while audio is playing. If you leave it open without touching it for 10 minutes, it stops counting. Each phone keeps its own log.',
+    timeEmpty: 'No sessions recorded yet.', timeMore: 'Show earlier days', timeDel: 'Delete log',
+    timeDelQ: 'Delete the whole study-time log on this device?', timeDelOk: 'Log deleted', lt1: 'under 1 min',
     rCardsOk: 'Flashcards reset', rTestsOk: 'Tests reset', rAllOk: 'Progress erased',
     impQ: "This replaces this device's progress with the file's. Continue?", impOk: 'Progress imported', impBad: "That file isn't a valid progress backup",
     upd: 'A new version of the content is available.', updBtn: 'Update',
@@ -169,6 +179,7 @@ const ICONS = {
   audio: '<path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4" height="7" rx="1.5"/><rect x="17" y="14" width="4" height="7" rx="1.5"/>',
   check: '<path d="M5 12.5l4.5 4.5L19 7.5"/>',
   search: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/>',
+  clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/>',
 };
 const icon = (k, cls = '') => `<span class="ic ${cls}">${svg(ICONS[k] || ICONS.business)}</span>`;
 
@@ -309,6 +320,7 @@ function route(keepScroll) {
       case 'buscar': setTab('buscar'); return searchView(q.get('q') || '');
       case 'audios': setTab('audios'); return audiosView();
       case 'ajustes': setTab('ajustes'); return settingsView();
+      case 'tiempo': setTab('ajustes'); return timeView(q.get('todo') === '1');
       default: location.hash = '#/';
     }
   } catch (e) {
@@ -879,6 +891,111 @@ function probeDuration(buf, type) {
   });
 }
 
+// ---------- tiempo de estudio ----------
+// Sesiones en S.time: {s: inicio, e: fin, a: tiempo activo} en milisegundos. Solo en este dispositivo.
+const IDLE = 10 * 60 * 1000;   // sin tocar la app 10 min: deja de contar
+const MERGE = 5 * 60 * 1000;   // volver antes de 5 min continúa la misma sesión
+let runStart = null, cur = null, curBase = 0, lastAct = Date.now();
+const audioOn = () => !player.paused && !player.ended && !!player.src;
+const visible = () => document.visibilityState === 'visible';
+const clockActive = now => audioOn() || (visible() && now - lastAct < IDLE);
+function clockOn(now) {
+  if (runStart != null) return;
+  if (!Array.isArray(S.time)) S.time = [];
+  const last = S.time[S.time.length - 1];
+  if (last && now - last.e < MERGE && now >= last.e) cur = last;
+  else { cur = { s: now, e: now, a: 0 }; S.time.push(cur); }
+  curBase = cur.a; runStart = now;
+}
+function clockFlush(now) { if (runStart == null) return; cur.a = curBase + Math.max(0, now - runStart); cur.e = Math.max(cur.e, now); }
+function clockOff(end) {
+  if (runStart == null) return;
+  clockFlush(Math.max(runStart, end));
+  runStart = null;
+  if (cur.a < 5000 && S.time[S.time.length - 1] === cur) S.time.pop();   // aperturas de segundos no cuentan
+  cur = null; save(true);
+}
+function clockTick() {
+  const now = Date.now();
+  if (audioOn()) lastAct = now;
+  if (runStart != null && !clockActive(now)) return clockOff(visible() ? lastAct : now);
+  if (runStart == null) { if (visible() && clockActive(now)) clockOn(now); return; }
+  clockFlush(now); save();
+}
+function initClock() {
+  const touch = () => { lastAct = Date.now(); if (runStart == null && visible()) clockOn(lastAct); };
+  ['pointerdown', 'keydown', 'wheel', 'touchstart'].forEach(ev => document.addEventListener(ev, touch, { passive: true, capture: true }));
+  document.addEventListener('scroll', touch, { passive: true, capture: true });
+  document.addEventListener('visibilitychange', () => {
+    const now = Date.now();
+    if (visible()) { lastAct = now; clockOn(now); }
+    else if (audioOn()) { clockFlush(now); save(true); }
+    else clockOff(now);
+  });
+  window.addEventListener('pagehide', () => { clockFlush(Date.now()); save(true); });
+  player.addEventListener('play', () => { lastAct = Date.now(); clockOn(lastAct); });
+  const stop = () => { lastAct = Date.now(); if (!visible()) clockOff(lastAct); else { clockFlush(lastAct); save(); } };
+  player.addEventListener('pause', stop);
+  player.addEventListener('ended', stop);
+  setInterval(clockTick, 15000);
+  if (visible()) clockOn(Date.now());
+}
+const timeTotal = () => { clockFlush(Date.now()); return (S.time || []).reduce((n, x) => n + x.a, 0); };
+function fmtDur(ms) {
+  const m = Math.floor(ms / 60000);
+  if (m < 1) return t('lt1');
+  const h = Math.floor(m / 60), r = m % 60;
+  return h ? `${h} h ${String(r).padStart(2, '0')} min` : `${m} min`;
+}
+const hhmm = ms => new Date(ms).toLocaleTimeString(locale(), EN() ? { hour: 'numeric', minute: '2-digit' } : { hour: '2-digit', minute: '2-digit', hour12: false });
+function dayLabel(ms) {
+  const d = new Date(ms), now = new Date();
+  const o = { weekday: 'long', day: 'numeric', month: 'long' };
+  if (d.getFullYear() !== now.getFullYear()) o.year = 'numeric';
+  const s = d.toLocaleDateString(locale(), o);
+  return s.charAt(0).toUpperCase() + s.slice(1);
+}
+function timeView(all) {
+  header(t('timeTitle'), '#/ajustes');
+  const now = Date.now();
+  clockFlush(now);
+  const list = (S.time || []).filter(x => x.a >= 1000);
+  const total = list.reduce((n, x) => n + x.a, 0);
+  const d0 = new Date(); d0.setHours(0, 0, 0, 0);
+  const today = list.filter(x => x.s >= d0.getTime()).reduce((n, x) => n + x.a, 0);
+  const week = list.filter(x => x.s >= d0.getTime() - 6 * 864e5).reduce((n, x) => n + x.a, 0);
+  const days = [];
+  for (const x of list.slice().reverse()) {
+    const k = new Date(x.s).toDateString();
+    if (!days.length || days[days.length - 1].k !== k) days.push({ k, s: x.s, items: [], total: 0 });
+    const g = days[days.length - 1]; g.items.push(x); g.total += x.a;
+  }
+  const shown = all ? days : days.slice(0, 30);
+  view.innerHTML = `
+    <section class="panel stripe hero">
+      <div class="kicker">${esc(t('timeKicker'))}</div>
+      <div class="bigtime">${esc(fmtDur(total))}</div>
+      <p class="sub">${list.length ? esc(t('timeSess', list.length, new Date(list[0].s).toLocaleDateString(locale(), { day: 'numeric', month: 'short', year: 'numeric' }))) : esc(t('timeEmpty'))}</p>
+      <div class="row tstats"><div><span>${esc(t('timeToday'))}</span><b>${esc(fmtDur(today))}</b></div><div><span>${esc(t('time7'))}</span><b>${esc(fmtDur(week))}</b></div></div>
+    </section>
+    <p class="note">${esc(t('timeHow'))}</p>
+    ${shown.length ? `<h3 class="label">${esc(t('timeLog'))}</h3>
+    <div class="list">${shown.map(g => `<section class="panel day">
+      <div class="dayh"><b>${esc(dayLabel(g.s))}</b><span>${esc(fmtDur(g.total))}</span></div>
+      ${g.items.map(x => `<div class="kv"><span>${esc(hhmm(x.s))} – ${x === cur && runStart != null ? `<span class="fact ok">${esc(t('timeLive'))}</span>` : esc(hhmm(x.e))}</span><span>${esc(fmtDur(x.a))}</span></div>`).join('')}
+    </section>`).join('')}</div>` : ''}
+    ${!all && days.length > 30 ? `<a class="btn block" href="#/tiempo?todo=1" style="margin-top:10px">${esc(t('timeMore'))}</a>` : ''}
+    ${list.length ? `<button class="btn bad block" id="tDel" style="margin-top:22px">${esc(t('timeDel'))}</button>` : ''}`;
+  $('#tDel')?.addEventListener('click', () => {
+    if (!confirm(t('timeDelQ'))) return;
+    const running = runStart != null;
+    if (running) runStart = null;
+    S.time = []; cur = null; save(true);
+    if (running) clockOn(Date.now());
+    toast(t('timeDelOk')); timeView(false);
+  });
+}
+
 // ---------- ajustes ----------
 async function offlineStatus() {
   if (!('serviceWorker' in navigator)) return { ok: false, text: t('offNoSW') };
@@ -894,6 +1011,8 @@ async function settingsView() {
   if (!location.hash.startsWith('#/ajustes')) return;
   const standalone = matchMedia('(display-mode: standalone)').matches || navigator.standalone;
   view.innerHTML = `
+    <h3 class="label">${esc(t('timeTitle'))}</h3>
+    <a class="item" href="#/tiempo">${icon('clock')}<div class="grow"><div class="t bigt">${esc(fmtDur(timeTotal()))}</div><div class="s">${esc(t('timeKicker'))}</div></div><span class="s">${esc(t('seeLog'))}</span><span class="chev">›</span></a>
     <h3 class="label">${esc(t('language'))}</h3>
     <section class="panel"><div class="seg2" id="langSeg"><button data-l="es" class="${L() === 'es' ? 'on' : ''}">Español</button><button data-l="en" class="${L() === 'en' ? 'on' : ''}">English</button></div></section>
     <h3 class="label">${esc(t('profile'))}</h3>
@@ -926,7 +1045,7 @@ async function settingsView() {
   $('#impf').onchange = e => importProgress(e.target.files[0]);
   $('#rCards').onclick = () => { if (confirm(t('rCardsQ'))) { S.cards = {}; save(true); toast(t('rCardsOk')); } };
   $('#rTests').onclick = () => { if (confirm(t('rTestsQ'))) { S.qa = {}; S.best = {}; S.last = {}; S.sims = []; save(true); toast(t('rTestsOk')); } };
-  $('#rAll').onclick = () => { if (confirm(t('rAllQ'))) { const keep = { speed: S.speed, lang: S.lang, name: S.name }; S = Object.assign(blank(), keep); save(true); toast(t('rAllOk')); } };
+  $('#rAll').onclick = () => { if (confirm(t('rAllQ'))) { const keep = { speed: S.speed, lang: S.lang, name: S.name, time: S.time }; S = Object.assign(blank(), keep); save(true); toast(t('rAllOk')); } };
 }
 async function exportProgress() {
   const name = `cpp-avance-${new Date().toISOString().slice(0, 10)}.json`;
@@ -943,7 +1062,8 @@ async function importProgress(f) {
     const j = JSON.parse(await f.text());
     if (j.app !== 'cpp-estudio' || !j.data) throw new Error('formato');
     if (!confirm(t('impQ'))) return;
-    S = Object.assign(blank(), j.data); save(true); applyLang(); toast(t('impOk')); settingsView();
+    runStart = null; cur = null;
+    S = Object.assign(blank(), j.data); if (!Array.isArray(S.time)) S.time = []; save(true); clockOn(Date.now()); applyLang(); toast(t('impOk')); settingsView();
   } catch (e) { toast(t('impBad')); }
 }
 
@@ -983,6 +1103,7 @@ async function start() {
   syncHeader();
   route();
   registerSW();
+  initClock();
   loadScript('assets.js').catch(() => {});
   if (S.lastAudio) ADB.getMeta(S.lastAudio).then(m => m && loadAudio(m.id, false)).catch(() => {});
   player.addEventListener('play', () => { if (current) { S.lastAudio = current.id; save(); } });
