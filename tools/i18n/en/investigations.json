@@ -487,5 +487,1316 @@
   "investigations-7": "Testimony is the end of a path that begins with the incident. A security professional's testimony is only as good as his or her procedures, reports, and preparation. Knowing the trial participants and opposing counsel's traps also matters. The chapter distinguishes between the fact witness and the expert witness, and cites the three U.S. Supreme Court cases on expert witnesses.",
   "investigations-8": "To get the most out of an investigation, you must use force multipliers: online sources, liaison, intelligence, and technology. Findings must be communicated in clear, protected reports. They should also be used to improve the investigative process and the organization's security posture. The chapter closes with future trends."
  },
- "quiz": {}
+ "quiz": {
+  "investigations-1-q0": {
+   "q": "According to the book, which BEST describes the proper use of a working hypothesis in an investigation?",
+   "o": [
+    "It should be avoided until all evidence is gathered, because any early hypothesis destroys objectivity",
+    "It may be formed at the outset or later and may change, as long as it rests on evidence and known facts",
+    "It should be set at the outset and kept unchanged to give focus and consistency to the whole investigation",
+    "Only the unit manager may formulate it, so that the assigned investigator does not lose impartiality"
+   ],
+   "e": "The book accepts the working hypothesis as a valid tool as long as it respects objectivity: it can be formed at any time and can change, but it must rest on evidence and confirmed information. Rejecting every early hypothesis is an extreme the book does not take; the typical error is trying to prove a theory instead of following every lead."
+  },
+  "investigations-1-q1": {
+   "q": "In a theft investigation, the access control log shows that an employee's card opened the warehouse door at 2:14 a.m. What should the investigator do BEFORE treating that record as proof that the employee entered?",
+   "o": [
+    "Check whether the system could have been manipulated or spoofed and whether someone else used the card",
+    "Immediately confront the employee with the record, before he has a chance to prepare an alibi",
+    "Accept it as solid proof, since an electronic record does not suffer from the errors of memory",
+    "Ask human resources for the employee's disciplinary history to assess his credibility"
+   ],
+   "e": "Accuracy requires taking nothing at face value: an access record is suspect until it is checked whether the system can be manipulated or spoofed and whether another person used the card. Treating it as solid proof is the tempting error: electronic records also fail, like time stamps from a device whose clock is set wrong."
+  },
+  "investigations-1-q2": {
+   "q": "A theft is reported at a distribution center. The operations manager asks to wait three weeks, until the quarter closes, before beginning to investigate. The video system overwrites recordings every 14 days. What should the security director recommend?",
+   "o": [
+    "Secure the video now and postpone the interviews until after the quarter closes",
+    "Wait until the quarter closes so operations are not disrupted, and then assign more investigators",
+    "Wait for the complainant to confirm the allegation in writing before taking action",
+    "Begin the investigation as soon as possible, while respecting the jurisdiction's requirements"
+   ],
+   "e": "Timeliness calls for opening the investigation as soon as possible, within the jurisdiction's requirements, so that human, physical, or electronic evidence does not degrade. Securing only the video is not enough: witnesses' memories also fade and become contaminated over time."
+  },
+  "investigations-1-q3": {
+   "q": "Which BEST describes how the outcome of an investigation is measured in the private sector, as opposed to the public sector?",
+   "o": [
+    "By the number of arrests and convictions obtained from cases referred to the police",
+    "By the percentage of cases that meet the beyond-a-reasonable-doubt standard",
+    "By recovery, restitution, litigation mitigation, and risk reduction",
+    "By the number of criminal cases the company gets the prosecutor to accept"
+   ],
+   "e": "In the private sector the aim is to protect the company's interests, and the outcome is measured by recovery, restitution, litigation mitigation, and risk reduction. The number of arrests and convictions is the typical public sector measure."
+  },
+  "investigations-1-q4": {
+   "q": "An internal fraud investigation points to possible company fault, and litigation is expected. To whom should the investigator deliver the report?",
+   "o": [
+    "To the final decision maker, for example the chief executive officer",
+    "Directly and only to the company's legal counsel of record",
+    "To the human resources director, who will decide on disciplinary measures",
+    "To the head of the investigative unit (IU), who will disseminate it under its dissemination policy"
+   ],
+   "e": "If litigation is expected or company fault is suspected, the report goes directly and only to counsel of record, so that the whole investigation can be protected as attorney work product. Delivering it to the final decision maker is the normal reporting path, but in this situation the book requires the attorney channel."
+  },
+  "investigations-1-q5": {
+   "q": "It is discovered that an investigator fabricated evidence in a theft case. According to the book, what is the BROADEST consequence for the investigative unit?",
+   "o": [
+    "All of his previous cases become suspect, and the misconduct may be discoverable in court",
+    "Only the theft case must be reopened, since the misconduct does not affect cases already closed",
+    "It is enough to reassign him to background cases, where physical evidence matters much less",
+    "The unit loses its functional charter, which the chief executive officer must then reissue"
+   ],
+   "e": "Unethical conduct such as fabricating evidence taints everything the investigator did in the position before it was discovered, and it may be discoverable and is often admitted in court. Reopening a single case underestimates the damage; moreover, the book calls for the most severe punishment, not a simple reassignment."
+  },
+  "investigations-1-q6": {
+   "q": "During an embezzlement interview, the suspect offers to pay the money back before admitting anything. What should the investigator do?",
+   "o": [
+    "Accept the offer on the spot, since restitution is the best proof of the unit's value",
+    "Accept it in exchange for not referring the case to the police, to close it quickly",
+    "Refer the offer to human resources so it can negotiate the amount with the suspect",
+    "Not address restitution until he confesses or the facts allow a reliable conclusion"
+   ],
+   "e": "The investigator must not address restitution until the subject confesses or the facts allow a reliable conclusion; otherwise the suspect may later claim he was coerced. The book also warns against using restitution as the main proof of the unit's value."
+  },
+  "investigations-1-q7": {
+   "q": "According to the book's comparison of outsourcing with an internal unit, which is a DISADVANTAGE specific to the internal unit?",
+   "o": [
+    "Quality control is left almost entirely in the hands of the contractor doing the investigations",
+    "Investigators may know less about the company's mission, structure, and culture",
+    "At trial, the investigation may be seen as tainted because it was run under company direction",
+    "It requires ongoing effort to manage the contract with the service provider"
+   ],
+   "e": "Figure 1.2 lists as an internal disadvantage that, especially at trial, the investigation may be tainted because it was conducted under company direction. The other three options are outsourcing disadvantages; in fact, internal investigators usually know the organization better."
+  },
+  "investigations-1-q8": {
+   "q": "An employee has sent threatening messages to a coworker. The company wants human resources, safety, security, and legal to contribute their views from the start of the case and to recommend policy changes. Which mechanism is MOST appropriate?",
+   "o": [
+    "Refer the case to an inspector general with a direct channel to senior management",
+    "Activate a threat management team (TMT)",
+    "Assign it to a regional investigative unit with local knowledge",
+    "Hire an outside provider of full-scope investigative services"
+   ],
+   "e": "The TMT is multidisciplinary (human resources, safety, security, legal, and other areas), is activated at the outset depending on the case type, gives input on discipline, recommends policy changes, and is very useful in workplace violence cases. The inspector general solves a different problem: an independent reporting channel when departing from the organization chart clashes with the culture."
+  },
+  "investigations-1-q9": {
+   "q": "A company hires an investigative firm that, in turn, subcontracts an independent investigator for a case in another state. What should the head of the investigative unit do regarding licensing?",
+   "o": [
+    "Verify the investigator's license and also that of the firm that employs him",
+    "Rely on the firm's written assurance, since it answers for its subcontractors",
+    "Verify only the firm's license, since it covers all of its personnel",
+    "Verify only the investigator's license, since he will do the actual work"
+   ],
+   "e": "With outside investigators, the license of the individual and that of the employing firm are both verified; it cannot be assumed. Final responsibility for their training and licensing lies with the hiring organization, so the firm's assurance is not enough."
+  },
+  "investigations-1-q10": {
+   "q": "Which document describes how investigations are initiated and conducted, the reporting channels, the coordination mechanisms, and the final disposition, and explains, for example, to human resources how to request background investigations?",
+   "o": [
+    "The functional charter",
+    "The unit's annual objectives",
+    "The investigative plan",
+    "The policy statement"
+   ],
+   "e": "The policy statement describes how investigations are initiated and conducted, the reporting channels, coordination, and final disposition, and it also governs other departments. The functional charter, by contrast, is a brief document issued by the CEO that gives the unit credibility and authority and sets its purpose and strategic goals."
+  },
+  "investigations-1-q11": {
+   "q": "An investigative unit is evaluating candidates. Which one BEST meets the book's rule of thumb for general experience?",
+   "o": [
+    "Eight years as a patrol officer in a large city, with no specific investigative work",
+    "A recent CPP certification and a graduate degree, with no prior investigative experience",
+    "Two years in various types of investigations, including interviews and evidence handling",
+    "Six months in a complex fraud unit, with a single high-profile case"
+   ],
+   "e": "The rule of thumb is two years conducting investigations, preferably of various types, including interviews, evidence handling, surveillance, records searches, and reports. Patrol work as a police officer does not count as investigating, however many years it lasted, unless the person did specific investigative work."
+  },
+  "investigations-1-q12": {
+   "q": "According to the book, which items are usually the LARGEST in an investigative unit's budget, and which are the EASIEST to control?",
+   "o": [
+    "Largest: overhead; easiest to control: personnel and travel",
+    "Largest: personnel and outside services; easiest to control: overhead",
+    "Largest: equipment and supplies; easiest to control: contracted outside services",
+    "Largest: outside services; easiest to control: personnel costs"
+   ],
+   "e": "Personnel and outside service costs are usually the largest items, and overhead is usually the easiest to control. Controlling operating and overhead costs well greatly improves the response to funding requests."
+  },
+  "investigations-1-q13": {
+   "q": "After concluding a warehouse theft case, the investigative unit (IU) disciplines the person responsible and also recommends changing the receiving procedure that allowed the theft. What does the book call using the results for both purposes?",
+   "o": [
+    "Synergy",
+    "Root cause analysis",
+    "Adjudication",
+    "Trend analysis"
+   ],
+   "e": "Synergy means using the results to resolve the case and, at the same time, to correct the conditions that allowed the incident; that is why follow-up goes beyond deciding discipline. Root cause analysis is a technique for finding out why something happened, especially in exploratory investigations, not the dual use of results."
+  },
+  "investigations-1-q14": {
+   "q": "In the United States, which rule requires publicly traded companies to have an internal, retaliation-free reporting system as part of an effective compliance and ethics program?",
+   "o": [
+    "The Federal Sentencing Guidelines",
+    "The United Nations Convention Against Corruption (2003)",
+    "The General Data Protection Regulation (GDPR)",
+    "The Sarbanes-Oxley Act of 2002"
+   ],
+   "e": "The Sarbanes-Oxley Act of 2002 applies to publicly traded companies. The Federal Sentencing Guidelines also require such a system, but for companies convicted of criminal activity."
+  },
+  "investigations-1-q15": {
+   "q": "The investigative unit (IU) is planning a proactive operation to detect product diversion at a distribution center. What does the book require regarding the investigative plan?",
+   "o": [
+    "A detailed plan only if the estimated loss exceeds $10,000, the threshold for IU referral",
+    "No formal plan, because in a proactive operation the objective is usually obvious and stable",
+    "A detailed plan, approved by the IU manager or a higher authority",
+    "Only the case predication, since the detailed plan is meant for reactive cases"
+   ],
+   "e": "A detailed investigative plan is required in complex or non-routine investigations and in all proactive ones; it is coordinated with the relevant parties and approved by the IU manager or a higher authority. The $10,000 threshold belongs to the sample guideline for assigning incident cases, not to this requirement."
+  },
+  "investigations-1-q16": {
+   "q": "In a lengthy case, several interim reports are issued. What rule does the book set for their content?",
+   "o": [
+    "Each includes only what is new since the previous one, to avoid duplication in the case file",
+    "Each includes all the information of the previous one, so the latest contains everything known",
+    "Each summarizes activities that do not warrant a report, such as arranging witness appointments",
+    "Each is delivered only orally, and the final report puts everything known in writing"
+   ],
+   "e": "Each interim report includes all the information of the previous one: the reader does not have to go back to earlier ones, because the latest contains everything known to date. Activities that do not warrant an interim report are recorded on the case chronology form."
+  },
+  "investigations-1-q17": {
+   "q": "In the criminal intelligence cycle described in the book, which step is the heart of the process because it turns information and data into actionable intelligence?",
+   "o": [
+    "Integration/analysis",
+    "Collection",
+    "Requirements",
+    "Dissemination"
+   ],
+   "e": "Integration/analysis is the heart of the cycle: information is cross-checked and sorted, source credibility is assessed, and it is turned into actionable intelligence. Collection only gathers data from various sources to meet the requirements; it does not yet turn them into intelligence."
+  },
+  "investigations-1-q18": {
+   "q": "In an ongoing investigation of a ring that steals from warehouses, an analyst identifies links between suspects, detects key information gaps, and builds profiles of those involved. According to INTERPOL, what type of analysis is this?",
+   "o": [
+    "Strategic analysis",
+    "Trend analysis",
+    "Exploratory (informational) analysis",
+    "Operational or tactical analysis"
+   ],
+   "e": "Operational or tactical analysis supports a specific investigation: it identifies links between suspects, information gaps, and profiles, with an immediate benefit in the case. Strategic analysis addresses general threats or trends to inform high-level decision makers, with a long-term benefit."
+  },
+  "investigations-1-q19": {
+   "q": "Cover stories, backstopping, countersurveillance, and covert meet security are part of which concept?",
+   "o": [
+    "Operations security (OPSEC), understood as a five-step process",
+    "The dissemination controls applied to reports",
+    "The operational security of a specific operation",
+    "The collection step of the criminal intelligence cycle"
+   ],
+   "e": "Operational security is the total set of security and planning measures for the success of a specific operation and the safety of investigators, as in undercover or sting operations. OPSEC is something else: a systematic, five-step cyclical method for protecting critical information."
+  },
+  "investigations-1-q20": {
+   "q": "A joint task force is formed between a company and two public agencies. When applying operations security (OPSEC), what should they do FIRST?",
+   "o": [
+    "Identify potential adversaries and their collection capabilities and motives",
+    "Agree among all parties on what constitutes critical information",
+    "Assess direct and indirect vulnerabilities",
+    "Select and implement cost-effective countermeasures"
+   ],
+   "e": "The first OPSEC step is identifying the assets, that is, the critical information. In joint task forces this is done through a deliberate process at the outset, because each agency has different policies and criteria about what is sensitive. Defining the threat is the second step."
+  },
+  "investigations-1-q21": {
+   "q": "An investigator is following leads in a country where paying informants is almost mandatory practice. What should he do BEFORE offering any payment?",
+   "o": [
+    "Consult the organization's legal counsel",
+    "Pay according to local custom, so as not to offend",
+    "Ask the local police to pay on his behalf",
+    "Refuse to pay, because in other cultures it is an insult"
+   ],
+   "e": "The book notes that paying for information is an insult in some cultures and almost mandatory in others, and that legal counsel must be consulted before offering payments. Following local custom without that consultation ignores that the investigator must know and respect the laws too, not just the customs."
+  },
+  "investigations-1-q22": {
+   "q": "Using the book's sample guideline for incident investigations, who should handle an act of vandalism with estimated damage of $7,000?",
+   "o": [
+    "The senior security supervisor",
+    "The local police, directly and without an internal investigation",
+    "Human resources, in coordination with legal counsel",
+    "It is referred to the investigative unit (IU)"
+   ],
+   "e": "In the sample guideline, property damage or vandalism over $5,000 is referred to the IU; below $5,000 it is investigated by the senior security supervisor. Confusing it with the $10,000 threshold, which applies to theft and unknown loss, leads to choosing the supervisor."
+  },
+  "investigations-1-q23": {
+   "q": "After an incident in the lobby there are several witnesses: two employees who only heard the noise, a visitor flying home today, and the guard who wrote the incident report. Under the sample protocol, who should be given priority in the initial interviews?",
+   "o": [
+    "The guard, because his incident report opened the case",
+    "The employees, because they can be corroborated with records",
+    "The visitor, because he may not be available later",
+    "Whoever holds the highest rank, to avoid pressure on the others"
+   ],
+   "e": "The protocol gives priority to those directly involved or with perishable information and to those who may not be available later, such as visitors or employees about to travel. The security personnel who took part in the response are documented in a later step of the protocol."
+  },
+  "investigations-1-q24": {
+   "q": "In a misconduct investigation, why does the book recommend setting, at the outset, the expected sanction or outcome if the allegation is proven?",
+   "o": [
+    "So the subject knows the consequences in advance and feels encouraged to confess at the first interview",
+    "To avoid claims of discrimination or of fitting the sanction to whoever turns out to be involved",
+    "So the police can decide early whether to take the case or leave it to the company",
+    "To meet the reasonable time frame that federal guidelines allow for the internal investigation"
+   ],
+   "e": "Setting the sanction at the outset avoids accusations of discrimination and the appearance of changing it depending on what is found or who is implicated. Using it to pressure a confession would go against the book, which warns that promises or fabricated evidence can lead innocent people to confess."
+  },
+  "investigations-1-q25": {
+   "q": "According to the U.S. Sentencing Commission, which two factors mitigate an organization's penalty?",
+   "o": [
+    "An effective compliance and ethics program, and self-reporting, cooperation, or accepting responsibility",
+    "A consolidated hotline with professional operators, and full restitution to the victims",
+    "A code of conduct signed by every employee, and strict separation of duties throughout the finance area",
+    "An internal investigative unit, and the immediate dismissal of all employees involved in the case"
+   ],
+   "e": "The two factors are the existence of an effective compliance and ethics program, and self-reporting, cooperation, or acceptance of responsibility. The hotline and the code of conduct are elements of a good program, but the book does not cite them as mitigating factors in themselves."
+  },
+  "investigations-1-q26": {
+   "q": "A warehouse's shrinkage suddenly rises after the arrival of a new manager, a software change, and a new supplier. No specific crime has been reported. Which approach is MOST appropriate?",
+   "o": [
+    "A misconduct investigation focused on the newly arrived manager",
+    "A proactive operation with covert surveillance of warehouse staff",
+    "Referral of the case to the police because of the size of the inventory loss",
+    "An exploratory investigation using root cause analysis"
+   ],
+   "e": "An exploratory investigation seeks to answer why something is happening without examining a specific incident or crime, and root cause analysis fits because rising shrinkage may stem from a crime or from careless paperwork, software changes, turnover, or a new supplier. Focusing on the new manager assumes a guilt the facts do not yet indicate."
+  },
+  "investigations-1-q27": {
+   "q": "A computer forensics examiner receives the company server in an information leak case. What is MOST important for the examination to be effective?",
+   "o": [
+    "The examiner reviews every file without knowing the case, to preserve objectivity",
+    "The examiner works only in a laboratory, as in traditional forensic science",
+    "The investigator gives the examiner the case details and they work in coordination",
+    "The examiner delivers a report based solely on the scientific exam, without keywords"
+   ],
+   "e": "Unlike traditional forensics, which does not need case details, computer forensics must be guided by what the investigation uncovers: the examiner cannot review every file on a server in the time available. That is why the examination must be a coordinated effort, often supported by keyword lists."
+  },
+  "investigations-2-q0": {
+   "q": "According to the book, what BEST distinguishes an undercover investigation from other investigations?",
+   "o": [
+    "The operative hides his presence and observes without interacting, so as not to influence those investigated",
+    "The operative acts with the workforce's knowledge but hides which specific person is being investigated",
+    "The operative does not hide his presence; what is secret is his real identity or the investigation's purpose",
+    "The operative may only pose as an employee, never as a vendor or a customer of the company"
+   ],
+   "e": "In undercover work the operative does not hide his presence or try to go unnoticed: what is secret (sub-rosa) is his true identity or the purpose. It is also an interactive investigation, like interviewing, and the operative may pose as an employee, vendor, or customer."
+  },
+  "investigations-2-q1": {
+   "q": "Drug sales at work are suspected in a unionized plant. The manager proposes using a fully trusted employee who is a union member as the operative. What is MOST correct?",
+   "o": [
+    "Undercover may not be used at all, because a unionized workforce rules it out by law",
+    "Undercover may be used, but a current union member must not be used as the operative",
+    "It is the best option, because a trusted member easily goes unnoticed",
+    "The member may be used, provided the union approves the operation beforehand"
+   ],
+   "e": "A union does not by itself rule out undercover: operatives may be placed as long as they do not interfere with lawful, protected union activities. But the company must not use employees who are already union members as operatives."
+  },
+  "investigations-2-q2": {
+   "q": "Management is considering an undercover investigation of thefts in one department, but dozens of employees already know about the problem and are unlikely to keep it secret. Based on the considerations before approving an undercover investigation, which conclusion is MOST appropriate?",
+   "o": [
+    "Undercover is not recommended, because there is little chance of keeping it secret",
+    "The operation should be accelerated with a controlled hire before the matter leaks",
+    "The investigation should be announced to the workforce to avoid cover-up accusations",
+    "It can go ahead if the team excludes anyone who might be implicated"
+   ],
+   "e": "The first consideration in Figure 2.1 is whether undercover is feasible: if many people know about the problem and there is little chance of keeping it secret, it is not recommended. Excluding possible suspects from the team is another necessary consideration, but it does not solve the lack of confidentiality."
+  },
+  "investigations-2-q3": {
+   "q": "According to the planning and preparation phase, who are the minimum members of the undercover investigative team?",
+   "o": [
+    "The operative, the project manager, the client representative, the corporate attorney, and law enforcement if needed",
+    "Outside counsel, senior in-house attorneys, corporate security executives, and executives of the outside agency",
+    "The chief executive officer, the chief financial officer, the security director, and a representative of the affected plant's union",
+    "A corporate decision maker, a human resources representative, a corporate security professional, and a labor attorney"
+   ],
+   "e": "The minimum investigative team consists of a corporate decision maker, a human resources representative, a corporate security professional, and an attorney who knows state and local labor law. The five-role option describes the project management team, which oversees information gathering."
+  },
+  "investigations-2-q4": {
+   "q": "When hiring an undercover agency, what insurance should the client require?",
+   "o": [
+    "A certificate naming the client as additional insured, with claims-made coverage for the contract term",
+    "A claims-made policy in the agency's name, in force for the entire undercover operation",
+    "A certificate naming the client as additional insured, with occurrence-based coverage",
+    "An occurrence-based policy in the operative's name, without naming the client as additional insured"
+   ],
+   "e": "The client should require a certificate naming it as additional insured, with occurrence-based coverage, which protects regardless of when the claim is filed. Claims-made coverage protects only while the policy is in force."
+  },
+  "investigations-2-q5": {
+   "q": "Which way of placing the operative in the job does the book prefer, and what is its main drawback?",
+   "o": [
+    "The controlled hire, in which hiring is manipulated; it may raise suspicion in human resources",
+    "The cold hire, in which he applies like any candidate; it may be the least practical",
+    "The cold hire, in which he applies like any candidate; it requires disclosing the case to human resources",
+    "The controlled hire, in which hiring is manipulated; it requires more remedial training"
+   ],
+   "e": "The book prefers the cold hire: the operative applies for the job and is treated like any candidate, although it may be the least practical option. The book does not favor the controlled hire, which secretly manipulates the hiring process to place him in the desired job."
+  },
+  "investigations-2-q6": {
+   "q": "The plan calls for the operative to deal daily with the target group and share activities with them outside work. What does this mean for his cover story?",
+   "o": [
+    "It must be deeper, because the closer the relationship, the more detail it requires",
+    "It should be minimal, because an elaborate story increases the risk of contradictions",
+    "It should include documents with his real identity, in case he is stopped by police",
+    "It can be superficial if the operative enters the job through a controlled hire"
+   ],
+   "e": "The book's rule is that the closer the relationship with the target group, the deeper the cover story must be. Carrying documents with his real identity is ruled out: the operative never carries them on the assignment."
+  },
+  "investigations-2-q7": {
+   "q": "What is the PRIMARY reason for including the corporate attorney on the project management team of an undercover investigation?",
+   "o": [
+    "To be the contact point through which all information entering and leaving the organization flows",
+    "To approve every drug purchase made by the operative, as the authority with jurisdiction",
+    "To run the day-to-day administration of the case and supervise and motivate the operative",
+    "To protect the investigator's work product from discovery"
+   ],
+   "e": "The corporate attorney protects the investigator's work product from discovery; ideally he is also a labor law specialist and joins at the planning stage. Being the channel for all information is the client representative's role, and day-to-day administration belongs to the project manager."
+  },
+  "investigations-2-q8": {
+   "q": "Why does the book recommend that the operative's narrative reports be written in the third person (“the operative”) rather than the first?",
+   "o": [
+    "They hide the operative's identity if the report leaks, and keep the workforce from discovering the investigation",
+    "They sound more objective to a jury, and can be offered as evidence without the operative's signature",
+    "They can be edited without reauthentication, and the project manager can testify he did not alter them",
+    "They let the client forward them without editing, and avoid having to prepare the investigative summary later"
+   ],
+   "e": "The book's two reasons are practical: in the first person only the author could edit them and would have to reauthenticate them, and if the results are challenged the project manager can testify under oath that his report is not a doctored version. Hiding the operative's identity may seem logical, but the book does not give that reason."
+  },
+  "investigations-2-q9": {
+   "q": "The operative has been removed and the team begins employee interviews in the verification and analysis phase. In what order are they usually conducted after an undercover investigation?",
+   "o": [
+    "From the least involved to the most involved",
+    "From the most involved to the least involved",
+    "External witnesses first and employees last",
+    "Starting with the supervisors of the affected area"
+   ],
+   "e": "After an undercover investigation, interviews usually start with the most involved and move toward the least involved. In a general investigation it is the reverse: interviews move closer to the perpetrators over time."
+  },
+  "investigations-2-q10": {
+   "q": "After the interviews, the security director who ran the undercover investigation proposes deciding the terminations himself to close the case quickly. What is MOST correct according to the book?",
+   "o": [
+    "Hand the information to the client's decision makers, who decide discipline",
+    "Decide the terminations himself, since he knows the evidence of the case best",
+    "Refer the case to the prosecutor, who decides on employee discipline",
+    "Wait for the criminal process to end before taking any disciplinary action"
+   ],
+   "e": "In the disciplinary and corrective action phase, the security professional and the team only gather information; the client's decision makers decide on discipline. Waiting for the criminal process is not right either: the company decides terminations without depending on the criminal system."
+  },
+  "investigations-2-q11": {
+   "q": "An undercover investigation has gathered enough information and the interviews of the employees involved are approaching. What is the BEST way to handle the operative?",
+   "o": [
+    "Remove him just before the interviews, to protect him from possible retaliation by those involved",
+    "Remove him as soon as useful information starts to diminish, without explaining to the workforce",
+    "Introduce him to the workforce as an investigator at the end, to deter future offenders",
+    "Keep him in place, even interview him as a suspect, and remove him with a credible explanation"
+   ],
+   "e": "The book advises keeping the operative as long as possible: he can stay in place during the interviews, be interviewed as if he were a suspect, and leave with a credible explanation, for example when he is named as an offender and others are dismissed. Removing him before the interviews reveals that he was the informant."
+  },
+  "investigations-2-q12": {
+   "q": "In a drug undercover investigation, a coworker offers to sell drugs to the operative. To neutralize a possible entrapment defense, what should the operative document?",
+   "o": [
+    "That the purchase was the largest amount possible, to prove he is a major dealer",
+    "That the operative proposed the sale to him, to fix the exact date of the offense",
+    "That the dealer already sold before and has his own motive, ideally making money",
+    "That the purchase took place off premises and off duty, to keep the organization out of it"
+   ],
+   "e": "To neutralize entrapment, which is a criminal defense and not a crime, the operative “qualifies” the dealer: the conduct already existed or he had sold before, and he has his own motive, ideally money. Buying the largest possible amount contradicts the buy down, not up guideline, and purchases are made on company time."
+  },
+  "investigations-2-q13": {
+   "q": "In an undercover theft investigation, some coworkers invite the operative to join a plan to take merchandise out of the warehouse. What is MOST correct?",
+   "o": [
+    "He must always refuse, because an operative never takes part in a crime or invites anyone to commit one",
+    "He may take part, with an explicit purpose and prior approval from the project management team",
+    "He may take part freely, because the company is the victim and will not press charges against him",
+    "He should agree only if the police with jurisdiction set up a buy-bust at the end of the operation"
+   ],
+   "e": "In theft cases, unlike drug cases, the operative may take part in a plan to steal, as long as each action has an explicit purpose and prior approval from the project management team. The rule of never inviting another person to commit a crime belongs to the drug purchase guidelines."
+  },
+  "investigations-2-q14": {
+   "q": "According to the book, how do most experienced agencies bill for undercover work today?",
+   "o": [
+    "A weekly rate: 40 hours plus a minimum cover pay, covering all but out-of-pocket expenses",
+    "An hourly rate, with report writing, phone calls, travel, and overtime billed separately",
+    "A flat fee per closed case, plus a percentage of whatever the investigation manages to recover",
+    "A rate per operative level, based on years of experience and rank within the agency"
+   ],
+   "e": "Experienced firms bill weekly: 40 hours plus a minimum cover pay (the wage of the cover job), and include everything except out-of-pocket expenses and other special investigations. Hourly billing with separate charges is typical of less experienced agencies, and experienced clients know it sets up hidden charges."
+  },
+  "investigations-3-q0": {
+   "q": "According to the chapter, which BEST describes the relationship between due care and due diligence?",
+   "o": [
+    "Due diligence is the effort and steps that demonstrate that due care was exercised.",
+    "Due care is the documented effort that demonstrates that due diligence was done.",
+    "Due diligence is the failure to exercise due care in the face of a foreseeable risk.",
+    "Due care is the positive side of care, and due diligence is giving reasonable protection."
+   ],
+   "e": "Due care means giving reasonable protection; due diligence is the effort and steps that prove that due care existed. Failing to exercise due care is the definition of negligence, not of due diligence."
+  },
+  "investigations-3-q1": {
+   "q": "The Securities Act of 1933 gave the first common use of the term due diligence by creating the \"Due Diligence Defense.\" What protection did it give broker-dealers?",
+   "o": [
+    "They were not liable for undiscovered negatives if they had investigated and shared their findings.",
+    "They were not liable to investors if the other party had provided the information in writing.",
+    "They were exempt from disclosing material information to investors whenever the deal closed on friendly terms.",
+    "They could shift their liability to third parties if they had hired an outside accounting firm."
+   ],
+   "e": "The defense protected the broker-dealer that had investigated and shared its findings: it was not liable for negatives it had not discovered. Relying on what the other party provides, without investigating, is the opposite of due diligence."
+  },
+  "investigations-3-q2": {
+   "q": "In a friendly acquisition, the target company gives the buyer a complete package of financial statements, contracts, and references and asks to close quickly. What is the MOST important thing the due diligence lead should do with this information?",
+   "o": [
+    "Verify the data with primary sources, because what the target provides is often biased or incomplete.",
+    "Accept the package as a sufficient basis, because in a friendly deal the parties share information easily.",
+    "Ask the target for a signed statement guaranteeing that the information is complete and accurate.",
+    "Limit the review to the financial statements, because that is where a fraud would cause the most damage."
+   ],
+   "e": "A common mistake is to rely only on the target's information, which is often biased (sometimes unintentionally) or incomplete, and which will present the most favorable version if the target wants to close. A friendly deal makes data easier to obtain, but it does not remove the need to verify it with primary sources."
+  },
+  "investigations-3-q3": {
+   "q": "A security director is tasked with conducting due diligence on a potential joint venture partner. What should the director do FIRST?",
+   "o": [
+    "Examine the matter and understand which specific factors the investigation should focus on.",
+    "Search federal criminal and civil records on the partner's officers and managers.",
+    "Hire an outside investigative firm after checking its references and sample report.",
+    "Interview the partner's officers to obtain firsthand information about the company."
+   ],
+   "e": "The first step in any due diligence is to examine the matter (the deal, the person, the investment) and understand which factors to look at; an investigator who does not understand the object of the investigation will not ask the right questions. Searching records, interviewing, or outsourcing come later, once the strategy is defined."
+  },
+  "investigations-3-q4": {
+   "q": "Which of the following is a primary source in a due diligence investigation?",
+   "o": [
+    "Direct observation of the target's facilities and activities.",
+    "Annual reports and other documents published by the company itself.",
+    "Government public records on the company's incorporation.",
+    "Social media intelligence on the company's officers and managers."
+   ],
+   "e": "Primary sources are interviews and direct observation of people, places, or events. Annual reports, government records, and social media intelligence are secondary sources, even though government records are usually impartial."
+  },
+  "investigations-3-q5": {
+   "q": "Before buying a hotel chain, the due diligence team asks the target for its internal policies, incident response plans, and list of known data breaches. Which area of due diligence is the team applying?",
+   "o": [
+    "Cyber and data security due diligence",
+    "Online and social media due diligence",
+    "Market entry planning focused on intellectual property",
+    "Internal review of policy alignment with organizational goals"
+   ],
+   "e": "Cyber and data security due diligence asks the target about its policies, protocols, security measures, incident response plans, and known breaches, to reduce the risk of hidden vulnerabilities (the lesson of the Marriott-Starwood case). Online and social media due diligence instead investigates the public open-source footprint; the book says the two must be treated separately."
+  },
+  "investigations-3-q6": {
+   "q": "During due diligence on a prospective vendor, the investigator finds it almost impossible to obtain the vendor's financial statements. What is the BEST way to interpret this gap?",
+   "o": [
+    "It is information in itself: the company may have reasons to hide them, such as covering up fraud.",
+    "It is irrelevant to the decision, because due diligence does not need to review every piece of data.",
+    "It is only a scope limitation to be noted in the report, without drawing any conclusions from it.",
+    "It should be replaced with a credit report, which by itself is enough to assess the company's finances."
+   ],
+   "e": "The book stresses that missing information also counts: if the financial statements are almost impossible to obtain, the company may have reasons to hide them, such as fraud. Due diligence does not review every piece of data, but that does not make such a significant gap irrelevant; and a credit report by itself is not a good source."
+  },
+  "investigations-3-q7": {
+   "q": "When writing the due diligence report, the investigator must record that court records in one country could not be accessed. According to the seven elements of the report, where should this limitation be stated?",
+   "o": [
+    "In the legal disclaimer",
+    "In the scope of work",
+    "In the general methodology",
+    "In the conclusion"
+   ],
+   "e": "The seventh element of the report is the legal disclaimer, which includes any limits the investigation had. The scope of work and the methodology are other elements of the report, but the book assigns the investigation's limits to the legal disclaimer."
+  },
+  "investigations-4-q0": {
+   "q": "Which BEST distinguishes a background check from a background investigation?",
+   "o": [
+    "A check confirms what the candidate provides; an investigation actively seeks what they might hide.",
+    "A check includes drug and psychological tests; an investigation is limited to reviewing public records.",
+    "A check is done by HR over the phone; an investigation is always done by an outside reporting agency.",
+    "A check reviews criminal records; an investigation verifies the declared education and work history."
+   ],
+   "e": "A background check is confirmatory: it verifies what the candidate provides, such as education and work history. A background investigation actively searches, with new references and criminal records, to uncover what the candidate might hide. Tests belong to preemployment screening, which can include all of the above plus tests."
+  },
+  "investigations-4-q1": {
+   "q": "A U.S. employer expects to reject a candidate based in part on a third-party background report (a consumer report). Under the Fair Credit Reporting Act (FCRA), what must the employer do FIRST?",
+   "o": [
+    "Send a pre-adverse notice with a copy of the report and the FCRA Summary of Rights.",
+    "Send the adverse decision letter explaining the reason for the rejection.",
+    "Request a new written authorization to reinvestigate the negative findings.",
+    "Call the candidate to an interview to explain the findings before consulting an attorney."
+   ],
+   "e": "The FCRA requires first a pre-adverse notice with a copy of the report and the Summary of Rights, then a reasonable period for the candidate to review it and dispute anything inaccurate, and only then the adverse decision letter. Sending the adverse decision letter directly skips the first two steps."
+  },
+  "investigations-4-q2": {
+   "q": "When designing a cost-efficient preemployment screening policy, how should its components be sequenced?",
+   "o": [
+    "The most expensive components are applied last, to those who pass the earlier filters.",
+    "The most expensive components are applied first, to weed out unqualified candidates early.",
+    "All components are applied at the same time, to shorten the hiring timeline.",
+    "The components are applied after the job is offered, to avoid overinvestigating."
+   ],
+   "e": "The book calls for a cost-efficient policy in which the most expensive components are applied last, with the deepest screening concentrated in the final selection phase. In addition, screening must be done and evaluated before the position is offered, not after."
+  },
+  "investigations-4-q3": {
+   "q": "A company checks the credit history of all accountant applicants but of no cafeteria worker applicants. How should the security manager assess this practice?",
+   "o": [
+    "It is valid, if the level suits the position and is applied equally across the classification.",
+    "It is improper, because every candidate must undergo exactly the same checks regardless of the job.",
+    "It is valid only if legal counsel separately approves each individual credit check.",
+    "It is improper, because credit history is never a relevant factor in any hiring decision."
+   ],
+   "e": "Step 3 of the comprehensive policy allows different levels by position if they are appropriate and applied equally to everyone in the job classification; the book uses this very example. What must be consistent is the measure within each classification, not identical checks for all positions."
+  },
+  "investigations-4-q4": {
+   "q": "Under the comprehensive preemployment screening policy, what standard of proof is needed to decide not to hire a candidate because of a negative finding?",
+   "o": [
+    "Good faith",
+    "Preponderance of the evidence",
+    "A final criminal conviction related to the position",
+    "Proof beyond a reasonable doubt"
+   ],
+   "e": "Step 5 of the policy sets the criteria for evaluating information and states that the standard of proof for not hiring is good faith. Requiring a final conviction or a higher judicial standard is not what the book calls for; moreover, a conviction does not automatically disqualify."
+  },
+  "investigations-4-q5": {
+   "q": "While reviewing an application, the investigator sees an unexplained six-week gap between two jobs. What should the investigator do?",
+   "o": [
+    "Investigate it, because any gap of more than one month in employment or in life is investigated.",
+    "Ignore it, because only gaps of more than six months are considered red flags.",
+    "Reject the candidate, because an unexplained gap is a proven material misrepresentation.",
+    "Note it only if the Social Security number also fails to match the area of issue."
+   ],
+   "e": "Among the eight red flags of the early application review are employment gaps: any gap of more than a month in employment or in life is investigated. A gap is a reason to investigate, but on its own it does not prove a misrepresentation that justifies rejecting the candidate."
+  },
+  "investigations-4-q6": {
+   "q": "A U.S. company's policy prohibits hiring anyone convicted of a felony, with no exceptions. What is the GREATEST problem with this policy?",
+   "o": [
+    "It violates the EEOC requirement for an individualized assessment of each felony conviction.",
+    "It violates the FCRA, because criminal convictions are not considered public records in the U.S.",
+    "There is none, as long as it is applied equally to all candidates in the same classification.",
+    "There is none, as long as the criminal record question is asked after a conditional offer."
+   ],
+   "e": "The Equal Employment Opportunity Commission (EEOC) has prosecuted employers with blanket bans on hiring people convicted of felonies, because they violate its requirement to assess each conviction individually. Applying the ban uniformly or asking only after a conditional offer (Ban-the-Box) does not fix that problem."
+  },
+  "investigations-4-q7": {
+   "q": "A test asks the candidate to rate traits such as reliability and respect for authority, without asking about specific dishonest acts. What type of test is it?",
+   "o": [
+    "A personality-oriented (indirect) integrity test",
+    "An overt (direct) integrity test",
+    "A personality test to assess fit with the position",
+    "A biographical questionnaire with open-ended questions"
+   ],
+   "e": "Integrity or honesty tests come in two types: overt tests ask explicitly about past dishonest acts, and personality-oriented tests measure traits such as reliability and respect for authority. A personality test measures basic traits such as attitudes or emotional stability to see fit with the position, not the tendency toward undesirable behaviors."
+  },
+  "investigations-4-q8": {
+   "q": "The investigation reveals that a candidate omitted from the application a job from which he was fired. The application states that material omissions and misstatements are grounds for ending the process. What is the main advantage of that statement?",
+   "o": [
+    "It allows the process to end for the candidate's dishonesty, not only for the negative data.",
+    "It exempts the employer from having to disclose the report's negative findings to the candidate.",
+    "It replaces the written authorization the FCRA requires for using an outside service.",
+    "It turns the omitted dismissal into a record that automatically disqualifies the candidate."
+   ],
+   "e": "If the application states that material omissions and misstatements are grounds for ending the process, the company can rely on the candidate's dishonesty and not only on the negative finding. It does not remove the U.S. obligation to communicate negative findings and let the candidate correct false or misattributed data."
+  },
+  "investigations-4-q9": {
+   "q": "In the Paul Calden case, Allstate only confirmed dates of employment and withheld the violent behavior it knew about; Calden later killed three Fireman's Fund executives. What type of lawsuit did this case give rise to for the first time?",
+   "o": [
+    "Negligent referral",
+    "Negligent hiring",
+    "Discrimination based on disparate impact",
+    "A class action for FCRA violations"
+   ],
+   "e": "Allstate did not tell Fireman's Fund what it knew about Calden, and this gave rise to the first lawsuit for negligent referral, which targets the party giving the reference. Negligent hiring concerns the liability of the party that hires, not of the former employer that withholds information when giving references."
+  },
+  "investigations-5-q0": {
+   "q": "According to Figure 5.1, which set of characteristics belongs to the confrontational interview rather than the general interview?",
+   "o": [
+    "Accusatory, monologue, controlled setting, extensive planning",
+    "Nonaccusatory, dialogue, variable setting, and some planning",
+    "Accusatory, dialogue, unstructured, and note taking is acceptable",
+    "Nonaccusatory, monologue, structured, and absolute privacy"
+   ],
+   "e": "Figure 5.1 describes the confrontational interview as accusatory, a monologue, in a controlled setting, structured, with absolute privacy and extensive planning, and note taking inhibits it. Dialogue, a variable setting, an unstructured format, and acceptable note taking are features of the general interview."
+  },
+  "investigations-5-q1": {
+   "q": "During an interview, the investigator suggests to the subject that the company underpaid him and that anyone in his situation would have done the same. Which side of the theft triangle is the investigator working on to facilitate a confession?",
+   "o": [
+    "Rationalization",
+    "Need or want (desire)",
+    "Opportunity",
+    "Ability"
+   ],
+   "e": "The key to confession is for the interviewer to help the subject build a socially acceptable rationalization of what he did; blaming low pay or circumstances serves that purpose. Need or want means the person needs or wants the item, and opportunity means having access to it."
+  },
+  "investigations-5-q2": {
+   "q": "When preparing for an interview, what is the MOST critical preliminary action?",
+   "o": [
+    "Thoroughly know the case information: who, what, and under what conditions.",
+    "Choose a room with a straight chair without wheels.",
+    "Test the audio and video recording equipment.",
+    "Discuss the interview strategy with legal counsel."
+   ],
+   "e": "The book states that the most critical preliminary action is to know the case information thoroughly: who will be interviewed, what the interview is about, and under what conditions it will be held. The room, the equipment, and the legal consultation are part of preparation, but they are not the most critical."
+  },
+  "investigations-5-q3": {
+   "q": "An investigator must interview four people about a warehouse shortage: the main suspect, a supervisor with the most pertinent information, an employee who will be transferred to another country next week, and a coworker who is likely to be hostile. Whom should the investigator interview FIRST?",
+   "o": [
+    "The employee who will be transferred",
+    "The supervisor with the most pertinent information",
+    "The coworker who is likely to be hostile",
+    "The main suspect"
+   ],
+   "e": "The questioning order is: first those who probably will not be available later, then those with the most pertinent information, then likely hostile witnesses, and the perpetrator last. The supervisor is the tempting choice, but comes second because the transferred employee may not be available later."
+  },
+  "investigations-5-q4": {
+   "q": "Which of these room arrangements is MOST appropriate for interviewing a subject?",
+   "o": [
+    "A straight chair without wheels, no desk in between, about 5 feet apart, and a clear exit.",
+    "A comfortable armchair so the subject relaxes, facing a window, with the interviewer by the door.",
+    "A desk between them to signal formality, a chair with wheels, and the witness behind the subject.",
+    "The subject's own office so they feel at ease, with the interviewer between them and the only exit."
+   ],
+   "e": "The book calls for a straight, padded chair without wheels, no interviewing across a desk or table, about 5 feet of distance in general, and a clear path to the exit for the subject at all times, to avoid accusations of duress or false imprisonment. The subject's office is not ideal because of its photos and mementos, and blocking the exit invites those accusations."
+  },
+  "investigations-5-q5": {
+   "q": "An investigator wants to video record an interview without the interviewee's knowledge. According to the chapter, what is critical to do?",
+   "o": [
+    "Consult the attorney before making any covert recording.",
+    "Record and keep the file only if the interviewee confesses.",
+    "Ask for consent once the interview is over.",
+    "Inform the interviewee only if the recording goes to trial."
+   ],
+   "e": "To record without the interviewee's knowledge, it is critical to consult the attorney first; recording and assuming no one will find out is bad practice. Ideally the interviewee consents and the recording is done openly, and if there is no consent and discreet recording is not possible, notes are taken."
+  },
+  "investigations-5-q6": {
+   "q": "A security officer has just spent several hours trapped during an incident and is physically exhausted, but is the only direct witness. What should the investigator do?",
+   "o": [
+    "Interview the officer briefly on the crucial points and then let the officer rest.",
+    "Conduct a full interview immediately, before the details are forgotten.",
+    "Postpone all questioning until the officer has fully recovered.",
+    "Conduct a long interview so that fatigue lowers the officer's defenses."
+   ],
+   "e": "After a physically exhausting situation, the book calls for interviewing briefly on the crucial points and then letting the interviewee rest. Although interviews should generally be held as soon as possible, a long interview of a weakened person can later be used by that person's attorney to have the statement thrown out."
+  },
+  "investigations-5-q7": {
+   "q": "An employee is asked whether he stole money from the safe. Which answer is MOST typical of a truthful person?",
+   "o": [
+    "\"I didn't steal that $12,000 or whatever; not a penny.\"",
+    "\"I didn't take that $12,437.18.\"",
+    "\"I swear to God I didn't do it.\"",
+    "\"If I remember correctly, at this moment I have nothing to do with it.\""
+   ],
+   "e": "The truthful person denies in a general and broad way; the deceptive person denies in a very specific way, such as citing the exact amount. Religious oaths and phrases such as \"if I remember correctly\" (the sophisticated liar's protective verbal layer) also suggest deception."
+  },
+  "investigations-5-q8": {
+   "q": "When answering a single question, a subject crosses his arms; for the rest of the interview his behavior is calm and consistent. What is the BEST interpretation?",
+   "o": [
+    "It is not conclusive: assess the overall pattern, the timing, and his normal behavior.",
+    "It is a supportive gesture indicating deception that justifies a confrontational interview.",
+    "It is a displacement behavior confirming that this specific answer was false.",
+    "It is irrelevant, because only verbal behavior is useful for assessing truthfulness."
+   ],
+   "e": "No isolated word or behavior automatically means that someone is lying: the evaluation is based on the overall pattern, on timing and consistency, and on comparison with the subject's normal behavior. Crossing the arms is a supportive gesture, but it is a strong indication only when repeatedly combined with the verbal responses."
+  },
+  "investigations-5-q9": {
+   "q": "In a Behavior Analysis Interview (BAI) about a credit card theft, the subject is asked: \"Is there anyone you work with who is above suspicion?\" The subject immediately answers that he cannot vouch for anyone. How is this interpreted?",
+   "o": [
+    "A deceptive response to the vouch question: it avoids narrowing the list of possible suspects.",
+    "A truthful response to the vouch question: the subject does not want to accuse coworkers.",
+    "A deceptive response to the knowledge question: an unemotional denial of knowing who did it.",
+    "A truthful response to the suspicion question: the subject thinks before naming anyone."
+   ],
+   "e": "On the vouch (or trust) question, the truthful person thinks about it and usually rules out possible suspects; the deceptive person vouches for no one, so as not to shrink the list of suspects or increase his own risk. The knowledge question is different: it asks whether he knows for certain who stole, not whether anyone is above suspicion."
+  },
+  "investigations-5-q10": {
+   "q": "In step 7 of the Reid method, the alternative question, which of these questions is CORRECTLY worded?",
+   "o": [
+    "\"Did you plan it ahead of time or did it happen suddenly?\"",
+    "\"Did you do it or not?\"",
+    "\"Tell me everything that happened that day.\"",
+    "\"Do you know for certain who took the money?\""
+   ],
+   "e": "The alternative question offers two incriminating options derived from the theme, assuming guilt; accepting either one is the first admission. Asking \"did you do it or not?\" invites denial, and \"tell me everything\" is premature even in step 8."
+  },
+  "investigations-5-q11": {
+   "q": "According to the Reid Nine Steps of Interrogation, which step does the innocent person never get past?",
+   "o": [
+    "Handling denials (step 3)",
+    "Overcoming objections (step 4)",
+    "Handling the passive mood (step 6)",
+    "Theme development (step 2)"
+   ],
+   "e": "The innocent person maintains innocence immediately, without asking permission to speak, and never gets past the handling denials stage: he stays firm. The objections of step 4 are typical of the guilty person, who moves from defense to attack."
+  },
+  "investigations-5-q12": {
+   "q": "Which suspect interviewing technique was created for UK police with the aim of reducing false confessions?",
+   "o": [
+    "The PEACE model",
+    "The WZ Non-Confrontational Method",
+    "The kinesic interview",
+    "The Reid Nine Steps"
+   ],
+   "e": "The PEACE model (Preparation and Planning, Engage and Explain, Account, Closure, Evaluate) was created for UK police and seeks to reduce false confessions, focusing on fairness, openness, and fact-finding. The WZ method is a conversational alternative that reduces denials and objections, but it comes from Wicklander-Zulawski & Associates."
+  },
+  "investigations-5-q13": {
+   "q": "During an interview, the subject asks what will happen to him if he cooperates. What is the investigator's MOST appropriate response?",
+   "o": [
+    "Explain that the outcome cannot be guaranteed, because the role is to gather facts.",
+    "Assure the subject that cooperating will lead to a more favorable outcome with the company.",
+    "Promise the subject that there will be no criminal action if he signs a written statement.",
+    "Tell the subject the outcome will depend on confessing before the session ends."
+   ],
+   "e": "If the interviewee asks for an opinion about the outcome, the investigator cannot and must not guarantee it: the investigator's role is to gather facts. Saying that cooperating will lead to a more favorable outcome will probably invalidate any confession, and promises that cannot be fulfilled or confirmed must be avoided."
+  },
+  "investigations-6-q0": {
+   "q": "A corporate investigations unit is collecting evidence in an internal theft case that, by all indications, will end only in disciplinary action. To what standard should it handle the evidence?",
+   "o": [
+    "To the standard of criminal and civil trials, to preserve that option and lend credibility to the discipline.",
+    "To the company's internal standard, because no litigation is expected.",
+    "To a simplified standard, raising it only if the case is referred to the police.",
+    "To the universal evidence-handling standard that all jurisdictions apply."
+   ],
+   "e": "The chapter's golden rule is to handle evidence to the criminal and civil standard even if it is not headed to litigation: this preserves that option and lends credibility to any administrative or disciplinary action. The book also makes clear that there is no universal evidence-handling standard."
+  },
+  "investigations-6-q1": {
+   "q": "A witness was around the corner: he heard braking and a crash, ran over, saw the traffic light change from red to green, and inferred that a driver had run the red light. How does the book classify this evidence?",
+   "o": [
+    "Indirect, circumstantial evidence",
+    "Direct, real and material evidence",
+    "Indirect, hearsay evidence",
+    "Direct, because the witness saw the light with his own eyes"
+   ],
+   "e": "Direct evidence is firsthand knowledge, like that of a witness who sees the driver run the red light and crash. Here the witness infers the fact from a series of events, which the book calls indirect circumstantial evidence; having seen the light is not enough, because he did not see the violation."
+  },
+  "investigations-6-q2": {
+   "q": "During a robbery at a warehouse, an employee spontaneously shouts: \"It's the maintenance guy, he has a knife!\" Another employee hears it and later testifies to it. Which exception to the hearsay rule could allow that exclamation to be admitted?",
+   "o": [
+    "Res gestae",
+    "Dying declaration",
+    "Statement against self-interest",
+    "Materiality"
+   ],
+   "e": "Res gestae covers what is said naturally, spontaneously, and without reflection during an event, including exclamations so spontaneous that they belie concoction; that is why courts give it great credibility. A dying declaration requires a dying person, and materiality is not an exception but the rule that measures how much a piece of evidence matters."
+  },
+  "investigations-6-q3": {
+   "q": "In a union environment, the employer's investigator interviews several employees about a theft. In which of these situations may the investigator ask them to maintain confidentiality?",
+   "o": [
+    "When there is a risk that evidence will be destroyed",
+    "When the case involves a large financial loss for the company",
+    "When the union is not present at the interview",
+    "When the interviewee is an area supervisor"
+   ],
+   "e": "In a union environment, the investigator must not require confidentiality except in four cases: when witnesses need protection, when evidence is in danger of being destroyed, when testimony is in danger of being fabricated, or when a cover up must be prevented. The size of the loss or the interviewee's position are not among those exceptions."
+  },
+  "investigations-6-q4": {
+   "q": "To persuade a reluctant witness, a security investigator offers a gift card if the witness signs a statement. What is the GREATEST risk of this practice?",
+   "o": [
+    "If discovered, the statement is voided and the investigator may be charged with witness tampering.",
+    "The statement remains admissible, although the jury will give it less weight.",
+    "The statement becomes hearsay and can only be used as a lead.",
+    "The statement is valid only if the payment is documented in the chain of custody."
+   ],
+   "e": "The book prohibits promising or offering rewards in exchange for a statement: if discovered, the statement is voided and the investigator may be charged with witness tampering. It is not a matter of the statement losing weight with the jury: it loses its validity."
+  },
+  "investigations-6-q5": {
+   "q": "A forger signs a check in another person's name using his own normal handwriting, without trying to imitate the genuine signature. What type of false signature is this?",
+   "o": [
+    "Freehand",
+    "Simulated",
+    "Traced",
+    "Undictated"
+   ],
+   "e": "In a freehand signature, the forger writes in his normal handwriting without trying to imitate the other person's style. A simulated signature copies or draws a genuine signature, and a traced one uses a genuine signature as a template; \"undictated\" describes a type of exemplar, not a false signature."
+  },
+  "investigations-6-q6": {
+   "q": "An investigator is about to take handwriting exemplars from a person of interest to compare with an anonymous threatening letter. Which practice is correct?",
+   "o": [
+    "Dictate the text without guidance on spelling or punctuation, each sample on its own sheet.",
+    "Show the questioned letter so the person copies the same text as faithfully as possible.",
+    "Ask for a single careful sample, to avoid fatigue and obtain the person's best handwriting.",
+    "Let the person see earlier samples so that the writing style stays consistent."
+   ],
+   "e": "When taking exemplars, instructions are given about the text but not about spelling, punctuation, or layout, and each sample goes on a separate sheet. The writer must not see the questioned writing or earlier samples, and many repetitions are requested until normal handwriting emerges."
+  },
+  "investigations-6-q7": {
+   "q": "At the scene of a robbery, a credit card receipt is found that may help identify and locate the suspect. Which category of physical evidence does it BEST fit?",
+   "o": [
+    "Tracing evidence",
+    "Trace evidence",
+    "Corpus delicti",
+    "Impression evidence"
+   ],
+   "e": "Tracing evidence helps identify and locate the suspect, such as a credit card receipt or a clothing label. It must not be confused with trace evidence: traces such as fibers, paint, or glass examined by the laboratory's criminalistics section."
+  },
+  "investigations-6-q8": {
+   "q": "How does the book define the chain of custody?",
+   "o": [
+    "The unbroken control of the evidence",
+    "The photographic record of the evidence at the scene",
+    "The legal authorization to seize the evidence",
+    "The document that releases the scene to another party"
+   ],
+   "e": "The chain of custody is the unbroken control of the evidence; it is maintained by marking the evidence with the investigator's initials when collected, limiting who handles it, and documenting each transfer. A clearly demonstrated chain is one of the three requirements for presenting physical evidence at trial, along with correct identification and relevance."
+  },
+  "investigations-6-q9": {
+   "q": "The search team has already secured and protected the scene and conducted the preliminary survey. According to the book's order of tasks, what comes next?",
+   "o": [
+    "Evaluate evidence possibilities",
+    "Produce a narrative",
+    "Photography",
+    "Physical evidence collection"
+   ],
+   "e": "The order is: secure and protect the scene, preliminary survey, evaluate evidence possibilities, narrative, photography, sketches, physical evidence collection, final survey, and release. The narrative comes right after evaluating the possibilities, and in general no evidence is collected during it."
+  },
+  "investigations-6-q10": {
+   "q": "At an outdoor scene there are shoeprints in the mud, rain is forecast within an hour, and a locked shed holds tools that may have been used. According to the book, what should the team address FIRST?",
+   "o": [
+    "The shoeprints, because evidence that can be lost is addressed before less transient evidence.",
+    "The tools in the shed, because hidden objects are usually the most valuable evidence.",
+    "Neither until the full narrative is finished, because no evidence is collected during it.",
+    "The tools, because hidden areas are searched first and accessible areas afterward."
+   ],
+   "e": "When evaluating evidence possibilities, the book calls for addressing evidence that can be lost first and leaving the least transient for last; in addition, accessible areas are searched first and hidden areas afterward. Shoeprints in the mud, with rain imminent, are transient evidence."
+  },
+  "investigations-6-q11": {
+   "q": "An investigator is about to photograph a knife found at the scene before collecting it. Which sequence BEST follows the book's guidelines?",
+   "o": [
+    "A medium shot showing its position; then a close-up filling the frame, first without and then with a scale.",
+    "A close-up with a scale filling the frame; then collect it and photograph it again at the lab.",
+    "Only a close-up with a scale, because the medium view adds nothing useful for examination.",
+    "Collect it so it is not lost, then photograph the spot where it lay, with a scale."
+   ],
+   "e": "Evidence is photographed before it is collected. Important evidence is photographed twice: at medium range, showing its position relative to other evidence, and close up, with a scale and filling the frame; every examination photo is taken first without a scale and then with one."
+  },
+  "investigations-6-q12": {
+   "q": "After the final survey, the scene supervisor wants to release the scene to the facility manager. According to the book, who may release it?",
+   "o": [
+    "Only the person in charge, once everyone is sure the search was complete",
+    "The scene supervisor, because he coordinates the team's materials, personnel, and safety",
+    "The evidence recorder, because he acts as the custodian of the evidence",
+    "Any team member, as long as he signs the release document"
+   ],
+   "e": "Only the person in charge may release the scene, and only when all personnel are sure the search was correct and complete. The release document states the time and date, to whom the scene was released, and who released it."
+  },
+  "investigations-6-q13": {
+   "q": "An investigator must ship several items of evidence collected at a scene to a private laboratory. What should the investigator do FIRST?",
+   "o": [
+    "Call the lab to request specific packaging and shipping instructions.",
+    "Wrap and seal each item separately to prevent cross-contamination.",
+    "Seal the inner container with tamper-evident tape.",
+    "Place a copy of the examination request in an envelope apart from the evidence."
+   ],
+   "e": "The first step in shipping evidence is to call the lab and request specific instructions before packaging and shipping. Wrapping each item separately, sealing with tamper-evident tape, and including the examination request are later steps in the same procedure."
+  },
+  "investigations-6-q14": {
+   "q": "A security officer finds a handgun at a scene before the police arrive. Which practice is correct?",
+   "o": [
+    "Handle it as little as possible and never insert any object into the barrel.",
+    "Lift it by inserting a pen into the barrel so as to avoid leaving any fingerprints.",
+    "Clean its exterior before packaging it to protect the rifling marks.",
+    "Leave it loaded so the lab can see the condition in which it was found."
+   ],
+   "e": "The book calls for handling firearms as little as possible and never inserting anything into the barrel, the chamber, or other working surfaces. Weapons must also be confirmed unloaded before examination; inserting a pen into the barrel destroys evidence."
+  },
+  "investigations-6-q15": {
+   "q": "A shirt with bloodstains that are still wet is collected. How should it be prepared for shipping?",
+   "o": [
+    "Air-dry it, preserving the stain pattern, and wrap it in clean paper.",
+    "Place it wet in an airtight plastic bag to prevent any contamination in transit.",
+    "Freeze it and ship it with dry ice to slow its decomposition.",
+    "Cut out the stains and discard the rest to reduce shipping volume."
+   ],
+   "e": "Bloodstained clothing is air-dried, taking care to preserve the stain pattern, and wrapped in clean paper; the book insists on not using plastic. Dry ice is for tissues, bones, and teeth, not for clothing."
+  },
+  "investigations-6-q16": {
+   "q": "According to the book's packaging guidelines, which biological sample is the only one stored in a clean, airtight plastic container without formalin?",
+   "o": [
+    "Tissues",
+    "Hair",
+    "Buccal swabs",
+    "Cigarette butts"
+   ],
+   "e": "Tissues are the only biological sample that goes in plastic: in a clean, airtight container without formalin, frozen and shipped with dry ice. Hair, buccal swabs, and cigarette butts go in clean paper or an envelope with sealed corners, never in plastic."
+  },
+  "investigations-6-q17": {
+   "q": "After seizing a workstation with a monitor, keyboard, printer, and external drives, what should generally be shipped to the lab?",
+   "o": [
+    "Only the central processing unit and the internal and external storage media",
+    "All the equipment, including peripherals, to recreate the original environment",
+    "Only a copy of the files, so as not to put the original equipment at risk",
+    "Only the external drives, because the central unit may be altered in transit"
+   ],
+   "e": "In general, only the central processing units and the internal and external storage media are shipped. Appendix 6B calls for seizing the peripherals as well, but what is seized and what is sent to the lab are two different things."
+  },
+  "investigations-6-q18": {
+   "q": "A shoeprint in soil must be cast because the evidence itself cannot be shipped. Which procedure is correct?",
+   "o": [
+    "Use dental stone, pour it beside the impression, and let it flow in on its own.",
+    "Use plaster of Paris and pour it directly onto the impression so it captures the detail.",
+    "Use dental stone and, after 20 minutes, pack the cast in a plastic bag.",
+    "Use molding plaster and clean the cast at the scene before sending it to the lab."
+   ],
+   "e": "Dental stone is used, because plaster of Paris and molding plasters are not hard enough; it is poured beside the impression so it flows in, since pouring it on top destroys the detail. The cast is left to air-dry for at least 48 hours, packed in paper, and cleaned only by a laboratory examiner."
+  },
+  "investigations-6-q19": {
+   "q": "In a suspected drug-facilitated assault, which sample must the biological evidence include, and within what maximum time frame?",
+   "o": [
+    "Urine, collected as soon as possible and no later than 96 hours after",
+    "Blood, collected as soon as possible and no later than 24 hours after",
+    "Urine, collected within the following 24 hours",
+    "Hair, collected within the following 96 hours"
+   ],
+   "e": "In drug-facilitated assaults, the biological evidence must include a urine sample, collected as soon as possible and never more than 96 hours after the alleged drugging. The lab should be called beforehand so that the correct amount of sample is sent."
+  },
+  "investigations-6-q20": {
+   "q": "The investigator must develop latent fingerprints at the scene because the object cannot be taken to the lab. What should the investigator do FIRST?",
+   "o": [
+    "Photograph the prints before any treatment.",
+    "Apply a chemical developer and photograph the result.",
+    "Lift them with tape and transfer them to a white card.",
+    "Clean the surrounding surface to improve contrast."
+   ],
+   "e": "To protect latent prints at the scene, the book calls for photographing them before any treatment and examining the evidence visually and with a laser or alternate light source before using any other method. Developing or lifting them first can destroy them."
+  },
+  "investigations-6-q21": {
+   "q": "What concept is the OSHA bloodborne pathogens standard, 29 CFR 1910.1030, based on?",
+   "o": [
+    "Universal precautions: treating all blood and body fluids as infected",
+    "A hazard-risk assessment performed case by case by qualified personnel",
+    "Engineering controls instead of protective equipment",
+    "An entry permit issued by trained personnel before acting"
+   ],
+   "e": "The 29 CFR 1910.1030 standard is based on universal precautions: all blood, body fluids, and other potentially infectious materials are treated as if infected. Engineering controls complement those measures, and the entry permit belongs to confined spaces."
+  },
+  "investigations-6-q22": {
+   "q": "A technician collecting evidence inside a tank collapses. The security officer posted outside as the attendant is not part of the designated rescue team. What should the attendant do?",
+   "o": [
+    "Not enter to rescue, keep communication going, and call on the designated rescue team.",
+    "Enter immediately to pull the technician out, because every minute without oxygen counts.",
+    "Enter wearing a full-body harness to pull the technician out quickly.",
+    "Turn off the ventilation to avoid stirring up contaminants and go in to check."
+   ],
+   "e": "In a confined space, a rescue is never attempted unless one is part of the designated rescue team, which must be available immediately. Entering, even with a harness, exposes the attendant to the same hazards, such as toxic gases or lack of oxygen."
+  },
+  "investigations-6-q23": {
+   "q": "Which type of chemical ignites spontaneously in air below 130 degrees F (54 degrees C), without needing an ignition source?",
+   "o": [
+    "Pyrophoric",
+    "Flammable or combustible",
+    "Oxidizer",
+    "Explosive"
+   ],
+   "e": "Pyrophorics, such as phosphorus, sodium, or barium, ignite on their own in air below 130 degrees F without an ignition source. Flammables also ignite easily, but they need air and an ignition source, such as a spark or a flame."
+  },
+  "investigations-6-q24": {
+   "q": "An investigator who wears contact lenses is about to handle chemicals at a scene with a splash hazard. Which eye protection is MOST appropriate?",
+   "o": [
+    "Goggles with a face shield worn over them",
+    "A face shield alone, because it covers the whole face",
+    "The contact lenses, which already protect the surface of the eye",
+    "Regular prescription glasses instead of the contact lenses"
+   ],
+   "e": "Anyone who wears contact lenses must wear safety glasses or goggles, because if a chemical splashes the eye the lens is hard to remove for flushing and the contaminant can be trapped behind it. With a splash hazard, a face shield protects better, but it is always worn together with safety glasses or goggles."
+  },
+  "investigations-7-q0": {
+   "q": "In an inadequate security lawsuit, opposing counsel asks the guard: \"When you were working alone that night and the victim waved you down in the parking lot, what did you do first?\" In fact it was daytime and two other guards were on duty. What should the guard do FIRST?",
+   "o": [
+    "Correct the false premises in the question before giving the answer",
+    "Answer only what is asked, without volunteering unrequested information",
+    "Ask the attorney to speak louder or to clarify the question",
+    "State that the question cannot be answered with a yes or a no"
+   ],
+   "e": "With a trick question, the witness must correct the false premises before answering: replying only \"I checked whether she was hurt and called an ambulance\" lets the falsehoods stand, and they may influence the jury. Answering only what is asked is a general rule, but it does not mean letting false facts go uncorrected."
+  },
+  "investigations-7-q1": {
+   "q": "Which BEST describes what the US Supreme Court established in Kumho Tire v. Carmichael?",
+   "o": [
+    "The judge must verify that scientific testimony rests on sound science before admitting it",
+    "The trial judge may decide what type of scientific testimony the jury hears",
+    "Any expert, scientific or not, must be examined before testifying",
+    "Only experts appointed by the judge may give an opinion on the cause of the incident"
+   ],
+   "e": "Kumho Tire (1999) expanded Daubert: any expert witness, scientific or not, must be examined before testifying. Verifying that scientific testimony rests on sound science is the original Daubert (1993) rule, not its expansion; deciding what scientific testimony the jury hears comes from Joiner."
+  },
+  "investigations-7-q2": {
+   "q": "A security supervisor is testifying as a fact witness about an assault he observed. Opposing counsel puts to him a hypothetical question about what would have prevented the incident. Which BEST describes his position?",
+   "o": [
+    "He is not obliged to answer it; that obligation falls on the expert witness",
+    "He must answer it, because he is under oath like any other witness",
+    "He must answer it if the judge first accepted him as suitable during voir dire",
+    "He must answer it using the formula that those are not the facts of the case"
+   ],
+   "e": "A fact witness testifies only to what he perceived with his senses and is not obliged to answer hypothetical questions; the expert, hired to give an opinion, must answer them. The formula \"I understand the scenario, but those are not the facts of the case\" is the one an expert uses when answering a hypothetical."
+  },
+  "investigations-7-q3": {
+   "q": "A guard marked a knife as evidence two years ago and will now testify at trial. What is the MOST important reason to examine it in person at the pre-trial conference?",
+   "o": [
+    "To re-mark it with his initials, the current date and the report number",
+    "To confirm it exists complete, as the documents and evidence tags describe it",
+    "To decide whether it meets the criteria of relevancy, materiality and competency",
+    "To prepare with the attorney an exact script of what he will say about it"
+   ],
+   "e": "Examining it in person is the only way to verify that the evidence exists complete, as the documents and evidence tags describe it; its appearance may also have changed. Relevancy, materiality and competency are criteria the judge uses to instruct the jury, not a task for the witness."
+  },
+  "investigations-7-q4": {
+   "q": "Before trial, one party asks the other to produce all tangible evidence related to the case. What is this request called?",
+   "o": [
+    "Interrogatories",
+    "Duces tecum",
+    "Deposition",
+    "Voir dire"
+   ],
+   "e": "Duces tecum is the request between the parties to produce all tangible evidence. Interrogatories are written questions the parties exchange, and a deposition is a formal sworn statement; neither asks for objects or physical evidence."
+  },
+  "investigations-8-q0": {
+   "q": "An investigator needs to consult online databases, financial records and research catalogs that can only be accessed with a username and password. According to the iceberg model of the Internet, which BEST describes where this information resides?",
+   "o": [
+    "In the surface web, because these are legitimate sites that basic searches can find",
+    "In the deep web, not indexed because it is not public, not because it is dangerous",
+    "In the dark web, deliberately hidden and reachable only with special browsers such as Tor",
+    "In the deep web, which search engines cannot index because it mostly hosts illicit activity"
+   ],
+   "e": "Content behind a login or in internal databases makes up the deep web (over 93% of the Internet): search engines do not index it because it is not public, which does not make it dangerous. Mostly illicit activity and access through Tor characterize the dark web (about 3%)."
+  },
+  "investigations-8-q1": {
+   "q": "As part of due diligence on a potential foreign partner, the company wants to know whether that person is subject to economic sanctions. Which US regulatory database should the investigator check?",
+   "o": [
+    "The SEC (Securities and Exchange Commission) database",
+    "The OFAC (Office of Foreign Assets Control) database",
+    "The FTC (Federal Trade Commission) database",
+    "The FEC (Federal Election Commission) database"
+   ],
+   "e": "OFAC is where economic sanctions are searched. The SEC covers securities violations and the FEC covers political campaign contributions, so neither meets this need."
+  },
+  "investigations-8-q2": {
+   "q": "While reviewing a commercial online database, an investigator finds a civil judgment against the subject. That jurisdiction does not publish all of its records online. What should the investigator do BEFORE relying on that information?",
+   "o": [
+    "Include it in the report, since only licensed investigators may use commercial databases",
+    "Verify it against other records and documents, such as those at the clerk's office",
+    "Search for it on Google, Bing or Yahoo to confirm it also appears in search engines",
+    "Review the subject's social media to see whether the case is mentioned there"
+   ],
+   "e": "Not everything is online and errors exist even in official databases, so everything found in online databases is verified against other records and documents, which are sometimes held only at the courthouse or the clerk's office. Search engines are not authoritative sources, so they cannot confirm the information."
+  },
+  "investigations-8-q3": {
+   "q": "A corporate investigator has a good liaison relationship with a local police commander, but they have had no case in common for months. According to the book, what is the BEST way to maintain the liaison?",
+   "o": [
+    "Wait until a case comes up, so as not to impose on the contact's time",
+    "Keep in periodic contact even with nothing concrete to exchange",
+    "Send a gift of good value so that the relationship does not cool off",
+    "Ask for a favor now to balance out the ones she has done for him before"
+   ],
+   "e": "Liaison is maintained through periodic contact even when there is nothing to exchange: it shows the relationship matters and keeps familiarity. There must be mutual benefit, but not necessarily a quid pro quo, and gifts must respect legal limits and each agency's rules."
+  },
+  "investigations-8-q4": {
+   "q": "In a joint task force (JTF) against human trafficking, each member agency has its own chain of command, policies and secure communications, and each views differently what is sensitive and for how long. What solution does the book propose for this problem?",
+   "o": [
+    "Firm JTF management that neutralizes the members' own agendas",
+    "Well-defined reporting chains, both in the JTF and in each member agency",
+    "A tailored OPSEC plan covering both physical and electronic information",
+    "A system of code names that conceals each agency's sources"
+   ],
+   "e": "Protecting sensitive information in a JTF is addressed with a tailored OPSEC (operations security) plan for physical and electronic information. JTF management addresses parochialism, and well-defined reporting chains prevent fragmented and contradictory information."
+  },
+  "investigations-8-q5": {
+   "q": "A multi-site company opens an investigation into possible procurement fraud, and the investigative unit manager wants to gather intelligence. According to the chapter's basic maxim, where should the effort start?",
+   "o": [
+    "With commercial and subscription databases, which provide background data on the subject",
+    "With liaison contacts in law enforcement and industry associations",
+    "With the organization's own internal files and records",
+    "With the subject's digital footprint on social media"
+   ],
+   "e": "The maxim is \"check your own files first,\" because in large, complex or multi-site organizations valuable internal sources are often overlooked. Commercial databases and liaison are useful, but the maxim calls for checking your own files first."
+  },
+  "investigations-8-q6": {
+   "q": "A security director wants to leverage IT staff in investigations, for example through keystroke monitoring to detect insider threats. According to the book, how should the relationship with IT be built?",
+   "o": [
+    "From the top, between the senior security or investigations executive and the CIO, then downward",
+    "From the bottom, between investigators and IT technicians who already work together daily on cases",
+    "By outsourcing to a specialized firm so as not to depend on the internal IT department",
+    "By assigning an IT technician to the investigative unit, under the IU manager's command"
+   ],
+   "e": "The close relationship between security, investigators and IT must start at the top, with the senior security or investigations executive working with the CIO, and then move down through both functions, always within the law. Starting at the bottom is the reverse of the approach the book proposes."
+  },
+  "investigations-8-q7": {
+   "q": "During an undercover investigation, the team conducts a surveillance that is outside the routine of the case. Which type of report BEST documents that action?",
+   "o": [
+    "Initial report",
+    "Progress report",
+    "Special report",
+    "Final report"
+   ],
+   "e": "A special report documents an action out of the ordinary, such as a surveillance in an undercover investigation; it may supplement the progress report but must be able to stand alone. The progress report is submitted at fixed intervals (30 days in the private sector) with progress and pending leads."
+  },
+  "investigations-8-q8": {
+   "q": "Which rule BEST describes how to write the summary or synopsis of an investigative report?",
+   "o": [
+    "Each key point of the report gets at least one sentence, without supporting facts",
+    "Each investigative step goes in a separate paragraph, in strict chronological order",
+    "It must include the subject's name, case number, case status and date of the report",
+    "It must be written in the first person when the author is an undercover operative"
+   ],
+   "e": "In the synopsis, each important point gets at least one sentence, without citing supporting facts, and conclusions are allowed if they fairly reflect the body. Chronological order with one paragraph per step is the rule for the narrative, and the subject's name, case number and status belong to the administrative information."
+  },
+  "investigations-8-q9": {
+   "q": "An investigative report contained inaccurate, damaging information about an employee and was distributed to many managers with no need to know. The employee sues for defamation. Why is the organization MOST likely exposed?",
+   "o": [
+    "It lost the qualified privilege by distributing the report more widely than necessary",
+    "Any report containing false information always gives grounds for a defamation suit",
+    "It did not give the report only to the attorney of record and lost protection against a subpoena",
+    "It included opinions and conclusions, which the book forbids in every report"
+   ],
+   "e": "A well-controlled report enjoys qualified privilege and usually does not support a defamation suit even with false information, unless malice is proven; excessive distribution can forfeit that privilege. Giving the report only to the attorney of record (attorney work product) protects against a subpoena, not against defamation."
+  },
+  "investigations-8-q10": {
+   "q": "After an inventory theft, the team conducts a post-investigation review and examines which controls existed to prevent or detect the theft and why they failed. Which root cause analysis tool are they using?",
+   "o": [
+    "Barrier analysis",
+    "Change analysis",
+    "Timelines",
+    "Trend analysis of red flags"
+   ],
+   "e": "Barrier analysis reviews which controls exist, and perhaps failed, to prevent or detect the problem. Change analysis investigates what changed and when (people, equipment, a vendor, a procedure...) and how it led to the loss; timelines are a tool for that analysis."
+  },
+  "investigations-8-q11": {
+   "q": "An investigator with twenty years of flawless cases is considering a shortcut that bypasses an ethical safeguard to close a case sooner. According to the chapter, which BEST describes the risk?",
+   "o": [
+    "His credibility on the stand, and with it his effectiveness, depends on not taking that shortcut",
+    "The risk is only to his image, since the case is solid and the outcome will be the same",
+    "His record of flawless cases will protect his credibility if the shortcut comes to light",
+    "The shortcut matters only if the case ends in a criminal trial rather than a disciplinary action"
+   ],
+   "e": "The book says ethics gives credibility and credibility gives effectiveness: the investigator's credibility on the stand depends on not taking shortcuts against ethical safeguards. His record does not protect him, because an investigator is worth only as much as the case he or she is working on now."
+  },
+  "investigations-A-q0": {
+   "q": "In most cases, what role does a security incident report play in an investigation?",
+   "o": [
+    "It is usually the initial complaint that opens the case",
+    "It is the summary that replaces the operative's daily reports",
+    "It is the special report signed for use as criminal evidence",
+    "It is the operative's daily log in timeline format"
+   ],
+   "e": "Incident reports are usually the initial complaint that opens an investigation, consistent with section 1.13.1. The summary that replaces the daily reports is the investigative summary report, and the daily log in timeline format is the chronological report."
+  },
+  "investigations-A-q1": {
+   "q": "An undercover operative writes the daily report in the third person (\"the operative\") or the passive voice (\"was observed\"). According to the book's example, what is the main advantage of this style?",
+   "o": [
+    "The text can be edited and reused without re-authenticating it",
+    "It allows entries to be ordered by time so each incident is found quickly",
+    "It serves to record on-clock and off-clock hours for billing the client",
+    "It lets the report be signed as criminal evidence without any changes"
+   ],
+   "e": "The third person or passive voice allows the text to be edited without re-authenticating it, which is why the daily report text moves into the summary (2C) and the special report (2D) without being rewritten. Finding each incident quickly by time is the advantage of the chronological format (2A), not of the grammatical person."
+  },
+  "investigations-A-q2": {
+   "q": "The project manager must deliver to the client a report that replaces the operative's daily reports. According to the book's example (2C), how should it be organized?",
+   "o": [
+    "By topic, merging the daily reports and opening with totals useful for decisions",
+    "By day, in chronological order, with each entry in 24-hour time and capital letters",
+    "By day, in the operative's first person, with a signature at the end of each entry",
+    "By suspect, with a complete physical description and a number for each one"
+   ],
+   "e": "The investigative summary report reorganizes the daily reports' information by topic, not by day, in the third person and opening with numerical totals that support decisions. Chronological order in 24-hour time belongs to the chronological daily report (2A)."
+  },
+  "investigations-A-q3": {
+   "q": "During an undercover investigation, the operative buys cocaine from a suspect in coordination with the police. The event may serve as evidence in a criminal case. According to the book's example, what is the MOST appropriate way to document it?",
+   "o": [
+    "A separate special report describing the suspect, reviewed and signed by the operative",
+    "One more entry in the chronological daily report, referring to an incident report",
+    "A topical section of the summary report, unsigned, since the client already receives it",
+    "A special report written by the project manager and signed only by the police agent"
+   ],
+   "e": "A special event is documented separately, in a special report ready for use as evidence; if it may serve as criminal evidence, the operative reviews and signs it, and the example adds a full physical description of the suspect. Leaving it only in the client's summary does not prepare it as evidence."
+  },
+  "investigations-A-q4": {
+   "q": "In due diligence for acquiring a company, the investigator wants to review the union's name, its local president and a copy of the union contract. According to the book's sample checklist, which category does this fall under?",
+   "o": [
+    "Employee Relations",
+    "Contracts",
+    "Management",
+    "Litigation"
+   ],
+   "e": "The checklist places the union details and a copy of its contract under Employee Relations. The Contracts category covers the major contracts by product line, with their terms, not the union contract."
+  },
+  "investigations-A-q5": {
+   "q": "While reviewing a guard company's employment application form, a manager notices that the consent and authorization for the background investigation are inside the application itself. According to the chapter, what is the problem?",
+   "o": [
+    "The FCRA notice and written authorization must be separate from the application",
+    "The authorization is valid only if the application reviewer also signs it",
+    "The authorization must be requested only after a conditional offer of employment",
+    "The consent must be limited to criminal records and exclude credit and driving history"
+   ],
+   "e": "According to the chapter, the FCRA notice and written authorization must be separate from the application, and the sample form places them inside it. Waiting for a conditional offer is the Ban-the-Box logic, which concerns asking about criminal records, not the authorization."
+  },
+  "investigations-A-q6": {
+   "q": "A manager is designing his company's employment application form. According to the chapter's guidelines, what is the BEST approach to personal references?",
+   "o": [
+    "At least three, known a year or more, not relatives; a former boss is an excellent one",
+    "Three references who are neither former employers nor relatives, with occupation and years known",
+    "At least three, including close relatives, who know the applicant's character and conduct well",
+    "A single reference from a former direct supervisor, as the most reliable source on performance"
+   ],
+   "e": "The chapter calls for at least three references, known for a year or more and not relatives, with their addresses and how they know the applicant, and considers a former boss an excellent reference. The sample form (4A) departs from this by excluding former employers."
+  },
+  "investigations-A-q7": {
+   "q": "A reference check form asks the former employer to rate the candidate's honesty and attitude as good, fair or poor. According to the chapter, what problem does this present?",
+   "o": [
+    "It asks the source to judge the candidate, which the text advises against",
+    "It uses a three-level scale, whereas the text requires a numerical rating scale",
+    "It does not ask whether the company would rehire the candidate",
+    "It does not ask about the candidate's attendance or punctuality"
+   ],
+   "e": "In 4.6.2 the text advises against questions that make the source pass judgment, and this form asks the source to rate honesty and attitude. The form does ask whether the candidate would be rehired and does cover attendance and punctuality, and the text requires no numerical scale."
+  },
+  "investigations-A-q8": {
+   "q": "A company suffers an incident and urgently needs a forensic laboratory to analyze the evidence, but it had never evaluated providers. Which lesson from the book does this situation BEST illustrate?",
+   "o": [
+    "Vet potential providers well before they are needed",
+    "Always choose the nearest laboratory to protect the chain of custody",
+    "Weigh mainly the cost of analysis, since urgency makes it more expensive",
+    "Send the evidence to several laboratories to compare their results"
+   ],
+   "e": "The book advises vetting providers well before they are needed, because in the middle of an investigation there is usually no time for due diligence; credibility, reputation, reliability and specialty are weighed, and accrediting or professional organizations are one way to find them. Proximity and cost are not criteria the book cites."
+  },
+  "investigations-A-q9": {
+   "q": "An investigator finds a standalone desktop computer turned on. He has already photographed the system and noted the applications open on the screen. According to the sample policy on computer evidence, how should he disconnect it?",
+   "o": [
+    "Shut it down using the normal operating system procedure to avoid damaging data",
+    "Unplug the cord first from the back of the machine and then from the wall outlet",
+    "Unplug it first from the wall outlet and then from the back of the machine",
+    "Leave it on and wait for the department's computer crimes investigator"
+   ],
+   "e": "On standalone systems the computer is not shut down the normal way: it is unplugged first from the back of the machine and then from the wall outlet. Waiting for the computer crimes investigator is the provision for networked systems, not standalone ones."
+  },
+  "investigations-A-q10": {
+   "q": "After seizing several flash drives and disks, the investigator must package and transport them. According to the sample policy on computer evidence, which practice is MOST appropriate?",
+   "o": [
+    "Place them in sealed plastic bags and carry them in the trunk, away from the driver",
+    "Use paper bags or boxes and carry them in the vehicle's passenger compartment",
+    "Surround them with packing peanuts or shredded paper to protect them from impacts",
+    "Mark only the outer container, never the item itself, and carry them in the trunk"
+   ],
+   "e": "Loose storage media go in paper boxes or bags, because plastic can generate static electricity, and the evidence travels in the passenger compartment, not in the trunk next to a radio transmitter whose radio frequency energy can damage it. Packing peanuts and shredded paper also generate static and dust."
+  },
+  "investigations-A-q11": {
+   "q": "An insurer makes the availability and cost of casualty insurance depend on the building using materials approved under a standard that is, in theory, voluntary. How does the book classify this situation?",
+   "o": [
+    "A voluntary standard, because no law imposes it",
+    "A statutory or regulatory standard, because a third party requires it",
+    "A mixed standard: voluntary in theory but mandatory in practice",
+    "A management system standard, because it sets requirements"
+   ],
+   "e": "The book uses this case as an example of a mixed standard: it remains voluntary in theory but is mandatory in practice because insurers or contracts require it. A statutory or regulatory standard is mandatory by law and enforced by formal authorities, not by an insurer."
+  },
+  "investigations-A-q12": {
+   "q": "An organization has confirmed that its new access control procedure solved the problem as planned. It now wants to standardize it across all its sites and review the list of pending problems. Which phase of the PDCA (Plan-Do-Check-Act) cycle is it in?",
+   "o": [
+    "Plan",
+    "Do",
+    "Check",
+    "Act"
+   ],
+   "e": "In Act, if the solutions resolve the problems, they are standardized across the organization, the problem list is reviewed and new problems are defined; the cycle then starts again. Check is the previous phase, in which results are compared against the plan."
+  },
+  "investigations-A-q13": {
+   "q": "Which set BEST captures the four principles under which standards are developed, according to the appendix?",
+   "o": [
+    "Consensus, openness, due process and transparency",
+    "Consensus, confidentiality, due process and continual improvement",
+    "Openness, impartiality, effectiveness and transparency",
+    "Consensus, openness, resilience and competitiveness"
+   ],
+   "e": "The four principles are consensus, openness, due process and transparency. Continual improvement is the aim of the PDCA cycle, and resilience and competitiveness are outcomes that standards support, not principles for developing them."
+  }
+ }
 }

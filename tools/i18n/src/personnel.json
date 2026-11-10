@@ -691,5 +691,1096 @@
   "personnel-7": "El abuso de sustancias, alcohol incluido, daña la productividad, la seguridad y la imagen de la empresa. El capítulo explica por qué ocurre en el trabajo, cómo progresa y qué drogas se usan. También cómo deben actuar los jefes y seguridad: política, investigación, intervención, programas de asistencia y pruebas de drogas.",
   "personnel-8": "La violencia en el lugar de trabajo (*workplace violence*, WPV) puede venir de dentro o de fuera, y el empleador está obligado a proteger frente a ella. El capítulo explica cómo montar un programa de prevención e intervención basado en una evaluación de riesgos, un equipo de manejo de amenazas y protocolos de notificación, evaluación, intervención y monitoreo. También cubre la respuesta al incidente y la recuperación posterior."
  },
- "quiz": {}
+ "quiz": {
+  "personnel-1-q0": {
+   "q": "Un gerente debe cubrir un puesto de control de accesos las 24 horas, los 7 días, con oficiales de 40 horas semanales. Quiere prever bajas por enfermedad, vacaciones y días festivos, pero no hay vacaciones especialmente largas ni exigencias extra de formación. ¿Cuántos oficiales por puesto debe presupuestar?",
+   "o": [
+    "4.5 oficiales",
+    "4.2 oficiales",
+    "5 oficiales de tiempo completo",
+    "3 oficiales, uno por cada turno de 8 horas"
+   ],
+   "e": "Con 168 horas semanales ÷ 40 horas, el mínimo es 4.2 oficiales, pero esa cifra no cubre ausencias; cubriendo enfermedad, vacaciones y festivos, el libro da 4.5. Hasta 5 de tiempo completo solo se justifican con vacaciones más largas o más exigencias de formación."
+  },
+  "personnel-1-q1": {
+   "q": "Un oficial de patrulla a pie (foot patrol) nocturna recorre siempre la misma ruta, en el mismo orden y a las mismas horas, para no omitir ningún punto. ¿Cuál es la MEJOR recomendación del supervisor?",
+   "o": [
+    "Patrullar de forma sistemática, pero retrocediendo a menudo y tomando rutas inesperadas",
+    "Mantener la ruta fija y verificarla con un dispositivo de control de rondas (tour device)",
+    "Sustituir la ronda a pie por la vigilancia de alarmas, que cubre el área sin riesgo",
+    "Reducir el número de rondas para concentrarse en responder a las alarmas de puertas"
+   ],
+   "e": "Una ruta invariable permite al agresor descubrir el mejor momento para atacar; por eso el libro pide patrullar de forma sistemática, pero con retrocesos frecuentes y rutas inesperadas. Verificar una ruta fija no corrige su previsibilidad, y confiar de más en las alarmas es una causa típica de rondas omitidas."
+  },
+  "personnel-1-q2": {
+   "q": "Un gerente de ventas pide que un oficial acompañe durante toda la jornada a un cliente que visita la planta. Según el libro, ¿cómo debe responder el gerente de seguridad sobre esta escolta (escort)?",
+   "o": [
+    "Asignar un oficial, porque la escolta de personas es una de las funciones básicas",
+    "Indicar que, por regla general, quien invitó al visitante debe escoltarlo",
+    "Asignar al patrullero, que puede escoltar al visitante mientras hace su ronda",
+    "Asignar un oficial solo si el visitante no lleva visible su pase de visitante"
+   ],
+   "e": "La regla general es que seguridad no escolte a visitantes ni clientes, porque eso la aparta de sus tareas de protección: lo hace quien invita. Las excepciones son escoltar a quien lleva grandes sumas de dinero, información o bienes especiales, acompañar a empleados por su seguridad o asistir a personas enfermas o con discapacidad física."
+  },
+  "personnel-1-q3": {
+   "q": "Un hombre que parece estar bajo efectos de drogas grita y lanza objetos en el vestíbulo. Según el libro, al manejar a esta persona conflictiva (disruptive person), ¿cuál es la consideración MÁS importante?",
+   "o": [
+    "Limitar la responsabilidad legal de la empresa y de la fuerza de seguridad",
+    "Cuidar la relación con los empleados, el público y los medios que observan",
+    "La seguridad y desescalar o eliminar el peligro inmediato",
+    "Controlarlo con el mínimo de lesión, incomodidad o vergüenza para él"
+   ],
+   "e": "El libro señala como consideración más importante la seguridad y desescalar o eliminar el peligro inmediato. La responsabilidad legal y la imagen son consideraciones secundarias (preocuparse en exceso por la responsabilidad lleva a actuar “muy poco y muy tarde”), y controlarlo con mínima lesión es el segundo objetivo, no la preocupación inmediata."
+  },
+  "personnel-1-q4": {
+   "q": "Según el libro, ¿cuándo se justifica armar a un oficial de seguridad?",
+   "o": [
+    "Cuando el cliente quiere proyectar una imagen más fuerte y disuasiva ante intrusos",
+    "Cuando el oficial ya tiene una licencia gubernamental vigente para portar armas de fuego",
+    "Cuando sin el arma hay más peligro para la vida o se prevé usar fuerza letal",
+    "Cuando la jurisdicción permite oficiales armados y se avisó a la aseguradora"
+   ],
+   "e": "Armar a un oficial se justifica si se da una o ambas condiciones: mayor peligro para la vida sin el arma, o expectativa razonable de que el oficial tenga que usar fuerza letal (fatal force). La licencia y el aviso a la aseguradora son requisitos para portar armas, no razones para armar."
+  },
+  "personnel-1-q5": {
+   "q": "Una empresa contratará oficiales armados a través de una agencia. Su gerente opina que un buen contrato traslada al proveedor casi toda la responsabilidad legal, así que la empresa no necesita fijar políticas sobre armas. ¿Cuál es la MEJOR respuesta?",
+   "o": [
+    "Es correcto si el contrato incluye una cláusula de indemnización a favor de la empresa",
+    "Es un error: las demandas alcanzan a todo implicado y el cliente debe fijar las políticas",
+    "Es correcto, porque la agencia es quien licencia, forma y supervisa a sus oficiales armados",
+    "Es un error, pero solo si los oficiales portan armas propias y no las de la agencia"
+   ],
+   "e": "El libro advierte que un buen contrato no traslada casi toda la responsabilidad: las demandas suelen incluir a cualquiera remotamente relacionado. Además, pagar al proveedor implica aceptar su estilo de gestión, por lo que la organización que lo contrata debe fijar las políticas y protocolos cruciales y exigir en el contrato todo lo relativo a armas."
+  },
+  "personnel-1-q6": {
+   "q": "Una empresa evalúa dotar a sus oficiales de armas menos que letales (less than lethal), como bastones y gas pimienta. Según el libro, ¿qué dos elementos deben existir SIEMPRE antes de desplegarlas?",
+   "o": [
+    "Una política clara de uso de fuerza y formación inicial y recurrente suficiente",
+    "Licencia gubernamental de portación y un seguro con límites de responsabilidad más altos",
+    "Mantenimiento por un armero calificado y almacenamiento bajo llave en un contenedor aprobado",
+    "Autorización de la policía local y cámaras corporales que graben cada uso del arma"
+   ],
+   "e": "El libro dice que las armas menos que letales nunca se despliegan sin una política de uso de fuerza (use of force policy) clara y concisa y sin formación inicial y recurrente suficiente. El armero calificado, el almacenamiento bajo llave y los límites de seguro más altos se mencionan para las armas de fuego, no como esos dos elementos clave."
+  },
+  "personnel-1-q7": {
+   "q": "En el continuo de fuerza (security force continuum) de McGoey (2018), un oficial uniformado ya está presente y ha dado instrucciones con tono calmado pero firme. El sujeto se niega a salir y se resiste pasivamente, sin amenazar físicamente a nadie. ¿Qué nivel corresponde a continuación?",
+   "o": [
+    "Agente químico (chemical agent)",
+    "Técnicas de control y sujeción (control holds and restraints)",
+    "Incapacitación temporal (temporary incapacitation)",
+    "Comunicación verbal (verbal communication)"
+   ],
+   "e": "Tras la presencia del oficial (nivel 1) y la comunicación verbal (nivel 2) viene el nivel 3: usar las manos para guiar, sujetar o contener, sin golpes, derribos ni estrangulamientos. El agente químico (nivel 4) se reserva para cuando fallaron tácticas menores, como las de control, o hay una amenaza física inminente."
+  },
+  "personnel-1-q8": {
+   "q": "Un director de seguridad quiere dotar de cámaras corporales (body worn cameras) a sus oficiales. Según el libro, ¿qué debe hacer PRIMERO?",
+   "o": [
+    "Comprar el equipo y probarlo en un turno piloto antes de redactar políticas",
+    "Consultar a asesoría legal y a la policía local sobre su legalidad y protocolos",
+    "Ordenar que graben todo el turno para evitar fallas por olvido o mal uso",
+    "Calcular el costo de almacenar el video para justificar el presupuesto"
+   ],
+   "e": "Antes de usarlas, el libro pide consultar a asesoría legal y a la policía local sobre su legalidad y sobre los protocolos de grabación, almacenamiento y uso, y luego crear políticas inspiradas en los protocolos policiales. El costo de almacenamiento es una desventaja que hay que considerar, pero no es el primer paso."
+  },
+  "personnel-1-q9": {
+   "q": "En una fuerza híbrida, supervisores propios (proprietary) dirigen a oficiales contratados (contract) de primera línea. ¿Cómo llama el libro a esta relación?",
+   "o": [
+    "Modelo jerárquico o vertical (hierarchical model)",
+    "Principal-agente (principal-agent)",
+    "Modelo en red o aplanado (network model)",
+    "Autoridad delegada (deputization)"
+   ],
+   "e": "El libro llama principal-agente a la relación en que supervisores propios dirigen a oficiales contratados de primera línea. Los modelos vertical y en red describen la estructura organizacional en general, y la autoridad delegada se refiere a dar facultades de agente del orden para tareas como dirigir el tráfico."
+  },
+  "personnel-1-q10": {
+   "q": "El director financiero propone sustituir la fuerza propia por una contratada porque cuesta menos. Según el libro, ¿en qué debe basarse la decisión final?",
+   "o": [
+    "En el costo total por hora, incluidas prestaciones, horas extra y rotación",
+    "En el tipo de activos, el nivel de riesgo y las expectativas sobre los oficiales",
+    "En la rotación histórica de la fuerza propia frente a las agencias de la zona",
+    "En cuánta responsabilidad legal pueda trasladar el contrato a la agencia"
+   ],
+   "e": "El libro dice que la decisión final debe basarse en el tipo de activos protegidos, el nivel de riesgo y las expectativas sobre los oficiales, no en el costo. Una revisión legal puede indicar si el contrato traslada parte de la responsabilidad, pero eso no decide la elección."
+  },
+  "personnel-1-q11": {
+   "q": "Una empresa adjudicó su servicio de guardias al precio más bajo (low-bid) y el nivel de servicio cayó. Según el libro, ¿qué debe hacer en la próxima licitación para evitarlo?",
+   "o": [
+    "Redactar especificaciones de licitación detalladas con salarios, prestaciones y desempeño",
+    "Adjudicar a la segunda oferta más baja para dejar margen de calidad al proveedor",
+    "Volver a una fuerza propia, que siempre rinde mejor que una fuerza contratada",
+    "Exigir que la agencia asuma por contrato toda la responsabilidad civil del servicio"
+   ],
+   "e": "Para evitar el problema del precio más bajo, el cliente redacta especificaciones de licitación (bid specifications) detalladas con salarios, prestaciones y expectativas de desempeño; así es más fácil exigir calidad. El libro no dice que la fuerza propia rinda siempre mejor: la elección depende de los activos, el riesgo y las expectativas."
+  },
+  "personnel-1-q12": {
+   "q": "Una empresa contrata una agencia de guardias. Según el libro, ¿qué es lo MÍNIMO que debe exigir en materia de seguros?",
+   "o": [
+    "Figurar como asegurado adicional nombrado (additional named insured) en todas las pólizas de la agencia",
+    "Una fianza de indemnización (indemnity bond) otorgada por la agencia a favor del cliente",
+    "Certificados vigentes de la aseguradora de la agencia, con los límites y aviso de cambios",
+    "Ampliar su propia póliza de responsabilidad civil comercial para cubrir a los guardias"
+   ],
+   "e": "El mínimo exigible son certificados de seguro vigentes emitidos por la aseguradora de la contratista, con los límites acordados y el compromiso de avisar al cliente de cualquier cambio o cancelación. Ser asegurado adicional nombrado depende del texto de cada póliza, y la fianza de indemnización solo protege al público."
+  },
+  "personnel-1-q13": {
+   "q": "Según la definición del libro, ¿qué tres conceptos clave contiene un puesto de oficial de seguridad (security officer post)?",
+   "o": [
+    "Una orden de puesto escrita, un horario de puesto y un supervisor de turno asignado",
+    "Ubicación o actividades, un ser humano necesario, y formación y competencia",
+    "Un puesto fijo, una patrulla móvil y una central de control con monitoreo",
+    "El nivel de riesgo, el número de accesos y el valor de los activos protegidos"
+   ],
+   "e": "El libro define el puesto como cualquier ubicación o combinación de actividades que requiere un ser humano capacitado, con tres conceptos: ubicación o combinación de actividades, ser humano necesario (necessary human being), y formación y competencia. El nivel de riesgo y el número de accesos son factores para calcular cuántos oficiales hacen falta, no parte de la definición."
+  },
+  "personnel-1-q14": {
+   "q": "Un gerente quiere justificar ante la dirección un aumento salarial con el ahorro en rotación de personal. Según el libro, ¿qué estimación del costo de rotación (turnover costs) por oficial puede usar?",
+   "o": [
+    "Cerca del 10 % del salario anual, sobre todo por publicidad y entrevistas",
+    "El 25 % o más del salario anual, sin contar la productividad perdida",
+    "Un mes de salario, porque la formación inicial la paga el propio oficial",
+    "Más del 100 % del salario anual, al sumar la caída de satisfacción del cliente"
+   ],
+   "e": "El libro estima el costo de rotación (publicidad, entrevistas, verificación de antecedentes, contratación, alta y formación) en el 25 % o más del salario anual. A eso se suman costos adicionales, como la productividad perdida, cubrir las horas del que se fue y la caída de satisfacción del cliente; por eso mejores salarios reducen la rotación y su costo."
+  },
+  "personnel-1-q15": {
+   "q": "Un turno va de 0700 a 1500 con una hora de comida incluida, por lo que el oficial permanece hasta las 1600. El segundo turno empieza a las 1500. Según el libro, ¿qué ventaja tiene este diseño?",
+   "o": [
+    "El oficial no deja sus funciones durante la comida, porque el relevo ya llegó",
+    "Entre 1500 y 1600 coinciden ambos turnos y se cubren picos sin horas extra",
+    "Ya no es necesario anotar las comidas en la bitácora del puesto",
+    "El supervisor puede cubrir las comidas sin generar quejas sindicales"
+   ],
+   "e": "Traslapar turnos de forma planificada (maximizing the straight time schedule) cubre picos, como los cambios de turno de planta, sin pagar horas extra. Aun así, durante la comida el oficial deja sus funciones, debe anotar sus comidas en la bitácora, y usar con regularidad al supervisor para trabajo de oficial puede generar una queja formal (grievance)."
+  },
+  "personnel-1-q16": {
+   "q": "Tras un incidente, un periodista aborda al oficial de la entrada y le pide una declaración. Según las órdenes generales (general orders), ¿qué debe hacer el oficial?",
+   "o": [
+    "Dar solo hechos verificados, sin opiniones ni nombres de personas",
+    "Declarar únicamente si su supervisor de turno lo autoriza por radio",
+    "No declarar y remitirlo al vocero o al oficial de información pública (PIO)",
+    "Leer el comunicado previsto en sus órdenes de puesto para esos casos"
+   ],
+   "e": "Según las órdenes generales, toda declaración a los medios la hace el vocero designado o el oficial de información pública (public information officer, PIO); los oficiales no declaran. Una declaración mal hecha, aunque parezca limitarse a hechos, puede causar pánico, arruinar reputaciones o sabotear investigaciones."
+  },
+  "personnel-1-q17": {
+   "q": "Tres gerentes que conocen bien la empresa leen una nueva orden de puesto (post order) y cada uno la entiende de forma distinta. Según el libro, ¿qué procede?",
+   "o": [
+    "Añadir una explicación del porqué para que se entienda su propósito",
+    "Mantenerla y aclararla de palabra en la formación de inicio de turno",
+    "Reescribirla, porque no supera la prueba de los tres lectores",
+    "Fusionarla con otras órdenes afines en un documento más completo"
+   ],
+   "e": "Según la prueba de los tres lectores, si tres personas que conocen la empresa no coinciden en el sentido de una orden, se reescribe. Las órdenes deben ser breves y de un solo tema (el porqué se explica en otras partes de la formación), y precisamente sirven para evitar los problemas de las instrucciones de palabra."
+  },
+  "personnel-1-q18": {
+   "q": "Se emitió una nueva orden de puesto sobre la entrega de llaves. Durante su visita al puesto, ¿qué acción del supervisor recomienda el libro para comprobar que el oficial la leyó y reforzarla?",
+   "o": [
+    "Pedirle que firme una constancia de lectura en la bitácora del puesto",
+    "Plantearle una situación hipotética que exija aplicar la orden en la práctica",
+    "Leerle la orden en voz alta y preguntarle si le quedó alguna duda",
+    "Dejarle una copia de bolsillo en el puesto y revisar su dominio en la evaluación anual"
+   ],
+   "e": "El libro propone tres formas: hacer preguntas concretas sobre la orden, observar al oficial en una situación real en que se aplique, o plantear una situación hipotética que exija conocimiento práctico. Una firma o una lectura en voz alta no demuestran que el oficial sepa aplicarla, y esta comprobación debe ser parte rutinaria de cada visita."
+  },
+  "personnel-1-q19": {
+   "q": "Durante varios días, un oficial reporta: “Entré 0700. Nada inusual. Relevado 1500.” ¿Cuál es la MEJOR acción del gerente?",
+   "o": [
+    "Aceptarlo, porque un reporte breve indica que el puesto funciona bien",
+    "Eliminar el puesto, porque esos reportes demuestran que no hace falta",
+    "Pedir que reporte qué hizo para asegurar el área, en formularios de afirmaciones positivas",
+    "Pedirle narraciones libres y más largas que describan todo lo ocurrido en el turno"
+   ],
+   "e": "Varios reportes así sugieren que el puesto sobra, que el oficial no está formado o que no reporta bien, así que por sí solos no prueban que el puesto sobre. El libro recomienda pedir al oficial que escriba qué hizo para asegurar el área, y prefiere los formularios que obligan a afirmaciones positivas frente a las narraciones libres."
+  },
+  "personnel-1-q20": {
+   "q": "Una bitácora de seguridad (security log) se presenta en un litigio como registro hecho en el curso normal del negocio (regular course of business), una excepción a la regla del testimonio de oídas (hearsay). ¿Cuál de estos es uno de los requisitos para que sea admisible?",
+   "o": [
+    "Que esté escrita con tinta indeleble y con cada entrada numerada en estricto orden consecutivo",
+    "Que un supervisor la revise, apruebe y firme al final de cada turno",
+    "Que registre hechos conocidos de primera mano o reportados por quien los conoció y debía reportarlos",
+    "Que la lleve un oficial con estatus de agente del orden (peace officer status) en esa jurisdicción"
+   ],
+   "e": "Los tres requisitos son: llevarse con regularidad, llevarla una persona como parte de sus funciones habituales, y registrar hechos que conoció personalmente o que le reportó alguien con conocimiento personal y deber de reportar. Escribir con tinta y en orden consecutivo es una buena práctica de la bitácora manual para evitar alteraciones, pero no es un requisito de admisibilidad."
+  },
+  "personnel-1-q21": {
+   "q": "Según los hallazgos de Miller (2010) sobre la fatiga en policías y otros trabajadores por turnos, ¿qué afirmación es correcta?",
+   "o": [
+    "La fatiga mental peligrosa aparece solo después de 24 horas despierto",
+    "La tasa de accidentes sube mucho hacia las 0300 y también hacia las 1500",
+    "La fatiga crónica se debe a un turno nocturno aislado, no a la deuda de sueño",
+    "Los humanos se adaptan por completo al trabajo nocturno tras pocas semanas"
+   ],
+   "e": "Miller encontró que la tasa de accidentes sube mucho hacia las 0300 y también a las 1500, por los ritmos circadianos. La fatiga mental peligrosa probablemente aparece tras más de 17 horas despierto (no 24), la fatiga crónica surge al acumularse deuda de sueño (sleep debt), y los humanos son incompatibles con el trabajo nocturno."
+  },
+  "personnel-1-q22": {
+   "q": "A las 0300, un supervisor encuentra dormido a un oficial en una caseta perimetral mal ventilada y muy caliente, poco después de un cambio de turno. Según el libro, ¿cuál es el MEJOR enfoque?",
+   "o": [
+    "Despedirlo de inmediato, porque dormirse en el puesto no admite atenuantes",
+    "No tomar medidas, porque el sueño por inactividad es un proceso natural",
+    "Actuar pronto y con sensibilidad, aplicando la lista de análisis de fallas",
+    "Cambiarlo de turno sin registrar el hecho, para no dañar su moral"
+   ],
+   "e": "El libro reconoce que puede haber atenuantes (calor, aislamiento, cambios de horario) y pide que, si procede disciplina, el supervisor actúe pronto y con sensibilidad. La lista de análisis de fallas para dormirse en el puesto (sleeping on post) revisa salud, medicamentos, horas de sueño, temperatura o iluminación, y sirve para lograr disciplina equitativa y saber qué cambiar en el área de trabajo."
+  },
+  "personnel-1-q23": {
+   "q": "Según el libro, ¿cuál es la forma MÁS eficaz de mantener el desempeño vigilante (vigilant performance) de un oficial?",
+   "o": [
+    "Asignarle en el puesto fijo tareas como pruebas de alarmas y elaboración de gafetes",
+    "Rotarlo entre puesto fijo y patrulla, a pie y móvil",
+    "Mostrar las cámaras en secuencia para reducir el efecto hipnótico de los monitores",
+    "Programar llamadas automatizadas que confirmen su estado durante el turno"
+   ],
+   "e": "El libro afirma que la forma más eficaz de mantener la vigilancia es rotar al oficial entre puesto fijo y patrulla, a pie y móvil. Las tareas adicionales en el puesto fijo, las cámaras en secuencia y las llamadas de confirmación también ayudan, pero son medidas complementarias."
+  },
+  "personnel-1-q24": {
+   "q": "El informe CRISP de ASIS (Miller 2010) enumera problemas de la automatización y el monitoreo humano. ¿Qué describe el síndrome de “que viene el lobo” (cry wolf)?",
+   "o": [
+    "El operador pierde destreza manual porque el sistema hace casi todo el trabajo",
+    "Las falsas alarmas enseñan al operador a ignorar indicios de falla; la detección cae casi a cero",
+    "La automatización sustituye el reconocimiento de patrones humano por sensores menos competentes",
+    "Mirar monitores de forma pasiva produce un efecto casi hipnótico que reduce la alerta"
+   ],
+   "e": "En el síndrome de “que viene el lobo”, tantas falsas alarmas hacen que el operador ignore indicios de falla del sistema, y la detección de fallas cae casi a cero. La pérdida de destreza manual y la sustitución por sensores menos competentes son otros problemas de la misma lista; el efecto hipnótico de los monitores se menciona al hablar de videovigilancia."
+  },
+  "personnel-1-q25": {
+   "q": "Según el modelo de dos dimensiones de Frederick Herzberg, ¿qué hacen los motivadores o satisfactores (motivators o satisfiers)?",
+   "o": [
+    "Apelan al mecanismo de evitación de la persona",
+    "Hacen el trabajo más desafiante y llevan al crecimiento personal",
+    "Dejan de motivar en cuanto la necesidad básica queda satisfecha",
+    "Parten de que el trabajador puede autodirigirse, motivarse y ser creativo"
+   ],
+   "e": "En Herzberg, los motivadores hacen el trabajo más desafiante y llevan al crecimiento personal, mientras que los factores de higiene o mantenimiento (hygiene o maintenance factors) apelan al mecanismo de evitación. Que una necesidad satisfecha deje de motivar es idea de Maslow, y el trabajador que se autodirige corresponde a la Teoría Y de McGregor."
+  },
+  "personnel-1-q26": {
+   "q": "Al evaluar la incorporación de robots al programa de seguridad, ¿qué tipo de tareas es MEJOR asignar a la tecnología en lugar de a oficiales humanos, según el libro?",
+   "o": [
+    "Tareas que exigen decidir, percibir o cambiar de rumbo sobre la marcha",
+    "Tareas de diálogo cara a cara para decidir el siguiente paso a seguir",
+    "Tareas monótonas, repetitivas y simples, en las que las personas se aburren",
+    "Tareas de juicio ante circunstancias que varían al azar durante el turno"
+   ],
+   "e": "El libro asigna a la tecnología las tareas monótonas, repetitivas y simples, en las que los humanos se aburren o se vuelven complacientes. Decidir, percibir o cambiar de rumbo sobre la marcha es mejor para humanos, y el diálogo cara a cara y el juicio ante circunstancias cambiantes son justamente lo que exige un “ser humano necesario”."
+  },
+  "personnel-2-q0": {
+   "q": "Un programa de formación busca que los oficiales cambien cómo perciben a las personas con discapacidad y comprendan la mentalidad criminal y la velocidad de un asalto. ¿Qué dominio del aprendizaje trabaja principalmente?",
+   "o": [
+    "Cognitivo (cognitive), porque se basa en entender una teoría y aplicarla",
+    "Afectivo (affective), porque cambia cómo la persona ve una situación",
+    "Psicomotor (psychomotor), porque exige repetición y cursos de actualización",
+    "Transferencia (transfer), porque aplica lo aprendido al entorno laboral"
+   ],
+   "e": "El dominio afectivo es actitudinal o perceptivo: cambia cómo la persona ve una situación, e incluye el trato a personas con discapacidad y comprender la conducta agresiva, la mentalidad criminal y la velocidad de un asalto. La transferencia no es un dominio, sino la aplicación de lo aprendido al trabajo, y el cognitivo se centra en el conocimiento y la teoría."
+  },
+  "personnel-2-q1": {
+   "q": "Según el libro, ¿qué afirmación sobre la experiencia como fuente de aprendizaje es correcta?",
+   "o": [
+    "Es la mejor maestra, sobre todo en el dominio psicomotor",
+    "Sin educación ni formación, es la maestra más cara",
+    "Puede sustituir a la educación formal cuando el oficial suma años en el puesto",
+    "Solo aporta valor una vez logrado el desarrollo profesional"
+   ],
+   "e": "El libro afirma que “la experiencia es la mejor maestra” no es necesariamente cierto: debe guiarse con educación y formación, o el empleado aprende lecciones equivocadas y repite errores. Por eso la fórmula es Educación + Formación + Experiencia guiada = Desarrollo (Education + Training + Guided Experience = Development)."
+  },
+  "personnel-2-q2": {
+   "q": "Un exoficial demanda a la empresa por negligencia y alega que nunca recibió formación sobre uso de la fuerza. ¿Qué práctica de documentación protegería MEJOR a la empresa?",
+   "o": [
+    "Formularios de evaluación que muestren la satisfacción de los oficiales con el curso",
+    "Exámenes firmados por instructor y empleado, y una base de datos central de formación",
+    "Ayudas de trabajo (job aids) entregadas al oficial con los puntos clave de cada tema",
+    "Una política escrita que haga obligatoria la formación para conservar el empleo"
+   ],
+   "e": "Para la protección legal (legal protection), el libro pide documentar toda la formación: listas de asistencia, exámenes firmados por el instructor y el empleado, y una base de datos centralizada. Las evaluaciones de satisfacción no prueban el aprendizaje real, y las ayudas de trabajo complementan la formación, pero no la sustituyen."
+  },
+  "personnel-2-q3": {
+   "q": "Según el libro, al identificar las necesidades de formación de una fuerza de seguridad, ¿cuál es el PRIMER paso?",
+   "o": [
+    "Consultar los temas que los propios oficiales identifican y ordenan por prioridad",
+    "Comparar con la formación que dan instalaciones similares de la zona",
+    "Revisar los requisitos legales impuestos por el gobierno o por contrato",
+    "Revisar las deficiencias de los informes posteriores a incidentes (after-action reports)"
+   ],
+   "e": "El primer paso es ver si aplican requisitos legales impuestos por el gobierno o por contrato (contratos con clientes, convenios sindicales o requisitos de aseguradoras). Después vienen las normas y guías del sector, los estándares de la comunidad, las deficiencias de desempeño y los propios oficiales."
+  },
+  "personnel-2-q4": {
+   "q": "Los oficiales de una caseta no detectan vehículos sospechosos porque la cámara tiene mala resolución y la caseta está mal orientada. El director pide un curso de detección. Según el libro, ¿qué es lo MÁS apropiado?",
+   "o": [
+    "Dar el curso, porque toda deficiencia de desempeño puede corregirse con formación",
+    "No usar formación: solo procede ante una deficiencia documentada de conocimiento o habilidad",
+    "Comprar un programa comercial (off-the-shelf) para impartir el curso de inmediato",
+    "Dar el curso como formación obligatoria para conservar el empleo"
+   ],
+   "e": "La formación solo procede si hay una deficiencia documentada de conocimiento, habilidad o capacidad. Usarla para problemas ajenos a eso, como un mal diseño del puesto o un equipo inadecuado, es inapropiado y desperdicia fondos; aquí el problema está en la cámara y en la orientación de la caseta."
+  },
+  "personnel-2-q5": {
+   "q": "Un objetivo conductual (behavioral objective) dice: “Con un radio portátil y la lista de códigos del sitio, el oficial reportará una alarma simulada en menos de 60 segundos y sin errores”. ¿Qué representa “en menos de 60 segundos y sin errores”?",
+   "o": [
+    "Las condiciones en que se realiza la tarea",
+    "La tarea deseada",
+    "El criterio de desempeño aceptable",
+    "El contacto de aprendizaje (learning contact)"
+   ],
+   "e": "Todo objetivo conductual describe la tarea (reportar una alarma), las condiciones (con radio y lista de códigos) y el criterio de desempeño aceptable (en menos de 60 segundos y sin errores). El contacto de aprendizaje es otra cosa: el número o la proporción de empleados expuestos a la formación."
+  },
+  "personnel-2-q6": {
+   "q": "Un director propone que todo oficial que no complete el nuevo curso pierda su empleo. Según el libro (Stroberger 2000), ¿por qué debe evitarse esta medida?",
+   "o": [
+    "Porque viola los requisitos mínimos de formación fijados por el gobierno",
+    "Porque contradice la andragogía de Knowles: el adulto es autodirigido",
+    "Porque eleva el costo de horas extra de los reemplazos durante el curso",
+    "Porque impide a la empresa documentar la formación como prueba en un juicio"
+   ],
+   "e": "El libro desaconseja obligar a formarse para conservar el empleo porque contradice los principios de andragogía (principles of andragogy) de Malcolm Knowles, resta credibilidad al programa, y los requisitos legales solo fijan mínimos. Ojo: en otro apartado el libro propone que los cursos externos sean “condición de empleo”, pero ante esta pregunta su postura es evitar la formación obligatoria."
+  },
+  "personnel-2-q7": {
+   "q": "¿Cuál es la diferencia BÁSICA entre un mentor y un oficial de formación de campo (field training officer, FTO)?",
+   "o": [
+    "El mentor enseña sin evaluar; el FTO además evalúa al novato",
+    "El mentor actúa antes de la formación previa; el FTO solo después de ella",
+    "El mentor es un formador externo; el FTO siempre es un supervisor interno",
+    "El mentor es más común en la policía; el FTO en casi todos los entornos de seguridad"
+   ],
+   "e": "En la mentoría (mentoring), el mentor enseña pero no evalúa; el FTO es también supervisor, evalúa el desempeño y al final recomienda retener o despedir al empleado, por lo que su rol es más complejo. El FTO es común en la policía, mientras que la mentoría funciona mejor en la mayoría de entornos de seguridad."
+  },
+  "personnel-2-q8": {
+   "q": "Un gerente anuncia que él impartirá personalmente toda la formación del departamento; semanas después, abrumado por la carga real, la abandona y el programa queda incompleto. ¿Cómo llama el libro a este obstáculo?",
+   "o": [
+    "Síndrome del formador certificado (Certified Trainer Syndrome)",
+    "Síndrome de la rana (frog syndrome)",
+    "Estereotipos o prejuicio hacia los oficiales",
+    "Limitaciones presupuestarias de la dirección"
+   ],
+   "e": "En el síndrome de la rana (IFPO 2015), un obstáculo ligado al ego, el gerente salta al proyecto de formar a todos y, al ver la carga real, salta fuera, de modo que la formación se detiene. El síndrome del formador certificado es distinto: un instructor dice estar certificado en un tema, pero no tiene base para enseñarlo."
+  },
+  "personnel-2-q9": {
+   "q": "¿Qué describe MEJOR el ascenso en el puesto (promotion-in-place) como estrategia de reconocimiento?",
+   "o": [
+    "Una recompensa única en dinero por lograr una certificación relevante, como CPO",
+    "Mismo nivel, pero con aumento, nuevo título o rango, o nuevas funciones",
+    "Pagar con otro presupuesto programas como técnico en emergencias médicas o CPO",
+    "Incluir al oficial en la formación de la empresa matriz o del cliente"
+   ],
+   "e": "El ascenso en el puesto (ascenso horizontal) mantiene al oficial en el mismo nivel, pero con aumento, cambio de rango o título, o cambio de funciones; crea especialidades y estructura la carrera. Una recompensa única es un bono (bonus), pagar programas con otro presupuesto es reembolso de matrícula (tuition reimbursement) e incluirlo en la formación de la matriz es formación integrada."
+  },
+  "personnel-2-q10": {
+   "q": "¿Qué rol del oficial exige formación en agravios (torts), negligencia, contratos, reglas especiales para menores y leyes laborales?",
+   "o": [
+    "Agente de inteligencia (intelligence agent)",
+    "Agente de aplicación o cumplimiento (enforcement/compliance agent)",
+    "Consultor legal (legal consultant)",
+    "Representante de la dirección (management representative)"
+   ],
+   "e": "El rol de consultor legal exige entender asuntos legales y cuasilegales: agravios, negligencia, contratos, nociones de procedimiento penal, reglas para menores, leyes administrativas y laborales. El agente de aplicación o cumplimiento se centra en hacer cumplir las normas de la dirección, reducir conflictos y documentar infracciones."
+  },
+  "personnel-3-q0": {
+   "q": "Según McCrie (2015), ¿qué documento conviene distribuir antes de la solicitud de propuestas (request for proposal, RFP) para dar a los proveedores la máxima información, con datos como la conferencia de licitantes, la carta de intención y las reglas de adquisición?",
+   "o": [
+    "El acuerdo operativo (operating agreement)",
+    "El resumen de la convocatoria (solicitation summary)",
+    "El documento de especificaciones (specification document)",
+    "La lista de licitantes (bidders' list)"
+   ],
+   "e": "El resumen de la convocatoria es el siguiente paso útil tras definir el alcance: da a los proveedores la máxima información para armar propuestas completas, y después se distribuye el RFP. El acuerdo operativo, en cambio, lo entrega la agencia como respuesta al RFP."
+  },
+  "personnel-3-q1": {
+   "q": "Una agencia de guardias ofrece usar sus propias órdenes generales y especiales (general and special orders), ya probadas con muchos clientes, para ahorrar tiempo. ¿Cuál es la MEJOR respuesta del gerente de seguridad del cliente?",
+   "o": [
+    "Aceptarlas tal cual, porque redactar las órdenes es responsabilidad de la agencia",
+    "Tomarlas como borrador que el cliente revisa, adapta y aprueba",
+    "Rechazarlas y exigir que la agencia redacte otras desde cero para el sitio",
+    "Aceptarlas si la agencia asume por contrato la responsabilidad por su contenido"
+   ],
+   "e": "Proveer las órdenes es responsabilidad del cliente, aunque en la práctica a menudo las redacta la agencia; las prepare quien las prepare, el cliente siempre las revisa y aprueba. Las órdenes de la agencia pueden estar pensadas para muchos clientes distintos y no recoger necesidades concretas, cultura organizacional ni factores locales."
+  },
+  "personnel-3-q2": {
+   "q": "En una organización híbrida (oficiales propios y contratados), ¿qué regla salarial general da el libro para el personal contratado?",
+   "o": [
+    "Que la agencia fije las tarifas según el mercado local para proteger su margen",
+    "Que el salario más bajo del contratado iguale al menos el de entrada de los propios",
+    "Que el salario del contratado sea un porcentaje fijo de lo que factura la agencia",
+    "Que el área de compras fije la política de compensación para lograr el menor costo"
+   ],
+   "e": "La regla general es que el salario más bajo del oficial contratado iguale al menos el salario de entrada de los puestos propios, porque las grandes diferencias bajan la moral y suben la rotación. Además, las tarifas salariales las fija el cliente, no la agencia, y si compras es burocrático, la política de compensación la fija el gerente de seguridad."
+  },
+  "personnel-3-q3": {
+   "q": "Según el libro, ¿qué debe ser un criterio clave al seleccionar una agencia en relación con su acuerdo operativo (operating agreement)?",
+   "o": [
+    "Que use su acuerdo estándar, ya probado con muchos clientes",
+    "Que acepte, sin ninguna objeción, todo requisito que fije el cliente",
+    "Su disposición a adaptar el acuerdo a las especificaciones del cliente",
+    "Que el acuerdo limite por igual la responsabilidad de ambas partes"
+   ],
+   "e": "La disposición de la agencia a adaptar su acuerdo a las especificaciones del cliente indica su filosofía de servicio y hasta su desempeño futuro. Los acuerdos estándar pueden ser vagos y estar redactados para limitar la responsabilidad de la agencia, y aceptar requisitos irreales deja preparado el fracaso."
+  },
+  "personnel-3-q4": {
+   "q": "El personal contratado de un sitio trabaja 450 horas por semana. El cliente quiere controlar mejor el servicio y dar órdenes directas a los oficiales de la agencia. Según el libro, ¿qué es lo MÁS adecuado?",
+   "o": [
+    "Dejar toda la supervisión a la agencia, porque el cliente nunca debe supervisar a contratados",
+    "Contratar un supervisor propio y pasar las órdenes por el supervisor u oficial líder de la agencia",
+    "Contratar un supervisor propio que dirija de cerca y en persona a cada oficial contratado",
+    "Bajar las horas contratadas a menos de 400 por semana para no necesitar supervisor"
+   ],
+   "e": "Como regla práctica, si el personal contratado supera las 400 horas por semana, el cliente debe contratar su propio supervisor de seguridad. Pero si este vigila demasiado de cerca al personal contratado pueden surgir problemas laborales (employment issues), así que sus instrucciones deben pasar por el supervisor de la agencia o el oficial líder (lead officer)."
+  },
+  "personnel-3-q5": {
+   "q": "En el método de prestaciones (fringe benefits) del análisis de ofertas, una agencia da días festivos pagados, vacaciones y seguro médico, pero no licencia por enfermedad ni seguro de vida. ¿Cuántos puntos obtiene y cómo se interpretan?",
+   "o": [
+    "10 puntos; en este método gana el puntaje más bajo",
+    "15 puntos; en este método gana el puntaje más alto",
+    "15 puntos; en este método gana el puntaje más bajo",
+    "10 puntos; en este método gana el puntaje más alto"
+   ],
+   "e": "Se parte de 25 puntos (5 por cada una de las cinco prestaciones) y se restan 5 por cada prestación que la agencia sí da: 25 − 15 = 10. La agencia con menos prestaciones obtiene más puntos y gana el puntaje bajo, lo que elimina la ventaja de costo de dar pocas prestaciones."
+  },
+  "personnel-3-q6": {
+   "q": "En un contrato con precio con incentivos (incentive pricing) basado en un tope de rotación (maximum officer turnover level), ¿qué ocurre si en un mes la rotación de la agencia queda por debajo del nivel acordado?",
+   "o": [
+    "La agencia factura con las tarifas acordadas, sin ningún ajuste",
+    "La agencia recibe un bono, como porcentaje de la factura normal",
+    "El cliente aplica un descuento porcentual sobre la factura del mes",
+    "El cliente sube la tarifa por hora para que el aumento llegue al oficial"
+   ],
+   "e": "Con el tope de rotación, medido cada mes, una rotación en el nivel acordado se factura con las tarifas acordadas, una menor genera un bono como porcentaje de la factura y una mayor, una penalización como descuento. Aun pagando bonos cada mes, al cliente le sale más barato que capacitar reemplazos constantes."
+  },
+  "personnel-3-q7": {
+   "q": "Meses después de adjudicar el contrato, el cliente nota pequeños incumplimientos de los oficiales, pero decide no decir nada para no dañar la relación con la agencia. Según el libro, ¿cuál es el riesgo principal?",
+   "o": [
+    "Que la agencia imponga penalizaciones económicas al cliente por falta de comunicación",
+    "Que el desempeño inadecuado tolerado pronto se vuelva la nueva norma",
+    "Que el acuerdo se convierta en un contrato implícito (implied contract)",
+    "Que la agencia pierda su licencia por no reportar los incumplimientos"
+   ],
+   "e": "El libro advierte que, si se tolera un desempeño inadecuado de los oficiales o de la agencia, pronto se vuelve la nueva norma. Por eso pide controles continuos (checks and balances): reuniones regulares, inspecciones sorpresa, auditorías y revisión de facturas, además de atender de inmediato todo desacuerdo."
+  },
+  "personnel-4-q0": {
+   "q": "Un hospital construirá una nueva ala y quiere que el control de acceso, la videovigilancia y el monitoreo de alarmas se integren en los planos, junto con los arquitectos, antes de cerrarlos. ¿Qué tipo de consultor es el MÁS adecuado?",
+   "o": [
+    "Consultor de gestión de seguridad (security management consultant)",
+    "Consultor técnico de seguridad (technical security consultant)",
+    "Consultor forense de seguridad (forensic security consultant)",
+    "Comité asesor de seguridad (security advisory committee)"
+   ],
+   "e": "El consultor técnico traduce los conceptos a planos y especificaciones de equipo, trabaja con arquitectos e ingenieros en obra nueva o renovación y ahorra dinero al evitar adaptar la seguridad después de construir (retrofit). El consultor de gestión puede dar los conceptos funcionales del sistema, pero no es especialista en su diseño detallado."
+  },
+  "personnel-4-q1": {
+   "q": "Al evaluar a consultores para un programa de seguridad, ¿cuál de estas características es una señal de alarma según el libro?",
+   "o": [
+    "Que se especialice en un solo sector, como salud o comercio minorista",
+    "Que no sea independiente y promueva un solo producto o pocas medidas",
+    "Que cobre más que un consultor individual por trabajar con un equipo de analistas",
+    "Que sea selectivo y rechace encargos fuera de su especialidad"
+   ],
+   "e": "Es señal de alarma un consultor no independiente que promueve un solo producto o una gama limitada de medidas: un buen programa usa un conjunto variado y meditado. La especialización y la selectividad son rasgos esperables, y las firmas medianas o grandes pueden cobrar más por trabajar con analistas, editores y especialistas."
+  },
+  "personnel-4-q2": {
+   "q": "Una empresa ya evaluó las solicitudes de varios consultores. Según el método de cinco pasos del libro, ¿cómo debe hacerse la entrevista?",
+   "o": [
+    "Por teléfono con todos los candidatos, solo a cargo del gerente de seguridad",
+    "En persona con los dos o tres mejores y al menos dos representantes de la empresa",
+    "En persona solo con el candidato más barato, para negociar de inmediato",
+    "Por escrito, con un cuestionario distinto adaptado al perfil de cada candidato"
+   ],
+   "e": "El paso 4 es entrevistar en persona a los dos o tres mejores, con al menos dos representantes de la empresa, haciendo las mismas preguntas a todos y pidiendo muestras de trabajo censuradas (redacted). Elegir solo por precio es riesgoso: un honorario bajo puede salir más caro si un consultor menos hábil tarda más."
+  },
+  "personnel-4-q3": {
+   "q": "Un contrato con honorario de tope máximo (not-to-exceed) estima 4 días de trabajo con un tope de 6. El trabajo acaba requiriendo 7 días. ¿Cuántos días paga el cliente?",
+   "o": [
+    "4 días, lo estimado",
+    "6 días, el tope",
+    "7 días, lo trabajado",
+    "5 días, el punto medio"
+   ],
+   "e": "Con el tope máximo, los costos de imprevistos o retrasos no se pasan al cliente salvo que este acepte: si se necesitan más días que el tope, se paga el tope. A diferencia del honorario fijo, si se termina antes (por ejemplo, en 5 días), se paga solo lo usado."
+  },
+  "personnel-4-q4": {
+   "q": "¿Qué caracteriza al anticipo o iguala (retainer) como forma de pago a un consultor?",
+   "o": [
+    "El cliente paga solo los días usados, hasta un límite garantizado",
+    "El consultor conserva el pago aunque no se usen los días mínimos",
+    "Se cobra la tarifa por hora del consultor multiplicada por ocho",
+    "Se paga un único monto total, a menudo con gastos incluidos, por todo el estudio"
+   ],
+   "e": "En el retainer, el consultor se compromete a cierto número de días al año con una tarifa con descuento sustancial; el cliente asegura acceso y el consultor un ingreso, que conserva aunque no se usen los días mínimos. Pagar solo lo usado hasta un límite es el tope máximo, la tarifa por hora × 8 es el honorario diario y el monto total es el honorario fijo."
+  },
+  "personnel-4-q5": {
+   "q": "A mitad de un estudio sobre pérdidas de carga, el cliente pide al consultor que revise también la seguridad de los estacionamientos. Según el libro, ¿cómo debe manejarse esta expansión del alcance (scope creep)?",
+   "o": [
+    "El consultor la acepta de palabra si el cliente paga por hora",
+    "Solo con acuerdo de ambas partes, por escrito, como anexo al contrato",
+    "El coordinador del proyecto la aprueba e informa después al consultor",
+    "Se rechaza siempre: el alcance no puede cambiar tras firmar el contrato"
+   ],
+   "e": "La expansión del alcance puede plantearla cualquiera de las partes, a menudo por necesidad, pero solo se amplía con acuerdo de ambas, por escrito, como anexo (addendum) al contrato. Preocupa sobre todo cuando se paga por hora, porque puede excederse el presupuesto."
+  },
+  "personnel-4-q6": {
+   "q": "Al gestionar un proyecto de consultoría, ¿qué riesgo legal de los informes escritos del consultor destaca el libro?",
+   "o": [
+    "Que pierden validez si no los firma el director general (CEO)",
+    "Que la parte contraria puede obtenerlos en un juicio mediante exhibición de pruebas (discovery)",
+    "Que solo son admisibles si siguen la norma ISO 31000",
+    "Que el consultor puede publicarlos si no hay un anexo sobre su propiedad"
+   ],
+   "e": "Los informes escritos están sujetos a exhibición de pruebas por la parte contraria en un juicio, así que conviene definir su custodio y su ubicación ante una citación (subpoena) y limitar la información sensible a pocas personas de confianza. ISO 31000 es solo una de las metodologías aceptadas que cita el libro."
+  },
+  "personnel-5-q0": {
+   "q": "Durante un evento al aire libre, un agente de protección ejecutiva (executive protection, EP) ve a un individuo que saca un arma a pocos metros del protegido (principal). Según el libro, ¿qué debe hacer el agente?",
+   "o": [
+    "Apartar al protegido, cubrirlo con el cuerpo y sacarlo de la zona cuanto antes",
+    "Responder al fuego para neutralizar al agresor y después evacuar al protegido",
+    "Cubrir al protegido con el cuerpo y mantener la posición hasta que llegue la policía",
+    "Interponerse y someter al agresor mientras otro agente se queda con el protegido"
+   ],
+   "e": "El agente de EP no es luchador ni policía: ante un posible asesino aparta al protegido, lo cubre con el cuerpo (shield) y lo saca de la zona, el modelo «cubrir y evacuar» (cover and evacuate). Responder al fuego o someter al agresor contradice el objetivo de mantener al protegido fuera de peligro (out of harm's way); solo se pelea si no hay alternativa."
+  },
+  "personnel-5-q1": {
+   "q": "El consejo de administración (board of directors) de una gran empresa encarga al gerente de seguridad crear un programa de protección ejecutiva para el nuevo director general (CEO). ¿Qué debe hacer PRIMERO?",
+   "o": [
+    "Evaluar el riesgo para el ejecutivo, su familia y la organización",
+    "Contratar un equipo de cuatro agentes de tiempo completo para el CEO",
+    "Definir los indicadores clave de desempeño (KPI) del futuro equipo",
+    "Seleccionar un proveedor externo con licencias y buena reputación"
+   ],
+   "e": "El libro dice que el primer paso es evaluar el riesgo para el individuo, su familia y la organización, entendiendo su cartera de riesgos (risk portfolio) actual y futura. Dimensionar el equipo antes de eso arriesga un plan que no responde al riesgo real, que es lo que más resta credibilidad ante el cliente."
+  },
+  "personnel-5-q2": {
+   "q": "En la estructura de un programa corporativo de protección ejecutiva, ¿qué describe MEJOR el modelo híbrido (hybrid)?",
+   "o": [
+    "La plantilla propia fija estrategia y políticas, y los proveedores complementan con especialidades",
+    "El programa combina dominios de protección: corporativo, de celebridad y gubernamental",
+    "Todo el personal de protección es plantilla propia porque el consejo impone el programa",
+    "Los proveedores prestan toda la protección, incluida la dirección estratégica del programa"
+   ],
+   "e": "En 5.2.1, el modelo híbrido combina plantilla propia que fija estrategia, políticas y procedimientos con proveedores que complementan, por ejemplo en contramedidas técnicas o apoyo de viaje en una región. La mezcla de dominios (corporativo, celebridad, gobierno) es el otro sentido de «híbrido», el de 5.2.5, y no describe una estructura de personal."
+  },
+  "personnel-5-q3": {
+   "q": "Según el libro, ¿cuál de estos es un requisito de las normas del Servicio de Impuestos Internos (Internal Revenue Service, IRS) de EE. UU. para cubrir la protección ejecutiva corporativa como beneficio ejecutivo (executive perk)?",
+   "o": [
+    "Una auditoría anual que demuestre que existe un riesgo genuino",
+    "Un equipo mínimo de cuatro agentes asignado de forma permanente",
+    "Un mandato escrito del consejo para proteger al CEO y al COO",
+    "Un programa de KPI revisado cada año por el director financiero"
+   ],
+   "e": "Los requisitos que destaca el libro son un programa genuino (bona fide) 24/7 prestado por profesionales capacitados, un riesgo verificable y una auditoría anual que demuestre el riesgo genuino. El mandato del consejo es un motivo frecuente para iniciar un programa, pero no figura entre esos requisitos."
+  },
+  "personnel-5-q4": {
+   "q": "Un exagente del Servicio Secreto de EE. UU. se incorpora como agente de protección en una empresa privada. Según el libro, ¿qué es lo MÁS importante que debe entender en su nuevo rol?",
+   "o": [
+    "El peso de las habilidades blandas y los límites de autoridad y licencias en lo privado",
+    "Que su formación gubernamental no sirve y debe repetir todo el entrenamiento táctico",
+    "Que conserva la facultad de controlar el área del protegido que le daba la ley federal",
+    "Que su principal valor para el cliente son el tiro, las artes marciales y la conducción"
+   ],
+   "e": "El libro valora la formación de quienes vienen del gobierno, pero advierte que deben entender el peso de las habilidades blandas (soft skills), los límites de su autoridad y las licencias exigidas en el sector privado. La facultad de controlar el entorno del protegido deriva de leyes específicas, como 18 U.S.C. Section 3056, y la protección privada a menudo no tiene autoridad formal."
+  },
+  "personnel-5-q5": {
+   "q": "El equipo de inteligencia protectora (protective intelligence) detecta que un grupo publica mensajes hostiles hacia la CEO y comenta que asistirá a su próxima conferencia. ¿A qué tipo de evaluación de amenazas (threat assessment) corresponde este análisis?",
+   "o": [
+    "Evaluación basada en la conducta de personas o grupos de interés",
+    "Evaluación de proximidad a elementos criminales y delitos aleatorios",
+    "Evaluación de vulnerabilidades de los lugares que frecuenta la CEO",
+    "Evaluación del atractivo del blanco dentro del análisis de riesgo"
+   ],
+   "e": "La evaluación basada en la conducta (behavior-based) se centra en personas o grupos de interés detectados por la inteligencia protectora, y el riesgo de actos dirigidos depende de la presencia pública del protegido, como una conferencia. La de proximidad mide la cercanía de residencia, oficina o lugares frecuentes a zonas de más delincuencia, no a individuos concretos."
+  },
+  "personnel-5-q6": {
+   "q": "Una empresa tiene un CEO muy mediático y otros cinco directivos que trabajan tras bambalinas. Según el libro, ¿qué enfoque de protección es MÁS adecuado?",
+   "o": [
+    "Niveles graduados según el riesgo y el valor de cada uno para la empresa",
+    "El mismo nivel para todo el comité de dirección, para no crear agravios internos",
+    "Protección solo para el CEO, porque los demás no tienen presencia pública",
+    "Protección cercana permanente para los seis, con agentes asignados por antigüedad"
+   ],
+   "e": "No todos los ejecutivos tienen el mismo riesgo, así que el libro recomienda niveles graduados de protección según el riesgo del individuo y su valor para la corporación; por ejemplo, todo el programa para el CEO y transporte e inteligencia protectora para el comité de dirección (C-suite). Proteger solo al CEO descarta el enfoque holístico que pide el libro."
+  },
+  "personnel-5-q7": {
+   "q": "Un gerente de protección ejecutiva quiere un indicador clave de desempeño (key performance indicator, KPI) que refleje el entrenamiento, los simulacros y las evaluaciones físicas del equipo. ¿En qué área de KPI encaja?",
+   "o": [
+    "Preparación (readiness)",
+    "Capacidad de respuesta (responsiveness)",
+    "Calidad de los servicios",
+    "Carga de trabajo del equipo"
+   ],
+   "e": "Entre las áreas de KPI de West (2016), la preparación (readiness) incluye entrenamiento, simulacros y evaluaciones físicas. La capacidad de respuesta mide la disponibilidad y adecuación de recursos y el desempeño ante solicitudes urgentes, no el estado de entrenamiento."
+  },
+  "personnel-5-q8": {
+   "q": "En el marco de competencias esenciales de protección ejecutiva validado en 2020, ¿en qué categoría se ubica la avanzada (advance work)?",
+   "o": [
+    "Operaciones de protección: planificación",
+    "Operaciones de protección: táctica",
+    "Seguridad y gestión de la información",
+    "Comunicación"
+   ],
+   "e": "La categoría «Operaciones de protección: planificación» incluye la avanzada, la gestión de uno mismo y de equipos pequeños, y la evaluación de amenaza, riesgo y vulnerabilidad. La categoría táctica agrupa principios de práctica, transporte, primera respuesta médica, movimiento para mantener la seguridad y gestión de incidentes."
+  },
+  "personnel-5-q9": {
+   "q": "Una familia de gran patrimonio contrata a tres nuevos agentes para su residencia principal, que ya cuenta con cámaras, sensores y control de acceso. Según el libro, ¿cuál es la MEJOR práctica para incorporarlos?",
+   "o": [
+    "Formación específica de la propiedad acompañando a agentes con experiencia",
+    "Asignarlos a puestos móviles desde el primer día para que conozcan toda la casa",
+    "Darles el manual de procedimientos y una prueba escrita antes del primer turno",
+    "Que la familia les explique sus expectativas en una reunión y empiecen a operar"
+   ],
+   "e": "La buena práctica al iniciar un programa residencial o sumar agentes es la formación específica de cada propiedad, con un periodo de acompañamiento (shadowing) a agentes con experiencia. Las expectativas de la familia son solo uno de los temas que esa formación debe cubrir, junto con sistemas, accesos, puestos y protocolos de emergencia."
+  },
+  "personnel-5-q10": {
+   "q": "Un equipo de cuatro agentes debe llevar al protegido por un pasillo estrecho y abarrotado hasta el escenario, y el líder de equipo (team leader) quiere un agente en punta (point) delante del protegido. ¿Qué formación es MÁS adecuada?",
+   "o": [
+    "Formación en diamante",
+    "Formación en caja",
+    "Formación en V",
+    "Protección «holgada»"
+   ],
+   "e": "La formación en diamante (diamond), generalmente de cuatro agentes, es una variante de la caja con agentes delante y detrás, indicada para multitudes, espacios estrechos y cuando hace falta un agente en punta. La caja (box) sirve para moverse entre grandes multitudes, pero el libro no la asocia a espacios estrechos ni al agente en punta."
+  },
+  "personnel-5-q11": {
+   "q": "¿Qué describe MEJOR la vigilancia protectora (protective surveillance) según el libro?",
+   "o": [
+    "Equipos encubiertos, retrasados o en el perímetro exterior, que avisan de actividad anormal",
+    "Agentes apartados y con mucho espacio en eventos privados, con el riesgo asumido acordado",
+    "Detección de personas o grupos de interés por la inteligencia protectora antes de un evento",
+    "Barrido de salas y vehículos en busca de dispositivos de escucha antes de que llegue el protegido"
+   ],
+   "e": "La vigilancia protectora, también llamada protección encubierta (covert protection), usa equipos retrasados o en el perímetro exterior que avisan de actividad fuera de lo normal; es capa adicional o sustituto de la protección cercana. El libro insiste en que es distinta incluso de la protección «holgada» (loose), el estilo discreto con agentes apartados y más espacio."
+  },
+  "personnel-5-q12": {
+   "q": "Por presupuesto, un ejecutivo propone que su único agente de protección también conduzca: lo dejaría en la puerta del hotel y luego iría a estacionar. ¿Cuál es el principal problema de este esquema según el libro?",
+   "o": [
+    "Deja solo al protegido en la llegada y la salida, los momentos más críticos",
+    "Obliga a usar un vehículo blindado de fábrica para compensar la falta de escolta",
+    "Impide recorrer la ruta de avanzada a la misma hora del día que el traslado",
+    "Reduce la imagen profesional que se espera de un servicio de chófer (chauffeur)"
+   ],
+   "e": "El libro recomienda un conductor de seguridad (security driver) y, además, un agente de EP: si el agente conduce no puede vigilar la ruta y quizá deba dejar al protegido para estacionar, dejándolo solo en llegadas y salidas. En el caso Voronenkov (2017), el guardaespaldas lo dejó frente al hotel para ir a estacionar y un asesino lo mató mientras tanto."
+  },
+  "personnel-5-q13": {
+   "q": "Sobre el continuo seguridad–conveniencia (security–convenience continuum), ¿qué afirmación es correcta según el libro?",
+   "o": [
+    "Pasado cierto punto, más seguridad vuelve al ejecutivo menos eficaz: «víctima de la protección»",
+    "El agente decide solo dónde situarse en él, porque el protegido no entiende bien los riesgos",
+    "Lo ideal es situarse en el extremo de máxima seguridad siempre que el riesgo sea alto",
+    "Seguridad y conveniencia pueden maximizarse a la vez con suficiente tecnología"
+   ],
+   "e": "Seguridad y conveniencia están en extremos opuestos, ningún extremo es práctico y protegido y agente acuerdan juntos dónde situarse; el exceso de seguridad convierte al ejecutivo en «víctima de la protección». Ojo: el libro dice que el extremo de máxima seguridad tiene «el mayor grado de riesgo», lo que contradice su propia explicación; retén máxima seguridad = mínima conveniencia."
+  },
+  "personnel-5-q14": {
+   "q": "La CEO tendrá una negociación confidencial en una suite de hotel. El líder de protección cercana quiere asegurar la privacidad de esa sala antes de la reunión. ¿Qué recurso especializado es el MÁS adecuado?",
+   "o": [
+    "Un barrido de contramedidas técnicas (TSCM) de la suite",
+    "Un barrido con perros (K-9) de la suite para detectar explosivos",
+    "Un equipo de vigilancia protectora en el perímetro exterior del hotel",
+    "Dispositivos limpios (clean devices) para la CEO y su personal"
+   ],
+   "e": "Las contramedidas técnicas (TSCM) consisten en «barrer» (sweeping) lugares en busca de dispositivos de escucha, y el libro las prevé para asegurar la privacidad de habitaciones de hotel y espacios de eventos donde estará el protegido. Los perros (K-9) detectan explosivos, y los dispositivos limpios protegen los equipos de la viajera, no la sala."
+  },
+  "personnel-6-q0": {
+   "q": "¿Qué distingue MEJOR la concienciación (awareness) de la formación (training) en seguridad?",
+   "o": [
+    "La concienciación busca atención consciente; la formación desarrolla habilidades específicas",
+    "La concienciación transmite conocimiento general; la formación busca atención consciente",
+    "La concienciación se imparte una sola vez; la formación es una actitud continua",
+    "La concienciación es para no empleados; la formación es para la plantilla propia"
+   ],
+   "e": "Según el libro, la educación (education) transmite conocimiento general, la formación desarrolla habilidades específicas y la concienciación busca atención consciente al programa. Confundir la concienciación con la educación es el error típico; además, es la concienciación la que el libro describe como actitud continua."
+  },
+  "personnel-6-q1": {
+   "q": "Una empleada avisa a su supervisor de primera línea (first-line supervision) de que el estacionamiento está muy oscuro de noche. El supervisor no lo escala. Semanas después, otra empleada es agredida allí. Según el libro, ¿cuál es la situación legal de la empresa?",
+   "o": [
+    "La agresión era previsible y la empresa estaba avisada, aunque la queja no se escalara",
+    "La empresa no responde, porque la queja no llegó a la alta dirección ni a seguridad",
+    "Solo responde el supervisor a título personal, por no haber escalado la queja",
+    "La empresa queda protegida si demuestra que tenía un programa de concienciación escrito"
+   ],
+   "e": "Cuando un empleado se queja ante un supervisor de una condición insegura, la situación se vuelve previsible (foreseeable) y la empresa queda avisada, aunque el supervisor no la escale; si la lesión era previsible y evitable y no se actuó, la empresa queda expuesta a una demanda. Por eso debe formar a los supervisores para reconocer la queja y mitigarla o escalarla."
+  },
+  "personnel-6-q2": {
+   "q": "El gerente de seguridad prepara una sesión de concienciación para el comité de alta dirección (executive management), que está revisando recortes de gastos. ¿En qué debe centrarla para que sea MÁS eficaz?",
+   "o": [
+    "En la contribución financiera del programa al resultado",
+    "En cómo la seguridad apoya las metas de cada departamento",
+    "En las obligaciones de cada directivo en los procedimientos de acceso",
+    "En los riesgos más graves de la empresa, para crear sentido de urgencia"
+   ],
+   "e": "Para la alta dirección, concienciación significa conocer la contribución financiera del programa al resultado (bottom line): sus beneficios y lo razonable de sus gastos frente a ellos; si lo ve como gasto sin retorno, puede recortarlo o eliminarlo. Mostrar el apoyo a las metas del departamento es el enfoque para los mandos medios, y el libro desaconseja intentar asustar a la dirección."
+  },
+  "personnel-6-q3": {
+   "q": "En una sucursal pequeña, los empleados dejan las oficinas abiertas porque, dicen, «nadie querría robar nuestros equipos viejos». Según Roper (2006), ¿qué obstáculo a la concienciación refleja esta actitud?",
+   "o": [
+    "Percepción de amenaza mínima",
+    "Ingenuidad (naiveté)",
+    "Indiferencia del departamento o del empleado",
+    "Cultura organizacional negativa"
+   ],
+   "e": "La percepción de amenaza mínima es creer que la amenaza es insignificante o improbable y que los propios activos no son un blanco creíble que alguien quiera robar. La ingenuidad (naiveté) es parecida pero distinta: creer que a uno no le pasará nada malo o que los empleados nunca dañarán a sabiendas a la organización."
+  },
+  "personnel-6-q4": {
+   "q": "Tras completar la concienciación, un ingeniero sénior sigue usando dispositivos no autorizados porque considera que las normas de tecnologías de la información (TI) son para usuarios menos sofisticados. Según el libro, ¿cómo se clasifica y qué debe hacerse?",
+   "o": [
+    "Usuario arrogante; debe ser disciplinado",
+    "Usuario sin formación; debe repetir la concienciación",
+    "Usuario arrogante; debe recibir formación técnica adicional",
+    "Usuario sin formación; debe ser disciplinado"
+   ],
+   "e": "Mallery distingue a los usuarios sin formación (uneducated users), que entienden poco de las consecuencias, de los usuarios arrogantes (arrogant users), que creen que las normas de los demás no les aplican. Quien se niega a cumplir incluso tras la concienciación debe ser disciplinado; más formación no resuelve una negativa deliberada y deja a la empresa expuesta a pérdidas y responsabilidades."
+  },
+  "personnel-6-q5": {
+   "q": "Según el libro, ¿cuál es el propósito PRINCIPAL de un programa de concienciación en seguridad, del que derivan los demás?",
+   "o": [
+    "Proteger los activos de la empresa y reducir pérdidas",
+    "Reducir la responsabilidad legal de la organización",
+    "Cumplir los requisitos regulatorios y contractuales",
+    "Comunicar el valor del departamento de seguridad"
+   ],
+   "e": "De los doce propósitos, el libro señala proteger los activos de la empresa como el principal: enseña a ayudar a proteger activos y reducir pérdidas, y todo lo demás deriva de él. Reducir la responsabilidad legal o comunicar el valor del departamento son propósitos reales, pero derivados."
+  },
+  "personnel-7-q0": {
+   "q": "Una investigación en una planta revela que los empleados que venden droga ven a sus supervisores como desinformados y reacios a confrontar, y aprovechan las zonas cerradas para no ser vistos. ¿Qué razón de la oportunidad (opportunity) para consumir en el trabajo describe MEJOR este hallazgo?",
+   "o": [
+    "Bajo riesgo (low risk)",
+    "Los usuarios se conocen (users know one another)",
+    "Alto retorno (high return on investment)",
+    "Compra y venta a crédito (buy and sell on credit)"
+   ],
+   "e": "El bajo riesgo se explica porque ven a los jefes como desinformados, sin capacitación y reacios a confrontar, y porque las barreras y puertas cerradas que protegen los activos también los ocultan de la vigilancia. «Los usuarios se conocen» se refiere al contacto regular que no despierta sospechas y al trabajo como propiedad privada fuera de la vigilancia policial."
+  },
+  "personnel-7-q1": {
+   "q": "Según el libro, cuando un empleado consumidor ve en riesgo su empleo por la disciplina, ¿cuál es su reacción MÁS común?",
+   "o": [
+    "Fingir una lesión laboral para escapar de la disciplina",
+    "Dejar la droga para conservar su puesto de trabajo",
+    "Renunciar antes del despido para evitar el registro",
+    "Acudir por su cuenta al programa de asistencia al empleado"
+   ],
+   "e": "El empleo suele ser lo único estable de su vida; algunos dejan la droga, pero lo más común es fingir una lesión laboral para escapar de la disciplina. La ausencia larga rara vez cumple lo que esperan: al volver suelen estar más dependientes y tienden a presentar otra reclamación."
+  },
+  "personnel-7-q2": {
+   "q": "Una sustancia tiene alto potencial de abuso, uso médico aceptado en EE. UU. pero con restricciones severas, y puede causar dependencia psicológica o física severa. ¿En qué lista (schedule) de la Ley de Sustancias Controladas (Controlled Substances Act, CSA) se clasifica?",
+   "o": [
+    "Lista II, como la cocaína o la morfina",
+    "Lista I, como la heroína o el LSD",
+    "Lista III, como el Tylenol con codeína",
+    "Lista IV, como el Valium o el fenobarbital"
+   ],
+   "e": "La Lista II combina alto potencial de abuso, uso médico aceptado con restricciones severas y posible dependencia severa; el libro cita cocaína, morfina, anfetamina y opio. La Lista I también tiene alto potencial de abuso, pero ningún uso médico aceptado en EE. UU."
+  },
+  "personnel-7-q3": {
+   "q": "Un consumidor habitual de marihuana nota que necesita cada vez menos cantidad para lograr el mismo efecto, y fuma menos pero con más frecuencia. ¿Qué fenómeno describe el libro y a qué se debe?",
+   "o": [
+    "Tolerancia inversa, porque el THC se retiene y se acumula en la grasa corporal",
+    "Tolerancia inversa, porque el THC se elimina rápido y el cerebro se sensibiliza",
+    "Sinestesia, porque la droga cruza las vías sensoriales y amplifica el efecto",
+    "Dependencia química, porque el ansia fisiológica solo se alivia consumiendo"
+   ],
+   "e": "La tolerancia inversa (reverse tolerance) se debe a que el THC se retiene en la grasa corporal y se acumula porque no se elimina fácilmente, así que el usuario necesita cada vez menos droga. Es lo opuesto a la tolerancia clásica, en la que el cuerpo pide dosis cada vez mayores para el mismo efecto."
+  },
+  "personnel-7-q4": {
+   "q": "Un supervisor acepta una y otra vez las excusas de un empleado con faltas frecuentes («tengo muchos problemas en casa», «no volverá a pasar») y lo encubre ante recursos humanos para evitarle disciplina. ¿Qué conducta destructiva muestra el supervisor?",
+   "o": [
+    "Facilitación (enabling)",
+    "Codependencia (codependency)",
+    "Negación (denial)",
+    "Racionalización (rationalization)"
+   ],
+   "e": "La facilitación es permitir o alentar, consciente o inconscientemente, la conducta destructiva de otro, protegiéndolo de las consecuencias; los jefes facilitan cuando lo encubren y aceptan excusas por asistencia o bajo rendimiento. La racionalización es del propio consumidor, que justifica su conducta con excusas en apariencia plausibles."
+  },
+  "personnel-7-q5": {
+   "q": "Una gerente sabe que su mejor técnico consume en el trabajo, pero no lo disciplina por miedo a que renuncie y haya que reemplazarlo, y asume ella parte de su trabajo para sostener la relación. ¿Qué conducta destructiva describe MEJOR su actitud?",
+   "o": [
+    "Codependencia (codependency)",
+    "Facilitación (enabling)",
+    "Negación (denial)",
+    "Racionalización (rationalization)"
+   ],
+   "e": "El libro describe al codependiente como quien teme disciplinar a un empleado por miedo a que se vaya y haya que reemplazarlo, y cree que debe hacer más trabajo del que le toca para mantener la relación: deja que la conducta del otro eclipse su propio juicio. La facilitación se centra en encubrir al consumidor y aceptar sus excusas."
+  },
+  "personnel-7-q6": {
+   "q": "Al redactar la política de lugar de trabajo libre de drogas (drug-free workplace), ¿por qué recomienda el libro evitar el término «bajo los efectos» (under the influence)?",
+   "o": [
+    "Solo el alcohol tiene una definición legal de ese estado",
+    "Los convenios colectivos prohíben usar términos clínicos",
+    "Obligaría a los jefes a diagnosticar el consumo",
+    "Solo se aplica a puestos críticos para la seguridad"
+   ],
+   "e": "Solo el alcohol tiene una definición legal de «bajo los efectos»; para otras drogas no existe estándar, así que no se puede probar. Ojo: el libro se contradice, porque en la sección de marihuana propone una política under-the-influence, pero en la de la política general dice que hay que evitar ese término."
+  },
+  "personnel-7-q7": {
+   "q": "Una investigación laboral sobre un posible consumo de alcohol en horario de trabajo termina con hallazgos que no justifican medidas disciplinarias, aunque el desempeño del empleado sigue cayendo. Según el libro, ¿cuál es la respuesta adecuada?",
+   "o": [
+    "Una intervención para devolverlo al trabajo como contribuyente productivo",
+    "Una amonestación escrita como primer paso de la disciplina progresiva",
+    "Una prueba de drogas al azar para conseguir la evidencia que faltó",
+    "Cerrar el caso y archivar las notas para proteger su privacidad"
+   ],
+   "e": "Si los hallazgos no justifican disciplina, el libro indica que la respuesta adecuada es la intervención (intervention): una interrupción calculada de las conductas destructivas, que no es disciplina y busca devolver al consumidor al trabajo como contribuyente productivo. La disciplina solo llega tras una revisión detallada de hallazgos que la justifiquen."
+  },
+  "personnel-7-q8": {
+   "q": "En la entrevista de una intervención, el supervisor sospecha que el empleado consume cocaína. ¿Qué debe hacer según el libro?",
+   "o": [
+    "Citar hechos concretos, como registros de asistencia, sin acusarlo ni diagnosticarlo",
+    "Decirle que sospecha consumo de cocaína y exigirle una prueba de drogas en el acto",
+    "Identificar a los testigos de la investigación para que entienda la gravedad",
+    "Comprometer a la empresa a pagar su tratamiento si acepta ir al programa de asistencia"
+   ],
+   "e": "En la entrevista solo se usan hechos concretos y pruebas documentales del bajo desempeño, sin acusar al empleado ni intentar diagnosticar o racionalizar su conducta; solo un profesional de salud capacitado puede diagnosticar. Tampoco se identifica a los testigos salvo que sea imprescindible, y se empatiza sin comprometerse."
+  },
+  "personnel-7-q9": {
+   "q": "Un gerente pide al programa de asistencia al empleado (employee assistance program, EAP) la lista de quienes lo han usado y que haga pruebas de drogas a los sospechosos. Según el libro, ¿qué describe MEJOR el papel del EAP?",
+   "o": [
+    "Un centro de enlace confidencial que conecta con ayuda profesional; no investiga ni hace pruebas",
+    "Un servicio que investiga los casos y entrega a la gerencia los nombres de todas las personas que lo usan",
+    "Un servicio interno que da el tratamiento y hace pruebas periódicas a los clientes",
+    "Una función de recursos humanos que aplica la disciplina progresiva a los consumidores"
+   ],
+   "e": "El EAP es un centro de enlace (clearinghouse): no investiga ni hace pruebas de drogas, solo conecta con ayuda profesional de calidad, y ni el empleador conoce los nombres de los clientes. El tratamiento lo dan profesionales externos e independientes, no el propio EAP."
+  },
+  "personnel-7-q10": {
+   "q": "En una jurisdicción que exige muestra dividida (split specimen), un laboratorio analiza la única muestra de orina de un empleado y da un positivo confirmado. La empresa lo despide. ¿Cuál es la consecuencia MÁS probable según el libro?",
+   "o": [
+    "Habrá que reinstalar al empleado aunque haya dado positivo",
+    "El despido se sostiene porque la prueba confirmatoria es muy precisa",
+    "Bastará con repetir la prueba con una muestra de cabello",
+    "El médico revisor podrá validar el resultado tras una entrevista"
+   ],
+   "e": "Donde la ley exige dividir cada muestra en dos, la segunda se ofrece al empleado para analizarla en un laboratorio independiente; si no se divide, hay que reinstalar al empleado aunque dé positivo. La alta precisión de la prueba confirmatoria no subsana el incumplimiento de ese requisito."
+  },
+  "personnel-7-q11": {
+   "q": "El laboratorio confirma un positivo a opiáceos en la muestra de un empleado, quien asegura que toma un analgésico recetado. Según el libro, ¿qué debe ocurrir antes de informar el resultado al empleador?",
+   "o": [
+    "Un médico revisor (MRO) verifica en entrevista confidencial si hay justificación médica",
+    "Recursos humanos pide la receta al empleado y decide si aplica disciplina",
+    "El supervisor entrevista al empleado con un testigo y un representante sindical",
+    "El programa de asistencia evalúa al empleado y certifica si el fármaco explica el positivo"
+   ],
+   "e": "En EE. UU. se exige una revisión médica confidencial antes de informar al empleador: el médico revisor (medical review officer, MRO), un médico con licencia, entrevista al donante y determina si algo distinto de una sustancia controlada usada ilegalmente causó el positivo. El programa de asistencia al empleado no sirve aquí, porque no investiga ni hace pruebas."
+  },
+  "personnel-7-q12": {
+   "q": "Según el libro, ¿qué empleadores corren el MAYOR riesgo de que se impugne la cadena de custodia (chain of custody) de una prueba de drogas?",
+   "o": [
+    "Los que recolectan sus propias muestras",
+    "Los que usan laboratorios certificados por el HHS",
+    "Los que aplican pruebas al azar a toda la plantilla",
+    "Los que reciben los resultados a través de un MRO"
+   ],
+   "e": "La cadena de custodia establece quién manejó la muestra desde la entrega hasta el resultado; si se rompe, el resultado es inválido. El mayor riesgo lo corren los empleadores que recolectan sus propias muestras, porque sin procedimientos estrictos y registros bien controlados no pueden defenderse de reclamos de cadena rota."
+  },
+  "personnel-8-q0": {
+   "q": "El excónyuge de una empleada la llama al trabajo y ha aparecido dos veces en la recepción. Según la clasificación de tipos de agresor (types of offenders) de Penfield (2017), ¿de qué tipo se trata?",
+   "o": [
+    "Tipo 4: relación personal, real o percibida, con un empleado",
+    "Tipo 1: sin relación legítima y con intención criminal",
+    "Tipo 2: relación legítima con la organización, como un cliente",
+    "Tipo 3: empleado actual o antiguo, incluidos los contratistas"
+   ],
+   "e": "El Tipo 4 puede tener o no relación con la organización, pero tiene una relación personal, real o percibida, con un empleado; el libro pone como ejemplos a la pareja doméstica y al excónyuge. El Tipo 1 no tiene relación legítima y actúa con intención criminal, como ladrones o intrusos."
+  },
+  "personnel-8-q1": {
+   "q": "Al redactar la política de violencia en el lugar de trabajo (workplace violence, WPV), ¿qué recomienda el libro sobre el término «tolerancia cero» (zero tolerance)?",
+   "o": [
+    "Evitarlo, porque reduce los reportes y disminuye la seguridad",
+    "Usarlo, porque deja claro que se prohíbe toda conducta violenta",
+    "Usarlo solo para armas, porque las leyes limitan otras prohibiciones",
+    "Evitarlo, porque impide sancionar los reportes falsos o engañosos"
+   ],
+   "e": "El libro pide evitar el término «tolerancia cero» porque reduce los reportes y disminuye la seguridad. La política sí debe prohibir toda violencia y amenaza mediante un código de conducta, con varias vías de reporte, sin represalias por reportes de buena fe y con sanciones por los falsos o engañosos."
+  },
+  "personnel-8-q2": {
+   "q": "Una gerente recibe una carta anónima con amenazas veladas contra el equipo de finanzas. El equipo de manejo de amenazas (threat management team, TMT) se reúne. ¿Qué puede hacer según el libro?",
+   "o": [
+    "Un análisis conductual preliminar de validez baja, mientras investiga para identificar al autor",
+    "Una evaluación válida del riesgo de violencia, porque el texto de la carta basta para analizar la conducta",
+    "Pasar directamente a la evaluación integral con fuentes internas y externas",
+    "Aplicar monitoreo activo al autor hasta que el caso se dé por resuelto"
+   ],
+   "e": "Si el agresor es desconocido, como en comunicaciones anónimas, no se puede hacer una evaluación válida del riesgo de violencia (violence risk assessment); solo cabe un análisis conductual preliminar de baja validez, y se investiga para identificarlo. La evaluación en tres niveles exige un sujeto conocido, al menos de nombre."
+  },
+  "personnel-8-q3": {
+   "q": "El TMT evalúa a un empleado identificado que hizo comentarios amenazantes. La evaluación inicial concluye que no hay riesgo inmediato de daño. ¿Qué sigue según el libro?",
+   "o": [
+    "Una evaluación umbral para decidir si seguir evaluando o basta con monitorear",
+    "Activar los procedimientos de emergencia hasta que la situación se estabilice",
+    "Una evaluación integral para diseñar un plan de resolución no urgente",
+    "Cerrar el caso y anotarlo en el sistema confidencial de registros"
+   ],
+   "e": "Si la evaluación inicial (initial assessment) no halla posibilidad significativa de daño inmediato, se pasa a la evaluación umbral (threshold assessment): si se alcanza el umbral fijado por la empresa, sigue la evaluación integral (comprehensive assessment); si no, solo monitoreo. Saltar directo a la integral omite ese filtro."
+  },
+  "personnel-8-q4": {
+   "q": "Según el libro, ¿por qué las órdenes de alejamiento o de protección, el arresto y la reclusión son solo intervenciones estabilizadoras de corto plazo?",
+   "o": [
+    "Porque si la actitud del agresor hacia el objetivo no cambia, acabarán fallando",
+    "Porque los tribunales solo las conceden por periodos breves y no renovables",
+    "Porque dañan al agresor, y lo primordial es no dañar a ninguna de las partes",
+    "Porque dependen de la policía, y el TMT no tiene forma de coordinarse con ella"
+   ],
+   "e": "La resolución se logra cuando el agresor elige voluntariamente dejar las conductas preocupantes; una resolución no voluntaria probablemente será temporal. Por eso esas medidas solo estabilizan a corto plazo: si la actitud del agresor hacia el objetivo no cambia, acabarán fallando."
+  },
+  "personnel-8-q5": {
+   "q": "Un hombre llama a su expareja, empleada de la empresa, y la amenaza con ir a confrontarla al trabajo. Ella asegura que no hay peligro, pero él tiene historial de violencia doméstica, incluida una confrontación en el trabajo de otra expareja. ¿Qué tipo de monitoreo debe establecer el TMT?",
+   "o": [
+    "Monitoreo activo, con consultas frecuentes que incluyan a compañeros fiables",
+    "Monitoreo pasivo, pidiendo a la empleada que reporte pronto cualquier contacto",
+    "Monitoreo pasivo, porque la propia empleada asegura que no hay peligro",
+    "Ningún monitoreo, porque el asunto pertenece a la vida privada de la empleada"
+   ],
+   "e": "El monitoreo activo (active monitoring) aplica a riesgo moderado o alto, o cuando no se puede confiar en que el objetivo reporte; en el caso doméstico del libro, el objetivo puede minimizar los contactos por vergüenza, miedo a perder el empleo o creerse a salvo. Por eso el TMT ubica compañeros fiables y los consulta varias veces al día; el monitoreo pasivo (passive monitoring) es solo para bajo riesgo."
+  },
+  "personnel-8-q6": {
+   "q": "¿En qué orden evolucionan los equipos de un programa de prevención e intervención de la violencia laboral (workplace violence prevention and intervention, WVPI)?",
+   "o": [
+    "Grupo de trabajo de la política (WG) → grupo de actores clave (SWG) → equipo de manejo de amenazas (TMT)",
+    "Grupo de actores clave (SWG) → grupo de trabajo de la política (WG) → equipo de manejo de amenazas (TMT)",
+    "Equipo de manejo de amenazas (TMT) → grupo de actores clave (SWG) → equipo de manejo de incidentes (IMT)",
+    "Grupo de trabajo de la política (WG) → equipo de evaluación de amenazas (TAT) → equipo de manejo de amenazas (TMT)"
+   ],
+   "e": "Primero se forma el grupo de trabajo de la política, multidisciplinario y amplio; luego el grupo de actores clave, más pequeño; y por último el TMT, permanente, que evalúa y responde a incidentes y supervisa el programa. TAT e IMT son solo otros nombres del TMT, así que no son etapas distintas."
+  },
+  "personnel-8-q7": {
+   "q": "Tras un incidente grave de violencia laboral con heridos, se activa el plan de recuperación del negocio (business recovery). Según el libro, ¿cuál es SIEMPRE la máxima prioridad?",
+   "o": [
+    "La seguridad de las personas (life safety)",
+    "Proteger la reputación y la imagen de la empresa",
+    "Preservar la evidencia y la escena del crimen",
+    "Reanudar las operaciones lo antes posible"
+   ],
+   "e": "El plan de recuperación prioriza preservar la vida, proteger los activos esenciales (incluidas reputación e imagen) y preservar la evidencia, pero la seguridad de las personas es siempre la máxima prioridad. Las operaciones se reanudan solo cuando sea seguro y apropiado."
+  },
+  "personnel-8-q8": {
+   "q": "Un técnico de la empresa, mientras instala un equipo en las oficinas de un cliente, recibe amenazas creíbles de un empleado de ese cliente. Su supervisor tiene causa razonable para creer que el agresor podría cometer violencia. Según el libro, ¿qué obligación tiene el empleador del técnico?",
+   "o": [
+    "Proteger al técnico, porque actúa dentro de sus funciones aunque esté fuera",
+    "Ninguna, porque el agresor es externo y el hecho ocurre fuera de sus instalaciones",
+    "Solo avisar al cliente, ya que la obligación corresponde a quien controla ese lugar",
+    "Proteger al técnico solo si el agresor tiene una relación personal con él"
+   ],
+   "e": "Si el empleador o su representante tiene causa razonable para creer que alguien puede cometer violencia, debe proteger a la víctima potencial; esto aplica a actos en sus instalaciones y contra un empleado que actúa dentro de sus funciones en otro lugar. Además, la obligación no distingue entre fuentes internas y externas ni depende de quién sea el agresor."
+  },
+  "personnel-A-q0": {
+   "q": "Según el modelo de política disciplinaria del Apéndice 1A, ¿cuál de estas situaciones NO constituye conducta indebida (misconduct)?",
+   "o": [
+    "Un error de criterio cometido de buena fe por un oficial",
+    "Retrasos repetidos e injustificables después de advertencias",
+    "La negativa deliberada a seguir una indicación razonable",
+    "Violar una regla razonable que el oficial conocía"
+   ],
+   "e": "El modelo excluye de la conducta indebida la ineficiencia por incapacidad, la negligencia ordinaria en casos aislados y los errores de juicio o de criterio cometidos de buena fe. Los retrasos repetidos tras advertencias, la insubordinación y violar una regla razonable y conocida sí figuran como actos de conducta indebida."
+  },
+  "personnel-A-q1": {
+   "q": "Según el Apéndice 1A, ¿quién lleva las audiencias disciplinarias y qué nivel de prueba debe alcanzar la investigación?",
+   "o": [
+    "Dos o más miembros de la alta dirección; preponderancia de la evidencia",
+    "El supervisor directo del oficial; preponderancia de la evidencia",
+    "Dos o más miembros de la alta dirección; sospecha razonable del supervisor",
+    "Un solo miembro de la alta dirección; confesión o condena penal"
+   ],
+   "e": "Toda audiencia y acción disciplinaria la llevan dos o más miembros de la alta dirección, y el test de equidad pregunta si una investigación exhaustiva e imparcial probó la falta por preponderancia de la evidencia (preponderance of evidence). El supervisor investiga, reporta y recomienda la medida, pero no conduce la audiencia."
+  },
+  "personnel-A-q2": {
+   "q": "Según la hoja informativa del Apéndice 1B, ¿cuál de estas faltas puede causar el despido inmediato en lugar de la disciplina progresiva (progressive discipline)?",
+   "o": [
+    "No presentarse a un turno sin avisar (no-call no-show)",
+    "Llevar el uniforme incompleto o sucio mientras está en servicio",
+    "Entregar una bitácora o un reporte de alarma fuera de plazo",
+    "Comer en un área no designada para ello"
+   ],
+   "e": "La hoja 1B lista nueve faltas no negociables que pueden causar despido inmediato porque el daño es irreparable, entre ellas no presentarse sin avisar, dormir en servicio y abandonar el puesto. Las demás faltas siguen, en general, la disciplina progresiva según la gravedad y los atenuantes."
+  },
+  "personnel-A-q3": {
+   "q": "Según las órdenes generales modelo del Apéndice 3B, ¿cuál es el propósito PRINCIPAL de la patrulla?",
+   "o": [
+    "Reportar deficiencias de mantenimiento y riesgos de seguridad o de incendio",
+    "Marcar todos los puntos de control electrónicos en el tiempo previsto",
+    "Mostrar presencia visible para disuadir a los posibles intrusos",
+    "Comprobar que todas las puertas y cerraduras quedan cerradas"
+   ],
+   "e": "Las órdenes aclaran que marcar los puntos de control electrónicos no es el fin principal: lo es reportar las deficiencias de mantenimiento y los riesgos de seguridad o de incendio observados en la ronda. La protección que se espera del oficial es principalmente preventiva."
+  },
+  "personnel-A-q4": {
+   "q": "La empresa cliente recibirá la próxima semana una visita guiada de inversionistas y quiere indicar a los oficiales cómo actuar ese día. Según el Apéndice 3B, ¿qué tipo de documento corresponde?",
+   "o": [
+    "Instrucciones especiales, emitidas en forma de memorándum",
+    "Órdenes especiales, con los deberes de cada asignación",
+    "Órdenes generales, con normas para todos los oficiales",
+    "Instrucciones del puesto (Post Instructions) firmadas por el cliente"
+   ],
+   "e": "Las instrucciones especiales (special instructions) cubren eventos especiales, como inspecciones o visitas guiadas, y se emiten cuando hace falta en forma de memorándum. Las órdenes especiales (special orders) fijan los deberes de rutina de cada asignación concreta, y las generales (general orders), las normas de desempeño de todos los oficiales."
+  },
+  "personnel-A-q5": {
+   "q": "Según el acuerdo operativo modelo del Apéndice 3C, si el Contratista no reemplaza a un oficial dentro de las 8 horas siguientes a la solicitud, ¿qué puede hacer la Compañía mientras se acuerda la reducción del cobro?",
+   "o": [
+    "Descontar 50 dólares por ocurrencia, por día y por incidente, con aviso escrito previo",
+    "Rescindir el acuerdo de inmediato, sin necesidad del aviso de 30 días",
+    "Retener toda la factura del mes hasta que el Contratista corrija la falta",
+    "Contratar a otro proveedor y cobrarle al Contratista el doble del sobrecosto"
+   ],
+   "e": "Ante las faltas listadas, como no reemplazar a un empleado en 8 horas, el cobro se reduce de mutuo acuerdo; mientras tanto, la Compañía puede descontar 50 dólares por ocurrencia, por día y por incidente, siempre con aviso escrito previo. Si no hay acuerdo en 2 meses desde el descuento, lo descontado se da por aceptado."
+  },
+  "personnel-A-q6": {
+   "q": "Un oficial del Contratista sorprende a un intruso y la policía, al llegar, le pide que firme la denuncia en nombre de la Compañía. Según el Apéndice 3C, ¿qué debe hacer el oficial?",
+   "o": [
+    "Remitir la petición al representante designado de la Compañía",
+    "Firmar la denuncia, porque presenció los hechos directamente",
+    "Firmar la denuncia a nombre del Contratista, no de la Compañía",
+    "Pedir a su supervisor no residente que firme en su lugar"
+   ],
+   "e": "El acuerdo dispone que los oficiales no firman denuncias en nombre de la Compañía: si la policía lo pide, se remite al representante. Además, no hacen detenciones ni arrestos sin consentimiento expreso o instrucción escrita del representante, salvo que las órdenes escritas lo prevean."
+  },
+  "personnel-A-q7": {
+   "q": "Un consultor contratado con el modelo del Apéndice 4C quiere publicar un artículo basado en el informe que redactó para la empresa. ¿Qué establece el contrato?",
+   "o": [
+    "La empresa es dueña de los escritos, pero hará lo posible por darle un derecho no exclusivo a publicarlos",
+    "El consultor es dueño de los escritos y solo necesita el consentimiento escrito previo de la empresa",
+    "Ambas partes son dueñas de los escritos y cualquiera puede publicarlos citando a la otra",
+    "La empresa es dueña de los escritos y el consultor no puede publicarlos en ninguna circunstancia"
+   ],
+   "e": "Según la cláusula de derechos de autor, todos los escritos son propiedad exclusiva de la empresa, que hará lo posible por dar al consultor un derecho no exclusivo (nonexclusive) a publicarlos si las circunstancias, incluida la normativa de seguridad, lo permiten. Los inventos ligados al trabajo (Subject Inventions) también son propiedad exclusiva de la empresa."
+  },
+  "personnel-A-q8": {
+   "q": "Un supervisor nota que un empleado, por lo general cumplidor, llegó hoy con lentes de sol dentro de la oficina. Según la lista de verificación del Apéndice 7A, ¿qué debe hacer?",
+   "o": [
+    "Seguir observando y buscar un patrón de varios indicadores antes de actuar",
+    "Pedir de inmediato una prueba de drogas por sospecha razonable",
+    "Iniciar la intervención y derivarlo al programa de asistencia al empleado",
+    "Anotar el indicador como diagnóstico probable de abuso de sustancias"
+   ],
+   "e": "La lista es solo una ayuda: que aparezcan algunos indicadores no significa necesariamente que haya abuso, y hay que buscar grupos o patrones (clusters) de conductas y síntomas. Solo un patrón justifica pasar a la intervención o fundar la sospecha razonable, y el supervisor nunca diagnostica."
+  },
+  "personnel-A-q9": {
+   "q": "Bajo la política modelo del Apéndice 7C, un supervisor de turno cree que un operador está bajo deterioro (impairment) por su habla y su falta de equilibrio. ¿Qué hace falta para enviarlo a una prueba por sospecha razonable (reasonable suspicion)?",
+   "o": [
+    "Que la respalde el gerente de mayor rango disponible en la instalación o departamento",
+    "Que el proveedor de pruebas lo incluya en su próxima selección aleatoria",
+    "Que recursos humanos confirme la sospecha tras entrevistar a testigos",
+    "Que el empleado firme antes un reconocimiento de que consumió alguna sustancia"
+   ],
+   "e": "En 7C, la sospecha razonable la plantea un supervisor o superior y la respalda el gerente de mayor rango disponible en la instalación o departamento afectado; esa determinación es discrecional y definitiva. La selección aleatoria corresponde a la prueba universal, no a la de sospecha razonable."
+  },
+  "personnel-A-q10": {
+   "q": "Un empleado comparte con un compañero, para un dolor de espalda, un analgésico que le recetó su médico. Según las definiciones de la política modelo del Apéndice 7C, ¿cómo se clasifica ese medicamento?",
+   "o": [
+    "Droga ilegal, en cualquier circunstancia",
+    "Droga legal, porque se obtuvo con receta médica",
+    "Droga legal, si el compañero avisa antes a su supervisor",
+    "Droga ilegal, solo si el compañero queda bajo deterioro"
+   ],
+   "e": "La política define como droga ilegal (illegal drug) la que no se puede obtener legalmente o no se obtuvo o usa de forma legal, e incluye expresamente los medicamentos recetados compartidos con un compañero, en cualquier circunstancia. Avisar al supervisor solo aplica al uso correcto de un medicamento legal que pueda afectar la capacidad de trabajar."
+  },
+  "personnel-A-q11": {
+   "q": "El escenario del Apéndice 8B trata como «amenaza externa» a un ex empleado despedido y potencialmente violento que intenta volver a entrar. Según la tipología de agresores del capítulo 8, ¿qué tipo de agresor es?",
+   "o": [
+    "Tipo 3, porque es un empleado anterior",
+    "Tipo 1, porque ya no tiene relación legítima",
+    "Tipo 2, porque tuvo una relación legítima",
+    "Tipo 4, porque conoce a los empleados en persona"
+   ],
+   "e": "En la tipología de la sección 8.2, un empleado actual o anterior, incluidos los contratistas, es agresor de Tipo 3. El escenario lo llama «externo» solo porque ya no tiene derecho de acceso; el Tipo 1 es quien no tiene ninguna relación legítima con la organización y actúa con intención criminal, como ladrones o intrusos."
+  },
+  "personnel-A-q12": {
+   "q": "Un gerente ya comprobó que los nuevos controles dieron los resultados previstos y ahora los estandariza en toda la organización y define la siguiente lista de problemas. Según el ciclo Planificar-Hacer-Verificar-Actuar (Plan-Do-Check-Act, PDCA), ¿en qué fase está ahora?",
+   "o": [
+    "Actuar (Act)",
+    "Verificar (Check)",
+    "Hacer (Do)",
+    "Planificar (Plan)"
+   ],
+   "e": "En la fase Actuar, si las soluciones resuelven los problemas, se estandarizan en toda la organización, se revisa la lista de problemas y se definen otros nuevos; ahí el ciclo vuelve a empezar. Verificar es la fase previa, en la que se examina si las soluciones dan resultados coherentes con el plan."
+  }
+ }
 }

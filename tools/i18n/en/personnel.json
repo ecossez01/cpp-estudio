@@ -691,5 +691,1096 @@
   "personnel-7": "Substance abuse, including alcohol, harms the company's productivity, safety, and image. The chapter explains why it occurs in the workplace, how it progresses, and which drugs are used. It also explains how managers and security should act: policy, investigation, intervention, assistance programs, and drug testing.",
   "personnel-8": "*Workplace violence* (WPV) can come from inside or outside, and the employer is obligated to protect against it. The chapter explains how to set up a prevention and intervention program based on a risk assessment, a threat management team, and protocols for reporting, assessment, intervention, and monitoring. It also covers incident response and subsequent recovery."
  },
- "quiz": {}
+ "quiz": {
+  "personnel-1-q0": {
+   "q": "A manager must staff an access control post 24 hours a day, 7 days a week, with officers who work 40 hours per week. The manager wants to allow for sick leave, vacations, and holidays, but there are no unusually long vacations or extra training demands. How many officers per post should be budgeted?",
+   "o": [
+    "4.5 officers",
+    "4.2 officers",
+    "5 full-time officers",
+    "3 officers, one for each 8-hour shift"
+   ],
+   "e": "168 weekly hours divided by 40 gives a minimum of 4.2 officers, but that figure does not cover absences; covering sick leave, vacations, and holidays, the book gives 4.5. Up to 5 full-time officers is justified only with longer vacations or heavier training requirements."
+  },
+  "personnel-1-q1": {
+   "q": "A night foot patrol officer always walks the same route, in the same order and at the same times, so as not to miss any checkpoint. What is the supervisor's BEST recommendation?",
+   "o": [
+    "Patrol systematically, but double back often and take unexpected routes",
+    "Keep the fixed route and verify it with a tour device",
+    "Replace the foot round with alarm monitoring, which covers the area without risk",
+    "Reduce the number of rounds to concentrate on responding to door alarms"
+   ],
+   "e": "An invariable route lets an aggressor discover the best moment to attack, so the book calls for systematic patrols with frequent doubling back and unexpected routes. Verifying a fixed route does not fix its predictability, and over-reliance on electronic alarms is a typical cause of skipped rounds."
+  },
+  "personnel-1-q2": {
+   "q": "A sales manager asks for an officer to accompany a customer visiting the plant for the whole day. According to the book, how should the security manager respond regarding this escort?",
+   "o": [
+    "Assign an officer, because escorting people is one of the basic functions",
+    "Explain that, as a rule, the host who invited the visitor should escort them",
+    "Assign the patrol officer, who can escort the visitor while making rounds",
+    "Assign an officer only if the visitor is not visibly displaying a visitor pass"
+   ],
+   "e": "As a general rule, security should not escort visitors or customers, because it diverts officers from protection duties; the host who invited the visitor does it. Exceptions include escorting people carrying large sums of money, information, or special goods, accompanying employees for their safety, and assisting sick or physically disabled persons."
+  },
+  "personnel-1-q3": {
+   "q": "A man who appears to be under the influence of drugs is shouting and throwing objects in the lobby. According to the book, when handling this disruptive person, what is the MOST important consideration?",
+   "o": [
+    "Limiting the legal liability of the company and the security force",
+    "Protecting relations with employees, the public, and media watching the scene",
+    "Safety and de-escalating or eliminating the immediate danger",
+    "Controlling him with minimal injury, discomfort, or embarrassment"
+   ],
+   "e": "The book names safety and de-escalating or eliminating the immediate danger as the most important consideration. Liability and image are secondary considerations (excessive concern over liability leads to acting “too little, too late”), and minimal-injury control is the second objective, not the immediate concern."
+  },
+  "personnel-1-q4": {
+   "q": "According to the book, when is arming a security officer justified?",
+   "o": [
+    "When the client wants to project a stronger, more deterrent image to intruders",
+    "When the officer already holds a valid government-issued license to carry a firearm",
+    "When life is at greater risk without it, or lethal force is reasonably expected",
+    "When the jurisdiction allows armed officers and the insurer has been notified"
+   ],
+   "e": "Arming an officer is justified when one or both conditions exist: greater danger to life without the weapon, or a reasonable expectation that the officer will have to use fatal force. Licensing and notifying the insurer are requirements for carrying weapons, not reasons to arm."
+  },
+  "personnel-1-q5": {
+   "q": "A company will hire armed officers through a contract agency. Its manager believes a good contract shifts almost all legal liability to the provider, so the company need not set any firearms policies. What is the BEST response?",
+   "o": [
+    "Correct, if the contract includes an indemnification clause in the company's favor",
+    "Wrong: suits reach anyone remotely connected, so the client must set key policies",
+    "Correct, because the agency is the one that licenses, trains, and supervises armed officers",
+    "Wrong, but only if the officers carry personal weapons rather than agency weapons"
+   ],
+   "e": "The book warns that a good contract does not shift almost all liability: lawsuits usually include anyone remotely connected. Also, paying the provider means accepting its management style, so the hiring organization must set the crucial policies and protocols and require all firearms provisions in the service contract."
+  },
+  "personnel-1-q6": {
+   "q": "A company is considering issuing less-than-lethal weapons, such as batons and pepper spray, to its officers. According to the book, which two elements must ALWAYS be in place before deploying them?",
+   "o": [
+    "A clear use-of-force policy plus sufficient initial and recurrent training",
+    "A government carry license plus liability insurance with higher policy limits",
+    "Maintenance by a qualified armorer plus locked storage in an approved container",
+    "Authorization from the local police plus body-worn cameras recording every use"
+   ],
+   "e": "The book says less-than-lethal weapons are never deployed without a clear and concise use-of-force policy and sufficient initial and recurrent training. A qualified armorer, locked storage, and higher insurance limits are discussed for firearms, not as those two key elements."
+  },
+  "personnel-1-q7": {
+   "q": "In McGoey's (2018) security force continuum, a uniformed officer is already present and has given calm but firm instructions. The subject refuses to leave and resists passively, without physically threatening anyone. Which level comes next?",
+   "o": [
+    "Chemical Agent",
+    "Control Holds and Restraints",
+    "Temporary Incapacitation",
+    "Verbal Communication"
+   ],
+   "e": "After Officer Presence (level 1) and Verbal Communication (level 2) comes level 3: using the hands to guide, hold, or restrain, without strikes, takedowns, or chokeholds. The Chemical Agent level (4) is reserved for when lesser tactics, such as control holds, have failed or there is an imminent physical threat."
+  },
+  "personnel-1-q8": {
+   "q": "A security director wants to equip officers with body worn cameras. According to the book, what should the director do FIRST?",
+   "o": [
+    "Buy the equipment and test it on a pilot shift before writing policies",
+    "Consult legal counsel and local police on legality and recording protocols",
+    "Order recording for the entire shift to avoid failures from forgetting or misuse",
+    "Calculate video storage costs to justify the budget request"
+   ],
+   "e": "Before using them, the book calls for consulting legal counsel and local police about their legality and about recording, storage, and use protocols, and then creating policies modeled on police protocols. Storage cost is a drawback to consider, but it is not the first step."
+  },
+  "personnel-1-q9": {
+   "q": "In a hybrid force, proprietary supervisors direct frontline contract officers. What does the book call this relationship?",
+   "o": [
+    "Hierarchical (vertical) model",
+    "Principal-agent",
+    "Network (flattened) model",
+    "Deputization"
+   ],
+   "e": "The book calls the relationship in which proprietary supervisors direct frontline contract officers principal-agent. The vertical and network models describe organizational structure in general, and deputization refers to granting peace officer powers for tasks such as directing traffic."
+  },
+  "personnel-1-q10": {
+   "q": "The CFO proposes replacing the proprietary force with a contract force because it costs less. According to the book, what should the final decision be based on?",
+   "o": [
+    "On the total hourly cost, including benefits, overtime, and turnover",
+    "On the type of assets, the risk level, and expectations of the officers",
+    "On the historical turnover of the in-house force versus local contract agencies",
+    "On how much legal liability the service contract can shift to the agency"
+   ],
+   "e": "The book says the final decision should be based on the type of assets protected, the level of risk, and the expectations of the officers, not on cost. A legal review can show whether the contract shifts some liability, but that does not decide the choice."
+  },
+  "personnel-1-q11": {
+   "q": "A company awarded its guard service to the lowest bidder and the service level dropped. According to the book, what should it do in the next bid to avoid this?",
+   "o": [
+    "Write detailed bid specifications covering wages, benefits, and performance",
+    "Award to the second-lowest bid to leave the provider a margin for quality",
+    "Return to a proprietary force, which always performs better than a contract one",
+    "Require the agency to assume all civil liability for the service by contract"
+   ],
+   "e": "To avoid the low-bid problem, the client writes detailed bid specifications covering wages, benefits, and performance expectations, which makes it easier to demand quality. The book does not say a proprietary force always performs better: the choice depends on assets, risk, and expectations."
+  },
+  "personnel-1-q12": {
+   "q": "A company hires a guard agency. According to the book, what is the MINIMUM it should require regarding insurance?",
+   "o": [
+    "Being listed as an additional named insured on every one of the agency's policies",
+    "An indemnity bond posted by the agency in favor of the client company",
+    "Current insurer-issued certificates showing agreed limits and notice of changes",
+    "Extending the client's own commercial general liability policy to cover all guards"
+   ],
+   "e": "The minimum is current certificates of insurance issued by the contractor's insurer, showing the agreed limits and committing to notify the client of any change or cancellation. Additional named insured status depends on each policy's wording, and an indemnity bond protects only the public."
+  },
+  "personnel-1-q13": {
+   "q": "According to the book's definition, which three key concepts does a security officer post contain?",
+   "o": [
+    "A written post order, a posted schedule of hours, and an assigned shift supervisor",
+    "Location or activities, a necessary human being, and training and competency",
+    "A fixed post, a roving patrol, and a central control station with monitoring",
+    "The level of risk, the number of entrances, and the value of the assets protected"
+   ],
+   "e": "The book defines a post as any location or combination of activities that requires a trained human being, with three concepts: a location or combination of activities, a necessary human being, and training and competency. Risk level and number of entrances are factors for calculating how many officers are needed, not part of the definition."
+  },
+  "personnel-1-q14": {
+   "q": "A manager wants to justify a wage increase to senior management based on savings in turnover. According to the book, what estimate of turnover costs per officer can be used?",
+   "o": [
+    "About 10% of annual salary, mostly advertising and interviews",
+    "25% or more of annual salary, not counting lost productivity",
+    "One month of salary, since the officer pays for initial training",
+    "Over 100% of annual salary, once client dissatisfaction is added"
+   ],
+   "e": "The book puts turnover costs (advertising, interviews, background checks, hiring, onboarding, and training) at 25% or more of annual salary. Additional costs come on top, such as lost productivity, covering the departed officer's hours, and reduced client satisfaction; that is why better wages reduce turnover and its cost."
+  },
+  "personnel-1-q15": {
+   "q": "A shift runs from 0700 to 1500 with a one-hour meal included, so the officer stays until 1600. The second shift starts at 1500. According to the book, what is the advantage of this design?",
+   "o": [
+    "The officer does not leave duties during the meal, because relief has arrived",
+    "Both shifts overlap from 1500 to 1600, covering peaks without overtime",
+    "Meals no longer need to be recorded in the post log",
+    "The supervisor can cover meals without generating union grievances"
+   ],
+   "e": "Planned shift overlap (maximizing the straight time schedule) covers peaks, such as plant shift changes, without paying overtime. Even so, the officer leaves duties during the meal, must record meals in the log, and regularly using the supervisor for officer work can generate a grievance."
+  },
+  "personnel-1-q16": {
+   "q": "After an incident, a reporter approaches the entrance officer and asks for a statement. According to the general orders, what should the officer do?",
+   "o": [
+    "Give only verified facts, without opinions or people's names",
+    "Make a statement only if the shift supervisor authorizes it by radio",
+    "Decline and refer the reporter to the designated spokesperson or PIO",
+    "Read the prepared statement included in the post orders for such cases"
+   ],
+   "e": "Under the general orders, every statement to the media is made by the designated spokesperson or the public information officer (PIO); officers do not make statements. A poorly made statement, even one that seems limited to facts, can cause panic, ruin reputations, or sabotage investigations."
+  },
+  "personnel-1-q17": {
+   "q": "Three managers who know the company well read a new post order, and each understands it differently. According to the book, what should be done?",
+   "o": [
+    "Add an explanation of the why so its purpose is understood",
+    "Keep it and clarify it verbally at the start-of-shift briefing",
+    "Rewrite it, because it fails the three-reader test",
+    "Merge it with related orders into one more complete document"
+   ],
+   "e": "Under the three-reader test, if three people who know the company do not agree on the meaning of an order, it is rewritten. Orders should be brief and cover a single subject (the why is explained elsewhere in training), and they exist precisely to avoid the problems of verbal instructions."
+  },
+  "personnel-1-q18": {
+   "q": "A new post order on key issuance has been released. During a post visit, which supervisor action does the book recommend to confirm the officer has read it and to reinforce it?",
+   "o": [
+    "Have the officer sign an acknowledgment of reading in the post log",
+    "Pose a hypothetical situation that requires applying the order in practice",
+    "Read the order aloud and ask whether the officer has any questions",
+    "Leave a pocket-size copy at the post and check mastery during the annual appraisal"
+   ],
+   "e": "The book offers three methods: ask specific questions about the order, observe the officer in a real situation where it applies, or pose a hypothetical situation requiring practical knowledge. A signature or reading it aloud does not show the officer can apply it, and this check should be a routine part of every post visit."
+  },
+  "personnel-1-q19": {
+   "q": "For several days, an officer reports: “Came on 0700. Nothing unusual. Relieved 1500.” What is the manager's BEST action?",
+   "o": [
+    "Accept it, since a brief report shows the post is running well",
+    "Eliminate the post, since such reports prove it is not needed",
+    "Require reports of what was done to secure the area, on positive-statement forms",
+    "Ask for longer, free-form narratives describing everything that happened on the shift"
+   ],
+   "e": "Several such reports suggest the post is unnecessary, the officer is untrained, or the officer reports poorly, so they do not by themselves prove the post is unneeded. The book recommends asking the officer to write what was done to secure the area, and prefers forms that require positive statements over free narratives."
+  },
+  "personnel-1-q20": {
+   "q": "A security log is offered in litigation as a record made in the regular course of business, an exception to the hearsay rule. Which of the following is one of the requirements for it to be admissible?",
+   "o": [
+    "It is written in permanent ink, with each entry numbered in strict consecutive order",
+    "A supervisor reviews, approves, and signs every page at the end of each shift",
+    "It records facts known firsthand or reported by one who knew them and had to report",
+    "It is kept by an officer who holds peace officer status in that jurisdiction"
+   ],
+   "e": "The three requirements are: it is kept regularly, it is kept by a person as part of regular duties, and it records facts the recorder knew personally or that were reported by someone with personal knowledge and a duty to report. Writing in ink in consecutive order is good practice for manual logs to prevent alteration, but it is not an admissibility requirement."
+  },
+  "personnel-1-q21": {
+   "q": "According to Miller's (2010) findings on fatigue among police and other shift workers, which statement is correct?",
+   "o": [
+    "Dangerous mental fatigue appears only after 24 hours awake",
+    "Accident rates rise sharply around 0300 and again around 1500",
+    "Chronic fatigue comes from a single night shift, not from sleep debt",
+    "Humans fully adapt to night work after a few weeks"
+   ],
+   "e": "Miller found that accident rates rise sharply around 0300 and also at 1500, due to circadian rhythms. Dangerous mental fatigue probably sets in after more than 17 hours awake (not 24), chronic fatigue arises as sleep debt accumulates, and humans are incompatible with night work."
+  },
+  "personnel-1-q22": {
+   "q": "At 0300, a supervisor finds an officer asleep in a poorly ventilated, very hot perimeter booth shortly after a shift change. According to the book, what is the BEST approach?",
+   "o": [
+    "Dismiss the officer immediately, since sleeping on post allows no mitigation",
+    "Take no action, since sleep induced by inactivity is a natural process",
+    "Act promptly and sensitively, using the failure analysis checklist",
+    "Move the officer to another shift without recording the event, to protect morale"
+   ],
+   "e": "The book recognizes there may be mitigating factors (heat, isolation, schedule changes) and says that, if discipline is warranted, the supervisor must act promptly and sensitively. The sleeping-on-post failure analysis checklist reviews health, medication, hours of sleep, temperature, or lighting, and supports equitable discipline and shows what to change in the work area."
+  },
+  "personnel-1-q23": {
+   "q": "According to the book, what is the MOST effective way to maintain an officer's vigilant performance?",
+   "o": [
+    "Give fixed-post duties such as alarm tests and badge preparation",
+    "Rotate the officer between fixed post and patrol, on foot and mobile",
+    "Display cameras in sequence to reduce the hypnotic effect of monitors",
+    "Schedule automated calls that confirm the officer's status during the shift"
+   ],
+   "e": "The book states that the most effective way to maintain vigilance is to rotate the officer between fixed post and patrol, foot and mobile. Added duties at a fixed post, sequenced camera displays, and status-check calls also help, but they are complementary measures."
+  },
+  "personnel-1-q24": {
+   "q": "ASIS's CRISP report (Miller 2010) lists problems with automation and human monitoring. What does the “cry wolf” syndrome describe?",
+   "o": [
+    "The operator loses manual skill because the system does nearly all the work",
+    "False alarms teach the operator to ignore failure cues; detection nears zero",
+    "Automation replaces human pattern recognition with less competent sensors",
+    "Passively watching monitors produces an almost hypnotic effect that lowers alertness"
+   ],
+   "e": "In the cry wolf syndrome, so many false alarms lead the operator to ignore signs of system failure that failure detection drops to almost zero. Loss of manual skill and replacement by less competent sensors are other problems on the same list; the hypnotic effect of monitors is discussed under video surveillance."
+  },
+  "personnel-1-q25": {
+   "q": "According to Frederick Herzberg's two-dimension model, what do motivators (satisfiers) do?",
+   "o": [
+    "They appeal to the person's avoidance mechanism",
+    "They make work more challenging and lead to personal growth",
+    "They stop motivating once the underlying need is satisfied",
+    "They assume the worker is naturally capable of self-direction and creativity"
+   ],
+   "e": "In Herzberg's model, motivators make work more challenging and lead to personal growth, while hygiene (maintenance) factors appeal to the avoidance mechanism. The idea that a satisfied need stops motivating is Maslow's, and the self-directed worker belongs to McGregor's Theory Y."
+  },
+  "personnel-1-q26": {
+   "q": "When evaluating the addition of robots to the security program, which type of tasks is BEST assigned to technology rather than human officers, according to the book?",
+   "o": [
+    "Tasks that require deciding, perceiving, or pivoting on the fly",
+    "Face-to-face dialogue tasks to decide on the next step",
+    "Monotonous, repetitive, simple tasks in which people get bored",
+    "Judgment tasks in circumstances that vary randomly during the shift"
+   ],
+   "e": "The book assigns technology the monotonous, repetitive, simple tasks in which humans become bored or complacent. Deciding, perceiving, or pivoting on the fly is better for humans, and face-to-face dialogue and judgment in changing circumstances are exactly what require a “necessary human being.”"
+  },
+  "personnel-2-q0": {
+   "q": "A training program aims to change how officers perceive people with disabilities and to help them understand the criminal mindset and the speed of an assault. Which learning domain does it mainly address?",
+   "o": [
+    "Cognitive, because it is based on understanding a theory and applying it",
+    "Affective, because it changes how the person views a situation",
+    "Psychomotor, because it requires repetition and refresher courses",
+    "Transfer, because it applies what was learned to the work environment"
+   ],
+   "e": "The affective domain is attitudinal or perceptual: it changes how a person views a situation, and it includes dealing with people with disabilities and understanding aggressive behavior, the criminal mindset, and the speed of an assault. Transfer is not a domain but the application of learning to the job, and the cognitive domain focuses on knowledge and theory."
+  },
+  "personnel-2-q1": {
+   "q": "According to the book, which statement about experience as a source of learning is correct?",
+   "o": [
+    "It is the best teacher, especially in the psychomotor domain",
+    "Without education or training, it is the most expensive teacher",
+    "It can replace formal education once an officer has years on the job",
+    "It adds value only after professional development is achieved"
+   ],
+   "e": "The book states that “experience is the best teacher” is not necessarily true: experience must be guided by education and training, or the employee learns the wrong lessons and repeats mistakes. Hence the formula Education + Training + Guided Experience = Development."
+  },
+  "personnel-2-q2": {
+   "q": "A former officer sues the company for negligence, claiming he never received use-of-force training. Which documentation practice would BEST protect the company?",
+   "o": [
+    "Participant evaluation forms showing the officers' satisfaction with the course",
+    "Exams signed by instructor and employee, plus a central training database",
+    "Job aids handed to the officer, summarizing the key points of each topic",
+    "A written policy making completion of training mandatory to keep one's job"
+   ],
+   "e": "For legal protection, the book calls for documenting all training: attendance lists, exams signed by both the instructor and the employee, and a centralized database. Satisfaction evaluations do not prove actual learning, and job aids supplement training but do not replace it."
+  },
+  "personnel-2-q3": {
+   "q": "According to the book, when identifying a security force's training needs, what is the FIRST step?",
+   "o": [
+    "Survey the topics the officers themselves identify and rank by priority",
+    "Compare with the training similar facilities in the area provide",
+    "Check legal requirements imposed by government or contract",
+    "Review deficiencies noted in after-action reports and appraisals"
+   ],
+   "e": "The first step is to determine whether legal requirements imposed by government or by contract apply (client contracts, union agreements, or insurer requirements). Industry standards and guidelines, community standards, performance deficiencies, and the officers themselves come afterward."
+  },
+  "personnel-2-q4": {
+   "q": "Officers in a booth fail to detect suspicious vehicles because the camera has poor resolution and the booth is badly oriented. The director requests a detection course. According to the book, what is MOST appropriate?",
+   "o": [
+    "Give the course, since every performance deficiency can be corrected through training",
+    "Not use training, which fits only a documented deficiency in knowledge or skill",
+    "Buy an off-the-shelf program so the course can be delivered right away",
+    "Make the course mandatory as a condition of keeping the job"
+   ],
+   "e": "Training is appropriate only when there is a documented deficiency in knowledge, skill, or ability. Using it for unrelated problems, such as poor job design or inadequate equipment, is inappropriate and wastes funds; here the problem lies in the camera and the booth's orientation."
+  },
+  "personnel-2-q5": {
+   "q": "A behavioral objective reads: “Given a portable radio and the site code list, the officer will report a simulated alarm in under 60 seconds without errors.” What does “in under 60 seconds without errors” represent?",
+   "o": [
+    "The conditions under which the task is performed",
+    "The desired task",
+    "The criterion for acceptable performance",
+    "The learning contact"
+   ],
+   "e": "Every behavioral objective describes the task (report an alarm), the conditions (given a radio and code list), and the criterion for acceptable performance (under 60 seconds without errors). Learning contact is something else: the number or proportion of employees exposed to the training."
+  },
+  "personnel-2-q6": {
+   "q": "A director proposes that any officer who fails to complete the new course should lose the job. According to the book (Stroberger 2000), why should this be avoided?",
+   "o": [
+    "It violates the minimum training requirements set by government regulators",
+    "It contradicts Knowles's andragogy: adult learners are self-directed",
+    "It raises the overtime costs of replacements while officers attend the course",
+    "It prevents the company from documenting training as evidence in a lawsuit"
+   ],
+   "e": "The book advises against making training mandatory to keep one's job because it contradicts Malcolm Knowles's principles of andragogy, undermines the program's credibility, and legal requirements set only minimums. Note: elsewhere the book suggests outside courses could be a “condition of employment,” but on this question its position is to avoid mandatory training."
+  },
+  "personnel-2-q7": {
+   "q": "What is the BASIC difference between a mentor and a field training officer (FTO)?",
+   "o": [
+    "A mentor teaches without evaluating; an FTO also evaluates the trainee",
+    "A mentor works before pre-assignment training; an FTO works only after it",
+    "A mentor is an outside trainer; an FTO is always an in-house supervisor",
+    "Mentors are mainly used in policing; FTOs are used in most security settings"
+   ],
+   "e": "In mentoring, the mentor teaches but does not evaluate; the FTO is also a supervisor, evaluates performance, and ultimately recommends retaining or dismissing the employee, which makes the role more complex. FTOs are common in policing, while mentoring works best in most security settings."
+  },
+  "personnel-2-q8": {
+   "q": "A manager announces that he will personally deliver all of the department's training; weeks later, overwhelmed by the actual workload, he abandons it and the program is left incomplete. What does the book call this obstacle?",
+   "o": [
+    "Certified Trainer Syndrome",
+    "Frog syndrome",
+    "Stereotypes or prejudice toward officers",
+    "Management budget constraints"
+   ],
+   "e": "In frog syndrome (IFPO 2015), an ego-related obstacle, the manager jumps into the project of training everyone and, upon seeing the real workload, jumps out, so training stalls. Certified Trainer Syndrome is different: an instructor claims certification in a subject but has no real basis to teach it."
+  },
+  "personnel-2-q9": {
+   "q": "What BEST describes promotion-in-place as a recognition strategy?",
+   "o": [
+    "A one-time cash reward for earning a relevant certification such as CPO",
+    "Same level, but with a raise, a new title or rank, or new duties",
+    "Funding emergency medical technician or CPO programs from a separate budget",
+    "Including the officer in the parent company's or client's training"
+   ],
+   "e": "Promotion-in-place keeps the officer at the same level but with a raise, a change of rank or title, or a change of duties; it creates specialties and structures a career. A one-time reward is a bonus, funding programs from another budget is tuition reimbursement, and including officers in the parent company's training is integrated training."
+  },
+  "personnel-2-q10": {
+   "q": "Which officer role requires training in torts, negligence, contracts, special rules for minors, and labor laws?",
+   "o": [
+    "Intelligence agent",
+    "Enforcement/compliance agent",
+    "Legal consultant",
+    "Management representative"
+   ],
+   "e": "The legal consultant role requires understanding legal and quasi-legal matters: torts, negligence, contracts, basic criminal procedure, rules for minors, and administrative and labor laws. The enforcement/compliance agent focuses on enforcing management's rules, reducing conflict, and documenting violations."
+  },
+  "personnel-3-q0": {
+   "q": "According to McCrie (2015), which document should be distributed before the request for proposal (RFP) to give vendors maximum information, including details such as the bidders' conference, the letter of intent, and procurement rules?",
+   "o": [
+    "The operating agreement",
+    "The solicitation summary",
+    "The specification document",
+    "The bidders' list"
+   ],
+   "e": "The solicitation summary is the next useful step after defining the scope: it gives vendors maximum information to build complete proposals, and the RFP is distributed afterward. The operating agreement, by contrast, is submitted by the agency in response to the RFP."
+  },
+  "personnel-3-q1": {
+   "q": "A guard agency offers to use its own general and special orders, already proven with many clients, to save time. What is the client security manager's BEST response?",
+   "o": [
+    "Accept them as is, since writing orders is the agency's responsibility",
+    "Treat them as a draft that the client reviews, adapts, and approves",
+    "Reject them and require the agency to write new ones from scratch",
+    "Accept them if the agency contractually assumes liability for their content"
+   ],
+   "e": "Providing the orders is the client's responsibility, although in practice the agency often drafts them; whoever prepares them, the client always reviews and approves them. Agency orders may be designed for many different clients and miss specific needs, organizational culture, or local factors."
+  },
+  "personnel-3-q2": {
+   "q": "In a hybrid organization (proprietary and contract officers), what general wage rule does the book give for contract staff?",
+   "o": [
+    "The agency sets wage rates based on the local market to protect its margin",
+    "The lowest contract wage at least equals the entry wage of in-house posts",
+    "The contract wage is a fixed percentage of what the agency bills",
+    "Purchasing sets the compensation policy to ensure the lowest cost"
+   ],
+   "e": "The general rule is that the lowest contract officer wage should at least equal the entry wage for proprietary posts, because large gaps lower morale and raise turnover. Also, the client, not the agency, sets wage rates, and if purchasing is bureaucratic, the security manager sets the compensation policy."
+  },
+  "personnel-3-q3": {
+   "q": "According to the book, what should be a key criterion when selecting an agency with regard to its operating agreement?",
+   "o": [
+    "That it uses its standard agreement, proven with many clients",
+    "That it accepts, without any objection, every requirement the client sets",
+    "Its willingness to tailor the agreement to the client's specifications",
+    "That the agreement limits both parties' liability equally"
+   ],
+   "e": "The agency's willingness to tailor its agreement to the client's specifications reveals its service philosophy and even its future performance. Standard agreements can be vague and drafted to limit the agency's liability, and accepting unrealistic requirements sets the stage for failure."
+  },
+  "personnel-3-q4": {
+   "q": "Contract staff at a site work 450 hours per week. The client wants tighter control of the service and to give direct orders to the agency's officers. According to the book, what is MOST appropriate?",
+   "o": [
+    "Leave all supervision to the agency, since a client should never supervise contract staff",
+    "Hire a supervisor and route orders via the agency supervisor or lead officer",
+    "Hire its own supervisor to direct each contract officer closely and in person",
+    "Cut contract hours below 400 per week so a client supervisor is not needed"
+   ],
+   "e": "As a rule of thumb, if contract staff work more than 400 hours per week, the client should hire its own security supervisor. But if that supervisor oversees contract staff too closely, employment issues may arise, so instructions should pass through the agency supervisor or the lead officer."
+  },
+  "personnel-3-q5": {
+   "q": "In the fringe benefits method of the bid analysis, an agency provides paid holidays, vacation, and health insurance, but no sick leave or life insurance. How many points does it receive, and how are they read?",
+   "o": [
+    "10 points; in this method the lowest score wins",
+    "15 points; in this method the highest score wins",
+    "15 points; in this method the lowest score wins",
+    "10 points; in this method the highest score wins"
+   ],
+   "e": "The method starts from 25 points (5 for each of the five benefits) and subtracts 5 for each benefit the agency does provide: 25 - 15 = 10. The agency with fewer benefits gets more points and the low score wins, which removes the cost advantage of offering few benefits."
+  },
+  "personnel-3-q6": {
+   "q": "Under an incentive pricing contract based on a maximum officer turnover level, what happens if the agency's turnover in a given month falls below the agreed level?",
+   "o": [
+    "The agency bills at the agreed rates, with no adjustment",
+    "The agency earns a bonus, as a percentage of the normal invoice",
+    "The client applies a percentage discount to that month's invoice",
+    "The client raises the hourly rate so the increase reaches the officer"
+   ],
+   "e": "With a maximum turnover level, measured monthly, turnover at the agreed level is billed at the agreed rates, lower turnover earns a bonus as a percentage of the invoice, and higher turnover brings a penalty as a discount. Even paying bonuses every month costs the client less than constantly training replacements."
+  },
+  "personnel-3-q7": {
+   "q": "Months after the contract award, the client notices minor lapses by the officers but decides to say nothing to avoid harming the relationship with the agency. According to the book, what is the main risk?",
+   "o": [
+    "That the agency imposes financial penalties on the client for poor communication",
+    "That tolerated inadequate performance soon becomes the new norm",
+    "That the arrangement turns into an implied contract",
+    "That the agency loses its license for not reporting the lapses"
+   ],
+   "e": "The book warns that if inadequate performance by officers or the agency is tolerated, it soon becomes the new norm. That is why it calls for ongoing checks and balances: regular meetings, surprise inspections, audits, and invoice reviews, plus immediate attention to every disagreement."
+  },
+  "personnel-4-q0": {
+   "q": "A hospital will build a new wing and wants access control, video surveillance, and alarm monitoring integrated into the plans, working with the architects, before the plans are finalized. Which type of consultant is MOST appropriate?",
+   "o": [
+    "Security management consultant",
+    "Technical security consultant",
+    "Forensic security consultant",
+    "Security advisory committee"
+   ],
+   "e": "The technical consultant translates concepts into plans and equipment specifications, works with architects and engineers on new construction or renovation, and saves money by avoiding a costly retrofit. A management consultant can provide a system's functional concepts but is not a specialist in its detailed design."
+  },
+  "personnel-4-q1": {
+   "q": "When evaluating consultants for a security program, which of these characteristics is a red flag according to the book?",
+   "o": [
+    "That the consultant specializes in a single sector, such as health care or retail",
+    "That the consultant is not independent and promotes one product or few measures",
+    "That the consultant charges more than a solo consultant due to a team of analysts",
+    "That the consultant is selective and declines work outside the specialty"
+   ],
+   "e": "A red flag is a non-independent consultant who promotes a single product or a limited range of measures: a good program uses a varied, well-considered set of measures. Specialization and selectivity are expected traits, and mid-size or large firms may charge more because analysts, editors, and specialists work as a team."
+  },
+  "personnel-4-q2": {
+   "q": "A company has already evaluated several consultants' applications. According to the book's five-step method, how should the interview be conducted?",
+   "o": [
+    "By phone with all candidates, conducted by the security manager alone",
+    "In person with the top two or three, with at least two company representatives",
+    "In person with only the lowest-cost candidate, to negotiate right away",
+    "In writing, with a different questionnaire tailored to each candidate's background"
+   ],
+   "e": "Step 4 is to interview the top two or three in person, with at least two company representatives, asking all of them the same questions and requesting redacted work samples. Choosing on price alone is risky: a low fee can cost more if a less skilled consultant takes longer."
+  },
+  "personnel-4-q3": {
+   "q": "A not-to-exceed fee contract estimates 4 days of work with a cap of 6. The work ends up requiring 7 days. How many days does the client pay?",
+   "o": [
+    "4 days, the estimate",
+    "6 days, the cap",
+    "7 days, the time worked",
+    "5 days, the midpoint"
+   ],
+   "e": "Under a not-to-exceed fee, the costs of contingencies or delays are not passed to the client unless the client agrees: if more days than the cap are needed, the cap is paid. Unlike a fixed fee, if the work ends early (for example, in 5 days), only the days used are paid."
+  },
+  "personnel-4-q4": {
+   "q": "What characterizes a retainer as a way of paying a consultant?",
+   "o": [
+    "The client pays only for days used, up to a guaranteed limit",
+    "The consultant keeps the payment even if the minimum days go unused",
+    "The consultant's hourly rate is billed multiplied by eight",
+    "A single total amount, often with expenses included, is paid for the whole study"
+   ],
+   "e": "Under a retainer, the consultant commits to a certain number of days per year at a substantially discounted rate; the client secures access and the consultant secures income, which is kept even if the minimum days go unused. Paying only for days used up to a limit is a not-to-exceed fee, hourly rate times 8 is a daily fee, and a total amount is a fixed fee."
+  },
+  "personnel-4-q5": {
+   "q": "Midway through a study of cargo losses, the client asks the consultant to also review parking lot security. According to the book, how should this scope creep be handled?",
+   "o": [
+    "The consultant accepts it verbally if the client pays hourly",
+    "Only by mutual written agreement, as an addendum to the contract",
+    "The project coordinator approves it and informs the consultant later",
+    "It is always refused, since scope cannot change after signing"
+   ],
+   "e": "Scope creep can be raised by either party, often out of necessity, but the scope is expanded only by agreement of both parties, in writing, as an addendum to the contract. It is a particular concern when fees are hourly, because the budget may be exceeded."
+  },
+  "personnel-4-q6": {
+   "q": "When managing a consulting project, which legal risk of the consultant's written reports does the book highlight?",
+   "o": [
+    "They lose validity unless signed by the chief executive officer",
+    "The opposing party can obtain them in litigation through discovery",
+    "They are admissible only if they follow ISO 31000",
+    "The consultant may publish them unless there is an ownership addendum"
+   ],
+   "e": "Written reports are subject to discovery by the opposing party in litigation, so a custodian and location should be defined in case of a subpoena, and sensitive information should be limited to a few trusted people. ISO 31000 is just one of the accepted methodologies the book cites."
+  },
+  "personnel-5-q0": {
+   "q": "During an outdoor event, an executive protection (EP) agent sees an individual draw a weapon a few meters from the principal. According to the book, what should the agent do?",
+   "o": [
+    "Move the principal away, shield the principal, and leave the area quickly",
+    "Draw a weapon and return fire to neutralize the attacker, then evacuate the principal",
+    "Shield the principal with the body and hold that position until local police arrive",
+    "Step in and subdue the attacker while another agent stays close to the principal"
+   ],
+   "e": "The EP agent is not a fighter or a police officer: facing a possible assassin, the agent moves the principal away, shields the principal, and gets the principal out of the area, the 'cover and evacuate' model. Returning fire or subduing the attacker contradicts the goal of keeping the principal out of harm's way; the agent fights only if there is no alternative."
+  },
+  "personnel-5-q1": {
+   "q": "The board of directors of a large company asks the security manager to create an executive protection program for the new CEO. What should the manager do FIRST?",
+   "o": [
+    "Assess the risk to the executive, family, and organization",
+    "Hire a team of four full-time agents dedicated to the CEO",
+    "Define the key performance indicators (KPIs) for the future team",
+    "Select an outside vendor with proper licenses and a good reputation"
+   ],
+   "e": "The book says the first step is to assess the risk to the individual, the family, and the organization, understanding the current and future risk portfolio. Sizing the team before that risks a plan that does not match the real risk, which is what most undermines credibility with the client."
+  },
+  "personnel-5-q2": {
+   "q": "In the structure of a corporate executive protection program, which BEST describes the hybrid model?",
+   "o": [
+    "In-house staff set strategy and policies, and vendors supplement with specialties",
+    "The program combines protection domains: corporate, celebrity, and government",
+    "All protection staff are in-house employees because the board mandates the program",
+    "Vendors provide all protection, including the strategic direction of the program"
+   ],
+   "e": "In 5.2.1, the hybrid model pairs in-house staff who set strategy, policies, and procedures with vendors who supplement, for example with technical security countermeasures or travel support in a specific region. Mixing domains (corporate, celebrity, government) is the other meaning of 'hybrid', in 5.2.5, and does not describe a staffing structure."
+  },
+  "personnel-5-q3": {
+   "q": "According to the book, which of these is a requirement of U.S. Internal Revenue Service (IRS) rules for treating corporate executive protection as an executive perk?",
+   "o": [
+    "An annual audit demonstrating that a genuine risk exists",
+    "A minimum team of four agents permanently assigned",
+    "A written board mandate to protect the CEO and the COO",
+    "A KPI program reviewed each year by the chief financial officer"
+   ],
+   "e": "The requirements the book highlights are a bona fide 24/7 security program delivered by trained professionals, a verifiable risk, and an annual audit demonstrating a genuine risk. A board mandate is a common reason to start a program, but it is not one of those requirements."
+  },
+  "personnel-5-q4": {
+   "q": "A former U.S. Secret Service agent joins a private company as a protection agent. According to the book, what is the MOST important thing to understand in the new role?",
+   "o": [
+    "The weight of soft skills and the limits of private-sector authority and licensing",
+    "That government training is of no use and all tactical training must be repeated",
+    "That the federal authority to control the principal's area carries over to the new role",
+    "That shooting, martial arts, and driving are the main value the agent brings the client"
+   ],
+   "e": "The book values the training of people coming from government, but warns that they must understand the weight of soft skills, the limits of their authority, and the licenses required in the private sector. The power to control the principal's environment derives from specific laws such as 18 U.S.C. Section 3056, and private protection often has no formal authority."
+  },
+  "personnel-5-q5": {
+   "q": "The protective intelligence team detects that a group is posting hostile messages about the CEO and mentioning that it will attend her next conference. Which type of threat assessment does this analysis correspond to?",
+   "o": [
+    "Behavior-based assessment of persons or groups of interest",
+    "Assessment of proximity to criminal elements and random crime",
+    "Vulnerability assessment of the places the CEO frequents",
+    "Assessment of target attractiveness within the risk analysis"
+   ],
+   "e": "Behavior-based threat assessment focuses on persons or groups of interest detected by protective intelligence, and the risk of targeted acts depends on the principal's public presence, such as a conference. The proximity meaning measures how close the residence, office, or frequent locations are to higher-crime areas, not specific individuals."
+  },
+  "personnel-5-q6": {
+   "q": "A company has a highly visible CEO and five other executives who work behind the scenes. According to the book, which protection approach is MOST appropriate?",
+   "o": [
+    "Graduated levels based on each person's risk and value to the company",
+    "The same level for the whole C-suite, to avoid internal resentment",
+    "Protection for the CEO only, since the others have no public presence",
+    "Permanent close protection for all six, with agents assigned by seniority"
+   ],
+   "e": "Not all executives carry the same risk, so the book recommends graduated levels of protection based on the individual's risk and value to the corporation; for example, the full program for the CEO and transportation plus protective intelligence for the C-suite. Protecting only the CEO ignores the holistic approach the book calls for."
+  },
+  "personnel-5-q7": {
+   "q": "An executive protection manager wants a key performance indicator (KPI) that reflects the team's training, drills, and physical assessments. Which KPI area does it fit?",
+   "o": [
+    "Readiness",
+    "Responsiveness",
+    "Quality of services",
+    "Team workload"
+   ],
+   "e": "Among West's (2016) KPI areas, readiness covers training, drills, and physical assessments. Responsiveness measures the availability and adequacy of resources and performance on urgent requests, not the state of training."
+  },
+  "personnel-5-q8": {
+   "q": "In the executive protection essential competencies framework validated in 2020, which category includes advance work?",
+   "o": [
+    "Protective operations: planning",
+    "Protective operations: tactical",
+    "Information security and management",
+    "Communication"
+   ],
+   "e": "The 'Protective operations: planning' category includes advance work, management of oneself and small teams, and threat, risk, and vulnerability assessment. The tactical category groups principles of practice, transportation, medical first response, movement to maintain safety, and incident management."
+  },
+  "personnel-5-q9": {
+   "q": "A high-net-worth family hires three new agents for its primary residence, which already has cameras, sensors, and access control. According to the book, what is the BEST practice for bringing them on?",
+   "o": [
+    "Property-specific training with a period of shadowing experienced agents",
+    "Assigning them to roving posts from day one so they learn the whole property",
+    "Handing them the procedures manual and a written test before the first shift",
+    "Having the family explain its expectations in a kickoff meeting, then starting"
+   ],
+   "e": "The good practice when starting a residential program or adding agents is property-specific training, with a period of shadowing experienced agents. The family's expectations are only one of the topics that training must cover, along with systems, access, posts, and emergency protocols."
+  },
+  "personnel-5-q10": {
+   "q": "A four-agent team must move the principal through a narrow, crowded corridor to the stage, and the team leader wants an agent at the point in front of the principal. Which formation is MOST appropriate?",
+   "o": [
+    "Diamond formation",
+    "Box formation",
+    "V formation",
+    "Loose protection"
+   ],
+   "e": "The diamond formation, generally four agents, is a variant of the box with agents in front of and behind the principal, suited to crowds, narrow spaces, and situations needing an agent at the point. The box formation is for moving through large crowds, but the book does not tie it to narrow spaces or a point agent."
+  },
+  "personnel-5-q11": {
+   "q": "Which BEST describes protective surveillance according to the book?",
+   "o": [
+    "Covert teams held back or on the outer perimeter that warn of unusual activity",
+    "Agents set apart with plenty of space at small private events, with the risk agreed",
+    "Identifying persons or groups of interest through protective intelligence before an event",
+    "Sweeping rooms and vehicles for listening devices before the principal arrives"
+   ],
+   "e": "Protective surveillance, also called covert protection, uses teams held back or on the outer perimeter that warn of out-of-the-ordinary activity; it is an additional layer or a substitute for close protection. The book stresses that it is distinct even from 'loose' protection, the discreet style with agents set apart and more space."
+  },
+  "personnel-5-q12": {
+   "q": "To save money, an executive proposes that his only protection agent also drive: the agent would drop him at the hotel entrance and then go park. According to the book, what is the main problem with this arrangement?",
+   "o": [
+    "It leaves the principal alone at arrivals and departures, the critical moments",
+    "It requires a factory-armored vehicle to make up for the lack of a second escort",
+    "It prevents running the advance route at the same time of day as the actual trip",
+    "It weakens the professional image the client expects from a chauffeur service"
+   ],
+   "e": "The book recommends a security driver plus an EP agent: if the agent drives, the agent cannot watch the route and may have to leave the principal to park, leaving the principal alone at arrivals and departures. In the Voronenkov case (2017), the bodyguard dropped him in front of the hotel to go park and an assassin killed him in the meantime."
+  },
+  "personnel-5-q13": {
+   "q": "Regarding the security-convenience continuum, which statement is correct according to the book?",
+   "o": [
+    "Past a point, more security makes the executive less effective: a 'victim of protection'",
+    "The agent alone decides the position on it, since the principal does not fully grasp the risks",
+    "Ideally, the position should be at the maximum-security end whenever risk is high",
+    "Security and convenience can both be maximized with enough technology"
+   ],
+   "e": "Security and convenience sit at opposite ends, neither extreme is practical, and the principal and agent decide together where to stand; excessive security turns the executive into a 'victim of protection.' Note: the book says the maximum-security end also carries 'the greatest degree of risk,' which contradicts its own explanation; remember maximum security = minimum convenience."
+  },
+  "personnel-5-q14": {
+   "q": "The CEO will hold a confidential negotiation in a hotel suite. The close protection leader wants to ensure the privacy of that room before the meeting. Which specialized resource is MOST appropriate?",
+   "o": [
+    "A technical countermeasures (TSCM) sweep of the suite",
+    "A K-9 sweep of the suite to detect explosives",
+    "A protective surveillance team on the hotel's outer perimeter",
+    "Clean devices for the CEO and her support staff"
+   ],
+   "e": "Technical security countermeasures (TSCM) consist of sweeping places for listening devices, and the book lists them for ensuring the privacy of hotel rooms and event spaces where the principal will be. K-9 teams detect explosives, and clean devices protect the traveler's own equipment, not the room."
+  },
+  "personnel-6-q0": {
+   "q": "Which BEST distinguishes security awareness from training?",
+   "o": [
+    "Awareness seeks conscious attention; training develops specific skills",
+    "Awareness conveys general knowledge; training seeks conscious attention",
+    "Awareness is delivered only once; training is a continuing attitude",
+    "Awareness is for nonemployees; training is for the in-house workforce"
+   ],
+   "e": "According to the book, education conveys general knowledge, training develops specific skills, and awareness seeks conscious attention to the program. Confusing awareness with education is the typical mistake; moreover, it is awareness that the book describes as a continuing attitude."
+  },
+  "personnel-6-q1": {
+   "q": "An employee tells her first-line supervisor that the parking lot is very dark at night. The supervisor does not escalate it. Weeks later, another employee is assaulted there. According to the book, what is the company's legal position?",
+   "o": [
+    "The assault was foreseeable and the company was on notice, even without escalation",
+    "The company is not liable, because the complaint never reached executives or security",
+    "Only the supervisor is personally liable, for failing to escalate the complaint",
+    "The company is protected if it can show it had a written awareness program"
+   ],
+   "e": "When an employee complains to a supervisor about an unsafe condition, the situation becomes foreseeable and the company is on notice, even if the supervisor does not escalate it; if the injury was foreseeable and preventable and nothing was done, the company is exposed to a lawsuit. That is why supervisors must be trained to recognize the complaint and mitigate or escalate it."
+  },
+  "personnel-6-q2": {
+   "q": "The security manager is preparing an awareness session for the executive management committee, which is reviewing spending cuts. What should the session focus on to be MOST effective?",
+   "o": [
+    "The program's financial contribution to the bottom line",
+    "How security supports the specific goals of each department",
+    "Each executive's obligations within the access control procedures",
+    "The most serious risks the company faces, to create a sense of urgency"
+   ],
+   "e": "For executive management, awareness means knowing the program's financial contribution to the bottom line: its benefits and the reasonableness of its costs against them; if they see it as a cost with no return, they may cut or eliminate it. Showing support for departmental goals is the approach for middle management, and the book advises against trying to frighten management."
+  },
+  "personnel-6-q3": {
+   "q": "At a small branch, employees leave offices unlocked because, they say, 'nobody would want to steal our old equipment.' According to Roper (2006), which obstacle to awareness does this attitude reflect?",
+   "o": [
+    "Perception of a minimal threat",
+    "Naivete",
+    "Departmental or employee indifference",
+    "Negative organizational culture"
+   ],
+   "e": "Perception of a minimal threat is believing the threat is insignificant or unlikely and that one's own assets are not a credible target anyone would want to steal. Naivete is similar but different: believing nothing bad will happen to you, or that employees will never knowingly harm the organization."
+  },
+  "personnel-6-q4": {
+   "q": "After completing awareness training, a senior engineer keeps using unauthorized devices because he considers IT rules to be for less sophisticated users. According to the book, how is he classified and what should be done?",
+   "o": [
+    "Arrogant user; he should be disciplined",
+    "Uneducated user; he should repeat the awareness training",
+    "Arrogant user; he should receive additional technical training",
+    "Uneducated user; he should be disciplined"
+   ],
+   "e": "Mallery distinguishes uneducated users, who understand little about the consequences, from arrogant users, who believe other people's rules do not apply to them. Anyone who refuses to comply even after awareness training must be disciplined; more training does not fix a deliberate refusal and leaves the company exposed to losses and liability."
+  },
+  "personnel-6-q5": {
+   "q": "According to the book, what is the PRIMARY purpose of a security awareness program, from which the others derive?",
+   "o": [
+    "Protecting company assets and reducing losses",
+    "Reducing the organization's legal liability",
+    "Meeting regulatory and contractual requirements",
+    "Communicating the value of the security department"
+   ],
+   "e": "Of the twelve purposes, the book names protecting company assets as the primary one: it teaches people to help protect assets and reduce losses, and everything else derives from it. Reducing legal liability or communicating the department's value are real purposes, but derived ones."
+  },
+  "personnel-7-q0": {
+   "q": "An investigation at a plant reveals that employees who sell drugs see their supervisors as uninformed and reluctant to confront, and use locked areas to avoid being seen. Which reason behind the opportunity to use drugs at work BEST describes this finding?",
+   "o": [
+    "Low risk",
+    "Users know one another",
+    "High return on investment",
+    "Buy and sell on credit"
+   ],
+   "e": "Low risk stems from seeing bosses as uninformed, untrained, and reluctant to confront, and from the fact that the barriers and locked doors that protect assets also hide users from surveillance. 'Users know one another' refers to regular contact that arouses no suspicion and to the workplace as private property outside direct police watch."
+  },
+  "personnel-7-q1": {
+   "q": "According to the book, when a substance-abusing employee sees the job at risk because of discipline, what is the MOST common reaction?",
+   "o": [
+    "Faking a workplace injury to escape discipline",
+    "Quitting the drug to keep the job",
+    "Resigning before being fired to avoid the record",
+    "Going to the employee assistance program voluntarily"
+   ],
+   "e": "The job is often the only stable thing in the user's life; some quit the drug, but the most common reaction is faking a workplace injury to escape discipline. The long absence rarely delivers what they hope for: they usually return more dependent and tend to file another claim."
+  },
+  "personnel-7-q2": {
+   "q": "A substance has a high potential for abuse, an accepted medical use in the U.S. but with severe restrictions, and may cause severe psychological or physical dependence. In which schedule of the Controlled Substances Act (CSA) is it classified?",
+   "o": [
+    "Schedule II, such as cocaine or morphine",
+    "Schedule I, such as heroin or LSD",
+    "Schedule III, such as Tylenol with codeine",
+    "Schedule IV, such as Valium or phenobarbital"
+   ],
+   "e": "Schedule II combines high abuse potential, accepted medical use with severe restrictions, and possible severe dependence; the book cites cocaine, morphine, amphetamine, and opium. Schedule I also has high abuse potential, but no accepted medical use in the U.S."
+  },
+  "personnel-7-q3": {
+   "q": "A regular marijuana user notices needing less and less to achieve the same effect, smoking smaller amounts but more often. What phenomenon does the book describe, and what causes it?",
+   "o": [
+    "Reverse tolerance, because THC is retained and accumulates in body fat",
+    "Reverse tolerance, because THC is eliminated quickly and the brain becomes sensitized",
+    "Synaesthesia, because the drug crosses sensory pathways and amplifies the effect",
+    "Chemical dependency, because the physiological craving is relieved only by using"
+   ],
+   "e": "Reverse tolerance occurs because THC is retained in body fat and accumulates since it is not easily eliminated, so the user needs less and less of the drug. It is the opposite of classic tolerance, in which the body demands ever larger doses for the same effect."
+  },
+  "personnel-7-q4": {
+   "q": "A supervisor repeatedly accepts the excuses of an employee with frequent absences ('I have a lot of problems at home,' 'it won't happen again') and covers for him with human resources to spare him discipline. Which destructive behavior is the supervisor showing?",
+   "o": [
+    "Enabling",
+    "Codependency",
+    "Denial",
+    "Rationalization"
+   ],
+   "e": "Enabling is knowingly or unknowingly allowing or encouraging another person's destructive behavior, shielding the user from the consequences; supervisors enable when they cover up and accept excuses for attendance or poor performance. Rationalization belongs to the user, who justifies his own conduct with seemingly plausible excuses."
+  },
+  "personnel-7-q5": {
+   "q": "A manager knows her best technician uses drugs at work, but she does not discipline him for fear that he will quit and have to be replaced, and she takes on part of his work to keep the relationship going. Which destructive behavior BEST describes her attitude?",
+   "o": [
+    "Codependency",
+    "Enabling",
+    "Denial",
+    "Rationalization"
+   ],
+   "e": "The book describes the codependent person as someone who fears disciplining an employee in case he leaves and must be replaced, and who believes he or she must do more than a fair share of work to keep the relationship: the other person's behavior overshadows his or her own judgment. Enabling centers on covering for the user and accepting excuses."
+  },
+  "personnel-7-q6": {
+   "q": "When drafting a drug-free workplace policy, why does the book recommend avoiding the term 'under the influence'?",
+   "o": [
+    "Only alcohol has a legal definition of that state",
+    "Collective bargaining agreements bar clinical terms",
+    "It would force supervisors to diagnose drug use",
+    "It applies only to safety-sensitive positions"
+   ],
+   "e": "Only alcohol has a legal definition of 'under the influence'; for other drugs there is no standard, so it cannot be proven. Note: the book contradicts itself, since its marijuana section proposes an under-the-influence policy, while its section on the general policy says to avoid the term."
+  },
+  "personnel-7-q7": {
+   "q": "A workplace investigation into possible on-duty alcohol use ends with findings that do not justify disciplinary action, although the employee's performance keeps declining. According to the book, what is the appropriate response?",
+   "o": [
+    "An intervention aimed at returning him to productive work",
+    "A written warning as the first step of progressive discipline",
+    "A random drug test to obtain the evidence that was missing",
+    "Closing the case and filing the notes to protect his privacy"
+   ],
+   "e": "If the findings do not justify discipline, the book says the appropriate response is intervention: a calculated interruption of destructive behaviors that is not discipline and seeks to return the user to work as a productive contributor. Discipline comes only after a detailed review of findings that justify it."
+  },
+  "personnel-7-q8": {
+   "q": "During an intervention interview, the supervisor suspects the employee is using cocaine. According to the book, what should the supervisor do?",
+   "o": [
+    "Cite concrete facts like attendance records, without accusing or diagnosing",
+    "Tell him cocaine use is suspected and demand an immediate drug test on the spot",
+    "Identify the investigation's witnesses so he grasps how serious it is",
+    "Commit that the company will pay for treatment if he goes to the EAP"
+   ],
+   "e": "The interview uses only concrete facts and documentary evidence of poor performance, without accusing the employee or trying to diagnose or rationalize the behavior; only a trained health professional can diagnose. Witnesses are not identified unless essential, and the supervisor empathizes without making commitments."
+  },
+  "personnel-7-q9": {
+   "q": "A manager asks the employee assistance program (EAP) for the list of people who have used it and to drug test suspected users. According to the book, which BEST describes the EAP's role?",
+   "o": [
+    "A confidential clearinghouse that links to professional help; no investigations or tests",
+    "A service that investigates cases and gives management the names of all the people who use it",
+    "An in-house service that provides the treatment and tests clients periodically",
+    "A human resources function that applies progressive discipline to drug users"
+   ],
+   "e": "The EAP is a clearinghouse: it does not investigate or conduct drug tests, it only connects clients with quality professional help, and not even the employer knows the clients' names. Treatment is provided by outside, independent professionals, not by the EAP itself."
+  },
+  "personnel-7-q10": {
+   "q": "In a jurisdiction that requires a split specimen, a laboratory tests an employee's single urine specimen and gets a confirmed positive. The company fires him. According to the book, what is the MOST likely consequence?",
+   "o": [
+    "The employee must be reinstated even though he tested positive",
+    "The dismissal stands because the confirmatory test is very accurate",
+    "Repeating the test with a hair sample will be enough",
+    "The medical review officer can validate the result after an interview"
+   ],
+   "e": "Where the law requires each specimen to be split in two, the second half is offered to the employee for testing at an independent laboratory; if it is not split, the employee must be reinstated even if positive. The high accuracy of the confirmatory test does not cure the failure to meet that requirement."
+  },
+  "personnel-7-q11": {
+   "q": "The laboratory confirms a positive for opiates in an employee's specimen, and the employee says he takes a prescribed painkiller. According to the book, what must happen before the result is reported to the employer?",
+   "o": [
+    "A medical review officer (MRO) confidentially checks for a medical explanation",
+    "Human resources asks the employee for the prescription and decides on discipline",
+    "The supervisor interviews the employee with a witness and a union representative",
+    "The EAP evaluates the employee and certifies whether the drug explains the result"
+   ],
+   "e": "In the U.S., a confidential medical review is required before reporting to the employer: the medical review officer, a licensed physician, interviews the donor and determines whether something other than an illegally used controlled substance caused the positive. The EAP does not fit here, since it neither investigates nor tests."
+  },
+  "personnel-7-q12": {
+   "q": "According to the book, which employers face the GREATEST risk of having the chain of custody of a drug test challenged?",
+   "o": [
+    "Those that collect their own specimens",
+    "Those that use HHS-certified laboratories",
+    "Those that randomly test the entire workforce",
+    "Those that receive results through an MRO"
+   ],
+   "e": "Chain of custody establishes who handled the specimen from collection to result; if it is broken, the result is invalid. Employers that collect their own specimens face the greatest risk, because without strict procedures and well-controlled records they cannot defend against claims of a broken chain."
+  },
+  "personnel-8-q0": {
+   "q": "An employee's ex-spouse calls her at work and has shown up twice at reception. Under Penfield's (2017) classification of types of offenders, which type is this?",
+   "o": [
+    "Type 4: a real or perceived personal relationship with an employee",
+    "Type 1: no legitimate relationship and criminal intent",
+    "Type 2: a legitimate relationship with the organization, such as a customer",
+    "Type 3: a current or former employee, including contractors"
+   ],
+   "e": "A Type 4 offender may or may not have a relationship with the organization, but has a real or perceived personal relationship with an employee; the book's examples are a domestic partner and an ex-spouse. A Type 1 offender has no legitimate relationship and acts with criminal intent, like robbers or trespassers."
+  },
+  "personnel-8-q1": {
+   "q": "When drafting a workplace violence (WPV) policy, what does the book recommend about the term 'zero tolerance'?",
+   "o": [
+    "Avoid it, because it reduces reporting and lowers safety",
+    "Use it, because it makes clear that all violent conduct is banned",
+    "Use it only for weapons, since laws limit other prohibitions",
+    "Avoid it, because it prevents sanctions for false or misleading reports"
+   ],
+   "e": "The book says to avoid the term 'zero tolerance' because it reduces reporting and lowers safety. The policy must still prohibit all violence and threats through a code of conduct, with multiple reporting channels, no retaliation for good-faith reports, and sanctions for false or misleading ones."
+  },
+  "personnel-8-q2": {
+   "q": "A manager receives an anonymous letter with veiled threats against the finance team. The threat management team (TMT) meets. According to the book, what can it do?",
+   "o": [
+    "A low-validity preliminary behavioral analysis while working to identify the author",
+    "A valid violence risk assessment, since the letter's text is enough to analyze behavior",
+    "Move directly to a comprehensive assessment using internal and external sources",
+    "Apply active monitoring to the author until the case can be considered resolved"
+   ],
+   "e": "If the aggressor is unknown, as with anonymous communications, a valid violence risk assessment cannot be done; only a low-validity preliminary behavioral analysis is possible, while the organization investigates to identify the person. The three-level assessment requires a known subject, at least by name."
+  },
+  "personnel-8-q3": {
+   "q": "The TMT is assessing an identified employee who made threatening comments. The initial assessment concludes there is no immediate risk of harm. According to the book, what comes next?",
+   "o": [
+    "A threshold assessment to decide whether to keep assessing or just monitor",
+    "Activate emergency procedures until the situation stabilizes",
+    "A comprehensive assessment to design a nonimmediate emergency resolution plan",
+    "Close the case and log it in the confidential records system"
+   ],
+   "e": "If the initial assessment finds no significant possibility of immediate harm, the next step is the threshold assessment: if the company's predetermined threshold is reached, a comprehensive assessment follows; if not, only monitoring. Jumping straight to the comprehensive assessment skips that filter."
+  },
+  "personnel-8-q4": {
+   "q": "According to the book, why are restraining or protective orders, arrest, and confinement only short-term stabilizing interventions?",
+   "o": [
+    "Unless the aggressor's attitude toward the target changes, they will eventually fail",
+    "Courts grant them only for brief periods that cannot later be renewed or extended",
+    "They harm the aggressor, and the primary consideration is to harm neither party first",
+    "They depend on the police, and the TMT has no way to coordinate its work with them"
+   ],
+   "e": "Resolution is achieved when the aggressor voluntarily chooses to stop the concerning behaviors; a nonvoluntary resolution will probably be temporary. That is why these measures only stabilize in the short term: if the aggressor's attitude toward the target does not change, they will eventually fail."
+  },
+  "personnel-8-q5": {
+   "q": "A man calls his ex-partner, a company employee, and threatens to come confront her at work. She insists there is no danger, but he has a history of domestic violence, including a workplace confrontation with another ex-partner. What type of monitoring should the TMT set up?",
+   "o": [
+    "Active monitoring, with frequent checks that include trusted coworkers",
+    "Passive monitoring, asking the employee to report any new contact promptly",
+    "Passive monitoring, since the employee herself says there is no danger",
+    "No monitoring, since the matter belongs to the employee's private life"
+   ],
+   "e": "Active monitoring applies to moderate or high risk, or when the target cannot be relied on to report; in the book's domestic case, the target may minimize contacts out of shame, fear of losing the job, or believing she is safe. So the TMT identifies trusted coworkers and checks with them several times a day; passive monitoring is only for low-risk cases."
+  },
+  "personnel-8-q6": {
+   "q": "In what order do the teams of a workplace violence prevention and intervention (WVPI) program evolve?",
+   "o": [
+    "Policy working group (WG) → stakeholders working group (SWG) → threat management team (TMT)",
+    "Stakeholders working group (SWG) → policy working group (WG) → threat management team (TMT)",
+    "Threat management team (TMT) → stakeholders working group (SWG) → incident management team (IMT)",
+    "Policy working group (WG) → threat assessment team (TAT) → threat management team (TMT)"
+   ],
+   "e": "First comes the broad, multidisciplinary policy working group; then the smaller stakeholders working group; and finally the permanent TMT, which assesses and responds to incidents and oversees the program. TAT and IMT are just other names for the TMT, so they are not separate stages."
+  },
+  "personnel-8-q7": {
+   "q": "After a serious workplace violence incident with injuries, the business recovery plan is activated. According to the book, what is ALWAYS the top priority?",
+   "o": [
+    "Life safety",
+    "Protecting the company's reputation and image",
+    "Preserving evidence and the crime scene",
+    "Resuming operations as soon as possible"
+   ],
+   "e": "The recovery plan prioritizes preserving life, protecting essential assets (including reputation and image), and preserving evidence, but life safety is always the top priority. Operations resume only when it is safe and appropriate."
+  },
+  "personnel-8-q8": {
+   "q": "While installing equipment at a client's offices, a company technician receives credible threats from one of the client's employees. His supervisor has reasonable cause to believe the aggressor could commit violence. According to the book, what is the technician's employer obligated to do?",
+   "o": [
+    "Protect the technician, since he is acting within his duties while off-site",
+    "Nothing, since the aggressor is external and the event is off its premises",
+    "Only notify the client, since the duty belongs to whoever controls that location",
+    "Protect the technician only if the aggressor has a personal relationship with him"
+   ],
+   "e": "If the employer or its representative has reasonable cause to believe someone may commit violence, it must protect the potential victim; this applies to acts on its premises and against an employee acting within his duties elsewhere. Moreover, the obligation does not distinguish between internal and external sources or depend on who the aggressor is."
+  },
+  "personnel-A-q0": {
+   "q": "Under the model disciplinary policy in Appendix 1A, which of these situations does NOT constitute misconduct?",
+   "o": [
+    "A good-faith error of judgment by an officer",
+    "Repeated, unjustifiable tardiness after warnings",
+    "Deliberate refusal to follow a reasonable instruction",
+    "Violating a reasonable rule the officer knew about"
+   ],
+   "e": "The model excludes from misconduct inefficiency due to inability, ordinary negligence in isolated cases, and errors of judgment or discretion made in good faith. Repeated tardiness after warnings, insubordination, and violating a reasonable, known rule are all listed as acts of misconduct."
+  },
+  "personnel-A-q1": {
+   "q": "According to Appendix 1A, who conducts disciplinary hearings, and what standard of proof must the investigation meet?",
+   "o": [
+    "Two or more senior management members; preponderance of evidence",
+    "The officer's direct supervisor; preponderance of evidence",
+    "Two or more senior management members; the supervisor's reasonable suspicion",
+    "A single senior management member; a confession or criminal conviction"
+   ],
+   "e": "Every disciplinary hearing and action is conducted by two or more members of senior management, and the fairness test asks whether a thorough, impartial investigation proved the offense by a preponderance of evidence. The supervisor investigates, reports, and recommends the measure, but does not conduct the hearing."
+  },
+  "personnel-A-q2": {
+   "q": "Under the Appendix 1B fact sheet, which of these offenses may lead to immediate dismissal rather than progressive discipline?",
+   "o": [
+    "A no-call no-show for a scheduled shift",
+    "Wearing an incomplete or dirty uniform while on duty",
+    "Turning in a logbook or alarm report late",
+    "Eating in an area not designated for it"
+   ],
+   "e": "Fact sheet 1B lists nine non-negotiable offenses that may cause immediate dismissal because the harm is irreparable, including no-call no-shows, sleeping on duty, and post abandonment. Other offenses generally follow progressive discipline according to severity and mitigating factors."
+  },
+  "personnel-A-q3": {
+   "q": "According to the model general orders in Appendix 3B, what is the PRIMARY purpose of patrol?",
+   "o": [
+    "Reporting maintenance deficiencies and safety or fire risks",
+    "Hitting every electronic checkpoint within the scheduled time",
+    "Maintaining a visible presence to deter potential intruders",
+    "Checking that all doors and locks are secured"
+   ],
+   "e": "The orders state that marking the electronic checkpoints is not the main purpose: the main purpose is to report maintenance deficiencies and security or fire hazards observed on the round. The protection expected of the officer is primarily preventive."
+  },
+  "personnel-A-q4": {
+   "q": "The client company will host a guided tour for investors next week and wants to tell the officers how to act that day. According to Appendix 3B, which type of document applies?",
+   "o": [
+    "Special instructions, issued as a memorandum",
+    "Special orders, covering each assignment's duties",
+    "General orders, setting standards for all officers",
+    "Post instructions signed by the client"
+   ],
+   "e": "Special instructions cover special events, such as inspections or guided tours, and are issued as needed in memorandum form. Special orders set the routine duties of each specific assignment, and general orders set the performance standards for all officers."
+  },
+  "personnel-A-q5": {
+   "q": "Under the model operating agreement in Appendix 3C, if the contractor fails to replace an officer within 8 hours of the request, what may the company do while the reduction in charges is being agreed?",
+   "o": [
+    "Deduct $50 per occurrence, per day, per incident, after written notice",
+    "Terminate the agreement at once, without the 30-day notice",
+    "Hold back the entire monthly invoice until the contractor fixes the failure",
+    "Hire another vendor and charge the contractor twice the extra cost"
+   ],
+   "e": "For the listed failures, such as not replacing an employee within 8 hours, the charge is reduced by mutual agreement; meanwhile, the company may deduct 50 dollars per occurrence, per day, per incident, always with advance written notice. If there is no agreement within 2 months of the deduction, the amount withheld is deemed accepted."
+  },
+  "personnel-A-q6": {
+   "q": "A contractor's officer catches an intruder, and the police, on arrival, ask him to sign the complaint on behalf of the company. According to Appendix 3C, what should the officer do?",
+   "o": [
+    "Refer the request to the company's designated representative",
+    "Sign the complaint, since he directly witnessed the events",
+    "Sign the complaint on behalf of the contractor, not the company",
+    "Ask his nonresident supervisor to sign it in his place"
+   ],
+   "e": "The agreement provides that officers do not sign complaints on behalf of the company; if the police request it, they are referred to the representative. In addition, officers make no detention or arrest without the representative's express consent or written instruction, unless the written orders provide for it."
+  },
+  "personnel-A-q7": {
+   "q": "A consultant hired under the Appendix 4C model wants to publish an article based on the report he wrote for the company. What does the contract provide?",
+   "o": [
+    "The company owns them but will try to give him a nonexclusive right to publish",
+    "The consultant owns them and needs only the company's prior written consent",
+    "Both parties own them, and either may publish them by crediting the other",
+    "The company owns them, and the consultant may never publish them under any circumstances"
+   ],
+   "e": "Under the copyright clause, all writings are the exclusive property of the company, which will make every effort to give the consultant a nonexclusive right to publish them if circumstances, including security regulations, permit. Work-related inventions (Subject Inventions) are also the company's exclusive property."
+  },
+  "personnel-A-q8": {
+   "q": "A supervisor notices that an employee who is usually reliable came in today wearing sunglasses inside the office. According to the Appendix 7A checklist, what should the supervisor do?",
+   "o": [
+    "Keep observing and look for a cluster of indicators before acting",
+    "Order an immediate reasonable suspicion drug test",
+    "Start an intervention and refer him to the employee assistance program",
+    "Record the indicator as a probable diagnosis of substance abuse"
+   ],
+   "e": "The checklist is only an aid: the presence of some indicators does not necessarily mean there is abuse, and the supervisor must look for clusters or patterns of behaviors and symptoms. Only a pattern justifies moving to intervention or supporting reasonable suspicion, and the supervisor never diagnoses."
+  },
+  "personnel-A-q9": {
+   "q": "Under the model policy in Appendix 7C, a shift supervisor believes an operator is impaired because of his speech and lack of balance. What is required to send him for a reasonable suspicion test?",
+   "o": [
+    "Concurrence of the most senior manager available in that facility or department",
+    "Inclusion by the testing vendor in its next random selection",
+    "Confirmation of the suspicion by human resources after interviewing witnesses",
+    "A signed acknowledgment from the employee that he used a substance"
+   ],
+   "e": "In 7C, reasonable suspicion is raised by a supervisor or higher-level manager and concurred in by the highest-ranking manager available at the affected facility or department; that determination is discretionary and final. Random selection belongs to universal testing, not to reasonable suspicion testing."
+  },
+  "personnel-A-q10": {
+   "q": "An employee shares a painkiller prescribed by his doctor with a coworker who has back pain. Under the definitions in the Appendix 7C model policy, how is that medication classified?",
+   "o": [
+    "An illegal drug, under any circumstances",
+    "A legal drug, since it was obtained with a prescription",
+    "A legal drug, if the coworker notifies his supervisor first",
+    "An illegal drug, but only if the coworker becomes impaired"
+   ],
+   "e": "The policy defines an illegal drug as one that cannot be obtained legally or was not obtained or used legally, and it expressly includes prescription drugs shared with a coworker, under any circumstances. Notifying the supervisor applies only to the proper use of a legal drug that may affect the ability to work."
+  },
+  "personnel-A-q11": {
+   "q": "The Appendix 8B scenario treats a terminated, potentially violent former employee trying to reenter as an 'external threat.' Under the chapter 8 offender typology, which type of offender is he?",
+   "o": [
+    "Type 3, because he is a former employee",
+    "Type 1, because he no longer has a legitimate relationship",
+    "Type 2, because he once had a legitimate relationship",
+    "Type 4, because he knows the employees personally"
+   ],
+   "e": "In the section 8.2 typology, a current or former employee, including contractors, is a Type 3 offender. The scenario calls him 'external' only because he no longer has a right of access; Type 1 is someone with no legitimate relationship to the organization who acts with criminal intent, such as robbers or trespassers."
+  },
+  "personnel-A-q12": {
+   "q": "A manager has already confirmed that the new controls produced the expected results and is now standardizing them across the organization and defining the next list of problems. In the Plan-Do-Check-Act (PDCA) cycle, which phase is this?",
+   "o": [
+    "Act",
+    "Check",
+    "Do",
+    "Plan"
+   ],
+   "e": "In the Act phase, if the solutions solve the problems, they are standardized across the organization, the problem list is reviewed, and new problems are defined; the cycle then starts again. Check is the previous phase, in which one examines whether the solutions produce results consistent with the plan."
+  }
+ }
 }

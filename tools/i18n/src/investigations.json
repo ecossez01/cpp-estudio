@@ -487,5 +487,1316 @@
   "investigations-7": "El testimonio es el final de un recorrido que empieza con el incidente. El testimonio del profesional de seguridad vale lo que valgan sus procedimientos, sus informes y su preparación. También cuenta conocer a los participantes del juicio y las trampas del abogado contrario. El capítulo distingue entre testigo de hechos (fact witness) y testigo experto (expert witness), y cita los tres casos del Tribunal Supremo de EE. UU. sobre peritos.",
   "investigations-8": "Para sacar el máximo de una investigación hay que usar multiplicadores de fuerza (force multipliers): fuentes en línea, enlace (liaison), inteligencia y tecnología. Los hallazgos deben comunicarse en informes claros y protegidos. Además, deben servir para mejorar el proceso de investigación y la postura de seguridad de la organización. El capítulo cierra con las tendencias de futuro."
  },
- "quiz": {}
+ "quiz": {
+  "investigations-1-q0": {
+   "q": "Según el libro, ¿cuál describe MEJOR el uso correcto de una hipótesis de trabajo (working hypothesis) en una investigación?",
+   "o": [
+    "Debe evitarse hasta reunir toda la evidencia, porque cualquier hipótesis temprana destruye la objetividad",
+    "Puede formarse al inicio o más tarde y cambiar, siempre que se base en evidencia y hechos conocidos",
+    "Debe fijarse al inicio y mantenerse sin cambios para dar foco y coherencia a toda la investigación",
+    "Solo puede formularla el gerente de la unidad, para que el investigador asignado no pierda su imparcialidad"
+   ],
+   "e": "El libro acepta la hipótesis de trabajo como herramienta válida mientras respete la objetividad (objectivity): puede formarse en cualquier momento y cambiar, pero debe apoyarse en evidencia e información confirmada. Rechazar toda hipótesis temprana es un extremo que el libro no plantea; el error típico es intentar probar una teoría en vez de seguir cada pista."
+  },
+  "investigations-1-q1": {
+   "q": "En una investigación de robo, el registro del control de acceso muestra que la tarjeta de un empleado abrió la puerta del almacén a las 2:14 a. m. ¿Qué debe hacer el investigador ANTES de tratar ese registro como prueba de que el empleado entró?",
+   "o": [
+    "Comprobar si el sistema pudo ser manipulado o suplantado y si otra persona usó la tarjeta",
+    "Confrontar de inmediato al empleado con el registro, antes de que pueda preparar una coartada",
+    "Aceptarlo como prueba sólida, porque un registro electrónico no sufre los errores de la memoria",
+    "Pedir a recursos humanos el historial disciplinario del empleado para valorar su credibilidad"
+   ],
+   "e": "La exactitud (accuracy) exige no aceptar nada a primera vista: un registro de acceso es sospechoso hasta comprobar si el sistema se puede manipular o suplantar (spoofed) y si otra persona usó la tarjeta. Tratarlo como prueba sólida es el error tentador: los registros electrónicos también fallan, como las marcas de hora de un equipo con el reloj mal puesto."
+  },
+  "investigations-1-q2": {
+   "q": "Se denuncia un robo en un centro de distribución. El gerente de operaciones pide esperar tres semanas, hasta el cierre del trimestre, para empezar a investigar. El sistema de video sobrescribe las grabaciones cada 14 días. ¿Qué debe recomendar el director de seguridad?",
+   "o": [
+    "Asegurar ya el video y dejar las entrevistas para después del cierre del trimestre",
+    "Esperar al cierre del trimestre para no alterar las operaciones y luego asignar más investigadores",
+    "Esperar a que el denunciante confirme su denuncia por escrito antes de actuar",
+    "Iniciar la investigación lo antes posible, respetando los requisitos de la jurisdicción"
+   ],
+   "e": "La oportunidad (timeliness) pide abrir la investigación lo antes posible, dentro de los requisitos de la jurisdicción, para que no se degrade la evidencia humana, física o electrónica. Asegurar solo el video no basta: la memoria de los testigos también se desvanece y se contamina con el tiempo."
+  },
+  "investigations-1-q3": {
+   "q": "¿Cuál describe MEJOR cómo se mide el resultado de una investigación en el sector privado, frente al sector público?",
+   "o": [
+    "Por el número de arrestos y condenas que se logran a partir de los casos remitidos a la policía",
+    "Por el porcentaje de casos que alcanzan el estándar de más allá de toda duda razonable",
+    "Por la recuperación, la restitución, la mitigación de litigios y la reducción del riesgo",
+    "Por el número de casos penales que la empresa logra que acepte el fiscal"
+   ],
+   "e": "En el sector privado se busca proteger los intereses de la empresa, y el resultado se mide por recuperación (recovery), restitución (restitution), mitigación de litigios y reducción del riesgo. El número de arrestos y condenas es la medida típica del sector público."
+  },
+  "investigations-1-q4": {
+   "q": "Una investigación interna de fraude apunta a una posible culpa de la empresa y se espera un juicio. ¿A quién debe entregar el investigador su informe?",
+   "o": [
+    "Al responsable final de la decisión (final decision maker), por ejemplo el director general",
+    "Directamente y solo al abogado de la empresa en el caso (legal counsel of record)",
+    "Al director de recursos humanos, que decidirá las medidas disciplinarias",
+    "Al jefe de la unidad de investigación (IU), que lo difundirá según su política de difusión"
+   ],
+   "e": "Si se espera un juicio o se sospecha culpa de la empresa, el informe va directamente y solo al abogado en el caso, para proteger toda la investigación como producto del trabajo del abogado (attorney work product). Entregarlo al responsable final de la decisión es la vía normal de reporte, pero en este supuesto el libro exige el canal del abogado."
+  },
+  "investigations-1-q5": {
+   "q": "Se descubre que un investigador fabricó evidencia en un caso de robo. Según el libro, ¿cuál es la consecuencia MÁS amplia para la unidad de investigación?",
+   "o": [
+    "Todos sus casos anteriores pasan a ser sospechosos y la falta puede exigirse como prueba en juicio",
+    "Solo hay que reabrir el caso de robo, porque la falta no afecta a los casos que ya estaban cerrados",
+    "Basta con reasignarlo a casos de antecedentes, donde la evidencia física es mucho menos relevante",
+    "La unidad pierde su carta funcional y debe volver a emitirla el director general de la empresa"
+   ],
+   "e": "Una conducta poco ética como fabricar evidencia contamina todo lo que el investigador hizo en su cargo antes de descubrirse, y puede exigirse como prueba en juicio (discoverable) y a menudo se admite. Reabrir un solo caso subestima el daño; además, el libro pide el castigo más severo, no una simple reasignación."
+  },
+  "investigations-1-q6": {
+   "q": "Durante una entrevista por desfalco (embezzlement), el sospechoso ofrece devolver el dinero antes de admitir nada. ¿Qué debe hacer el investigador?",
+   "o": [
+    "Aceptar la oferta en el acto, porque la restitución es la mejor prueba del valor de la unidad",
+    "Aceptarla a cambio de no remitir el caso a la policía, para cerrar pronto la investigación",
+    "Remitir la oferta a recursos humanos para que negocie el monto con el sospechoso",
+    "No tratar la restitución hasta que confiese o los hechos permitan una conclusión fiable"
+   ],
+   "e": "El investigador no debe tocar la restitución hasta que el sujeto confiese o los hechos permitan una conclusión fiable; si no, el sospechoso puede alegar después que lo coaccionaron. El libro advierte, además, contra usar la restitución como prueba principal del valor de la unidad."
+  },
+  "investigations-1-q7": {
+   "q": "Según la comparación del libro entre subcontratar (outsourcing) y tener una unidad interna, ¿cuál es una DESVENTAJA propia de la unidad interna?",
+   "o": [
+    "El control de calidad queda casi por completo en manos del contratista que realiza las investigaciones",
+    "Los investigadores pueden conocer menos la misión, la estructura y la cultura de la empresa",
+    "En juicio, la investigación puede verse contaminada (tainted) por hacerla bajo dirección de la empresa",
+    "Exige un esfuerzo continuo de gestión del contrato con el proveedor del servicio"
+   ],
+   "e": "La Figura 1.2 señala como desventaja interna que, sobre todo en juicio, la investigación puede verse contaminada por hacerse bajo la dirección de la empresa. Las otras tres opciones son desventajas de la subcontratación; de hecho, los investigadores internos suelen conocer mejor la organización."
+  },
+  "investigations-1-q8": {
+   "q": "Un empleado ha enviado mensajes amenazantes a una compañera. La empresa quiere que, desde el inicio del caso, aporten su visión recursos humanos, seguridad industrial, seguridad y legal, y que se recomienden cambios de políticas. ¿Qué mecanismo es MÁS adecuado?",
+   "o": [
+    "Remitir el caso a un inspector general con canal directo a la alta dirección",
+    "Activar un equipo de gestión de amenazas (threat management team, TMT)",
+    "Asignarlo a una unidad de investigación regional con conocimiento local",
+    "Contratar a un proveedor externo de servicio completo (full-scope)"
+   ],
+   "e": "El TMT es multidisciplinario (recursos humanos, seguridad industrial, seguridad, legal y otras áreas), se activa al inicio según el tipo de caso, opina sobre la disciplina, recomienda cambios de políticas y es muy útil en violencia laboral. El inspector general resuelve otro problema: un canal de reporte independiente cuando salirse del organigrama choca con la cultura."
+  },
+  "investigations-1-q9": {
+   "q": "Una empresa contrata a una firma de investigación que, a su vez, subcontrata a un investigador independiente para un caso en otro estado. ¿Qué debe hacer el jefe de la unidad de investigación respecto a las licencias?",
+   "o": [
+    "Verificar la licencia del investigador y también la de la firma que lo emplea",
+    "Confiar en la garantía escrita de la firma, que responde de sus subcontratistas",
+    "Verificar solo la licencia de la firma, porque cubre a todo su personal",
+    "Verificar solo la licencia del investigador, que es quien hará el trabajo"
+   ],
+   "e": "Con investigadores externos se verifica la licencia del individuo y la de la firma que lo emplea; no se puede dar por supuesta. La responsabilidad final de que tengan formación y licencia es de la organización que contrata, así que no basta con la garantía de la firma."
+  },
+  "investigations-1-q10": {
+   "q": "¿Qué documento describe cómo se inician y se realizan las investigaciones, los canales de reporte, los mecanismos de coordinación y la resolución final, y explica, por ejemplo, a recursos humanos cómo pedir investigaciones de antecedentes?",
+   "o": [
+    "La carta funcional (functional charter)",
+    "Los objetivos anuales de la unidad (objectives)",
+    "El plan de investigación (investigative plan)",
+    "La declaración de políticas (policy statement)"
+   ],
+   "e": "La declaración de políticas describe cómo se inician y hacen las investigaciones, los canales de reporte, la coordinación y la resolución final (disposition), y también rige a otros departamentos. La carta funcional, en cambio, es un documento breve emitido por el director general que da credibilidad y autoridad a la unidad y fija su propósito y sus metas estratégicas."
+  },
+  "investigations-1-q11": {
+   "q": "Una unidad de investigación evalúa candidatos. ¿Cuál cumple MEJOR la regla práctica del libro sobre experiencia general (general experience)?",
+   "o": [
+    "Ocho años como policía de patrulla en una gran ciudad, sin trabajo concreto de investigación",
+    "Una certificación CPP reciente y un posgrado, sin experiencia previa haciendo investigaciones",
+    "Dos años en investigaciones de varios tipos, con entrevistas y manejo de evidencia",
+    "Seis meses en una unidad de fraude complejo, con un único caso de gran repercusión"
+   ],
+   "e": "La regla práctica es de dos años haciendo investigaciones, mejor de varios tipos, con entrevistas, manejo de evidencia, vigilancia, búsqueda en registros e informes. Patrullar como policía no cuenta como investigar, por muchos años que sean, salvo que haya hecho trabajo de investigación concreto."
+  },
+  "investigations-1-q12": {
+   "q": "Según el libro, en el presupuesto de una unidad de investigación, ¿qué partidas suelen ser las MÁS grandes y cuáles las MÁS fáciles de controlar?",
+   "o": [
+    "Las mayores, los gastos generales; las más fáciles de controlar, el personal y los viajes",
+    "Las mayores, personal y servicios externos; las más fáciles de controlar, los gastos generales",
+    "Las mayores, el equipo y los suministros; las más fáciles de controlar, los servicios externos contratados",
+    "Las mayores, los servicios externos; las más fáciles de controlar, los costos de personal"
+   ],
+   "e": "Los costos de personal y de servicios externos suelen ser las partidas más grandes, y los gastos generales (overhead) suelen ser los más fáciles de controlar. Controlar bien los costos operativos y generales mejora mucho la respuesta a las peticiones de fondos."
+  },
+  "investigations-1-q13": {
+   "q": "Tras concluir un caso de robo en un almacén, la unidad de investigación (IU) sanciona al responsable y además recomienda cambiar el procedimiento de recepción que permitió el robo. ¿Cómo llama el libro a usar los resultados para ambos fines?",
+   "o": [
+    "Sinergia (synergy)",
+    "Análisis de causa raíz (root cause analysis)",
+    "Adjudicación (adjudication)",
+    "Análisis de tendencias (trend analysis)"
+   ],
+   "e": "La sinergia consiste en usar los resultados para resolver el caso y, a la vez, corregir las condiciones que permitieron el incidente; por eso el seguimiento va más allá de decidir la disciplina. El análisis de causa raíz es una técnica para averiguar por qué ocurrió algo, sobre todo en investigaciones exploratorias, no el doble uso de los resultados."
+  },
+  "investigations-1-q14": {
+   "q": "En Estados Unidos, ¿qué norma exige a las empresas que cotizan en bolsa un sistema interno de denuncia sin represalias, como parte de un programa eficaz de cumplimiento y ética?",
+   "o": [
+    "Las directrices federales de sentencias (Federal Sentencing Guidelines)",
+    "La Convención de las Naciones Unidas contra la Corrupción (2003)",
+    "El Reglamento General de Protección de Datos (GDPR)",
+    "La Ley Sarbanes-Oxley de 2002 (Sarbanes-Oxley Act)"
+   ],
+   "e": "La Ley Sarbanes-Oxley de 2002 obliga a las empresas que cotizan en bolsa. Las Federal Sentencing Guidelines también exigen ese sistema, pero a las empresas condenadas por actividad delictiva."
+  },
+  "investigations-1-q15": {
+   "q": "La unidad de investigación (IU) planea una operación proactiva para detectar el desvío de producto en un centro de distribución. ¿Qué exige el libro respecto al plan de investigación (investigative plan)?",
+   "o": [
+    "Un plan detallado solo si la pérdida estimada supera los $10,000, umbral de remisión a la IU",
+    "Ningún plan formal, porque en una operación proactiva el objetivo suele ser obvio y estable",
+    "Un plan detallado, aprobado por el gerente de la IU o una autoridad superior",
+    "Solo la base del caso (case predication), ya que el plan detallado es para casos reactivos"
+   ],
+   "e": "El plan de investigación detallado se exige en investigaciones complejas o no rutinarias y en todas las proactivas; se coordina con las partes relevantes y lo aprueba el gerente de la IU o una autoridad superior. El umbral de $10,000 pertenece a la directriz de muestra para repartir casos de incidentes, no a este requisito."
+  },
+  "investigations-1-q16": {
+   "q": "En un caso largo se emiten varios informes interinos (interim reports). ¿Qué regla establece el libro para su contenido?",
+   "o": [
+    "Cada uno incluye solo lo nuevo desde el anterior, para no duplicar información dentro del expediente",
+    "Cada uno incluye toda la información del anterior, de modo que el último contiene todo lo conocido",
+    "Cada uno resume las actividades que no justifican un informe, como concertar citas con testigos",
+    "Cada uno se comunica solo de forma oral, y el informe final reúne por escrito todo lo conocido"
+   ],
+   "e": "Cada informe interino incluye toda la información del anterior: el lector no tiene que volver a los previos, porque el último contiene todo lo conocido hasta la fecha. Las actividades que no justifican un informe interino se registran en el formulario de cronología del caso (case chronology form)."
+  },
+  "investigations-1-q17": {
+   "q": "En el ciclo de inteligencia criminal que describe el libro, ¿qué paso es el corazón del proceso, porque convierte la información y los datos en inteligencia accionable?",
+   "o": [
+    "Integración y análisis (integration/analysis)",
+    "Recolección (collection)",
+    "Requerimientos de información (requirements)",
+    "Difusión (dissemination)"
+   ],
+   "e": "La integración y análisis es el corazón del ciclo: la información se cruza y se clasifica, se evalúa la credibilidad de las fuentes y se convierte en inteligencia accionable. La recolección solo reúne datos de varias fuentes para cubrir los requerimientos; todavía no los convierte en inteligencia."
+  },
+  "investigations-1-q18": {
+   "q": "En una investigación en curso sobre una red que roba en almacenes, un analista identifica vínculos entre sospechosos, detecta vacíos clave de información y elabora perfiles de los implicados. Según INTERPOL, ¿qué tipo de análisis está haciendo?",
+   "o": [
+    "Estratégico (strategic)",
+    "De tendencias (trend analysis)",
+    "Exploratorio o informativo (exploratory / informational)",
+    "Operacional o táctico (operational / tactical)"
+   ],
+   "e": "El análisis operacional o táctico apoya una investigación concreta: identifica vínculos entre sospechosos, vacíos de información y perfiles, con beneficio inmediato en el caso. El estratégico aborda amenazas o tendencias generales para informar a quienes deciden a alto nivel, con beneficio a largo plazo."
+  },
+  "investigations-1-q19": {
+   "q": "Las historias de cobertura (cover stories), el backstopping, la contravigilancia (countersurveillance) y la seguridad de reuniones encubiertas, ¿de qué concepto forman parte?",
+   "o": [
+    "La seguridad de las operaciones (OPSEC), entendida como proceso de cinco pasos",
+    "Los controles de difusión (dissemination controls) de los informes",
+    "La seguridad operacional (operational security) de una operación concreta",
+    "La fase de recolección del ciclo de inteligencia criminal"
+   ],
+   "e": "La seguridad operacional es el conjunto total de medidas de seguridad y planificación para el éxito de una operación concreta y la seguridad de los investigadores, como en operaciones encubiertas o de entrampamiento (sting). OPSEC es otra cosa: un método sistemático de cinco pasos cíclicos para proteger la información crítica."
+  },
+  "investigations-1-q20": {
+   "q": "Se forma un grupo de trabajo conjunto (joint task force) entre una empresa y dos agencias públicas. Al aplicar la seguridad de las operaciones (OPSEC), ¿qué deben hacer PRIMERO?",
+   "o": [
+    "Identificar a los posibles adversarios, sus capacidades y sus motivaciones",
+    "Acordar entre todas las partes qué es información crítica",
+    "Evaluar las vulnerabilidades directas e indirectas",
+    "Elegir e implantar contramedidas costo-eficaces"
+   ],
+   "e": "El primer paso de OPSEC es identificar los activos, es decir, la información crítica. En grupos de trabajo conjuntos se hace con un proceso deliberado al inicio, porque cada agencia tiene políticas y criterios distintos sobre qué es sensible. Definir la amenaza es el segundo paso."
+  },
+  "investigations-1-q21": {
+   "q": "Un investigador sigue pistas en un país donde pagar a los informantes es una práctica casi obligatoria. ¿Qué debe hacer ANTES de ofrecer cualquier pago?",
+   "o": [
+    "Consultar a la asesoría jurídica de la organización",
+    "Pagar según la costumbre local, para no ofender",
+    "Pedir a la policía local que pague en su nombre",
+    "Negarse a pagar, porque en otras culturas es un insulto"
+   ],
+   "e": "El libro señala que pagar por información es un insulto en algunas culturas y casi obligatorio en otras, y que hay que consultar a la asesoría jurídica antes de ofrecer pagos. Seguir la costumbre local sin esa consulta olvida que el investigador debe conocer y respetar también las leyes, no solo las costumbres."
+  },
+  "investigations-1-q22": {
+   "q": "Con la directriz de muestra del libro para investigaciones de incidentes, ¿quién debe encargarse de un acto de vandalismo con daño estimado de $7,000?",
+   "o": [
+    "El supervisor de seguridad de mayor rango (senior security supervisor)",
+    "La policía local, directamente y sin investigación interna",
+    "Recursos humanos, en coordinación con la asesoría jurídica",
+    "Se remite a la unidad de investigación (IU)"
+   ],
+   "e": "En la directriz de muestra, el daño a la propiedad o vandalismo de más de $5,000 se remite a la IU; por debajo de $5,000 lo investiga el supervisor de seguridad de mayor rango. Confundirse con el umbral de $10,000, que aplica al robo y a la pérdida desconocida, lleva a elegir al supervisor."
+  },
+  "investigations-1-q23": {
+   "q": "Tras un incidente en el vestíbulo hay varios testigos: dos empleados que solo oyeron el ruido, un visitante que regresa hoy a su país y el guardia que redactó el informe de incidente. Según el protocolo de muestra, ¿a quién debe darse prioridad en las entrevistas iniciales?",
+   "o": [
+    "Al guardia, porque su informe de incidente abrió el caso",
+    "A los empleados, porque se pueden corroborar con registros",
+    "Al visitante, porque quizá no esté disponible después",
+    "A quien tenga mayor rango, para evitar presiones a los demás"
+   ],
+   "e": "El protocolo da prioridad a los implicados directamente o con información perecedera (perishable information) y a quienes quizá no estén disponibles después, como visitantes o empleados a punto de viajar. El personal de seguridad que participó en la respuesta se documenta en un paso posterior del protocolo."
+  },
+  "investigations-1-q24": {
+   "q": "En una investigación de mala conducta (misconduct investigation), ¿por qué recomienda el libro fijar al inicio la sanción o el resultado previsto si se prueba la acusación?",
+   "o": [
+    "Para que el sujeto conozca de antemano las consecuencias y se anime a confesar en la primera entrevista",
+    "Para evitar acusaciones de discriminación o de ajustar la sanción según quién resulte implicado",
+    "Para que la policía pueda decidir pronto si acepta el caso o lo deja en manos de la empresa",
+    "Para cumplir el plazo razonable que las directrices federales dan a la investigación interna"
+   ],
+   "e": "Fijar la sanción al inicio evita acusaciones de discriminación y la apariencia de cambiarla según lo que se descubra o quién resulte implicado. Usarla para presionar una confesión iría contra el libro, que advierte que las promesas o las pruebas inventadas pueden llevar a confesar a inocentes."
+  },
+  "investigations-1-q25": {
+   "q": "Según la Comisión de Sentencias de EE. UU. (U.S. Sentencing Commission), ¿qué dos factores mitigan la pena de una organización?",
+   "o": [
+    "Un programa eficaz de cumplimiento y ética, y la autodenuncia, cooperación o aceptación de responsabilidad",
+    "Una línea de denuncia consolidada con operadores profesionales, y la restitución completa a las víctimas",
+    "Un código de conducta firmado por todos los empleados, y una estricta separación de funciones en el área financiera",
+    "Una unidad de investigación interna, y el despido inmediato de todos los empleados implicados en el caso"
+   ],
+   "e": "Los dos factores son la existencia de un programa eficaz de cumplimiento y ética, y la autodenuncia (self-reporting), la cooperación o la aceptación de responsabilidad. La línea de denuncia y el código de conducta son elementos de un buen programa, pero el libro no los cita como factores mitigantes por sí mismos."
+  },
+  "investigations-1-q26": {
+   "q": "La merma de un almacén sube de golpe tras la llegada de un gerente nuevo, un cambio de software y un nuevo proveedor. No hay denuncia de ningún delito concreto. ¿Qué enfoque es MÁS apropiado?",
+   "o": [
+    "Una investigación de mala conducta centrada en el gerente recién llegado",
+    "Una operación proactiva con vigilancia encubierta de todo el personal del almacén",
+    "Remitir el caso a la policía por la cuantía de la pérdida de inventario",
+    "Una investigación exploratoria con análisis de causa raíz (root cause analysis)"
+   ],
+   "e": "La investigación exploratoria (exploratory investigation) busca responder por qué ocurre algo sin examinar un incidente o delito concreto, y el análisis de causa raíz encaja porque el aumento de merma puede deberse a un delito o a papeleo descuidado, cambios de software, rotación o un nuevo proveedor. Centrarse en el gerente nuevo supone una culpa que los hechos aún no indican."
+  },
+  "investigations-1-q27": {
+   "q": "Un examinador de informática forense (computer forensics) recibe el servidor de la empresa para un caso de fuga de información. ¿Qué es lo MÁS importante para que el examen sea eficaz?",
+   "o": [
+    "Que examine todos los archivos sin conocer el caso, para mantener la objetividad",
+    "Que trabaje solo en laboratorio, como se hace en la ciencia forense tradicional",
+    "Que el investigador le dé los detalles del caso y trabajen de forma coordinada",
+    "Que entregue un informe basado solo en el examen científico, sin palabras clave"
+   ],
+   "e": "A diferencia de la forense tradicional, que no necesita los detalles del caso, la informática forense debe guiarse por lo que descubre la investigación: el examinador no puede revisar todos los archivos de un servidor en el tiempo disponible. Por eso el examen debe ser un esfuerzo coordinado, a menudo apoyado en listas de palabras clave."
+  },
+  "investigations-2-q0": {
+   "q": "Según el libro, ¿qué distingue MEJOR a una investigación encubierta (undercover investigation) de otras investigaciones?",
+   "o": [
+    "El operativo oculta su presencia y observa sin interactuar, para no influir en las personas investigadas",
+    "El operativo actúa con conocimiento de la plantilla, pero oculta a qué persona investiga en concreto",
+    "El operativo no oculta su presencia; lo secreto es su identidad real o el propósito de la investigación",
+    "El operativo solo puede hacerse pasar por empleado, nunca por proveedor ni por cliente de la empresa"
+   ],
+   "e": "En el undercover el operativo (operative) no esconde su presencia ni intenta pasar desapercibido: lo secreto (sub-rosa) es su identidad real o el propósito. Además es una investigación interactiva, como la entrevista, y el operativo puede hacerse pasar por empleado, proveedor o cliente."
+  },
+  "investigations-2-q1": {
+   "q": "En una planta sindicalizada se sospechan ventas de drogas en el trabajo. El gerente propone usar como operativo a un empleado afiliado al sindicato y de toda confianza. ¿Qué es lo MÁS correcto?",
+   "o": [
+    "No se puede hacer undercover en absoluto, porque una plantilla sindicalizada lo impide por ley",
+    "Se puede hacer undercover, pero no usar como operativo a un empleado ya sindicalizado",
+    "Es la mejor opción, porque un afiliado de confianza pasa desapercibido con facilidad",
+    "Se puede usar al afiliado, siempre que el sindicato apruebe antes la operación"
+   ],
+   "e": "El sindicato no descarta por sí solo el undercover: se pueden colocar operativos si no interfieren en las actividades sindicales legales y protegidas. Pero la empresa no debe usar como operativos a empleados que ya están sindicalizados."
+  },
+  "investigations-2-q2": {
+   "q": "La dirección valora una investigación encubierta sobre robos en un departamento, pero decenas de empleados ya conocen el problema y es poco probable que guarden el secreto. Según las consideraciones previas a aprobar un undercover, ¿qué conclusión es MÁS adecuada?",
+   "o": [
+    "No se recomienda el undercover, porque hay pocas probabilidades de mantener el secreto",
+    "Conviene acelerar la operación con un controlled hire antes de que el asunto se filtre",
+    "Conviene anunciar la investigación a la plantilla para evitar acusaciones de encubrimiento",
+    "Se puede seguir adelante si el equipo excluye a cualquiera que pueda estar implicado"
+   ],
+   "e": "La primera consideración de la Figura 2.1 es si el undercover es viable: si mucha gente conoce el problema y hay pocas probabilidades de mantener el secreto, no se recomienda. Excluir del equipo a posibles implicados es otra consideración necesaria, pero no resuelve la falta de confidencialidad."
+  },
+  "investigations-2-q3": {
+   "q": "Según la fase de planificación y preparación, ¿quiénes forman como mínimo el equipo investigador (investigative team) de un undercover?",
+   "o": [
+    "El operativo, el jefe de proyecto, el representante del cliente, el abogado corporativo y, si hace falta, la policía",
+    "Un abogado externo, abogados internos de alto nivel, ejecutivos de seguridad corporativa y ejecutivos de la agencia",
+    "El director general, el director financiero, el director de seguridad y un representante del sindicato de la planta afectada",
+    "Un decisor corporativo, un representante de recursos humanos, un profesional de seguridad corporativa y un abogado laboral"
+   ],
+   "e": "El equipo investigador mínimo lo forman un decisor corporativo, un representante de recursos humanos, un profesional de seguridad corporativa y un abogado que conozca la legislación laboral estatal y local. La opción de cinco roles describe el equipo de gestión del proyecto (project management team), que supervisa la recolección de información."
+  },
+  "investigations-2-q4": {
+   "q": "Al contratar una agencia de undercover, ¿qué seguro debe exigir el cliente?",
+   "o": [
+    "Un certificado que lo nombre como asegurado adicional, con cobertura por reclamación (claims-made) durante el contrato",
+    "Una póliza por reclamación (claims-made) a nombre de la agencia, vigente durante toda la operación encubierta",
+    "Un certificado que lo nombre como asegurado adicional (additional insured), con cobertura por ocurrencia (occurrence)",
+    "Una póliza por ocurrencia a nombre del operativo, sin necesidad de incluir al cliente como asegurado adicional"
+   ],
+   "e": "El cliente debe exigir un certificado que lo nombre como asegurado adicional, con cobertura por ocurrencia, que protege sin importar cuándo se presente la reclamación. La cobertura por reclamación (claims-made) solo protege mientras dura la póliza."
+  },
+  "investigations-2-q5": {
+   "q": "¿Qué forma de colocar al operativo en el puesto prefiere el libro, y cuál es su principal inconveniente?",
+   "o": [
+    "El controlled hire, en el que se manipula la contratación; puede despertar sospechas en recursos humanos",
+    "El cold hire, en el que solicita el empleo como cualquier candidato; puede ser la menos práctica",
+    "El cold hire, en el que solicita el empleo como cualquier candidato; exige revelar el caso a recursos humanos",
+    "El controlled hire, en el que se manipula la contratación; exige más formación previa (remedial training)"
+   ],
+   "e": "El libro prefiere el cold hire: el operativo solicita el empleo y se le trata como a cualquier candidato, aunque quizá sea la opción menos práctica. El controlled hire, que manipula en secreto el proceso de contratación para colocarlo en el puesto deseado, no lo valora el libro."
+  },
+  "investigations-2-q6": {
+   "q": "El plan prevé que el operativo trate a diario con el grupo objetivo y comparta con él actividades fuera del trabajo. ¿Qué implica esto para su historia de tapadera (cover story)?",
+   "o": [
+    "Debe ser más profunda, porque cuanto más íntima la relación, más detalle exige",
+    "Debe ser mínima, porque una historia elaborada aumenta el riesgo de contradicciones",
+    "Debe incluir documentos con su identidad real, por si lo detiene la policía",
+    "Puede ser superficial si el operativo entra al puesto mediante un controlled hire"
+   ],
+   "e": "La regla del libro es que, cuanto más íntima sea la relación con el grupo objetivo, más profunda debe ser la historia de tapadera. Llevar documentos con la identidad real está descartado: el operativo nunca los lleva en el encargo."
+  },
+  "investigations-2-q7": {
+   "q": "¿Cuál es la razón PRINCIPAL para incluir al abogado corporativo en el equipo de gestión del proyecto (project management team) de un undercover?",
+   "o": [
+    "Ser el punto de contacto por el que pasa toda la información que entra y sale de la organización",
+    "Aprobar cada compra de droga que haga el operativo, como autoridad con jurisdicción",
+    "Llevar la administración diaria del caso y supervisar y motivar al operativo",
+    "Proteger el producto del trabajo (work product) del investigador frente al discovery"
+   ],
+   "e": "El abogado corporativo protege el producto del trabajo del investigador frente a la revelación de pruebas en juicio (discovery); además conviene que sea especialista en derecho laboral y entre desde la planificación. Ser el canal de toda la información es el papel del representante del cliente, y la administración diaria es del jefe de proyecto."
+  },
+  "investigations-2-q8": {
+   "q": "¿Por qué recomienda el libro que los informes narrativos del operativo se escriban en tercera persona (“the operative”) y no en primera?",
+   "o": [
+    "Ocultan la identidad del operativo si el informe se filtra, y evitan que la plantilla descubra la investigación",
+    "Suenan más objetivos ante un jurado, y permiten presentarlos como prueba sin la firma del operativo",
+    "Se editan sin volver a autenticarlos, y el jefe de proyecto puede declarar que no los alteró",
+    "Permiten que el cliente los reenvíe sin editar, y evitan preparar después el resumen de la investigación"
+   ],
+   "e": "Las dos razones del libro son prácticas: en primera persona solo el autor podría editarlos y tendría que volver a autenticarlos, y si se impugnan los resultados el jefe de proyecto puede declarar bajo juramento que su informe no es una versión manipulada. Ocultar la identidad del operativo puede parecer lógico, pero el libro no da esa razón."
+  },
+  "investigations-2-q9": {
+   "q": "Se ha retirado al operativo y el equipo empieza las entrevistas a empleados de la fase de verificación y análisis (verification and analysis). ¿En qué orden suelen hacerse tras un undercover?",
+   "o": [
+    "De los menos implicados a los más implicados",
+    "De los más implicados a los menos implicados",
+    "Primero los testigos externos y al final los empleados",
+    "Empezando por los supervisores del área afectada"
+   ],
+   "e": "Tras un undercover, las entrevistas suelen empezar por los más implicados y avanzar hacia los menos implicados. En una investigación general ocurre al revés: las entrevistas se van acercando a los autores con el tiempo."
+  },
+  "investigations-2-q10": {
+   "q": "Terminadas las entrevistas, el director de seguridad que dirigió el undercover propone decidir él mismo los despidos para cerrar rápido. ¿Qué es lo MÁS correcto según el libro?",
+   "o": [
+    "Entregar la información a los decisores del cliente, que deciden la disciplina",
+    "Decidir los despidos él mismo, porque es quien mejor conoce las pruebas del caso",
+    "Remitir el caso a la fiscalía, que decide la disciplina laboral de los empleados",
+    "Esperar a que termine el proceso penal antes de tomar cualquier medida disciplinaria"
+   ],
+   "e": "En la fase de acción disciplinaria y correctiva, el profesional de seguridad y el equipo solo reúnen información; los decisores del cliente deciden la disciplina. Esperar al proceso penal tampoco procede: la empresa decide los despidos sin depender del sistema penal."
+  },
+  "investigations-2-q11": {
+   "q": "Un undercover ya reunió información suficiente y se acercan las entrevistas a los empleados implicados. ¿Cuál es el MEJOR manejo del operativo?",
+   "o": [
+    "Retirarlo justo antes de las entrevistas, para protegerlo de posibles represalias de los implicados",
+    "Retirarlo en cuanto la información útil empiece a rendir menos, sin dar explicaciones a la plantilla",
+    "Presentarlo a la plantilla como investigador al terminar, para disuadir a futuros infractores",
+    "Dejarlo en su puesto, entrevistarlo incluso como sospechoso, y retirarlo con una explicación creíble"
+   ],
+   "e": "El libro aconseja mantener al operativo el mayor tiempo posible: puede seguir en su puesto durante las entrevistas, ser entrevistado como si fuera sospechoso y retirarse con una explicación creíble, por ejemplo cuando se le nombra como infractor y se despide a otros. Retirarlo antes de las entrevistas delata que era el informante."
+  },
+  "investigations-2-q12": {
+   "q": "En un undercover de drogas, un compañero ofrece venderle droga al operativo. Para neutralizar una posible defensa de inducción al delito (entrapment), ¿qué debe documentar el operativo?",
+   "o": [
+    "Que la compra fue de la mayor cantidad posible, para probar que se trata de un vendedor importante",
+    "Que fue el operativo quien le propuso la venta, para fijar con exactitud la fecha del delito",
+    "Que el vendedor ya vendía antes y quiere vender por un motivo propio, idealmente ganar dinero",
+    "Que la compra se hizo fuera de la empresa y del horario, para no implicar a la organización"
+   ],
+   "e": "Para neutralizar el entrapment, que es una defensa penal y no un delito, el operativo “califica” al vendedor: la conducta ya existía o ya había vendido antes, y tiene un motivo propio, idealmente el dinero. Comprar la mayor cantidad posible contradice la pauta de comprar hacia abajo (buy down, not up), y las compras se hacen en horario de trabajo."
+  },
+  "investigations-2-q13": {
+   "q": "En un undercover por robo, unos compañeros invitan al operativo a sumarse a un plan para sacar mercancía del almacén. ¿Qué es lo MÁS correcto?",
+   "o": [
+    "Debe negarse siempre, porque el operativo nunca participa en un delito ni invita a nadie a cometerlo",
+    "Puede participar, con un propósito explícito y aprobación previa del equipo de gestión del proyecto",
+    "Puede participar libremente, porque la empresa es la víctima y no presentará cargos contra él",
+    "Debe aceptar solo si la policía con jurisdicción organiza un buy-bust al final de la operación"
+   ],
+   "e": "En casos de robo, a diferencia de los de drogas, el operativo sí puede participar en un plan para robar, siempre que cada acción tenga un propósito explícito y la aprobación previa del equipo de gestión del proyecto. La regla de no invitar nunca a otro a delinquir pertenece a las pautas de compra de droga."
+  },
+  "investigations-2-q14": {
+   "q": "Según el libro, ¿cómo cobra hoy la mayoría de las agencias con experiencia por un undercover?",
+   "o": [
+    "Tarifa semanal: 40 horas más una cover pay mínima, con todo incluido salvo gastos de bolsillo",
+    "Una tarifa por hora, con la redacción de informes, las llamadas, los viajes y las horas extra aparte",
+    "Una tarifa fija por caso cerrado, más un porcentaje de lo que logre recuperar la investigación",
+    "Una tarifa por nivel de operativo, según sus años de experiencia y su categoría dentro de la agencia"
+   ],
+   "e": "Las firmas con experiencia cobran por semana: 40 horas más una cover pay mínima (el sueldo del puesto de tapadera), e incluyen todo salvo los gastos de bolsillo (out-of-pocket) y otras investigaciones especiales. El cobro por hora con cargos aparte es propio de agencias con menos experiencia, y los clientes con experiencia saben que prepara cargos ocultos."
+  },
+  "investigations-3-q0": {
+   "q": "Según el capítulo, ¿qué describe MEJOR la relación entre el cuidado debido (due care) y la diligencia debida (due diligence)?",
+   "o": [
+    "La due diligence es el esfuerzo y los pasos que demuestran que se ejerció el due care.",
+    "El due care es el esfuerzo documentado que demuestra que se hizo la due diligence.",
+    "La due diligence es no ejercer el cuidado debido ante un riesgo previsible.",
+    "El due care es el lado positivo del cuidado, y la due diligence es dar protección razonable."
+   ],
+   "e": "El due care es dar una protección razonable; la due diligence es el esfuerzo y los pasos que prueban que hubo ese due care. No ejercer el cuidado debido es la definición de negligencia (negligence), no de due diligence."
+  },
+  "investigations-3-q1": {
+   "q": "La Securities Act of 1933 dio el primer uso común del término due diligence al crear la \"Due Diligence Defense\". ¿Qué protección daba a los intermediarios de valores (broker-dealers)?",
+   "o": [
+    "No respondían por lo negativo que no descubrieron si habían investigado y compartido sus hallazgos.",
+    "No respondían ante los inversionistas si la otra parte les había entregado la información por escrito.",
+    "Quedaban exentos de revelar información material a los inversionistas si la operación se cerraba de forma amistosa.",
+    "Podían trasladar su responsabilidad a terceros si habían contratado a una firma contable externa."
+   ],
+   "e": "La defensa protegía al broker-dealer que había investigado y compartido sus hallazgos: no respondía por lo negativo que no hubiera descubierto. Fiarse de lo que entrega la otra parte, sin investigar, es justo lo contrario de la due diligence."
+  },
+  "investigations-3-q2": {
+   "q": "En una adquisición amistosa (friendly deal), la empresa objetivo (target company) entrega al comprador un paquete completo de estados financieros, contratos y referencias, y pide cerrar pronto. ¿Qué es lo MÁS importante que debe hacer el responsable de la due diligence con esa información?",
+   "o": [
+    "Verificar los datos con fuentes primarias, porque lo que entrega el objetivo suele venir sesgado o incompleto.",
+    "Aceptar el paquete como base suficiente, porque en un trato amistoso las partes comparten la información con facilidad.",
+    "Pedir al objetivo una declaración firmada que garantice que la información es completa y exacta.",
+    "Limitar la revisión a los estados financieros, porque es donde un fraude causaría más daño al comprador."
+   ],
+   "e": "Un error común es fiarse solo de la información del objetivo, que suele venir sesgada (a veces sin querer) o incompleta, y que presentará la versión más favorable si el objetivo quiere cerrar. Que el trato sea amistoso facilita el acceso a los datos, pero no elimina la necesidad de verificarlos con fuentes primarias (primary sources)."
+  },
+  "investigations-3-q3": {
+   "q": "Un director de seguridad recibe el encargo de hacer la due diligence de un posible socio para una joint venture. ¿Qué debe hacer PRIMERO?",
+   "o": [
+    "Examinar el asunto y entender en qué factores concretos debe fijarse la investigación.",
+    "Consultar los registros penales y civiles federales de los directivos del socio.",
+    "Contratar una firma externa de investigación tras revisar sus referencias y un informe de muestra.",
+    "Entrevistar a los directivos del socio para obtener información de primera mano."
+   ],
+   "e": "El primer paso de toda due diligence es examinar el asunto (el trato, la persona, la inversión) y entender en qué factores fijarse; si el investigador no entiende el objeto de la investigación, no hará las preguntas correctas. Consultar registros, entrevistar o subcontratar vienen después, una vez definida la estrategia."
+  },
+  "investigations-3-q4": {
+   "q": "¿Cuál de las siguientes es una fuente primaria (primary source) en una investigación de due diligence?",
+   "o": [
+    "La observación directa de las instalaciones y actividades del objetivo.",
+    "Los informes anuales y otros documentos publicados por la propia empresa.",
+    "Los registros públicos del gobierno sobre la constitución de la empresa.",
+    "La inteligencia de redes sociales (social media intelligence) sobre sus directivos."
+   ],
+   "e": "Las fuentes primarias son las entrevistas y la observación directa de personas, lugares o hechos. Los informes anuales, los registros del gobierno y la inteligencia de redes sociales son fuentes secundarias (secondary sources), aunque los registros del gobierno suelan ser imparciales."
+  },
+  "investigations-3-q5": {
+   "q": "Antes de comprar una cadena de hoteles, el equipo de due diligence pide al objetivo sus políticas internas, sus planes de respuesta a incidentes y la lista de brechas de datos conocidas. ¿Qué área de due diligence está aplicando?",
+   "o": [
+    "Due diligence de ciberseguridad y seguridad de datos (cyber and data security due diligence).",
+    "Due diligence en internet y redes sociales (online and social media due diligence).",
+    "Planeación de la entrada a un mercado (market entry planning) centrada en la propiedad intelectual.",
+    "Revisión interna de que las políticas estén alineadas con las metas de la organización."
+   ],
+   "e": "La due diligence de ciberseguridad pregunta al objetivo por sus políticas, protocolos, medidas de seguridad, planes de respuesta a incidentes y brechas conocidas, para reducir el riesgo de vulnerabilidades ocultas (la lección del caso Marriott–Starwood). La de internet y redes sociales, en cambio, investiga la huella pública de fuentes abiertas; el libro pide tratarlas por separado."
+  },
+  "investigations-3-q6": {
+   "q": "Durante la due diligence de un posible proveedor, al investigador le resulta casi imposible conseguir sus estados financieros. ¿Cuál es la MEJOR forma de interpretar este hueco?",
+   "o": [
+    "Es un dato en sí mismo: la empresa puede tener motivos para ocultarlos, como tapar un fraude.",
+    "Es irrelevante para la decisión, porque la due diligence no necesita revisar cada dato para ser útil.",
+    "Es solo un límite del alcance que se anota en el informe, sin sacar de él ninguna conclusión.",
+    "Debe suplirse con un informe de crédito, que por sí solo basta para valorar las finanzas de la empresa."
+   ],
+   "e": "El libro subraya que la información que falta también cuenta: si es casi imposible obtener los estados financieros, la empresa puede tener motivos para ocultarlos, como un fraude. Es cierto que la due diligence no revisa cada dato, pero eso no vuelve irrelevante un hueco tan significativo; y un informe de crédito por sí solo no es buena fuente."
+  },
+  "investigations-3-q7": {
+   "q": "Al redactar el informe de due diligence, el investigador debe dejar constancia de que no pudo acceder a los registros judiciales de un país. Según los siete elementos del informe, ¿dónde corresponde indicar este límite?",
+   "o": [
+    "En el aviso legal (legal disclaimer).",
+    "En el alcance del trabajo (scope of work).",
+    "En la metodología general (general methodology).",
+    "En la conclusión (conclusion)."
+   ],
+   "e": "El séptimo elemento del informe es el aviso legal, que recoge cualquier límite que tuvo la investigación. El alcance del trabajo y la metodología son otros elementos del informe, pero el libro asigna los límites de la investigación al aviso legal."
+  },
+  "investigations-4-q0": {
+   "q": "¿Qué distingue MEJOR una verificación de antecedentes (background check) de una investigación de antecedentes (background investigation)?",
+   "o": [
+    "La check confirma lo que aporta el candidato; la investigation busca activamente lo que podría ocultar.",
+    "La check incluye pruebas de drogas y psicológicas; la investigation se limita a revisar registros públicos.",
+    "La check la hace RR. HH. por teléfono; la investigation la hace siempre una agencia externa de informes.",
+    "La check revisa antecedentes penales; la investigation verifica los estudios y el historial laboral declarados."
+   ],
+   "e": "La background check es confirmatoria: verifica lo que da el candidato, como estudios e historial laboral. La background investigation busca de forma activa, con referencias nuevas y antecedentes penales, para descubrir lo que el candidato podría ocultar. Las pruebas pertenecen al preemployment screening, que puede incluir todo lo anterior más pruebas."
+  },
+  "investigations-4-q1": {
+   "q": "Un empleador en EE. UU. prevé rechazar a un candidato basándose en parte en un informe de antecedentes de un tercero (consumer report). Según la Fair Credit Reporting Act (FCRA), ¿qué debe hacer PRIMERO?",
+   "o": [
+    "Enviarle un aviso previo (pre-adverse notice) con copia del informe y el FCRA Summary of Rights.",
+    "Enviarle la carta de decisión adversa (adverse decision letter) explicando el motivo del rechazo.",
+    "Pedirle por escrito una nueva autorización para volver a investigar los hallazgos negativos.",
+    "Citarlo a una entrevista para que explique los hallazgos antes de consultar a un abogado."
+   ],
+   "e": "La FCRA exige primero un aviso previo con la copia del informe y el Summary of Rights, luego un plazo razonable para que el candidato lo revise y dispute lo inexacto, y solo después la adverse decision letter. Enviar directamente la carta de decisión adversa se salta los dos primeros pasos."
+  },
+  "investigations-4-q2": {
+   "q": "Al diseñar una política de screening preempleo (preemployment screening) costo-eficiente, ¿cómo deben ordenarse sus componentes?",
+   "o": [
+    "Los componentes más caros se aplican al final, a quienes superan los filtros previos.",
+    "Los componentes más caros se aplican primero, para descartar pronto a los no aptos.",
+    "Todos los componentes se aplican a la vez, para acortar el tiempo de contratación.",
+    "Los componentes se aplican después de ofrecer el puesto, para no investigar de más."
+   ],
+   "e": "El libro pide una política costo-eficiente en la que los componentes más caros se aplican al final, y el screening más profundo se concentra en la fase de selección final. Además, el screening debe hacerse y evaluarse antes de ofrecer el puesto, no después."
+  },
+  "investigations-4-q3": {
+   "q": "Una empresa revisa el historial de crédito de todos los aspirantes a contador, pero de ningún aspirante a trabajador de comedor. ¿Cómo debe valorar esta práctica el gerente de seguridad?",
+   "o": [
+    "Es válida, si el nivel es adecuado al puesto y se aplica por igual en toda la categoría.",
+    "Es indebida, porque todo candidato debe pasar exactamente las mismas verificaciones, sea cual sea el puesto.",
+    "Es válida solo si asesoría legal aprueba por separado cada revisión de crédito individual.",
+    "Es indebida, porque el historial de crédito nunca es un factor relevante en una contratación."
+   ],
+   "e": "En el paso 3 de la política integral se admiten niveles distintos por puesto si son adecuados y se aplican igual a todos los de la categoría de puesto (job classification); el libro usa este mismo ejemplo. Lo que debe ser constante es la medida dentro de cada categoría, no que todos los puestos tengan las mismas verificaciones."
+  },
+  "investigations-4-q4": {
+   "q": "Según la política integral de screening preempleo, ¿qué estándar de prueba (standard of proof) se necesita para decidir no contratar a un candidato por un hallazgo negativo?",
+   "o": [
+    "La buena fe (good faith).",
+    "La preponderancia de la prueba (preponderance of the evidence).",
+    "Una condena penal firme relacionada con el puesto.",
+    "La prueba más allá de toda duda razonable (beyond a reasonable doubt)."
+   ],
+   "e": "El paso 5 de la política fija los criterios para evaluar la información y dice que el estándar de prueba para no contratar es la buena fe. Exigir una condena firme o un estándar judicial más alto no es lo que pide el libro; además, una condena no descalifica automáticamente."
+  },
+  "investigations-4-q5": {
+   "q": "Al revisar una solicitud de empleo, el investigador ve un hueco de seis semanas sin explicación entre dos empleos. ¿Qué debe hacer?",
+   "o": [
+    "Investigarlo, porque toda laguna de más de un mes en el empleo o en la vida se investiga.",
+    "Ignorarlo, porque solo las lagunas de más de seis meses son señales de alerta.",
+    "Descartar al candidato, porque una laguna sin explicar es una falsedad material probada.",
+    "Anotarlo solo si además el número de seguridad social no cuadra con la zona de emisión."
+   ],
+   "e": "Entre las ocho señales de alerta (red flags) de la primera revisión están las lagunas laborales: toda laguna de más de un mes en el empleo o en la vida se investiga. Una laguna es motivo para investigar, pero no prueba por sí sola una falsedad que justifique descartar al candidato."
+  },
+  "investigations-4-q6": {
+   "q": "La política de una empresa en EE. UU. prohíbe contratar a cualquier persona condenada por un delito grave (felony), sin excepciones. ¿Cuál es el MAYOR problema de esta política?",
+   "o": [
+    "Viola la exigencia de la EEOC de una evaluación individualizada (individualized assessment) de cada condena por delito grave.",
+    "Viola la FCRA, porque las condenas penales no se consideran registros públicos en EE. UU.",
+    "Ninguno, siempre que se aplique por igual a todos los candidatos de la misma categoría de puesto.",
+    "Ninguno, siempre que la pregunta sobre antecedentes se haga después de una oferta condicional."
+   ],
+   "e": "La Equal Employment Opportunity Commission (EEOC) ha procesado a empleadores con prohibiciones generales de contratar a condenados por delitos graves, porque violan su exigencia de evaluar cada condena de forma individualizada. Aplicar la prohibición de forma uniforme o preguntar tras una oferta condicional (Ban-the-Box) no corrige ese problema."
+  },
+  "investigations-4-q7": {
+   "q": "Una prueba pide al candidato valorar rasgos como su confiabilidad y su respeto a la autoridad, sin preguntarle por actos deshonestos concretos. ¿Qué tipo de prueba es?",
+   "o": [
+    "Una prueba de integridad orientada a la personalidad (personality-oriented o indirect).",
+    "Una prueba de integridad abierta o directa (overt o direct).",
+    "Una prueba de personalidad (personality test) para ver el encaje con el puesto.",
+    "Un cuestionario biográfico (biographical questionnaire) con preguntas abiertas."
+   ],
+   "e": "Las pruebas de integridad u honestidad son de dos tipos: las overt preguntan de forma explícita por actos deshonestos pasados, y las personality-oriented miden rasgos como la confiabilidad y el respeto a la autoridad. La prueba de personalidad mide rasgos básicos como actitudes o estabilidad emocional para ver el encaje con el puesto, no la tendencia a conductas indeseables."
+  },
+  "investigations-4-q8": {
+   "q": "La investigación revela que un candidato omitió en su solicitud un empleo del que lo despidieron. La solicitud declara que las omisiones y falsedades materiales (material omissions and misstatements) son motivo para cortar el proceso. ¿Cuál es la principal ventaja de esa declaración?",
+   "o": [
+    "Permite cortar el proceso por la deshonestidad del candidato, no solo por el dato negativo.",
+    "Exime al empleador de tener que comunicar al candidato los hallazgos negativos del informe.",
+    "Sustituye la autorización por escrito que exige la FCRA para usar un servicio externo.",
+    "Convierte el despido omitido en un antecedente que descalifica de forma automática."
+   ],
+   "e": "Si la solicitud dice que las omisiones y falsedades materiales son motivo para cortar el proceso, la empresa puede apoyarse en la deshonestidad del candidato y no solo en el hallazgo negativo. No exime de la obligación, en EE. UU., de comunicar los hallazgos negativos y dejar corregir datos falsos o mal atribuidos."
+  },
+  "investigations-4-q9": {
+   "q": "En el caso Paul Calden, Allstate solo confirmó las fechas de empleo y calló el comportamiento violento que conocía; después, Calden mató a tres ejecutivos de Fireman's Fund. ¿Qué tipo de demanda originó este caso por primera vez?",
+   "o": [
+    "Por referencia negligente (negligent referral).",
+    "Por contratación negligente (negligent hiring).",
+    "Por discriminación por impacto desigual (disparate impact).",
+    "Por incumplir la FCRA, en demanda colectiva."
+   ],
+   "e": "Allstate no contó a Fireman's Fund lo que sabía de Calden, y eso dio lugar a la primera demanda por negligent referral, que apunta a quien da la referencia. La negligent hiring se refiere a la responsabilidad de quien contrata, no al exempleador que calla información al dar referencias."
+  },
+  "investigations-5-q0": {
+   "q": "Según la Figura 5.1, ¿qué conjunto de rasgos corresponde a la entrevista confrontacional (confrontational interview) y no a la entrevista general (general interview)?",
+   "o": [
+    "Acusatoria, en monólogo, en entorno controlado y con planificación extensa.",
+    "No acusatoria, en diálogo, en entorno variable y con algo de planificación.",
+    "Acusatoria, en diálogo, no estructurada y con toma de notas aceptable.",
+    "No acusatoria, en monólogo, estructurada y con privacidad absoluta."
+   ],
+   "e": "La Figura 5.1 describe la entrevista confrontacional como acusatoria, en monólogo, en entorno controlado, estructurada, con privacidad absoluta y planificación extensa, y en ella tomar notas inhibe. El diálogo, el entorno variable, la estructura libre y la toma de notas aceptable son rasgos de la entrevista general."
+  },
+  "investigations-5-q1": {
+   "q": "Durante una entrevista, el investigador sugiere al sujeto que la empresa le pagaba poco y que cualquiera en su situación habría hecho lo mismo. ¿Qué lado del triángulo del robo (theft triangle) está trabajando para facilitar la confesión?",
+   "o": [
+    "La racionalización (rationalization).",
+    "La necesidad o deseo (need or want).",
+    "La oportunidad (opportunity).",
+    "La capacidad (ability)."
+   ],
+   "e": "La clave para la confesión es que el entrevistador ayude al sujeto a construir una racionalización socialmente aceptable de lo que hizo; culpar al sueldo bajo o a las circunstancias sirve a ese fin. La necesidad o deseo es que la persona necesite o quiera el bien, y la oportunidad es tener acceso a él."
+  },
+  "investigations-5-q2": {
+   "q": "Al preparar una entrevista, ¿cuál es la acción preliminar MÁS crítica?",
+   "o": [
+    "Conocer a fondo la información del caso: a quién, de qué y en qué condiciones.",
+    "Elegir una sala con silla recta y sin ruedas.",
+    "Probar el equipo de grabación de audio y video.",
+    "Consultar con el abogado la estrategia de la entrevista."
+   ],
+   "e": "El libro dice que la acción preliminar más crítica es conocer a fondo la información del caso: a quién se entrevistará, de qué trata la entrevista y en qué condiciones se hará. La sala, el equipo y la consulta legal forman parte de la preparación, pero no son lo más crítico."
+  },
+  "investigations-5-q3": {
+   "q": "Un investigador debe entrevistar a cuatro personas por un faltante en un almacén: el sospechoso principal, un supervisor con la información más pertinente, un empleado que la próxima semana será trasladado a otro país y un compañero que probablemente será hostil. ¿A quién debe entrevistar PRIMERO?",
+   "o": [
+    "Al empleado que será trasladado.",
+    "Al supervisor con la información más pertinente.",
+    "Al compañero que probablemente será hostil.",
+    "Al sospechoso principal."
+   ],
+   "e": "El orden de las entrevistas (questioning order) es: primero quienes probablemente no estarán disponibles después, luego quienes tienen la información más pertinente, después los probables testigos hostiles y, al final, el autor. El supervisor es la opción tentadora, pero va segundo porque el empleado trasladado podría no estar disponible más adelante."
+  },
+  "investigations-5-q4": {
+   "q": "¿Cuál de estas disposiciones de la sala es la MÁS adecuada para entrevistar a un sujeto?",
+   "o": [
+    "Silla recta sin ruedas, sin mesa de por medio, a unos 5 pies (≈1.5 m) y con salida libre.",
+    "Sillón cómodo para que el sujeto se relaje, frente a una ventana y con el entrevistador junto a la puerta.",
+    "Escritorio entre ambos para marcar formalidad, silla con ruedas y el testigo sentado detrás del sujeto.",
+    "La oficina del propio sujeto para que esté cómodo, con el entrevistador entre él y la única salida."
+   ],
+   "e": "El libro pide silla recta y acolchada sin ruedas, no entrevistar a través de un escritorio o mesa, unos 5 pies de distancia en general y que el sujeto siempre tenga un camino libre a la salida, para evitar acusaciones de coacción o detención ilegal (false imprisonment). La oficina del sujeto no es ideal por sus fotos y recuerdos, y bloquear la salida expone a esas acusaciones."
+  },
+  "investigations-5-q5": {
+   "q": "Un investigador quiere grabar en video una entrevista sin que el entrevistado lo sepa. Según el capítulo, ¿qué es crítico hacer?",
+   "o": [
+    "Consultar al abogado antes de hacer cualquier grabación encubierta.",
+    "Grabar y conservar el archivo solo si el entrevistado confiesa.",
+    "Pedir el consentimiento una vez terminada la entrevista.",
+    "Informar al entrevistado solo si la grabación llega a juicio."
+   ],
+   "e": "Para grabar sin que el entrevistado lo sepa, es crítico consultar antes al abogado; grabar y suponer que nadie se enterará es mala práctica. Lo ideal es que consienta y se grabe abiertamente, y si no consiente ni se puede grabar discretamente, se toman notas."
+  },
+  "investigations-5-q6": {
+   "q": "Un vigilante acaba de pasar varias horas atrapado durante un incidente y está físicamente agotado, pero es el único testigo directo. ¿Qué debe hacer el investigador?",
+   "o": [
+    "Entrevistarlo brevemente sobre lo crucial y luego dejarlo descansar.",
+    "Hacerle una entrevista completa de inmediato, antes de que olvide los detalles.",
+    "Aplazar toda pregunta hasta que se haya recuperado por completo.",
+    "Hacerle una entrevista larga para que el cansancio reduzca sus defensas."
+   ],
+   "e": "Tras una situación físicamente agotadora, el libro pide entrevistar brevemente sobre lo crucial y después dejar descansar al entrevistado. Aunque en general conviene entrevistar lo antes posible, una entrevista larga a alguien debilitado puede servir después a su abogado para anular la declaración."
+  },
+  "investigations-5-q7": {
+   "q": "Se pregunta a un empleado si robó dinero de la caja fuerte. ¿Qué respuesta es MÁS propia de una persona veraz?",
+   "o": [
+    "\"No robé esos $12,000 o lo que sea; ni un centavo.\"",
+    "\"No tomé esos $12,437.18.\"",
+    "\"Juro por Dios que yo no lo hice.\"",
+    "\"Si recuerdo bien, en este momento no tengo nada que ver.\""
+   ],
+   "e": "La persona veraz niega de forma general y amplia; la engañosa niega de forma muy específica, como al citar la cifra exacta. Los juramentos religiosos y las frases como \"si recuerdo bien\" (la capa verbal protectora del mentiroso sofisticado) también sugieren engaño."
+  },
+  "investigations-5-q8": {
+   "q": "Al responder una sola pregunta, un sujeto cruza los brazos; en el resto de la entrevista su conducta es tranquila y coherente. ¿Cuál es la MEJOR interpretación?",
+   "o": [
+    "No es concluyente: se evalúa el patrón general, el momento y su conducta normal.",
+    "Es un gesto de apoyo que indica engaño y justifica pasar a la entrevista confrontacional.",
+    "Es una conducta de desplazamiento que confirma que esa respuesta concreta fue falsa.",
+    "Es irrelevante, porque solo la conducta verbal sirve para evaluar la veracidad."
+   ],
+   "e": "Ninguna palabra o conducta aislada significa automáticamente que alguien miente: la evaluación se basa en el patrón general, en el momento (timing) y la frecuencia (consistency), y en la comparación con la conducta normal del sujeto. Cruzar los brazos es un gesto de apoyo (supportive gesture), pero solo es un fuerte indicio si se combina repetidamente con las respuestas verbales."
+  },
+  "investigations-5-q9": {
+   "q": "En una entrevista de análisis de conducta (Behavior Analysis Interview, BAI) por un robo de tarjetas, se pregunta: \"¿Hay alguien con quien trabaja que esté por encima de toda sospecha?\". El sujeto contesta enseguida que no puede responder por nadie. ¿Cómo se interpreta?",
+   "o": [
+    "Como respuesta engañosa a la pregunta vouch: evita reducir la lista de posibles sospechosos.",
+    "Como respuesta veraz a la pregunta vouch: no quiere acusar a sus compañeros.",
+    "Como respuesta engañosa a la pregunta knowledge: niega sin emoción saber quién fue.",
+    "Como respuesta veraz a la pregunta suspicion: lo piensa antes de nombrar a alguien."
+   ],
+   "e": "En la pregunta vouch (o trust), la persona veraz lo piensa y suele descartar posibles sospechosos; la engañosa no avala a nadie, para no reducir la lista de sospechosos ni aumentar su propio riesgo. La pregunta knowledge es otra: pregunta si sabe con certeza quién robó, no si alguien está por encima de toda sospecha."
+  },
+  "investigations-5-q10": {
+   "q": "En el paso 7 del método Reid, la pregunta alternativa (alternative question), ¿cuál de estas preguntas está BIEN formulada?",
+   "o": [
+    "\"¿Lo planeó con tiempo o pasó de repente?\"",
+    "\"¿Lo hizo usted o no lo hizo?\"",
+    "\"Cuénteme todo lo que pasó ese día.\"",
+    "\"¿Sabe con certeza quién tomó el dinero?\""
+   ],
+   "e": "La pregunta alternativa ofrece dos opciones incriminatorias derivadas del tema, asumiendo la culpa; aceptar cualquiera de ellas es la primera admisión. Preguntar \"¿lo hizo o no?\" invita a negar, y \"cuénteme todo\" es prematuro incluso en el paso 8."
+  },
+  "investigations-5-q11": {
+   "q": "Según los nueve pasos del interrogatorio de Reid (Reid Nine Steps of Interrogation), ¿de qué paso nunca pasa la persona inocente?",
+   "o": [
+    "Del manejo de negaciones (handling denials, paso 3).",
+    "De la superación de objeciones (overcoming objections, paso 4).",
+    "Del manejo del estado pasivo (passive mood, paso 6).",
+    "Del desarrollo del tema (theme development, paso 2)."
+   ],
+   "e": "El inocente mantiene su inocencia de inmediato, sin pedir permiso para hablar, y nunca pasa de la etapa de manejo de negaciones: sigue firme. Las objeciones del paso 4 son típicas del culpable, que pasa de la defensa al ataque."
+  },
+  "investigations-5-q12": {
+   "q": "¿Qué técnica de entrevista a sospechosos se creó para la policía del Reino Unido con el objetivo de reducir las confesiones falsas?",
+   "o": [
+    "El modelo PEACE.",
+    "El método no confrontacional WZ.",
+    "La entrevista kinésica (kinesic interview).",
+    "Los nueve pasos de Reid."
+   ],
+   "e": "El modelo PEACE (Preparation and Planning, Engage and Explain, Account, Closure, Evaluate) se creó para la policía británica y busca reducir las confesiones falsas, centrándose en la equidad, la apertura y la búsqueda de hechos. El método WZ es una alternativa conversacional que reduce negaciones y objeciones, pero viene de Wicklander-Zulawski & Associates."
+  },
+  "investigations-5-q13": {
+   "q": "Durante una entrevista, el sujeto pregunta qué le pasará si coopera. ¿Cuál es la respuesta MÁS adecuada del investigador?",
+   "o": [
+    "Explicar que no puede garantizar el resultado, porque su función es reunir hechos.",
+    "Asegurarle que cooperar le dará un resultado más favorable con la empresa.",
+    "Prometerle que no habrá acciones penales si firma una declaración escrita.",
+    "Decirle que el resultado dependerá de que confiese antes de terminar la sesión."
+   ],
+   "e": "Si el entrevistado pide una opinión sobre el resultado, el investigador no puede ni debe garantizarlo: su función es reunir hechos. Decir que cooperar dará un resultado más favorable probablemente invalidará cualquier confesión, y deben evitarse las promesas que no puedan cumplirse o confirmarse."
+  },
+  "investigations-6-q0": {
+   "q": "Una unidad de investigación corporativa recoge evidencia de un robo interno que, según todo indica, terminará solo en una sanción disciplinaria. ¿Con qué estándar debe manejar la evidencia?",
+   "o": [
+    "Con el estándar de los juicios penales y civiles, para conservar esa opción y dar credibilidad a la sanción.",
+    "Con el estándar interno de la empresa, porque no se prevé ningún litigio.",
+    "Con un estándar simplificado, y elevarlo solo si el caso pasa a la policía.",
+    "Con el estándar universal de manejo de evidencia que aplican todas las jurisdicciones."
+   ],
+   "e": "La regla de oro del capítulo es manejar la evidencia con el estándar penal y civil aunque no vaya a litigio: así se conserva esa opción y gana credibilidad cualquier medida administrativa o disciplinaria. Además, el libro aclara que no existe un estándar universal de manejo de evidencia."
+  },
+  "investigations-6-q1": {
+   "q": "Un testigo estaba a la vuelta de la esquina: oyó un frenazo y un choque, corrió y vio el semáforo pasar de rojo a verde, y dedujo que un conductor se había pasado el rojo. ¿Cómo clasifica el libro esta evidencia?",
+   "o": [
+    "Indirecta, de tipo circunstancial (circumstantial evidence).",
+    "Directa, de tipo real y material (real and material evidence).",
+    "Indirecta, de oídas (hearsay).",
+    "Directa, porque el testigo vio el semáforo con sus propios ojos."
+   ],
+   "e": "La evidencia directa es conocimiento de primera mano, como la del testigo que ve al conductor pasarse el rojo y chocar. Aquí el testigo deduce el hecho a partir de una serie de eventos, lo que el libro llama evidencia indirecta circunstancial; haber visto el semáforo no basta, porque no vio la infracción."
+  },
+  "investigations-6-q2": {
+   "q": "Durante un asalto en un almacén, un empleado grita de forma espontánea: \"¡Es el de mantenimiento, lleva un cuchillo!\". Otro empleado lo oye y luego lo declara. ¿Qué excepción a la regla del testimonio de oídas (hearsay) podría permitir admitir esa exclamación?",
+   "o": [
+    "Res gestae.",
+    "Declaración en el lecho de muerte (dying declaration).",
+    "Declaración contra el propio interés (statement against self-interest).",
+    "Materialidad (materiality)."
+   ],
+   "e": "La res gestae cubre lo que se dice de forma natural, espontánea y sin pensar durante un evento, incluidas las exclamaciones tan espontáneas que es imposible que estén inventadas; por eso los tribunales le dan mucha credibilidad. La dying declaration exige a una persona moribunda, y la materialidad no es una excepción, sino la regla que mide cuánto importa una evidencia."
+  },
+  "investigations-6-q3": {
+   "q": "En un entorno sindicalizado (union environment), el investigador del empleador entrevista a varios empleados por un robo. ¿En cuál de estas situaciones puede pedirles que mantengan la confidencialidad?",
+   "o": [
+    "Cuando hay riesgo de que la evidencia se destruya.",
+    "Cuando el caso implica una pérdida económica alta para la empresa.",
+    "Cuando el sindicato no está presente en la entrevista.",
+    "Cuando el entrevistado es un supervisor de área."
+   ],
+   "e": "En un entorno sindicalizado, el investigador no debe exigir confidencialidad salvo en cuatro casos: si los testigos necesitan protección, si la evidencia corre peligro de ser destruida, si el testimonio corre peligro de ser inventado o si hay que evitar un encubrimiento (cover up). El tamaño de la pérdida o el cargo del entrevistado no figuran entre esas excepciones."
+  },
+  "investigations-6-q4": {
+   "q": "Para convencer a un testigo reacio, un investigador de seguridad le ofrece una tarjeta de regalo si firma una declaración. ¿Cuál es el MAYOR riesgo de esta práctica?",
+   "o": [
+    "Si se descubre, la declaración se anula y el investigador puede ser acusado de manipular testigos (witness tampering).",
+    "La declaración seguirá siendo admisible, aunque el jurado le dé menos peso.",
+    "La declaración pasa a considerarse de oídas y solo sirve como pista.",
+    "La declaración solo será válida si el pago se documenta en la cadena de custodia."
+   ],
+   "e": "El libro prohíbe prometer u ofrecer recompensas a cambio de una declaración: si se descubre, la declaración queda anulada y el investigador puede ser acusado de witness tampering. No se trata de que pierda peso ante el jurado: pierde su validez."
+  },
+  "investigations-6-q5": {
+   "q": "Un falsificador firma un cheque a nombre de otra persona con su propia letra normal, sin intentar imitar la firma auténtica. ¿Qué tipo de firma falsa (false signature) es?",
+   "o": [
+    "A mano alzada (freehand).",
+    "Simulada (simulated).",
+    "Calcada (traced).",
+    "No dictada (undictated)."
+   ],
+   "e": "En la firma a mano alzada, el falsificador escribe con su letra normal sin intentar imitar el estilo de la otra persona. La simulada copia o dibuja una firma auténtica, y la calcada usa una firma auténtica como plantilla; \"no dictada\" describe un tipo de muestra de comparación, no de firma falsa."
+  },
+  "investigations-6-q6": {
+   "q": "Un investigador va a tomar muestras de escritura (exemplars) a una persona de interés para compararlas con una carta anónima amenazante. ¿Qué práctica es la correcta?",
+   "o": [
+    "Dictarle el texto sin guiarle en ortografía ni puntuación, cada muestra en su propia hoja.",
+    "Mostrarle la carta cuestionada para que copie el mismo texto con la mayor fidelidad posible.",
+    "Pedirle una sola muestra cuidada, para no cansarla y obtener su mejor letra.",
+    "Dejar que vea sus muestras anteriores para que mantenga un estilo coherente."
+   ],
+   "e": "Al tomar muestras se dan instrucciones sobre el texto, pero no sobre ortografía, puntuación ni distribución, y cada muestra va en una hoja aparte. El autor no debe ver el escrito cuestionado ni sus muestras anteriores, y se piden muchas repeticiones hasta que salga su escritura normal."
+  },
+  "investigations-6-q7": {
+   "q": "En la escena de un robo se encuentra el recibo de una tarjeta de crédito que puede ayudar a identificar y localizar al sospechoso. ¿En qué categoría de evidencia física encaja MEJOR?",
+   "o": [
+    "Evidencia de rastreo (tracing evidence).",
+    "Rastros (trace evidence).",
+    "Cuerpo del delito (corpus delicti).",
+    "Evidencia de impresión (impression evidence)."
+   ],
+   "e": "La tracing evidence ayuda a identificar y localizar al sospechoso, como un recibo de tarjeta de crédito o la etiqueta de una prenda. No hay que confundirla con la trace evidence: rastros como fibras, pintura o vidrio que examina la sección de criminalística del laboratorio."
+  },
+  "investigations-6-q8": {
+   "q": "¿Cómo define el libro la cadena de custodia (chain of custody)?",
+   "o": [
+    "El control ininterrumpido de la evidencia.",
+    "El registro fotográfico de la evidencia en la escena.",
+    "La autorización legal para incautar la evidencia.",
+    "El documento con el que se entrega la escena a otra parte."
+   ],
+   "e": "La cadena de custodia es el control ininterrumpido de la evidencia; se mantiene marcándola con las iniciales del investigador al recogerla, limitando quién la toca y documentando cada transferencia. Una cadena claramente demostrada es uno de los tres requisitos para presentar evidencia física en juicio, junto con la identificación correcta y la relevancia."
+  },
+  "investigations-6-q9": {
+   "q": "El equipo de búsqueda ya aseguró y protegió la escena e hizo el recorrido preliminar (preliminary survey). Según el orden de tareas del libro, ¿qué sigue?",
+   "o": [
+    "Valorar las posibles evidencias (evaluate evidence possibilities).",
+    "Redactar la narrativa (produce a narrative).",
+    "Fotografiar la escena (photography).",
+    "Recoger la evidencia física (physical evidence collection)."
+   ],
+   "e": "El orden es: asegurar y proteger la escena, recorrido preliminar, valorar las posibles evidencias, narrativa, fotografía, croquis, recogida de evidencia física, revisión final y entrega. La narrativa viene justo después de valorar las posibilidades, y en general durante ella no se recoge evidencia."
+  },
+  "investigations-6-q10": {
+   "q": "En una escena exterior hay pisadas en el barro, se pronostica lluvia en una hora y en un cobertizo cerrado hay herramientas que podrían haberse usado. Según el libro, ¿qué debe atender PRIMERO el equipo?",
+   "o": [
+    "Las pisadas, porque la evidencia que puede perderse se atiende antes que la menos transitoria.",
+    "Las herramientas del cobertizo, porque los objetos escondidos suelen ser la evidencia más valiosa.",
+    "Ninguna hasta terminar la narrativa completa, porque durante ella no se recoge evidencia.",
+    "Las herramientas, porque primero se busca en zonas ocultas y después en las accesibles."
+   ],
+   "e": "Al valorar las posibles evidencias, el libro pide atender primero a la evidencia que puede perderse y dejar para el final la menos transitoria; además, se busca primero en las zonas accesibles y después en las que no están a la vista. Las pisadas en el barro, con lluvia inminente, son evidencia transitoria (transient)."
+  },
+  "investigations-6-q11": {
+   "q": "Un investigador va a fotografiar un cuchillo hallado en la escena antes de recogerlo. ¿Qué secuencia sigue MEJOR las pautas del libro?",
+   "o": [
+    "Foto a media distancia que muestre su posición; luego de cerca llenando el encuadre, primero sin escala y después con escala.",
+    "Foto de cerca con escala llenando el encuadre; después recogerlo y volver a fotografiarlo en el laboratorio.",
+    "Solo una foto de cerca con escala, porque la vista media no aporta nada útil para el examen.",
+    "Recogerlo para que no se pierda y fotografiar después el lugar donde estaba, con escala."
+   ],
+   "e": "La evidencia se fotografía antes de recogerla. La importante se fotografía dos veces: a media distancia, mostrando su posición respecto a otras evidencias, y de cerca, con escala y llenando el encuadre; toda foto para examen se hace primero sin escala y luego con escala."
+  },
+  "investigations-6-q12": {
+   "q": "Terminada la revisión final (final survey), el supervisor de escena (scene supervisor) quiere entregar la escena al gerente de la instalación. Según el libro, ¿quién puede entregarla?",
+   "o": [
+    "Solo la persona a cargo (person in charge), cuando todos estén seguros de que la búsqueda fue completa.",
+    "El supervisor de escena, porque coordina los materiales, el personal y la seguridad del equipo.",
+    "El registrador de evidencia (evidence recorder), porque hace de custodio de la evidencia.",
+    "Cualquier miembro del equipo, siempre que firme el documento de entrega."
+   ],
+   "e": "Solo la persona a cargo puede entregar la escena, y solo cuando todo el personal esté seguro de que la búsqueda fue correcta y completa. El documento de entrega indica la hora y la fecha, a quién se entregó la escena y quién la entregó."
+  },
+  "investigations-6-q13": {
+   "q": "Un investigador debe enviar a un laboratorio privado varias evidencias recogidas en una escena. ¿Qué debe hacer PRIMERO?",
+   "o": [
+    "Llamar al laboratorio para pedir instrucciones concretas de embalaje y envío.",
+    "Envolver y sellar cada evidencia por separado para que no se contaminen.",
+    "Sellar el contenedor interior con cinta que delate la manipulación (tamper-evident).",
+    "Meter una copia de la solicitud de examen en un sobre aparte de la evidencia."
+   ],
+   "e": "El primer paso para enviar evidencia es llamar al laboratorio y pedir instrucciones concretas antes de empacar y enviar. Envolver cada evidencia por separado, sellar con cinta tamper-evident e incluir la solicitud de examen son pasos posteriores del mismo procedimiento."
+  },
+  "investigations-6-q14": {
+   "q": "Un vigilante encuentra una pistola en una escena antes de que llegue la policía. ¿Qué práctica es la correcta?",
+   "o": [
+    "Tocarla lo mínimo y no introducir nunca ningún objeto en el cañón.",
+    "Levantarla metiendo un bolígrafo por el cañón para no dejar ninguna huella dactilar.",
+    "Limpiar su exterior antes de embalarla para proteger las marcas del estriado.",
+    "Dejarla cargada para que el laboratorio vea cómo se encontró."
+   ],
+   "e": "El libro pide tocar las armas lo mínimo y no meter nunca nada por el cañón, la recámara ni otras superficies de funcionamiento. También hay que asegurarse de que estén descargadas antes del examen; meter un bolígrafo por el cañón destruye evidencia."
+  },
+  "investigations-6-q15": {
+   "q": "Se recoge una camisa con manchas de sangre todavía húmedas. ¿Cómo debe prepararse para su envío?",
+   "o": [
+    "Secarla al aire conservando el patrón de manchas y envolverla en papel limpio.",
+    "Meterla húmeda en una bolsa de plástico hermética para que no se contamine en el envío.",
+    "Congelarla y enviarla con hielo seco para frenar su descomposición.",
+    "Recortar las manchas y desechar el resto para reducir el volumen del envío."
+   ],
+   "e": "La ropa manchada de sangre se seca al aire cuidando de conservar el patrón de manchas y se envuelve en papel limpio; el libro insiste en no usar plástico. El hielo seco es para tejidos, huesos y dientes, no para la ropa."
+  },
+  "investigations-6-q16": {
+   "q": "Según las pautas de embalaje del libro, ¿qué muestra biológica es la única que se guarda en un recipiente de plástico limpio y hermético, sin formol (formalin)?",
+   "o": [
+    "Los tejidos (tissues).",
+    "El pelo (hair).",
+    "Los hisopos bucales (buccal swabs).",
+    "Las colillas de cigarro."
+   ],
+   "e": "Los tejidos son la única muestra biológica que va en plástico: en un recipiente limpio y hermético, sin formol, y se congelan y envían con hielo seco. El pelo, los hisopos bucales y las colillas van en papel limpio o en un sobre con las esquinas selladas, nunca en plástico."
+  },
+  "investigations-6-q17": {
+   "q": "Tras incautar una estación de trabajo con monitor, teclado, impresora y discos externos, ¿qué debe enviarse en general al laboratorio?",
+   "o": [
+    "Solo la unidad central y los soportes de almacenamiento internos y externos.",
+    "Todo el equipo, incluidos los periféricos, para recrear el entorno original.",
+    "Solo una copia de los archivos, para no arriesgar los equipos originales.",
+    "Solo los discos externos, porque la unidad central puede alterarse en el traslado."
+   ],
+   "e": "En general se envían solo las unidades centrales (central processing units) y los soportes de almacenamiento internos y externos. El Apéndice 6B pide incautar también los periféricos, pero una cosa es lo que se incauta y otra lo que se envía al laboratorio."
+  },
+  "investigations-6-q18": {
+   "q": "Hay que moldear una pisada en tierra porque la evidencia no se puede enviar. ¿Qué procedimiento es el correcto?",
+   "o": [
+    "Usar yeso dental piedra (dental stone), verterlo al lado de la huella y dejar que entre solo.",
+    "Usar yeso de París (plaster of Paris) y verterlo directo sobre la huella para que copie el detalle.",
+    "Usar yeso dental piedra y, a los 20 minutos, empacar el molde en una bolsa de plástico.",
+    "Usar yeso de modelar y limpiar el molde en la escena antes de enviarlo al laboratorio."
+   ],
+   "e": "Se usa yeso dental piedra, porque el yeso de París y los de modelar no son lo bastante duros; se vierte al lado para que fluya hacia la huella, ya que verterlo encima destruye el detalle. El molde se deja secar al aire al menos 48 horas, se empaca en papel y solo un examinador del laboratorio lo limpia."
+  },
+  "investigations-6-q19": {
+   "q": "En una presunta agresión facilitada por drogas (drug-facilitated assault), ¿qué muestra debe incluir la evidencia biológica y en qué plazo máximo?",
+   "o": [
+    "Orina, recogida cuanto antes y nunca más de 96 horas después.",
+    "Sangre, recogida cuanto antes y nunca más de 24 horas después.",
+    "Orina, recogida dentro de las 24 horas siguientes.",
+    "Pelo, recogido dentro de las 96 horas siguientes."
+   ],
+   "e": "En las agresiones facilitadas por drogas, la evidencia biológica debe incluir una muestra de orina, recogida cuanto antes y nunca más de 96 horas después del supuesto drogado. Conviene llamar antes al laboratorio para enviar la cantidad correcta de muestra."
+  },
+  "investigations-6-q20": {
+   "q": "El investigador debe revelar huellas dactilares latentes (latent fingerprints) en la escena porque no puede llevar el objeto al laboratorio. ¿Qué debe hacer PRIMERO?",
+   "o": [
+    "Fotografiar las huellas antes de cualquier tratamiento.",
+    "Aplicar un revelador químico y fotografiar el resultado.",
+    "Levantarlas con cinta y pasarlas a una tarjeta blanca.",
+    "Limpiar la superficie de alrededor para mejorar el contraste."
+   ],
+   "e": "Para proteger las huellas latentes en la escena, el libro pide fotografiarlas antes de cualquier tratamiento y examinar la evidencia a simple vista y con láser o fuente de luz alternativa antes de usar otro método. Revelarlas o levantarlas primero puede destruirlas."
+  },
+  "investigations-6-q21": {
+   "q": "¿En qué concepto se basa la norma de OSHA sobre patógenos transmitidos por la sangre (bloodborne pathogens), 29 CFR 1910.1030?",
+   "o": [
+    "En las precauciones universales (universal precautions): tratar toda sangre y fluido como infectado.",
+    "En una evaluación de peligros y riesgos (hazard-risk assessment) hecha caso por caso por personal cualificado.",
+    "En los controles técnicos (engineering controls) en lugar del equipo de protección.",
+    "En un permiso de entrada emitido por personal formado antes de actuar."
+   ],
+   "e": "La norma 29 CFR 1910.1030 se basa en las precauciones universales: toda sangre, fluido corporal u otro material potencialmente infeccioso se trata como si estuviera infectado. Los controles técnicos complementan esas medidas, y el permiso de entrada corresponde a los espacios confinados."
+  },
+  "investigations-6-q22": {
+   "q": "Un técnico que recogía evidencia dentro de un tanque se desploma. El vigilante que está fuera como asistente (attendant) no pertenece al equipo de rescate designado. ¿Qué debe hacer?",
+   "o": [
+    "No entrar a rescatarlo, mantener la comunicación y recurrir al equipo de rescate designado.",
+    "Entrar de inmediato a sacarlo, porque cada minuto sin oxígeno cuenta.",
+    "Entrar con un arnés de cuerpo completo para sacarlo con rapidez.",
+    "Apagar la ventilación para no levantar contaminantes y entrar a revisarlo."
+   ],
+   "e": "En un espacio confinado (confined space) nunca se intenta un rescate salvo que se forme parte del equipo de rescate designado, que debe estar disponible de inmediato. Entrar, aunque sea con arnés, expone al asistente a los mismos peligros, como gases tóxicos o falta de oxígeno."
+  },
+  "investigations-6-q23": {
+   "q": "¿Qué tipo de químico prende solo en el aire a menos de 130 °F (54 °C), sin necesidad de una fuente de ignición?",
+   "o": [
+    "Pirofórico (pyrophoric).",
+    "Inflamable o combustible (flammable or combustible).",
+    "Oxidante (oxidizer).",
+    "Explosivo (explosive)."
+   ],
+   "e": "Los pirofóricos, como el fósforo, el sodio o el bario, prenden solos en el aire a menos de 130 °F sin fuente de ignición. Los inflamables también prenden con facilidad, pero necesitan aire y una fuente de ignición, como una chispa o una llama."
+  },
+  "investigations-6-q24": {
+   "q": "Un investigador que usa lentes de contacto va a manejar químicos en una escena con riesgo de salpicaduras. ¿Qué protección ocular es la MÁS adecuada?",
+   "o": [
+    "Gafas cerradas (goggles) con una pantalla facial (face shield) por encima.",
+    "Solo una pantalla facial, porque cubre toda la cara.",
+    "Sus lentes de contacto, que ya protegen la superficie del ojo.",
+    "Sus gafas graduadas normales en lugar de los lentes de contacto."
+   ],
+   "e": "Quien usa lentes de contacto debe llevar gafas de seguridad o gafas cerradas, porque si un químico salpica el ojo cuesta quitar la lente y el contaminante puede quedar atrapado detrás. Con riesgo de salpicaduras, la pantalla facial protege mejor, pero siempre se usa junto con gafas de seguridad o gafas cerradas."
+  },
+  "investigations-7-q0": {
+   "q": "En un juicio por seguridad inadecuada, el abogado contrario pregunta al guardia: «Cuando trabajaba solo esa noche y la víctima le hizo señas en el estacionamiento, ¿qué hizo primero?». En realidad era de día y había otros dos guardias de turno. ¿Qué debe hacer el guardia PRIMERO?",
+   "o": [
+    "Corregir las premisas falsas de la pregunta antes de dar su respuesta",
+    "Responder solo lo que se pregunta, sin ofrecer información no solicitada",
+    "Pedir al abogado que hable más alto o que aclare la pregunta",
+    "Decir que no puede responder a la pregunta con un sí o un no"
+   ],
+   "e": "Ante una pregunta trampa (trick question) hay que corregir las premisas falsas antes de responder: si solo contesta «comprobé si estaba herida y llamé a una ambulancia», las falsedades quedan sin aclarar y pueden influir en el jurado. Responder solo lo que se pregunta es una regla general, pero no autoriza a dejar pasar hechos falsos."
+  },
+  "investigations-7-q1": {
+   "q": "¿Qué describe MEJOR lo que estableció el caso Kumho Tire v. Carmichael ante el Tribunal Supremo de EE. UU.?",
+   "o": [
+    "El juez debe comprobar que el testimonio científico se basa en ciencia sólida antes de admitirlo",
+    "El juez del juicio puede decidir qué tipo de testimonio científico escucha el jurado",
+    "Cualquier perito, científico o no, debe ser examinado antes de declarar",
+    "Solo los peritos nombrados por el juez pueden opinar sobre la causa del incidente"
+   ],
+   "e": "Kumho Tire (1999) amplió Daubert: cualquier perito (expert witness), científico o no, debe ser examinado antes de declarar. Comprobar que el testimonio científico se basa en ciencia sólida es la regla original de Daubert (1993), no su ampliación; decidir qué testimonio científico oye el jurado corresponde a Joiner."
+  },
+  "investigations-7-q2": {
+   "q": "Un supervisor de seguridad declara como testigo de hechos (fact witness) sobre una agresión que presenció. El abogado contrario le plantea una pregunta hipotética sobre qué habría evitado el incidente. ¿Qué describe MEJOR su situación?",
+   "o": [
+    "No está obligado a responderla; esa obligación corresponde al perito (expert witness)",
+    "Debe responderla, porque declara bajo juramento como cualquier otro testigo",
+    "Debe responderla si antes el juez lo aceptó como apto durante el voir dire",
+    "Debe responderla con la fórmula de que esos no son los hechos del caso"
+   ],
+   "e": "El testigo de hechos solo declara lo que percibió con sus sentidos y no está obligado a responder preguntas hipotéticas; el perito, contratado para opinar, sí debe hacerlo. La fórmula «entiendo el escenario, pero esos no son los hechos del caso» es la que usa el perito al responder una hipótesis."
+  },
+  "investigations-7-q3": {
+   "q": "Un guardia marcó un cuchillo como evidencia hace dos años y ahora declarará en el juicio. ¿Cuál es la razón MÁS importante para examinarlo en persona en la conferencia previa al juicio (pre-trial conference)?",
+   "o": [
+    "Volver a marcarlo con sus iniciales, la fecha actual y el número de informe",
+    "Confirmar que existe completo, tal como lo describen documentos y etiquetas",
+    "Decidir si cumple los criterios de relevancia, materialidad y competencia",
+    "Preparar con el abogado un guion exacto de lo que va a declarar sobre él"
+   ],
+   "e": "Examinarla en persona es la única forma de comprobar que la evidencia existe completa, tal como la describen los documentos y las etiquetas (evidence tags); además, su aspecto puede haber cambiado. Los criterios de relevancia, materialidad y competencia los usa el juez para instruir al jurado, no el testigo."
+  },
+  "investigations-7-q4": {
+   "q": "Antes del juicio, una de las partes pide a la contraria que presente toda la evidencia tangible relacionada con el caso. ¿Cómo se llama esta petición?",
+   "o": [
+    "Interrogatorios escritos (interrogatories)",
+    "Duces tecum",
+    "Declaración jurada (deposition)",
+    "Voir dire"
+   ],
+   "e": "El duces tecum es la petición entre las partes para que se presente toda la evidencia tangible. Los interrogatories son preguntas por escrito que se intercambian las partes, y la deposition es una declaración formal bajo juramento; ninguno pide objetos o pruebas físicas."
+  },
+  "investigations-8-q0": {
+   "q": "Un investigador necesita consultar bases de datos en línea, registros financieros y catálogos de investigación a los que solo se accede con usuario y contraseña. Según el modelo del iceberg de Internet, ¿qué describe MEJOR dónde está esa información?",
+   "o": [
+    "En la surface web, porque son sitios legítimos que se encuentran con búsquedas básicas",
+    "En la deep web, que no se indexa porque no es pública, no porque sea peligrosa",
+    "En la dark web, oculta a propósito y accesible solo con navegadores especiales como Tor",
+    "En la deep web, que los buscadores no pueden indexar porque alberga sobre todo actividad ilícita"
+   ],
+   "e": "Lo que está tras un login o en bases internas forma la deep web (más del 93 % de Internet): los buscadores no la indexan porque no es pública, y eso no la hace peligrosa. La actividad mayoritariamente ilícita y el acceso con Tor caracterizan a la dark web (alrededor del 3 %)."
+  },
+  "investigations-8-q1": {
+   "q": "Como parte de la diligencia debida (due diligence) sobre un posible socio extranjero, la empresa quiere saber si esa persona está sujeta a sanciones económicas. ¿Qué base de datos de un organismo regulador de EE. UU. debe consultar el investigador?",
+   "o": [
+    "La de la SEC (Securities and Exchange Commission)",
+    "La de la OFAC (Office of Foreign Assets Control)",
+    "La de la FTC (Federal Trade Commission)",
+    "La de la FEC (Federal Election Commission)"
+   ],
+   "e": "En la OFAC se buscan sanciones económicas. La SEC sirve para infracciones bursátiles y la FEC para aportaciones a campañas políticas, así que ninguna de las dos responde a esta necesidad."
+  },
+  "investigations-8-q2": {
+   "q": "Al revisar una base de datos comercial en línea, un investigador encuentra una sentencia civil contra el investigado. Esa jurisdicción no publica todos sus registros en línea. ¿Qué debe hacer ANTES de apoyarse en ese dato?",
+   "o": [
+    "Incluirlo en el informe, porque las bases comerciales solo las usan investigadores con licencia",
+    "Verificarlo con otros registros y documentos, como los de la oficina del secretario",
+    "Buscarlo en Google, Bing o Yahoo para confirmar que también aparece en los buscadores",
+    "Revisar las redes sociales del investigado para ver si menciona el procedimiento"
+   ],
+   "e": "No todo está en línea y hay errores incluso en bases oficiales, así que todo lo hallado en bases en línea se verifica con otros registros y documentos, que a veces solo están en el juzgado o en la oficina del secretario (clerk's office). Los buscadores no son fuentes con autoridad, así que no sirven para confirmar el dato."
+  },
+  "investigations-8-q3": {
+   "q": "Una investigadora corporativa tiene una buena relación de enlace (liaison) con un mando de la policía local, pero desde hace meses no tienen ningún caso en común. Según el libro, ¿qué es lo MEJOR para mantener ese enlace?",
+   "o": [
+    "Esperar a que surja un caso, para no abusar del tiempo del contacto",
+    "Mantener un contacto periódico aunque no haya nada concreto que intercambiar",
+    "Enviarle un regalo de buen valor para que la relación no se enfríe",
+    "Pedirle ahora un favor para equilibrar los que ella le hizo antes a él"
+   ],
+   "e": "El enlace se mantiene con contacto periódico aunque no haya nada que intercambiar: muestra que la relación importa y mantiene la familiaridad. Debe haber beneficio mutuo, pero no necesariamente un quid pro quo, y los regalos deben respetar los límites legales y las normas de cada organismo."
+  },
+  "investigations-8-q4": {
+   "q": "En una fuerza de tarea conjunta (joint task force, JTF) contra la trata de personas, cada organismo miembro tiene su propia cadena de mando, sus políticas y sus comunicaciones seguras, y valora de forma distinta qué es sensible y por cuánto tiempo. ¿Qué solución propone el libro para este problema?",
+   "o": [
+    "Una gestión firme de la JTF que neutralice las agendas propias de los miembros",
+    "Cadenas de reporte bien definidas, en la JTF y en cada organismo miembro",
+    "Un plan OPSEC a medida, que cubra la información física y la electrónica",
+    "Un sistema de nombres en clave que oculte las fuentes de cada organismo"
+   ],
+   "e": "La protección de información sensible en una JTF se resuelve con un plan OPSEC (operations security) a medida, para información física y electrónica. La gestión de la JTF responde al localismo (parochialism), y las cadenas de reporte bien definidas evitan la información fragmentada y contradictoria."
+  },
+  "investigations-8-q5": {
+   "q": "Una empresa con varias sedes abre una investigación por un posible fraude en compras y el gerente de la unidad de investigación quiere reunir inteligencia. Según la máxima básica del capítulo, ¿por dónde debe empezar?",
+   "o": [
+    "Por las bases comerciales y de suscripción, que dan datos de base del investigado",
+    "Por sus contactos de enlace en la policía y en las asociaciones del sector",
+    "Por los archivos y registros internos de la propia organización",
+    "Por la huella digital del investigado en las redes sociales"
+   ],
+   "e": "La máxima es «check your own files first» (revisa primero tus propios archivos), porque en organizaciones grandes, complejas o con varias sedes es común pasar por alto fuentes internas valiosas. Las bases comerciales y el enlace son útiles, pero la máxima pide revisar primero lo propio."
+  },
+  "investigations-8-q6": {
+   "q": "Un director de seguridad quiere aprovechar al personal de TI en las investigaciones, por ejemplo con el monitoreo de pulsaciones de teclado (keystroke monitoring) para detectar amenazas internas. Según el libro, ¿cómo debe construirse la relación con TI?",
+   "o": [
+    "Desde arriba, entre el máximo ejecutivo de seguridad o investigación y el CIO, y luego hacia abajo",
+    "Desde la base, entre los investigadores y técnicos de TI que ya colaboran a diario en casos concretos",
+    "Subcontratando a una empresa especializada para no depender del departamento de TI interno",
+    "Asignando un técnico de TI a la unidad de investigación, bajo el mando del gerente de la IU"
+   ],
+   "e": "La relación estrecha entre seguridad, investigadores y TI debe empezar arriba —el máximo ejecutivo de seguridad o investigación con el CIO (chief information officer)— y luego bajar por ambas funciones, siempre dentro de la ley. Empezar por la base es justo el enfoque inverso al que propone el libro."
+  },
+  "investigations-8-q7": {
+   "q": "Durante una investigación encubierta, el equipo realiza una vigilancia que no forma parte de la rutina del caso. ¿Qué tipo de informe documenta MEJOR esa acción?",
+   "o": [
+    "Informe inicial (initial report)",
+    "Informe de avance (progress report)",
+    "Informe especial (special report)",
+    "Informe final (final report)"
+   ],
+   "e": "El special report documenta una acción fuera de lo normal, como una vigilancia en una investigación encubierta; puede complementar al de avance, pero debe poder leerse por separado. El progress report se presenta a intervalos fijos (30 días en el sector privado) con el avance y las pistas pendientes."
+  },
+  "investigations-8-q8": {
+   "q": "¿Qué regla describe MEJOR cómo redactar el resumen (summary o synopsis) de un informe de investigación?",
+   "o": [
+    "Cada punto clave del informe lleva al menos una frase, sin hechos de apoyo",
+    "Cada paso de la investigación va en un párrafo aparte, en estricto orden cronológico",
+    "Debe incluir el nombre del investigado, el número de caso, su estado y la fecha del informe",
+    "Debe redactarse en primera persona cuando el autor es un agente encubierto"
+   ],
+   "e": "En el resumen, cada punto importante lleva al menos una frase, sin citar los hechos de apoyo, y se admiten conclusiones si reflejan con justicia el cuerpo. El orden cronológico con un párrafo por paso es la regla de la narración (narrative), y el nombre, número y estado del caso son datos administrativos (administrative information)."
+  },
+  "investigations-8-q9": {
+   "q": "Un informe de investigación contenía datos inexactos y dañinos sobre un empleado y se repartió a muchos gerentes sin necesidad de conocerlo (need to know). El empleado demanda por difamación (defamation). ¿Por qué es MÁS probable que la organización quede expuesta?",
+   "o": [
+    "Porque perdió el privilegio condicionado (qualified privilege) al distribuirlo más de lo necesario",
+    "Porque un informe con datos falsos siempre da pie a una demanda por difamación",
+    "Porque no lo entregó solo al abogado de registro y perdió la protección frente a una subpoena",
+    "Porque incluyó opiniones y conclusiones, que el libro prohíbe en todos los informes"
+   ],
+   "e": "Un informe bien controlado goza de privilegio condicionado y no suele dar pie a una demanda por difamación aunque tenga datos falsos, salvo que se pruebe malicia; distribuirlo más de lo necesario puede hacer perder ese privilegio. Entregarlo solo al abogado de registro (attorney work product) protege frente a una subpoena, no frente a la difamación."
+  },
+  "investigations-8-q10": {
+   "q": "Tras un robo de inventario, el equipo hace una revisión posterior a la investigación (post-investigation review) y examina qué controles existían para prevenir o detectar el robo y por qué fallaron. ¿Qué herramienta de análisis de causa raíz (root cause analysis) está usando?",
+   "o": [
+    "Análisis de barreras (barrier analysis)",
+    "Análisis del cambio (change analysis)",
+    "Líneas de tiempo (timelines)",
+    "Análisis de tendencias de señales de alerta (red flags)"
+   ],
+   "e": "El análisis de barreras revisa qué controles existen, y quizá fallaron, para prevenir o detectar el problema. El análisis del cambio investiga qué cambió y cuándo (personas, equipo, proveedor, procedimiento…) y cómo llevó a la pérdida; las líneas de tiempo son una herramienta de ese análisis."
+  },
+  "investigations-8-q11": {
+   "q": "Un investigador con veinte años de casos impecables piensa tomar un atajo que se salta una salvaguarda ética para cerrar antes un caso. Según el capítulo, ¿qué describe MEJOR el riesgo?",
+   "o": [
+    "Su credibilidad en el estrado, y con ella su eficacia, depende de no tomar ese atajo",
+    "El riesgo es solo de imagen, porque el caso es sólido y el resultado será el mismo",
+    "Su historial de casos impecables protegerá su credibilidad si el atajo sale a la luz",
+    "El atajo solo es grave si el caso acaba en un proceso penal y no en uno disciplinario"
+   ],
+   "e": "El libro dice que la ética da credibilidad y la credibilidad da eficacia: la credibilidad del investigador en el estrado depende de no tomar atajos contra las salvaguardas éticas. Su historial no lo protege, porque «un investigador vale lo que vale el caso que lleva ahora»."
+  },
+  "investigations-A-q0": {
+   "q": "En la mayoría de los casos, ¿qué papel cumple el informe de incidente de seguridad (security incident report) en una investigación?",
+   "o": [
+    "Suele ser la queja inicial que abre la investigación",
+    "Es el resumen que sustituye a los informes diarios del operativo",
+    "Es el informe especial que se firma para usarse como prueba penal",
+    "Es el registro diario del operativo en formato de línea de tiempo"
+   ],
+   "e": "Los informes de incidente suelen ser la queja inicial que abre una investigación, en línea con la sección 1.13.1. El resumen que sustituye a los diarios es el informe resumen de investigación (investigative summary report), y el registro diario en línea de tiempo es el informe cronológico (chronological report)."
+  },
+  "investigations-A-q1": {
+   "q": "Un operativo encubierto redacta su informe diario en tercera persona («the operative») o en voz pasiva («was observed»). Según el ejemplo del libro, ¿cuál es la ventaja principal de este estilo?",
+   "o": [
+    "El texto puede editarse y reutilizarse sin tener que volver a autenticarlo",
+    "Permite ordenar las entradas por hora y localizar rápido cada incidente",
+    "Sirve para registrar las horas dentro y fuera de reloj y facturar al cliente",
+    "Hace que el informe pueda firmarse como prueba penal sin ningún cambio"
+   ],
+   "e": "La tercera persona o la voz pasiva permiten editar el texto sin volver a autenticarlo; por eso el texto de los diarios pasa al resumen (2C) y al informe especial (2D) sin reescribirlo. Localizar rápido cada incidente por la hora es la ventaja del formato cronológico (2A), no de la persona gramatical."
+  },
+  "investigations-A-q2": {
+   "q": "El jefe de proyecto debe entregar al cliente un informe que sustituya a los informes diarios del operativo. Según el ejemplo del libro (2C), ¿cómo debe organizarlo?",
+   "o": [
+    "Por tema, juntando los diarios y empezando con totales útiles para decidir",
+    "Por día, en orden cronológico, con cada entrada en hora de 24 horas y en mayúsculas",
+    "Por día, en primera persona del operativo, con su firma al final de cada entrada",
+    "Por sospechoso, con una descripción física completa y un número para cada uno"
+   ],
+   "e": "El informe resumen (investigative summary report) reordena la información de los diarios por tema, no por día, en tercera persona y empezando con totales en cifras que sirven para decidir. El orden cronológico con hora de 24 horas es propio del informe diario cronológico (2A)."
+  },
+  "investigations-A-q3": {
+   "q": "Durante una investigación encubierta, el operativo compra cocaína a un sospechoso en coordinación con la policía. El hecho puede servir como prueba en un proceso penal. Según el ejemplo del libro, ¿cuál es la forma MÁS adecuada de documentarlo?",
+   "o": [
+    "Un informe especial aparte, con la descripción del sospechoso, que el operativo revisa y firma",
+    "Una entrada más en el informe diario cronológico, que remite a un informe de incidente",
+    "Una sección temática del informe resumen, sin firma, porque el cliente ya lo recibe",
+    "Un informe especial redactado por el jefe de proyecto y firmado solo por el agente de policía"
+   ],
+   "e": "Un hecho especial se documenta aparte, en un informe especial (special report) listo para usarse como prueba; si puede servir como prueba penal, el operativo lo revisa y lo firma, y el ejemplo añade una descripción física completa del sospechoso. Dejarlo solo en el resumen del cliente no lo prepara como prueba."
+  },
+  "investigations-A-q4": {
+   "q": "En la diligencia debida (due diligence) para adquirir una empresa, el investigador quiere revisar el nombre del sindicato, el de su presidente local y una copia del contrato sindical. Según la lista de comprobación de muestra del libro, ¿en qué categoría encaja?",
+   "o": [
+    "Relaciones laborales (Employee Relations)",
+    "Contratos (Contracts)",
+    "Dirección (Management)",
+    "Litigios (Litigation)"
+   ],
+   "e": "La lista de comprobación pone los datos del sindicato y la copia de su contrato en Employee Relations. La categoría Contracts recoge los contratos principales por línea de producto, con sus condiciones, no el contrato sindical."
+  },
+  "investigations-A-q5": {
+   "q": "Al revisar el formulario de solicitud de empleo de una empresa de guardias, un gerente nota que el consentimiento y la autorización para la investigación de antecedentes están dentro de la propia solicitud. Según el capítulo, ¿qué problema presenta?",
+   "o": [
+    "El aviso y la autorización escrita de la FCRA deben ir separados de la solicitud",
+    "La autorización solo es válida si también la firma el revisor de la solicitud",
+    "La autorización debe pedirse solo después de una oferta condicional de empleo",
+    "El consentimiento debe limitarse a antecedentes penales y excluir crédito y manejo"
+   ],
+   "e": "Según el capítulo, el aviso y la autorización escrita de la FCRA deben ir separados de la solicitud, y el formulario de ejemplo los mete dentro. Esperar a una oferta condicional es la lógica de Ban-the-Box, que se refiere a preguntar por antecedentes penales, no a la autorización."
+  },
+  "investigations-A-q6": {
+   "q": "Un gerente diseña el formulario de solicitud de empleo de su empresa. Según las pautas del capítulo, ¿cuál es el MEJOR planteamiento para las referencias personales?",
+   "o": [
+    "Al menos tres, conocidas desde hace un año o más, no parientes; un exjefe es excelente",
+    "Tres referencias que no sean exempleadores ni parientes, con su ocupación y años de trato",
+    "Al menos tres, incluidos parientes cercanos, que conozcan bien su carácter y su conducta",
+    "Una sola referencia de un exjefe directo, por ser la fuente más fiable sobre el desempeño"
+   ],
+   "e": "El capítulo pide al menos tres referencias, conocidas desde hace un año o más y que no sean parientes, con sus direcciones y de qué conocen al candidato, y considera a un exjefe una referencia excelente. El formulario de ejemplo (4A) se aparta de esto al excluir a los exempleadores."
+  },
+  "investigations-A-q7": {
+   "q": "Un formulario de verificación de referencias (reference check) pide al exempleador calificar la honestidad y la actitud del candidato como buena, regular o mala. Según el capítulo, ¿qué problema presenta?",
+   "o": [
+    "Pide a la fuente que juzgue al candidato, algo que el texto aconseja evitar",
+    "Usa una escala de tres niveles, cuando el texto exige una escala numérica",
+    "No pregunta si la empresa volvería a contratar al candidato",
+    "No pregunta por la asistencia ni por la puntualidad del candidato"
+   ],
+   "e": "En 4.6.2 el texto pide no hacer preguntas que hagan juzgar a la fuente, y este formulario le pide calificar la honestidad y la actitud. El formulario sí pregunta si se le volvería a contratar y sí cubre asistencia y puntualidad, y el texto no exige ninguna escala numérica."
+  },
+  "investigations-A-q8": {
+   "q": "Una empresa sufre un incidente y necesita con urgencia un laboratorio forense para analizar la evidencia, pero nunca había evaluado proveedores. ¿Qué lección del libro ilustra MEJOR esta situación?",
+   "o": [
+    "Investigar a los posibles proveedores (vetting) mucho antes de necesitarlos",
+    "Elegir siempre el laboratorio más cercano para proteger la cadena de custodia",
+    "Valorar sobre todo el costo del análisis, porque la urgencia lo encarece",
+    "Enviar la evidencia a varios laboratorios para comparar sus resultados"
+   ],
+   "e": "El libro aconseja investigar a los proveedores mucho antes de necesitarlos, porque en plena investigación no suele haber tiempo para la debida diligencia; se valoran su credibilidad, reputación, fiabilidad y especialidad, y una vía para encontrarlos son las organizaciones de acreditación o profesionales. La cercanía y el costo no son criterios que cite el libro."
+  },
+  "investigations-A-q9": {
+   "q": "Un investigador encuentra encendida una computadora de escritorio aislada (standalone). Ya fotografió el sistema y anotó las aplicaciones abiertas en pantalla. Según la política de ejemplo sobre evidencia informática, ¿cómo debe desconectarla?",
+   "o": [
+    "Apagarla con el procedimiento normal del sistema operativo para no dañar los datos",
+    "Desenchufar el cable primero de la parte trasera de la máquina y luego de la toma de corriente",
+    "Desenchufarla primero de la toma de corriente de la pared y luego de la parte trasera",
+    "Dejarla encendida y esperar al investigador de delitos informáticos del departamento"
+   ],
+   "e": "En equipos aislados no se apaga el sistema de la forma normal: se desenchufa primero de la parte trasera de la máquina y después de la toma de corriente. Esperar al investigador de delitos informáticos es lo previsto para sistemas en red, no para equipos aislados."
+  },
+  "investigations-A-q10": {
+   "q": "Tras incautar varias memorias flash y discos, el investigador debe empacarlos y trasladarlos. Según la política de ejemplo sobre evidencia informática, ¿qué práctica es la MÁS adecuada?",
+   "o": [
+    "Ponerlos en bolsas de plástico selladas y llevarlos en el maletero, lejos del conductor",
+    "Usar bolsas o cajas de papel y llevarlos en el habitáculo del vehículo",
+    "Rodearlos de bolitas de relleno o papel triturado para protegerlos de los golpes",
+    "Marcar solo el contenedor exterior, nunca el objeto, y llevarlos en el maletero"
+   ],
+   "e": "Los soportes sueltos van en cajas o bolsas de papel, porque el plástico puede generar electricidad estática, y la evidencia viaja en el habitáculo, no en el maletero junto a un radiotransmisor cuya energía de radiofrecuencia puede dañarla. Las bolitas de relleno y el papel triturado también generan estática y polvo."
+  },
+  "investigations-A-q11": {
+   "q": "Una aseguradora condiciona la disponibilidad y el costo del seguro de daños (casualty insurance) a que el edificio use materiales aprobados según una norma que, en teoría, es voluntaria. ¿Cómo clasifica el libro esta situación?",
+   "o": [
+    "Norma voluntaria (voluntary standard), porque ninguna ley la impone",
+    "Norma legal o reglamentaria (statutory/regulatory), porque la exige un tercero",
+    "Norma mixta (mixed standard): voluntaria en teoría, pero obligatoria en la práctica",
+    "Norma de sistema de gestión (management system standard), porque fija requisitos"
+   ],
+   "e": "El libro pone este caso como ejemplo de norma mixta: sigue siendo voluntaria en teoría, pero en la práctica es obligatoria porque las aseguradoras o los contratos la exigen. Una norma legal o reglamentaria es obligatoria por ley y la hacen cumplir autoridades formales, no una aseguradora."
+  },
+  "investigations-A-q12": {
+   "q": "Una organización comprobó que su nuevo procedimiento de control de accesos resolvió el problema tal como estaba previsto. Ahora quiere estandarizarlo en todas sus sedes y revisar la lista de problemas pendientes. ¿En qué fase del ciclo PDCA (Plan-Do-Check-Act) se encuentra?",
+   "o": [
+    "Planificar (Plan)",
+    "Hacer (Do)",
+    "Verificar (Check)",
+    "Actuar (Act)"
+   ],
+   "e": "En Act (actuar), si las soluciones resuelven los problemas, se estandarizan en toda la organización, se revisa la lista de problemas y se definen los nuevos; ahí empieza de nuevo el ciclo. Check (verificar) es la fase anterior, en la que se comprueba si los resultados son coherentes con el plan."
+  },
+  "investigations-A-q13": {
+   "q": "¿Qué conjunto recoge MEJOR los cuatro principios con que se desarrollan las normas (standards), según el apéndice?",
+   "o": [
+    "Consenso, apertura, debido proceso y transparencia",
+    "Consenso, confidencialidad, debido proceso y mejora continua",
+    "Apertura, imparcialidad, eficacia y transparencia",
+    "Consenso, apertura, resiliencia y competitividad"
+   ],
+   "e": "Los cuatro principios son consenso (consensus), apertura (openness), debido proceso (due process) y transparencia (transparency). La mejora continua es el objetivo del ciclo PDCA, y la resiliencia y la competitividad son resultados que las normas favorecen, no principios para desarrollarlas."
+  }
+ }
 }

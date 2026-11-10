@@ -1325,5 +1325,2226 @@
   "physical-B": "A high-rise building exceeds the reach of fire department equipment, so fires are fought from inside. It concentrates people and property and cannot be evacuated all at once. Protecting it requires balancing life safety, which is mandated by codes, with physical security, which sometimes pursues the opposite.",
   "physical-C": "A standard is a set of criteria, guidelines, and best practices that improves the quality and reliability of products, services, or processes. There are voluntary standards, standards mandated by law, and hybrid standards."
  },
- "quiz": {}
+ "quiz": {
+  "physical-1-q0": {
+   "q": "In an ESRM (Enterprise Security Risk Management) cycle, the security director has identified a prioritized risk to the data center and recommended three possible controls. The data center operations manager, who is directly responsible for its successful operation, must choose. Who holds the final decision on mitigation?",
+   "o": [
+    "The operations manager, as the asset owner",
+    "The security director, as the subject matter expert",
+    "Top management, which sits above the CSO",
+    "The security governance body, which sets risk policy"
+   ],
+   "e": "In ESRM the asset owner is the risk owner: he or she decides on and approves the controls. The security professional recommends, documents, and executes the plan, but does not decide for the owner."
+  },
+  "physical-1-q1": {
+   "q": "According to the book, which of the following statements about ESRM is CORRECT?",
+   "o": [
+    "It can work with different leaders for physical and information security",
+    "It requires the convergence of physical security and cybersecurity under one leader",
+    "It is equivalent to ERM, since it covers financial, operational, and strategic risks",
+    "It can only be implemented if the organization has a formal ERM function"
+   ],
+   "e": "ESRM is not convergence: it manages risk under any structure, and convergence is not indispensable. Nor is it ERM (Enterprise Risk Management), which covers all key risks; ESRM is an independent system that works with or without ERM."
+  },
+  "physical-1-q2": {
+   "q": "A newly hired security director wants to adopt ESRM in a hospital chain. According to the book, what is usually the FIRST step when adopting this approach?",
+   "o": [
+    "Reinforce his or her knowledge of the organization's mission and vision",
+    "Draft the security risk management plan with each asset owner",
+    "Identify and prioritize risks by their potential to impact the mission",
+    "Write the standards and procedures for the security governance body"
+   ],
+   "e": "Understanding the organization is an initial step in the Context of ESRM; mission and vision are the top of the strategy, and reinforcing this knowledge is usually the first step. Identifying and prioritizing risks belongs to the Cycle and comes after prioritizing assets."
+  },
+  "physical-1-q3": {
+   "q": "When studying the operating environment, a security professional analyzes the intensity of competition, the company's growth phase, and the speed of decision-making. What type of environment is being assessed?",
+   "o": [
+    "The nonphysical environment",
+    "The physical environment",
+    "The logical environment",
+    "The organizational governance environment"
+   ],
+   "e": "The nonphysical environment includes the geopolitical environment, industry pressures, legal requirements, competition, growth phase, and speed of decision-making. The physical environment covers location, building, traffic, and on-site processes; the logical one covers information, digital assets, and networks."
+  },
+  "physical-1-q4": {
+   "q": "To obtain budget, a security manager presents the asset owner with only worst-case scenarios, without metrics, in order to create alarm. Which concept of the ESRM Foundation is he MOST directly violating?",
+   "o": [
+    "Risk transparency",
+    "Process transparency",
+    "Holistic risk management",
+    "ESRM governance"
+   ],
+   "e": "Risk transparency requires presenting risks as they are, neither exaggerated nor minimized, using objective statements and quantifiable metrics; the book calls for measured risk rather than fear, uncertainty, and doubt. Process transparency concerns stakeholders understanding the steps of risk management, not how the risk is sized."
+  },
+  "physical-1-q5": {
+   "q": "A tactical security document recommends that contractors 'should' be escorted in operational areas and 'may' use the general cafeteria. What type of governance document is it MOST likely to be?",
+   "o": [
+    "A guideline",
+    "A standard",
+    "A policy",
+    "A procedure"
+   ],
+   "e": "Guidelines are tactical documents like standards, but less rigid: they recommend what 'should/may' be done. Standards set what 'shall/must' be done; policies are high-level, and procedures give step-by-step instructions."
+  },
+  "physical-2-q0": {
+   "q": "At 2:00 a.m., a perimeter sensor activates. The control center operator reviews the corresponding camera to determine whether it is an animal or an intruder and to decide whether to dispatch a patrol. Which physical security function is the operator performing?",
+   "o": [
+    "Assessment",
+    "Detection",
+    "Response",
+    "Access control"
+   ],
+   "e": "Assessment is the system's ability to determine what was detected and decide whether to initiate a response. Detection already occurred when the sensor activated (perceiving a possible intruder), and response would be dispatching the patrol to neutralize or contain the event."
+  },
+  "physical-2-q1": {
+   "q": "According to the chapter, what must form the conceptual basis of EVERY physical security project?",
+   "o": [
+    "The four Ds: deter, detect, delay, and deny",
+    "The seven basic functions, from access control to evidence gathering",
+    "Controlling access, observing, detecting events, and responding",
+    "Layers of security applied as building blocks"
+   ],
+   "e": "The book states that the four Ds must be the basis of every project: each measure is valued for its ability to deter, detect, delay, and deny. The seven functions are how the strategy is carried out, not its conceptual basis; the book expressly warns against confusing them."
+  },
+  "physical-2-q2": {
+   "q": "Which definition of physical security expressly mentions defending against espionage, sabotage, damage, and theft?",
+   "o": [
+    "The U.S. Department of Homeland Security (DHS) definition",
+    "The ASIS Physical Asset Protection (PAP) Standard definition",
+    "The definition in the Protection of Assets Physical Security volume",
+    "That same volume's definition of 'security'"
+   ],
+   "e": "Only the DHS definition names espionage, sabotage, damage, and theft. The PAP Standard's speaks of protecting people and preventing unauthorized access to equipment, material, and documents against an incident; the volume's is the same but says 'information' instead of 'documents.'"
+  },
+  "physical-2-q3": {
+   "q": "During the remodeling of an office building, the proposed access control design locks doors that the life safety systems need for evacuation. According to the book, what is the BEST approach?",
+   "o": [
+    "Rely on standards and codes, and recommend compensating measures within the planning",
+    "Keep the design and delegate evacuation to the building's facilities department",
+    "Exclude life safety systems from the scope of the physical security project",
+    "Postpone the decision until the regular testing performed after the systems are installed"
+   ],
+   "e": "The book identifies the conflict between security and life safety systems as a major challenge in construction and remodeling; standards and codes usually ease it and, when needed, compensating measures are recommended within the planning. Excluding or postponing the issue contradicts the point that all peripherals deserve close attention in any project."
+  },
+  "physical-2-q4": {
+   "q": "During the design phase of a new corporate campus, the CFO questions why CPTED (Crime Prevention Through Environmental Design) should be included from the start. What is the BEST argument according to the book?",
+   "o": [
+    "It acts as a force multiplier and can reduce other, more expensive physical measures",
+    "It fully replaces the need for electronic surveillance systems and the security officer force",
+    "It is the easiest measure to quantify, so it best justifies the budget",
+    "It eliminates conflicts with life safety systems and building controls"
+   ],
+   "e": "The book calls CPTED a force multiplier: it strengthens the system and can reduce other, often more expensive, physical measures; that is why it should be considered in almost every project and from the start. It does not replace other measures: a site's selection must cover all functions with layered measures."
+  },
+  "physical-3-q0": {
+   "q": "A consultant is performing a comprehensive risk assessment. He has already identified the assets, assigned them a value, and assessed the relevant threats. According to the book's sequence, what is the NEXT step?",
+   "o": [
+    "Assess the vulnerabilities",
+    "Consider the impact of a loss event",
+    "Summarize and prioritize the risks found",
+    "Recommend mitigation measures and merge them into a strategy"
+   ],
+   "e": "The sequence is: assets and value, then threats, then vulnerabilities, then the impact of a loss event, then summarizing and prioritizing, then recommending mitigation. Impact is considered after assessing vulnerabilities, not before."
+  },
+  "physical-3-q1": {
+   "q": "A company located in a flood-prone coastal area has never experienced a flood. Its manager proposes rating the likelihood of flooding as low because there is no history. What is MOST correct according to the book?",
+   "o": [
+    "Likelihood is still higher than inland, because the location favors it",
+    "Likelihood is low, because the site's historical data is the only valid criterion",
+    "Likelihood does not apply, because it is only calculated for manmade threats",
+    "Likelihood should be set by the asset owner according to his or her risk appetite"
+   ],
+   "e": "The book uses this example: a company in a flood-prone or coastal area is more likely to flood than one inland even if it has never flooded, because geographic location is one of the likelihood factors. The site's historical data is only one of several factors."
+  },
+  "physical-3-q2": {
+   "q": "A piece of critical equipment is destroyed. Permanent replacement: $50,000; temporary substitute: $5,000; related costs (removing the old one and installing the new one): $3,000; lost income: $12,000; insurance covers $40,000. Using the book's cost-of-loss formula, what is the total cost of loss (K)?",
+   "o": [
+    "$30,000",
+    "$70,000",
+    "$110,000",
+    "$22,000"
+   ],
+   "e": "K = Cp + Ct + Cr + Ci - I = 50,000 + 5,000 + 3,000 + 12,000 - 40,000 = $30,000. Insurance or indemnity (I) is subtracted: ignoring it gives $70,000 and adding it gives $110,000."
+  },
+  "physical-3-q3": {
+   "q": "When ranking assets by criticality, an analyst notes that the failure of an electrical substation would stop three other organizational assets from operating. Which of the book's criticality criteria BEST reflects this observation?",
+   "o": [
+    "Dependencies",
+    "Service delivery",
+    "Workforce",
+    "Mission/objectives"
+   ],
+   "e": "The dependencies criterion measures the asset's importance to other assets of the organization or network. Service delivery measures the percentage of total service delivery that depends on the asset, and mission/objectives combines all factors into an overall importance."
+  },
+  "physical-3-q4": {
+   "q": "When assessing a plant's vulnerability to hurricanes using the observability and exploitability approach, what does observability represent?",
+   "o": [
+    "The security staff's ability to detect and track the approaching threat",
+    "The adversary's ability to see and identify the plant's vulnerability",
+    "The hurricane's ability to damage the facility, mission, or organization",
+    "Whether the security staff knows the plant's vulnerabilities in advance"
+   ],
+   "e": "For natural threats, observability is inverted: it is the security staff's ability to observe, detect, or track the approaching threat, which requires early warning. The natural threat's ability to cause damage corresponds to exploitability."
+  },
+  "physical-3-q5": {
+   "q": "An analyst uses the book's formula Risk = (Threat × Vulnerability × Impact)^1/3, with each factor rated 0 to 100. For one scenario he rates threat = 90, impact = 100, and vulnerability = 0, because the asset is not accessible at that time. What is the result?",
+   "o": [
+    "0, because the factors are multiplied",
+    "63.3, the average of the three factors",
+    "95, because the highest factors dominate",
+    "190, the sum of the three factors"
+   ],
+   "e": "The formula multiplies rather than adds: if any factor is 0, the risk is 0 at that time and place. The cube root only returns the product to the 0-100 scale; it does not average or add the factors."
+  },
+  "physical-3-q6": {
+   "q": "A manager proposes spending $100,000 on equipment to prevent the theft of an item valued at $1,000. According to the book's cost-benefit analysis, what is MOST appropriate?",
+   "o": [
+    "Insure the item or move it to a more secure location",
+    "Buy the equipment, since the item's value includes indirect costs",
+    "Install the equipment and transfer the remaining risk via an indemnity clause",
+    "First conduct an outside-inward penetration test"
+   ],
+   "e": "The book (Patterson, 2013) uses this example: it makes no sense to spend $100,000 to prevent the theft of a $1,000 item; it is better to insure it or move it to a more secure place. The real cost of a measure must be compared with its projected impact, such as loss reduction."
+  },
+  "physical-3-q7": {
+   "q": "What MAINLY distinguishes a security survey from a comprehensive risk assessment?",
+   "o": [
+    "The survey places more emphasis on vulnerabilities",
+    "The survey weighs assets, threats, and consequences equally",
+    "The survey focuses on the likelihood of loss events",
+    "The survey replaces asset valuation with checklists"
+   ],
+   "e": "The comprehensive assessment focuses equally on assets, threats, vulnerabilities, and consequences; the security survey places more emphasis on vulnerabilities, and its appraisal component consists of developing and communicating recommendations. The book also warns that checklists must not be the center of the survey."
+  },
+  "physical-3-q8": {
+   "q": "An assessment team starts at the vault and works toward the perimeter. At each layer it analyzes how the measures operate and asks, for example, how many layers an intruder with a stolen master key would cross before being detected. Which methodology is it applying?",
+   "o": [
+    "Inside-outward",
+    "Outside-inward",
+    "Functional (security discipline)",
+    "Penetration test"
+   ],
+   "e": "In the inside-outward methodology the team acts as the defender, works from the asset toward the outer perimeter, and analyzes interdependencies at each layer, such as a stolen master key. Outside-inward takes the adversary's role and is itself a penetration test moving from the outside toward the asset."
+  },
+  "physical-3-q9": {
+   "q": "A security survey report contains correct data, but takes a 'gotcha' tone that highlights how bad the client's posture is and dwells on minor details. Which of Broder's (2012) criteria for a good report does it MOST directly fail?",
+   "o": [
+    "Slant or pitch",
+    "Clarity",
+    "Conciseness",
+    "Accuracy"
+   ],
+   "e": "Slant or pitch requires a courteous report, not nitpicking, without a 'gotcha' tone, and focused on how to improve and why it matters. Conciseness refers to the report's length, not its attitude toward the client."
+  },
+  "physical-3-q10": {
+   "q": "According to the book, in which situation are automated assessment tools MOST useful?",
+   "o": [
+    "In low-risk scenarios, or to establish a best-practice baseline",
+    "In high-risk scenarios where organizational culture and personality weigh heavily",
+    "When the goal is to replace the professional in calculating threat, vulnerability, and consequence",
+    "When the character or nature of a risk must be assessed, more than its magnitude"
+   ],
+   "e": "The book says they are useful in low-risk scenarios or when the assessor knows little and wants a best-practice baseline; the key word is 'assist,' and they must not be the only element. Their main problem is that they handle intangible factors poorly, such as the character of a risk or the organization's culture."
+  },
+  "physical-4-q0": {
+   "q": "The guard supervisor boasts that his officers completed 100% of the scheduled patrols this quarter. However, the patrol route does not include the parking lot, where most thefts occur. According to Williams and Schultz (2016), what problem does this situation illustrate?",
+   "o": [
+    "Executing a bad process well: good numbers measuring a flawed process",
+    "Lack of a baseline, without which totals provide no useful information",
+    "A metric that fails the 'who cares?' test",
+    "A metric without repeatability, which cannot be compared even with itself"
+   ],
+   "e": "Williams and Schultz warn of the risk of executing a bad process well: the numbers look good but measure an immature or broken process, like the IT example that cleaned 17,000 viruses and missed 5,000. The lesson is to know what is measured, the quality of the metrics, and what is NOT measured."
+  },
+  "physical-4-q1": {
+   "q": "In the ASIS Foundation's Security Metrics Evaluation Tool (Security MET), to which group of criteria do cost, timeliness, and manipulation belong?",
+   "o": [
+    "Operational (security) criteria",
+    "Technical criteria",
+    "Strategic (corporate) criteria",
+    "Behavioral criteria"
+   ],
+   "e": "The Security MET has 9 criteria in three groups: technical (reliability, validity, generalizability), operational (cost, timeliness, manipulation), and strategic (ROI, organizational relevance, communication). 'Behavioral' refers to the behavioral summary scale that accompanies each criterion, not to a group."
+  },
+  "physical-4-q2": {
+   "q": "In Payne's (2006) SMART metrics model used by the book, what do the R and the T stand for?",
+   "o": [
+    "Repeatable and time-dependent",
+    "Relevant and time-bound",
+    "Reliable and timely",
+    "Realistic and trackable"
+   ],
+   "e": "In Payne's SMART, R = repeatable (produced consistently and uniformly so it can be compared) and T = time-dependent (always collected over the same periods). 'Relevant' and 'time-bound' are not the terms of the model the book presents."
+  },
+  "physical-4-q3": {
+   "q": "A security manager wants to distribute to all departments a weekly metric that is only useful to his own team. According to the book, which principle is he overlooking?",
+   "o": [
+    "Collect relevant data: the metric must pass the 'who cares?' test",
+    "Start small: a few initial data points show the total effort required",
+    "Measurable: the formula must yield a natural number or a percentage",
+    "Attainable: if gathering it takes too long, it loses effectiveness"
+   ],
+   "e": "The collect relevant data principle requires that the information serve someone; some metrics only interest the manager and his team and should not be distributed. Without a consumer with a defined need, the metric only adds noise (Rathburn, 2009)."
+  },
+  "physical-4-q4": {
+   "q": "By executive decision, a company stops requiring a card to exit through the turnstiles. Since then, every exit generates a forced door alarm in the SOC. What is the MOST likely cause according to the book's example?",
+   "o": [
+    "Free egress mode was not programmed on the turnstiles",
+    "The door position switch is misaligned",
+    "Users do not hold the card in front of the reader long enough",
+    "The bypass time configured for the turnstiles has expired"
+   ],
+   "e": "In the book's example, card exit was removed but free egress mode was not programmed, so every exit triggered an alarm; once corrected, only the entry side alarmed. Card misreads from not holding the card occur when presenting it to enter and do not explain alarms on every exit."
+  },
+  "physical-4-q5": {
+   "q": "In public sector facility compliance, what does the MTTMV (mean time to mitigate vulnerabilities) metric MAINLY indicate?",
+   "o": [
+    "How the organization reacts to detected vulnerabilities, in units of time",
+    "The percentage of facilities that currently have a valid security assessment",
+    "The average mitigation cost of each audit finding",
+    "The number of vulnerabilities identified in each initial assessment"
+   ],
+   "e": "MTTMV averages, over the mitigated vulnerabilities, the time between detection and mitigation; it shows how the organization reacts and which processes need to be sped up. The percentage of facilities with a current assessment is a different formula, whose goal is 100%."
+  },
+  "physical-4-q6": {
+   "q": "A guard services contract requires a maximum alarm response time. According to the book, how is that requirement verified within a contract surveillance plan?",
+   "o": [
+    "The COR triggers an alarm, e.g., a duress alarm, and times the response",
+    "The integrator submits a monthly service call report as a deliverable",
+    "Employees rate the response in an anonymous satisfaction survey",
+    "The SOC calculates the mean time between detection and mitigation of each vulnerability"
+   ],
+   "e": "For guard force response a stopwatch is enough: the COR (contracting officer representative) triggers an alarm, such as a duress alarm, measures how long the proper response takes, and compares it with the contract requirements. The monthly service call report relates to the systems integrator's response, not the guards'."
+  },
+  "physical-4-q7": {
+   "q": "The security office measures how many training needs it identified, how many workplace violence prevention courses it delivered to employees, and what percentage of them attended. What type of metric is it using?",
+   "o": [
+    "Outward-facing training metric",
+    "Inward-facing training metric",
+    "Response to customer requests metric",
+    "Facility compliance metric"
+   ],
+   "e": "Outward-facing metrics measure the training the security office designs and delivers to employees or other audiences: needs identified, courses developed and delivered, and attendance percentage. Inward-facing metrics measure the training required of the security staff itself."
+  },
+  "physical-4-q8": {
+   "q": "The electronic security system (ESS) metrics for a campus show a complex integrated system with a high failure rate. According to the book, which type of maintenance contract is MOST appropriate?",
+   "o": [
+    "Fixed-price",
+    "Time-and-material",
+    "Earned value",
+    "Work order agreement"
+   ],
+   "e": "The book indicates that a complex integrated system with a high failure rate calls for a fixed-price maintenance contract, while a stable system with few failures calls for a time-and-material contract. Earned value is a project management technique, not a contract type."
+  },
+  "physical-5-q0": {
+   "q": "A research campus holding intellectual property and controlled materials operates with a lax perimeter and strong controls at each building. Intelligence warns of a new threat from radical activists against the site. According to the book, what adjustment is MOST appropriate?",
+   "o": [
+    "Shift toward area security: a strong perimeter and strict entry through a single portal",
+    "Strengthen point security by adding more readers inside the restricted areas",
+    "Keep the current scheme, because point security is sufficient under any conditions",
+    "Remove the controls at each building and concentrate them all in the control center"
+   ],
+   "e": "The choice between point security and area security depends on the nature of the threat: under normal conditions point security may suffice, but in the face of a radical activist threat it is advisable to shift to area security, with a strong perimeter and strict control at a single portal. The usual answer is a bit of both."
+  },
+  "physical-5-q1": {
+   "q": "A high school installs magnetometers at its two main entrances, but several secondary entrances are left open or have broken locks. Which dimension of balance described in the book is violated?",
+   "o": [
+    "Balance among access points or methods",
+    "Balance among types of measures",
+    "Balance among targets or assets",
+    "Balance among threats"
+   ],
+   "e": "Balance among access points requires equivalent protection at all of them; the book uses this high school case as an example of a tightly controlled front door with open back entrances. Balance among types of measures refers to orchestrating electronic, structural, human, and procedural measures, not to the coverage of each entrance."
+  },
+  "physical-5-q2": {
+   "q": "An internal perimeter detection standard requires 'installing a motion sensor and a fence-mounted sensor' at all sites. Based on the book's design criteria, what is the BEST criticism?",
+   "o": [
+    "It is a feature criterion that leads to checklists; it should set overall performance",
+    "It is a performance criterion, useful only for comparing the current and upgraded systems",
+    "It is correct, because a fence-mounted sensor is always the best option for the perimeter",
+    "It should require more sensor types to cover each technology's false negatives"
+   ],
+   "e": "Requiring specific components is a feature criterion: it measures effectiveness by the presence of elements and leads to the checklist method, so it should be avoided in standards. The book prefers performance criteria, e.g., 'detect a running intruder using any attack method'; although the book calls the fence sensor 'the best,' performance logic prevails on the exam."
+  },
+  "physical-5-q3": {
+   "q": "When planning an electronic security system, the design team discusses how to address component failure. According to the book, what is MOST important?",
+   "o": [
+    "Having contingency plans to maintain operations or the security level for a set time",
+    "Identifying the exact cause of each failure before restoring the system",
+    "Designing a complex system that will operate its entire service life without failures",
+    "Limiting the failure plan to adversary actions that exceed the design threat"
+   ],
+   "e": "The book says that knowing the cause helps restore the system, but it is more important to have contingency plans that maintain operations or the security level for a set time, e.g., automatic redundant equipment such as generators or batteries. Moreover, a complex system is unlikely to operate its entire life without failures."
+  },
+  "physical-5-q4": {
+   "q": "According to this book's definition, what is the critical detection point?",
+   "o": [
+    "The point where the remaining delay time exceeds the response force time",
+    "The point where each barrier's probability of detection is exactly equal",
+    "The first outer perimeter sensor that detects the adversary's advance",
+    "The point where the adversary decides to abort and seek a softer target"
+   ],
+   "e": "The book defines the critical detection point as the point where the remaining delay exceeds the response force time. Equal penetration time and probability of detection at each barrier describes a balanced system, not this point."
+  },
+  "physical-5-q5": {
+   "q": "At a checkpoint, the retractable vehicle barrier prevented a car carrying explosives from tailgating another vehicle inside. The attacker got out with the explosives and ran on foot toward the building while the controller remained focused on the car. What lesson does the book highlight?",
+   "o": [
+    "A vehicle barrier may not stop a pedestrian; scenarios must be considered holistically",
+    "The barrier failed in its mission, so it should be replaced with a slower-closing one",
+    "The controller should have prioritized the vehicle, since the main threat was the explosive",
+    "Bollards should have been installed across half the driveway to increase standoff distance"
+   ],
+   "e": "The barrier fulfilled its mission but did not stop the attack: a vehicle barrier may not stop a pedestrian, and vice versa. The book calls for thinking outside the box about threats and scenarios and avoiding a piecemeal or silo approach."
+  },
+  "physical-6-q0": {
+   "q": "A plant depends on deliveries day and night and has a single access road, which passes a cultural center threatened by hate groups. When reviewing the strategy, which risk does the book MOST emphasize with a similar case?",
+   "o": [
+    "That an incident at the neighbor cuts off the only access route and halts operations",
+    "That the neighbor increases the likelihood of shoplifting at the plant's docks",
+    "That the cultural center lengthens the response time of local first responders",
+    "That the plant inherits legal liability for incidents occurring at the neighbor's site"
+   ],
+   "e": "In the museum case, a shooter entered the neighboring museum and police cordoned off the neighborhood for several hours, leaving the plant's only transport route inaccessible. Neighbors are almost never chosen, but they must be included in the risk assessment, including their effect on ingress and egress."
+  },
+  "physical-6-q1": {
+   "q": "A financial corporation builds a custom building that it will occupy for a few years before selling it, possibly to multiple tenants. According to the book, what security design approach is MOST appropriate?",
+   "o": [
+    "Architectural and security elements that are easy to remove or install",
+    "Permanent maximum-security measures tailored only to the corporation",
+    "Delay all security measures until the next occupant is known",
+    "Delegate security design to each future tenant of the building"
+   ],
+   "e": "The book cites a corporation that built, occupied for a few years, and sold: its buildings were custom-made but designed for the next occupant, with elements easy to remove or install. The case of the two U.S. agencies shows the opposite mistake: removing and reinstalling the same equipment caused great cost, waste, and delays."
+  },
+  "physical-6-q2": {
+   "q": "A company is evaluating locating a distribution center in a remote rural area. According to the book, what security implication must it MAINLY consider because of that location?",
+   "o": [
+    "Longer first responder response times, requiring greater self-reliance",
+    "Greater risk of closures from neighbors' incidents on a single access road",
+    "Greater need for dual-egress doors under local codes",
+    "Less dependence on supporting utilities and infrastructure"
+   ],
+   "e": "The book notes that, depending on whether the area is dense urban, suburban, or rural or remote, first responder response times vary greatly and may require more self-reliance in an incident; the risk assessment helps determine those needs."
+  },
+  "physical-6-q3": {
+   "q": "According to the book, what is the GREATEST predictor of the success or failure of business continuity planning?",
+   "o": [
+    "Senior management commitment",
+    "The quality of the business impact analysis (BIA)",
+    "The plan's flexibility to adapt to the situation",
+    "The relationship with vendors and central stations"
+   ],
+   "e": "The book states that the greatest predictor of the success or failure of continuity planning is senior management commitment. The risk assessment, the BIA, and flexibility are part of the plan's guiding principle, but are not presented as the greatest predictor."
+  },
+  "physical-6-q4": {
+   "q": "According to this chapter, by which four criteria is every mitigation option evaluated for the company's operation?",
+   "o": [
+    "Availability, affordability, feasibility, and risk acceptance",
+    "Availability, affordability, feasibility, and risk transfer",
+    "Likelihood, impact, feasibility, and risk acceptance",
+    "Affordability, effectiveness, legality, and liability"
+   ],
+   "e": "The chapter evaluates each option by availability, affordability, feasibility, and risk acceptance; it also asks whether the strategy substantially interferes with operations. Risk transfer (insurance or indemnification clauses) is a treatment option, not an evaluation criterion."
+  },
+  "physical-7-q0": {
+   "q": "A government client does not share the details of its risk assessment with the designer and provides only the design basis threat (DBT). What information does that document contain?",
+   "o": [
+    "The adversary profile: type, capabilities, tactics, goals, and intent",
+    "The codes, standards, and permits applicable to the construction project",
+    "The client's acceptable risk levels and mitigation budget",
+    "FEMA's classification of natural and human-caused hazards"
+   ],
+   "e": "The DBT is the adversary profile on which the facility's security engineering and operations are based: type, composition, and capabilities; methods (tactics, techniques, and procedures); and goals, intent, and motivation. Acceptable risk levels are set by the client as part of its assessment, which it may not share."
+  },
+  "physical-7-q1": {
+   "q": "In a complex renovation, the architects, engineers, contractor, and security each make design adjustments separately, and no one has a complete view of what has changed. According to the book, what mechanism BEST addresses this situation?",
+   "o": [
+    "A change review board acting as the clearinghouse for all changes",
+    "A failure point assessment to determine what will fail first",
+    "An updated design basis threat provided by the client to each discipline",
+    "Design specifications requiring systems certified through actual testing"
+   ],
+   "e": "The change review board brings together representatives of each major project partner, and its most important duty is to be the clearinghouse for all changes. Failure point analysis answers what will fail first in a catastrophic event, not how changes are coordinated."
+  },
+  "physical-7-q2": {
+   "q": "When designing a plant's perimeter, the team must decide where to place the fence relative to the property line. According to the book's good practice, what is advisable?",
+   "o": [
+    "Slightly inside the property line, for maintenance and boundary visibility",
+    "Right on the property line, to gain the maximum standoff distance",
+    "Close to the building, so that outside vegetation hides the facility",
+    "On the property line with barbed wire, which is enough to stop a determined intruder"
+   ],
+   "e": "Good practice is not to place the fence right on the property line but slightly inside it: the outer space allows maintenance and boundary visibility, and it prevents neighbors from placing plants or objects that could be used to breach it. Moreover, a standard barbed-wire fence is climbed in seconds: it only 'keeps honest people honest.'"
+  },
+  "physical-7-q3": {
+   "q": "A site will use color CCTV in its parking lot at night. According to the book, which type of lamp BEST supports color perception for the cameras?",
+   "o": [
+    "Metal halide, because of its white light",
+    "High-pressure sodium, because of its yellowish light",
+    "Any lamp that maximizes lumens and spillover",
+    "Infrared lighting, because it causes no light pollution"
+   ],
+   "e": "The book indicates that metal halide emits white light and is the best for color CCTV, while high-pressure sodium gives yellowish light. In addition, the design must follow the local code, which seeks to limit light pollution and spillover onto neighboring properties."
+  },
+  "physical-7-q4": {
+   "q": "A corporate headquarters is downtown, surrounded by tall buildings. When analyzing the risk of a car bomb, which blast pressure effect MOST aggravates the damage in this urban environment?",
+   "o": [
+    "Reflective pressure",
+    "Incendiary thermal effect",
+    "Overpressure",
+    "Fragmentation"
+   ],
+   "e": "In urban environments the wave is redirected when it strikes objects, producing multiple impacts from several angles and at different times; reflective pressure can be much stronger than the initial wave at the same distance. The incendiary thermal effect is insignificant unless highly combustible materials are present."
+  },
+  "physical-7-q5": {
+   "q": "What BEST describes progressive collapse, and when is it considered, according to the book?",
+   "o": [
+    "A chain failure disproportionate to the initial damage; considered in buildings of 3 or more stories",
+    "A chain failure disproportionate to the initial damage; considered only in buildings of 10 or more stories",
+    "Facade breakage from reflective pressure; considered in buildings of 3 or more stories",
+    "Falling suspended equipment lacking seismic bracing; considered in any building"
+   ],
+   "e": "Per ASCE/SEI 59-11, progressive collapse is a chain failure of the structural system, disproportionate to the initial local damage (e.g., a blast): one support falls, those above fail, and the building collapses on itself. It is uncommon and is considered in buildings of 3 or more stories."
+  },
+  "physical-7-q6": {
+   "q": "In a test based on the GSA window performance conditions table, the glass cracks and its fragments enter and fall to the floor no more than 3.3 ft (1 m) from the window. Which performance condition applies?",
+   "o": [
+    "3a: high protection, very low hazard",
+    "2: very high protection, no hazard",
+    "3b: high protection, low hazard",
+    "4: medium protection, medium hazard"
+   ],
+   "e": "In the GSA table, condition 3a describes cracked glass with fragments on the floor no more than 3.3 ft away; 3b extends that distance to 10 ft. In condition 2 the glass cracks but is retained by the frame. Rule: the higher the condition number, the less protection and the more hazard."
+  },
+  "physical-7-q7": {
+   "q": "In a retrofit, a client wants to apply blast film to the existing windows on its main facade. According to the book, what must be verified BEFORE considering the issue resolved?",
+   "o": [
+    "That the structure holding the window withstands as much as the reinforced glass",
+    "That the film lets in enough natural light to earn LEED points",
+    "That the window also has a blast curtain attached to the ceiling and floor",
+    "That the original glass is annealed, which is the most resistant type"
+   ],
+   "e": "When reinforcing glass in a retrofit, the book requires verifying that the structure holding the window can withstand the same load; if it is weaker, it fails and the entire window enters as a large projectile. Standard construction annealed glass fragments easily, so it is not an advantage."
+  },
+  "physical-7-q8": {
+   "q": "After several thefts during drills, a plant manager asks that emergency exit doors remain locked during any fire alarm. According to the book, what is the security professional's CORRECT response?",
+   "o": [
+    "Refuse: security cannot override the life safety code, and locks must fail open",
+    "Accept it if the doors are alarmed and monitored, with a response to re-secure the area",
+    "Accept it if low-mounted photoluminescent signs guide occupants to other exits",
+    "Accept it only for doors leading to sensitive, hazardous, or exterior areas of the building"
+   ],
+   "e": "The golden rule is that security cannot override the life safety code: no lock may prevent an occupant from reaching an exit, and every system must fail open or be failsafe in an emergency. Alarming and monitoring doors to sensitive areas complements that release but does not replace it."
+  },
+  "physical-8-q0": {
+   "q": "To save costs, the IT department proposes running the new video surveillance and access control system on the existing enterprise network. According to the book, what is the BEST recommendation?",
+   "o": [
+    "Use an independent network; the enterprise one may limit bandwidth and complicate permissions",
+    "Use the enterprise network, since IT will then handle preventive and remedial maintenance",
+    "Use the enterprise network, since a dedicated network prevents interoperability between systems",
+    "Use an independent network, since it removes the need to coordinate with the IT team"
+   ],
+   "e": "The book identifies an independent network backbone as the preferred approach; using the enterprise network brings performance problems from limited bandwidth or traffic spikes, as well as permission difficulties. Even so, the key to success is an open, cooperative relationship between the integrator and the IT team, so coordination does not go away."
+  },
+  "physical-8-q1": {
+   "q": "In an integrated system, every failure ends in arguments among the camera vendor, the access control vendor, and the network provider over who is responsible. According to the book, which option helps MOST?",
+   "o": [
+    "Assign preventive and remedial maintenance to a single source",
+    "Form a stakeholder team to select new interoperable systems",
+    "Migrate all security systems to the organization's enterprise network",
+    "Replace the vendors with in-house fixed-post and patrol personnel"
+   ],
+   "e": "The book proposes a single source responsible for preventive and remedial maintenance: as the single point of contact, it diagnoses the cause and manages the solution. A stakeholder team is used to select systems in a renovation or new project, not to settle maintenance responsibility."
+  },
+  "physical-8-q2": {
+   "q": "Facing an unexpected absence, the supervisor covers the security operations center (SOC) shift with an officer who is excellent at fixed posts and patrol but has no SOC experience. According to the book, what is the MAIN risk?",
+   "o": [
+    "That he cannot operate or interpret the electronic or building control systems",
+    "That his absence reduces the deterrent effect of fixed posts and patrols",
+    "That the SOC technology replaces his judgment and removes checks and balances",
+    "That the change forces a rewrite of the operating procedures for each threat level"
+   ],
+   "e": "The book uses this example of a staffing mismatch: an officer who is good at a fixed post or patrol may not be prepared for the SOC, because he may not know how to operate or interpret the systems. The critical point is matching the right person to the role; a mismatch, even one caused by understaffing, can be disastrous."
+  },
+  "physical-8-q3": {
+   "q": "A company bought and installed an advanced access control and video system and now plans to write its operating procedures. According to the book, what is the main problem with this sequence?",
+   "o": [
+    "Threat-level procedures should have been set before buying or installing the system",
+    "Technology should have replaced staff before any procedures were written",
+    "Procedures should only be written after an assessment of the enterprise network",
+    "The human element should have been integrated after implementing the system, not before"
+   ],
+   "e": "The book states that operating procedures for each threat level are defined before buying or installing any system, and that the human element is integrated in the design phase. Installing equipment and software without an operating philosophy can leave systems that increase the risk of harm; moreover, technology is a force multiplier, not a replacement for staff."
+  },
+  "physical-8-q4": {
+   "q": "A director coordinates the organization's physical security with personnel security, IT security, investigations, and executive protection. Which level of integration in the chapter BEST describes this work?",
+   "o": [
+    "Integrated security programs",
+    "Integrated physical security elements",
+    "Integrated electronic security systems",
+    "Integration in enterprise risk management"
+   ],
+   "e": "The integrated security programs level recognizes that physical security is only one element of the total strategy and integrates it with other disciplines, such as personnel security, IT security, investigations, and executive protection. Integrated physical security elements combine electronic systems, structural measures, and human capital within the physical domain itself."
+  },
+  "physical-9-q0": {
+   "q": "A designer has the same total amount of reinforced concrete for the enclosure of a room holding sensitive assets. According to the chapter, which configuration provides the MOST delay against an intruder?",
+   "o": [
+    "Two or more separate walls in series that add up to the same total thickness",
+    "A single monolithic wall of the full thickness, which resists more because of its mass",
+    "A single full-thickness wall with the rebar spaced farther apart center to center",
+    "A single full-thickness wall designed to the structural loads of the building"
+   ],
+   "e": "Two or more walls in series delay more than a single wall of the same total thickness, because they force the adversary to repeat the effort and carry tools through each wall. Designing a wall only for structural loads is precisely why ordinary reinforced concrete is penetrated quickly, and wider rebar spacing reduces delay rather than increasing it."
+  },
+  "physical-9-q1": {
+   "q": "A facility has heavy concrete walls, but its doors are hollow steel with ordinary frames and hinges. Which recommendation BEST reflects the applicable principle from the chapter?",
+   "o": [
+    "Upgrade the door assembly until it matches the delay of the walls, floors and ceilings (balanced design)",
+    "Thicken the walls even more, because walls are sometimes the adversary's preferred route for forced entry",
+    "Install panic bars so that the doors become one-way barriers against intruders",
+    "Replace only the locks, because the lock is what determines the final value of the whole barrier"
+   ],
+   "e": "The weakest part of a barrier determines its final value, and that part is usually the door; balanced design therefore requires the door, frame, hinges, bolts and lock to provide the same delay as the floors, walls and ceilings. Thickening the walls is pointless while the door remains the weak link: if the door assembly cannot be upgraded enough, upgrading the structure may not even be cost-effective."
+  },
+  "physical-9-q2": {
+   "q": "Which type of commercial glass does the chapter identify as preferred against blasts?",
+   "o": [
+    "Laminated: sheets bonded to plastic layers that keep the broken pieces stuck together",
+    "Tempered: heat-treated to resist breakage and to break into small pieces when it fails",
+    "Wired: its main use is to maintain the fire rating of fire doors and fire windows",
+    "Annealed: manufactured to control residual stresses so that it can be cut and worked"
+   ],
+   "e": "Laminated glass keeps the broken pieces adhered to the plastic interlayers and, installed in a frame anchored to the structure, is the preferred type against blasts. Tempered glass is required by codes because it breaks into small pieces, but it falls in seconds to impact tools; wired glass is used mainly to maintain fire ratings."
+  },
+  "physical-9-q3": {
+   "q": "When protecting a utility port, such as a ventilation duct, with steel mesh grilles, where should those covers be placed relative to detection?",
+   "o": [
+    "At the point of detection or after it",
+    "Before the point of detection, as far as possible from the sensor",
+    "Instead of sensors, since the grille makes detection unnecessary",
+    "Only at the outer end of the duct, regardless of where the sensor is"
+   ],
+   "e": "The chapter states that these covers (grilles, bars, expanded metal mesh) are placed at the point of detection or after it. Because utility ports are hidden routes, they need both barricades and sensors, so a grille does not replace detection."
+  },
+  "physical-9-q4": {
+   "q": "The analysis of a warehouse with a metal roof deck with insulation shows that an adversary could enter through the roof. Which upgrade usually offers the BEST value according to the chapter?",
+   "o": [
+    "A secondary barrier below the roof, about 10 to 12 in (25 to 30 cm) beneath it",
+    "Reinforcing the roof itself with several inches of rigid insulation over the deck",
+    "A secondary barrier below the roof, at least 36 in (0.9 m) beneath it",
+    "Replacing the roof with a membrane with embedded mesh over the whole surface"
+   ],
+   "e": "Upgrades below the roof usually offer the best value: tests suggest that a secondary barrier beneath the roof is more effective than reinforcing the roof itself. The optimal distance is 10 to 12 in, because the small space creates a 'hole effect' and forces a second penetration in a confined space, possibly with different tools."
+  },
+  "physical-9-q5": {
+   "q": "During a patrol, a supervisor sees stacked pallets and a dumpster next to the chain link perimeter fence, and tree branches hanging over it. Which deficiency BEST describes what was observed?",
+   "o": [
+    "Failure to maintain the clear zone, one of the most common mistakes",
+    "Orienting the top guard inward instead of outward toward the street",
+    "Using light, thin-walled posts and rails that weaken the whole fence",
+    "Failing to fasten the fabric to the line posts at 15 in (38 cm) intervals"
+   ],
+   "e": "The clear zone requires removing boxes, ladders, containers, vehicles and equipment next to the fence and pruning overhanging branches, which act as natural ladders. Failing to maintain it is one of the most common mistakes and nullifies the fence's effectiveness; the other options are real defects, but not what was observed."
+  },
+  "physical-9-q6": {
+   "q": "At a campus's main vehicle entrance, each authorized vehicle must pass after an officer inspects it. Which blocking barrier is MOST appropriate for that point?",
+   "o": [
+    "Retractable bollards operated from the guard booth",
+    "A row of well-anchored engineered planters",
+    "Jersey barriers embedded and anchored with reinforcing steel",
+    "Fixed bollards with a decorative stainless steel sleeve"
+   ],
+   "e": "Active (operable) barriers are placed at vehicle access control points and open and close to let authorized vehicles through; the retractable bollard is one of them. Planters, Jersey barriers and fixed bollards are passive barriers: fixed and intended for the perimeter, away from vehicle entrances."
+  },
+  "physical-9-q7": {
+   "q": "An architect proposes decorative bollards on the sidewalk of an urban building. According to the chapter's guidelines, which statement about their height is correct?",
+   "o": [
+    "Typically no more than 30 in (0.76 m), and never more than 38 in (about 1 m) including the sleeve",
+    "Typically 38 in (about 1 m), with an absolute maximum of 48 in (1.2 m) including the sleeve",
+    "They must be 36 to 48 in (0.9 to 1.2 m) tall to resist a vehicle impact",
+    "Height is unrestricted as long as the model has been tested by an independent laboratory"
+   ],
+   "e": "To reduce visual impact, the typical height is no more than 30 in, and in no case should it exceed 38 in, including the decorative sleeve. The 36 to 48 in figure is the recommended spacing between bollards, not their height; independent laboratory testing is required for custom designs but does not remove the height limit."
+  },
+  "physical-9-q8": {
+   "q": "After a threat, a manager places concrete Jersey barriers resting on the pavement in front of the entrance, relying on their weight. What is the MOST accurate assessment?",
+   "o": [
+    "They are ineffective that way; they must be embedded and anchored with vertical reinforcing steel",
+    "They are effective, because a 12 ft (3.6 m) barrier weighs about 5,700 lb (2,585 kg)",
+    "They are effective only if the vehicle strikes at an angle of less than 30 degrees",
+    "They are adequate if laid in 12.5 or 20 ft (3.8 or 6 m) sections without any overlaps"
+   ],
+   "e": "They were believed to protect through their mass, but resting on the ground they are ineffective against a vehicle attack: they must be embedded and anchored with vertical reinforcing steel through the barrier into the pavement. The less-than-30-degree impact angle limit applies to metal highway guard rails, not to Jersey barriers."
+  },
+  "physical-9-q9": {
+   "q": "A specification requires a vehicle barrier with a Department of State K12 rating. Which ASTM rating and test condition correspond to it?",
+   "o": [
+    "M50: 15,000 lb (6,800 kg) vehicle at 50 mph (80 km/h)",
+    "M40: 15,000 lb (6,800 kg) vehicle at 40 mph (64 km/h)",
+    "M30: 15,000 lb (6,800 kg) vehicle at 30 mph (48 km/h)",
+    "M50: 12,000 lb (5,440 kg) vehicle at 50 mph (80 km/h)"
+   ],
+   "e": "In Figure 9.9, K4, K8 and K12 are equivalent to M30, M40 and M50: a 15,000 lb test vehicle at 30, 40 and 50 mph, respectively. M40 corresponds to K8, not K12, and the test vehicle weight is the same in all three ratings."
+  },
+  "physical-9-q10": {
+   "q": "A company keeps original paper contracts in a burglary-resistant safe with thick solid steel walls, convinced that it also protects them from fire. What is the MAIN risk?",
+   "o": [
+    "The steel transmits heat quickly to the interior, so the paper is soon destroyed in a fire",
+    "The safe's insulation offers little resistance to a hammer blow and is useless against forced entry",
+    "The moisture in the insulation evaporates over the years and the safe loses its fire rating",
+    "Because it weighs more than 750 lb (340 kg), UL requires anchoring it, so it cannot be removed in an emergency"
+   ],
+   "e": "A burglary-resistant safe protects with thick solid steel walls, which transmit heat quickly to the interior; in a fire the paper is soon destroyed. Weakness against a hammer and loss of insulation moisture are traits of fire safes, not burglary safes; and UL requires anchoring safes under 750 lb, not over."
+  },
+  "physical-9-q11": {
+   "q": "What does the UL label '350-4 Hours' on a fire-resistant safe mean?",
+   "o": [
+    "With the exterior at 1,700 °F (927 °C), the interior does not reach 350 °F (177 °C) for at least 4 hours",
+    "With the exterior at 350 °F (177 °C), the paper inside does not char for at least 4 hours",
+    "The interior stays below 350 °F (177 °C) and below 80% relative humidity for 4 hours",
+    "It resists forced entry for 350 net working minutes and resists fire for 4 hours"
+   ],
+   "e": "350 is the maximum interior temperature (at which almost all paper is damaged) and 4 is the number of hours of protection with the exterior at 1,700 °F. The 80% humidity limit belongs to Class 150 for magnetic media; Class 350 allows a maximum of 65%."
+  },
+  "physical-9-q12": {
+   "q": "A data center needs to store magnetic backup tapes in a fire-resistant container. Which equipment is MOST appropriate?",
+   "o": [
+    "Class 150 Record Protection Equipment",
+    "A Class 350-4 fire-resistant safe, because it protects for more hours than any other class",
+    "A Class 350-1 insulated filing device placed in a fire-resistive building",
+    "A TL-30 burglary-resistant safe, whose thick steel walls protect the media from heat"
+   ],
+   "e": "Magnetic media deteriorate from 150 °F (66 °C), and sooner with humidity above 80%, so a container designed for paper is not enough: Class 150 keeps the interior below 150 °F with humidity up to 80%. A 350-4 safe lets the interior rise to 350 °F, a limit intended for paper."
+  },
+  "physical-9-q13": {
+   "q": "A client claims that his TL-30 safe guarantees that no burglar can open it in less than 30 minutes. What BEST describes the meaning of that rating?",
+   "o": [
+    "In testing, no one could open the door or make a 6-inch square opening in 30 net minutes",
+    "It is the average time a professional safe cracker needs to open that model of safe",
+    "The safe withstood 30 minutes of torch and tool attack on all six of its sides",
+    "The safe withstood 30 minutes of elapsed clock time, including pauses to change tools"
+   ],
+   "e": "TL-30 means that the technicians, with the specified tools, could not open the door or make the 6-inch square opening in 30 minutes of net working time: when the tool leaves the safe, the clock stops. It is not the real opening time: any safe can be opened, and a professional safe cracker can do it after several hours, depending on skill."
+  },
+  "physical-9-q14": {
+   "q": "What does a UL TRTL-30-X6 rating on a safe for valuables indicate?",
+   "o": [
+    "Torch and tool resistance for 30 minutes of testing on all six sides",
+    "Tool resistance for 30 minutes on the door only, against six types of attack",
+    "Explosive and tool resistance for 30 minutes of testing on all six sides",
+    "Torch resistance for 30 minutes and tool resistance for 6 minutes of testing"
+   ],
+   "e": "According to Figure 9.19, TR means torch resistant, TL means tool resistant, 30 is the number of test minutes and X6 means the test was performed on all six sides. TR does not refer to explosives: the book attributes explosive resistance to TRTL-60-X6."
+  },
+  "physical-9-q15": {
+   "q": "A company builds a vault against forced entry: it installs a heavy door and keeps the existing concrete walls, one of which is an exterior wall. What is the MAIN error?",
+   "o": [
+    "Relying on the walls: all six surfaces must protect equally, and an exterior wall should be avoided",
+    "Using reinforced concrete instead of unreinforced concrete, which resists forced penetration better",
+    "Not installing a time lock, which by itself prevents any attack through the floor",
+    "Locating it above grade, when burglary-resistant vaults must always be in the basement"
+   ],
+   "e": "All six surfaces of a vault must protect equally; the typical error is to install a heavy door and assume the concrete walls are enough, and an exterior wall gives the intruder a convenient point to attack from outside. Moreover, unreinforced concrete should never be used against forced penetration."
+  },
+  "physical-9-q16": {
+   "q": "After changing a vault combination without a locksmith, the custodian wants to verify that the lock was not left set on a single number. What test should be performed?",
+   "o": [
+    "Turn the dial three times to the left, stop at the third number, then turn right to the opening index",
+    "Dial the first two numbers and have a second person dial the third and fourth numbers out of sight of anyone else",
+    "Turn the dial four times to the right, stop at the first number, then turn left to the opening index",
+    "Try fewer than 40 different combinations at random and confirm that none of them retracts the bolt of the door"
+   ],
+   "e": "The book's test is to turn the dial three times to the left, stop at the third number and turn right to the opening index; if the bolt opens, the combination is on a single number and must be changed immediately. Splitting the 'third and fourth' numbers was precisely the error in the case: the lock had only three numbers, because the opening index is not part of the combination."
+  },
+  "physical-9-q17": {
+   "q": "A dial combination lock has 3 wheels with 100 positions each. What is its theoretical maximum number of combinations?",
+   "o": [
+    "1,000,000 (100^3)",
+    "300 (100 x 3)",
+    "100,000,000 (100^4)",
+    "970,200 (100 x 99 x 98)"
+   ],
+   "e": "The theoretical maximum is the number of positions per wheel raised to the number of wheels: 100^3 = 1,000,000. The figure of 100,000,000 corresponds to the book's 4-wheel padlock example, and the p^t formula does not subtract positions already used on other wheels."
+  },
+  "physical-9-q18": {
+   "q": "Which of the following is one of the three security problems of master keying identified in the chapter?",
+   "o": [
+    "It creates multiple shear lines, giving more points for surreptitious opening",
+    "It forces each user with broad access to carry a different key for every lock",
+    "It prevents rearranging locks by means of interchangeable cores",
+    "It requires replacing pin tumbler cylinders with simpler warded locks"
+   ],
+   "e": "The three problems are accountability for master keys, the creation of multiple shear lines or gate openings that make surreptitious opening easier, and increased maintenance because of fragile master pieces. Having each user carry one key per lock is exactly what master keying avoids."
+  },
+  "physical-9-q19": {
+   "q": "An electrified exit device configured as fail secure will be installed on a code-required exit. Why can that configuration be acceptable?",
+   "o": [
+    "Because pushing the bar opens the door mechanically, with or without power",
+    "Because fail secure locks open by themselves when power is cut off",
+    "Because the code accepts pressing a button before pushing the bar as a single action",
+    "Because the bar is connected to an alarm that notifies the monitoring center"
+   ],
+   "e": "A fail secure lock is allowed on the egress route only if free egress is guaranteed regardless of the state of power or controls; the electrified exit device meets this because pushing it opens the door mechanically. Opening when power is cut describes fail safe, and pressing a button does not count as a single action."
+  },
+  "physical-9-q20": {
+   "q": "Which set of requirements applies to a delayed egress device on an emergency exit-only door?",
+   "o": [
+    "A 15 or 30 s delay, special signage, connection to the fire alarm and no delay during a fire",
+    "A 60 s delay, with no connection to the fire alarm so as not to alert the person trying to leave",
+    "A 15 or 30 s delay that is maintained even during a fire alarm or a general evacuation",
+    "A delay long enough for an officer to always intercept the thief before the door can be opened"
+   ],
+   "e": "Pushing the bar starts a 15 or 30 second delay; the device requires signage warning of the delay, connection to the fire alarm system and no delay during a fire or other defined life safety emergency. It usually does not give time to intercept a thief, but it triggers a local alarm and reports it to a monitoring center."
+  },
+  "physical-9-q21": {
+   "q": "While auditing a site's locking system, the manager finds that no one knows for certain who has access to what and that there are no distinct access levels. According to the chapter's quick test, how is the system rated?",
+   "o": [
+    "It is neither secure nor convenient, and because of both it is not economical either",
+    "It is secure but not convenient, because a single access level simplifies control",
+    "It is convenient but not secure, and still economical because it uses few keys",
+    "It only has a privacy problem, which is fixed by adding locks as they are needed"
+   ],
+   "e": "If it is not clear who accesses what, the system is not secure; if there are not several access levels, it is not convenient; and with both failures it is not economical, because money is misapplied. Adding or removing locks 'as needed' is not a locking concept: the system is designed, not merely installed."
+  },
+  "physical-9-q22": {
+   "q": "According to Purpura (2013), what are the three security purposes of lighting?",
+   "o": [
+    "Psychological deterrence, enabling detection and enhancing video surveillance",
+    "Deterrence, delaying the intruder and reducing legal liability",
+    "Detection, recognition and identification of people at a distance",
+    "Distinguishing public from private space, supporting response and reducing costs"
+   ],
+   "e": "The three purposes are psychological deterrence, enabling detection and enhancing video surveillance. Distinguishing public from private space, supporting response or reducing liability appear among the general benefits of lighting, and detection, recognition and identification are the tasks in the reflected-light rule of thumb."
+  },
+  "physical-9-q23": {
+   "q": "To 'harden' a parking lot, a manager installs very powerful floodlights that leave very bright areas next to dark ones. What is the MOST likely effect according to the chapter?",
+   "o": [
+    "Less security: the extreme contrast creates black zones where people hide and cameras cannot see",
+    "More security, because more light always improves intruder detection and the quality of video images",
+    "More security, because glare affects the intruder but never the officers or the cameras",
+    "No significant effect, because the human eye adapts instantly to abrupt changes in lighting"
+   ],
+   "e": "Over-lighting and glare reduce security: the extreme contrast creates black zones where people hide, cameras cannot see and staff cannot observe, and the eye needs 20 to 60 seconds to refocus after glare. More light is not necessarily better."
+  },
+  "physical-9-q24": {
+   "q": "A standard camera must allow identification of people crossing a pedestrian entrance at night. According to the chapter's rule of thumb, what minimum level of reflected light is needed?",
+   "o": [
+    "2.0 fc",
+    "1.0 fc",
+    "0.5 fc",
+    "0.2 fc"
+   ],
+   "e": "The rule of thumb calls for 0.5 fc (foot-candles) for detection, 1.0 fc for recognition and 2.0 fc for identification. The 0.2 fc value is the one the NRC specifies for the perimeter and the clear zone between fences."
+  },
+  "physical-9-q25": {
+   "q": "When comparing lamp technologies for a large parking lot, which factor should weigh MOST in operating cost, according to the chapter?",
+   "o": [
+    "Efficacy in lumens per watt, because energy is about 88% of the cost",
+    "The price of lamps and ballasts, because capital goods are about 88% of the cost",
+    "Cleaning and replacement labor, because maintenance is about 88% of the cost",
+    "Uniformity of distribution, because energy is only about 8% of the total cost"
+   ],
+   "e": "Energy represents about 88% of the cost of operating lighting, compared with 8% for capital goods and 4% for maintenance; that is why the most important factor is lamp efficacy, that is, lumens emitted per watt consumed."
+  },
+  "physical-9-q26": {
+   "q": "A site will use color cameras to identify the color of vehicles and clothing in an outdoor yard. According to Figure 9.25 on the color rendering index (CRI), which light source is MOST suitable?",
+   "o": [
+    "LED",
+    "Mercury vapor",
+    "High-pressure sodium",
+    "Low-pressure sodium"
+   ],
+   "e": "LED has a CRI of 75 to 90, while mercury vapor has 50, high-pressure sodium 20 and low-pressure sodium 5. Those three have very low CRI and should not be used with color cameras or where color identification is critical; under low-pressure sodium, for example, a green shirt looks bluish."
+  },
+  "physical-9-q27": {
+   "q": "In a store's checkout area, the metal halide fixtures go out because of a brief voltage dip. What should the security professional anticipate?",
+   "o": [
+    "That restrike may take up to about 20 minutes, so backup from batteries, a generator or a UPS is advisable",
+    "That they will relight instantly as soon as voltage returns, just like the store's LED and incandescent lamps",
+    "That they will be slow to reach full output only in very cold weather, as happens mainly with fluorescent lamps",
+    "That the real cause is dirt accumulated on the fixture, which cuts its output by about 20% a year in dirty settings"
+   ],
+   "e": "HID (high-intensity discharge) lamps such as metal halide depend on an arc that goes out if voltage drops, and the tube must cool before it can restrike: this can take up to 20 minutes. In high-security or life safety areas, such as cash registers, batteries, generators or a UPS should be considered."
+  },
+  "physical-10-q0": {
+   "q": "Under Crowe's (1991) classification of CPTED (Crime Prevention Through Environmental Design) measures, which of these examples is a natural measure?",
+   "o": [
+    "Walls and gates integrated into the site layout",
+    "Chain-link fencing installed along the perimeter",
+    "Police patrols and a neighborhood watch program",
+    "CCTV cameras connected to a monitoring center"
+   ],
+   "e": "Crowe classifies terrain, layout, landscaping, gates and walls as natural measures. Note that fencing appears among the mechanical measures, together with locks and CCTV, while patrols and neighborhood watch are organizational measures."
+  },
+  "physical-10-q1": {
+   "q": "In an office complex, graffiti, trash and abandoned furniture are piling up, and a car with a broken window has been parked for weeks. Which CPTED tool MOST directly addresses this situation?",
+   "o": [
+    "Management and maintenance, based on the broken windows theory",
+    "Legitimate activity support, with a police substation on the premises",
+    "Natural access control, with thorny shrubs beneath the low windows",
+    "Natural territorial reinforcement, with low hedges marking each property"
+   ],
+   "e": "According to the broken windows theory (Wilson and Kelling, 1982), unrepaired deterioration gives the impression of abandonment and of the absence of a capable guardian, which increases criminal opportunity; the answer is to maintain and repair the space. Legitimate activity support is for reclaiming places that are hard to protect because of their location or geography."
+  },
+  "physical-10-q2": {
+   "q": "Which three objectives define situational crime prevention?",
+   "o": [
+    "Increasing the offender's effort, increasing the offender's risk and reducing the perceived reward",
+    "Deterring, detecting and delaying the offender, and also denying access to the target",
+    "Reinforcing territoriality, surveillance and access control of the place",
+    "Improving cohesion, community culture and connectivity of the neighborhood"
+   ],
+   "e": "Situational crime prevention manages, designs or manipulates the environment systematically and as permanently as possible to increase the offender's effort and risk and reduce the perceived reward. The other options correspond to the 4 Ds, the three elements of CPTED and second generation CPTED strategies."
+  },
+  "physical-10-q3": {
+   "q": "In a neighborhood, an excess of abandoned properties is starting to tip the area toward crime, and a program seeks to balance legitimate commerce, recreation and diverse housing. Which second generation CPTED strategy applies?",
+   "o": [
+    "Capacity threshold, also called tipping point theory",
+    "Cohesion, through neighborhood associations and personal development",
+    "Connectivity, with political support from higher levels of government",
+    "Community culture, through artistic and sports activities"
+   ],
+   "e": "According to Saville and Cleveland (2013), capacity threshold (tipping point theory) balances land uses and urban elements: too many abandoned properties tip the area toward crime, and a balance of commerce, recreation and diverse housing improves livability. Cohesion works with groups and personal skills, not with the mix of land uses."
+  },
+  "physical-10-q4": {
+   "q": "While evaluating a space with the CPTED 3-D tool, a consultant asks: 'Is its ownership clear? Where are its boundaries? Do signs indicate the limits of access?' Which factor do these questions belong to?",
+   "o": [
+    "Definition",
+    "Designation",
+    "Design",
+    "Deterrence"
+   ],
+   "e": "The definition factor asks how the space is defined, whether its ownership is clear, where its boundaries are and whether signs indicate the proper use or the limits of access. Designation deals with the purpose of the space, and design with whether the physical form supports the intended function and behaviors."
+  },
+  "physical-10-q5": {
+   "q": "An apartment was burglarized: the door jamb was damaged and an exterior light is burned out. To prevent repeat victimization, what should management do FIRST?",
+   "o": [
+    "Quickly remove the signs of the burglary: repair the jamb, change locks and keys and replace the light",
+    "Regulate access to the building by requiring credentials or permits from everyone who wants to enter",
+    "Protect vulnerable targets with roll-down gates and fences that deny access after hours",
+    "Block easy access by relocating valuable property to a less exposed place in the building"
+   ],
+   "e": "The first step against repeat victimization is to quickly remove the signs of victimization: in apartments, replace glass, repair door jambs, change locks and keys and repair broken or burned-out lights. Blocking easy access, protecting vulnerable targets and regulating access are later steps in the same sequence."
+  },
+  "physical-10-q6": {
+   "q": "A company has just commissioned an architect for its new headquarters. In which phase of the traditional building planning process should security needs be addressed?",
+   "o": [
+    "Programming, when the owner explains the building's purpose and its occupants",
+    "Schematic design, when the architect draws the bubble diagrams of the building",
+    "Design development, when the drawings add engineering detail and a larger scale",
+    "Construction documents, when the final technical specifications are set"
+   ],
+   "e": "Security must be addressed in the programming phase, when the owner tells the architect the building's purpose and its occupants. Once the architect has set circulation, access, materials and fenestration, every security change requires modifying drawings and specifications, with more time and money."
+  },
+  "physical-10-q7": {
+   "q": "When applying security zoning to a corporate building, how does the chapter classify the employee dining room and the loading dock?",
+   "o": [
+    "Both are controlled zones",
+    "Both are unrestricted zones",
+    "Both are restricted zones",
+    "The dining room is unrestricted and the dock is restricted"
+   ],
+   "e": "Controlled zones require a valid reason to enter and, once inside, allow movement without severe restriction; the book lists administrative offices, employee dining rooms, security offices and loading docks there. Unrestricted zones are lobbies, reception areas and snack bars; restricted zones are vaults, mechanical areas or laboratories."
+  },
+  "physical-10-q8": {
+   "q": "According to the chapter, what is the MOST basic tool for reinforcing territoriality among a building's users?",
+   "o": [
+    "A good training and awareness program",
+    "Signage with clear rules in all critical areas of the building",
+    "Real fences and walls that clearly mark the property boundaries",
+    "Visible video surveillance at entrances, corridors and parking areas"
+   ],
+   "e": "The most basic tool is a good training and awareness program: people know what to look for and feel empowered to participate. Signage is the simple tool that communicates the designated use of the environment, but it is not the most basic one."
+  },
+  "physical-10-q9": {
+   "q": "A manager posts 'Enter at own risk' and 'Lock your valuables' signs in a parking lot. What legal effect does the chapter attribute to that signage?",
+   "o": [
+    "It shifts part of the responsibility to users who do not comply, but it does not relieve the owner of liability",
+    "It relieves the owner of all liability as long as the sign is visible and well lighted",
+    "It has no effect at all, because user behavior is always left to personal interpretation",
+    "It makes any future crime no longer foreseeable for the owner of the property"
+   ],
+   "e": "Signs put users on notice and attempt to shift part of the responsibility to them: if they break clear rules, the burden passes to them. However, posting a sign does not relieve the building owner of liability; and it is the absence of notice, not the sign, that leaves behavior to personal interpretation."
+  },
+  "physical-10-q10": {
+   "q": "A landscape designer proposes a design for the walkways of a corporate park. Which combination complies with the chapter's rules for secure landscaping?",
+   "o": [
+    "Low shrubs no taller than 32 in (81 cm) and tree canopies limbed up to 8 ft (2.4 m)",
+    "Low shrubs no taller than 4 ft (1.2 m) and tree canopies limbed up to 5 ft (1.5 m)",
+    "Low shrubs no taller than 32 in (81 cm) and loose gravel as ground cover along the paths",
+    "Solid 6 ft (1.8 m) hedges along the path to provide privacy and mark the territory"
+   ],
+   "e": "The rules set a maximum of 32 in for low shrubs, set back 1 yd from the edge of the path, and limbing tree canopies up to 8 ft, to keep sightlines clear and reduce hiding places. Hard landscaping must not include loose gravel or pavers that can serve as projectiles."
+  },
+  "physical-10-q11": {
+   "q": "In the architectural program for a corporate office, where should conference rooms used by outside visitors be located?",
+   "o": [
+    "Outside the restricted zone, next to the lobby and before the access control point",
+    "Inside the restricted zone, next to the executive offices, so attendees can be supervised",
+    "Next to the computer room, to make presentations requiring sensitive equipment easier",
+    "On a VIP floor with an exclusive elevator and access control in the elevator itself"
+   ],
+   "e": "Conference rooms belong outside the restricted zone, normally next to the lobby and before the access control point; that way attendees do not need to be issued badges and are kept out of private or semiprivate areas."
+  },
+  "physical-10-q12": {
+   "q": "An industrial plant has a 12 x 12 in (30 x 30 cm) ventilation grille 10 ft (3 m) above the ground. According to the chapter, what is the proper action?",
+   "o": [
+    "Reinforce it, because it exceeds 96 sq in (619 cm2) and is less than 18 ft (5.5 m) above the ground",
+    "Leave it as is, because any opening more than 8 ft (2.4 m) above the ground is out of reach",
+    "Leave it as is, because it is smaller than 96 sq in (619 cm2) and no person can pass through",
+    "Eliminate it, because every opening less than 18 ft (5.5 m) above the ground is prohibited in the shell"
+   ],
+   "e": "Every opening larger than 96 sq in (619 cm2) that is less than 18 ft above the ground must be reinforced with polycarbonate, window sheets, mesh or similar. The grille measures 144 sq in and is at 10 ft, so it meets both conditions; the rule calls for reinforcement, not elimination."
+  },
+  "physical-10-q13": {
+   "q": "Traffic engineers prefer multiple entrances to a parking facility. From a CPTED standpoint, what is preferred, and what is required if volume makes more entrances necessary?",
+   "o": [
+    "A single entrance and exit; each extra access point needs an attended booth, gate arm, shutter, video and good lighting",
+    "Multiple entrances to spread the traffic; it is enough for each to have video and good night lighting",
+    "A single entrance with several exit-only doors, with no need for attended booths at any of them",
+    "Two separate access points, one for vehicles and one for pedestrians that crosses the vehicle lane by the booth"
+   ],
+   "e": "CPTED prefers a single entrance and exit for all vehicles, because more entrances make it harder to control users and uses. If volume requires more, each access point needs an attended booth, a gate arm, a roll-down shutter to close after hours, video and good lighting; in addition, the primary rule is not to force pedestrians to cross the vehicle path."
+  },
+  "physical-10-q14": {
+   "q": "To save money, a bank proposes installing only dummy cameras at an isolated ATM. What is the security professional's BEST response?",
+   "o": [
+    "Reject it: without real cameras, dummies create an illusion of security and a risk of a negligence lawsuit",
+    "Accept it, because visible cameras deter more than hidden ones, even though they suffer more vandalism",
+    "Accept it if daily withdrawal limits are also set to reduce the loss in case a customer is robbed",
+    "Accept it if the dummy cameras are installed inside dark, vandal-resistant polycarbonate domes"
+   ],
+   "e": "Dummy cameras should be used only if real cameras are also present; otherwise they provide false security and expose the operator to a negligence lawsuit for creating an 'illusion of security'. Visible cameras do deter more, but that does not justify having none that record."
+  },
+  "physical-10-q15": {
+   "q": "Which set of typical minimum lighting levels for an ATM, measured 3 ft (1 m) above the ground, does the chapter give?",
+   "o": [
+    "25 fc (269 lux) at the face; 10 fc within 5 ft (1.5 m); 2 fc at 50 to 60 ft (15 to 18 m)",
+    "10 fc (107 lux) at the face; 5 fc within 5 ft (1.5 m); 2 fc at 50 to 60 ft (15 to 18 m)",
+    "25 fc (269 lux) at the face; 2 fc within 5 ft (1.5 m); 10 fc at 50 to 60 ft (15 to 18 m)",
+    "50 fc (538 lux) at the face; 25 fc within 5 ft (1.5 m); 10 fc at 50 to 60 ft (15 to 18 m)"
+   ],
+   "e": "The typical minimums are 25 fc (foot-candles) at the face of the ATM, 10 fc within 5 ft and 2 fc at 50 to 60 ft, measured 3 ft above the ground. The chapter notes that the U.S. has no national bank lighting standards and that these minimums do not address shadows, glare or uniformity."
+  },
+  "physical-10-q16": {
+   "q": "When designing a new U.S. federal building against bomb attacks, which combination of measures follows the chapter's recommendations?",
+   "o": [
+    "A 100 ft (30 m) setback, a simple rectangular plan and concrete planters spaced less than 4 ft (1.2 m) apart",
+    "A 100 ft (30 m) setback, a U-shaped plan enclosing a courtyard and heavy exterior cladding against the blast",
+    "A 30 ft (9 m) setback, an L-shaped plan and concrete planters spaced about 6 ft (1.8 m) apart",
+    "Vehicle approaches perpendicular to the facade and open parking underneath the building itself"
+   ],
+   "e": "The chapter recommends a secure perimeter as far out as possible, with a 100 ft setback, and barriers disguised as planters spaced less than 4 ft apart to stop vehicles. A simple rectangular plan reduces the diffraction of the blast wave that bounces around U- or L-shaped buildings, and exterior cladding should be lightweight."
+  },
+  "physical-10-q17": {
+   "q": "Which statement BEST describes the relationship between CPTED and traditional security, according to the chapter?",
+   "o": [
+    "It is rarely sufficient alone, but it is a cost-effective complement that can reduce guards and insurance premiums",
+    "In most cases it replaces traditional security, because its natural means have no cost",
+    "It only works against common crime, since it never reduces the opportunity for a terrorist attack",
+    "It makes protection more expensive, because it requires adding guards and expanding the reach of video systems"
+   ],
+   "e": "Only in rare cases is CPTED sufficient by itself; it is an excellent, cost-effective complement that can reduce or reassign guards, reduce the scope of video, replace some barriers with natural access control and lower insurance premiums. It is also a legitimate strategy for reducing the opportunity for terrorism, although it may not stop the most determined terrorist."
+  },
+  "physical-11-q0": {
+   "q": "After several intrusions, the security manager tunes a laboratory's biometric reader to minimize false accepts. What is the MOST likely effect of this adjustment?",
+   "o": [
+    "Type I errors (false rejects) will increase, and authorized users will sometimes be denied entry.",
+    "Type I and Type II errors will both fall, because a strict threshold improves overall accuracy.",
+    "The device will lock onto the equal error rate, where both error types are at their lowest.",
+    "Type II errors will increase, and authorized users will sometimes be denied entry."
+   ],
+   "e": "Both errors cannot be minimized at once: tuning for few false accepts gives high security but raises false rejects (Type I), so some authorized users are denied. The equal error rate is used to compare devices; it is not the point where both errors are lowest."
+  },
+  "physical-11-q1": {
+   "q": "A high-security company wants to install electromagnetic locks (maglocks) on its designated egress doors and add battery backup so they stay locked during a power outage. What should the security manager recommend?",
+   "o": [
+    "Wire them fail-safe, tied to the fire alarm, with no battery backup and with prior AHJ approval.",
+    "Accept the battery backup, since the book recommends it for maglocks in high-security facilities.",
+    "Configure them as fail-secure so the door stays locked after any power or control failure.",
+    "Replace them with electric deadbolts, which can be fail-secure and do not rely on an electromagnet."
+   ],
+   "e": "On an egress door a maglock must be fail-safe, release with the fire alarm and be approved by the AHJ; per the book, adding battery backup to a maglock is a crime in most jurisdictions. The backup power the book recommends for high security excludes egress doors, and electric deadbolts are not recommended on doors that must open on a fire alarm."
+  },
+  "physical-11-q2": {
+   "q": "An access control system creates the duress code by swapping the last two digits of the PIN. An employee is assigned PIN 4-8-3-3. What problem does this PIN create for that scheme?",
+   "o": [
+    "The duress code would be identical to the normal PIN, so the system could not tell them apart.",
+    "The duress code would match another employee's PIN, because only the last two digits change.",
+    "A four-digit PIN is not enough for a workforce of several hundred people and is easy to guess.",
+    "The system would void the credential on first use, treating the PIN as a failed attempt."
+   ],
+   "e": "Swapping the last two digits (3-3) yields the same number, which is why the book requires those digits to differ (all four, if the code reverses the PIN). Four digits give 10,000 combinations, enough for a few hundred people."
+  },
+  "physical-11-q3": {
+   "q": "What is the MAIN advantage of an exchange badge system over a conventional photo identification badge?",
+   "o": [
+    "The badge used inside the secure area never leaves it, reducing counterfeiting, loss and theft.",
+    "It verifies the person's identity by matching a unique physical trait recorded at enrollment.",
+    "It prevents an intruder from using makeup or a disguise to resemble the photo on a stolen badge.",
+    "It lets the badge be checked automatically at the reader, without relying on an attentive guard."
+   ],
+   "e": "The twin badge stays at the control point and the employee's own badge is held there until exit, so the badge used inside never leaves the area. It is still a manual check vulnerable to disguise, and it is not identity verification, which only biometrics provides."
+  },
+  "physical-11-q4": {
+   "q": "Which BEST describes a security drawback of master keying that must be weighed against its convenience?",
+   "o": [
+    "It creates additional shear lines that make it easier to open the lock covertly.",
+    "It requires reusable cores, which makes replacing lost or stolen keys more expensive.",
+    "Split pins greatly increase the number of key changes available in each cylinder.",
+    "Each change key opens every lock within its master key group."
+   ],
+   "e": "The book cites three difficulties: strict key control, more weak points for manipulation (multiple shear lines or gate openings) and more cylinder maintenance. Split pins reduce key changes, reusable cores make recovering from a lost key cheaper, and a change key opens only one lock."
+  },
+  "physical-11-q5": {
+   "q": "Why does the book advise against using a traditional magnetometer to detect contraband?",
+   "o": [
+    "It is passive and senses only ferromagnetic metals, missing copper, aluminum, zinc and composites.",
+    "It emits a pulsed magnetic field that causes nuisance alarms whenever steel beams or rebar are nearby.",
+    "It relies on ionizing radiation, so it is not considered safe for screening people at an entry point.",
+    "It responds only to low atomic number (low-Z) materials and therefore does not react to steel weapons."
+   ],
+   "e": "A magnetometer is passive: it monitors the earth's magnetic field and detects only changes caused by ferromagnetic materials, so it misses copper, aluminum, zinc and many composite weapons. Pulsed fields belong to modern active detectors, and ionizing radiation to X-ray systems."
+  },
+  "physical-11-q6": {
+   "q": "At a checkpoint, screeners must look for explosive traces inside containers and in soft-sided fabric bags, as unobtrusively as possible. Which technique is MOST appropriate?",
+   "o": [
+    "Vapor sampling: drawing in the air next to the item, often while agitating it.",
+    "Swipe sampling: wiping a cloth swab across the surface and then heating it.",
+    "Raman analysis: aiming a laser at the container and analyzing the scattered light.",
+    "Computed tomography (CT): rebuilding the contents in 3D to compute mass and density."
+   ],
+   "e": "Vapor sampling suits container interiors and soft surfaces and is less invasive because it does not touch the item. Swipe sampling is more efficient and collects more mass but is best for hard surfaces and more invasive; Raman needs small but visible amounts and is not for packages, and CT is bulk, not trace, detection."
+  },
+  "physical-11-q7": {
+   "q": "Per the book, which of these alarms is classified as a false alarm rather than as another type of nuisance alarm?",
+   "o": [
+    "An alarm caused by the failure of a component in the sensor itself.",
+    "An alarm caused by wind-blown debris moving across the detection zone.",
+    "An alarm caused by ground vibration from a train passing nearby.",
+    "An alarm caused by a large animal bumping into the fence at night."
+   ],
+   "e": "A false alarm is a type of nuisance alarm generated by the equipment itself: poor design, inadequate maintenance or component failure. Wind-blown debris and ground vibration are industrial nuisance sources and animals are natural ones; none of them is caused by an intrusion."
+  },
+  "physical-11-q8": {
+   "q": "A designer pairs, in the same sector, a sensor that detects tunneling with another that detects fence climbing, so each covers the other's weaknesses. Which logic should be used, and what will happen to the nuisance alarm rate (NAR)?",
+   "o": [
+    "OR combination; the system NAR will be the sum of the individual sensors' NARs.",
+    "AND combination; the system NAR will be lower than that of either sensor.",
+    "OR combination; the system NAR will be lower than that of either sensor.",
+    "AND combination; the system PD will be the product of the individual sensors' PDs."
+   ],
+   "e": "When sensors detect different intrusion types (above ground, overhead and tunneling) they are combined with OR logic, which alarms on any sensor; the resulting NAR is the sum of the individual NARs, so each sensor needs a low NAR. With AND logic the intruder would only need to defeat one sensor to avoid an alarm."
+  },
+  "physical-11-q9": {
+   "q": "To protect a high-security classified space, an integrator proposes one dual-technology sensor (microwave plus passive infrared, PIR) per room instead of two separate sensors. How should the security manager respond?",
+   "o": [
+    "Reject it; use separately mounted microwave and PIR units, ideally perpendicular, logically combined.",
+    "Accept it, because the AND logic of a dual sensor raises the PD above that of either technology alone.",
+    "Accept it if each technology has a PD of 0.95, because the combined unit will also achieve 0.95.",
+    "Reject it and use a single multisegment PIR, which is better at detecting motion toward the sensor."
+   ],
+   "e": "In high security a single dual sensor is never used in place of two separate sensors, and many government standards do not allow them in a SCIF. With AND logic the PD is the product of both (0.95 x 0.95, about 0.90), lower than either; mounted separately and perpendicular, each sensor exploits its best motion (approach for microwave, crosswalk for PIR)."
+  },
+  "physical-11-q10": {
+   "q": "In a warehouse, the shelving layout forces any intruder to move directly toward the spot where the motion sensor will be mounted. Considering only the direction of motion, which sensor will perform BEST?",
+   "o": [
+    "A monostatic microwave sensor, which is most sensitive to motion toward or away from it.",
+    "A passive infrared (PIR) sensor, which is most sensitive to motion toward or away from it.",
+    "A passive infrared (PIR) sensor, whose detection does not depend on the direction of motion.",
+    "A monostatic microwave sensor, which is most sensitive to motion that crosses its pattern."
+   ],
+   "e": "Microwave sensors detect by Doppler shift and are more sensitive to motion toward or away from the sensor than to crosswalk motion. PIR is the opposite: it performs best with motion that crosses its pattern, because the target must enter and leave several segments."
+  },
+  "physical-11-q11": {
+   "q": "In a clear zone bounded by two parallel fences, where are perimeter delay barriers typically placed, and why?",
+   "o": [
+    "At or near the inner fence, so the intruder crosses the detection zone before reaching it.",
+    "At the outer fence, so the intruder is slowed down well before entering the detection zone.",
+    "In the middle of the clear zone, so the camera sees the intruder while working on the barrier.",
+    "Outside the outer fence, to keep people, animals and vehicles well away from the sensors."
+   ],
+   "e": "Barriers go at or near the inner fence: the intruder crosses the detection zone first, so the response begins before the delay starts. The barrier also must not degrade sensor performance or block part of the camera's view."
+  },
+  "physical-11-q12": {
+   "q": "A designer wants to add complementary sensors to a high-security perimeter. According to the book, which of these pairs would NOT be complementary?",
+   "o": [
+    "Bistatic and monostatic microwave",
+    "Bistatic microwave and active infrared",
+    "Bistatic microwave and ported coaxial cable",
+    "Ported coaxial cable and active infrared"
+   ],
+   "e": "Complementary sensors must use different technologies with detection patterns that can overlap. Bistatic and monostatic microwave are vulnerable to the same attack methods and the same nuisance alarm sources; the other three pairs are complementary according to the book."
+  },
+  "physical-11-q13": {
+   "q": "A UK installer builds an intruder alarm system with a grade 3 panel and sounder but uses grade 2 motion detectors in some zones. Under the European standards, what is the official grade of the system?",
+   "o": [
+    "Grade 2, because the system takes the grade of its lowest-graded equipment.",
+    "Grade 3, because the grade is set by the control panel and the signaling path.",
+    "Grade 3, because most of the installed equipment is rated grade 3.",
+    "No grade, because the European standards forbid mixing equipment of different grades."
+   ],
+   "e": "The European standards allow mixing equipment of different grades, but the system's official grade is that of its lowest-graded equipment. Grade 2 detectors therefore bring the whole system down to grade 2."
+  },
+  "physical-11-q14": {
+   "q": "What is the MOST important limitation that an assets protection professional must understand about UL standards for alarms and intrusion detection systems?",
+   "o": [
+    "They address safety, not security, and do not assess equipment vulnerability to adversaries.",
+    "They apply only to high-security equipment for classified spaces, such as those governed by UL 2050.",
+    "They are not public, so the professional must rely on the periodic directories to learn their content.",
+    "They set installation rules for European grade 1 to 4 systems but do not cover equipment made in the US."
+   ],
+   "e": "UL standards are safety standards: they guide correct installation to reduce fire and similar risks, but they do not address equipment vulnerabilities or the ability to detect malicious adversaries. They are also public; what UL asks is that users rely on its directories of certified equipment."
+  },
+  "physical-11-q15": {
+   "q": "During an audit, the security manager finds that the installer placed all end-of-line (EOL) resistors inside the IDS control panel instead of next to each sensor. Why is this a problem?",
+   "o": [
+    "The run between the panel and each sensor is left unsupervised, though line supervision must cover it.",
+    "Resistors at the panel cause nuisance alarms from electromagnetic interference from the other circuits.",
+    "Line supervision only works with IP network transmitters, so the resistors are unnecessary anyway.",
+    "The resistors belong at the central station receiver, not at the panel or out in the field."
+   ],
+   "e": "With several sensors on one processor, line supervision is needed between the processor and each sensor; the recommended method is an EOL device placed in the circuit next to the sensor, in the field, not at the panel. That way cuts, shorts or bridging on that run are detected."
+  },
+  "physical-11-q16": {
+   "q": "Which BEST describes the advantage of a balanced magnetic switch (BMS) over a simple magnetic switch?",
+   "o": [
+    "Its bias magnet detects changes in field strength, which defeats spoofing with an external magnet.",
+    "It is fully electronic, with no mechanical reeds, and measures the field using its own power supply.",
+    "It also detects someone cutting through the door leaf, even if the door is never opened.",
+    "It alarms on any door separation from the jamb, even one of 0.5 in (1.3 cm) or less."
+   ],
+   "e": "A BMS has an adjustable bias magnet and senses changes in field strength, so holding a strong magnet near it, which defeats a simple switch, no longer works. The fully electronic, powered device is the Hall effect switch, and cutting through the door leaf still bypasses a BMS."
+  },
+  "physical-11-q17": {
+   "q": "An IP camera must read the license plates of vehicles leaving a parking lot. Based on the book's digital identification views, what minimum pixel density is needed at the point of capture?",
+   "o": [
+    "70 px/ft (231 px/m)",
+    "46 px/ft (150 px/m)",
+    "88 px/ft (289 px/m)",
+    "35 px/ft (118 px/m)"
+   ],
+   "e": "License plate identification requires 70 px/ft (231 px/m). 46 px/ft is subject identification beyond a shadow of a doubt, 88 px/ft is facial recognition, and 35 px/ft is recognizing known people."
+  },
+  "physical-11-q18": {
+   "q": "A camera is mounted on a building wall 40 ft above the ground, and the center of the scene is 30 ft from the building. What camera-to-scene distance should be used to calculate the lens focal length?",
+   "o": [
+    "50 ft, the hypotenuse of the mounting height and the horizontal distance",
+    "30 ft, the horizontal distance from the building to the scene center",
+    "40 ft, the mounting height of the camera above the ground",
+    "70 ft, the sum of the camera's mounting height and the horizontal distance"
+   ],
+   "e": "Distance is measured from the front of the camera to the main subject with the Pythagorean theorem: the square root of (30 squared + 40 squared) = square root of 2,500 = 50 ft. Using only the horizontal distance (30 ft) understates it and leads to the wrong lens."
+  },
+  "physical-11-q19": {
+   "q": "For cameras meant to provide visual information about something that is happening or has happened, in what order should the selection criteria be applied, according to the book?",
+   "o": [
+    "Sensitivity, resolution, then features; the camera is chosen before the lens.",
+    "Resolution, sensitivity, then features; the lens is chosen before the camera.",
+    "Features, resolution, then sensitivity; the camera is selected before the lens.",
+    "Sensitivity, features, then resolution; the lens is selected before the camera."
+   ],
+   "e": "The book sets the order as sensitivity first (minimum light for a quality image), then resolution, then features, and the camera is chosen before the lens. The lens is the second most important decision, after the camera."
+  },
+  "physical-11-q20": {
+   "q": "A technician wants to reuse a C-mount lens on a new CS-mount camera and does not have the adapter ring at hand. What should the manager warn about?",
+   "o": [
+    "Mounting it without the 5 mm spacer can break the camera's CCD.",
+    "It will work, but with focus problems that no adjustment can correct.",
+    "It will work fine, because CS cameras accept any C-mount lens directly.",
+    "It will produce tunnel vision, because the C lens will not fill the CS sensor."
+   ],
+   "e": "C-mount has 17.526 mm between sensor and lens and CS-mount 12.5 mm: a C lens on a CS camera without an adapter ring breaks the CCD, while the 5 mm spacer makes it work. Uncorrectable focus problems occur in the reverse case (CS lens on a C camera), and tunnel vision comes from a lens format smaller than the camera's."
+  },
+  "physical-11-q21": {
+   "q": "Why does the book consider dummy cameras a liability?",
+   "o": [
+    "They create a false expectation that someone is watching and that help is on the way.",
+    "They violate the reasonable expectation of privacy just as a real camera in a restroom would.",
+    "They require video surveillance signage to be posted at every entrance to the building.",
+    "They make video from real cameras covering the same scene inadmissible as evidence."
+   ],
+   "e": "Dummy cameras create an expectation of protection: a person under attack believes they are being watched and that help is coming. Signage at entrances is an accepted legal practice, but it is not something a dummy camera imposes."
+  },
+  "physical-11-q22": {
+   "q": "A video surveillance integrator asks to be paid the full contract amount as soon as the cameras are installed. What is MOST advisable to ensure the project is completed to the required performance?",
+   "o": [
+    "Put acceptance tests in the contract terms and withhold final payment until they are passed.",
+    "Pay upon installation, then require the equipment to complete a burn-in of a few hundred hours.",
+    "Rely on the manufacturer's final factory inspection and on its published performance specifications.",
+    "Pay upon installation and order 10 to 20 percent spares to cover any cameras that fail."
+   ],
+   "e": "The book recommends requiring acceptance tests from every vendor or integrator, including them in the contract terms and conditions, and withholding final payment until they are passed. Final factory inspection is not consistent, and manufacturer literature should not be the only criterion."
+  },
+  "physical-11-q23": {
+   "q": "A facility uses a loop circuit with a McCulloh configuration. An intruder cuts the loop wire at two different points. What happens?",
+   "o": [
+    "Only the devices between the two cuts are lost; all the others keep working.",
+    "All devices keep working, because current reaches them from both sides of the circuit.",
+    "All devices beyond the first cut are lost, just as in a simple loop circuit.",
+    "The whole loop is lost, because a McCulloh circuit tolerates shorts but not cuts."
+   ],
+   "e": "A McCulloh circuit sends current from both sides of the loop: with one cut all devices keep working, but with two cuts the devices between them are lost because there is no path to them. In a simple loop, by contrast, one cut interrupts every signal beyond it."
+  },
+  "physical-11-q24": {
+   "q": "Which type of alarm transmission installation means a line fault affects only one detector and forces an attacker to find and disable each sensor's cable?",
+   "o": [
+    "Point-to-point, although it costs more than a loop because it needs more cable.",
+    "Multiplexing, although cutting the shared link drops every signal carried on it.",
+    "Loop, although a cut at the right spot can disable all detectors in an area.",
+    "Wireless, although any unencrypted signal must be considered interceptable."
+   ],
+   "e": "In point-to-point each sensor has its own wire pair to the control center: a fault affects one detector and an attacker would have to disable every cable. Its drawback is the cost of extra cable; in loop and multiplexed systems a single cut affects many signals."
+  },
+  "physical-11-q25": {
+   "q": "While an operator is assessing an alarm on screen, a second alarm arrives. Under the 'operator first' design philosophy, how should the interface behave?",
+   "o": [
+    "Show a non-intrusive notice and let the operator decide whether to abort the current task.",
+    "Replace the current screen with the new alarm, since the most recent alarm takes priority.",
+    "Sound a loud, continuous alarm until the operator acknowledges the new alarm.",
+    "Hold back the new alarm entirely until the operator has finished and closed the current assessment."
+   ],
+   "e": "Rule 4 of the 'operator first' approach is not to interrupt operations in progress: the new alarm does not replace the screen; a non-intrusive notification arrives and the operator decides whether to abort. Rule 5 also calls for avoiding loud, continuous alarms."
+  },
+  "physical-11-q26": {
+   "q": "According to the book, which combination of voice scrambling techniques provides a high degree of security?",
+   "o": [
+    "Masking combined with a band splitter or with a frequency or phase modulator",
+    "A frequency inverter combined with a band splitter using five fixed bands",
+    "Masking used alone, with a single tone or RF noise inside the voice band",
+    "A five-band band splitter on its own, which offers 3,080 combinations in theory"
+   ],
+   "e": "Masking alone is weak, because the voice is fairly easy to understand through the mask, and 90 percent of a band splitter's 3,080 combinations are no more secure than an inverter. Combined, masking plus a band splitter or masking plus a frequency or phase modulator gives high security."
+  },
+  "physical-11-q27": {
+   "q": "A manufacturer releases smoke detectors that integrate miniature cameras, microphones and inert gas monitoring. Which electronic systems integration trend does this product illustrate?",
+   "o": [
+    "Product hybridization",
+    "Data aggregation",
+    "Cloud-based managed services",
+    "Big data"
+   ],
+   "e": "Product hybridization merges formerly separate products; the book gives exactly the example of smoke detectors with miniature cameras, microphones and inert gas monitoring. Data aggregation, by contrast, means managing diverse databases from a single interface."
+  },
+  "physical-12-q0": {
+   "q": "A security manager is evaluating whether a reception post can be replaced by technology. Under the 'necessary human being' concept, which post requirement BEST justifies keeping a person there?",
+   "o": [
+    "Holding face-to-face dialogue with visitors and deciding the next step from it",
+    "Reading access cards and checking them against the authorized cardholder database",
+    "Switching on the lobby lighting whenever motion is detected",
+    "Locking and unlocking the lobby doors according to a fixed daily schedule"
+   ],
+   "e": "Engaging in rational face-to-face dialogue and deciding the next step based on it is one of the five capabilities that require a human being. Reading cards, switching on lights or locking doors on a schedule are tasks a reader or an automated system can do without staff."
+  },
+  "physical-12-q1": {
+   "q": "An entrance requires personal recognition and has low-density queuing. According to the book, how many entrances can a single remote operator control under these conditions?",
+   "o": [
+    "1 or 2 entrances",
+    "3 or 4 entrances",
+    "5 or 6 entrances",
+    "8 to 10 entrances"
+   ],
+   "e": "The book states that, with personal recognition and low-density queuing, one remote operator can control 3 or 4 entrances. It illustrates how technology lets an organization use people only where human capabilities are needed, rather than placing an officer at every door."
+  },
+  "physical-12-q2": {
+   "q": "A company decides to have contract officers work side by side with its proprietary officers to gain operational control and reduce administrative burden. What must it review BEFORE implementing this model?",
+   "o": [
+    "The applicable co-employment rules",
+    "The bid specifications from the previous contract",
+    "The use-of-force policy of both groups",
+    "The state regulator's uniform requirements"
+   ],
+   "e": "This is the hybrid model, and the drawback the book notes is that co-employment rules must be reviewed before implementing it. Bid specifications protect quality when buying contract security, but they are not the prerequisite specific to the hybrid model."
+  },
+  "physical-12-q3": {
+   "q": "When buying contract security, why does the book warn against deciding on the lowest bid alone?",
+   "o": [
+    "The largest cost component is the officer's wage, so cutting price usually cuts wages and quality",
+    "The lowest bid always shifts all of the contractor's legal liability onto the client organization",
+    "The largest cost component is equipment, so cutting price forces the use of obsolete equipment",
+    "Low-price agencies are unable to meet co-employment rules or the state licensing requirements for officers"
+   ],
+   "e": "The officer's wage is the largest cost component, so cutting the price usually cuts wages and, with them, quality. That is why the client must write detailed bid specifications covering requirements, wages, benefits and performance expectations; equipment is not the main cost."
+  },
+  "physical-12-q4": {
+   "q": "An officer finds a disoriented, agitated person in the lobby who could hurt himself or others. According to the book, how should the officer treat this situation?",
+   "o": [
+    "As a medical emergency: secure the person and the scene, call EMS and keep custody until handover",
+    "As a police matter: detain the person and call the police to arrest and remove the individual",
+    "As an intoxication case: determine which substance was taken before calling emergency medical services",
+    "As a disciplinary matter: identify the person and report the case to human resources after the shift"
+   ],
+   "e": "A person with altered mental status is a medical emergency, not a police problem: the officer secures the person and the scene, calls emergency medical services (EMS) and keeps custody until handover. The officer is not qualified to determine the cause; only a physician can do that."
+  },
+  "physical-12-q5": {
+   "q": "A bomb threat is received against a specific floor of an office building, and management opts for a partial evacuation. Based on the book's example, which floors should it concentrate on in addition to the threatened floor?",
+   "o": [
+    "The floors immediately above and below",
+    "All of the floors above the threatened one",
+    "The ground floor and the basement levels",
+    "The floors with the largest number of occupants"
+   ],
+   "e": "The book's example of partial evacuation for a bomb threat on a specific floor is to concentrate on the floors immediately above and below. The other options do not match the criterion the book gives."
+  },
+  "physical-12-q6": {
+   "q": "An officer assigned to a fixed access control post is asked to accompany a visitor to a conference room on another floor. What is MOST appropriate according to the book?",
+   "o": [
+    "Have the host who invited the visitor, or a non-static post officer, escort",
+    "Have the officer escort the visitor and close the post until returning",
+    "Have the officer escort the visitor after notifying the control center by radio",
+    "Let the visitor go up alone after leaving identification at the post"
+   ],
+   "e": "A fixed-post officer should not escort visitors or customers, because doing so abandons the protection task; the alternative is an escort by the host or by a non-static post officer. Notifying the control center does not solve the problem of leaving the post unattended."
+  },
+  "physical-12-q7": {
+   "q": "Post orders require an hourly vehicle count at a gate. In which record should the evidence that the count was reported to the control center and received be kept?",
+   "o": [
+    "The main or control log, covering significant events at all posts",
+    "The post log, which is the chronological, local record of that single post",
+    "The special orders issued for the period during which the count is taken",
+    "The training log sheet of the officer who performed the count"
+   ],
+   "e": "The count itself goes in the post log, the chronological, local record of a single post; the evidence that it was reported and received goes in the main or control log, the cumulative and consecutive history of significant events at all posts. Confusing the two logs is the typical trap."
+  },
+  "physical-12-q8": {
+   "q": "Reviewing logs, a manager sees that an officer writes every day: 'Arrived 0700. Nothing to report. Relieved 1500.' What is the BEST corrective measure according to the book?",
+   "o": [
+    "Have post orders require logging specific events such as key sign-outs and escorts",
+    "Eliminate the post at once, since several uneventful days prove the post is unnecessary",
+    "Replace the paper log with an electronic log that has customized and mandatory data fields",
+    "Ask the officer to rewrite the earlier log entries with more descriptive detail"
+   ],
+   "e": "That pattern suggests the post is unnecessary, the officer is not performing, or the officer was not trained to report; so post orders should require recording specific events (keys, escorts, help to visitors or contractors). Eliminating the post jumps to only one of the three explanations, and rewriting entries breaks the rule against altering the log."
+  },
+  "physical-12-q9": {
+   "q": "Retail theft ring activity is detected at a shopping mall. Which officer role becomes more important, and what training does it require?",
+   "o": [
+    "Information collection; investigation basics, interviewing and investigative reports",
+    "Public relations; corporate expectations and culture, and dealing with the news media",
+    "Legal consultant; torts, negligence, contracts, and labor and regulatory law",
+    "Physical security specialist; technical aspects of equipment and a lifelong learning effort"
+   ],
+   "e": "The information collection role grows when organized crime is present, such as retail theft rings, and requires investigative fundamentals, interviewing techniques and investigative report writing. The physical security specialist advises on protection and prevention, but that role is not focused on detecting and reporting criminal activity."
+  },
+  "physical-12-q10": {
+   "q": "Where regulations allow it, under which condition does the book justify arming officers with firearms?",
+   "o": [
+    "When it is reasonable to expect the officer will have to use lethal force",
+    "When the client wants to project a more authoritative image",
+    "When the officer already owns a personal firearm with a valid license",
+    "When the firearm makes it possible to cut the site's insurance and training costs"
+   ],
+   "e": "Arming is justified only if there is greater danger to life without the weapon or if it is reasonable to expect the officer will have to use lethal force. Arming increases, rather than reduces, liability and the costs of training, insurance and regulatory compliance."
+  },
+  "physical-12-q11": {
+   "q": "A hospital officer must choose which less than lethal tool to carry in an emergency room that is usually crowded. Which does the book consider irresponsible in that setting?",
+   "o": [
+    "Aerosol irritants (pepper spray), because of their greater residual risk to third parties",
+    "Handcuffs, because they are technically not considered self-defense weapons",
+    "A stun baton, because it requires direct contact and may cause pain without incapacitating",
+    "An expandable baton, because it may only be used on large muscle masses"
+   ],
+   "e": "Aerosol irritants carry greater residual risk to third parties, and the book cites a crowded emergency room as an example of irresponsible use; they also require aftercare and custody. The limits of batons and stun batons are real, but the book does not present them as unsuitable for that location."
+  },
+  "physical-12-q12": {
+   "q": "Under Section 5.3 (Selection of Personnel) of the ASIS Private Security Officer Selection and Training Guideline (PSO), what should the organization do with a candidate whose competence does not meet the post's minimum criteria?",
+   "o": [
+    "Reject the candidate or provide the training needed to meet the criteria",
+    "Hire the candidate on probation and evaluate after one year on the job",
+    "Assign the candidate only to fixed posts, where supervision is more direct",
+    "Lower the post criteria to match what the labor market can supply"
+   ],
+   "e": "The PSO calls for setting minimum criteria consistent with legal, regulatory and contractual obligations, assessing each person against them, and rejecting anyone who does not meet them or providing the necessary training. Lowering the criteria defeats the purpose of setting minimum standards."
+  },
+  "physical-12-q13": {
+   "q": "Which factor of officer behavior must be emphasized in training and consists of acting without haste or excessive emotion, avoiding abusive language, arguments and, if possible, force?",
+   "o": [
+    "Courtesy",
+    "Restraint",
+    "Interest",
+    "Discipline"
+   ],
+   "e": "Restraint is the factor the book says must be emphasized in training: calm, dignified conduct, tolerance of other opinions, and avoiding arguments and, where possible, force. Courtesy is showing consideration for others, and discipline is a character trait (obeying orders and not leaving the post), not a behavior factor."
+  },
+  "physical-12-q14": {
+   "q": "A new training manager must identify the training requirements for a site's officers. According to the book, which source should be reviewed FIRST?",
+   "o": [
+    "Legal requirements: state statute, regulations, and client and union contracts",
+    "Training guidelines published by ASIS International, NASCO and the IACP for officers",
+    "Training calendars of similar facilities in the same area",
+    "Priorities identified by the officers themselves in a job task analysis"
+   ],
+   "e": "The first step is to identify legal requirements (state statute, administrative rules, client contracts and union contracts; insurers may also impose requirements); standards, guidelines and best practices such as those of ASIS, NASCO and the IACP come next. Community standards and a job task analysis with the officers are complementary sources."
+  },
+  "physical-12-q15": {
+   "q": "A manager wants to train officers in use of force and ethics, topics that require discretionary judgment. Which method is MOST appropriate according to the book?",
+   "o": [
+    "Job aids posted at each post",
+    "Case studies with active group discussion",
+    "A long lecture supported by slides",
+    "On-the-job training (OJT) with a checklist"
+   ],
+   "e": "The case study method, created at Harvard in the 1880s, is useful where discretionary judgment is required (crisis management, use of force and ethics) and works best in groups with active discussion. Job aids only supplement training, and a lecture is ineffective unless it is short and dynamic."
+  },
+  "physical-12-q16": {
+   "q": "What distinguishes a field training officer (FTO) program from a mentoring program?",
+   "o": [
+    "The FTO only teaches; the mentor evaluates and may recommend retention or dismissal",
+    "The FTO also evaluates and may recommend retention or dismissal; the mentor only teaches",
+    "The FTO acts only before assignment; the mentor acts once the officer is on the post",
+    "The FTO is simpler to implement; mentoring requires planning and training of the guide"
+   ],
+   "e": "In an FTO program the guide is also a supervisor who evaluates performance and at some point recommends retention or dismissal; the mentor teaches but neither evaluates nor decides. That is why the FTO role is complex and requires planning, and the book considers mentoring to work better in most security environments."
+  },
+  "physical-12-q17": {
+   "q": "A program aims to have officers understand other cultures, deal appropriately with people with disabilities, and grasp the criminal mindset and the speed of an attack. Which learning domain does it mainly address?",
+   "o": [
+    "The cognitive domain",
+    "The psychomotor domain",
+    "The affective domain",
+    "Formal socialization"
+   ],
+   "e": "The affective domain changes how a person views a situation (attitudes and perception): understanding other cultures, dealing with people with disabilities and grasping the criminal mindset. The cognitive domain focuses on knowledge and theory, and the psychomotor domain on physical skills that require repetition."
+  },
+  "physical-12-q18": {
+   "q": "A manager decides to write every lesson plan and teach every course personally; on seeing the workload, he gives up and training stops. Which obstacle to training does the book associate with this 'Frog Syndrome'?",
+   "o": [
+    "Budgetary limitations",
+    "Lack of management expertise",
+    "Stereotypes of the officer",
+    "The manager's ego"
+   ],
+   "e": "Hertig (1993) called 'Frog Syndrome' the manager who 'jumps in' to train everyone personally and 'jumps out' on seeing the workload; the book places it under the ego obstacle. Lack of management expertise is a separate obstacle: not knowing how to assess needs, write objectives or design tests."
+  },
+  "physical-12-q19": {
+   "q": "According to the book, why is 'experience is the best teacher' not necessarily true for an officer's development?",
+   "o": [
+    "It only helps if it is preceded by a university degree in security",
+    "It replaces training but never replaces formal education",
+    "It must be guided; if misunderstood, wrong lessons are learned",
+    "It only counts when validated by an independent inspector"
+   ],
+   "e": "The book sums it up as Education + Training + Guided Experience = Development. Supervisors and managers must guide experience so that it is formative; if it is not understood, wrong lessons are learned and then repeated."
+  },
+  "physical-12-q20": {
+   "q": "Because of construction, a door will be closed for three weeks, which changes the duties of a nearby post. Which type of order applies, and what must it clearly state?",
+   "o": [
+    "A general order applicable to the entire force",
+    "A special order stating its period of validity",
+    "A permanent post order replacing the previous one",
+    "A verbal instruction from the supervisor at shift change"
+   ],
+   "e": "Special orders address temporary events, such as the temporary closure of another gate that affects a post, and must clearly specify the period in which they are in effect. General orders apply to the entire force, and word-of-mouth instructions are exactly what written orders are meant to avoid."
+  },
+  "physical-12-q21": {
+   "q": "At a plant, the first shift runs 0700 to 1500 and the second 1500 to 2300. Management needs more officers during the plant's shift change without paying overtime. What measure does the book propose?",
+   "o": [
+    "Ask two first-shift officers to stay one extra hour, paid as overtime",
+    "Have the supervisor regularly cover a fixed post during each plant shift change",
+    "Add a one-hour meal to the first shift, making it 0700-1600 to overlap the second",
+    "Move the second shift's start to 1400 and pay each officer for the extra hour worked"
+   ],
+   "e": "Maximizing the straight time schedule means planned shift overlap: a one-hour meal within the shift extends presence to 0700-1600, so from 1500 to 1600 both full shifts are on duty without overtime. Having the supervisor regularly do an officer's work can trigger a grievance where there is a collective bargaining agreement."
+  },
+  "physical-12-q22": {
+   "q": "A contract security company wants to test how an officer reacts to a suspicious package brought into the facility. Who should conduct the test according to the book?",
+   "o": [
+    "The officer's immediate supervisor, who knows the post best",
+    "The client's manager, so that the test has contractual validity",
+    "A fellow officer on the same shift, to make the test more realistic",
+    "An independent inspector outside the force's chain of command"
+   ],
+   "e": "Independent inspectors offer three advantages: the officer does not know them, they are more objective, and they allow better reaction tests, such as introducing a suspicious package. The immediate supervisor may be influenced by personal bias, and the officer would recognize him."
+  },
+  "physical-12-q23": {
+   "q": "In the Prince William County (Virginia) Police Business Watch program, which is one of the requirements for an organization to become a Certified Crime Prevention Business?",
+   "o": [
+    "Hire at least one proprietary security officer on every operating shift",
+    "Install video surveillance linked to the county police department's dispatch center",
+    "Accept an on-site security assessment by personnel knowledgeable in CPTED",
+    "Have its security manager join IASIR or a similar association"
+   ],
+   "e": "The four requirements are written policies and procedures addressing crime, training employees in crime prevention, accepting an on-site assessment by Crime Prevention Unit personnel knowledgeable in CPTED (Crime Prevention Through Environmental Design), and designating a liaison with the police. The program leverages non-security personnel, so it does not require hiring officers."
+  },
+  "physical-13-q0": {
+   "q": "In a new building project, the CFO and the building committee control scope and funding; the security manager contributes needs but neither decides nor manages the budget. According to the book, what role does the security manager play in that project?",
+   "o": [
+    "Project influencer",
+    "Project stakeholder",
+    "Funding controller",
+    "Principal decision maker"
+   ],
+   "e": "The book assigns the security manager the project stakeholder role when others control scope and funds. As a project influencer (along with chief legal counsel or a consultant), the security manager would influence scope and budget, which is not the situation described."
+  },
+  "physical-13-q1": {
+   "q": "According to the list of process areas cited in the book (Project Management Institute), to which area do the source selection and contract closeout subprocesses belong?",
+   "o": [
+    "Project integration management",
+    "Project communications management",
+    "Project procurement management",
+    "Project risk management"
+   ],
+   "e": "Source selection and contract closeout are subprocesses of project procurement management, along with procurement planning, solicitation planning, solicitation and contract administration. The most tempting distractor is communications management, which includes administrative closure, not contract closeout."
+  },
+  "physical-13-q2": {
+   "q": "A CEO wants to improve visitor security and asks the security manager to start pricing cameras and readers immediately. What should the manager do FIRST according to the chapter?",
+   "o": [
+    "Issue a request for proposal (RFP) to qualified bidders",
+    "Base the project on a security risk assessment",
+    "Set the preliminary budget using quotes from several vendors",
+    "Call the kick-off meeting with the contractor"
+   ],
+   "e": "Every security project must be based on a security risk assessment; without it, scope is decided without knowing threats, probabilities, vulnerabilities or consequences, relying only on assumptions. Pricing, bidding or kicking off with a contractor are later steps that depend on that scope."
+  },
+  "physical-13-q3": {
+   "q": "Acceptance testing for a physical protection system (PPS) is scheduled for June 30. Following the chapter's process, when should system monitoring training be delivered?",
+   "o": [
+    "Around May 31, about 30 days before testing",
+    "Around June 23, one week before testing",
+    "On June 30, together with acceptance testing itself",
+    "In July, when the 12-month warranty period starts"
+   ],
+   "e": "The book places system monitoring training 30 days before acceptance testing, as part of managing implementation. One week is the timing of a different event: the bidder's conference or site visit, held one week after the RFP is issued."
+  },
+  "physical-13-q4": {
+   "q": "According to the chapter, when a security project exceeds any of its constraints (scope, schedule, budget or quality), what is the usual cause?",
+   "o": [
+    "New threats that emerge during construction",
+    "Changes in the applicable codes and regulations",
+    "Poor conception or poor project management",
+    "Contractor default during the warranty period"
+   ],
+   "e": "The book states that exceeding the constraints is usually due to poor conception or poor management; a well-conceived project lets the project manager balance all four without exceeding them. The other causes can occur, but they are not the explanation the book gives."
+  },
+  "physical-14-q0": {
+   "q": "A security system design is behind schedule, and an executive proposes doubling the design team and budget to speed it up. What should the security manager explain according to the book?",
+   "o": [
+    "Design is a serial process: more staff or budget generally does not shorten it substantially",
+    "Design allows parallel phases: doubling the team cuts the schedule almost in half",
+    "Only a turnkey project shortens design, at the cost of skipping the risk analysis",
+    "The schedule depends on the procurement method: an IFB eliminates the construction documents phase"
+   ],
+   "e": "In a serial process each phase is completed before the next, and its output is the input of the following one; that is why adding staff or budget generally does not shorten it substantially. Only a design/build relationship with a contractor shortens it somewhat."
+  },
+  "physical-14-q1": {
+   "q": "What is the first and most important output of the planning and assessment phase in a security design project?",
+   "o": [
+    "The performance specification",
+    "The security basis of design",
+    "The construction documents set",
+    "The final design estimate"
+   ],
+   "e": "Planning and assessment always culminates in a security basis of design, the first and most important output of the process, focused on specific requirements and a conceptual solution based on them. Specifications, construction documents and the final estimate come in later phases."
+  },
+  "physical-14-q2": {
+   "q": "A designer drafts this requirement: 'The system will prevent 100% of unauthorized entries into the data center.' How should it be reworded according to the book?",
+   "o": [
+    "Keep the absolute goal but double the perimeter's physical barriers and its card readers",
+    "In terms of detecting and delaying entry, with a level of confidence for each requirement",
+    "Replace 'prevent' with 'deter', since deterrence does not need a level of confidence",
+    "State it as a number of tolerated attempts per year, unrelated to the consequences of entry"
+   ],
+   "e": "The level-of-confidence factor leads designers to say detect and delay rather than prevent, because a PPS with absolute objectives is impossible or impractically expensive. Moreover, the real danger is not the unauthorized entry but its consequences, so requirements should focus on them."
+  },
+  "physical-14-q3": {
+   "q": "When designing an access control system for 2,000 cardholders, how much spare capacity does the book recommend providing from the outset?",
+   "o": [
+    "3 to 5%: about 60 to 100 additional cardholders",
+    "25 to 30%: roughly 500 to 600 additional cardholders",
+    "None; capacity is adjusted midway through design",
+    "10 to 15%: about 200 to 300 additional cardholders"
+   ],
+   "e": "The book recommends estimating capacity early and allowing for expansion with typically 10 to 15% spare capacity (200 to 300 on 2,000). Leaving the adjustment for the middle of the process is exactly what complicates a design most."
+  },
+  "physical-14-q4": {
+   "q": "A project calls for a high-quality electronic lock on a hollow wooden door. Which design criterion does this mainly violate?",
+   "o": [
+    "Capacity, which should provide 10-15% spare",
+    "Features, which should favor off-the-shelf items",
+    "Quality, which should be uniform across components",
+    "Culture and image, which should reflect the organization"
+   ],
+   "e": "The quality criterion calls for balancing quality and cost with uniform quality; the book cites a high-quality lock on a hollow wooden door as a typical error, like a metal door surrounded by plain drywall. The other criteria exist but do not describe that imbalance."
+  },
+  "physical-14-q5": {
+   "q": "While the basis of design is being prepared, a team member wants to debate camera brands and budget figures. According to the book, what is appropriate at this stage?",
+   "o": [
+    "Finalize engineering details and choose the specific countermeasures for each door",
+    "Prepare the final budget with exact device quantities",
+    "Build consensus on goals and scope, and describe the subsystems functionally",
+    "Write the three-part specification and issue it to bidders"
+   ],
+   "e": "The basis of design serves to build team consensus on goals, what the project includes and how it will protect the assets, deriving requirements from a rigorous risk assessment and describing the subsystems functionally. It is not the time for engineering details, budgets or debates over specific countermeasures."
+  },
+  "physical-14-q6": {
+   "q": "According to the book, when is the ideal time to ask management to approve a physical protection system (PPS)?",
+   "o": [
+    "When 90% of the construction documents are complete",
+    "When the conceptual design is finished",
+    "After bidders' offers are received and evaluated",
+    "When the risk assessment begins"
+   ],
+   "e": "The conceptual level is the ideal time: there is already consensus on scope and enough detail for an initial budget, since the conceptual design includes an initial budget estimate for design and construction. The 90% submission and bid evaluation are much later stages."
+  },
+  "physical-14-q7": {
+   "q": "When selecting countermeasures, which set of main strategies does the book attribute to security designers?",
+   "o": [
+    "Preparation, prevention, detection, response and recovery",
+    "Deter, detect, delay, respond and recover",
+    "Prevention, detection, control and intervention",
+    "Prevention, control and recovery"
+   ],
+   "e": "For security designers there are four: prevention, detection, control and intervention. The homeland security approach uses five: preparation, prevention, detection, response and recovery; it is the most tempting distractor."
+  },
+  "physical-14-q8": {
+   "q": "During construction, the contractor sees that the drawings show a proximity reader at a door, but the specification calls for card plus keypad at that door. Which document prevails?",
+   "o": [
+    "The specification, because it takes precedence over drawings",
+    "The drawings, because they show what is built in each location",
+    "The hardware schedule, because it details each door device",
+    "The riser, because it is the master drawing of each subsystem"
+   ],
+   "e": "Key rule: in case of discrepancies, the specifications take precedence over the drawings. Drawings show WHAT is built, but the specification captures the owner's intent and HOW it is built."
+  },
+  "physical-14-q9": {
+   "q": "Why does the book insist that riser drawings be accurate and complete?",
+   "o": [
+    "Because they show the mounting heights of cameras and readers",
+    "Because they replace the specification when there are discrepancies",
+    "Because the architect uses them as backgrounds for floor plans",
+    "Because contractors count the devices on them to price the job"
+   ],
+   "e": "A riser shows complete subsystems (video, access control) with their devices and interconnecting cables; it is the master drawing where contractors count devices, and because they bid from those counts it must be accurate and complete. Mounting heights appear on elevations."
+  },
+  "physical-14-q10": {
+   "q": "A PPS is part of a larger construction project, and the team reaches the 50% design review. Which type of estimate is prepared, and with what contingency?",
+   "o": [
+    "Budgetary estimate, ±10 to 20%",
+    "Preliminary design estimate, ±10%",
+    "Final design estimate, ±5%",
+    "Order-of-magnitude estimate, 15 to 20%"
+   ],
+   "e": "The preliminary design estimate is prepared at the 50% review using draft specifications, drawings and schedules, and carries ±10%. The budgetary estimate (±10-20%) belongs to early planning, and the final design estimate (±5%) to 100% design."
+  },
+  "physical-14-q11": {
+   "q": "In the life-cycle cost of a security system, which component usually accounts for the largest percentage?",
+   "o": [
+    "Hardware and startup spare parts",
+    "Engineering and design fees",
+    "Installation costs",
+    "Operating costs (personnel, energy and supplies)"
+   ],
+   "e": "The book states that installation costs (labor, inspection, testing and commissioning, equipment rental, permits, bonds, supervision and overhead) are the largest percentage of the system. Hardware covers only the original equipment and startup spare parts."
+  },
+  "physical-14-q12": {
+   "q": "Using the format of the book's sample estimate: components $10,000; installation labor $5,000; tax and shipping 12% (on components only); profit 10%; and performance bond 4%. What is the total estimated cost?",
+   "o": [
+    "About $19,219",
+    "About $18,533",
+    "About $18,468",
+    "About $17,820"
+   ],
+   "e": "The 12% applies only to components ($11,200), labor is added ($16,200), the 10% profit is calculated on that subtotal ($17,820), and the 4% bond on the subtotal including profit: about $18,533. Applying the 12% to labor as well gives $19,219, and adding 10% + 4% in a single step gives $18,468."
+  },
+  "physical-14-q13": {
+   "q": "A contractor proposes 85 card-reader doors in four corridors next to the lobby so visitors cannot enter employee areas alone, although the building receives few visitors. A consultant instead proposes automatic doors with readers in each corridor, where there were no doors before. What lesson does the book draw from this case?",
+   "o": [
+    "The contractor focused on the long term, the consultant only on the owner's current project",
+    "The contractor solved within existing conditions; the consultant modified the environment",
+    "The consultant reduced the scope because he lacked risk analysis training",
+    "A turnkey project is always cheaper than a design by a consultant"
+   ],
+   "e": "In the Fortune 500 case, the consultant changed the scope and saved more than $100,000: the contractor solved within existing conditions, while the consultant modified the environment to solve the problem. It is the contractor, not the consultant, who focuses on the current project; the consultant brings the long-term view."
+  },
+  "physical-14-q14": {
+   "q": "Which type of video analytics observes the scene for a period, learns what is normal, and then alerts on anything out of the ordinary?",
+   "o": [
+    "Preprogrammed analytics, with specific behavior rules",
+    "A learning algorithm, based on a baseline",
+    "Processed video, which improves image clarity",
+    "Video pursuit, which follows a subject across cameras"
+   ],
+   "e": "A learning algorithm learns a baseline (traffic, weather, day and night patterns, normal behaviors) and alerts on what is not normal. Preprogrammed analytics, by contrast, look for very specific behaviors defined in advance, such as walking the wrong way or leaving a package."
+  },
+  "physical-14-q15": {
+   "q": "An organization replaces standard-resolution cameras with megapixel cameras and, to save money, keeps the existing standard lenses. What does the book warn about this decision?",
+   "o": [
+    "The image improves anyway, because resolution depends only on the camera sensor",
+    "Only digital zoom is lost; the other megapixel capabilities remain",
+    "It is useless: a megapixel camera needs megapixel-quality lenses",
+    "The standard lens forces compression with MPEG-4 instead of H.265"
+   ],
+   "e": "Among the infrastructure requirements for megapixel cameras, the book states that megapixel-quality lenses are needed: a standard lens on a megapixel camera is useless. They also require more network capacity (1 Gbps or more) and much more storage."
+  },
+  "physical-14-q16": {
+   "q": "To be ONVIF conformant, a product must meet at least one profile. Which profile covers video recording and storage?",
+   "o": [
+    "Profile S",
+    "Profile T",
+    "Profile C",
+    "Profile G"
+   ],
+   "e": "Profile G covers video recording and storage. Profile S is basic video streaming, T is advanced streaming, and C is physical access control and event management."
+  },
+  "physical-14-q17": {
+   "q": "On a campus, an obsolete access control system uses a proprietary, non-SQL database and must report its alarms to the monitoring center's system. Which integration method does the book prefer?",
+   "o": [
+    "A hardware interface: a dry contact relay per alarm",
+    "A direct link between the two systems' databases",
+    "An RS-232 alarm printer port with an SQL database",
+    "Converting all systems to the same software version"
+   ],
+   "e": "If the monitored system does not use an SQL database, the hardware method is preferred: one dry contact relay per alarm, wired to an input on the center's system, which is also immune to software version upgrades. The database link and the RS-232 method rely on SQL programming."
+  },
+  "physical-14-q18": {
+   "q": "A security network switch has 1 Gbps ports. According to the book's recommendation, what is the maximum video bandwidth that should pass through any of those ports?",
+   "o": [
+    "About 250 Mbps (25%)",
+    "About 700 Mbps (70%)",
+    "About 450 Mbps (45%)",
+    "About 900 Mbps (90%)"
+   ],
+   "e": "The book recommends using no more than 45% of the bandwidth on any port, switch or segment, summing the manufacturer's recommendation for each camera's resolution and frame rate. That avoids lost frames, artifacts and impact on other data."
+  },
+  "physical-14-q19": {
+   "q": "What distinguishes a 5th-generation access control system from a 4th-generation one?",
+   "o": [
+    "It uses a 20 mA current loop monitored with ammeters to annunciate alarms",
+    "It makes all access decisions in a central minicomputer with a dedicated terminal",
+    "It is programmed in EPROM firmware and only does what was factory-programmed",
+    "Every input and output point is programmable, like a PLC, so none are wasted"
+   ],
+   "e": "The 5th generation barely uses EPROM: programming is downloaded to the panel and every input and output point is programmable, like a programmable logic controller (PLC). The 4th generation is the one with EPROM firmware, limited flexibility and four hardware points per reader, which are wasted on reader-in/reader-out doors."
+  },
+  "physical-14-q20": {
+   "q": "A mid-sized company wants to buy its new system through sole source procurement to save time and design fees. When does the book recommend this?",
+   "o": [
+    "Whenever the project is small, even if the owner does not know market prices",
+    "Only if the owner can do its own needs analysis and knows systems and pricing",
+    "When regulations require award to the lowest qualified, responsive bidder",
+    "When the owner wants to compare prices among several qualified contractors"
+   ],
+   "e": "Sole source is recommended only if the owner can perform its own security needs analysis and knows systems and pricing well: without competitive bidding there is no way to compare prices, and the owner may rely on a contractor with an interest in selling equipment. Award to the lowest qualified bidder is characteristic of an IFB."
+  },
+  "physical-14-q21": {
+   "q": "A government agency must award a video system purchase to the lowest qualified, responsive bidder. Which procurement form applies, and what does it require of the design?",
+   "o": [
+    "RFP; generic performance specifications with 'or approved equal' and alternates allowed",
+    "IFB; extremely explicit documents, no loopholes, brands and models already chosen",
+    "Sole source; simple documents that supplement what the vendor already knows of the site",
+    "RFP; technical and cost proposals, with best-value award after negotiation"
+   ],
+   "e": "An invitation for bid (IFB) is awarded on price, usually without negotiation, so the design must be extremely explicit with no loopholes, with brands and models chosen by the design team; if loopholes remain, bidders substitute inferior equipment. An RFP seeks best value and allows alternates."
+  },
+  "physical-14-q22": {
+   "q": "In a request for proposal (RFP), what condition is commonly required of an alternate for it to be considered?",
+   "o": [
+    "It must fully replace the specified design, without pricing the base bid",
+    "It must use the base bid's brands and models but with a shorter schedule",
+    "It must cost at least 10% less than the base bid, even if performance is lower",
+    "It must measurably improve performance and cost no more than the base bid"
+   ],
+   "e": "To compare costs meaningfully, everyone first responds to the specified design and may then offer alternates; it is common to require that they measurably improve performance and cost the same or less than the base bid. Offering only the alternate would make proposals impossible to compare."
+  },
+  "physical-15-q0": {
+   "q": "During the site visit, the installation contractor discovers that several existing door contacts, which are to be integrated into the new physical protection system (PPS), do not work. What should the contractor do?",
+   "o": [
+    "Replace them immediately at its own expense to protect the schedule, and inform the client in writing once finished",
+    "Document it in writing with specification sheets and estimated cost, and wait for written client permission",
+    "Disconnect the existing signal lines to isolate the fault, and then inform the owner's representative",
+    "Remove those contacts from the design package and continue installing the new components"
+   ],
+   "e": "During site preparation, the contractor supports any nonworking items in writing with specification sheets or functional requirements and the estimated cost of correction, and takes no corrective action without the client's written permission. Disconnecting signal lines or causing downtime also requires prior written approval."
+  },
+  "physical-15-q1": {
+   "q": "The security contractor arrives on the project with a fixed completion date, but the precursor work by other contractors that it needs in order to install is not finished. What should it do FIRST?",
+   "o": [
+    "Install only in the areas that are ready and absorb the delay without reporting it, to protect relationships",
+    "Ask the system designer to change the design package to avoid the areas that are still pending",
+    "Immediately notify the owner's representative and push for the precursor work to be completed",
+    "Stop its own work and claim the contractual late-delay penalties from the other contractors"
+   ],
+   "e": "Because the security contractor is usually the last to arrive, the book says to notify the owner's representative immediately and push for the precursor work to be finished; if necessary, request a schedule extension or a waiver of its late-delay penalties. Silently absorbing the delay does not solve project schedule coordination."
+  },
+  "physical-15-q2": {
+   "q": "According to the installation requirements, which statement BEST distinguishes an electric door strike from an electromagnetic lock?",
+   "o": [
+    "The strike can be fail safe or fail secure; the electromagnetic lock always releases on power failure",
+    "The electromagnetic lock can be fail secure; the strike always releases on power failure",
+    "The strike changes state in 300 ms maximum; the electromagnetic lock in 500 ms maximum",
+    "The electromagnetic lock needs a 1 A inrush current; the strike needs a 1,200 lb holding force"
+   ],
+   "e": "Depending on the application, the strike either releases (fail safe) or stays locked (fail secure), whereas the electromagnetic lock always releases automatically on power failure. The distractors swap the figures: the strike changes state in 500 ms maximum and the electromagnetic lock in 300 ms; the 1 A inrush current belongs to the strike and the 1,200 lb (544 kg) holding force to the electromagnetic lock."
+  },
+  "physical-15-q3": {
+   "q": "A warehouse has contacts on a door with a glass panel. The analysis shows that an intruder could break the glass and pass through without opening the door. Which measure is MOST appropriate?",
+   "o": [
+    "Replace the surface-mount contact with a recessed, high-security, fire-rated contact",
+    "Supervise the contact's line with an end-of-line resistor",
+    "Replace the contact with a dual-technology detector aimed toward the exterior wall",
+    "Supplement the contacts with shock sensors or a passive infrared (PIR) detector"
+   ],
+   "e": "Door and window contacts detect opening but not necessarily breakage; if an intruder could kick in a panel or break a glass, the book calls for supplementing them with shock sensors or PIR. A better contact still does not detect breakage, and a dual-technology detector should not be used where its microwaves detect through thin walls."
+  },
+  "physical-15-q4": {
+   "q": "An integrator proposes wiring the IP cameras with Category 5 cable, because TIA-568 category 5 is the standard the book requires for local area network (LAN) cabling. What is the security manager's BEST response?",
+   "o": [
+    "Accept it, because TIA-568 category 5 covers all of the system's network cabling",
+    "Require RG-59/U coaxial cable for camera runs of up to 328 ft (100 m)",
+    "Require Augmented Category 6 UTP with RJ-45 connectors for video, testing every cable",
+    "Accept it only if no individual connection exceeds 25 ft (7.6 m)"
+   ],
+   "e": "The book calls for TIA-568 category 5 for LAN cabling, but camera video cabling requires CAT 6A unshielded twisted pair (UTP) with RJ-45 connectors, with every cable tested against the manufacturer's performance standards. The 328 ft (100 m) limit applies to each digital TCP/IP video connection, and RG-59/U is for analog video runs of 25 ft or less."
+  },
+  "physical-15-q5": {
+   "q": "On receiving the control panels, the security manager notices that all maintenance locks use the standard factory key, the same key the manufacturer supplies to other customers. What should the manager do?",
+   "o": [
+    "Keep them, because the book recommends that maintenance locks be keyed alike",
+    "Give each enclosure a different key so that no key opens more than one panel",
+    "Replace them with locks keyed alike specifically for the facility, under a key control plan",
+    "Keep them and offset the risk with tamper switches on a 24-hour zone"
+   ],
+   "e": "The book recommends keyed-alike maintenance locks, but keyed specifically for the building or facility, never the factory key that other installations receive; keys are managed through a key control plan. Keeping the factory key confuses keyed alike with any common key, and tamper switches do not fix that risk."
+  },
+  "physical-15-q6": {
+   "q": "The client wants to schedule the alarm assessment and dispatch course for operators, but no alarm assessment and response procedures exist yet. What should be done FIRST?",
+   "o": [
+    "Deliver the course right away and draft the procedures from what comes up in class",
+    "Have client and contractor first develop the alarm assessment and response procedures",
+    "Replace it with the incident response course for the security response force",
+    "Postpone it until after the reliability test, together with the troubleshooting and maintenance course"
+   ],
+   "e": "The alarm assessment and dispatch course presupposes that the client and contractor already have alarm assessment and response procedures, and it is based on the types of alarms the subsystems can generate. The incident response course is for a different audience (the response force) and also requires procedures already developed."
+  },
+  "physical-15-q7": {
+   "q": "During business hours, the loading dock door sends nonstop alarms to the monitoring center and distracts the operators. Under alarm system tuning, what is the BEST measure?",
+   "o": [
+    "Transfer monitoring of that point to the dock area personnel during business hours",
+    "Shunt the alarms of every employee who uses that door so they are not generated at any hour",
+    "Replace the door contact with a longer-range microwave sensor",
+    "Require a call to the central station every time someone opens the dock door"
+   ],
+   "e": "For a loading dock door that reports nonstop to the monitoring center during business hours, the book proposes transferring monitoring of that point to the area's personnel. A mandatory call to the central station is the procedure for secured doors with controlled movement of material, and shunting is reserved for trusted authorized personnel."
+  },
+  "physical-15-q8": {
+   "q": "After a year of operation, the security manager wants to confirm with calibrated instruments that the perimeter sensors still meet the specified probability of detection. Which post-implementation test is needed?",
+   "o": [
+    "Operational test",
+    "Post-maintenance test",
+    "Limited scope test",
+    "Performance test"
+   ],
+   "e": "A performance test verifies that equipment meets its specifications by measuring parameters such as probability of detection, and it may require calibrated instruments. An operational test only proves the system works (for example, the sensor activates when someone walks by) without verifying specifications, and a post-maintenance test is an operational test."
+  },
+  "physical-15-q9": {
+   "q": "The contractor has finished the site acceptance test and wants to start the reliability test the next day, although the training specified in the contract is not finished. What should the client do?",
+   "o": [
+    "Authorize it, because specified training is only required before the certificate of practical completion",
+    "Withhold it until written notice that acceptance, training, and pending corrections are complete",
+    "Authorize Phase I and require training to be finished during that phase's assessment",
+    "Replace it with an independent evaluation test at the end of the first year"
+   ],
+   "e": "The reliability test does not begin until the client gives written notice of three things: acceptance completed, specified training finished, and outstanding deficiencies corrected. Two phases then run 24 hours a day for 15 consecutive calendar days each; the evaluation test is a post-implementation test and does not replace it."
+  },
+  "physical-15-q10": {
+   "q": "Because of the size and complexity of its system, a client asks the contractor to assemble a factory test system (factory acceptance test). Which condition must this test meet?",
+   "o": [
+    "Be performed after installation, with the complete system in its final location",
+    "Always be designed by the contractor, with the client receiving only a summary of results",
+    "Run 24 hours a day for 15 consecutive calendar days, holidays included",
+    "Be scheduled before any installation, using models identical to those to be delivered"
+   ],
+   "e": "The factory acceptance test is scheduled before any installation, the client attends and observes, and the model numbers tested must be identical to those delivered on site; the original data and results go to the client. The client designs it (or the contractor, if the client requires), and 15 consecutive days applies to each phase of the reliability test."
+  },
+  "physical-15-q11": {
+   "q": "During the warranty period a card reader fails. The contractor says it will replace it when the manufacturer ships the spare part in three weeks. How should the security manager assess this?",
+   "o": [
+    "Acceptable, because the warranty only requires arrival on site within 4 hours, not the repair itself",
+    "Acceptable if the failure is recorded in the service visit database",
+    "Unacceptable: the contractor must hold spare parts inventory to repair or replace quickly",
+    "Unacceptable only if the 12-month warranty began with the factory test"
+   ],
+   "e": "The warranty covers repairing, correcting, or replacing any defect and requires sufficient spare parts inventory; waiting for the manufacturer is not acceptable. Arrival within 4 hours is the usual response time but does not replace the repair, and the 12 months run from the certificate of practical completion."
+  },
+  "physical-16-q0": {
+   "q": "A company has separate contracts for the hardware, software, network, and services of its integrated security system. Whenever a failure occurs, the vendors blame each other and the repair is delayed. According to the book, what is often the BEST solution?",
+   "o": [
+    "Assign an in-house technician to diagnose each failure and decide which vendor to call",
+    "Engage a single contractor or integrator as the single point of contact",
+    "Add penalties to each contract for missing the 2-to-4-hour response time",
+    "Split the contracts by subsystem so each vendor answers only for its own part"
+   ],
+   "e": "With complex, integrated systems, separate contracts make it harder to identify the failure and lead to finger-pointing. Often the best solution is a single contractor or integrator that diagnoses the cause and manages the solution, involving third parties as needed; splitting contracts further worsens the problem."
+  },
+  "physical-16-q1": {
+   "q": "While negotiating the service level agreement (SLA), the client demands a guaranteed response in under 4 hours for every component, including individual cameras. What is the BEST advice?",
+   "o": [
+    "Accept it, because the book sets 4 hours as the maximum response for any component",
+    "Exclude the cameras from the agreement, because a single camera failure never justifies any support",
+    "Set each component's level by the impact of its failure; under 4 hours raises costs fast",
+    "Require an engineer stationed on site with all spare parts for every component"
+   ],
+   "e": "The rule is that the greater the impact of a failure, the higher the support level; client and contractor jointly set each component's level, and guaranteeing a response in under 4 hours drives up staff, travel, and equipment costs quickly. The most likely arrangement is an immediate callback and arrival within 2 to 4 hours; an engineer on site is the extreme case."
+  },
+  "physical-16-q2": {
+   "q": "A site's security equipment has a capital cost of USD 2,000,000. According to the book's rule of thumb, how much should be budgeted to buy spare parts?",
+   "o": [
+    "About USD 100,000 every year",
+    "About USD 100,000 once, at the original purchase",
+    "About USD 20,000 every year",
+    "About USD 200,000 every year"
+   ],
+   "e": "The rule of thumb is about 5% of the capital cost of a site's equipment, every year, for spare parts: 5% of 2,000,000 is 100,000 per year. It is not a one-time expense; the budget recurs annually, and the exact quantity depends on lead time, inventory holding cost, and probability of replacement."
+  },
+  "physical-16-q3": {
+   "q": "A site has an emergency generator as the only backup power for its access control and alarm system. What is the main deficiency of this arrangement?",
+   "o": [
+    "The generator should be tested only when the main source fails, to avoid wearing it out",
+    "Switchover to backup should be manual, to prevent false starts of the generator",
+    "A second generator is missing, because backup power requires redundancy using the same technology",
+    "A generator rarely switches over immediately; batteries must carry the load until it is ready"
+   ],
+   "e": "Switchover to backup must be immediate and automatic, and with a generator as the only backup it almost never is; batteries cover the gap until the generator reaches full power. The backup is also tested periodically, and each test is recorded with the date, the tester's name, and the results."
+  },
+  "physical-16-q4": {
+   "q": "When replacing its monitoring software, an organization evaluates a physical security information management (PSIM) platform. What BEST describes its advantage over traditional proprietary software?",
+   "o": [
+    "It joins alarms, video, two-way audio, maps, and response resources into one coherent incident picture",
+    "It allows several credentials on a single card and adds biometric readers to access control",
+    "It gives the operator full visibility of a single system, either alarm and access or video",
+    "It replaces analog cameras with digital ones and improves the quality of recorded video"
+   ],
+   "e": "A situational awareness PSIM joins alarms, video, two-way audio, maps, and response resources into a coherent picture, and helps determine whether simultaneous incidents are related or separate. Single-system visibility is exactly what characterizes the proprietary software that PSIM supersedes; multi-credentialing is a separate access control trend."
+  },
+  "physical-A-q0": {
+   "q": "During a walkthrough, the security manager finds that the cleaning staff frequently leave the building's rear door open to take out the trash. According to the book's definitions, what does this practice represent?",
+   "o": [
+    "A threat",
+    "A threat vector",
+    "A vulnerability",
+    "A security incident"
+   ],
+   "e": "A vulnerability is a weakness, condition, or organizational practice that facilitates or allows a threat to cause harm. A threat is the entity or action that could cause the loss (a threat actor or a threat action), and a threat vector is the specific path by which that action is carried out."
+  },
+  "physical-A-q1": {
+   "q": "Before designing a building, the team specifies that it must withstand a group of four attackers with hand tools, handguns, and a vehicle carrying explosives. Which term BEST describes this specification?",
+   "o": [
+    "Risk profile",
+    "Design basis threat (DBT)",
+    "Risk assessment",
+    "Standoff distance"
+   ],
+   "e": "The design basis threat is the threat against which the asset is protected and on which the protection system is designed: the type and size of threat the building must withstand, including the aggressors' tactics and their tools, weapons, and explosives. A risk profile describes an entity's risks, not the threat that drives the design."
+  },
+  "physical-A-q2": {
+   "q": "A consultant visits a plant, interviews staff, observes operations, and reviews documents to determine its security status, find deficiencies or excesses in protection, and recommend improvements. What is the consultant conducting?",
+   "o": [
+    "A risk assessment",
+    "Risk management",
+    "A metrics collection",
+    "A security survey"
+   ],
+   "e": "A security survey (physical security assessment) is a critical on-site examination of a building or facility to determine its security status, find deficiencies or excesses, establish the protection needed, and recommend improvements, using interviews, observation, and document review. A risk assessment is a different process: it identifies and values assets, lists threats, documents vulnerabilities, describes impacts, and analyzes the risks."
+  },
+  "physical-A-q3": {
+   "q": "A document states, step by step, how the receptionist logs the visitor, verifies identification, issues the badge, and calls the host to provide an escort. According to the book's definitions, what is this document?",
+   "o": [
+    "A procedure",
+    "A policy",
+    "A physical security measure",
+    "A defense-in-depth strategy"
+   ],
+   "e": "A procedure consists of detailed instructions for implementing policies or a business practice of a specific function. A policy is only a general statement of the principle by which the organization conducts its business functions, without the step-by-step detail."
+  },
+  "physical-A-q4": {
+   "q": "Which term does the book define as the business discipline that identifies, analyzes, and communicates risk, and then accepts, avoids, transfers, or controls it to an acceptable level, weighing costs and benefits?",
+   "o": [
+    "Risk assessment",
+    "Risk profile",
+    "Risk management",
+    "Site hardening"
+   ],
+   "e": "Risk management is the business discipline that identifies, analyzes, and communicates risk and then accepts, avoids, transfers, or controls it based on costs and benefits. A risk assessment is the systematic process that analyzes risks and reports them by priority or severity; the decision to accept, avoid, transfer, or control them belongs to risk management."
+  },
+  "physical-B-q0": {
+   "q": "According to the book, what defines a high-rise structure?",
+   "o": [
+    "A building of more than 40 floors with mixed office and retail occupancy",
+    "A structure taller than the maximum reach of the available fire-fighting equipment",
+    "A building whose full evacuation requires elevators in addition to stairs",
+    "A building with more than 150 occupants per floor and several elevator banks"
+   ],
+   "e": "The book defines a high-rise as a structure taller than the maximum reach of the available fire-fighting equipment, so fires are fought from inside. In absolute terms it ranges from 75 to 100 ft (23 to 30 m), about 7 to 10 floors, depending on local codes; 40 floors and 150 occupants per floor describe the notional building in Figure B-1, not the definition."
+  },
+  "physical-B-q1": {
+   "q": "In a high-rise, a fire starts on the 4th floor. An occupant goes down and activates the lobby manual pull station; the system reports \"Fire in Lobby\" and the response goes to the wrong place. What is the BEST solution?",
+   "o": [
+    "Remove the lobby pull stations so that alarms can only originate on the floors",
+    "Relocate the pull stations inside the offices, away from the normal exit route",
+    "Add more pull stations on every floor along the normal exit route",
+    "Keep the pull stations and add automatic detection throughout the building"
+   ],
+   "e": "A pull station lets people raise the alarm while escaping, but it does not accurately locate the emergency; the book says not to remove or relocate pull stations but to supplement them with automatic detection distributed throughout the building. Adding more pull stations keeps the same location problem."
+  },
+  "physical-B-q2": {
+   "q": "Automatic detection is needed in a small, confined room where high-heat, fast-growing fires are expected, environmental conditions rule out other detectors, and very early warning is not required. Which device is MOST appropriate?",
+   "o": [
+    "Heat detector",
+    "Smoke detector",
+    "Water-flow alarm",
+    "Manual pull station"
+   ],
+   "e": "A heat detector senses a set temperature or a rapid rise in temperature; the book describes it as very reliable, with the lowest false alarm rate of all automatic detectors, and these are exactly its best applications. A smoke detector is chosen for earlier warning, which is not required here and which the environmental conditions would prevent."
+  },
+  "physical-B-q3": {
+   "q": "The local authority prohibits the fire alarm system from monitoring or controlling security devices. Even so, the electric locks that restrict egress must release in a fire. What is the typical solution?",
+   "o": [
+    "Have the fire alarm send a direct signal to the security system so it releases the locks",
+    "Have the fire alarm control an approved relay connected to the lock's approved power supply",
+    "Have the control center operator release the locks manually on receiving the fire alarm",
+    "Integrate both systems into one addressable panel so they share field devices"
+   ],
+   "e": "Because some codes prohibit the fire alarm from performing functions unrelated to fire life safety, the typical solution is that it sends no direct signal to the security system but controls an approved relay connected to an approved lock power supply. Integrating both into a shared panel is exactly what those codes prevent."
+  },
+  "physical-B-q4": {
+   "q": "According to the book, which factors predominate in smoke movement in tall buildings, as opposed to low-rise buildings?",
+   "o": [
+    "Fire heat, convective movement, and fire pressures",
+    "Stairwell pressurization, fire dampers, and fresh air intakes",
+    "Stack effect, external wind, and forced air movement",
+    "Combustible material, automatic sprinklers, and floor compartmentation"
+   ],
+   "e": "In tall buildings the predominant factors are stack effect (natural vertical air movement caused by temperature and density differences between inside and outside air), external wind, and forced air movement from air-handling equipment. Fire heat, convective movement, and fire pressures are what move smoke in low-rise buildings."
+  },
+  "physical-B-q5": {
+   "q": "In a high-rise, the stairwell doors are locked against reentry and unlock when the fire alarm activates. Security fears that an intruder could pull a manual station as a diversion to enter any floor. Which approach is MOST appropriate?",
+   "o": [
+    "Keep the emergency unlocking and add intrusion alarms and alarm-activated video",
+    "Program the doors to stay locked until security confirms the fire is real",
+    "Remove the pull stations from floors with sensitive assets to prevent false activations",
+    "Rely on the reentry-locked doors, because a fire alarm is rarely a diversion"
+   ],
+   "e": "The system must unlock the doors in an emergency: life safety takes priority unless it is clearly known to be a hoax. The lesson is not to rely solely on stairwell doors with automatic unlocking and to add protection, such as intrusion alarms and video surveillance with alarm-activated camera call-up and recording."
+  },
+  "physical-B-q6": {
+   "q": "In an office building, a major tenant occupies most of the floors. The elevator banks serving it require credential verification, while the banks serving multiple tenants have free access. In which operating mode is the building running?",
+   "o": [
+    "Open",
+    "Closed",
+    "After-hours",
+    "Hybrid"
+   ],
+   "e": "In the hybrid mode, a major tenant occupies a large part of the building: one or more banks operate closed and the multitenant banks operate open. Although the book introduces the concept as open or closed, it describes three modes; after-hours is a time-based mode, not an access configuration."
+  },
+  "physical-B-q7": {
+   "q": "An existing high-rise in a dense urban area wants to reduce its vehicle bomb risk. Strengthening the structure would be prohibitively expensive. Which measures are MOST appropriate according to the book?",
+   "o": [
+    "Redesign the structure to resist a defined explosive load without progressive failure",
+    "Gain distance with planters, bollards, and parking limits, plus window security film",
+    "Maximize setback through a new design of the site and the building's windows",
+    "Rely only on screening occupants and visitors, since a car bomb cannot be controlled"
+   ],
+   "e": "For existing buildings, the book proposes gaining distance with heavy planters, bollards, other barriers, and parking restrictions, plus security film on windows against flying glass. Designing for an explosive load without progressive failure and maximizing setback are measures for new buildings; in an existing one, structural solutions may be prohibitively costly."
+  },
+  "physical-B-q8": {
+   "q": "Which statement about delayed-egress locking devices on the ground-floor stairwell exit door is correct according to the book?",
+   "o": [
+    "They delay exit 15 to 30 s even during a fire, so security can intercept the offender",
+    "They delay exit 3 to 4 minutes, the critical time for security to reach the door",
+    "Some authorities allow 15 to 30 s outside emergencies, releasing on power failure or alarm",
+    "They stay locked if the lock loses power, to keep the door secure (fail secure)"
+   ],
+   "e": "Some authorities allow a 15-to-30-second delay outside an emergency, useful together with an alarm that alerts security, an intercom, and a recording camera; the lock must release automatically if its power fails or the fire life safety system activates. So it never delays exit during a fire or stays locked on power failure; 3 to 4 minutes is the critical period at the start of a fire."
+  },
+  "physical-B-q9": {
+   "q": "An intrusion alarm sounds on the 18th-floor door of a stairwell whose doors are locked against reentry. How should security respond?",
+   "o": [
+    "Send one officer to the 18th floor by elevator and review video of the other doors later",
+    "Send one officer to that stairwell's ground-floor door and another into the shaft above the 18th floor",
+    "Remotely unlock all the stairwell doors so the intruder exits onto some floor",
+    "Send two officers together into the shaft through the ground-floor door and have them climb to the 18th floor"
+   ],
+   "e": "With doors locked against reentry, the book says one officer goes to that stairwell's ground-floor door and another enters the shaft above the alarm point, so the intruder is intercepted inside. To know exactly which door was breached, every intrusion alarm must be zoned."
+  },
+  "physical-B-q10": {
+   "q": "After Phase I operation, in which the cars return to a designated level, the elevators are placed in Phase II for emergency service with a special key. Who should use that key?",
+   "o": [
+    "Building engineering staff",
+    "Firefighters only",
+    "The security supervisor on duty",
+    "The building fire safety director"
+   ],
+   "e": "In Phase II the elevators remain for fire department service with a special key, which is for firefighters only, not for engineering or security; its use is strictly controlled. Phase I is the automatic recall of the cars when a smoke detector in the elevator lobby, shaft, or machine room activates."
+  },
+  "physical-B-q11": {
+   "q": "To save costs, management proposes placing the security operations center at the main lobby desk, where the operator would also attend to visitors. What is the BEST response?",
+   "o": [
+    "Accept it, because adding fixed posts to the operator saves money at no cost to security",
+    "Accept it if the lobby has video surveillance, because the cameras would then protect the center itself",
+    "Reject it: the center must be used on a dedicated basis and be the most secure place in the building",
+    "Accept it only during regular hours and move the center to the basement after hours"
+   ],
+   "e": "The center must be used on a dedicated basis and, with a well-designed system, be the most secure place in the building. Placing it in the lobby and adding fixed posts can cause inattention to events of much greater loss and exposes system control to compromise or attack."
+  },
+  "physical-B-q12": {
+   "q": "According to the book, what are the three functions of physical barriers in a high-rise?",
+   "o": [
+    "Deter, detect, and delay the intruder",
+    "Detect the intruder, assess the alarm, and respond",
+    "Define an area, light the perimeter, and watch entrances",
+    "Delay the intruder, define an area, and direct behavior"
+   ],
+   "e": "Physical barriers serve to delay the intruder, define an area, and direct behavior, and they discourage penetration by accident, force, and stealth. Deter, detect, and delay belong to the deter, detect, delay, respond sequence used to plan life safety, not to the functions of a barrier."
+  },
+  "physical-C-q0": {
+   "q": "No law requires a shopping center to use a certain lock standard, but its insurer only offers affordable casualty insurance if it uses materials approved under that standard. How does the book classify this situation?",
+   "o": [
+    "A voluntary standard, because no law imposes it",
+    "A statutory or regulatory standard, because the insurer enforces it",
+    "A mixed standard: voluntary in theory but mandatory in practice",
+    "A management system standard, because it sets performance requirements"
+   ],
+   "e": "A mixed standard remains voluntary in theory but is mandatory in practice, as when insurers set the availability and cost of casualty insurance according to approved materials, or when a contract requires it. A statutory or regulatory standard is mandatory by law and enforced by formal authorities, not by an insurer."
+  },
+  "physical-C-q1": {
+   "q": "What are the four principles under which accredited standards developing organizations (SDOs) develop standards?",
+   "o": [
+    "Consensus, confidentiality, due process, and resilience",
+    "Openness, interoperability, continuous improvement, and transparency",
+    "Consensus, competitiveness, consistency, and openness",
+    "Consensus, openness, due process, and transparency"
+   ],
+   "e": "The four standards development principles are consensus, openness, due process, and transparency. Terms such as interoperability, consistency, or continuous improvement appear in the appendix as benefits of standards or features of management systems, not as development principles."
+  },
+  "physical-C-q2": {
+   "q": "A security team carried out an action plan against tailgating and confirmed that the results match the plan: the problem is solved. Under the Plan-Do-Check-Act (PDCA) cycle, what should it do now?",
+   "o": [
+    "Standardize the solution across the organization, review the problem list, and define the next problems",
+    "Prioritize the next steps and develop a detailed action plan to implement",
+    "Examine whether the solutions produce results consistent with the plan and identify deviations",
+    "Identify and analyze the organization's problems and assets and rank them by importance"
+   ],
+   "e": "The Check phase is already done, so the Act phase follows: if the solutions solve the problems, they are standardized across the organization, the problem list is reviewed, new problems are defined, and the cycle restarts. Examining results against the plan is the Check phase, which the team has already completed."
+  },
+  "physical-C-q3": {
+   "q": "According to the appendix, what characterizes management system standards such as ISO 9001 and ISO 14001?",
+   "o": [
+    "They are mandatory by law and enforced by formal authorities",
+    "They provide a continuous improvement framework whose operating principle is PDCA",
+    "They document performance requirements for locks, alarms, and access control",
+    "They are developed only by ASIS International for security management"
+   ],
+   "e": "Management system standards analyze the requirements of the organization and its stakeholders, define processes that lead to success, and provide the framework for continuous improvement; their operating principle is the PDCA cycle. The most prominent, ISO 9001 (quality) and ISO 14001 (environmental), are ISO standards and voluntary, not mandatory by law."
+  },
+  "physical-C-q4": {
+   "q": "A security manager wants to verify that the locks, alarms, and access control systems to be purchased meet recognized standards. Which organization does the appendix cite for its standards on this type of equipment?",
+   "o": [
+    "Illuminating Engineering Society (IES)",
+    "Electronic Industries Association (EIA)",
+    "National Fire Protection Association (NFPA)",
+    "Underwriters Laboratories (UL)"
+   ],
+   "e": "The appendix cites UL for several standards on security equipment: locks, alarms, and access control systems. IES covers lighting, EIA covers electronic components and products, and NFPA is mentioned because some of its standards are incorporated into regulations such as building codes."
+  }
+ }
 }

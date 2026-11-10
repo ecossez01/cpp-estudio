@@ -796,5 +796,1766 @@
   "security-12": "Security risks are global, and the COVID-19 pandemic made them worse. The chapter addresses four trends: civil unrest, terrorism, workplace violence, and cybersecurity. For each, it provides definitions, data, and the role of the security professional.",
   "security-A": "A standard brings together criteria and best practices to improve quality and reliability. Standards can be voluntary, mandatory by law, or mixed. Management system standards operate on the Plan-Do-Check-Act cycle."
  },
- "quiz": {}
+ "quiz": {
+  "security-1-q0": {
+   "q": "Which BEST describes Enterprise Security Risk Management (ESRM)?",
+   "o": [
+    "A management process that links security practice to overall strategy using accepted risk principles",
+    "A security program that consolidates the travel, physical, and contractor subprograms into a single program",
+    "The convergence of physical and information security under a single security leader",
+    "A mandatory subcomponent of enterprise risk management that covers financial and operational risks"
+   ],
+   "e": "ESRM is a strategic approach and a management process or system that links the organization's security practice to its overall strategy using accepted risk management principles; it is not a program but replaces the program methodology. Confusing it with convergence is one of the two misconceptions the book points out."
+  },
+  "security-1-q1": {
+   "q": "When it decided in 2017 to integrate ESRM as the foundation of security management, the ASIS Board set two outcomes. What are they?",
+   "o": [
+    "Integrate the professional into business leadership and shift from managing programs to managing risks",
+    "Unify physical security and cybersecurity under one leader and certify every security professional in ESRM",
+    "Replace enterprise risk management and give the security professional the final decision on every risk",
+    "Create the ESRM Community and publish a mandatory standard for all member organizations"
+   ],
+   "e": "The two outcomes were to help the security professional become an integral part of business leadership and to shift security practice from managing programs to managing risks. Giving the professional the final decision contradicts ESRM, in which the asset owner decides."
+  },
+  "security-1-q2": {
+   "q": "A company's CEO says they cannot adopt ESRM because physical security reports to one director and information security to another. What is the security professional's BEST response?",
+   "o": [
+    "ESRM manages risk regardless of structure; the key is that everyone managing security risk uses it",
+    "He is right; ESRM requires convergence, so both functions must first be unified under a single leader",
+    "ESRM applies only to physical security, so information security can remain separate",
+    "They must wait until an enterprise risk management (ERM) function exists to coordinate both"
+   ],
+   "e": "Believing that ESRM is convergence is a misconception: ESRM works with any organizational structure and can be effective with separate leaders for physical and information security. The key to success is that everyone who manages security risk adopts and uses ESRM; converging may help, but it is not a requirement."
+  },
+  "security-1-q3": {
+   "q": "Which statement BEST describes the relationship between ESRM and Enterprise Risk Management (ERM)?",
+   "o": [
+    "ESRM is limited to security risks and works on its own, whether or not ERM exists",
+    "ESRM and ERM are the same; both cover financial, operational, and strategic risks",
+    "ESRM can only be implemented in organizations that already have an operating ERM function",
+    "All security risks must be formally tracked within ERM"
+   ],
+   "e": "ERM covers all key risks (financial, operational, and strategic), while ESRM is limited to security risks; it can be a subcomponent of ERM, but it is an independent system whether or not ERM exists. Only high-impact security risks are formally tracked in ERM; not all of them reach that level."
+  },
+  "security-1-q4": {
+   "q": "The vice president of operations asks the security manager to decide himself whether to accept the intrusion risk at the data center she runs. Under ESRM, what should the manager do?",
+   "o": [
+    "Give her information and guidance so that she, as the asset owner, makes the risk decision",
+    "Make the decision himself, because the security department is the owner of security in the company",
+    "Refer the decision to top management, because only they can accept security risks",
+    "Create a security subprogram for the data center and assign that risk to it"
+   ],
+   "e": "In ESRM the asset owner is the risk owner and is ultimately accountable; the professional acts as a trusted advisor and guides the decision. Having security decide because it owns security is the traditional program-based model that ESRM replaces."
+  },
+  "security-1-q5": {
+   "q": "According to the book, what are the three components for adopting ESRM?",
+   "o": [
+    "Context, cycle, and foundation",
+    "Context, cycle, and governance",
+    "Assets, risks, and mitigation",
+    "Mission, values, and stakeholders"
+   ],
+   "e": "The three components are the ESRM context (understanding the organization), the ESRM cycle (the actual security risk management process), and the foundation (the concepts that support it). Governance is one of the four foundation concepts, not a separate component."
+  },
+  "security-1-q6": {
+   "q": "A new security director joins a hospital with the mandate to implement ESRM. What should she do FIRST?",
+   "o": [
+    "Gain a thorough understanding of the organization, starting with its mission and vision",
+    "Conduct a threat assessment of all hospital facilities",
+    "Prepare a security risk management plan for each clinical department",
+    "Draft the security policies and standards that will govern the new ESRM approach in the hospital"
+   ],
+   "e": "Understanding the organization is the initial step of ESRM, and strengthening knowledge of its mission and vision is often the first step of a new adoption. A threat assessment is tempting, but the book stresses that understanding the organization is at least as important as understanding the threats."
+  },
+  "security-1-q7": {
+   "q": "While analyzing a plant's operating environment, the security professional reviews its industrial control systems. In which type of operating environment does the book place them?",
+   "o": [
+    "Physical",
+    "Logical",
+    "Nonphysical",
+    "Technological"
+   ],
+   "e": "The book lists industrial control systems among the elements of the physical environment, along with the criticality of processes and assets and the products stored on site. The logical environment, the most tempting distractor, covers servers, workstations, network infrastructure, connectivity, and other endpoints."
+  },
+  "security-1-q8": {
+   "q": "To learn about the major risks the organization discusses, its direction, its key decisions, and the activity of board committees, which internal source is MOST useful to the security professional?",
+   "o": [
+    "Board minutes",
+    "Organizational charts",
+    "Press releases",
+    "Budgets"
+   ],
+   "e": "According to the book, board minutes reveal major risks to assess from a security perspective, the organization's direction, key decisions, and board committee activity. Press releases report leadership changes, mergers, and short-term plans, but not board deliberations."
+  },
+  "security-1-q9": {
+   "q": "A security manager wants to partner with a business unit director he has never worked with. According to the book, besides asking directly for a brief meeting, what other route does it recommend?",
+   "o": [
+    "Go through a champion: another asset owner at the same level with whom he has already worked",
+    "Ask top management to order the director to cooperate with security on risk management",
+    "Present a complete mitigation plan at the first meeting so the director can see the value of security",
+    "Wait for an incident in that unit to demonstrate the need for a partnership"
+   ],
+   "e": "The book suggests asking directly for a brief meeting or going through a champion, an asset owner at the same level with whom the professional has already worked, who opens doors and advocates for ESRM. Initial meetings should be short and serve to get to know the owner and what matters to them, not to present a full plan."
+  },
+  "security-1-q10": {
+   "q": "In the ESRM Cycle, what serves as the basis for the rest of the cycle?",
+   "o": [
+    "The prioritized list of assets, based on their criticality to mission and strategy",
+    "The prioritized list of threats, ranked by their likelihood and their potential impact",
+    "The security risk management plan approved by top management",
+    "Lessons learned and feedback loops from previous incidents"
+   ],
+   "e": "The first process of the cycle is identifying and prioritizing assets according to their criticality to mission and strategy, and that prioritized list is the basis for the rest of the cycle. Lessons learned and feedback loops belong to continuous improvement, the fourth process."
+  },
+  "security-1-q11": {
+   "q": "In the mitigation phase of the ESRM cycle, a security manager recommends installing access control in a laboratory. How are the roles divided according to the book?",
+   "o": [
+    "The asset owner approves the control; the professional documents the decisions and executes the plan",
+    "The professional approves the control; the asset owner documents the decisions and executes the plan",
+    "Top management approves the control; the asset owner executes the plan with their own staff",
+    "The security governance committee approves the control; the professional only documents it"
+   ],
+   "e": "Risks are mitigated with controls that the professional recommends and the owner approves; the professional documents assets, risks, and decisions, perhaps in a security risk management plan, and executes it. Reversing the roles is the mistake highlighted in the exam note."
+  },
+  "security-1-q12": {
+   "q": "According to the book, which BEST describes top management in ESRM?",
+   "o": [
+    "The highest level of executive leadership, always above the security leader and not including them",
+    "The highest level of executive leadership, which always includes the chief security officer (CSO)",
+    "The most senior asset owners, ultimately accountable for each security risk",
+    "The security governance body that sets ESRM policy, allocates its resources, and ensures compliance"
+   ],
+   "e": "Top management is the highest level of executive leadership, often the C-suite or an executive committee, and it is always above the security leader (for example, the CSO or security director) without including them. The option that includes the CSO is the most tempting error."
+  },
+  "security-1-q13": {
+   "q": "Holistic risk management is one of the foundation concepts of ESRM. What are its two senses?",
+   "o": [
+    "All stakeholders take part, and it covers all types of security risk without silos",
+    "It covers all organizational risks, including financial ones, and top management decides",
+    "It places physical and cyber security under one leader with a single shared budget",
+    "It presents risks as they are, and it makes every step of the management process transparent"
+   ],
+   "e": "Holistic has two senses in ESRM: all stakeholders take part, especially asset owners and top management, and it covers all types of security risk (physical, cyber, information, personnel) without labels or silos. Presenting risks as they are and opening up the process describes transparency, another foundation concept."
+  },
+  "security-1-q14": {
+   "q": "In meetings with asset owners, a security manager tells them which controls they must implement and decides for them which risks are acceptable. Which ESRM foundation concept is he PRIMARILY violating?",
+   "o": [
+    "Partnership with stakeholders",
+    "Risk transparency",
+    "Organizational governance",
+    "Holistic risk management"
+   ],
+   "e": "In partnership with stakeholders, the professional provides guidance rather than instructions and supports decisions about assets rather than making them. Risk transparency is about presenting risks without exaggerating or minimizing them, which is not the issue in this case."
+  },
+  "security-1-q15": {
+   "q": "To avoid alarming a business unit's leadership, a security analyst presents an internal fraud risk as minor, even though his metrics indicate otherwise. Which ESRM principle is he violating?",
+   "o": [
+    "Risk transparency",
+    "Process transparency",
+    "ESRM governance",
+    "Continuous improvement"
+   ],
+   "e": "Risk transparency requires presenting risks as they are, neither exaggerated nor minimized, using objective statements and quantifiable metrics, so the owner can make an informed decision. Process transparency is about stakeholders understanding each step of risk management, not about how large a risk is made to appear."
+  },
+  "security-1-q16": {
+   "q": "A company creates a security council to exercise ESRM governance. According to the book, who should its members primarily be?",
+   "o": [
+    "Risk stakeholders, not security professionals",
+    "Security professionals from each discipline, physical and cyber",
+    "Members of the board of directors and external auditors",
+    "The chief security officer and the managers who report to him"
+   ],
+   "e": "ESRM governance is exercised by a security governance body (a committee, council, or other group) whose members should be primarily risk stakeholders, not security professionals. A body made up of security specialists is the most tempting error, but the book expressly rules it out."
+  },
+  "security-1-q17": {
+   "q": "A security document recommends how to meet policy expectations and uses verbs such as should and may. According to the documentation framework, what type of document is it?",
+   "o": [
+    "A guideline",
+    "A standard",
+    "A policy",
+    "A procedure"
+   ],
+   "e": "Guidelines are tactical documents, less rigid than standards, that recommend how to meet expectations using should or may. Standards are also tactical, but they state in mandatory terms how to comply with policy, using shall or must."
+  },
+  "security-2-q0": {
+   "q": "According to the list of assets proposed in the book, which of these is classified as a tangible asset?",
+   "o": [
+    "Customer data",
+    "Intellectual property",
+    "Proprietary processes",
+    "Goodwill and trust"
+   ],
+   "e": "The book lists customer data among tangible assets, along with current contracts and people. Intellectual property, proprietary processes, and goodwill appear as intangibles because they have no physical form."
+  },
+  "security-2-q1": {
+   "q": "In the traditional view of assets protection, what are the three types of assets?",
+   "o": [
+    "People, property, and information",
+    "People, process, and technology",
+    "People, property, and reputation",
+    "Facilities, information, and creditworthiness"
+   ],
+   "e": "The traditional view recognizes people, property, and information; the expanded view adds intangibles such as reputation, relationships, and creditworthiness. People, process, and technology are not asset types but what current countermeasures must include."
+  },
+  "security-2-q2": {
+   "q": "A company's assets protection manager proposes solving warehouse theft solely with a new video surveillance system. According to the chapter, what must current countermeasures include?",
+   "o": [
+    "People, process, and technology",
+    "Eliminating, reducing, transferring, and accepting risk",
+    "Physical security, information security, and insurance",
+    "Technology, budget, and legal compliance"
+   ],
+   "e": "The chapter states that current countermeasures must include people, process, and technology; a camera alone is only technology. Eliminate, reduce, transfer, and accept are the four ways to manage risk, not the components of a countermeasure."
+  },
+  "security-2-q3": {
+   "q": "After 9/11, a company cut its information security and loss prevention budget to pay for bollards, blast-resistant materials, and stand-off zones. Which effect of 9/11 does the book describe with this pattern?",
+   "o": [
+    "The negative effect: solutions focused on terrorism, not on the broad range of realistic risks",
+    "A long-term beneficial change: greater use of advanced technologies in protective measures",
+    "A positive immediate effect: larger security budgets and fewer obstacles to security policies",
+    "A paradigm shift: the convergence of physical security and information security"
+   ],
+   "e": "The book identifies as a negative effect of 9/11 that solutions focused on terrorist attacks and diverted resources from information security, information assets protection, and loss prevention toward antiterrorism measures. Larger budgets and fewer obstacles were indeed immediate effects, but they do not describe that diversion of resources."
+  },
+  "security-2-q4": {
+   "q": "According to the book, who owns or operates most of the nondefense critical infrastructure in the United States?",
+   "o": [
+    "Private companies",
+    "The federal government",
+    "State and local governments",
+    "Public-private partnerships"
+   ],
+   "e": "The book states that most nondefense critical infrastructure in the United States is owned or operated by private companies. Public-private partnerships appear in the chapter as one of the paradigm shifts, not as infrastructure owners."
+  },
+  "security-2-q5": {
+   "q": "How does the ASIS ESRM Guideline (2019) cited in the chapter define risk?",
+   "o": [
+    "The effect of uncertainty on the achievement of strategic, tactical, and operational objectives",
+    "The likelihood that a threat will exploit a vulnerability and cause a loss to an organizational asset",
+    "The cost of protective measures compared with the potential losses they help the organization avoid",
+    "The combination of natural and man-made threats that affect the assets of the organization"
+   ],
+   "e": "The ESRM Guideline (2019) defines risk as the effect of uncertainty on the achievement of strategic, tactical, and operational objectives. Comparing the cost of measures with potential losses is not the definition of risk but the basis of the assets protection objective: balancing costs and benefits."
+  },
+  "security-2-q6": {
+   "q": "A new assets protection manager plans to create a separate security program for each threat and to decide the measures himself. According to the chapter, which change, the most important in the profession, is he overlooking?",
+   "o": [
+    "That it is now managed with ESRM principles, as a risk process rather than through programs",
+    "That convergence requires placing physical and information security under a single leader",
+    "That antiterrorism has become the top priority of every protection strategy",
+    "That public-private partnerships now replace internal security programs"
+   ],
+   "e": "The book identifies as the most important change that assets protection is now managed with Enterprise Security Risk Management (ESRM) principles, as a risk process or methodology rather than through programs; in addition, the asset owner decides, not the professional. Convergence and antiterrorism are on the list of paradigm shifts, but they are not the main one."
+  },
+  "security-2-q7": {
+   "q": "A convenience store spreads its cash among several registers and moves the excess into a time lock safe. Which way of managing risk is it applying?",
+   "o": [
+    "Reduce",
+    "Eliminate",
+    "Transfer",
+    "Accept"
+   ],
+   "e": "Spreading the cash and using a time lock safe mitigates the effects of a robbery and the resulting loss: that is reducing, the approach most associated with security. Eliminating would require removing the risk entirely, as when a store stops selling a frequently stolen product."
+  },
+  "security-2-q8": {
+   "q": "A retailer calculates that controls to eliminate a small amount of product theft would cost more than the losses they would prevent, and that insuring it is not worthwhile either. It decides to absorb that loss as a normal part of operations. Is the decision correct according to the book?",
+   "o": [
+    "Yes; accepting fits when reducing, eliminating, or transferring costs more than the potential loss",
+    "No; the risk must always be reduced, because reducing is the action most associated with security",
+    "No; when a risk cannot be eliminated, the only valid option is to transfer it through insurance",
+    "Yes; accepting is appropriate whenever the asset owner does not want to invest in security"
+   ],
+   "e": "Accepting risk is appropriate when reducing, eliminating, or transferring it costs more than the potential losses, in line with the goal of balancing the costs and benefits of protective measures. Accepting because the owner does not want to invest is tempting, but the book's criterion is cost versus loss."
+  },
+  "security-2-q9": {
+   "q": "According to this book, what is the correct order of the Four Ds?",
+   "o": [
+    "Deter, deny, detect, delay",
+    "Deter, detect, deny, delay",
+    "Deter, detect, delay, deny",
+    "Deny, deter, detect, delay"
+   ],
+   "e": "The book gives the order deter, deny, detect, delay: deter the attack, deny access to the asset, detect it if the first two fail, and delay the perpetrator during an attack in progress through target hardening. For the exam, memorize this order exactly as the book gives it."
+  },
+  "security-3-q0": {
+   "q": "What BEST distinguishes how theft and fraud become evident?",
+   "o": [
+    "Theft is evident because something disappears; fraud leaves only symptoms or indicators",
+    "Fraud is evident because something disappears; theft leaves only symptoms or indicators",
+    "Both become evident mainly through shortages found in the physical inventory count",
+    "Theft is usually detected by audits, while fraud is almost always detected by police"
+   ],
+   "e": "The book explains that theft becomes evident because something disappears, whereas fraud and embezzlement leave only symptoms or indicators (red flags). That is why knowing the red flags is key to preventing fraud."
+  },
+  "security-3-q1": {
+   "q": "To justify a prevention program, a manager estimates annual losses of $500,000 without a security program and $200,000 with one. Using the book's method, what are the avoided losses?",
+   "o": [
+    "$300,000",
+    "$700,000",
+    "$200,000",
+    "$500,000"
+   ],
+   "e": "Avoided losses = estimated losses without the program minus estimated losses with the program: 500,000 - 200,000 = 300,000. The book uses this calculation to show that comprehensive initiatives are needed; $200,000 is the loss still expected with the program."
+  },
+  "security-3-q2": {
+   "q": "According to the 2018 study by the ACFE (Association of Certified Fraud Examiners), what is the most common method of detecting occupational fraud?",
+   "o": [
+    "Tips",
+    "Internal audit",
+    "Management review",
+    "Surprise audits"
+   ],
+   "e": "Tips detected 40% of cases, followed by internal audit (15%) and management review (13%). With a hotline, detection by tip rises to 46%, compared with 30% without one."
+  },
+  "security-3-q3": {
+   "q": "With a limited budget, a company wants to implement the controls that, according to the ACFE (2018), most reduce fraud losses and duration. Which should it prioritize?",
+   "o": [
+    "Data monitoring and surprise audits",
+    "Hotlines and background checks",
+    "External audits and management review",
+    "Antifraud training and a code of conduct"
+   ],
+   "e": "The ACFE found that data monitoring and surprise audits are the controls that most reduce losses and duration, yet only 37% of organizations had them. A hotline increases detection by tips, but it is not the control the study highlights for reducing loss and duration."
+  },
+  "security-3-q4": {
+   "q": "According to the ACFE (2018), which category of occupational fraud is both the most common and the least costly?",
+   "o": [
+    "Asset misappropriation",
+    "Corruption",
+    "Financial statement fraud",
+    "Theft of time"
+   ],
+   "e": "Asset misappropriation (cash, inventory, and other assets) is the most common and least costly type, with a median loss of $114,000. Corruption and financial statement fraud are the other two ACFE categories; theft of time is not one of them but the current reading of production deviance."
+  },
+  "security-3-q5": {
+   "q": "In a warehouse, thefts are concentrated on one shift where the crew considers taking product normal and the supervisor jokes about it. Which Clark and Hollinger hypothesis BEST explains the case?",
+   "o": [
+    "Social control",
+    "Job dissatisfaction",
+    "Opportunity",
+    "External economic pressures"
+   ],
+   "e": "The social control hypothesis holds that the organization's formal and informal social structure, especially work group norms and the supervisor-employee relationship, strongly influences whether theft occurs. Opportunity is tempting, but the case emphasizes group norms and the supervisor's attitude."
+  },
+  "security-3-q6": {
+   "q": "An employee stretches his lunch breaks, uses sick days when he is not sick, and sometimes punches a coworker's time card. How does the chapter classify this behavior?",
+   "o": [
+    "Production deviance; today it is considered theft of time",
+    "Job dissatisfaction; it is not considered to be theft",
+    "Asset misappropriation, according to the ACFE categories",
+    "Differential association; it is learned behavior, not theft"
+   ],
+   "e": "Clark and Hollinger called behaviors such as extended breaks, sick day abuse, and punching another employee's time card production deviance, which they found hard to separate from theft; under current criteria, they are theft of time. Job dissatisfaction is one of their hypotheses about the cause of theft, not a classification of the behavior."
+  },
+  "security-3-q7": {
+   "q": "A trusted accountant hides gambling debts he does not dare tell anyone about. He believes he can solve them by temporarily diverting funds and tells himself he is only borrowing. Which theory BEST explains his behavior?",
+   "o": [
+    "Cressey's nonshareable need theory",
+    "Sutherland's differential association theory",
+    "The deterrence doctrine",
+    "Clark and Hollinger's social control hypothesis"
+   ],
+   "e": "Cressey explains the violation of a position of financial trust with three elements: a nonshareable financial problem, the opportunity to violate the trust, and rationalizations that justify the behavior. Sutherland, by contrast, attributes crime to association with a criminal environment, which the case does not mention."
+  },
+  "security-3-q8": {
+   "q": "According to Wells (1997), every fraud involves strong financial pressure, an opportunity, and a means of justifying it. What does he identify as the predominant factor?",
+   "o": [
+    "Greed",
+    "Gambling debts",
+    "Drug use",
+    "Unexpected medical expenses"
+   ],
+   "e": "Wells lists gambling debts, drugs, living beyond one's means, medical bills, and the desire to be or appear successful as sources of pressure, but the predominant factor is greed. Appendix 3A says gambling is the most common motive, but for the exam the book says to prioritize Wells's greed."
+  },
+  "security-3-q9": {
+   "q": "An investigator has already shown that an employee concealed a material fact, knowing it was false and intending the company to rely on it. What else must the factfinder establish to prove fraud?",
+   "o": [
+    "That the victim relied on the misrepresentation and suffered damage as a result",
+    "That the employee was under a nonshareable financial pressure at the time",
+    "That the employee obtained a personal benefit and has already spent it",
+    "That the employee had a prior record of fraud or related trust violations"
+   ],
+   "e": "The five points are: misrepresenting or concealing a material fact, knowing it was false, intending the victim to rely on it, the victim's reliance, and damage resulting from that reliance. Nonshareable pressure is an element of Cressey's theory of motivation, not of proving fraud."
+  },
+  "security-3-q10": {
+   "q": "An auditor observes that a company's costs are growing faster than its revenues, it has major cash flow problems, and it sets unrealistic sales quotas. Which category of red flags do these fit?",
+   "o": [
+    "Organization situational red flags",
+    "Organization opportunity red flags",
+    "Employee situational red flags",
+    "Employee opportunity red flags"
+   ],
+   "e": "Profit squeeze, cash flow problems, and unrealistic sales quotas are among the organization situational red flags. Organization opportunity red flags concern controls and management styles, such as lax enforcement of internal controls or lack of separation of duties."
+  },
+  "security-3-q11": {
+   "q": "Which of these red flags does the book classify as an employee opportunity red flag?",
+   "o": [
+    "Lax or remote supervision",
+    "Living beyond one's means",
+    "Lack of separation between ordering and receiving",
+    "Very old or excessive inventories"
+   ],
+   "e": "Lax or remote supervision is one of the five employee opportunity red flags, along with a position of trust or a close, long-standing relationship with vendors. Living beyond one's means is an employee situational red flag, and lack of separation between ordering and receiving is an organization opportunity red flag."
+  },
+  "security-3-q12": {
+   "q": "A company discovers that a systems administrator has stolen information and money. According to McCormack's (2018) response strategy, what should it do FIRST?",
+   "o": [
+    "Form a quick reaction team to handle immediate issues, such as revoking his credentials",
+    "Perform a root cause analysis that classifies each failure as technology, process, or people",
+    "Convene a cross-divisional team to establish the facts of the case",
+    "Prepare and document a remediation plan so the theft does not happen again"
+   ],
+   "e": "The first step is to form a quick reaction team with security, IT, legal, human resources, and corporate communications, which handles immediate issues such as revoking access credentials. The cross-divisional team to establish the facts is the second step, and root cause analysis is the fourth."
+  },
+  "security-3-q13": {
+   "q": "Security receives a report of possible theft in the purchasing department and opens a preliminary investigation. What is its PRIMARY objective?",
+   "o": [
+    "Determine what crime or violation exists",
+    "Obtain a confession from the main suspect",
+    "Recover the stolen money or property",
+    "Gather enough evidence to hand to the police"
+   ],
+   "e": "According to the book, the primary objective of any preliminary investigation is to determine what crime or violation exists; then interviews are conducted, evidence is sought, and a factual report is prepared for senior management or in-house counsel. Investigations are normally conducted by internal staff or private contractors, not the police."
+  },
+  "security-3-q14": {
+   "q": "Security wants to publish in the internal newsletter the name of an employee fired for theft who was not prosecuted, to deter others. What should it do BEFORE publishing?",
+   "o": [
+    "Consult an attorney, because naming him could be defamation and lead to civil suits",
+    "Obtain written approval from his former supervisor and from human resources",
+    "Wait until he has paid full restitution plus the costs of the investigation",
+    "Nothing; publishing cases with names is the most effective form of deterrence"
+   ],
+   "e": "Under the publication element, naming individuals or detailing incidents that were not prosecuted may be defamation and lead to civil suits, so an attorney must be consulted first. Newsletters do help show the value of security, but the book recommends sharing real cases without names."
+  },
+  "security-3-q15": {
+   "q": "A company wants to verify compliance with expense account controls (element 10, compliance testing). According to the book, which method should it use only as a last resort?",
+   "o": [
+    "Undercover operations",
+    "Internal audits",
+    "External audits",
+    "Security department reviews"
+   ],
+   "e": "Compliance testing is done through internal or external audits or security department reviews and, as a last resort, through undercover operations. Audits are the normal route, not the last resort."
+  },
+  "security-3-q16": {
+   "q": "An employee who stole inventory is fired, and the company is also considering prosecuting him and demanding restitution. According to the chapter, which of the three options is the most difficult but the most beneficial to the victim?",
+   "o": [
+    "Restitution",
+    "Prosecution",
+    "Termination",
+    "Termination combined with prosecution"
+   ],
+   "e": "Of the three shuns (termination, prosecution, and restitution), restitution is the most difficult but the most beneficial to the victim; nothing sends the message as clearly as making the perpetrator pay. If termination is the only punishment, what was stolen becomes the employee's golden parachute."
+  },
+  "security-3-q17": {
+   "q": "A distribution center sets a 2% allowable negative variance between the book count and the physical count, and does not investigate differences below that threshold. What is the GREATEST danger according to the book?",
+   "o": [
+    "That theft or fraud hides in that variance, which grows and allows large cumulative losses",
+    "That the insurer rejects claims because losses exceed the industry's standard variance",
+    "That honest employees become demotivated because they are accused without evidence",
+    "That external auditors detect the threshold and classify the financial statements as fraudulent"
+   ],
+   "e": "The book warns that organizations become complacent and build losses into their standards: theft or fraud hides in the allowable variance, goes undiscovered, and the variance grows until it allows large cumulative losses. In addition, undetected theft cannot be recovered through insurance or deducted from taxes."
+  },
+  "security-4-q0": {
+   "q": "According to the book, which BEST describes the cost-effectiveness of an assets protection program?",
+   "o": [
+    "Producing good results for the money spent",
+    "Always operating with the lowest possible budget",
+    "Eliminating all of the company's probable losses",
+    "Protecting every asset with the best available technology"
+   ],
+   "e": "The book defines it as producing good results for the money spent. It is not the same as spending the minimum: the manager must keep costs as low as is consistent with the required operating results, not simply run the lowest budget."
+  },
+  "security-4-q1": {
+   "q": "A security manager must improve protection at a warehouse with no additional budget. According to the chapter, which type of countermeasure should be considered FIRST because it is the cheapest and the one most often forgotten?",
+   "o": [
+    "Procedural controls",
+    "Additional security officer rounds",
+    "Motion sensors on the lighting",
+    "Interior space alarms in the warehouse"
+   ],
+   "e": "Procedural controls are the cheapest countermeasures and are often forgotten: changing how things are done improves security and the bottom line. Rounds or technology add staffing or equipment costs."
+  },
+  "security-4-q2": {
+   "q": "What is the real test that a major loss prevention program is performing as promised?",
+   "o": [
+    "That actual losses plus protection costs stay within management's risk-assumption boundaries",
+    "That the annual cost of protection stays below 0.4% of the company's annual gross sales",
+    "That the year's actual losses turn out equal to the probable losses estimated when the program was approved",
+    "That cost avoidance exceeds the combined budget for salaries, operational expenses and capital expenditures"
+   ],
+   "e": "The test requires actual losses to be lower than probable losses and the sum of actual losses plus the cost of protection to stay within the risk-assumption boundaries that management accepted when it approved the program. The 0.4% figure is just a data point from the $250 million company example, not a threshold."
+  },
+  "security-4-q3": {
+   "q": "During a night round, an officer closes a door that was improperly open, shuts off a machine that was still running, and reports pressure that is too high on a line. Which element of cost-effectiveness do these findings PRIMARILY represent?",
+   "o": [
+    "Other loss prevention",
+    "Major loss prevention",
+    "Cost avoidance of probable losses",
+    "Risk-assumption boundaries"
+   ],
+   "e": "These are typical round findings that belong to other loss prevention, losses that are almost never quantified even though their cumulative effect in a large facility is significant and must be documented. Major loss prevention refers to the probable losses that the proposed measures would prevent."
+  },
+  "security-4-q4": {
+   "q": "On a round, an officer turns off a light that was improperly left on in an area with no motion sensor. To value that finding, how does the book calculate the cost avoided?",
+   "o": [
+    "Time it would have stayed on without the round x hourly cost of that light",
+    "Hourly cost of the patrolling officer x total length of the officer's shift",
+    "Cost of installing a motion sensor - annual energy cost of the light",
+    "Wattage of that light x total number of lights in the facility"
+   ],
+   "e": "The book uses three questions: how long the light would have stayed on without the round, what that light costs per hour or shift, and the product of the two is the cost avoided. One light is insignificant, but hundreds of lights for thousands of hours a year add up to significant savings."
+  },
+  "security-4-q5": {
+   "q": "A company with $250 million in annual gross sales spends $1 million a year on assets protection. If that money could be invested in financial instruments at 4.5% per year, what is the real cost of the security program according to the book?",
+   "o": [
+    "$1,045,000 per year",
+    "$1,000,000 per year",
+    "$1,450,000 per year",
+    "$955,000 per year"
+   ],
+   "e": "The forgone return ($45,000) is added to the $1 million direct cost, giving $1,045,000; that real cost must be compared with the consequences of having no security program. The $1,000,000 figure ignores the investment alternative that management has in mind."
+  },
+  "security-4-q6": {
+   "q": "A manager is reviewing the $30 padlocks that secure loaded semitrailers in the yard. According to the book, which question is usually HARDER to answer?",
+   "o": [
+    "Whether this $30 padlock is the most suitable one for the job",
+    "Whether a padlock is the right countermeasure for the risk",
+    "Whether padlock spending belongs in capital expenditures",
+    "Whether loaded semitrailers should be left in the yard"
+   ],
+   "e": "The book poses two questions: whether a padlock is the right countermeasure and, if so, whether this $30 padlock is the most suitable one; in general the second is harder to answer. Both stem from asking whether each resource is the most effective one available at that cost."
+  },
+  "security-4-q7": {
+   "q": "In the nuisance fire alarms case, a $10,000-per-year initiative avoided $40,000 in annual losses, and the book states that $4 is saved for every $1. If the book's own return on investment (ROI) formula is applied, what is the result?",
+   "o": [
+    "3, that is, 300%",
+    "4, that is, 400%",
+    "0.25, that is, 25%",
+    "5, that is, 500%"
+   ],
+   "e": "ROI = (current value - cost) / cost = (40,000 - 10,000) / 10,000 = 3, or 300%. The book's '$4 for every $1' is a benefit/cost ratio (40,000 / 10,000), not the result of its ROI formula."
+  },
+  "security-4-q8": {
+   "q": "In the nuisance fire alarm analysis, which of these items was classified as a hard cost?",
+   "o": [
+    "Fines imposed by the fire department",
+    "Wear on the building's mechanical systems",
+    "Employees who learn to ignore the alarms",
+    "Frustration of staff and firefighters"
+   ],
+   "e": "The hard costs were the lost productivity of employees who evacuate or respond to the alarms and the fire department fines, which were easily added up. Wear on mechanical systems, ignoring alarms and frustration were soft costs, which were only estimated."
+  },
+  "security-4-q9": {
+   "q": "In a monitoring center, employee thefts are recorded, offenders are identified and receive harsh sanctions, but human resources takes several months to apply the discipline. According to the chapter, why is the deterrent effect weakened?",
+   "o": [
+    "Because the punishment lacks swiftness",
+    "Because the punishment lacks severity",
+    "Because the punishment lacks certainty",
+    "Because the cameras are not overt"
+   ],
+   "e": "To deter, punishment must be swift, certain and severe; if one is missing, the effect drops. Here the violation is reliably detected and harshly sanctioned, so what fails is swiftness; overt cameras relate to the displacement effect, not to this one."
+  },
+  "security-4-q10": {
+   "q": "A warehouse's incident reports show constant losses of small, high-value items and no significant loss of the rest of the inventory. According to the book's example, what is the MOST cost-effective response?",
+   "o": [
+    "A chain-link cage with a reliable lock and interior space alarms",
+    "Intrusion alarms on every door and window of the building",
+    "Additional officer rounds throughout the warehouse on every shift",
+    "Closed-circuit television (CCTV) covering the whole warehouse"
+   ],
+   "e": "Predictive modeling lets precautions be limited to what is actually being lost: a chain-link cage with a reliable lock and interior space alarms. With those data, intrusion alarms on doors and windows, officer rounds and CCTV could be dispensed with."
+  },
+  "security-4-q11": {
+   "q": "A manager wants to add an operator to the monitoring center and must explain the ROI by answering 'what do they get for their money?'. According to the book, which argument makes approval MOST likely?",
+   "o": [
+    "That recoveries from the cases the operator detects equal or exceed the salary",
+    "That the forecast of detected cases is presented as optimistically as possible",
+    "That the position is compared with staffing at other organizations' centers",
+    "That the position is justified only by its deterrent effect, without figures"
+   ],
+   "e": "The book says to estimate the cases, such as employee theft, the new operator would generate; if what is recovered (money, goods or restitution) equals or exceeds the salary, approval is likely. The forecast must not be exaggerated, because the manager will be held accountable for it in the next budget."
+  },
+  "security-4-q12": {
+   "q": "A security manager uses a 25-indicator dashboard every day and must present results to senior management. According to the ASIS Foundation recommendations, what should the manager do?",
+   "o": [
+    "Prepare an even simpler dashboard and present in 5 minutes or less",
+    "Present all 25 indicators to demonstrate the program's rigor",
+    "Send the full dashboard in writing and skip the oral presentation",
+    "Replace the graphics with detailed tables for every one of the indicators"
+   ],
+   "e": "The 'use graphics and be brief' recommendation says less is more: management cares about few metrics, so the dashboard must be simplified and the presentation kept to 5 minutes or less. Showing every indicator goes against that rule even if it looks more rigorous."
+  },
+  "security-4-q13": {
+   "q": "A manager presents management with metrics based on unreliable data and, when errors are detected, security loses credibility. Which recommendation on presenting metrics was overlooked?",
+   "o": [
+    "Present metrics that meet measurement standards",
+    "Tell a story with the program data",
+    "Use graphics and be brief with senior management",
+    "Present metrics regularly"
+   ],
+   "e": "Figures seem scientific, but if they are based on invalid or unreliable data the conclusions fail and lose credibility; a well-designed metric evaluated with statistical criteria is more persuasive. Telling a story means naming the threatened resources, their value and the consequences, and showing how events evolve over time."
+  },
+  "security-4-q14": {
+   "q": "According to the book, what is the MOST important aspect of a security business case?",
+   "o": [
+    "Its alignment with the organization's goals",
+    "The quality of the executive summary",
+    "The cost-benefit analysis",
+    "The inclusion of the do-nothing option"
+   ],
+   "e": "The book calls alignment with goals 'the most important aspect'. Note: cost-benefit analysis is only 'one of the most important parts', and analysis and recommendation are 'the heart' of the case, so answer according to what the question asks."
+  },
+  "security-4-q15": {
+   "q": "While writing a business case, a manager knows that the chief financial officer (CFO) will probably read only the first section. According to the book, what must that section do?",
+   "o": [
+    "Be brief but tell the whole story of the case",
+    "Detail the alternatives and their comparative analysis",
+    "Describe the next steps if the case is rejected",
+    "List the project's assumptions, constraints and milestones"
+   ],
+   "e": "The executive summary is the first section: brief, but it tells the whole story, because it may be the only thing some executives read. Assumptions, constraints and milestones belong to the project description, and next steps belong to approvals."
+  },
+  "security-4-q16": {
+   "q": "Before applying a countermeasure program company-wide, the manager wants to run a pilot verification of the model. What method does the book describe?",
+   "o": [
+    "Protect some points and leave others of equal loss probability unprotected, then compare",
+    "Protect every point for a month and compare with the previous year's losses",
+    "Apply countermeasures only where losses are highest and measure how much they drop",
+    "Compare the company's losses with those of other organizations in the sector (benchmarking)"
+   ],
+   "e": "The pilot protects some exposure points and leaves others with the same probability of loss unprotected; during a controlled period actual losses are measured and compared. If the pilot's losses are unacceptable, the test is reduced or suspended and the countermeasures are applied company-wide immediately."
+  },
+  "security-4-q17": {
+   "q": "After several months of loading incidents into a new database, the manager notices that 80% of each month's reports fall into the 'other' category. According to the book, what should the manager do?",
+   "o": [
+    "Create new categories in the classification",
+    "Delete the 'other' category from the database",
+    "Wait a year before changing the classification",
+    "Stop recording minor incidents"
+   ],
+   "e": "The book's rule is that if 80% of monthly reports fall into 'other', new categories must be created. Management must be flexible and review the data periodically; classifications may need to change as incidents are loaded, so waiting a year is not appropriate."
+  },
+  "security-5-q0": {
+   "q": "A key engineer knows a proprietary manufacturing process by heart, and the lab holds a physical prototype of a new device. From an Information Asset Protection (IAP) perspective, which BEST describes these two items?",
+   "o": [
+    "Both are forms in which information exists and belong in the program",
+    "Only the prototype is an information asset, because it is a tangible object",
+    "Only the process is an information asset, because it is in someone's mind",
+    "Neither is one until it is recorded in an information technology system"
+   ],
+   "e": "The book lists among the forms of information a person's knowledge, a process or procedure, and an object such as a model or prototype, in addition to data in IT systems. IAP is not limited to electronic data: it is information security in all its forms."
+  },
+  "security-5-q1": {
+   "q": "What effect did the 1996 Economic Espionage Act (EEA) have in the United States?",
+   "o": [
+    "It made trade secret theft a federal crime and empowered the FBI to investigate economic espionage",
+    "It created the FBI's DECA program to educate cleared defense contractors about espionage threats",
+    "It implemented operations security (OPSEC) throughout the entire U.S. federal executive branch",
+    "It made patent infringement by foreign competitors operating in the country a criminal offense"
+   ],
+   "e": "The 1996 EEA made theft of trade secrets a federal crime and gave the FBI authority to investigate economic espionage; it was drafted with input from ASIS International. DECA is an FBI program from the 1970s, and OPSEC was implemented in the federal executive branch in 1988."
+  },
+  "security-5-q2": {
+   "q": "A new security director must build her company's IAP program from scratch using the Enterprise Security Risk Management (ESRM) approach. What should she do FIRST?",
+   "o": [
+    "Identify and prioritize the information assets",
+    "Identify and prioritize the risks to the information",
+    "Mitigate the risks the company already knows about",
+    "Continuously improve the existing measures"
+   ],
+   "e": "ESRM applied to IAP follows four steps: identify and prioritize assets, identify and prioritize risks, mitigate the prioritized risks, and continuously improve the program. Identifying risks is the second step, not the first."
+  },
+  "security-5-q3": {
+   "q": "A small, single-site company with no robust security and risk function operates in a hurricane zone. According to the chapter, which measure BEST protects its survival against this natural threat?",
+   "o": [
+    "Off-site backup of critical data and warm or hot alternate sites",
+    "Nondisclosure agreements signed with all its employees and vendors",
+    "Regular technical surveillance countermeasures sweeps of its offices",
+    "Assessment of the capability and intention of its known adversaries"
+   ],
+   "e": "Many companies disappear after a disaster because they lose their information, not their facilities, since their business continuity plan lacked off-site backup and warm or hot sites. Assessing capability and intention applies to intentional threats."
+  },
+  "security-5-q4": {
+   "q": "According to the chapter, which threat category is perhaps the MOST ignored and also the hardest to identify and assess?",
+   "o": [
+    "Inadvertent threats",
+    "Intentional threats",
+    "Natural threats",
+    "Cyberthreats from nation-state actors"
+   ],
+   "e": "Inadvertent threats, unintentional errors, are perhaps the most ignored and the hardest to identify and assess; according to Winkler (2005), the biggest losses come from 'the people in the mirror'. Intentional threats have historically received the most attention."
+  },
+  "security-5-q5": {
+   "q": "When assessing intentional threats against information assets, which two aspects of each identified adversary are evaluated?",
+   "o": [
+    "Their capability and intention to attack key assets",
+    "Their geographic location and any ties to foreign governments",
+    "The frequency of their attacks and the economic impact of each",
+    "Their insider access and their clearance level in the company"
+   ],
+   "e": "For intentional threats, adversaries are identified (competitors, foreign governments, activists, terrorists, criminal enterprises, information brokers and vandals) and their capability and intention to attack key assets are assessed. The book asks practitioners to think broadly when identifying them."
+  },
+  "security-5-q6": {
+   "q": "A technician from an outsourced provider with access to the company network copies customers' financial data. The organization never considered third parties in its threat analysis. According to the chapter, what should it have done?",
+   "o": [
+    "Include insiders in the risk assessment and require the contractor to screen its staff",
+    "Limit the insider analysis to direct employees, the only ones in a trust relationship",
+    "Treat the provider as an inadvertent threat and step up training of its own staff",
+    "Classify the incident as piracy and pursue the criminal intellectual property route"
+   ],
+   "e": "Besides employees, possible insiders include vendors, customers, joint venture partners, visitors, subcontractors and outsourced providers. The risk assessment must include them, and contractors must be required to screen their staff properly, protect the data and apply the information security policies."
+  },
+  "security-5-q7": {
+   "q": "A company discovers that a workshop is manufacturing and distributing pharmaceuticals under its trade name without its permission. How does the chapter classify this threat?",
+   "o": [
+    "Counterfeiting",
+    "Piracy",
+    "Data mining",
+    "Insider threat"
+   ],
+   "e": "Counterfeiting is manufacturing or distributing goods under another's name without permission, and it has economic and safety impacts. Piracy is copying, stealing, reproducing, transmitting or selling another's intellectual property without consent, such as software, music or books."
+  },
+  "security-5-q8": {
+   "q": "According to the chapter, what must the risk assessment of information assets do?",
+   "o": [
+    "Identify the risks, quantify them and prioritize them per the organization's risk acceptance",
+    "Identify the risks and transfer them to insurers before quantifying their economic impact",
+    "Prioritize the risks per the IT department's judgment, since it holds most of the data",
+    "Quantify only intentional risks, because inadvertent ones cannot be reliably measured"
+   ],
+   "e": "Under the principle 'you can't manage it if you can't measure it', the assessment must identify, quantify and prioritize risks according to the organization's risk acceptance criteria. It is done regularly and includes monitoring of changes in assets, threats, vulnerabilities and impacts."
+  },
+  "security-5-q9": {
+   "q": "According to the Trends in Proprietary Information Loss study (2007), what is the FIRST business impact of an information loss in the book's list?",
+   "o": [
+    "Loss of the company's reputation, image or goodwill",
+    "Loss of competitive advantage in a product or service",
+    "Reduced projected returns or profitability",
+    "Loss of a core business technology or process"
+   ],
+   "e": "The book lists loss of reputation, image or goodwill first. Loss of competitive advantage in a product or service comes second, followed by reduced projected returns and loss of a core technology or process."
+  },
+  "security-5-q10": {
+   "q": "According to Moberly (2007), which of the following is a business benefit of an IAP program?",
+   "o": [
+    "It serves as leverage to negotiate coverage and premiums for IP and IT insurance",
+    "It shifts ultimate responsibility for protecting company information to IT",
+    "It removes the need for legal measures such as patents, trademarks and NDAs",
+    "It replaces the business continuity plan in crisis response and recovery"
+   ],
+   "e": "Moberly's benefits include improving stewardship of intangibles, aligning information with strategy, allocating security and IT resources more efficiently, and serving as leverage to negotiate IP and IT insurance. Ultimate responsibility lies with leadership, and IAP combines security and legal measures."
+  },
+  "security-5-q11": {
+   "q": "After an information leak, the executive committee claims that protecting information is solely the security department's responsibility. According to the chapter, what is correct?",
+   "o": [
+    "Ultimate responsibility lies with leadership, but everyone with access must assume it",
+    "Ultimate responsibility lies with the security department and no one else in the company",
+    "Ultimate responsibility lies with IT, because it holds the information systems",
+    "Ultimate responsibility lies with the originator of each compromised document"
+   ],
+   "e": "Ultimate responsibility for protecting information lies with the organization's leadership, but every person, internal or external, with access to information assets must assume it. The originator usually sets the classification level but does not bear ultimate responsibility."
+  },
+  "security-5-q12": {
+   "q": "The IAP policy statement must require measures that ensure seven attributes in both the physical and the cyber environment. Besides confidentiality, integrity and availability, which of these attributes is on the list?",
+   "o": [
+    "Non-repudiation",
+    "Deterrence",
+    "Compartmentalization",
+    "Aggregation"
+   ],
+   "e": "The seven attributes are confidentiality, integrity, availability, accountability, recoverability, auditability and non-repudiation. Compartmentalization is a physical protection measure, and aggregation is the principle behind OPSEC."
+  },
+  "security-5-q13": {
+   "q": "A company provides IAP training only during new-employee orientation and keeps no record of it. According to the vital steps for developing the policy, what should change?",
+   "o": [
+    "Repeat the training at several points and document the awareness efforts",
+    "Replace orientation training with random audits of policy compliance",
+    "Limit the training to IT staff, who handle the most information",
+    "Delegate the training to vendors and contractors who have access"
+   ],
+   "e": "IAP training must be given repeatedly: at orientation, during inspections, at all-hands conferences, on the intranet, in newsletters, and within IT or human resources training; the efforts must also be documented. Random audits verify compliance but do not replace training."
+  },
+  "security-5-q14": {
+   "q": "According to the chapter, how many sensitivity levels do most organizations use to classify their information?",
+   "o": [
+    "2 to 4 levels",
+    "Always 3 levels",
+    "4 to 6 levels",
+    "5 to 7 levels"
+   ],
+   "e": "Most organizations use 2 to 4 sensitivity levels. The 3-category example (approved for external release, internal, and confidential) is just a common case, not a fixed rule."
+  },
+  "security-5-q15": {
+   "q": "The vice president of sales requests access to a confidential research and development file unrelated to his duties, citing his rank. According to the chapter, how should this be resolved?",
+   "o": [
+    "Deny access: it is based on current function and need to know",
+    "Grant it: his hierarchical level exceeds the file's classification",
+    "Grant it if he first signs a nondisclosure agreement (NDA)",
+    "Grant it if he passes a recent background investigation"
+   ],
+   "e": "Access is based on current function and need to know, not merely on position or rank. An NDA and a background investigation may also be required, but they do not replace need to know."
+  },
+  "security-5-q16": {
+   "q": "In a research center, maintenance staff may enter only the outer areas, while the research and development director can reach the innermost layers. Which perspective of defense in depth does this example BEST illustrate?",
+   "o": [
+    "Layers as increasing levels of trust",
+    "Layers as technologies operating together",
+    "Layers to delay, detect and deter",
+    "Layers as coordinated families of measures"
+   ],
+   "e": "One of the three perspectives is that layers represent increasing levels of trust for those who access successive layers; the book uses exactly the example of maintenance staff versus the R&D director. The other two are diverse measures operating together and layers that delay, detect and deter intruders."
+  },
+  "security-5-q17": {
+   "q": "An audit finds draft bids and misprints in the recycling trays next to the copiers. Which handling of documents and records measure BEST addresses the problem?",
+   "o": [
+    "Shredders or secure containers next to printers and copiers, with signs",
+    "Emptying the recycling trays more often during each of the shifts",
+    "Selling the paper to a certified recycling company at the end of each month",
+    "Banning the printing of sensitive documents on shared copiers"
+   ],
+   "e": "The book recommends placing shredders or secure containers next to printers, copiers and fax machines, plus signs reminding staff to destroy overruns and misprints. Recycling is not an adequate alternative to destruction: paper is given away or sold, and there is no way to prove whether it was destroyed."
+  },
+  "security-5-q18": {
+   "q": "The IAP manager discovers that human resources sometimes skips background vetting of new consultants because it takes too long. According to the chapter, what should the manager do FIRST?",
+   "o": [
+    "Open an effective communication channel with the screening areas",
+    "Take direct control of all preemployment screening for the company",
+    "Bar consultants from accessing any internal information",
+    "Replace vetting with stricter nondisclosure agreements"
+   ],
+   "e": "Screening is often handled by legal or human resources, not security, and because it is time-consuming procedures are sometimes skipped. The IAP professional must open an effective communication channel with those areas, ensure vetting covers all trusted third parties, and periodically review the procedures."
+  },
+  "security-5-q19": {
+   "q": "According to the chapter, private information, such as personally identifiable information (PII), must be clearly marked. What should that marking indicate?",
+   "o": [
+    "How it will be used and by whom, notices if compromised, and how to destroy it",
+    "Who created it, on what date, and in which IT system it is currently stored",
+    "The minimum hierarchical level to view it and the privacy officer's name",
+    "The country of origin of the data and the privacy directive that applies"
+   ],
+   "e": "The marking of private information indicates how it will be used and to whom it will be made available, what notices and actions will follow if it is compromised, and how to destroy or dispose of it when no longer needed. Access is based on function and need to know, not hierarchical level."
+  },
+  "security-5-q20": {
+   "q": "A little-known foreign company proposes an alliance that requires sharing sensitive technical data. According to the chapter, what must be done BEFORE partnering?",
+   "o": [
+    "Conduct due diligence on the company",
+    "Sign the agreement and apply IAP policies afterward",
+    "Share only public information during the alliance",
+    "Rely on the reputation of the company's home country"
+   ],
+   "e": "Relationships with other companies pose special risks because organizations lower their guard without realizing it; in the U.S. there are thousands of front companies, often created by foreign governments to obtain information. That is why due diligence before partnering and sharing information is essential."
+  },
+  "security-5-q21": {
+   "q": "An analyst warns that the company's published supply orders, hiring plans and facility upgrades, each harmless on its own, would let a competitor deduce the launch of a secret product. Which principle describes this risk?",
+   "o": [
+    "Aggregation, the basis of operations security (OPSEC)",
+    "Compartmentalization of information by classification level",
+    "Layered protection (defense in depth)",
+    "Need to know"
+   ],
+   "e": "The aggregation principle states that small pieces of data from several sources, combined, can reveal sensitive information; OPSEC ensures that peripheral information, such as supply orders or hiring plans, does not give intelligence to an adversary. Compartmentalization separates information of different classifications but does not address the combination of public data."
+  },
+  "security-5-q22": {
+   "q": "An executive will travel abroad to negotiate a contract and needs to carry sensitive information. According to the travel measures, what is MOST appropriate?",
+   "o": [
+    "Carry only what is needed, on her person, on devices cleared of unneeded data",
+    "Check the laptop in the luggage to reduce the risk of theft on board the plane",
+    "Print the documents at the hotel business center upon arrival",
+    "Use hotel Wi-Fi only to send password-protected files"
+   ],
+   "e": "The traveler should carry only strictly necessary information, on her person and not in checked luggage, and erase unnecessary data or travel with clean devices. The book advises against using public Wi-Fi, hotel fax, copiers or business centers for sensitive information."
+  },
+  "security-5-q23": {
+   "q": "An engineer with access to a key project returns from a technical conference abroad, where several attendees asked him persistent questions about his work. According to the chapter, what measure applies upon his return?",
+   "o": [
+    "Debrief him and report the attempts to obtain information",
+    "Immediately subject him to a new, full background investigation",
+    "Remove his access to the project until year-end",
+    "Request a technical surveillance countermeasures sweep"
+   ],
+   "e": "For trade shows and conferences the book recommends identifying high-risk travelers by position, project, access or clearance, and conducting a debriefing on return when appropriate; actual or suspected attempts to obtain information must also be reported. Persistent questioning fits the elicitation techniques that the awareness program must cover."
+  },
+  "security-5-q24": {
+   "q": "The company will hold its annual strategy meeting in a hotel meeting room. When planning the technical surveillance countermeasures (TSCM) sweep, which of these is a typical vulnerability the book identifies?",
+   "o": [
+    "Unencrypted wireless microphones",
+    "Visitor badges without photographs",
+    "Venue floor plans showing emergency exits",
+    "Minimal event signage in the hotel"
+   ],
+   "e": "Typical vulnerabilities are unencrypted wireless microphones, wireless headsets, audio leakage, electronic equipment brought by participants, and unsecured telecommunications equipment or cables. Minimal signage is not a vulnerability but a recommended measure for low-profile events."
+  },
+  "security-5-q25": {
+   "q": "Under international law, which statement about copyright is correct according to the chapter?",
+   "o": [
+    "It needs no registration to be protected, though registering it helps enforce it",
+    "It is protected only after being registered with each country's government",
+    "It is protected for 20 years counted from its registration with the authority",
+    "Its protection requires publicly disclosing every element of the work"
+   ],
+   "e": "Copyright needs no registration to be protected; the owner may register it to formalize ownership, which helps in later actions. The 20 years and mandatory public disclosure belong to patents."
+  },
+  "security-5-q26": {
+   "q": "A company plans to sell its product in a new country. According to the chapter, what is the PRIMARY means of protecting its trademark there?",
+   "o": [
+    "Register it before the product enters the local stream of commerce",
+    "Register it as soon as the first imitations appear in that country",
+    "Treat it as a trade secret until sales there are established",
+    "Rely on the trademark registration already made in the home country"
+   ],
+   "e": "The primary means is to register the trademark before the product enters the country's stream of commerce, so that it is eligible for protection and infringement can be remedied administratively or judicially. It is also advisable to create a local-language version and register it in neighboring countries."
+  },
+  "security-5-q27": {
+   "q": "An inventor is deciding whether to patent an invention or keep it as a trade secret. Which statement is correct according to the chapter?",
+   "o": [
+    "A patent requires public disclosure and lasts 20 years; a secret can last indefinitely",
+    "A patent lasts indefinitely; a trade secret expires 20 years after its creation",
+    "Patent infringement is a crime; trade secret theft has only a civil remedy",
+    "A trade secret is registered with an agency; a patent requires no registration"
+   ],
+   "e": "A patent offers benefits but requires public disclosure of the invention and lasts only 20 years; a trade secret is not disclosed, not registered, and can last indefinitely. Moreover, there are no criminal laws on patent infringement, whereas stealing a trade secret can violate criminal laws."
+  },
+  "security-5-q28": {
+   "q": "The chapter summary distinguishes between security measures and legal measures for protecting information. Which of these is a LEGAL measure?",
+   "o": [
+    "Contract clauses",
+    "Awareness training",
+    "Security personnel",
+    "Protective equipment"
+   ],
+   "e": "Legal measures are copyrights, patents, trademarks, nondisclosure agreements and contract clauses; security measures are personnel, equipment and awareness training. The right mix varies by organization but normally combines both types."
+  },
+  "security-5-q29": {
+   "q": "In a trial over the theft of a trade secret, the company shows that the formula gave it value and was specifically identified, but it has no evidence of defined and enforced protection measures. According to the chapter, what is the BIGGEST problem with its case?",
+   "o": [
+    "It cannot prove a reasonable level of protection, which is a high standard",
+    "It did not register the formula with an outside agency before the theft",
+    "It did not patent the formula, which was the only criminal remedy for it",
+    "It did not mark the formula with one of the usual 2 to 4 sensitivity levels"
+   ],
+   "e": "The owner must prove three things: that the information provided value, that it was specifically identified, and that the owner gave it a reasonable level of protection. 'Reasonable' is a high standard requiring a robust program with measures that are defined, communicated and consistently applied; trade secrets are not registered."
+  },
+  "security-5-q30": {
+   "q": "According to the chapter, how should contractors, consultants and vendors with access to company information be bound?",
+   "o": [
+    "By contract, to protect it at the same level as inside the company",
+    "By their own code of ethics, with no specific protection clauses",
+    "Only while the contract is in force, with no later obligations",
+    "By a verbal agreement ratified by the purchasing manager"
+   ],
+   "e": "Contractors, subcontractors, consultants and vendors with access are bound by contract to protect the information at the same level as inside the company. Employees sign a nondisclosure agreement (NDA) as a condition of employment and are reminded of their continuing obligations when they leave."
+  },
+  "security-5-q31": {
+   "q": "A team must discuss a sensitive topic in a web conference and cannot validate how the provider protects information or what its password policy is. According to the chapter, what should the team assume?",
+   "o": [
+    "That the conversation is not private",
+    "That the provider encrypts the transmission",
+    "That a strong password is sufficient",
+    "That the risk is acceptable if it is internal"
+   ],
+   "e": "Video, telephone or web meetings are not necessarily secure; it is necessary to find out how the provider protects information and to encrypt data transfer whenever possible. If the measures cannot be validated, assume the conversation is not private."
+  },
+  "security-5-q32": {
+   "q": "A company is going to outsource its technical support center to another country. According to the chapter, which due diligence step applies to this provider?",
+   "o": [
+    "On-site security reviews before signing and regularly afterward",
+    "A one-time document review at signing, with no later site visits",
+    "Leaving the security assessment to the provider and its own auditors",
+    "Signing only a corporate NDA, without including its subcontractors"
+   ],
+   "e": "Due diligence includes reviewing financial performance and reputation, signing individual and corporate NDAs with the provider and its subcontractors, conducting on-site security reviews before signing and regularly afterward, identifying where the staff will work, and consulting the laws of all countries involved. Outsourcing transfers control and accountability, and some risks come from hidden contract clauses."
+  },
+  "security-5-q33": {
+   "q": "It is confirmed that a former employee took design documents. In the damage assessment phase, what should be done FIRST?",
+   "o": [
+    "Determine promptly and completely what information was compromised",
+    "Activate the applicable parts of the business continuity plan",
+    "Conduct a root cause analysis of the incident",
+    "Report the potential impact to all of the company's shareholders"
+   ],
+   "e": "Damage assessment begins by determining as soon as possible and completely what information was compromised; its implications are then determined and reported to the appropriate management level. Activating the continuity plan and root cause analysis belong to the recovery and follow-up phase."
+  },
+  "security-5-q34": {
+   "q": "A company hires a document destruction service and receives a signed and dated certificate of destruction. Months later, customer information turns up in a dumpster. According to Appendix 5A, what is correct?",
+   "o": [
+    "The company remains liable: the certificate does not transfer responsibility",
+    "The contractor bears all responsibility, because it signed the certificate",
+    "Responsibility is split equally between the company and the contractor",
+    "No one is liable, because the certificate proves destruction took place"
+   ],
+   "e": "The certificate is an important legal record, but it does not transfer responsibility for confidentiality to the contractor; a court may question how the contractor was selected and, without due diligence, the company may be found negligent. That diligence includes reviewing the contractor's policies and conducting initial and follow-up on-site audits."
+  },
+  "security-6-q0": {
+   "q": "According to Blanchard and Peale (1988), which of these questions is part of the ethical conduct test?",
+   "o": [
+    "Is it balanced?",
+    "Is it profitable for the company?",
+    "Does the competition do it too?",
+    "Will anyone find out about it?"
+   ],
+   "e": "The test has three questions: Is it legal? Is it balanced? How will it make me feel about myself? The security professional should ask them throughout his or her work; profitability or what competitors do are not part of the test."
+  },
+  "security-6-q1": {
+   "q": "A company's ethics committee must decide whether it is right to accept gifts from a vendor during a specific bidding process and what should be done about it. What type of ethics is it applying?",
+   "o": [
+    "Applied ethics",
+    "Descriptive ethics",
+    "Analytical ethics",
+    "Situation ethics"
+   ],
+   "e": "Applied ethics is active: it applies ethical concepts to concrete business situations, judges what is right and wrong, and says what should be done; it is the most relevant to business. Descriptive ethics only explains ethical facts, and analytical ethics examines the meaning and justification of concepts."
+  },
+  "security-6-q2": {
+   "q": "A supervisor justifies altering a patrol report by saying that 'in this particular situation' it was the right thing to do, although he would not do it in another case. Which cause of poor ethical decisions BEST illustrates his reasoning?",
+   "o": [
+    "Relativism",
+    "Convenience",
+    "Winning",
+    "Motivated blindness"
+   ],
+   "e": "Relativism, also called situation ethics, holds that almost any act can be rationalized as right in a certain situation, because there are no true ethical values to guide conduct. Convenience reduces the decision to 'the right thing' versus 'the easiest thing', and motivated blindness is acting unethically out of self-interest without realizing it."
+  },
+  "security-6-q3": {
+   "q": "According to the psychologists cited in the chapter, which three factors motivate unethical or dishonest acts?",
+   "o": [
+    "Desire, rationalization and opportunity",
+    "Convenience, winning and relativism",
+    "Desire, convenience and opportunity",
+    "Winning, rationalization and relativism"
+   ],
+   "e": "The motivating factors identified by psychologists are desire, rationalization and opportunity. Note: convenience, winning and relativism are a different triad, the causes of poor ethical decisions in business."
+  },
+  "security-6-q4": {
+   "q": "A company introduces a code of conduct banning acceptance of gifts from vendors, but exempts senior executives 'because of the relationships their positions require'. According to the chapter, what is the GREATEST risk?",
+   "o": [
+    "That the rule ends up applying to no one, since it does not apply to all",
+    "That vendors stop offering gifts to the rest of the company",
+    "That the code becomes too long and complicated to follow",
+    "That employees start reporting more misconduct through the ethics hot line"
+   ],
+   "e": "Nothing undermines ethics more than applying the rules to only some: a value that does not apply to everyone ends up applying to no one. That is why the code must be enforced on everyone from the CEO down, and employees must see the change as beneficial and equitable."
+  },
+  "security-6-q5": {
+   "q": "What BEST distinguishes an ethics program from an ethics code?",
+   "o": [
+    "The program provides ongoing support and oversight for complying with the code",
+    "The program states the organization's shared values and ethical beliefs",
+    "The program replaces the code once ethics is already part of the corporate culture",
+    "The program is the public version of the code displayed to customers and shareholders"
+   ],
+   "e": "The code states the underlying values and principles; the program is the ongoing structure of support and oversight that turns ethical concern into daily operating behavior. Without a program, the code ends up ignored and forgotten; and even when ethics is part of the culture, the documents still serve as visible proof of intent."
+  },
+  "security-6-q6": {
+   "q": "The committee has finished drafting the ethics code with the active support of the board of directors. According to the chapter's six concepts, what should it do BEFORE distributing it throughout the organization?",
+   "o": [
+    "Field test it to ensure it is complete and understandable",
+    "Post it online so customers and vendors can comment first",
+    "Have each employee sign an acceptance during orientation",
+    "Replace its own values with those of a model industry code"
+   ],
+   "e": "The fifth concept is to field test the code before distributing it, to ensure it is complete, thorough and understandable; it is then announced and distributed widely. Other organizations' codes serve as models, but the code must reflect the organization's own values, not generic concepts."
+  },
+  "security-6-q7": {
+   "q": "According to the empirical literature cited in the chapter, what has the GREATEST influence on the ethical level of conduct within an organization?",
+   "o": [
+    "Business principles and the behavior of executives",
+    "Each employee's conscience and personal values",
+    "The existence of a published and visible ethics code",
+    "The severity of the penalties set out in the rules"
+   ],
+   "e": "Most of the empirical literature downplays the individual: business principles and executive behavior influence conduct more than individual conscience, together with the organizational climate and corporate culture. A published code alone does not guarantee ethical operation."
+  },
+  "security-6-q8": {
+   "q": "While conducting an ethical-hazards risk assessment, the manager discovers that the sales staff's compensation is based 100% on financial targets. How does the chapter classify this finding?",
+   "o": [
+    "A perverse incentive",
+    "An unintended consequence",
+    "A case of vicarious liability",
+    "A breach of fiduciary duty"
+   ],
+   "e": "The book's example of a perverse incentive is precisely compensation based 100% on financial targets. Unintended consequences are effects of policies or expectations that lead to bad decisions 'for good reasons', such as justifying misconduct to save jobs."
+  },
+  "security-6-q9": {
+   "q": "Why can a security professional be held to a HIGHER ethical standard than his or her coworkers?",
+   "o": [
+    "Because he evaluates others' acts and must equal or exceed what he demands of them",
+    "Because his employment contract requires compliance with the ASIS Code of Ethics",
+    "Because he is solely responsible for the company's ethics program",
+    "Because his misconduct creates vicarious liability for his employer"
+   ],
+   "e": "Whoever evaluates the acts of others must equal or exceed what is required of those others; that is why, given the nature of the work, a higher standard may be required. The security professional may be tasked with creating the ethics program and code or monitoring compliance, but ethical direction comes from corporate leadership."
+  },
+  "security-6-q10": {
+   "q": "A security manager must write a policy on whether officers may carry stun guns in Massachusetts. Which source should the manager rely on to determine what the law is?",
+   "o": [
+    "The Massachusetts statute, as the primary source, researched by attorneys",
+    "A law review article that compares several states",
+    "A recent ruling from another state on possession of electrical weapons",
+    "A trade publication written by a manufacturer of these weapons"
+   ],
+   "e": "The primary source, the statute or case of the state itself, is mandatory for knowing what the law is and is the strongest; the manager should have attorneys do the research. The other state's ruling and the law review article are secondary sources, and a trade publication is the last resort as a legal reference."
+  },
+  "security-6-q11": {
+   "q": "What BEST describes the role of an appellate court in creating case law?",
+   "o": [
+    "It accepts the lower court's facts and reviews only the law; its rulings set precedent",
+    "It retries the facts of the case and issues rulings that are considered only persuasive authority",
+    "It hears criminal and civil cases at first instance and publishes its rulings in the reporters",
+    "It resolves private disputes between the parties without creating precedent in its jurisdiction"
+   ],
+   "e": "The appellate court accepts the facts found by the lower court and only reviews whether the judge correctly applied or interpreted the law; its rulings published in the reporters are the basis of case law and, under stare decisis, must be followed in that jurisdiction. District court rulings, which cover both types of case, are considered only persuasive."
+  },
+  "security-6-q12": {
+   "q": "A company plans to monitor employees' heart rates and conversations with handheld devices to detect internal theft. According to the chapter, what should the security manager consider BEFORE implementing it?",
+   "o": [
+    "How a jury of 12 average citizens would react to its use",
+    "Whether a trade publication article endorses the technology",
+    "Whether the vendor guarantees the technical accuracy of all sensors",
+    "Whether an email notice to employees is enough to use the data"
+   ],
+   "e": "The likely sequence for a new technology is implementation, challenge in civil court, and regulation by government; a good policy considers how 12 average citizens would react, because those who do not settle usually go to a jury trial. In the hypothetical ABC Corp. case, the email notice did not prevent the lawsuit."
+  },
+  "security-6-q13": {
+   "q": "A consultant who is an ASIS member is subpoenaed to testify at trial about information a client confided, and the client's attorney objects. According to the ASIS Code of Ethics, what is correct?",
+   "o": [
+    "That information is not privileged under the law, and he may have to testify",
+    "That information is privileged, and the consultant must refuse to testify",
+    "The consultant should testify only if the business relationship has ended",
+    "The consultant may testify only with the Ethical Standards Council's permission"
+   ],
+   "e": "Under Article V, what the principal confides to the member is not privileged information under the law; at trial the member may have to testify even over the objection of the principal's attorney. Confidentiality also continues after the business relationship ends, so that is not the criterion."
+  },
+  "security-6-q14": {
+   "q": "A security manager who is an ASIS member must recommend a monitoring vendor, and his brother-in-law is a partner in one of the candidates. According to the ASIS Code of Ethics, what should he do?",
+   "o": [
+    "Disclose the conflict of interest and obtain appropriate approval",
+    "Recommend his brother-in-law's vendor if its bid is objectively the best",
+    "Act without disclosing it if he gains no personal financial benefit",
+    "Report the matter to the Ethical Standards Council before any decision"
+   ],
+   "e": "Article III (faithfulness and diligence) prohibits acting in matters involving a conflict of interest without disclosing it and obtaining appropriate approval. Reporting to the Ethical Standards Council belongs to Article VI, when one knows or believes another member has violated the code."
+  },
+  "security-6-q15": {
+   "q": "A company is choosing between an admitted and a non-admitted insurer and is concerned that the insurer might go bankrupt before paying a claim. What advantage does the admitted insurer offer?",
+   "o": [
+    "The state guaranty fund pays its claims, up to a limit, if it fails",
+    "It covers the risks that other insurers in the market do not want to take on",
+    "It is not subject to review of its forms and rates by the state insurance department",
+    "It is owned by the insured company and covers only its risks"
+   ],
+   "e": "An admitted insurer files its policies with the state insurance department and is backed by the state guaranty fund: if it fails, the state pays its claims up to a limit. Covering risks others will not accept is the origin of the non-admitted market, and being owned by the insured describes a captive carrier."
+  },
+  "security-6-q16": {
+   "q": "According to the chapter, whom does an insurance broker represent?",
+   "o": [
+    "The buyers of property and liability insurance",
+    "One or more insurance companies in an industry",
+    "The insurance department of the state where it operates",
+    "A group of similar businesses that insures itself"
+   ],
+   "e": "The broker represents buyers and works with more than one company to suggest the most suitable one. Note: the book's initial list describes the broker inconsistently; for the exam, the one who represents one or more insurers is the managing general agent (MGA), and the group of similar businesses is a risk retention group."
+  },
+  "security-6-q17": {
+   "q": "An auditor discovers that a company cashier embezzled funds over two years. Which type of insurance covers this kind of loss?",
+   "o": [
+    "Fidelity coverage",
+    "Commercial general liability",
+    "Directors and officers insurance",
+    "Business interruption insurance"
+   ],
+   "e": "Fidelity coverage covers losses from fraudulent or dishonest acts by the company's own employees. Commercial general liability covers property damage or personal injury for which the company is responsible, and business interruption covers lost income and extra expenses after a disaster."
+  },
+  "security-7-q0": {
+   "q": "An analyst describes an industry with many firms, low entry and exit costs, and products that are not homogeneous in cost or attributes, such as shampoo. According to the book, what type of competition is this?",
+   "o": [
+    "Monopolistic competition",
+    "Oligopoly",
+    "Perfect competition",
+    "Monopoly"
+   ],
+   "e": "Monopolistic competition has many firms, low entry and exit costs, and non-homogeneous products; advantage is gained through cost or differentiation. An oligopoly, by contrast, has few firms, homogeneous products and high entry and exit costs, like U.S. breakfast cereal, where 4 companies produce about 90%."
+  },
+  "security-7-q1": {
+   "q": "A conglomerate with security, logistics and real estate businesses analyzes how those units fit together and affect each other to create the greatest overall value. What level of strategy is it applying?",
+   "o": [
+    "Corporate-level strategy, with a portfolio approach",
+    "Business-level strategy, focused on the value chain",
+    "International strategy, based on rare and hard-to-imitate resources",
+    "Execution strategy, driven by each unit's operations"
+   ],
+   "e": "Corporate-level strategy seeks competitive advantage by operating in several markets at once (Porter 1996), with a portfolio approach that looks at how the businesses fit together and affect each other. Business-level strategy is limited to competing in a single market by delivering more value to customers than rivals, and it is the foundation on which corporate-level strategy is built."
+  },
+  "security-7-q2": {
+   "q": "According to the book, which statement BEST describes critical thinking?",
+   "o": [
+    "A neutral and impartial process for evaluating claims, opinions and facts",
+    "A linear, step-by-step process that guarantees correct conclusions",
+    "The ability to find flaws and defects in other people's arguments",
+    "A scientific method that sets emotions aside to be fully objective"
+   ],
+   "e": "The book presents critical thinking as a neutral and impartial process; it is not fault-finding or a linear process that guarantees the truth, and emotions must be acknowledged, not set aside. Note: decision making is presented as a step-by-step process, but critical thinking is not."
+  },
+  "security-7-q3": {
+   "q": "The security director announces a new protection strategy by email and, weeks later, notices that supervisors are still working the same way. According to the chapter, what mistake did he make?",
+   "o": [
+    "Assuming that announcing the strategy is enough for people to adopt it",
+    "Crafting the strategy through analysis rather than basing it on operations",
+    "Allocating resources to the units before announcing the strategy",
+    "Defining what not to do rather than focusing only on what to do"
+   ],
+   "e": "A common cause of dysfunction is that senior executives fail to recognize that announcing a strategy does not make people adopt it. Management must convincingly communicate the strategy and its rationale, overcome doubts, secure the commitment of key staff and build consensus on how to implement it; crafting strategy should indeed be driven by analysis."
+  },
+  "security-7-q4": {
+   "q": "When allocating the budget to execute the strategy, a manager gives one unit far more than it needs 'so as not to fall short'. According to the chapter, what is one consequence of this overfunding?",
+   "o": [
+    "Other managers will demand their 'fair share' of resources",
+    "Progress slows and the strategy is prevented from succeeding",
+    "The company will have to sell additional shares to investors",
+    "The unit loses its ability to turn inputs into outputs"
+   ],
+   "e": "Overfunding wastes resources, reduces financial performance and sends the wrong message to other managers, who will demand their 'fair share'. Slowing progress and preventing success are effects of underfunding; the right amount is set through critical thinking and objective data, not a political decision."
+  },
+  "security-8-q0": {
+   "q": "A manufacturer must recall a defective product. There is no physical damage to its facilities, but its brand and customer trust are at stake. Which discipline should PRIMARILY lead the response?",
+   "o": [
+    "Crisis management",
+    "Emergency management",
+    "Business continuity",
+    "Threat evaluation"
+   ],
+   "e": "Crisis management is the strategic process that addresses threats to long-term viability, including reputation and brand, and it begins with any disruptive event, physical or nonphysical, such as a product recall. Emergency management handles the immediate impact (life, property, containment), and business continuity returns operations to normal."
+  },
+  "security-8-q1": {
+   "q": "At a site in a seismic zone, the security manager orders all cabinets and shelving to be bolted to the walls. Which phase of the emergency management cycle does this measure belong to?",
+   "o": [
+    "Mitigation",
+    "Preparedness",
+    "Response",
+    "Recovery"
+   ],
+   "e": "Mitigation consists of protective measures that reduce the likelihood of a disaster or its impact before the event; the book cites exactly bolting cabinets in seismic zones. Preparedness also occurs before the incident, but it consists of activities, programs and systems that support mitigation, response and recovery."
+  },
+  "security-8-q2": {
+   "q": "The crisis management team (CMT) plan lists its members by name only. When the finance director resigns, no one knows who covers for him. According to the chapter, how should members have been identified?",
+   "o": [
+    "By position, with a primary and alternates for each",
+    "By name, with a list of personal contacts",
+    "By seniority in the company and on the team",
+    "By the level of crisis management training they received"
+   ],
+   "e": "CMT members are identified by position, with a primary and alternates; that way, if the primary is absent, the team knows who can cover. The first step of the program is to name the critical personnel who will respond to any disruptive event."
+  },
+  "security-8-q3": {
+   "q": "A company is about to start the risk assessment cycle for its business continuity plan. According to the chapter, what must it identify BEFORE starting any part of the cycle?",
+   "o": [
+    "Mission, goals, critical functions and assets, and who makes risk decisions",
+    "The likelihood of each incident based on the company's changing profile",
+    "The consequences of each threat for the assets at risk",
+    "The alternate locations and resources needed for recovery"
+   ],
+   "e": "Before starting the risk cycle, the company must identify its mission, goals, critical functions and assets, and the stakeholder who makes risk decisions: without knowing what must be protected, the company cannot be protected. Estimating likelihood and consequences comes afterward, to select prevention and response measures."
+  },
+  "security-8-q4": {
+   "q": "After an active assailant event, everyone on site has been accounted for and communication with employees, families and the media has taken place. According to the chapter, which action belongs to the short-term phase?",
+   "o": [
+    "Preserve the crime scene and watch for signs of psychological trauma",
+    "Hold the post-incident debrief with responders and stakeholders",
+    "Replenish the supplies used by internal and external response personnel",
+    "Define the members of the threat management team"
+   ],
+   "e": "In the short term, the crime scene is preserved, signs of psychological trauma are monitored, reunification is assisted and communication continues. The post-incident debrief and replenishing supplies are long-term actions, and defining the threat management team is a pre-incident consideration."
+  },
+  "security-9-q0": {
+   "q": "According to the chapter, how is the value of private-sector investigations PRIMARILY measured, compared with public-sector ones?",
+   "o": [
+    "By recovery, restitution, mitigation of litigation and risk reduction",
+    "By the number of arrests and convictions achieved each period",
+    "By the number of specific criminal violations solved each year by the unit",
+    "By the number of cases closed relative to staff size"
+   ],
+   "e": "Private investigation exists to protect the employer's interests and is measured by recovery, restitution, mitigation of litigation and risk reduction. Arrests and convictions are the typical public-sector measure, which serves society at large and focuses on specific criminal violations."
+  },
+  "security-9-q1": {
+   "q": "A harassment investigation was very thorough and accurate, but the report arrived after the company had already made its disciplinary decision. Which attribute of an effective and reliable investigation failed?",
+   "o": [
+    "Timeliness",
+    "Thoroughness",
+    "Accuracy",
+    "Objectivity"
+   ],
+   "e": "The five attributes are objectivity, thoroughness, relevance, accuracy and timeliness, and management must ensure them at the strategic level and in each case. Here the investigation was thorough and accurate, but it did not arrive in time to inform the decision."
+  },
+  "security-9-q2": {
+   "q": "Which document gives the investigative unit (IU) credibility and authority, and who issues it?",
+   "o": [
+    "The functional charter, issued by the chief executive officer (CEO)",
+    "The policy statement, issued by legal counsel",
+    "The annual objectives, approved by the head of the unit itself",
+    "The mission statement, signed and approved by the board of directors"
+   ],
+   "e": "The functional charter is the first level of definition of the unit: it is issued by the CEO or an equivalent position, is concise, and sets out purpose, strategic goals, who is responsible and internal relationships. The policy statement covers procedures, reporting channels and disposition, and the objectives are normally reviewed each year."
+  },
+  "security-9-q3": {
+   "q": "A manager proposes placing an undercover operative on the plant floor to find out who is organizing union meetings protected by law. According to the chapter, how should the security director respond?",
+   "o": [
+    "It must not be used: investigating protected union activities is excluded",
+    "It may be used if all other reasonable options were ruled out first",
+    "It may be used if the operative does not hide his presence at the plant",
+    "It may be used if supervisors are unable to intervene"
+   ],
+   "e": "An undercover investigation must not be considered for investigating protected union activities or activities permitted by law, or to replace another equally effective investigation, and never to invade a reasonable expectation of privacy. Having ruled out other options is a condition for using it in legitimate cases, not an exception to these prohibitions."
+  },
+  "security-9-q4": {
+   "q": "When hiring a treasurer, the company only confirms the degree and the jobs the candidate reported. It later learns he had been fired for fraud from a job he left out. According to the chapter, what type of review did the company perform?",
+   "o": [
+    "A background check, which confirms what was reported",
+    "A background investigation, which looks for what is hidden",
+    "Preemployment screening with a full set of tests",
+    "A due diligence investigation into the candidate's legitimacy"
+   ],
+   "e": "A background check is confirmatory: it verifies what the candidate reports, such as education and employment history. A background investigation actively searches for what the candidate might hide, such as criminal activity or prior terminations, and preemployment screening adds tests to determine whether the candidate is trustworthy or capable."
+  },
+  "security-9-q5": {
+   "q": "An officer collects a weapon at the scene of an assault and leaves it overnight in an unlocked drawer that several people can access before turning it in. If the case goes to trial, which requirement for physical evidence is MOST compromised?",
+   "o": [
+    "The chain of custody",
+    "The correct identification of the evidence",
+    "Its relevance to the case",
+    "The competency assessed by the judge"
+   ],
+   "e": "Chain of custody is the unbroken control of evidence, and clearly showing it is one of the three requirements for physical evidence at trial, together with correct identification and relevance. Without it, the evidence may not reach the court; these practices are followed even when a case is not expected to go to trial."
+  },
+  "security-9-q6": {
+   "q": "The security manager will testify at trial. First he will describe what he saw and heard on the night of the incident, and then, as a qualified specialist, he will give an opinion on whether access control met the standards. What BEST describes his role?",
+   "o": [
+    "A fact witness for the first part and an opinion witness for the second",
+    "An opinion witness for both parts, because he is a specialist",
+    "A fact witness for both parts, because he was present",
+    "A hearsay witness for the first part and an expert witness for the second"
+   ],
+   "e": "A fact witness testifies only to what he perceived with his senses; an opinion witness, also called an expert or forensic witness, gives an opinion and must demonstrate training, education and experience in the subject. Security personnel can be either; hearsay is repeating what another person said."
+  },
+  "security-9-q7": {
+   "q": "According to the chapter, what is the relationship between due diligence and negligence?",
+   "o": [
+    "Due diligence is the positive side of due care; negligence is its absence",
+    "Due diligence is reactive; negligence is investigated proactively",
+    "Failing to exercise due diligence is costly only if another party is harmed",
+    "Due diligence has an absolute standard; negligence depends on the case"
+   ],
+   "e": "Due diligence is the positive side of due care, and negligence describes its absence; it is also a proactive investigative process. Omitting it can cause legal harm to others, but it is also costly even when no one is harmed, and it has no absolute standard: it depends on the objective, the situation, the jurisdictions, the privacy laws and the time frame."
+  },
+  "security-10-q0": {
+   "q": "A CFO proposes choosing between proprietary officers, contract officers or a hybrid arrangement based on whichever is cheapest. According to the book, what should this decision PRIMARILY be based on?",
+   "o": [
+    "The type of assets protected, the level of risk and what is expected of the officers",
+    "The total cost of the service, since the hybrid model is justified by the savings it produces",
+    "The flexibility each model offers to increase or decrease staffing levels when needed",
+    "The loyalty, lower turnover and better performance that proprietary officers tend to show"
+   ],
+   "e": "The book states that the decision should rest on the type of assets, the level of risk and what is expected of the officers, not on cost. Although the book justifies the hybrid model by its cost savings, on the exam cost is not the deciding criterion."
+  },
+  "security-10-q1": {
+   "q": "Which statement BEST describes the difference between general orders and post orders?",
+   "o": [
+    "General orders describe the emergency procedures of each post; post orders set conduct rules for the entire force",
+    "General orders set basic principles of conduct for the entire force; post orders give specific instructions for one post",
+    "General orders are written by the contract agency for its officers; post orders are written by the client for each facility",
+    "General orders are filed in the control log; post orders are filed in the individual post log of each post"
+   ],
+   "e": "General orders contain basic principles of conduct and operation for the entire force, such as not leaving the post without proper relief. Post orders deal with a single subject, are available at each post and include daily procedures or emergency actions. The first option reverses the two concepts."
+  },
+  "security-10-q2": {
+   "q": "A newly hired manager wants to design the training program for security officers. According to the book, what should the manager do FIRST to identify training needs?",
+   "o": [
+    "Review the failures noted in after-action reports from past incidents",
+    "Look for industry standards, guidelines or best practices that set training parameters",
+    "Determine whether the law requires any specific training for the officers",
+    "Choose the training method based on schedules, technology and the number of trainees"
+   ],
+   "e": "The book sets the order: first check whether the law requires any training, then look for industry standards or best practices, and also review after-action reports. Identifying needs comes first, before delivering any training or choosing how to deliver it."
+  },
+  "security-10-q3": {
+   "q": "While preparing a security services contract, the provider agency offers to set the officers' hourly pay rates itself. According to the book, what is the client's correct position?",
+   "o": [
+    "Accept the offer, because the agency knows the local labor market better",
+    "Set the hourly pay rates itself, without leaving that decision to the agency",
+    "Let the rates be agreed upon during the bidders' conference with all bidders",
+    "Ask for the rates to be included in the operating agreement the agency prepares"
+   ],
+   "e": "The book is explicit: the client must set the hourly pay rates and must not let the agency set them. The other options leave the decision to the agency or postpone it; the operating agreement, moreover, is prepared by the agency itself from the RFP."
+  },
+  "security-10-q4": {
+   "q": "According to the book, when hiring a security consultant the scope and objective must be explained from the outset. Besides the written contract, in which initial document must they appear?",
+   "o": [
+    "In the request for proposal (RFP)",
+    "In the solicitation summary",
+    "In the operating agreement",
+    "In the initial request for quote"
+   ],
+   "e": "For consultants the book refers to the initial request for quote and the written contract. The RFP, the solicitation summary and the operating agreement belong to the process for contracting security officers; confusing the RFP with the request for quote is the typical trap."
+  },
+  "security-10-q5": {
+   "q": "During a public event, someone starts shooting near the protected executive (the principal). According to the book, which reaction distinguishes a protection agent from a law enforcement officer?",
+   "o": [
+    "Run toward the attacker to neutralize the threat before more people are hurt",
+    "Hold position and shield the principal until local police officers arrive",
+    "Move the principal out of danger and leave the area with the principal",
+    "Secure the scene and preserve the evidence for the formal investigation"
+   ],
+   "e": "In an incident, the protection agent moves the principal out of danger and flees with them; it is the law enforcement officer who runs toward the problem. In addition, with good advance planning the agent seeks to avoid placing the principal in danger at all."
+  },
+  "security-10-q6": {
+   "q": "In an executive protection (EP) program, which two aspects make up the principal's final risk profile according to the book?",
+   "o": [
+    "The principal's physical vulnerabilities and the response capability of local police",
+    "The attractiveness of the target and the likelihood that a threat will succeed",
+    "The principal's public image and the influence on risk of the entity they represent",
+    "The current threat level and the return on investment (ROI) of the protection program"
+   ],
+   "e": "The book says the final risk profile has two aspects: the attractiveness of the target and the likelihood that a threat will succeed. Vulnerabilities and police response capability belong to the vulnerability assessment, which feeds the analysis but is not the final profile."
+  },
+  "security-10-q7": {
+   "q": "A supervisor suspects that a security officer is abusing alcohol. For months the supervisor has accepted the officer's excuses for absences and poor performance and has believed the officer's justifications. What does the book call this behavior by the supervisor?",
+   "o": [
+    "Codependency",
+    "Intervention",
+    "Denial",
+    "Enabling"
+   ],
+   "e": "Enabling means allowing or encouraging, knowingly or not, another person's destructive behavior; the book gives precisely the example of a boss who accepts excuses for absences or poor performance. Denial is usually the root of enabling, but the behavior described is enabling."
+  },
+  "security-10-q8": {
+   "q": "A workplace investigation into possible drug use concludes that the findings do not justify a sanction, but the employee's performance keeps getting worse. According to the book, what is the MOST appropriate response?",
+   "o": [
+    "Apply a minor disciplinary sanction that is recorded in the employee's file",
+    "Conduct an intervention that interrupts the destructive behaviors in a planned way",
+    "Close the case and allow time for performance to improve on its own",
+    "Require a return-to-duty drug test before the employee continues working"
+   ],
+   "e": "When the findings do not justify a sanction, the book calls for intervention: a planned interruption of destructive behaviors that is an act of caring, not discipline. Assuming performance will improve on its own is exactly what the book says managers must not do."
+  },
+  "security-10-q9": {
+   "q": "An employee tells a first-line supervisor that a coworker threatened to assault him. The supervisor does not escalate the complaint, and weeks later the assault occurs. According to the book, what is the company's position?",
+   "o": [
+    "It is protected, because senior management never received a formal complaint",
+    "The event is considered foreseeable and the company is deemed to have known",
+    "Only the supervisor is liable, because he acted outside internal policy",
+    "It is liable only if it had a written workplace violence policy in place"
+   ],
+   "e": "Under foreseeability, a complaint received by the first-line supervisor means the situation is considered foreseeable and known to the company, even if the supervisor did not escalate it. If the injury was foreseeable and preventable and the company did not act, it can be sued."
+  },
+  "security-10-q10": {
+   "q": "In a security awareness program, which BEST describes the specific function of awareness as opposed to education and training?",
+   "o": [
+    "Providing general knowledge about the organization's risks",
+    "Developing specific skills for security tasks",
+    "Producing a positive change in on-the-job behavior",
+    "Seeking the person's conscious attention"
+   ],
+   "e": "The book distinguishes them: education provides general knowledge, training develops specific skills, and awareness seeks the person's conscious attention. 'A positive change in on-the-job behavior' is the definition of learning from 10.2, the chapter's other trio (education, training and development)."
+  },
+  "security-11-q0": {
+   "q": "According to this book, which are the four Ds that should be the foundation of every physical security project?",
+   "o": [
+    "Deter, detect, delay and respond",
+    "Detect, delay, deny and respond",
+    "Deter, detect, delay and deny",
+    "Deter, deny, detect and defend"
+   ],
+   "e": "In this book the fourth D is deny: preventing the adversary from reaching the target. Response is not one of the four Ds; it appears separately, at the critical detection point."
+  },
+  "security-11-q1": {
+   "q": "The response force needs 5 minutes to arrive. If an intruder is detected at sensor A, barriers with 8 minutes of delay still remain; if detected at sensor B, 3 minutes of delay remain. Based on the critical detection point concept, which conclusion is correct?",
+   "o": [
+    "Detection at B is the timely one, because it occurs closer to the protected asset",
+    "Both detections are timely, because both occur before the adversary reaches the target",
+    "Neither is timely, because remaining delay must always be double the response time",
+    "Detection at A is the timely one, because remaining delay exceeds the response time"
+   ],
+   "e": "The critical detection point is where the remaining delay time exceeds the response force time. At A, 8 minutes remain against a 5-minute response; at B only 3 remain, so the response would arrive too late even though B is closer to the asset."
+  },
+  "security-11-q2": {
+   "q": "In a comprehensive security risk assessment, the team has already identified the assets and assigned them a relative value. According to the book's sequence, what is the NEXT step?",
+   "o": [
+    "Assess the threats relevant to those assets",
+    "Conduct the vulnerability assessment",
+    "Consider the potential impact of a loss event",
+    "Recommend mitigation measures within an integrated strategy"
+   ],
+   "e": "The sequence is: assets and their value, threats, vulnerabilities, impact of a loss event, summary and prioritization, and recommendations. The vulnerability assessment comes right after assessing threats, not before."
+  },
+  "security-11-q3": {
+   "q": "A CPTED (crime prevention through environmental design) team is classifying measures for an office complex. According to the book's classification, which one is a NATURAL measure?",
+   "o": [
+    "A perimeter fence around the parking lot",
+    "A wall with a gate at the main entrance",
+    "A neighborhood watch program",
+    "CCTV cameras covering the entrances"
+   ],
+   "e": "The book classifies gates and walls as natural measures, along with terrain, layout and landscaping; fencing, by contrast, is listed as mechanical, like locks and CCTV. Neighborhood watch is an organizational measure."
+  },
+  "security-11-q4": {
+   "q": "For a critical server room, the manager needs access control to confirm that the person entering is actually the authorized individual, not someone using that person's access means. According to the book, which method BEST meets this requirement?",
+   "o": [
+    "A valid credential (what you have)",
+    "A valid PIN (what you know)",
+    "A fingerprint reader (what you are)",
+    "A credential and PIN combined at one reader"
+   ],
+   "e": "Only biometrics verifies the person's identity; a credential or a PIN only proves that someone carries a valid credential or knows a valid number, and both can be used without the authorized person present. Combining them makes the system harder to defeat, but it still does not verify identity."
+  },
+  "security-11-q5": {
+   "q": "Senior management wants to shorten the design phase of a physical protection system (PPS) by assigning more staff and more budget. According to the book, why will this not substantially achieve the goal?",
+   "o": [
+    "Because the budget is fixed at the outset and can only change during implementation",
+    "Because it is a serial process: each phase and task must finish before the next one begins",
+    "Because a licensed architect oversees the design rather than the security team",
+    "Because acceptance tests set the minimum duration of the whole project"
+   ],
+   "e": "Design is a serial process: the output of each phase is the input of the next, so more staff or budget does not shorten it substantially. Only a design/build relationship with a contractor shortens it somewhat."
+  },
+  "security-11-q6": {
+   "q": "A company will install a sophisticated security system at a remote plant in a country where no local vendor can support it. According to the book, what should the manager do to keep the system from degrading?",
+   "o": [
+    "Rely on on-call repairs performed by the original installer of the system",
+    "Budget for maintenance, include spare parts in the original program and assign a dedicated technician",
+    "Choose the most advanced technology available, even if the local market cannot support it",
+    "Focus most support effort on the cheapest equipment, since it is the equipment that fails most often"
+   ],
+   "e": "If no local vendor can provide support, the book calls for a maintenance budget, spare parts in the original program and a dedicated maintenance technician. Relying on on-call repairs leads to premature system death through deferred maintenance."
+  },
+  "security-12-q0": {
+   "q": "According to the chapter, and consistent with the World Economic Forum (WEF) Global Risks Report 2021, which four global trends may become more critical in the coming years?",
+   "o": [
+    "Civil unrest, terrorism, pandemics and geopolitical risk",
+    "Terrorism, cybersecurity, trade war and livelihood crises",
+    "Civil unrest, terrorism, workplace violence and cybersecurity",
+    "Workplace violence, cybersecurity, illegal immigration and drug trafficking"
+   ],
+   "e": "The chapter's four trends are civil unrest, terrorism, workplace violence and cybersecurity, and the WEF agrees they will be major disruptors. The pandemic and geopolitical risk appear as context or aggravating factors, not as trends on the list."
+  },
+  "security-12-q1": {
+   "q": "A social justice march will pass in front of company headquarters. A vice president asks the security director to prevent protesters from gathering there. According to the book, what is the MOST appropriate approach?",
+   "o": [
+    "Coordinate with police to arrest anyone who approaches the building",
+    "Block the street with officers to force the march to change its route",
+    "Negotiate with the organizers so they cancel or postpone the protest",
+    "Focus on protecting people, property, information and reputation"
+   ],
+   "e": "The security director's job is not to stop people from protesting; if the company is in the path of a protest, the focus is on protecting people, property, information and reputation. Arrests are not the goal either: security is not law enforcement, and its aim is to prevent problems."
+  },
+  "security-12-q2": {
+   "q": "The security director learns that protests will take place in the city next week. According to the sequence the book proposes for civil unrest, what should the director do FIRST?",
+   "o": [
+    "Assess the threat based on intelligence collection",
+    "Select the protective approach that best fits the type of event",
+    "Apply concepts to mitigate the impact of the event and prevent harm",
+    "Immediately reinforce physical security at every facility"
+   ],
+   "e": "The sequence is: assess the threat based on intelligence collection, then select the protective approach that best fits, and then apply concepts to mitigate the impact. Choosing an approach or reinforcing measures before understanding the threat reverses the order."
+  },
+  "security-12-q3": {
+   "q": "Besides the physical protection of facilities and the safety of employees and patrons, what other impact of civil unrest does the book highlight for the security professional?",
+   "o": [
+    "The risk of cyberwarfare against the company",
+    "Reputational risk to the company",
+    "Legal liability for negligence",
+    "Intellectual property theft by external actors"
+   ],
+   "e": "The book points to an immediate impact, physical protection and the safety of employees and patrons, and in addition reputational risk. Liability for negligence is the main business concern in workplace violence, not in civil unrest."
+  },
+  "security-12-q4": {
+   "q": "Which definition of terrorism cited in the book requires the act to advance a political, religious, racial or ideological cause, and covers acts inside or outside the country?",
+   "o": [
+    "The United Nations panel definition",
+    "The Arab Convention for the Suppression of Terrorism",
+    "The FBI definition of domestic terrorism",
+    "The UK Crown Prosecution Service definition"
+   ],
+   "e": "The UK Crown Prosecution Service definition requires a political, religious, racial or ideological cause and covers acts inside or outside the United Kingdom. The FBI definition of domestic terrorism also refers to ideological goals, but it is defined by domestic influences."
+  },
+  "security-12-q5": {
+   "q": "A U.S.-based group commits violent acts inspired by a designated foreign terrorist organization. Under the FBI definition based on the U.S. Code, how is this classified?",
+   "o": [
+    "Domestic terrorism, because the acts take place inside the U.S.",
+    "International terrorism, because a foreign organization inspires it",
+    "Domestic terrorism, because the perpetrators reside in the country",
+    "International terrorism only if a foreign nation sponsors it"
+   ],
+   "e": "The FBI distinguishes by the source of inspiration: international terrorism is committed by individuals or groups inspired by, or associated with, designated foreign terrorist organizations or nations; domestic terrorism stems from domestic influences. State sponsorship is not required, and neither the location of the acts nor the perpetrators' residence is the criterion."
+  },
+  "security-12-q6": {
+   "q": "A professional protects office buildings in several countries. According to the book, what is the primary vector of terrorism that should be kept in mind when assessing these properties?",
+   "o": [
+    "Causing the greatest possible economic damage to critical infrastructure",
+    "Attacking the public's sense of security where people live or work",
+    "Forcing a government to change its policy through hostage taking",
+    "Recruiting new members for long-standing conflicts in the region"
+   ],
+   "e": "The primary objective of terrorism is to attack the public's sense of security where people live or work, and also in familiar places they visit; that is why any building near an important economic or political symbol is a possible target. Critical infrastructure attacks are only one of the tactics."
+  },
+  "security-12-q7": {
+   "q": "The 2020 ASIS standard on workplace violence and active assailant proposes a holistic and strategic approach. What are its four phases?",
+   "o": [
+    "Prevention, detection, response and recovery",
+    "Deterrence, detection, delay and response",
+    "Prevention, intervention, response and aftermath",
+    "Assessment, intervention, response and business continuity"
+   ],
+   "e": "The four phases of the ASIS standard are prevention, intervention, response and aftermath. 'Recovery' sounds similar to aftermath but is not the standard's term, and detection is not one of its phases."
+  },
+  "security-12-q8": {
+   "q": "A security manager is asked to build a workplace violence prevention and intervention (WVPI) program from scratch. According to the book, what is the MOST important step to launch it?",
+   "o": [
+    "Train all employees to recognize warning signs of risk",
+    "Open multiple confidential reporting channels for employees",
+    "Create a policy backed by senior management",
+    "Strengthen access control at every facility"
+   ],
+   "e": "The book says the most important step is to create a policy backed by senior management, which also provides the resources, funding and authorizations. Offering multiple reporting channels is something the policy must establish, not the starting point."
+  },
+  "security-12-q9": {
+   "q": "Human Resources presents a draft workplace violence policy titled 'Zero Tolerance.' According to the book, what should the security professional recommend?",
+   "o": [
+    "Keep the title, because it makes clear that violence is a serious priority",
+    "Avoid that term, because it reduces reporting and decreases safety",
+    "Keep it only if the policy also prohibits weapons on the premises",
+    "Avoid it, because the policy should not discipline verbal threats"
+   ],
+   "e": "The book calls for avoiding the term 'zero tolerance' because it reduces reporting and decreases safety. The policy must still define prohibited conduct and impose disciplinary measures, so the last option is false."
+  },
+  "security-12-q10": {
+   "q": "An employee reports that her former partner has threatened her and that she holds a restraining order against him. The branch manager believes this is a personal matter external to the company. According to the book, what is the correct position?",
+   "o": [
+    "The manager is right: the employer's duty covers only internal threats",
+    "The manager is right, unless the threat is carried out on the premises",
+    "The employer must protect the potential victim, whether the threat is internal or external",
+    "Referring the case to police is enough, because security is not law enforcement"
+   ],
+   "e": "The duty to provide a safe workplace generally does not distinguish between internal and external sources of danger; if there is reasonable cause to believe someone may commit violence, the employer must protect the potential victim. That is why the policy requires reporting protective or restraining orders."
+  },
+  "security-12-q11": {
+   "q": "According to the ASIS standard's definition, what must exist for a behavior to be considered workplace violence (WPV)?",
+   "o": [
+    "An overt act of violence, such as a physical assault",
+    "An internal employment relationship between aggressor and victim",
+    "A nexus between the behavior and the physical safety of employees",
+    "A threat formally reported to the Human Resources department"
+   ],
+   "e": "The ASIS standard defines workplace violence as a spectrum of behaviors that create a reasonable concern for safety from violence, and it requires a nexus between the behavior and the physical safety of employees. It does not require an overt act, because it includes threats and other conduct, and it may arise from any internal or external relationship."
+  },
+  "security-12-q12": {
+   "q": "After a ransomware attack, management asks for an estimate of its cost. According to the book, which component usually weighs the MOST?",
+   "o": [
+    "IT time and expense to remove the malware and restore the systems",
+    "The value to the company of the trade secrets that were affected",
+    "Lost staff productivity for as long as the disruption lasts",
+    "Insurance premiums that rise after the cybersecurity incident"
+   ],
+   "e": "The cost of a virus or ransomware combines lost staff productivity and IT time and expense to clean it up and restore availability; lost productivity usually costs more than the cleanup. The value of a trade secret measures a different incident: its theft by a cyberthief."
+  },
+  "security-12-q13": {
+   "q": "An accountant receives an urgent email that appears to come from the CEO, asking for funds to be wired immediately to a new account. According to the book, which type of attack BEST describes this pattern?",
+   "o": [
+    "Phishing to obtain corporate card details",
+    "A supply chain attack",
+    "Ransomware that encrypts the finance department's files",
+    "Business email compromise (BEC)"
+   ],
+   "e": "In BEC the attacker impersonates an executive to initiate a transfer to an account controlled by criminals. Phishing, by contrast, impersonates a trusted organization to request personal information, not to order a transfer."
+  },
+  "security-12-q14": {
+   "q": "Which BEST describes the mechanism of the SolarWinds attack revealed by FireEye in December 2020?",
+   "o": [
+    "Encrypting federal agencies' files and demanding payment to decrypt them",
+    "Compromising a vendor's software to reach its customers' systems",
+    "Impersonating executives by email to order transfers to criminal accounts",
+    "Using a privileged administrator account to view security cameras"
+   ],
+   "e": "SolarWinds was a supply chain attack: the actor infiltrated the vendor's software supply chain, compromised a product and accessed the systems of FireEye and other customers. The privileged administrator account belongs to the 2021 case of the 150,000 cameras."
+  },
+  "security-12-q15": {
+   "q": "A remote employee regularly connects with a work computer over public Wi-Fi in coffee shops. According to the book, which measure is appropriate?",
+   "o": [
+    "Discourage public Wi-Fi and, if it is used, require a virtual private network (VPN)",
+    "Prohibit remote work until the employee has a secure home network",
+    "Allow the employee to work from a personal device so company equipment is not exposed",
+    "Provide a laptop privacy screen filter and keep the same connection"
+   ],
+   "e": "The book calls for discouraging public Wi-Fi and, if it is used with the work computer, requiring a VPN. Unapproved personal devices are themselves a risk, because they bypass network defenses; a privacy filter protects the screen, not the connection."
+  },
+  "security-12-q16": {
+   "q": "According to the book, what is the objective of a prevention program to protect the organization's sensitive information?",
+   "o": [
+    "To completely eliminate the risk of intrusion into company networks and systems, whatever the cost",
+    "To assign a specific executive the responsibility for managing all information security incidents",
+    "To manage cost-effectively the risk that critical information is compromised, altered or made unavailable",
+    "To reduce recovery costs after an incident through frequent backups and insurance against attacks"
+   ],
+   "e": "The objective is to manage prudently and cost-effectively the risk that critical information is compromised, altered without authorization or made unavailable. Having a specific executive responsible for management is the feature of a formal program, not its objective."
+  },
+  "security-12-q17": {
+   "q": "A well-dressed, friendly person arrives at reception claiming to be a repair technician, shows a credential and asks for access to the telecommunications room. According to the CISA definition cited in the book, which tactic is MOST likely?",
+   "o": [
+    "Phishing by email or a fake website",
+    "Social engineering",
+    "Business email compromise (BEC)",
+    "Impersonation with synthetic speech"
+   ],
+   "e": "Social engineering uses human interaction to obtain or compromise information or systems; the attacker may seem modest and respectable, claim to be a repair technician and even show credentials. Phishing exploits social engineering, but through email or malicious websites, not in person."
+  },
+  "security-A-q0": {
+   "q": "Standards developing organizations (SDOs) follow four principles when developing a standard. According to the book, what are they?",
+   "o": [
+    "Consensus, openness, interoperability and continual improvement",
+    "Consensus, openness, due process and transparency",
+    "Consensus, independence, due process and accountability",
+    "Openness, transparency, resilience and consistency"
+   ],
+   "e": "The four development principles are consensus, openness, due process and transparency. Interoperability and continual improvement do appear in the chapter, but as a benefit of standards and as the aim of management systems."
+  },
+  "security-A-q1": {
+   "q": "A municipality incorporates into its building code an NFPA (National Fire Protection Association) standard that started out as voluntary. According to the book, how is that standard now classified?",
+   "o": [
+    "Voluntary, because a private industry body issued it",
+    "Purely statutory or regulatory, because authorities now enforce it",
+    "Mixed, because a voluntary standard was incorporated into a regulation",
+    "A management system standard, because it governs organizational processes"
+   ],
+   "e": "When a voluntary standard is incorporated into laws or regulations, the boundary blurs and it is called a mixed standard; the book cites fire, construction and life safety as examples. That is why not all NFPA standards are voluntary."
+  },
+  "security-A-q2": {
+   "q": "A security manager knows that a certain standard is technically voluntary. Even so, according to the book, what situation can make it mandatory in practice?",
+   "o": [
+    "The insurer setting the availability and cost of coverage based on compliance",
+    "Publication by ISO, whose standards are enforced by formal authorities",
+    "Inclusion by ASIS International in its library of standards and guidelines",
+    "Approval by an accredited SDO through stakeholder consensus"
+   ],
+   "e": "Insurers set the availability and cost of casualty insurance based on the use of approved materials or standardized practices, and contracts may require standards; adoption is thus increasingly client driven. ISO standards are voluntary: those enforced by formal authorities are statutory or regulatory standards."
+  },
+  "security-A-q3": {
+   "q": "A team implemented a new visitor control procedure and confirmed that it produces results consistent with the plan and solves the problem. According to the PDCA (Plan-Do-Check-Act) cycle, what should happen next?",
+   "o": [
+    "Identify and analyze problems and assets, and rank them by importance",
+    "Develop a detailed action plan to implement the procedure",
+    "Standardize the solution across the organization and define new problems",
+    "Compare the results against the plan to identify deviations"
+   ],
+   "e": "The Check step has already been done; in the Act phase, if the solutions resolve the problems, they are standardized across the organization, the problem list is reviewed and new problems are defined, and the cycle starts again. Comparing against the plan is the Check phase, which the team has already completed."
+  },
+  "security-A-q4": {
+   "q": "A manager is looking for technical standards to select locks, alarms and access control systems. According to the book, which organization issues several standards on this type of security equipment?",
+   "o": [
+    "NFPA (National Fire Protection Association)",
+    "Illuminating Engineering Society",
+    "Electronic Industries Association",
+    "UL (Underwriters Laboratories)"
+   ],
+   "e": "The book credits UL with several standards on security equipment such as locks, alarms and access control systems. The Electronic Industries Association covers electronic components and products in general, and the Illuminating Engineering Society covers lighting."
+  }
+ }
 }

@@ -18,7 +18,7 @@ function toast(msg) { const el = $('#toast'); el.textContent = msg; el.classList
 
 // ---------- avance (localStorage) ----------
 const KEY = 'cpp-estudio-v1';
-const blank = () => ({ read: {}, cards: {}, qa: {}, best: {}, last: {}, apos: {}, adone: {}, scroll: {}, sims: [], speed: 1, lastCh: null, lang: 'es', name: '', time: [] });
+const blank = () => ({ read: {}, cards: {}, qa: {}, best: {}, last: {}, apos: {}, adone: {}, scroll: {}, sims: [], speed: 1, lastCh: null, lang: 'es', name: '', time: [], chTime: {}, rday: {}, examDate: '', exam: null });
 let S = blank();
 try { S = Object.assign(blank(), JSON.parse(localStorage.getItem(KEY) || '{}')); } catch (e) { /* sin datos */ }
 let saveT;
@@ -41,7 +41,20 @@ const T = {
     mRead: 'Capítulos leídos', mCards: 'Fichas dominadas', mQs: 'Preguntas acertadas',
     cont: 'Continuar', startStudy: 'Empezar a estudiar', startSub: 'Abre el primer capítulo',
     quick: 'Acceso rápido', qSim: 'Simulacro', qSimS: 'Preguntas mezcladas', qCards: 'Fichas', qCardsS: n => `${n} pendientes`,
-    qWrong: 'Mis fallos', qWrongS: n => n ? `${n} por repasar` : 'Ninguno todavía', qAudio: 'Audios', qAudioS: 'Escucha sin conexión',
+    qWrong: 'Mis fallos', qWrongS: n => n ? `${n} por repasar` : 'Ninguno todavía', qAudio: 'Audios', qAudioS: 'Escucha sin conexión', qPlan: 'Plan', qPlanS: n => `${n} capítulos por leer`, qPlanH: h => `~${h} de lectura`,
+    examKicker: 'Examen tipo real', examH: 'Mismo formato que el examen de ASIS',
+    examSub: 'Preguntas de los siete dominios con su peso oficial y al mismo ritmo que el real: 225 preguntas en 4 horas. No ves si aciertas hasta el final.',
+    examSize: (n, h) => `${n} preguntas, ${h}`, examStart: 'Empezar examen', examOn: 'Examen en curso', examOnSub: (i, n, l) => `Vas en la pregunta ${i} de ${n}. Quedan ${l}.`,
+    examContinue: 'Continuar', examDrop: 'Abandonar', examDropQ: '¿Abandonar el examen en curso? No se guardará el resultado.',
+    examEnd: 'Terminar examen', examAnswered: (a, n) => `${a} de ${n} respondidas`, examUnanswered: n => `Te faltan ${n} preguntas sin responder; cuentan como falladas. ¿Terminar?`,
+    examTimeout: 'Se acabó el tiempo', byDomain: 'Por dominio', yourAns: 'Tu respuesta', noAns: 'Sin responder', timeLeft: 'Tiempo restante', practice: 'Práctica libre', lExam: 'Examen tipo real',
+    planTitle: 'Plan de estudio', planSize: 'El tamaño del temario', planPages: 'Páginas de los capítulos', planWords: 'Palabras de resumen', planQs: 'Preguntas tipo examen',
+    planPace: 'Tu ritmo', planWpm: (w, n) => `Lees unas ${w} palabras por minuto (medido en ${n} ${n === 1 ? 'capítulo' : 'capítulos'}).`,
+    planLeft: 'Lectura que te falta', planPerDay: 'Lees al día (promedio)', planFinish: d => `A ese paso terminarías la primera lectura completa hacia el ${d}.`,
+    planNoPace: 'Lee un capítulo en la app y márcalo como leído: con el tiempo que pasaste en él calculo tu ritmo y cuántas horas te faltan.',
+    planExam: 'Fecha de examen', planExamLbl: 'Fecha (opcional)', planExamNote: 'Cuando la tengas, ponla aquí y te digo cuánto te toca por semana.',
+    planDaysLeft: n => `Faltan ${n} días.`, planChWeek: n => `Para leer lo que falta: ${n} capítulos por semana.`, planMinDay: m => `A tu ritmo, unos ${m} min de lectura al día.`,
+    planPast: 'Esa fecha ya pasó.', planVol: (p, n) => `${p} páginas, ${n} capítulos`,
     volumes: 'Tomos', nChapters: n => `${n} capítulos`, factRead: (a, b) => `${a}/${b} leídos`, factCards: (a, b) => `${a}/${b} fichas`, factTest: p => `${p}% test`,
     simVol: 'Simulacro del tomo', cardsN: n => `Fichas (${n})`, chapters: 'Capítulos',
     pages: p => `págs. ${p}`, testBest: b => `test ${b}%`, testNone: 'test sin hacer', ojoN: n => `${n} ojo`,
@@ -104,7 +117,20 @@ const T = {
     mRead: 'Chapters read', mCards: 'Flashcards mastered', mQs: 'Questions answered right',
     cont: 'Continue', startStudy: 'Start studying', startSub: 'Open the first chapter',
     quick: 'Quick access', qSim: 'Mock exam', qSimS: 'Mixed questions', qCards: 'Flashcards', qCardsS: n => `${n} to review`,
-    qWrong: 'My mistakes', qWrongS: n => n ? `${n} to review` : 'None yet', qAudio: 'Audio', qAudioS: 'Listen offline',
+    qWrong: 'My mistakes', qWrongS: n => n ? `${n} to review` : 'None yet', qAudio: 'Audio', qAudioS: 'Listen offline', qPlan: 'Plan', qPlanS: n => `${n} chapters to read`, qPlanH: h => `~${h} of reading`,
+    examKicker: 'Exam simulation', examH: 'Same format as the ASIS exam',
+    examSub: 'Questions from the seven domains with their official weights, at the same pace as the real exam: 225 questions in 4 hours. You only see your score at the end.',
+    examSize: (n, h) => `${n} questions, ${h}`, examStart: 'Start exam', examOn: 'Exam in progress', examOnSub: (i, n, l) => `You are on question ${i} of ${n}. ${l} left.`,
+    examContinue: 'Continue', examDrop: 'Abandon', examDropQ: 'Abandon the exam in progress? The result will not be saved.',
+    examEnd: 'Finish exam', examAnswered: (a, n) => `${a} of ${n} answered`, examUnanswered: n => `${n} questions are unanswered and count as wrong. Finish anyway?`,
+    examTimeout: 'Time is up', byDomain: 'By domain', yourAns: 'Your answer', noAns: 'Not answered', timeLeft: 'Time left', practice: 'Free practice', lExam: 'Exam simulation',
+    planTitle: 'Study plan', planSize: 'How big the syllabus is', planPages: 'Chapter pages', planWords: 'Summary words', planQs: 'Exam-style questions',
+    planPace: 'Your pace', planWpm: (w, n) => `You read about ${w} words per minute (measured over ${n} ${n === 1 ? 'chapter' : 'chapters'}).`,
+    planLeft: 'Reading left', planPerDay: 'Daily reading (average)', planFinish: d => `At that pace you would finish your first full read-through around ${d}.`,
+    planNoPace: 'Read a chapter in the app and mark it as read: from the time you spent on it I calculate your pace and how many hours you have left.',
+    planExam: 'Exam date', planExamLbl: 'Date (optional)', planExamNote: 'Once you have it, set it here and I will tell you how much to cover each week.',
+    planDaysLeft: n => `${n} days left.`, planChWeek: n => `To read what is left: ${n} chapters per week.`, planMinDay: m => `At your pace, about ${m} min of reading a day.`,
+    planPast: 'That date has passed.', planVol: (p, n) => `${p} pages, ${n} chapters`,
     volumes: 'Volumes', nChapters: n => `${n} chapters`, factRead: (a, b) => `${a}/${b} read`, factCards: (a, b) => `${a}/${b} cards`, factTest: p => `${p}% test`,
     simVol: 'Volume mock exam', cardsN: n => `Flashcards (${n})`, chapters: 'Chapters',
     pages: p => `pp. ${p}`, testBest: b => `test ${b}%`, testNone: 'test not taken', ojoN: n => `${n} ${n === 1 ? 'trap' : 'traps'}`,
@@ -179,6 +205,7 @@ const ICONS = {
   audio: '<path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4" height="7" rx="1.5"/><rect x="17" y="14" width="4" height="7" rx="1.5"/>',
   check: '<path d="M5 12.5l4.5 4.5L19 7.5"/>',
   search: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/>',
+  plan: '<path d="M4 5h16M4 12h16M4 19h10"/><path d="M17 17l2 2 3-4"/>',
   clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/>',
 };
 const icon = (k, cls = '') => `<span class="ic ${cls}">${svg(ICONS[k] || ICONS.business)}</span>`;
@@ -190,12 +217,13 @@ const CH = {};          // id capítulo -> {c, d, i}
 const CARD = {};        // id ficha -> ficha
 const ALLCARDS = [];
 const ALLQ = [];
+const QID = {};        // id pregunta -> pregunta
 function indexData() {
   for (const d of Object.values(DATA)) {
     d.chapters.forEach((c, i) => {
       CH[c.id] = { c, d, i };
       c.cards.forEach((k, j) => { k.id = `${c.id}-k${j}`; k.ch = c; k.d = d; CARD[k.id] = k; ALLCARDS.push(k); });
-      c.quiz.forEach((q, j) => { if (q.auto) q.dist = q.d; q.id = `${c.id}-q${j}`; q.ch = c; q.d = d; ALLQ.push(q); });
+      c.quiz.forEach((q, j) => { if (q.auto) q.dist = q.d; q.id = `${c.id}-q${j}`; q.ch = c; q.d = d; ALLQ.push(q); QID[q.id] = q; });
       c.text = null;
     });
   }
@@ -305,6 +333,7 @@ let SESSION = null;
 let scrollSaver = null;
 function route(keepScroll) {
   SESSION = null;
+  clockFlush(Date.now()); READING = null;
   if (scrollSaver) { window.removeEventListener('scroll', scrollSaver); scrollSaver = null; }
   const h = location.hash.replace(/^#\/?/, '');
   const [path, qs] = h.split('?');
@@ -321,6 +350,7 @@ function route(keepScroll) {
       case 'buscar': setTab('buscar'); return searchView(q.get('q') || '');
       case 'audios': setTab('audios'); return audiosView();
       case 'ajustes': setTab('ajustes'); return settingsView();
+      case 'plan': setTab('home'); return planView();
       case 'tiempo': setTab('ajustes'); return timeView(q.get('todo') === '1');
       default: location.hash = '#/';
     }
@@ -358,7 +388,7 @@ function home() {
       <a class="tile" href="#/test">${icon('sim')}<b>${esc(t('qSim'))}</b><span>${esc(t('qSimS'))}</span></a>
       <a class="tile" href="#/fichas/pend">${icon('cards')}<b>${esc(t('qCards'))}</b><span>${esc(t('qCardsS', pend))}</span></a>
       <a class="tile" href="#/test?scope=fallos">${icon('wrong')}<b>${esc(t('qWrong'))}</b><span>${esc(t('qWrongS', wrong))}</span></a>
-      <a class="tile" href="#/audios">${icon('audio')}<b>${esc(t('qAudio'))}</b><span>${esc(t('qAudioS'))}</span></a>
+      <a class="tile" href="#/plan">${icon('plan')}<b>${esc(t('qPlan'))}</b><span>${esc((() => { const p = planInfo(); return p.leftMs ? t('qPlanH', fmtHM(p.leftMs)) : t('qPlanS', p.unread.length); })())}</span></a>
     </div>
     <h3 class="label">${esc(t('volumes'))}</h3>
     <div class="list">${IDX.map(d => {
@@ -425,6 +455,7 @@ function chapterView(id, tab, q, keepScroll) {
   const langNote = key => EN() ? `<div class="langnote"><b>ES</b><span>${esc(t(key))}</span></div>` : '';
 
   if (tab === 'resumen') {
+    READING = id;
     const idea = ideaOf(c);
     pane.innerHTML = `
       <section class="panel stripe chead">${meta}<h2>${esc(chT(c))}</h2>
@@ -634,17 +665,139 @@ function startQuiz(questions, area, opts = {}) {
   draw();
 }
 
+// ---------- examen tipo real ----------
+// Dominios y pesos oficiales del CPP (ASIS, CPP Body of Knowledge). Cada capítulo cuenta para uno.
+const EXAM = [
+  { k: 'spp', w: 22, es: 'Principios y prácticas de seguridad', en: 'Security Principles and Practices' },
+  { k: 'bpp', w: 15, es: 'Principios y prácticas de negocio', en: 'Business Principles and Practices' },
+  { k: 'inv', w: 9, es: 'Investigaciones', en: 'Investigations' },
+  { k: 'per', w: 11, es: 'Seguridad del personal', en: 'Personnel Security' },
+  { k: 'phy', w: 16, es: 'Seguridad física', en: 'Physical Security' },
+  { k: 'inf', w: 14, es: 'Seguridad de la información', en: 'Information Security' },
+  { k: 'cri', w: 13, es: 'Gestión de crisis', en: 'Crisis Management' },
+];
+const exName = x => EN() ? x.en : x.es;
+function examDomain(c) {
+  const [dom] = c.id.split('-');
+  if (dom === 'security') return { 5: 'inf', 7: 'bpp', 8: 'cri', 9: 'inv', 10: 'per', 11: 'phy' }[c.num] || 'spp';
+  return { business: 'bpp', physical: 'phy', personnel: 'per', investigations: 'inv', crisis: 'cri' }[dom];
+}
+const EXAM_SIZES = [225, 100, 50];
+const examMs = n => Math.round(n * 4 * 3600e3 / 225);   // mismo ritmo que el real: 225 preguntas en 4 horas
+const fmtClock = ms => { const s = Math.max(0, Math.ceil(ms / 1000)); return `${Math.floor(s / 3600)}:${String(Math.floor(s % 3600 / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`; };
+const fmtHM = ms => { const m = Math.round(ms / 60000); return m >= 60 ? `${Math.floor(m / 60)} h${m % 60 ? ' ' + String(m % 60).padStart(2, '0') + ' min' : ''}` : `${m} min`; };
+function buildExam(n) {
+  const raw = EXAM.map(x => n * x.w / 100), quota = raw.map(Math.floor);
+  let rest = n - quota.reduce((a, b) => a + b, 0);
+  raw.map((v, i) => [v - Math.floor(v), i]).sort((a, b) => b[0] - a[0]).forEach(([, i]) => { if (rest > 0) { quota[i]++; rest--; } });
+  const ids = [];
+  EXAM.forEach((x, i) => {
+    const pool = ALLQ.filter(q => examDomain(q.ch) === x.k);
+    ids.push(...shuffle(pool.filter(q => !q.auto)).concat(shuffle(pool.filter(q => q.auto))).slice(0, quota[i]).map(q => q.id));
+  });
+  const order = shuffle(ids);
+  return { ids: order, ord: order.map(id => shuffle(Q(QID[id]).o.map((_, j) => j))), picks: order.map(() => null), i: 0, t0: Date.now(), lim: examMs(n), n };
+}
+function startExam(area, onExit) {
+  const X = S.exam;
+  if (!X) return onExit();
+  X.ids.forEach((id, j) => { if (!QID[id]) { X.picks[j] = null; } });
+  const ses = { kind: 'exam' };
+  SESSION = ses;
+  const letters = 'ABCDEFG';
+  const left = () => X.t0 + X.lim - Date.now();
+  const answered = () => X.picks.filter(p => p != null).length;
+  const timer = setInterval(() => {
+    if (SESSION !== ses || S.exam !== X) return clearInterval(timer);
+    const l = left(), el = $('#xTime', area);
+    if (el) { el.textContent = fmtClock(l); el.classList.toggle('low', l < 600000); }
+    if (l <= 0) { clearInterval(timer); finish(true); }
+  }, 1000);
+  const draw = () => {
+    const i = X.i, q = QID[X.ids[i]];
+    if (!q) { X.i = Math.min(X.ids.length - 1, i + 1); return i + 1 < X.ids.length ? draw() : finish(false); }
+    const R = Q(q), pick = X.picks[i];
+    area.innerHTML = `
+      <div class="qhead"><b>${esc(t('qOf', i + 1, X.ids.length))}</b><span class="xtime ${left() < 600000 ? 'low' : ''}" id="xTime" aria-label="${esc(t('timeLeft'))}">${fmtClock(left())}</span></div>
+      ${meter(pct(answered(), X.ids.length), 'qbar')}
+      <section class="panel stripe qcard">
+        <p class="prompt">${esc(R.p)}</p>
+        ${X.ord[i].map((j, n) => `<button class="opt ${pick === j ? 'sel' : ''}" data-j="${j}"><span class="l">${letters[n]}</span><span class="o">${esc(R.o[j])}</span></button>`).join('')}
+      </section>
+      <div class="row" style="margin-top:10px">
+        <button class="btn" id="xPrev" ${i ? '' : 'disabled'}>‹ ${esc(t('prev'))}</button>
+        ${i + 1 < X.ids.length ? `<button class="btn red" id="xNext">${esc(t('next'))} ›</button>` : `<button class="btn red" id="xEnd">${esc(t('examEnd'))}</button>`}
+      </div>
+      <p class="note" style="text-align:center" id="xCount">${esc(t('examAnswered', answered(), X.ids.length))}</p>
+      <button class="quit" id="xQuit">${esc(t('examEnd'))}</button>`;
+    $$('.opt', area).forEach(b => b.onclick = () => {
+      X.picks[i] = +b.dataset.j; save();
+      $$('.opt', area).forEach(o => o.classList.toggle('sel', o === b));
+      $('#xCount', area).textContent = t('examAnswered', answered(), X.ids.length);
+    });
+    const go = d => { X.i = i + d; save(); draw(); window.scrollTo(0, 0); };
+    $('#xPrev', area).onclick = () => go(-1);
+    $('#xNext', area)?.addEventListener('click', () => go(1));
+    const end = () => { const un = X.ids.length - answered(); if (un && !confirm(t('examUnanswered', un))) return; finish(false); };
+    $('#xEnd', area)?.addEventListener('click', end);
+    $('#xQuit', area).onclick = end;
+  };
+  const finish = timeout => {
+    clearInterval(timer);
+    if (S.exam !== X) return;
+    const used = Math.min(X.lim, Date.now() - X.t0);
+    const by = {}; let ok = 0;
+    const wrong = [];
+    X.ids.forEach((id, j) => {
+      const q = QID[id]; if (!q) return;
+      const k = examDomain(q.ch), pick = X.picks[j], good = pick != null && pick === correctIdx(q);
+      by[k] = by[k] || [0, 0]; by[k][1]++;
+      if (good) { ok++; by[k][0]++; } else wrong.push({ q, pick });
+      if (pick != null) { const r = S.qa[q.id] || { n: 0, w: 0 }; r.n++; r.ok = good; if (!good) r.w++; r.t = Date.now(); S.qa[q.id] = r; }
+    });
+    const n = X.ids.filter(id => QID[id]).length;
+    S.sims.unshift({ t: Date.now(), n, ok, s: 'exam', secs: Math.round(used / 1000), dom: by }); S.sims = S.sims.slice(0, 40);
+    S.exam = null; save(true);
+    const p = pct(ok, n);
+    area.innerHTML = `
+      <section class="panel result"><div class="ring" style="--p:${p}"><b>${p}%</b></div><div><h3>${esc(t('resOk', ok, n))}</h3><p>${esc(t('resTime', fmtTime(used / 1000)))}${timeout ? '. ' + esc(t('examTimeout')) : ''}</p></div></section>
+      <h3 class="label">${esc(t('byDomain'))}</h3>
+      <section class="panel metrics" style="margin:0">${EXAM.filter(x => by[x.k]).map(x => `<div class="metric"><div class="top"><span>${esc(exName(x))}</span><b>${by[x.k][0]}/${by[x.k][1]}</b></div>${meter(pct(by[x.k][0], by[x.k][1]))}</div>`).join('')}</section>
+      <div class="row" style="margin-top:10px">${wrong.length ? `<button class="btn red" id="rWrong">${esc(t('retryMissed', wrong.length))}</button>` : ''}<button class="btn" id="rBack">${esc(t('close'))}</button></div>
+      ${wrong.length ? `<h3 class="label">${esc(t('toReview'))}</h3><div class="list review">${wrong.map(({ q, pick }) => { const R = Q(q); return `<div class="item"><div class="grow"><div class="t">${esc(R.p)}</div>
+        ${pick != null ? `<div class="s" style="color:var(--red-ink)">${esc(t('yourAns'))}: ${esc(R.o[pick])}</div>` : `<div class="s">${esc(t('noAns'))}</div>`}
+        <div class="s ans">${esc(R.o[R.c])}</div>${R.e ? `<div class="s ex">${esc(R.e)}</div>` : ''}
+        <div class="s"><a href="#/c/${q.ch.id}/resumen">${esc(domT(q.d))}, ${esc(chShort(q.ch))}</a></div></div></div>`; }).join('')}</div>` : ''}`;
+    window.scrollTo(0, 0);
+    $('#rWrong', area)?.addEventListener('click', () => startQuiz(wrong.map(x => x.q), area, { ctx: true, label: 'fallos', onExit }));
+    $('#rBack', area).onclick = onExit;
+  };
+  if (left() <= 0) return finish(true);
+  ses.redraw = draw;
+  draw();
+}
+
 function testSetup(q) {
   header(t('simTitle'), null);
   const ready = IDX.filter(d => d.ready && DATA[d.id]);
   let scope = q.get('scope') || 'all';
-  let n = 25;
+  let n = 25, size = 225;
   const pool = () => scope === 'fallos' ? wrongQs() : scope === 'all' ? ALLQ : ALLQ.filter(x => x.d.id === scope);
   const draw = () => {
+    SESSION = null;
     const P = pool();
+    const X = S.exam;
     view.innerHTML = `
-      <section class="panel stripe hero" id="simHero"><div class="kicker">${esc(t('simTitle'))}</div><h2>${esc(t('simH'))}</h2><p class="sub">${esc(t('simSub'))}</p></section>
-      <section class="panel setup" id="simSetup" style="margin-top:10px">
+      ${X ? `<section class="panel stripe hero" id="simHero"><div class="kicker">${esc(t('examKicker'))}</div><h2>${esc(t('examOn'))}</h2>
+          <p class="sub">${esc(t('examOnSub', X.i + 1, X.ids.length, fmtClock(X.t0 + X.lim - Date.now())))}</p>
+          <div class="row" style="margin-top:16px"><button class="btn red" id="xGo">${esc(t('examContinue'))}</button><button class="btn" id="xDrop">${esc(t('examDrop'))}</button></div></section>`
+        : `<section class="panel stripe hero" id="simHero"><div class="kicker">${esc(t('examKicker'))}</div><h2>${esc(t('examH'))}</h2>
+          <p class="sub">${esc(t('examSub'))}</p>
+          <div class="chips" id="xs" style="margin-top:16px">${EXAM_SIZES.map(v => `<button class="chip ${size === v ? 'on' : ''}" data-v="${v}">${esc(t('examSize', v, fmtHM(examMs(v))))}</button>`).join('')}</div>
+          <button class="btn red block" id="xGo" style="margin-top:16px">${esc(t('examStart'))}</button></section>`}
+      <h3 class="label" id="pLabel">${esc(t('practice'))}</h3>
+      <section class="panel setup" id="simSetup">
+        <p class="note" style="margin-top:0">${esc(t('simSub'))}</p>
         <div class="k">${esc(t('include'))}</div>
         <div class="chips" id="sc">
           <button class="chip ${scope === 'all' ? 'on' : ''}" data-v="all">${esc(t('everything'))}</button>
@@ -659,22 +812,101 @@ function testSetup(q) {
       ${S.sims.length ? `<div id="hist"><h3 class="label">${esc(t('recent'))}</h3><div class="list">${S.sims.slice(0, 8).map(s => `<div class="item"><span class="ic num" style="width:auto;padding:0 10px;min-width:52px">${pct(s.ok, s.n)}%</span><div class="grow"><div class="t">${esc(labelOf(s.s))}</div><div class="s">${s.ok}/${s.n}, ${new Date(s.t).toLocaleDateString(locale(), { day: 'numeric', month: 'short' })}, ${fmtTime(s.secs)}</div></div></div>`).join('')}</div></div>` : ''}`;
     $$('#sc .chip').forEach(b => b.onclick = () => { scope = b.dataset.v; draw(); });
     $$('#nn .chip').forEach(b => b.onclick = () => { n = +b.dataset.v; draw(); });
-    const begin = qs => {
-      $('#simHero').hidden = true; $('#simSetup').hidden = true;
-      if ($('#hist')) $('#hist').hidden = true;
-      startQuiz(qs, $('#quizArea'), { ctx: true, label: scope, onExit: draw });
-    };
+    $$('#xs .chip').forEach(b => b.onclick = () => { size = +b.dataset.v; draw(); });
+    const hideSetup = () => ['#simHero', '#simSetup', '#hist', '#pLabel'].forEach(s => { if ($(s)) $(s).hidden = true; });
+    const begin = qs => { hideSetup(); startQuiz(qs, $('#quizArea'), { ctx: true, label: scope, onExit: draw }); };
+    const beginExam = () => { hideSetup(); startExam($('#quizArea'), draw); window.scrollTo(0, 0); };
     $('#go').onclick = () => begin(shuffle(P).slice(0, n || P.length));
+    $('#xGo').onclick = () => { if (!S.exam) { S.exam = buildExam(size); save(true); } beginExam(); };
+    $('#xDrop')?.addEventListener('click', () => { if (confirm(t('examDropQ'))) { S.exam = null; save(true); draw(); } });
     if (KEEP?.kind === 'quiz') begin([]);
+    else if (KEEP?.kind === 'exam' && S.exam) { KEEP = null; beginExam(); }
   };
   draw();
 }
 function labelOf(s) {
+  if (s === 'exam') return t('lExam');
   if (s === 'all') return t('lFull');
   if (s === 'fallos') return t('lWrong');
   if (DATA[s]) return t('lVol', domT(DATA[s]));
   if (CH[s]) return `${domT(CH[s].d)}, ${chShort(CH[s].c)}`;
   return t('lTest');
+}
+
+// ---------- plan de estudio ----------
+const pagesOf = c => { const m = /(\d+)\s*[–-]\s*(\d+)/.exec(c.pages || ''); return m ? Math.max(0, +m[2] - +m[1] + 1) : 0; };
+const dayKey = ms => { const d = new Date(ms); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
+function readingPace() {
+  const done = Object.values(CH).map(x => x.c).filter(c => S.read[c.id] && (S.chTime[c.id] || 0) >= 180000 && c.words);
+  if (!done.length) return null;
+  const w = done.reduce((n, c) => n + c.words, 0), ms = done.reduce((n, c) => n + S.chTime[c.id], 0);
+  return { wpm: w / (ms / 60000), n: done.length };
+}
+function dailyReading() {
+  const keys = Object.keys(S.rday || {}).filter(k => S.rday[k] > 0).sort();
+  if (!keys.length) return 0;
+  const today = new Date(); today.setHours(12, 0, 0, 0);
+  const first = new Date(keys[0] + 'T12:00:00');
+  const days = Math.min(14, Math.round((today - first) / 864e5) + 1);
+  let tot = 0;
+  for (let i = 0; i < days; i++) tot += S.rday[dayKey(today.getTime() - i * 864e5)] || 0;
+  return tot / days / 60000;
+}
+function planInfo() {
+  const chs = Object.values(CH).map(x => x.c);
+  const unread = chs.filter(c => !S.read[c.id]);
+  const pace = readingPace();
+  const leftWords = unread.reduce((n, c) => n + (c.words || 0), 0);
+  return { chs, unread, pace, leftMs: pace ? leftWords / pace.wpm * 60000 : null };
+}
+function planView() {
+  header(t('planTitle'), '#/');
+  const { chs, unread, pace, leftMs } = planInfo();
+  const pages = chs.reduce((n, c) => n + pagesOf(c), 0);
+  const words = chs.reduce((n, c) => n + (c.words || 0), 0);
+  const hand = ALLQ.filter(q => !q.auto).length;
+  const readN = chs.length - unread.length;
+  const perDay = dailyReading();
+  const nf = v => Math.round(v).toLocaleString(locale());
+  let examBox = '';
+  if (S.examDate) {
+    const d = new Date(S.examDate + 'T12:00:00'), now = new Date(); now.setHours(12, 0, 0, 0);
+    const days = Math.round((d - now) / 864e5);
+    if (days > 0) {
+      const perWeek = unread.length / days * 7;
+      examBox = `<p class="note">${esc(t('planDaysLeft', days))} ${esc(t('planChWeek', perWeek < 10 ? perWeek.toFixed(1) : Math.round(perWeek)))}${leftMs ? ' ' + esc(t('planMinDay', Math.ceil(leftMs / days / 60000))) : ''}</p>`;
+    } else examBox = `<p class="note">${esc(t('planPast'))}</p>`;
+  }
+  view.innerHTML = `
+    <section class="panel stripe hero">
+      <div class="kicker">${esc(t('planTitle'))}</div><h2>${esc(t('planSize'))}</h2>
+      <div class="tstats grid2">
+        <div><span>${esc(t('planPages'))}</span><b>${nf(pages)}</b></div>
+        <div><span>${esc(t('chapters'))}</span><b>${chs.length}</b></div>
+        <div><span>${esc(t('planWords'))}</span><b>${nf(words)}</b></div>
+        <div><span>${esc(t('planQs'))}</span><b>${nf(hand)}</b></div>
+      </div>
+      <div class="metric" style="margin-top:16px"><div class="top"><span>${esc(t('mRead'))}</span><b>${readN}/${chs.length}</b></div>${meter(pct(readN, chs.length))}</div>
+    </section>
+    <h3 class="label">${esc(t('planPace'))}</h3>
+    <section class="panel">${pace ? `
+      <p style="margin:0">${esc(t('planWpm', Math.round(pace.wpm), pace.n))}</p>
+      <div class="row tstats"><div><span>${esc(t('planLeft'))}</span><b>${esc(fmtHM(leftMs))}</b></div><div><span>${esc(t('planPerDay'))}</span><b>${perDay >= 1 ? esc(fmtHM(perDay * 60000)) : '—'}</b></div></div>
+      ${perDay >= 1 ? `<p class="note" style="margin-bottom:0">${esc(t('planFinish', new Date(Date.now() + leftMs / (perDay * 60000) * 864e5).toLocaleDateString(locale(), { day: 'numeric', month: 'long', year: 'numeric' })))}</p>` : ''}`
+      : `<p class="note" style="margin:0">${esc(t('planNoPace'))}</p>`}
+    </section>
+    <h3 class="label">${esc(t('planExam'))}</h3>
+    <section class="panel">
+      <label class="field">${esc(t('planExamLbl'))}<input type="date" id="exDate" value="${esc(S.examDate || '')}"></label>
+      ${examBox || `<p class="note" style="margin-bottom:0">${esc(t('planExamNote'))}</p>`}
+    </section>
+    <h3 class="label">${esc(t('volumes'))}</h3>
+    <div class="list">${IDX.filter(d => d.ready && DATA[d.id]).map(d => {
+      const cs = DATA[d.id].chapters, r = cs.filter(c => S.read[c.id]).length;
+      return `<a class="item" href="#/d/${d.id}">${icon(d.id, r === cs.length ? 'ok' : '')}<div class="grow"><div class="t">${esc(domT(d))}</div>
+        <div class="s">${esc(t('planVol', nf(cs.reduce((n, c) => n + pagesOf(c), 0)), cs.length))}</div>${meter(pct(r, cs.length))}</div><span class="pct">${r}/${cs.length}</span></a>`;
+    }).join('')}</div>`;
+  $('#exDate').addEventListener('change', e => { S.examDate = e.target.value || ''; save(true); planView(); });
 }
 
 // ---------- búsqueda ----------
@@ -905,7 +1137,8 @@ function probeDuration(buf, type) {
 // Sesiones en S.time: {s: inicio, e: fin, a: tiempo activo} en milisegundos. Solo en este dispositivo.
 const IDLE = 10 * 60 * 1000;   // sin tocar la app 10 min: deja de contar
 const MERGE = 5 * 60 * 1000;   // volver antes de 5 min continúa la misma sesión
-let runStart = null, cur = null, curBase = 0, lastAct = Date.now();
+let runStart = null, cur = null, curBase = 0, lastAct = Date.now(), segAt = 0;
+let READING = null;   // capítulo cuyo resumen está en pantalla (para medir tu ritmo de lectura)
 const audioOn = () => !player.paused && !player.ended && !!player.src;
 const visible = () => document.visibilityState === 'visible';
 // Solo cuenta con la app en pantalla. Con un audio sonando no se considera inactiva.
@@ -916,12 +1149,22 @@ function clockOn(now) {
   const last = S.time[S.time.length - 1];
   if (last && now - last.e < MERGE && now >= last.e) cur = last;
   else { cur = { s: now, e: now, a: 0 }; S.time.push(cur); }
-  curBase = cur.a; runStart = now;
+  curBase = cur.a; runStart = now; segAt = now;
 }
-function clockFlush(now) { if (runStart == null) return; cur.a = curBase + Math.max(0, now - runStart); cur.e = Math.max(cur.e, now); }
+function clockFlush(now) {
+  if (runStart == null) return;
+  cur.a = curBase + Math.max(0, now - runStart); cur.e = Math.max(cur.e, now);
+  const d = now - segAt;   // negativo si se descuenta un rato inactivo ya sumado
+  if (READING && d) {
+    S.chTime[READING] = Math.max(0, (S.chTime[READING] || 0) + d);
+    const k = dayKey(now); S.rday[k] = Math.max(0, (S.rday[k] || 0) + d);
+  }
+  segAt = now;
+}
 function clockOff(end) {
   if (runStart == null) return;
   clockFlush(Math.max(runStart, end));
+  cur.e = Math.max(cur.s, Math.min(cur.e, Math.max(runStart, end)));
   runStart = null;
   if (cur.a < 5000 && S.time[S.time.length - 1] === cur) S.time.pop();   // aperturas de segundos no cuentan
   cur = null; save(true);
@@ -1066,7 +1309,7 @@ async function settingsView() {
   $('#impf').onchange = e => importProgress(e.target.files[0]);
   $('#rCards').onclick = () => { if (confirm(t('rCardsQ'))) { S.cards = {}; save(true); toast(t('rCardsOk')); } };
   $('#rTests').onclick = () => { if (confirm(t('rTestsQ'))) { S.qa = {}; S.best = {}; S.last = {}; S.sims = []; save(true); toast(t('rTestsOk')); } };
-  $('#rAll').onclick = () => { if (confirm(t('rAllQ'))) { const keep = { speed: S.speed, lang: S.lang, name: S.name, time: S.time }; S = Object.assign(blank(), keep); save(true); toast(t('rAllOk')); } };
+  $('#rAll').onclick = () => { if (confirm(t('rAllQ'))) { const keep = { speed: S.speed, lang: S.lang, name: S.name, time: S.time, chTime: S.chTime, rday: S.rday, examDate: S.examDate }; S = Object.assign(blank(), keep); save(true); toast(t('rAllOk')); } };
 }
 async function exportProgress() {
   const name = `cpp-avance-${new Date().toISOString().slice(0, 10)}.json`;

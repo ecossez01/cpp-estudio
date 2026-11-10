@@ -402,5 +402,636 @@
   "crisis-6": "The book groups crises into four threat families. The general business continuity and response plans apply to all of them, but each threat calls for its own specific actions. For each event, the chapter sets out what to do before, during, and after.",
   "crisis-A": "A standard brings together criteria and best practices for improving quality and reliability; it can be voluntary, legally mandated, or mixed. Management system standards operate on the PDCA (Plan-Do-Check-Act) cycle. Appendix B is a reading list on continuity, emergencies, violence, and cybersecurity."
  },
- "quiz": {}
+ "quiz": {
+  "crisis-1-q0": {
+   "q": "After a cyber breach, the IT team locks down the network to contain the damage. Meanwhile, executive management deals with the reputational effects and the issues that threaten the company's long-term viability. Which area BEST describes management's work?",
+   "o": [
+    "Emergency management/response",
+    "Crisis management",
+    "Business continuity",
+    "IT recovery"
+   ],
+   "e": "Crisis management is strategic and long term: it addresses reputation and the issues that threaten viability. Locking down the network is emergency response (immediate and tactical impact), and business continuity deals with returning to normal operations."
+  },
+  "crisis-1-q1": {
+   "q": "Months after a flood, a company finishes restoring its processes, resources and capabilities, and takes the opportunity to reorient some of its strategic objectives. Which phase of the emergency management cycle does this activity belong to?",
+   "o": [
+    "Mitigation",
+    "Preparedness",
+    "Response",
+    "Recovery"
+   ],
+   "e": "According to ASIS BCM 2021, recovery restores processes, resources and capabilities to meet ongoing operational requirements, and may include major organizational improvements, even reorienting strategic or operational objectives. Response, by contrast, executes the plan to preserve life and property and care for the surviving population."
+  },
+  "crisis-1-q2": {
+   "q": "An employee discovers a disruptive event whose severity is not yet clear. According to crisis management principles, what is BEST?",
+   "o": [
+    "Report it immediately so the crisis management team (CMT) can assess it",
+    "Report it to the CMT only once it is confirmed to need support from other functions",
+    "Wait to gather complete information so as not to activate the CMT unnecessarily",
+    "Let the incident commander handle it and decide whether it is a crisis"
+   ],
+   "e": "Because management decides with limited information and little time, every disruptive event must be communicated to the CMT as soon as it occurs so the team can assess it and, using preset criteria, determine whether it is a crisis or a routine incident. Waiting to confirm whether other functions are needed reverses the order, because that assessment belongs to the CMT."
+  },
+  "crisis-1-q3": {
+   "q": "After a fire, a company moves its critical functions and its staff to a site contracted from a third party while it repairs its building. Which continuity strategy is it applying?",
+   "o": [
+    "Resumption and recovery in place",
+    "Contracting out",
+    "Relocation",
+    "IT recovery"
+   ],
+   "e": "Relocation moves critical functions and staff to one or more sites, owned or contracted from third parties. Contracting out means outsourcing selected functions; here the company's own staff keeps doing the work, just in another place."
+  },
+  "crisis-1-q4": {
+   "q": "A company announces a product recall. There is no physical damage to its facilities, but the case affects its brand. Which BEST describes how crisis management should act?",
+   "o": [
+    "It is not activated, since there is no physical emergency; the legal department handles the case",
+    "It is activated on notification of the event and, holistically, involves all functions",
+    "It is activated, but only the communications area leads it, since the problem is reputational",
+    "It is activated only if the recall causes a business interruption in production"
+   ],
+   "e": "Crisis management begins on notification of any disruptive event, physical or non-physical, such as a product recall, and it is holistic: all functions take part. A healthy program prevents one functional area, such as communications, from dominating, even though brand and reputation impacts require coordination between executive management and communications teams."
+  },
+  "crisis-2-q0": {
+   "q": "In a company's emergencies, the boundaries between departments repeatedly slow down the response. According to the book, what is the BEST structural measure?",
+   "o": [
+    "Appoint one operations executive as emergency coordinator, with documented authority",
+    "Create a new organization devoted solely to emergencies, separate from daily operations",
+    "Split coordination equally among the heads of the critical departments",
+    "Assign the crisis management team to tactically direct each emergency"
+   ],
+   "e": "A single operations executive who regularly handles emergencies, such as the head of security or engineering, is designated as emergency coordinator so that departmental boundaries do not slow the response; the appointment is documented in the emergency operations plan and in a policy. No new organization is created: the existing one is temporarily reconfigured, and the committee of critical departments supports the coordinator rather than replacing him."
+  },
+  "crisis-2-q1": {
+   "q": "A chemical spill at a plant affects two municipalities, and fire and police services from both jurisdictions respond. According to the book, which BEST describes how command should be organized?",
+   "o": [
+    "Shared decisions at one command post, each agency present directly or via a liaison",
+    "Single-incident command led by the responding agency with the most resources",
+    "One command post per agency, coordinated with each other through interagency liaisons",
+    "Command by the company's crisis management team, since the company owns the plant"
+   ],
+   "e": "With several agencies or jurisdictions, the book describes collaborative decision-making from a single incident command post, where agencies take part through direct representation or a liaison. The book calls this \"single command,\" although ICS and NIMS know it as unified command; single-incident command applies to one agency and one jurisdiction."
+  },
+  "crisis-2-q2": {
+   "q": "An emergency at a facility grows to the point of requiring someone to direct the response on scene, although no public safety agency is involved. According to the book, what is MOST appropriate?",
+   "o": [
+    "Activate the incident management system: an on-scene commander, with CMT support",
+    "Have the crisis management team (CMT) go to the scene and lead the tactical response",
+    "Have the facility manager handle it alone, without activating a larger operation",
+    "Wait for a public safety agency to arrive and appoint the commander"
+   ],
+   "e": "If an on-scene commander or manager is needed, the organization's incident management system is activated: the commander and staff direct on scene and the CMT provides support, because its role is strategic, not tactical. Having the facility manager handle it alone is the response intended for a limited emergency."
+  },
+  "crisis-2-q3": {
+   "q": "While reviewing the emergency plan, the security manager sees that it names only the primary decision-maker and the principal for each function. What should be done FIRST to correct this weakness?",
+   "o": [
+    "Name alternates, by name or position, for the decision-maker and each plan role",
+    "Ask senior management to take over decisions whenever a principal is absent",
+    "Let the CMT designate substitutes on the spot, based on who is available",
+    "Expand the support committee with more critical departments to cover absences"
+   ],
+   "e": "Alternate designations are among the most important considerations: alternates are named for the primary decision-maker and for every person with a responsibility in the plan, by name or position, more than one per principal if possible, and both are briefed, trained and tested before the incident. Improvising substitutes during the event leaves untrained people to act."
+  },
+  "crisis-2-q4": {
+   "q": "A multinational suffers a crisis at one of its plants in another country. A team located at that plant carries out the recovery instructions it receives. What type of crisis team is this?",
+   "o": [
+    "Operational",
+    "Tactical",
+    "Strategic",
+    "Senior leadership team"
+   ],
+   "e": "The tactical team is closest to the level of the crisis, at the geographic location where it occurred, and carries out tactical recovery instructions. The operational team is limited to one functional segment, such as manufacturing or logistics, and the strategic team provides overall command, almost always at executive level."
+  },
+  "crisis-3-q0": {
+   "q": "While designing its program, a company debates how to relate the business continuity team to the crisis management team. According to the book, which BEST describes that relationship?",
+   "o": [
+    "They are separate; the continuity team supports the crisis team, which sits above it",
+    "They are the same team, which handles the crisis and then the business recovery",
+    "They are separate; the crisis team supports the continuity team, which leads the recovery",
+    "The continuity team sits above and coordinates the crisis teams at each site"
+   ],
+   "e": "The book handles the continuity team separately from the crisis management team and presents it as a support to it: the crisis team is the overall team that sits above. The continuity team executes the plan to recover activities after the event, but it does not direct the crisis team."
+  },
+  "crisis-3-q1": {
+   "q": "A company keeps backup copies of its vital records on older media at its emergency headquarters. According to the book, what is MOST important for those copies to be useful?",
+   "o": [
+    "That all copies are on the same medium, to simplify their management",
+    "Having enough equipment to retrieve them, including electronic records",
+    "That they are kept on paper, since it is the most durable medium",
+    "That they include all 37 records on the book's list, without adapting it"
+   ],
+   "e": "The book says the medium of the record matters less than having enough equipment to retrieve it, including for electronic records. In addition, each organization tailors the vital records list to its needs, so the book's list is not copied as is."
+  },
+  "crisis-3-q2": {
+   "q": "An organization has just launched its business continuity management (BCM) program and is about to run its first exercise. According to the book, which type of exercise is MOST appropriate to start with?",
+   "o": [
+    "Orientation: an introductory or educational session",
+    "Tabletop: a simulated exercise presented in narrative form",
+    "Functional: a scenario as realistic as possible in a controlled setting",
+    "Full scale: live, in real time and with outside agencies"
+   ],
+   "e": "The scope and detail of exercises mature with the organization's experience, resources and capabilities; early tests can be checklists, simple exercises and small program components. The order from least to most mature is orientation, tabletop, functional and full scale, so starting at full scale skips the whole progression."
+  },
+  "crisis-3-q3": {
+   "q": "In a risk assessment under ANSI/ASIS/RIMS RA.1-2015, the team has already set the level of each risk. It now compares those levels with the risk criteria to decide which are acceptable with current treatments. Which step is it performing?",
+   "o": [
+    "Risk identification",
+    "Risk analysis",
+    "Risk evaluation",
+    "Risk assessment report"
+   ],
+   "e": "Risk evaluation uses the risk criteria and the results of identification and analysis to decide which risks are acceptable and which need further treatment. Risk analysis is the previous step: it weighs likelihood and consequence to set the risk level."
+  },
+  "crisis-3-q4": {
+   "q": "Pre-crisis research reveals that a company's reputation with key audiences is weak compared with others in its sector. According to the book, what should the company do?",
+   "o": [
+    "Improve it proactively now, before any event occurs",
+    "Set aside resources to bolster it with communications once a crisis breaks",
+    "Focus on business analysts, since they are the ones who decide the brand",
+    "Rely on the crisis communication plan to protect the brand when the time comes"
+   ],
+   "e": "Brand and reputation protection begins before the event: if pre-crisis research shows a weak reputation, it must be improved proactively, because organizations already perceived negatively recover with more difficulty. Moreover, brand and reputation are often driven by consumers, not business analysts."
+  },
+  "crisis-3-q5": {
+   "q": "In a business impact analysis (BIA) interview, the finance manager says that if the system goes down, the unit can tolerate losing at most the last two hours of transactions. Which recovery metric is being defined?",
+   "o": [
+    "Recovery point objective (RPO)",
+    "Recovery time objective (RTO)",
+    "Maximum tolerable period of disruption",
+    "Work backlog"
+   ],
+   "e": "The RPO is the maximum amount of data that can be lost during recovery, measured in hours: the tolerable loss of information. The RTO is the maximum tolerable time to return critical systems to operation, and it must fall within the maximum tolerable time."
+  },
+  "crisis-3-q6": {
+   "q": "A company wants to value its brand reputation in order to prioritize it in the BIA. To do so, it finds out how much was recently paid on the public market for a similar brand. Which valuation method is it applying?",
+   "o": [
+    "Cost method",
+    "Market value method",
+    "Market method",
+    "Income method"
+   ],
+   "e": "The market method values an intangible by checking whether a similar asset was recently bought or sold on the public market, and for how much. The market value method applies to tangibles and uses their current replacement or sale price; the book explicitly warns against confusing the two."
+  },
+  "crisis-3-q7": {
+   "q": "Every manager in a company insists that his or her area is the most critical for recovery. Which tool gives management the BEST basis for deciding priorities?",
+   "o": [
+    "The BIA questionnaire, which measures criticality by metrics",
+    "A vote among managers to reach consensus on the recovery order",
+    "The risk register, which compiles all the evaluated risks",
+    "A SWOT analysis, which identifies each area's strengths and weaknesses"
+   ],
+   "e": "The BIA questionnaire gives management an objective measure of criticality, based on metrics rather than each manager's opinion of his or her own area, and so normalizes that view. The risk register only compiles the identified, analyzed and evaluated risks; it does not set the recovery priority of processes."
+  },
+  "crisis-3-q8": {
+   "q": "To save management's time, a company proposes buying planning software and hiring a consultant to write the emergency plan alone. According to the book, what is the main problem?",
+   "o": [
+    "Neither software nor a consultant replaces management's responsible participation",
+    "Planning software is of no real use for capturing the information the plan needs",
+    "Consultants may not take part in drafting the emergency plan",
+    "The plan must be written by the crisis management team, not by management"
+   ],
+   "e": "Software greatly reduces the work of capturing information and consultants help make the plan complete, but neither replaces management's responsible participation, since management must directly identify and evaluate the organization's assets. The mistake is not using software or consultants, but delegating everything to them."
+  },
+  "crisis-4-q0": {
+   "q": "A distribution company with several sites is exposed to hurricanes, floods, fires and bomb threats. According to the book, which emergency operations plan (EOP) format suits it BEST?",
+   "o": [
+    "A common basic EOP, with hazard-specific checklists for the most likely events",
+    "A full, separate plan for each threat, like that of a health care facility",
+    "A single evacuation plan, since it is nearly the same for every emergency",
+    "Hazard-specific checklists without a basic plan, to keep the plan as simple as possible"
+   ],
+   "e": "With many types of threats and hazards, the all-hazards approach is the best option: a basic EOP with common sections, such as team and contact lists, plus hazard-specific checklists for the most likely events. Threat-specific plans are for organizations whose response changes greatly by event, such as the health care facility in the example."
+  },
+  "crisis-4-q1": {
+   "q": "After a building is evacuated because of a threat, emergency services find no damage and advise that people can go back in. According to the book, who usually makes the final decision to reoccupy the site?",
+   "o": [
+    "The head of the emergency services that handled the incident",
+    "The organization's management, with advice from those services",
+    "The chief warden, as the person who knows the situation on site",
+    "The threat evaluation team leader, who assessed the initial risk"
+   ],
+   "e": "In reoccupation, emergency services can advise, but the final decision usually rests with the organization's management. Before returning, it may be advisable to search the site or certain areas to ensure a safe physical environment."
+  },
+  "crisis-4-q2": {
+   "q": "In the emergency operations plan's list of priorities, design safety and training are the principles associated with one specific priority. Which one?",
+   "o": [
+    "Protect human life",
+    "Prevent or minimize personal injury",
+    "Reduce the exposure of assets",
+    "Optimize loss control for assets whose exposure cannot be reduced"
+   ],
+   "e": "Design safety eliminates in advance the conditions that increase the likelihood of injury, and training keeps those handling the disaster from exposing themselves through ignorance or ineptitude: both serve the second priority, preventing or minimizing personal injury. Protecting human life, the first priority, relies on evacuation and shelter, personal protection, and rescue and relief."
+  },
+  "crisis-4-q3": {
+   "q": "In an office building's fire drills, everyone always leaves by the main stairway and reaches the assembly point quickly. What is BEST to prepare staff for a blocked exit?",
+   "o": [
+    "In each drill, block a different floor's main exit with a sign or a monitor",
+    "Explain the alternate exits in an annual talk, without changing the drill routine",
+    "Announce before each drill which alternate exits must be used that day",
+    "Shorten the route to a closer assembly point so more drills can be run"
+   ],
+   "e": "The book's technique is to block, in each drill, the main exit of a different floor or zone, with an \"exit blocked due to smoke\" sign or a monitor, forcing people to use the alternates; only with practice do people know what to do. Shortening the route goes against the rule of walking the real distance to the designated assembly points."
+  },
+  "crisis-4-q4": {
+   "q": "Which BEST describes the difference between emergency communications and crisis communications?",
+   "o": [
+    "Technical ability to communicate versus messaging and public response to the incident",
+    "Messaging to the media versus technical capability of the warning systems",
+    "Internal alerts to employees versus external messages to customers and the media",
+    "Messages from the crisis team versus messages from the incident commander"
+   ],
+   "e": "According to the book, emergency communications focus on the technical ability to communicate and disseminate information about the emergency, and crisis communications on messaging and the public response to the incident. The distinction is not internal versus external, but technical capability versus message."
+  },
+  "crisis-4-q5": {
+   "q": "After a flood, the restoration team sees that one production area and its equipment cannot be saved, while another area is still recoverable. According to the book, what should it do?",
+   "o": [
+    "Split the effort between both areas so that no asset is abandoned",
+    "Focus on the recoverable area, painful as that decision may be",
+    "Start with the lost area, since its assets have a higher replacement cost",
+    "Keep the shutdown crews in the lost area until its equipment is rescued"
+   ],
+   "e": "The book says not to waste effort on areas or equipment that cannot be saved: it is better to concentrate and save something than to spread out and lose everything, even though the decision is painful. Splitting the effort between both areas is exactly the dispersion it warns against; the salvage priority scheme set before the emergency guides what to save."
+  },
+  "crisis-4-q6": {
+   "q": "An earthquake strikes at 2:00 a.m. There are no phones or power and the roads are cut, so no executive can get there. The security supervisor on duty is the highest-ranking person on site. According to the book, what should happen?",
+   "o": [
+    "He initiates the plan and controls the site until a senior executive arrives",
+    "He waits for instructions from the CEO, who is first on the succession list",
+    "He limits himself to evacuating and leaves control to public services when they arrive",
+    "He waits for the crisis management team to convene before activating the plan"
+   ],
+   "e": "After hours there may be no phones, power or roads, so initiating the plan and controlling the facility may fall to the highest-ranking person on site, who may be a security manager, supervisor or officer. The plan must define how that person assumes command until a senior executive arrives."
+  },
+  "crisis-4-q7": {
+   "q": "During a major fire at a plant, the security manager is asked to assign all of his guards to containing the fire. According to the book, what should he do?",
+   "o": [
+    "Assign all of them, since protecting life and the facility is the priority",
+    "Keep enough guards to continue protecting assets and people",
+    "Assign all of them and ask the police to take over perimeter protection",
+    "Withdraw the guards from the site until firefighters control the fire"
+   ],
+   "e": "Not all security staff should be used for disaster or fire control: enough must remain to keep protecting assets and people, because physical barriers may be damaged and there is a risk of looting by employees and outsiders. Relying on the police is risky, since the book warns they may not arrive."
+  },
+  "crisis-4-q8": {
+   "q": "To save time, an exercise designer proposes that participants follow simpler steps than those in the actual plan, since \"it's only a test.\" According to the book, what is MOST appropriate?",
+   "o": [
+    "Accept it, since there is no need to test the entire plan in every single exercise",
+    "Follow the actual plan as closely as possible, except for physical safety reasons",
+    "Accept it, provided the exercise is run unannounced to staff",
+    "Replace the drill with a walkthrough of the plan by all staff"
+   ],
+   "e": "Exercises are rehearsals of the real event and, except for physical safety reasons, must follow the actual plan as closely as possible: train to the plan and exercise the plan. The whole plan need not be tested at once, but whatever is exercised must be done as the plan says, and staff thinking \"it's only a test\" is one of the worst outcomes."
+  },
+  "crisis-5-q0": {
+   "q": "A company's crisis management team (CMT) is activated by a social media crisis. After assessing it, the team decides there is no need to declare a crisis for the whole organization. According to the crisis plan, what should happen regarding executives?",
+   "o": [
+    "They are notified that the team was activated, even though no crisis was declared",
+    "They are notified only if the crisis is escalated to the parent organization",
+    "They are notified only when a crisis is declared for the whole organization",
+    "They are not notified; the crisis team acts alone until a crisis is declared"
+   ],
+   "e": "The activation method must define how executives are notified that the team has been activated, whether or not a crisis is declared. Notifying them only when a crisis is declared or escalated to the parent organization would leave leadership unaware of a real activation."
+  },
+  "crisis-5-q1": {
+   "q": "A security manager presents his crisis communications \"strategy\": news releases, social media posts, a section on the company website, and town halls with staff. Which BEST describes the problem with this approach?",
+   "o": [
+    "It confuses tactics, which only deliver messages to specific audiences, with strategic communications",
+    "It leaves out the senior communications advisor, who must approve every release before it goes out",
+    "It uses too many channels; the book calls for a single source and a single channel to the media",
+    "It should focus on the media, because crisis communications is aimed at the general public"
+   ],
+   "e": "News releases, social media, the website, and town halls are communications tactics, that is, tools for delivering messages; crisis communications is strategic and supports resilience, the business model, and future plans. Moreover, in a crisis there is no general public, only specific audiences."
+  },
+  "crisis-5-q2": {
+   "q": "In a large organization, during a crisis, who sits with the senior leadership team while it discusses strategy and has ultimate responsibility for crisis communications?",
+   "o": [
+    "The senior communications advisor/lead",
+    "The crisis communications team (CCT) lead",
+    "The CCT member who serves as liaison to the CMT",
+    "The CCT member assigned to the incident commander"
+   ],
+   "e": "The senior communications advisor/lead is usually the highest-ranking communicator: this person sits with senior leadership and carries its deliberations to the communications team. The CCT lead runs the team, executes the plan, and keeps deadlines, but does not hold ultimate responsibility."
+  },
+  "crisis-5-q3": {
+   "q": "After the collapse of an industrial building with casualties, reporters immediately demand the names of the dead and injured. What should the organization do?",
+   "o": [
+    "Release the names as soon as possible, but only after notifying the families",
+    "Answer \"no comment\" until the official investigation has been completed",
+    "Release the names immediately to stop rumors, and notify the families afterward",
+    "Refer the media to employees who were in the area so they can provide the names"
+   ],
+   "e": "The book calls for releasing the names of the dead and injured as soon as possible, but only after the families have been informed, which the press understands. \"No comment\" should be avoided: it leads the media to seek out people with little information and spreads rumors."
+  },
+  "crisis-5-q4": {
+   "q": "An exercise reveals that several team members do not understand their responsibilities under the crisis plan. Duties are reassigned and staff are retrained. What should be done next?",
+   "o": [
+    "Test the plan again, because planning is a continuous process",
+    "File the corrected plan until a real activation requires revising it",
+    "Hire a consultant to replace the management team's participation",
+    "Buy planning software so the plan is captured and maintained on its own"
+   ],
+   "e": "After the plan is revised, responsibilities are reassigned, or staff are retrained, the plan is tested again: planning never ends as long as the plan exists. Filing it away is exactly the mistake the book criticizes, and neither software nor consultants replace management's involvement."
+  },
+  "crisis-6-q0": {
+   "q": "An active assailant is reported at a corporate site. According to the general response to a crisis, what happens FIRST?",
+   "o": [
+    "Affected employees are warned with initial actions: evacuate, shelter in place, or lock down",
+    "The threat management team convenes to coordinate and direct the entire response",
+    "A perimeter is set up to contain the incident and prevent entry into the danger zone",
+    "The emergency operations center (EOC) is activated to coordinate with police arriving on the scene"
+   ],
+   "e": "First, warnings, notifications, and communications go to affected employees with initial action instructions: evacuation, shelter-in-place, or lockdown. Then the threat management team coordinates and directs the response and establishes the perimeter."
+  },
+  "crisis-6-q1": {
+   "q": "After a shooting at a plant, police have finished their interviews. The company releases the day's employees, offers counseling, plans when to reoccupy the site, and hires environmental cleanup once police release the facility. Which recovery phase is it in?",
+   "o": [
+    "Short-term",
+    "Immediate",
+    "Long-term",
+    "Transition"
+   ],
+   "e": "These actions belong to the short-term phase, which focuses on preserving the scene, monitoring for psychological trauma, supporting reunification, and continuing communication. The immediate phase focuses on life safety and accounting for people, and the long-term phase on the debrief, employee assistance, and financial impact."
+  },
+  "crisis-6-q2": {
+   "q": "A facility will keep 20 people on site during a hurricane. According to the book's supply list, how much water should it have at a minimum?",
+   "o": [
+    "60 gallons (1 gallon per person per day, for 3 days)",
+    "20 gallons (1 gallon per person, for the whole event)",
+    "40 gallons (2 gallons per person, for 1 day)",
+    "140 gallons (1 gallon per person per day, for 7 days)"
+   ],
+   "e": "The book calls for a 3-day water supply for all on-site staff at 1 gallon per person per day: 20 x 1 x 3 = 60 gallons. The 7 days belong to another figure in the chapter: the generator load test."
+  },
+  "crisis-6-q3": {
+   "q": "During a winter storm, the maintenance team opens faucets slightly so they drip on pipes that may freeze. According to the book, why?",
+   "o": [
+    "The open faucet relieves pressure and keeps the pipe from bursting, even if ice forms",
+    "Moving water completely prevents ice from forming anywhere inside the pipe",
+    "It allows the pipes to be drained before the temperature drops below 40 °F (4 °C)",
+    "It keeps the fire sprinkler system pressurized so it still works if a fire breaks out"
+   ],
+   "e": "The book explains that ice may form anyway, but the open faucet relieves the pressure and keeps the pipe from bursting. The idea that moving water prevents ice entirely is the most tempting, but the text says the opposite."
+  },
+  "crisis-6-q4": {
+   "q": "A crisis management planner is sizing the earthquake response team for a site in a seismic zone. According to the book, what assumption should guide that sizing?",
+   "o": [
+    "That public assistance will take a long time, so recovery will have less outside support",
+    "That firefighters will arrive within minutes, so a minimal liaison team is enough",
+    "That the earthquake can be predicted days ahead thanks to earthquake hazard maps",
+    "That the impact will be limited to the facility, so the surrounding community will be able to help"
+   ],
+   "e": "Earthquakes are among the hardest crises to manage: the impact is widespread and public assistance is assumed to take a long time, so the team must be sized for recovery with less outside support and with trained staff always available at each facility. Earthquake hazard maps help in understanding the risk, not in predicting the event."
+  },
+  "crisis-6-q5": {
+   "q": "An employee is in her office when a strong earthquake begins. According to the book, what should she do?",
+   "o": [
+    "Take cover under a desk or by an interior wall and hold on until it stops",
+    "Stand in a doorway, because it is the strongest point of the building structure",
+    "Run out of the building by the nearest stairway while the shaking continues",
+    "Move next to an exterior window so she can evacuate as soon as the shaking stops"
+   ],
+   "e": "Indoors, take cover under a desk or table, or by an interior wall, and hold on until the shaking stops; the book expressly says not under a doorway. Nor should one run out while it is shaking or move near windows."
+  },
+  "crisis-6-q6": {
+   "q": "After an earthquake, the response team inspects a building. There is no smell of gas or any other sign of a leak. According to the book, what should it do with the gas supply?",
+   "o": [
+    "Leave it on; gas is shut off only if a leak is detected",
+    "Always shut it off after an earthquake as a precaution",
+    "Shut it off only if the building has visible structural damage",
+    "Shut it off until the local authority authorizes reentry"
+   ],
+   "e": "The book says to shut off the gas only if a leak is detected, not as a matter of routine. Always shutting it off as a precaution is the intuitive answer, but the exam note stresses that it is not what the book says."
+  },
+  "crisis-6-q7": {
+   "q": "In a fire evacuation, which two roles does security staff usually fill according to the book?",
+   "o": [
+    "Floor wardens and the person who attends the fire alarm panel",
+    "Initial fire suppression and rescue of people trapped on the floors",
+    "Incident command and communication with the media at the assembly point",
+    "Shutting off building utilities and the final head count at the assembly point"
+   ],
+   "e": "Security often serves as floor wardens, who direct people out of the building, and as maintenance representatives who attend the fire alarm panel. That is why it must take part in evacuation protocols, assembly locations, and the relationship with the local fire department."
+  },
+  "crisis-6-q8": {
+   "q": "A company has a chemical plant in a rural area, far from the nearest hospital, and a shopping mall in the city center. According to the book, what determines the level of medical training for security officers at each site?",
+   "o": [
+    "Nearby professional medical care and the level of care the site's risk profile requires",
+    "The number of officers on each shift and the training budget assigned to each facility",
+    "Local first aid regulations and the officers' length of service in their positions",
+    "The number of daily visitors and the number of AEDs already installed throughout the site"
+   ],
+   "e": "The book says the exact level of training depends on the availability of professional medical care near the facility and the level of specialized care its risk profile requires. That is why chemical plant officers are trained for chemical exposure, and mall officers for slips and falls, heart attacks, and similar incidents."
+  },
+  "crisis-6-q9": {
+   "q": "A plant is preparing its crisis team for a possible chemical spill that could spread off site. The team already includes security, maintenance, occupational health, and legal. According to the book, which function is often forgotten and should be added?",
+   "o": [
+    "Public relations",
+    "Purchasing and procurement",
+    "Information technology",
+    "Human resources"
+   ],
+   "e": "In HAZMAT incidents, the function most often forgotten on the crisis team is public relations: if the spill covers a large area or harms the community, immediate crisis communications will be needed. The team should therefore include those who protect both physical and reputational assets."
+  },
+  "crisis-6-q10": {
+   "q": "A large mercury spill occurs in a warehouse. An employee with no spill training proposes cleaning it up immediately with absorbent material. What does the book indicate?",
+   "o": [
+    "Do not clean it unless trained; contain it and call a spill cleanup firm or the fire department",
+    "Clean it up right away following the safety data sheet and using the appropriate personal protective equipment",
+    "Tape off the area and notify only the supervisor, because the spill is not urgent",
+    "Evacuate the building and wait for the mercury to evaporate before anyone goes back in"
+   ],
+   "e": "In a large spill, no cleanup is attempted without training: the spill is contained with available equipment, the area is secured, and a local spill cleanup company or the fire department (if there is a prior agreement) is called, for example for mercury. Handling it with the safety data sheet and PPE applies to a small spill."
+  },
+  "crisis-6-q11": {
+   "q": "According to the book, which World Health Organization (WHO) pandemic alert phase signals that the company should begin implementing the strategies of its business continuity plan?",
+   "o": [
+    "Phase 3",
+    "Phase 1",
+    "Phase 5",
+    "Phase 6"
+   ],
+   "e": "Phase 3 (human infection with a new subtype and little or no spread to close contacts) is the signal to begin implementing business continuity plan strategies. Phases 1 and 2 are for preparation (essential services, succession, technology), and phase 6 is already the pandemic, with sustained transmission in the general population."
+  },
+  "crisis-6-q12": {
+   "q": "While planning continuity for a pandemic, a 500-employee company wants to set an absenteeism assumption. According to the book, what is the planning assumption?",
+   "o": [
+    "Up to 200 employees (40%) absent at various times",
+    "Up to 100 employees (20%) absent throughout the pandemic",
+    "Up to 125 employees (25%) absent only during phase 6",
+    "Up to 300 employees (60%) absent at the peak of infections"
+   ],
+   "e": "The book assumes that up to 40% of the workforce may be absent at various times during a pandemic, due to quarantines, caring for family members, or children in remote school: 40% of 500 is 200. That is why it calls for enough backup staff to cover high absenteeism."
+  },
+  "crisis-6-q13": {
+   "q": "How does the book classify targeted (intended) violence?",
+   "o": [
+    "Planned, emotionless, and predatory",
+    "Impulsive, emotional, and reactive",
+    "Planned, emotional, and expressive",
+    "Spontaneous, emotionless, and situational"
+   ],
+   "e": "The book defines targeted violence as a conscious decision to kill or physically harm specific or symbolic victims, and classifies it as planned, emotionless, and predatory. The options that describe it as impulsive or emotional describe the opposite."
+  },
+  "crisis-6-q14": {
+   "q": "A former employee with a grievance against the company has already obtained a weapon. He is now seen photographing entrances and testing whether security staff react when he tries to enter. Which stage of the pathway to violence is he in?",
+   "o": [
+    "Probing/surveillance",
+    "Acquisition",
+    "Planning",
+    "Action/implementation"
+   ],
+   "e": "The book's stages are ideation, planning, acquisition, probing/surveillance, and action/implementation; photographing entrances and testing security's reaction, after obtaining the weapon, is probing or surveillance. The grievance is the origin of the pathway, not a stage, and the goal is to break the pathway as early as possible by addressing pre-incident indicators."
+  },
+  "crisis-6-q15": {
+   "q": "An employee is disrespectful and shouts at coworkers in meetings, but he does not threaten to harm anyone and there is no immediate danger. Under the book's proportional response, what is appropriate?",
+   "o": [
+    "Observe, document, and report; a supervisor meets with him and coordinates action per policy",
+    "Notify the police at once and activate the workplace violence protocols for immediate danger",
+    "Evacuate the area and activate the workplace violence incident response team",
+    "Terminate him immediately under the zero tolerance policy"
+   ],
+   "e": "For intimidation, harassment, disrespect, or verbal abuse, the book calls for observing, documenting, and reporting for assessment, with a supervisor meeting the employee and coordinating action according to policy. Calling the police or evacuating applies to more serious conduct, such as threats to harm others or immediate danger."
+  },
+  "crisis-6-q16": {
+   "q": "An employee discloses that she is a victim of domestic violence and that her former partner has threatened her. Security proposes seeking a corporate restraining order against him immediately. According to Brunell, what condition must be met?",
+   "o": [
+    "Seek it only with the victim's participation and input",
+    "Seek it only if the abuser has already shown up at the office",
+    "Seek it only after the victim obtains her own protective order",
+    "Seek it without informing the victim, to avoid adding to her distress"
+   ],
+   "e": "Brunell states that corporate restraining orders should be sought only with the victim's participation and input. Acting without her also conflicts with the confidentiality and joint problem-solving with the employee that the book recommends."
+  },
+  "crisis-6-q17": {
+   "q": "Shots are heard on another floor of the building. A group of employees can see a clear emergency exit leading away from the attacker. Under options-based response, what should they do?",
+   "o": [
+    "Evacuate, splitting up instead of leaving in a group and leaving belongings behind",
+    "Hide in a locked office, because hiding is the first option listed in the book's model",
+    "Stay together and leave as a single group so that no one gets left behind",
+    "Prepare to fight the attacker together as one coordinated group"
+   ],
+   "e": "The book lists hiding first, but it explains that one hides when escape is not possible; when escape is possible, evacuating is preferable. When fleeing, do not leave as a group: split up and leave belongings behind."
+  },
+  "crisis-6-q18": {
+   "q": "During an armed attack, an employee must choose where to take protection in an office. Which option gives her cover and not just concealment?",
+   "o": [
+    "A metal filing cabinet full of papers",
+    "A heavy window curtain",
+    "A fabric partition between desks",
+    "A frosted glass door"
+   ],
+   "e": "Cover protects against gunfire, and the book's example is a metal filing cabinet full of papers; concealment only keeps the attacker from seeing you, and its example is a window curtain."
+  },
+  "crisis-6-q19": {
+   "q": "During an attack, a group of employees manages to subdue the attacker and take his weapon. According to the book, what should they do with it?",
+   "o": [
+    "Not use it, and secure it away from the attacker",
+    "Use it to keep the attacker under control",
+    "Hand it to the first guard who arrives",
+    "Hold it in plain view so the arriving police can see it"
+   ],
+   "e": "If the attacker's weapon is obtained, it is not used for defense: it is secured away from the attacker. Also, when police arrive, people must drop whatever they are holding and keep their hands visible, which rules out greeting them with the weapon in hand."
+  },
+  "crisis-6-q20": {
+   "q": "An organization knows that a protest will pass in front of its headquarters. The crisis management team has already assessed its nature, size, scope, and mood. According to the book, which approach is MOST appropriate?",
+   "o": [
+    "Contact the protest captains to agree on time, place, and manner",
+    "Ask the police to prevent the protest, because it threatens operations",
+    "Always deploy a highly visible security profile to deter protesters",
+    "Forbid employees from taking part in the protest during working hours"
+   ],
+   "e": "Many protests have captains who organize the crowd, and contacting them to agree on time, place, and manner can benefit everyone; it is not security's responsibility to prevent people from protesting. A highly visible profile is not always best: sometimes a discreet, low-visibility approach calms the situation more."
+  },
+  "crisis-6-q21": {
+   "q": "A company receives a bomb threat by telephone. Local police respond, but no device has been found. In most jurisdictions, who makes the final decision to evacuate?",
+   "o": [
+    "The organization's management",
+    "The local police commander",
+    "The area fire chief",
+    "The threat evaluation team"
+   ],
+   "e": "In most jurisdictions, the final decision to evacuate rests with the organization's management unless a device is found. Police support the response and may help evacuate, but they do not decide in this scenario."
+  },
+  "crisis-6-q22": {
+   "q": "While preparing the bomb threat plan, a manager proposes using the same assembly areas as for fire evacuation. What does the book indicate?",
+   "o": [
+    "The zones must lie beyond the potential blast radius and are not the fire zones",
+    "It is correct, because employees then do not have to learn two different routes",
+    "It is correct if the zones are within sight of the building to follow the incident",
+    "The police always set the zones on arrival, so they are not planned in advance"
+   ],
+   "e": "The book calls for evacuation zones beyond the potential blast radius and stresses that they are not the same as fire evacuation zones. The convenience of a single route does not justify ignoring that difference."
+  },
+  "crisis-6-q23": {
+   "q": "During an ongoing cyberattack, an analyst proposes hacking back the attacker's servers and coordinating the team through the compromised corporate email. According to the book, what is correct?",
+   "o": [
+    "Monitor the attack without counterattacking, and do not use compromised systems to communicate",
+    "Hack back only if the attacker is in another country, and use encrypted email",
+    "Hack back to de-escalate, but coordinate the team by personal phone",
+    "Disconnect the entire network and notify no one outside IT until the forensic analysis is complete"
+   ],
+   "e": "During the attack, monitor it but do not engage or counterattack, because hacking back may be a crime and the goal is to de-escalate; nor should compromised systems be used to communicate. In addition, the plan requires notifying management, law enforcement, DHS or a similar agency, and other potential victims."
+  },
+  "crisis-6-q24": {
+   "q": "A company runs collaborative exercises to test its cyber incident response plan. According to the book, what is their purpose?",
+   "o": [
+    "To leverage each area's strengths so they can be shared across functions",
+    "To expose each area's weaknesses to senior management",
+    "To identify the individuals responsible for breaches so that they can be disciplined",
+    "To certify the plan against the NIST Cybersecurity Framework"
+   ],
+   "e": "The book makes clear that collaborative exercises are not meant to expose weaknesses but to leverage an area's strengths so they can be shared across functions; their lessons help design a crisis management playbook. Exposing weaknesses is exactly what the book rules out."
+  },
+  "crisis-A-q0": {
+   "q": "Standards developing organizations (SDOs) develop standards according to four principles. What are they?",
+   "o": [
+    "Consensus, openness, due process, and transparency",
+    "Consensus, confidentiality, due process, and continual improvement",
+    "Openness, transparency, legal enforceability, and consistency",
+    "Consensus, openness, interoperability, and regulatory oversight"
+   ],
+   "e": "According to Appendix A, standards are developed with consensus, openness, due process, and transparency. Continual improvement and interoperability do appear in the appendix, but as the framework of management systems and as a benefit of standards, not as development principles."
+  },
+  "crisis-A-q1": {
+   "q": "An ASIS International standard is voluntary, but a client incorporates it as a mandatory requirement in the security services contract. According to Appendix A, how is that standard classified in practice?",
+   "o": [
+    "Mixed: it is voluntary in theory but mandatory in practice",
+    "Statutory: it becomes legally binding once the contract is signed",
+    "Voluntary: a contract does not change the nature of an ASIS standard",
+    "Regulatory: a formal authority appointed by the client enforces it"
+   ],
+   "e": "Mixed standards include those that remain voluntary in theory but are mandatory in practice, as when a contract requires them; the book notes that adoption is increasingly driven by the client. A statutory standard is legally binding and enforced by formal authorities, which is not the case here."
+  },
+  "crisis-A-q2": {
+   "q": "A company implemented a new visitor control procedure and confirmed that the results match what was planned. It will now standardize it across all its sites and review its problem list to define the next ones. Which phase of the Plan-Do-Check-Act (PDCA) cycle is it in?",
+   "o": [
+    "Act",
+    "Check",
+    "Do",
+    "Plan"
+   ],
+   "e": "In Act, if the solutions solve the problems, they are standardized across the organization, the problem list is reviewed, and new problems are defined; there the cycle starts again. Check is the previous phase: examining whether results match the plan, which the company has already done."
+  },
+  "crisis-A-q3": {
+   "q": "A security manager must specify locks, alarms, and an access control system for a new site. According to Appendix A, which body issues standards for this type of security equipment?",
+   "o": [
+    "Underwriters Laboratories (UL)",
+    "Illuminating Engineering Society",
+    "National Fire Protection Association (NFPA)",
+    "Electronic Industries Association"
+   ],
+   "e": "The book credits UL with standards for security equipment such as locks, alarms, and access control systems. The Electronic Industries Association deals with electronic components and products in general, and the Illuminating Engineering Society with lighting."
+  },
+  "crisis-A-q4": {
+   "q": "According to Appendix A, which two management system standards are the most prominent?",
+   "o": [
+    "ISO 9001 (quality) and ISO 14001 (environmental management)",
+    "ISO 22301 (business continuity) and ISO 22300 (terminology)",
+    "ISO 9001 (quality) and ASIS ORM.1-2017 (resilience)",
+    "ISO 14001 (environmental management) and NFPA 1600 (emergencies)"
+   ],
+   "e": "The book names ISO 9001 (quality management systems) and ISO 14001 (environmental management systems) as the most prominent management system standards. ASIS ORM.1-2017 appears as the source of the figure that applies PDCA to resilience, and ISO 22301 and ISO 22300 only appear in the Appendix B reading list."
+  }
+ }
 }

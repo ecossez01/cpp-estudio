@@ -796,5 +796,1766 @@
   "security-12": "Los riesgos de seguridad son globales y la pandemia de COVID-19 los agravó. El capítulo trata cuatro tendencias: disturbios civiles, terrorismo, violencia en el lugar de trabajo y ciberseguridad. Para cada una da definiciones, datos y el papel del profesional de seguridad.",
   "security-A": "Un estándar reúne criterios y buenas prácticas para mejorar la calidad y la fiabilidad. Los estándares pueden ser voluntarios, obligatorios por ley o mixtos. Los estándares de sistemas de gestión funcionan con el ciclo Plan-Do-Check-Act."
  },
- "quiz": {}
+ "quiz": {
+  "security-1-q0": {
+   "q": "¿Qué describe MEJOR la gestión de riesgos de seguridad empresarial (Enterprise Security Risk Management, ESRM)?",
+   "o": [
+    "Un proceso de gestión que vincula la práctica de seguridad con la estrategia global usando principios de riesgo aceptados",
+    "Un programa de seguridad que agrupa en uno solo los subprogramas de viajes, seguridad física y contratistas",
+    "La convergencia de la seguridad física y la de la información bajo un único líder de seguridad",
+    "Un subcomponente obligatorio de la gestión de riesgos empresariales que cubre riesgos financieros y operativos"
+   ],
+   "e": "ESRM es un enfoque estratégico y un proceso o sistema de gestión (management system) que vincula la práctica de seguridad con la estrategia global mediante principios de gestión de riesgos aceptados; no es un programa, sino que sustituye la metodología de programas. Confundirla con la convergencia es una de las dos ideas erróneas que señala el libro."
+  },
+  "security-1-q1": {
+   "q": "Al decidir en 2017 integrar ESRM como fundamento de la gestión de seguridad, el Consejo de ASIS fijó dos objetivos (outcomes). ¿Cuáles son?",
+   "o": [
+    "Integrar al profesional en el liderazgo del negocio y pasar de gestionar programas a gestionar riesgos",
+    "Unificar la seguridad física y la ciberseguridad bajo un líder y certificar en ESRM a todos los profesionales",
+    "Sustituir la gestión de riesgos empresariales y dar al profesional la decisión final sobre cada riesgo",
+    "Crear la ESRM Community y publicar una norma obligatoria para todas las organizaciones miembro"
+   ],
+   "e": "Los dos objetivos fueron ayudar al profesional de seguridad a ser parte integral del liderazgo de negocio y pasar la práctica de seguridad de gestionar programas a gestionar riesgos. Dar al profesional la decisión final contradice ESRM, donde decide el dueño del activo."
+  },
+  "security-1-q2": {
+   "q": "El director general de una empresa dice que no pueden adoptar ESRM porque la seguridad física depende de un director y la seguridad de la información, de otro. ¿Cuál es la MEJOR respuesta del profesional de seguridad?",
+   "o": [
+    "ESRM gestiona el riesgo sea cual sea la estructura; la clave es que todos los que gestionan riesgos de seguridad la usen",
+    "Tiene razón: ESRM exige convergencia (convergence), así que primero hay que unir ambas funciones bajo un solo líder",
+    "ESRM solo aplica a la seguridad física, así que la seguridad de la información puede seguir aparte",
+    "Hay que esperar a que exista una función de gestión de riesgos empresariales (ERM) que coordine a ambos"
+   ],
+   "e": "Creer que ESRM es convergencia es una idea errónea: ESRM funciona con cualquier estructura organizativa y puede ser eficaz con líderes distintos para seguridad física y de la información. La clave del éxito es que todos los que gestionan riesgos de seguridad adopten y usen ESRM; converger puede ayudar, pero no es requisito."
+  },
+  "security-1-q3": {
+   "q": "¿Qué afirmación describe MEJOR la relación entre ESRM y la gestión de riesgos empresariales (Enterprise Risk Management, ERM)?",
+   "o": [
+    "ESRM se limita a los riesgos de seguridad y funciona por sí sola, haya o no ERM",
+    "ESRM y ERM son lo mismo: ambas cubren riesgos financieros, operativos y estratégicos",
+    "ESRM solo puede implantarse en organizaciones que ya tienen una función ERM operativa",
+    "Todos los riesgos de seguridad deben seguirse formalmente dentro de ERM"
+   ],
+   "e": "ERM abarca todos los riesgos clave (financieros, operativos y estratégicos), mientras que ESRM se limita a los de seguridad; puede ser subcomponente de ERM, pero es un sistema independiente, haya o no ERM. Solo los riesgos de seguridad de gran impacto se siguen formalmente en ERM; no todos llegan a ese nivel."
+  },
+  "security-1-q4": {
+   "q": "La vicepresidenta de operaciones pide al gerente de seguridad que decida él si se acepta el riesgo de intrusión en el centro de datos que ella dirige. Bajo ESRM, ¿qué debe hacer el gerente?",
+   "o": [
+    "Darle información y guía para que ella, como dueña del activo, tome la decisión sobre el riesgo",
+    "Tomar la decisión, porque el departamento de seguridad es el dueño de la seguridad de la empresa",
+    "Trasladar la decisión a la alta dirección, porque solo ella puede aceptar riesgos de seguridad",
+    "Crear un subprograma de seguridad para el centro de datos y asignarle ese riesgo"
+   ],
+   "e": "En ESRM el dueño del activo (asset owner) es el dueño del riesgo (risk owner) y el responsable último; el profesional actúa como asesor de confianza (trusted advisor) y guía la decisión. Que seguridad decida por ser dueña de la seguridad es el modelo tradicional por programas que ESRM sustituye."
+  },
+  "security-1-q5": {
+   "q": "Según el libro, ¿cuáles son los tres componentes para adoptar ESRM?",
+   "o": [
+    "Contexto, ciclo y fundamento (context, cycle, foundation)",
+    "Contexto, ciclo y gobernanza",
+    "Activos, riesgos y mitigación",
+    "Misión, valores y partes interesadas"
+   ],
+   "e": "Los tres componentes son el contexto de ESRM (entender la organización), el ciclo ESRM (el proceso real de gestión del riesgo) y el fundamento (conceptos que lo sostienen). La gobernanza es uno de los cuatro conceptos del fundamento, no un componente aparte."
+  },
+  "security-1-q6": {
+   "q": "Una nueva directora de seguridad llega a un hospital con el encargo de implantar ESRM. ¿Qué debe hacer PRIMERO?",
+   "o": [
+    "Entender a fondo la organización, empezando por su misión y su visión",
+    "Hacer una evaluación de amenazas de todas las instalaciones del hospital",
+    "Elaborar un plan de gestión de riesgos de seguridad para cada servicio clínico",
+    "Redactar las políticas y normas de seguridad que regirán el nuevo enfoque ESRM en el hospital"
+   ],
+   "e": "Entender la organización es el paso inicial de ESRM, y reforzar el conocimiento de su misión y visión (mission and vision) suele ser el primer paso de una nueva adopción. La evaluación de amenazas es tentadora, pero el libro insiste en que conocer la organización es al menos tan importante como conocer las amenazas."
+  },
+  "security-1-q7": {
+   "q": "Al analizar el entorno operativo (operating environment) de una planta, el profesional de seguridad revisa sus sistemas de control industrial (industrial control systems). ¿En qué tipo de entorno operativo los ubica el libro?",
+   "o": [
+    "Físico (physical)",
+    "Lógico (logical)",
+    "No físico (nonphysical)",
+    "Tecnológico (technological)"
+   ],
+   "e": "El libro incluye los sistemas de control industrial entre los elementos del entorno físico, junto con la criticidad de procesos y activos y los productos almacenados. El entorno lógico, el distractor más tentador, abarca servidores, estaciones de trabajo, infraestructura de red, conectividad y otros terminales."
+  },
+  "security-1-q8": {
+   "q": "Para conocer los riesgos mayores que discute la organización, su rumbo, sus decisiones clave y la actividad de los comités del consejo, ¿qué fuente interna es la MÁS útil para el profesional de seguridad?",
+   "o": [
+    "Las actas del consejo (board minutes)",
+    "Los organigramas",
+    "Los comunicados de prensa",
+    "Los presupuestos"
+   ],
+   "e": "Según el libro, las actas del consejo muestran riesgos mayores para evaluar en clave de seguridad, el rumbo de la organización, sus decisiones clave y la actividad de los comités del consejo. Los comunicados de prensa informan de cambios de liderazgo, fusiones y planes a corto plazo, pero no de las deliberaciones del consejo."
+  },
+  "security-1-q9": {
+   "q": "Un gerente de seguridad quiere asociarse con el director de una unidad de negocio con quien nunca ha trabajado. Según el libro, además de pedirle directamente una reunión breve, ¿qué otra vía recomienda?",
+   "o": [
+    "Entrar a través de un «padrino» (champion): otro dueño de activos del mismo nivel con quien ya trabajó",
+    "Pedir a la alta dirección que ordene al director colaborar con seguridad en la gestión del riesgo",
+    "Presentarle en la primera reunión un plan completo de mitigación para que vea el valor de seguridad",
+    "Esperar a que ocurra un incidente en su unidad para demostrar la necesidad de asociarse"
+   ],
+   "e": "El libro propone pedir directamente una reunión breve o entrar a través de un champion, un dueño de activos del mismo nivel con quien ya se trabajó, que abre puertas y defiende ESRM. Las primeras reuniones deben ser cortas y servir para conocer al dueño y lo que le importa, no para presentar un plan completo."
+  },
+  "security-1-q10": {
+   "q": "En el ciclo ESRM (ESRM Cycle), ¿qué sirve de base para el resto del ciclo?",
+   "o": [
+    "La lista priorizada de activos, según su criticidad para la misión y la estrategia",
+    "La lista priorizada de amenazas, ordenadas según su probabilidad y su impacto potencial",
+    "El plan de gestión de riesgos de seguridad aprobado por la alta dirección",
+    "Las lecciones aprendidas y los bucles de retroalimentación de incidentes previos"
+   ],
+   "e": "El primer proceso del ciclo es identificar y priorizar activos según su criticidad para la misión y la estrategia, y esa lista priorizada es la base del resto del ciclo. Las lecciones aprendidas y los bucles de retroalimentación (feedback loops) pertenecen a la mejora continua, el cuarto proceso."
+  },
+  "security-1-q11": {
+   "q": "En la fase de mitigación del ciclo ESRM, un gerente de seguridad recomienda instalar control de acceso en un laboratorio. ¿Cómo se reparten los papeles según el libro?",
+   "o": [
+    "El dueño del activo aprueba el control; el profesional documenta las decisiones y ejecuta el plan",
+    "El profesional aprueba el control; el dueño del activo documenta las decisiones y ejecuta el plan",
+    "La alta dirección aprueba el control; el dueño del activo ejecuta el plan con su propio personal",
+    "El comité de gobierno de seguridad aprueba el control; el profesional solo lo documenta"
+   ],
+   "e": "Los riesgos se mitigan con controles que recomienda el profesional y aprueba el dueño; el profesional documenta activos, riesgos y decisiones, quizá en un plan de gestión de riesgos de seguridad (security risk management plan), y lo ejecuta. Invertir los papeles es el error que señala el Ojo para el examen."
+  },
+  "security-1-q12": {
+   "q": "Según el libro, ¿qué describe MEJOR a la alta dirección (top management) en ESRM?",
+   "o": [
+    "El nivel más alto de liderazgo ejecutivo, siempre por encima del líder de seguridad y sin incluirlo",
+    "El nivel más alto de liderazgo ejecutivo, que siempre incluye al director de seguridad (CSO)",
+    "Los dueños de activos de mayor rango, responsables últimos de cada riesgo de seguridad",
+    "El órgano de gobierno de seguridad que fija la política de ESRM, asigna sus recursos y asegura el cumplimiento"
+   ],
+   "e": "La alta dirección es el nivel más alto de liderazgo ejecutivo, a menudo el C-suite o un comité ejecutivo, y siempre está por encima del líder de seguridad (por ejemplo, el CSO o el director de seguridad), sin incluirlo. La opción que incluye al CSO es el error más tentador."
+  },
+  "security-1-q13": {
+   "q": "La gestión holística del riesgo (holistic risk management) es uno de los conceptos del fundamento de ESRM. ¿Cuáles son sus dos sentidos?",
+   "o": [
+    "Participan todas las partes interesadas, y cubre todos los tipos de riesgo de seguridad sin silos",
+    "Cubre todos los riesgos de la organización, también los financieros, y la decide la alta dirección",
+    "Une bajo un solo líder la seguridad física y la ciber, con un único presupuesto compartido",
+    "Presenta los riesgos tal como son, y hace transparente cada paso del proceso de gestión"
+   ],
+   "e": "Holístico tiene dos sentidos en ESRM: participan todas las partes interesadas, sobre todo dueños de activos y alta dirección, y abarca todos los tipos de riesgo de seguridad (físico, ciber, información, personal) sin etiquetas ni silos. Presentar los riesgos tal como son y abrir el proceso describe la transparencia, otro concepto del fundamento."
+  },
+  "security-1-q14": {
+   "q": "En reuniones con dueños de activos, un gerente de seguridad les dice qué controles deben implantar y decide por ellos qué riesgos son aceptables. ¿Qué concepto del fundamento de ESRM incumple PRINCIPALMENTE?",
+   "o": [
+    "La asociación con partes interesadas (partnership with stakeholders)",
+    "La transparencia del riesgo (risk transparency)",
+    "La gobernanza organizativa (organizational governance)",
+    "La gestión holística del riesgo (holistic risk management)"
+   ],
+   "e": "En la asociación con partes interesadas, el profesional da orientación en lugar de instrucciones y apoya las decisiones sobre activos en lugar de tomarlas él. La transparencia del riesgo trata de presentar los riesgos sin exagerarlos ni minimizarlos, algo que el caso no plantea."
+  },
+  "security-1-q15": {
+   "q": "Para no alarmar a la dirección de una unidad de negocio, un analista de seguridad presenta un riesgo de fraude interno como «menor», aunque sus métricas indican lo contrario. ¿Qué principio de ESRM incumple?",
+   "o": [
+    "La transparencia del riesgo (risk transparency)",
+    "La transparencia del proceso (process transparency)",
+    "La gobernanza ESRM (ESRM governance)",
+    "La mejora continua (continuous improvement)"
+   ],
+   "e": "La transparencia del riesgo exige presentar los riesgos tal como son, ni exagerados ni minimizados, con afirmaciones objetivas y métricas cuantificables, para que el dueño decida informado. La transparencia del proceso se refiere a que las partes interesadas entiendan cada paso de la gestión del riesgo, no al tamaño que se da a un riesgo."
+  },
+  "security-1-q16": {
+   "q": "Una empresa crea un consejo de gobierno de seguridad para ejercer la gobernanza ESRM (ESRM governance). Según el libro, ¿quiénes deben ser principalmente sus miembros?",
+   "o": [
+    "Partes interesadas en el riesgo, no profesionales de seguridad",
+    "Profesionales de seguridad de cada disciplina, física y ciber",
+    "Miembros del consejo de administración y auditores externos",
+    "El director de seguridad y los gerentes que dependen de él"
+   ],
+   "e": "La gobernanza ESRM la ejerce un órgano de gobierno de seguridad (comité, consejo u otro grupo) cuyos miembros deben ser sobre todo partes interesadas en el riesgo, no profesionales de seguridad. Un órgano formado por especialistas de seguridad es el error más tentador, pero el libro lo descarta expresamente."
+  },
+  "security-1-q17": {
+   "q": "Un documento de seguridad recomienda cómo cumplir las expectativas de la política y usa verbos como «should» y «may». Según el marco documental (documentation framework), ¿qué tipo de documento es?",
+   "o": [
+    "Una guía (guideline)",
+    "Una norma (standard)",
+    "Una política (policy)",
+    "Un procedimiento (procedure)"
+   ],
+   "e": "Las guías son documentos tácticos, menos rígidos que las normas, que recomiendan cómo cumplir las expectativas con «should» o «may». Las normas también son tácticas, pero dicen de forma obligatoria cómo cumplir la política, con «shall» o «must»."
+  },
+  "security-2-q0": {
+   "q": "Según la lista de activos que propone el libro, ¿cuál de estos se clasifica como activo tangible (tangible asset)?",
+   "o": [
+    "Los datos de clientes (customer data)",
+    "La propiedad intelectual",
+    "Los procesos propietarios (proprietary processes)",
+    "La buena voluntad (goodwill) y la confianza"
+   ],
+   "e": "El libro pone los datos de clientes entre los activos tangibles, junto con los contratos vigentes y las personas. La propiedad intelectual, los procesos propietarios y la buena voluntad figuran como intangibles, porque no tienen forma física."
+  },
+  "security-2-q1": {
+   "q": "En la visión tradicional de la protección de activos (assets protection), ¿cuáles son los tres tipos de activos?",
+   "o": [
+    "Personas, bienes (property) e información",
+    "Personas, procesos y tecnología",
+    "Personas, bienes y reputación",
+    "Instalaciones, información y solvencia crediticia"
+   ],
+   "e": "La visión tradicional reconoce personas, bienes e información; la visión ampliada añade intangibles como la reputación, las relaciones y la solvencia crediticia (creditworthiness). «Personas, procesos y tecnología» no son tipos de activos, sino lo que deben incluir las contramedidas actuales."
+  },
+  "security-2-q2": {
+   "q": "El responsable de protección de activos de una empresa propone resolver el robo en el almacén solo con un nuevo sistema de videovigilancia. Según el capítulo, ¿qué deben incluir las contramedidas (countermeasures) actuales?",
+   "o": [
+    "Personas, procesos y tecnología",
+    "Eliminar, reducir, transferir y aceptar el riesgo",
+    "Seguridad física, seguridad informática y seguros",
+    "Tecnología, presupuesto y cumplimiento legal"
+   ],
+   "e": "El capítulo dice que las contramedidas actuales deben incluir personas, procesos y tecnología (people, process, technology); una cámara sola es solo tecnología. Eliminar, reducir, transferir y aceptar son las cuatro formas de gestionar el riesgo, no los componentes de una contramedida."
+  },
+  "security-2-q3": {
+   "q": "Después del 11-S, una empresa recortó su presupuesto de seguridad informática y de prevención de pérdidas para pagar bolardos, materiales resistentes a explosiones (blast-resistant materials) y zonas de separación (stand-off zones). ¿Qué efecto del 11-S describe el libro con este patrón?",
+   "o": [
+    "El efecto negativo: soluciones centradas en el terrorismo y no en el espectro amplio de riesgos realistas",
+    "Un cambio beneficioso a largo plazo: más uso de tecnologías avanzadas en las medidas de protección",
+    "Un efecto inmediato positivo: más presupuesto de seguridad y menos trabas a sus políticas",
+    "Un cambio de paradigma: la convergencia de la seguridad física y la seguridad informática"
+   ],
+   "e": "El libro señala como efecto negativo del 11-S que las soluciones se centraron en ataques terroristas y desviaron recursos de seguridad informática, información y prevención de pérdidas hacia medidas antiterroristas. Más presupuesto y menos trabas sí fueron efectos inmediatos, pero no describen ese desvío de recursos."
+  },
+  "security-2-q4": {
+   "q": "Según el libro, ¿quién posee u opera la mayor parte de la infraestructura crítica no militar (nondefense critical infrastructure) de Estados Unidos?",
+   "o": [
+    "Empresas privadas",
+    "El gobierno federal",
+    "Los gobiernos estatales y locales",
+    "Alianzas público-privadas"
+   ],
+   "e": "El libro afirma que la mayor parte de la infraestructura crítica no militar de Estados Unidos es propiedad u operación de empresas privadas. Las alianzas público-privadas aparecen en el capítulo como uno de los cambios de paradigma, no como dueñas de la infraestructura."
+  },
+  "security-2-q5": {
+   "q": "¿Cómo define riesgo (risk) la ESRM Guideline de ASIS (2019) que cita el capítulo?",
+   "o": [
+    "El efecto de la incertidumbre sobre el logro de objetivos estratégicos, tácticos y operativos",
+    "La probabilidad de que una amenaza explote una vulnerabilidad y cause una pérdida a un activo",
+    "El costo de las medidas de protección frente a las pérdidas potenciales que ayudan a evitar",
+    "La combinación de amenazas naturales y provocadas por el ser humano que afectan a los activos"
+   ],
+   "e": "La ESRM Guideline (2019) define el riesgo como «the effect of uncertainty on the achievement of strategic, tactical, and operational objectives». Comparar el costo de las medidas con las pérdidas potenciales no es la definición de riesgo, sino la base del objetivo de la protección de activos: equilibrar costes y beneficios."
+  },
+  "security-2-q6": {
+   "q": "Un nuevo gerente de protección de activos planea crear un programa de seguridad distinto para cada amenaza y decidir él mismo las medidas. Según el capítulo, ¿qué cambio, el más importante de la profesión, está pasando por alto?",
+   "o": [
+    "Que ahora se gestiona con principios de ESRM, como proceso de riesgo y no por programas",
+    "Que la convergencia obliga a poner la seguridad física e informática bajo un solo líder",
+    "Que el antiterrorismo pasó a ser la prioridad principal de toda estrategia de protección",
+    "Que las alianzas público-privadas sustituyen a los programas internos de seguridad"
+   ],
+   "e": "El libro señala como cambio más importante que la protección de activos se gestiona con los principios de la gestión de riesgos de seguridad empresarial (ESRM), como proceso o metodología de riesgo y no por programas; además, decide el dueño del activo, no el profesional. Convergencia y antiterrorismo figuran en la lista de cambios de paradigma, pero no son el principal."
+  },
+  "security-2-q7": {
+   "q": "Una tienda de conveniencia reparte el efectivo entre varias cajas y pasa el exceso a una caja fuerte con cerradura temporizada (time lock safe). ¿Qué forma de gestionar el riesgo está aplicando?",
+   "o": [
+    "Reducir (reduce)",
+    "Eliminar (eliminate)",
+    "Transferir (transfer)",
+    "Aceptar (accept)"
+   ],
+   "e": "Repartir el efectivo y usar una caja fuerte temporizada mitiga los efectos de un robo y la pérdida resultante: es reducir, la forma más asociada a la seguridad. Eliminar exigiría quitar el riesgo por completo, como cuando una tienda deja de vender un producto muy robado."
+  },
+  "security-2-q8": {
+   "q": "Un minorista calcula que los controles para eliminar un pequeño robo de producto costarían más que las pérdidas que evitarían, y que asegurarlo tampoco compensa. Decide asumir esa pérdida como parte normal de la operación. ¿Es correcta la decisión según el libro?",
+   "o": [
+    "Sí: aceptar es correcto cuando reducir, eliminar o transferir cuesta más que la pérdida potencial",
+    "No: el riesgo siempre debe reducirse, porque reducir es la acción más asociada a la seguridad",
+    "No: si un riesgo no se puede eliminar, la única opción válida es transferirlo con un seguro",
+    "Sí: aceptar es correcto siempre que el dueño del activo no quiera invertir en seguridad"
+   ],
+   "e": "Aceptar (accept) el riesgo es correcto cuando reducirlo, eliminarlo o transferirlo cuesta más que las pérdidas potenciales, en línea con el objetivo de equilibrar costes y beneficios de las medidas de protección. La opción de aceptar porque el dueño no quiere invertir es tentadora, pero el criterio del libro es el costo frente a la pérdida."
+  },
+  "security-2-q9": {
+   "q": "Según este libro, ¿cuál es el orden correcto de las cuatro D (Four Ds)?",
+   "o": [
+    "Disuadir, negar, detectar, retrasar (deter, deny, detect, delay)",
+    "Disuadir, detectar, negar, retrasar (deter, detect, deny, delay)",
+    "Disuadir, detectar, retrasar, negar (deter, detect, delay, deny)",
+    "Negar, disuadir, detectar, retrasar (deny, deter, detect, delay)"
+   ],
+   "e": "El libro da el orden deter, deny, detect, delay: disuadir el ataque, negar el acceso al activo, detectar si fallan las dos primeras y retrasar al autor con el ataque en curso mediante endurecimiento del objetivo (target hardening). Para el examen hay que memorizar este orden tal como lo da el libro."
+  },
+  "security-3-q0": {
+   "q": "¿Qué diferencia MEJOR cómo se evidencian el robo (theft) y el fraude (fraud)?",
+   "o": [
+    "El robo se nota porque algo desaparece; el fraude solo deja síntomas o indicadores",
+    "El fraude se nota porque algo desaparece; el robo solo deja síntomas o indicadores",
+    "Ambos se evidencian sobre todo por faltantes en el conteo físico del inventario",
+    "El robo suele detectarse en auditorías; el fraude, casi siempre por la policía"
+   ],
+   "e": "El libro explica que el robo se evidencia porque algo desaparece, mientras que el fraude y la malversación (embezzlement) solo dejan síntomas o indicadores (red flags). Por eso conocer las señales de alerta es clave para prevenir el fraude."
+  },
+  "security-3-q1": {
+   "q": "Para justificar un programa de prevención, un gerente estima pérdidas anuales de $500,000 sin programa de seguridad y de $200,000 con programa. Según el método del libro, ¿cuáles son las pérdidas evitadas (avoided losses)?",
+   "o": [
+    "$300,000",
+    "$700,000",
+    "$200,000",
+    "$500,000"
+   ],
+   "e": "Pérdidas evitadas = pérdidas estimadas sin programa − pérdidas estimadas con programa: 500,000 − 200,000 = 300,000. El libro usa este cálculo para demostrar que hacen falta iniciativas integrales; $200,000 es la pérdida que aún se espera con el programa."
+  },
+  "security-3-q2": {
+   "q": "Según el estudio de la ACFE (Association of Certified Fraud Examiners) de 2018, ¿cuál es el método más común de detección del fraude ocupacional (occupational fraud)?",
+   "o": [
+    "Las denuncias o soplos (tips)",
+    "La auditoría interna",
+    "La revisión de la dirección (management review)",
+    "Las auditorías sorpresa (surprise audits)"
+   ],
+   "e": "Las denuncias detectaron el 40 % de los casos, seguidas de la auditoría interna (15 %) y la revisión de la dirección (13 %). Con una línea de denuncia (hotline), la detección por denuncia sube al 46 %, frente al 30 % sin ella."
+  },
+  "security-3-q3": {
+   "q": "Con presupuesto limitado, una empresa quiere implantar los controles que, según la ACFE (2018), más reducen la pérdida y la duración del fraude. ¿Cuáles debe priorizar?",
+   "o": [
+    "Monitoreo de datos (data monitoring) y auditorías sorpresa",
+    "Líneas de denuncia y verificación de antecedentes",
+    "Auditoría externa y revisión de la dirección",
+    "Formación antifraude y código de conducta"
+   ],
+   "e": "La ACFE halló que el monitoreo de datos y las auditorías sorpresa (surprise audits) son los controles que más reducen la pérdida y la duración, y solo el 37 % de las organizaciones los tenía. La línea de denuncia aumenta la detección por denuncias, pero no es el control que el estudio destaca por reducir pérdida y duración."
+  },
+  "security-3-q4": {
+   "q": "Según la ACFE (2018), ¿qué categoría de fraude ocupacional es la más común y, a la vez, la menos costosa?",
+   "o": [
+    "Apropiación indebida de activos (asset misappropriation)",
+    "Corrupción (corruption)",
+    "Fraude en estados financieros (financial statement fraud)",
+    "Robo de tiempo (theft of time)"
+   ],
+   "e": "La apropiación indebida de activos (efectivo, inventario y otros activos) es el tipo más común y el menos costoso, con una pérdida mediana de $114,000. Corrupción y fraude en estados financieros son las otras dos categorías de la ACFE; el robo de tiempo no es una de ellas, sino la lectura actual de la desviación en la producción."
+  },
+  "security-3-q5": {
+   "q": "En un almacén, los robos se concentran en un turno donde el grupo considera normal llevarse producto y el supervisor bromea al respecto. ¿Qué hipótesis de Clark y Hollinger explica MEJOR el caso?",
+   "o": [
+    "Control social (social control)",
+    "Insatisfacción laboral (job dissatisfaction)",
+    "Oportunidad (opportunity)",
+    "Presiones económicas externas (external economic pressures)"
+   ],
+   "e": "La hipótesis del control social sostiene que la estructura social formal e informal de la organización, en especial las normas del grupo de trabajo y la relación supervisor-empleado, influye mucho en si hay robo. La oportunidad es tentadora, pero el caso subraya las normas del grupo y la actitud del supervisor."
+  },
+  "security-3-q6": {
+   "q": "Un empleado alarga sus pausas de comida, usa días por enfermedad sin estar enfermo y a veces checa la tarjeta de asistencia por un compañero. ¿Cómo clasifica el capítulo esta conducta?",
+   "o": [
+    "Desviación en la producción (production deviance); hoy se considera robo de tiempo",
+    "Insatisfacción laboral (job dissatisfaction); no se considera robo",
+    "Apropiación indebida de activos, según las categorías de la ACFE",
+    "Asociación diferencial (differential association); es conducta aprendida, no robo"
+   ],
+   "e": "Clark y Hollinger llamaron desviación en la producción a conductas como pausas alargadas, mal uso de días por enfermedad o checar por otro, difíciles de separar del robo; con los criterios actuales, son robo de tiempo (theft of time). La insatisfacción laboral es una de sus hipótesis sobre la causa del robo, no una clasificación de la conducta."
+  },
+  "security-3-q7": {
+   "q": "Un contador de confianza oculta deudas de juego que no se atreve a contar a nadie. Cree que puede resolverlas desviando fondos de forma temporal y se dice que solo «toma prestado». ¿Qué teoría explica MEJOR su conducta?",
+   "o": [
+    "La necesidad no compartible de Cressey (nonshareable need)",
+    "La asociación diferencial de Sutherland (differential association)",
+    "La doctrina de la disuasión (deterrence doctrine)",
+    "La hipótesis de control social de Clark y Hollinger"
+   ],
+   "e": "Cressey explica la violación de una posición de confianza financiera con tres elementos: un problema financiero no compartible, la oportunidad de violar la confianza y racionalizaciones que justifican la conducta. Sutherland, en cambio, atribuye el delito a la asociación con un ambiente criminal, que el caso no menciona."
+  },
+  "security-3-q8": {
+   "q": "Según Wells (1997), en todo fraude coinciden una fuerte presión financiera, una oportunidad y un medio de justificarlo. ¿Qué señala como factor predominante?",
+   "o": [
+    "La codicia (greed)",
+    "Las deudas de juego",
+    "El consumo de drogas",
+    "Los gastos médicos inesperados"
+   ],
+   "e": "Wells cita deudas de juego, drogas, vivir por encima de las posibilidades, gastos médicos y el deseo de parecer exitoso como fuentes de presión, pero el factor predominante es la codicia. El Appendix 3A dice que el juego es el motivo más común, pero para el examen el libro pide priorizar la codicia de Wells."
+  },
+  "security-3-q9": {
+   "q": "Un investigador ya demostró que un empleado ocultó un hecho material (material fact) a sabiendas de que era falso y con la intención de que la empresa confiara en él. ¿Qué más debe probar quien determina los hechos (factfinder) para establecer el fraude?",
+   "o": [
+    "Que la víctima confió en la tergiversación y sufrió un daño por ello",
+    "Que el empleado estaba bajo una presión financiera no compartible",
+    "Que el empleado obtuvo un beneficio personal y ya lo gastó",
+    "Que el empleado tenía antecedentes de fraude o violaciones de confianza"
+   ],
+   "e": "Los cinco puntos son: tergiversar u ocultar un hecho material, saber que era falso, querer que la víctima confiara, que la víctima confiara y que sufriera un daño por ello. La presión no compartible es un elemento de la teoría de Cressey sobre la motivación, no de la prueba del fraude."
+  },
+  "security-3-q10": {
+   "q": "Un auditor observa que en una empresa los costos crecen más rápido que los ingresos, hay problemas importantes de flujo de caja y se fijan cuotas de venta irreales. ¿En qué categoría de señales de alerta (red flags) encajan?",
+   "o": [
+    "Señales situacionales de la organización",
+    "Señales de oportunidad de la organización",
+    "Señales situacionales del empleado",
+    "Señales de oportunidad del empleado"
+   ],
+   "e": "La compresión de utilidades (profit squeeze), los problemas de flujo de caja y las cuotas de venta irreales figuran entre las señales situacionales de la organización. Las de oportunidad de la organización se refieren a controles y estilos de dirección, como la aplicación laxa de los controles internos o la falta de separación de funciones."
+  },
+  "security-3-q11": {
+   "q": "¿Cuál de estas señales de alerta clasifica el libro como señal de oportunidad del empleado (employee opportunity red flag)?",
+   "o": [
+    "Supervisión laxa o remota",
+    "Vivir por encima de sus posibilidades",
+    "Falta de separación entre quien ordena y quien recibe",
+    "Inventarios muy envejecidos o excesivos"
+   ],
+   "e": "La supervisión laxa o remota es una de las cinco señales de oportunidad del empleado, junto con el puesto de confianza o la relación estrecha y prolongada con proveedores. Vivir por encima de sus posibilidades es una señal situacional del empleado, y la falta de separación entre ordenar y recibir es una señal de oportunidad de la organización."
+  },
+  "security-3-q12": {
+   "q": "Una empresa descubre que un administrador de sistemas sustrajo información y dinero. Según la estrategia de respuesta de McCormack (2018), ¿qué debe hacer PRIMERO?",
+   "o": [
+    "Formar un equipo de reacción rápida (quick reaction team) que atienda lo inmediato, como revocar sus credenciales",
+    "Hacer un análisis de causa raíz que clasifique cada falla como de tecnología, proceso o persona",
+    "Reunir un equipo interdivisional (cross-divisional team) para establecer los hechos",
+    "Elaborar y documentar un plan de remediación para que el robo no se repita"
+   ],
+   "e": "El primer paso es formar un equipo de reacción rápida con seguridad, TI, legal, recursos humanos y comunicación corporativa, que atiende lo inmediato, como revocar credenciales de acceso. El equipo interdivisional para establecer los hechos es el segundo paso, y el análisis de causa raíz, el cuarto."
+  },
+  "security-3-q13": {
+   "q": "Seguridad recibe una denuncia de posible robo en el área de compras e inicia una investigación preliminar. ¿Cuál es su objetivo PRINCIPAL?",
+   "o": [
+    "Determinar qué delito o violación existe",
+    "Obtener una confesión del sospechoso principal",
+    "Recuperar el dinero o los bienes sustraídos",
+    "Reunir pruebas suficientes para la policía"
+   ],
+   "e": "Según el libro, el objetivo principal de toda investigación preliminar es determinar qué delito o violación existe; después se entrevista, se buscan evidencias y se prepara un informe de hechos para la alta dirección o el abogado interno (in-house counsel). Normalmente investigan personal interno o contratistas privados, no la policía."
+  },
+  "security-3-q14": {
+   "q": "Seguridad quiere publicar en el boletín interno el nombre de un empleado despedido por robo, que no fue procesado judicialmente, para disuadir a otros. ¿Qué debe hacer ANTES de publicarlo?",
+   "o": [
+    "Consultar a un abogado, porque nombrarlo puede ser difamación y generar demandas civiles",
+    "Obtener la aprobación por escrito de su antiguo supervisor y de recursos humanos",
+    "Esperar a que pague la restitución completa más los costos de la investigación",
+    "Nada: publicar los casos con nombres es la forma de disuasión más eficaz"
+   ],
+   "e": "En el elemento de publicación, nombrar personas o detallar incidentes no procesados judicialmente puede ser difamación (defamation) y dar lugar a demandas civiles, por lo que hay que consultar antes a un abogado. Los boletines sí sirven para mostrar el valor de seguridad, pero el libro recomienda comunicar casos reales sin nombres."
+  },
+  "security-3-q15": {
+   "q": "Una empresa quiere comprobar que se cumplen los controles sobre las cuentas de gastos (elemento 10, pruebas de cumplimiento o compliance testing). Según el libro, ¿qué método debe usar solo como último recurso?",
+   "o": [
+    "Operaciones encubiertas (undercover operations)",
+    "Auditorías internas",
+    "Auditorías externas",
+    "Revisiones del departamento de seguridad"
+   ],
+   "e": "Las pruebas de cumplimiento se hacen con auditorías internas o externas o con revisiones del departamento de seguridad y, como último recurso, con operaciones encubiertas. Las auditorías son la vía normal, no el último recurso."
+  },
+  "security-3-q16": {
+   "q": "Un empleado que robó inventario es despedido, y la empresa valora además procesarlo penalmente y exigirle restitución. Según el capítulo, ¿cuál de las tres opciones es la más difícil pero la que más beneficia a la víctima?",
+   "o": [
+    "La restitución (restitution)",
+    "El proceso penal (prosecution)",
+    "El despido (termination)",
+    "La combinación de despido y proceso penal"
+   ],
+   "e": "De las tres «shuns» (despido, proceso penal y restitución), la restitución es la más difícil, pero la que más beneficia a la víctima; además, nada deja tan claro el mensaje como que el autor pague. Si el único castigo es el despido, lo robado se convierte en su «paracaídas dorado»."
+  },
+  "security-3-q17": {
+   "q": "Un centro de distribución fija una varianza negativa permitida (allowable negative variance) del 2 % entre el conteo en libros y el conteo físico, y no investiga las diferencias por debajo de ese umbral. ¿Cuál es el MAYOR peligro según el libro?",
+   "o": [
+    "Que el robo o fraude se esconda en esa varianza, que crece con el tiempo y permite grandes pérdidas",
+    "Que la aseguradora rechace las reclamaciones por superar la varianza estándar de la industria",
+    "Que los empleados honestos se desmotiven porque se les acusa sin pruebas",
+    "Que los auditores externos detecten el umbral y califiquen los estados financieros de fraudulentos"
+   ],
+   "e": "El libro advierte que las organizaciones se vuelven complacientes e incorporan las pérdidas a sus estándares: el robo o fraude se esconde en la varianza permitida, no se descubre y la varianza crece hasta permitir grandes pérdidas acumuladas. Además, un robo no detectado no puede recuperarse por el seguro ni deducirse de impuestos."
+  },
+  "security-4-q0": {
+   "q": "Según el libro, ¿qué describe MEJOR la costo-efectividad (cost-effectiveness) de un programa de protección de activos?",
+   "o": [
+    "Producir buenos resultados por el dinero gastado",
+    "Operar siempre con el presupuesto más bajo posible",
+    "Eliminar todas las pérdidas probables de la empresa",
+    "Proteger cada activo con la mejor tecnología disponible"
+   ],
+   "e": "El libro la define como producir buenos resultados por el dinero gastado. No equivale a gastar lo mínimo: el gerente debe mantener los costos más bajos compatibles con los resultados operativos requeridos, no el presupuesto más bajo a secas."
+  },
+  "security-4-q1": {
+   "q": "Un gerente de seguridad debe mejorar la protección de un almacén sin presupuesto adicional. Según el capítulo, ¿qué tipo de contramedida debería considerar PRIMERO por ser la más barata y la que a menudo se olvida?",
+   "o": [
+    "Controles de procedimiento (procedural controls)",
+    "Rondas adicionales de oficiales de seguridad",
+    "Sensores de movimiento en la iluminación",
+    "Alarmas de espacio interior en el almacén"
+   ],
+   "e": "Los controles de procedimiento son las contramedidas más baratas y a menudo se olvidan: cambiar cómo se hacen las cosas mejora la seguridad y el resultado económico. Las rondas o la tecnología añaden costo de personal o de equipo."
+  },
+  "security-4-q2": {
+   "q": "¿Cuál es la prueba real de que un programa de prevención de pérdidas mayores (major loss prevention) funciona como se prometió?",
+   "o": [
+    "Que pérdidas reales más costo de protección queden dentro de los límites de riesgo asumido",
+    "Que el costo anual de la protección quede por debajo del 0.4 % de las ventas brutas anuales de la empresa",
+    "Que las pérdidas reales del año resulten iguales a las pérdidas probables estimadas al aprobar el programa",
+    "Que el costo evitado supere la suma del presupuesto de salarios, gastos operativos y gastos de capital"
+   ],
+   "e": "La prueba exige que las pérdidas reales sean menores que las probables y que la suma de pérdidas reales más el costo de la protección quede dentro de los límites de riesgo asumido (risk-assumption boundaries) que la dirección aceptó al aprobar el programa. El 0.4 % es solo el dato del ejemplo de la empresa de $250 millones, no un umbral."
+  },
+  "security-4-q3": {
+   "q": "Durante su ronda nocturna, un oficial cierra una puerta que estaba abierta indebidamente, apaga una máquina que seguía funcionando y reporta una presión demasiado alta en una línea. ¿A qué elemento de la costo-efectividad corresponden principalmente estos hallazgos?",
+   "o": [
+    "Prevención de otras pérdidas (other loss prevention)",
+    "Prevención de pérdidas mayores (major loss prevention)",
+    "Costo evitado (cost avoidance) de las pérdidas probables",
+    "Límites de riesgo asumido (risk-assumption boundaries)"
+   ],
+   "e": "Son hallazgos típicos de ronda que corresponden a la prevención de otras pérdidas, que casi nunca se cuantifican aunque su efecto acumulado en una instalación grande es significativo y debe documentarse. La prevención de pérdidas mayores se refiere a las pérdidas probables que las medidas propuestas evitarían."
+  },
+  "security-4-q4": {
+   "q": "Un oficial apaga en su ronda una luz encendida indebidamente en un área sin sensor de movimiento. Para valorar ese hallazgo, ¿cómo calcula el libro el costo evitado?",
+   "o": [
+    "Tiempo que habría seguido encendida sin la ronda × costo por hora de esa luz",
+    "Costo por hora del oficial de ronda × duración total de su turno de trabajo",
+    "Costo de instalar un sensor de movimiento − costo anual de energía de la luz",
+    "Potencia de esa luz × número total de luces que hay en la instalación"
+   ],
+   "e": "El libro usa tres preguntas: cuánto tiempo habría seguido encendida sin la ronda, cuánto cuesta esa luz por hora o turno y, como resultado, el producto de ambas es el costo evitado. Una sola luz es insignificante, pero cientos de luces durante miles de horas al año suponen un ahorro importante."
+  },
+  "security-4-q5": {
+   "q": "Una empresa con ventas brutas anuales de $250 millones gasta $1 millón al año en protección de activos. Si ese dinero pudiera invertirse en instrumentos financieros al 4.5 % anual, ¿cuál es el costo real del programa de seguridad según el libro?",
+   "o": [
+    "$1,045,000 al año",
+    "$1,000,000 al año",
+    "$1,450,000 al año",
+    "$955,000 al año"
+   ],
+   "e": "Al costo directo de $1 millón se suma el rendimiento que se deja de obtener ($45,000), lo que da $1,045,000; ese costo real debe compararse con las consecuencias de no tener programa de seguridad. La cifra de $1,000,000 ignora la alternativa de inversión que la dirección tiene en mente."
+  },
+  "security-4-q6": {
+   "q": "Un gerente revisa los candados de $30 que aseguran los semirremolques cargados en el patio. Según el libro, ¿qué pregunta suele ser MÁS difícil de responder?",
+   "o": [
+    "Si este candado de $30 es el más adecuado para la tarea",
+    "Si un candado es la contramedida adecuada para el riesgo",
+    "Si el gasto en candados entra en los gastos de capital",
+    "Si los semirremolques cargados deben quedar en el patio"
+   ],
+   "e": "El libro plantea dos preguntas: si un candado es la contramedida adecuada y, si lo es, si este candado de $30 es el más adecuado; en general la segunda es más difícil de responder. Ambas parten de preguntarse si cada recurso es el más eficaz disponible a ese costo."
+  },
+  "security-4-q7": {
+   "q": "En el caso de las alarmas de incendio molestas (nuisance fire alarms), una iniciativa de $10,000 al año evitó $40,000 de pérdidas anuales, y el libro afirma que se ahorran $4 por cada $1. Si se aplica la fórmula de retorno sobre la inversión (ROI) del propio libro, ¿qué resultado se obtiene?",
+   "o": [
+    "3, es decir, 300 %",
+    "4, es decir, 400 %",
+    "0.25, es decir, 25 %",
+    "5, es decir, 500 %"
+   ],
+   "e": "ROI = (valor actual − costo) ÷ costo = (40,000 − 10,000) ÷ 10,000 = 3, o sea 300 %. Los «$4 por cada $1» que da el libro son una relación beneficio/costo (40,000 ÷ 10,000), no el resultado de su fórmula de ROI."
+  },
+  "security-4-q8": {
+   "q": "En el análisis de las alarmas de incendio molestas, ¿cuál de estos elementos se clasificó como costo duro (hard cost)?",
+   "o": [
+    "Las multas impuestas por el cuerpo de bomberos",
+    "El desgaste de los sistemas mecánicos del edificio",
+    "Los empleados que aprenden a ignorar las alarmas",
+    "La frustración del personal y de los bomberos"
+   ],
+   "e": "Los costos duros fueron la productividad perdida de quienes evacúan o atienden las alarmas y las multas de bomberos, que se sumaron fácilmente. El desgaste de los sistemas mecánicos, ignorar las alarmas y la frustración fueron costos blandos (soft costs), que solo se estimaron."
+  },
+  "security-4-q9": {
+   "q": "En un centro de vigilancia, los robos de empleados se graban, los infractores se identifican y reciben sanciones duras, pero recursos humanos tarda varios meses en aplicar la disciplina. Según el capítulo, ¿por qué se debilita el efecto disuasorio (deterrent effect)?",
+   "o": [
+    "Porque al castigo le falta rapidez",
+    "Porque al castigo le falta severidad",
+    "Porque al castigo le falta certeza",
+    "Porque las cámaras no son visibles"
+   ],
+   "e": "Para disuadir, el castigo debe ser rápido, seguro y severo (swift, certain, severe); si falta uno, el efecto baja. Aquí la infracción se detecta con seguridad y se sanciona con dureza, así que lo que falla es la rapidez; las cámaras visibles (overt) se asocian al efecto de desplazamiento, no a este."
+  },
+  "security-4-q10": {
+   "q": "Los reportes de incidentes de un almacén muestran pérdidas constantes de artículos pequeños y de alto valor, y ninguna pérdida importante del resto del inventario. Según el ejemplo del libro, ¿cuál es la respuesta MÁS costo-efectiva?",
+   "o": [
+    "Jaula de malla ciclónica con cerradura fiable y alarmas de espacio interior",
+    "Alarmas de intrusión en todas las puertas y ventanas del edificio del almacén",
+    "Rondas adicionales de oficiales por todo el almacén en cada turno",
+    "Circuito cerrado de televisión (CCTV) que cubra todo el almacén"
+   ],
+   "e": "El modelado predictivo (predictive modeling) permite limitar las precauciones a lo que realmente se pierde: una jaula de malla ciclónica (chain-link) con cerradura fiable y alarmas de espacio interior. Con esos datos se podría prescindir de las alarmas de intrusión en puertas y ventanas, de las rondas y del CCTV."
+  },
+  "security-4-q11": {
+   "q": "Un gerente quiere añadir un operador al centro de vigilancia y debe explicar el ROI respondiendo «¿qué obtienen por su dinero?». Según el libro, ¿qué argumento hace MÁS probable la aprobación?",
+   "o": [
+    "Que lo recuperado en los casos que detecte iguale o supere el salario del puesto",
+    "Que el pronóstico de casos detectados se presente de la forma más optimista",
+    "Que el puesto se compare con la plantilla de centros de otras organizaciones",
+    "Que el puesto se justifique solo por su efecto disuasorio, sin dar cifras"
+   ],
+   "e": "El libro indica estimar los casos, como robos de empleados, que generaría el nuevo operador; si lo recuperado (dinero, bienes o restitución) iguala o supera su salario, la aprobación es probable. No hay que exagerar el pronóstico, porque al gerente se le pedirán cuentas en el siguiente presupuesto."
+  },
+  "security-4-q12": {
+   "q": "Un gerente de seguridad usa a diario un tablero (dashboard) con 25 indicadores y debe presentar resultados a la alta dirección. Según las recomendaciones de la ASIS Foundation, ¿qué debería hacer?",
+   "o": [
+    "Preparar un tablero aún más simple y presentar en 5 minutos o menos",
+    "Presentar los 25 indicadores para demostrar el rigor del programa",
+    "Enviar el tablero completo por escrito y evitar la presentación oral",
+    "Sustituir los gráficos por tablas detalladas de cada uno de los indicadores"
+   ],
+   "e": "La recomendación de usar gráficos y ser breve dice que menos es más: a la dirección le importan pocas métricas, así que el tablero debe simplificarse y la presentación durar 5 minutos o menos. Mostrar todos los indicadores va contra esa regla aunque parezca más riguroso."
+  },
+  "security-4-q13": {
+   "q": "Un gerente presenta a la dirección métricas basadas en datos poco fiables y, cuando se detectan errores, seguridad pierde credibilidad. ¿Qué recomendación sobre presentación de métricas pasó por alto?",
+   "o": [
+    "Presentar métricas que cumplan estándares de medición",
+    "Contar una historia (tell a story) con los datos del programa",
+    "Usar gráficos y ser breve ante la alta dirección",
+    "Presentar las métricas con regularidad"
+   ],
+   "e": "Las cifras parecen científicas, pero si se basan en datos inválidos o poco fiables las conclusiones fallan y pierden credibilidad; una métrica bien diseñada y evaluada con criterios estadísticos convence más. Contar una historia se refiere a nombrar los recursos amenazados, su valor y las consecuencias, y mostrar la evolución en el tiempo."
+  },
+  "security-4-q14": {
+   "q": "Según el libro, ¿cuál es el aspecto MÁS importante de un caso de negocio (business case) de seguridad?",
+   "o": [
+    "Su alineación con las metas de la organización",
+    "La calidad del resumen ejecutivo (executive summary)",
+    "El análisis costo-beneficio (cost-benefit analysis)",
+    "La inclusión de la opción de no hacer nada"
+   ],
+   "e": "El libro llama a la alineación con las metas «el aspecto más importante». Ojo: el análisis costo-beneficio es solo «una de las partes más importantes», y análisis y recomendación son «el corazón» del caso, así que hay que responder según lo que pregunte el enunciado."
+  },
+  "security-4-q15": {
+   "q": "Al redactar un caso de negocio, un gerente sabe que el director financiero (CFO) probablemente solo leerá la primera sección. Según el libro, ¿qué debe cumplir esa sección?",
+   "o": [
+    "Ser breve pero contar la historia completa del caso",
+    "Detallar las alternativas y su análisis comparativo",
+    "Describir los próximos pasos si el caso se rechaza",
+    "Enumerar supuestos, restricciones e hitos del proyecto"
+   ],
+   "e": "El resumen ejecutivo es la primera sección: breve, pero cuenta la historia completa, porque puede ser lo único que lean algunos directivos. Supuestos, restricciones e hitos (milestones) pertenecen a la descripción del proyecto (project description), y los próximos pasos a las aprobaciones (approvals)."
+  },
+  "security-4-q16": {
+   "q": "Antes de aplicar un programa de contramedidas en toda la empresa, el gerente quiere hacer una verificación piloto (pilot verification) del modelo. ¿Qué método describe el libro?",
+   "o": [
+    "Proteger unos puntos y dejar sin proteger otros de igual probabilidad de pérdida, y comparar",
+    "Proteger todos los puntos durante un mes y comparar con las pérdidas del año anterior",
+    "Aplicar contramedidas solo donde hay más pérdidas y medir cuánto bajan en esos puntos",
+    "Comparar las pérdidas propias con las de otras organizaciones del sector (benchmarking)"
+   ],
+   "e": "El piloto protege algunos puntos de exposición y deja sin proteger otros con la misma probabilidad de pérdida; durante un periodo controlado se miden las pérdidas reales y se comparan. Si las pérdidas del piloto son inaceptables, se reduce o suspende la prueba y se aplican las contramedidas en toda la empresa de inmediato."
+  },
+  "security-4-q17": {
+   "q": "Tras varios meses cargando incidentes en una nueva base de datos, el gerente observa que el 80 % de los reportes de cada mes cae en la categoría «otros» (other). Según el libro, ¿qué debe hacer?",
+   "o": [
+    "Crear categorías nuevas en la clasificación",
+    "Eliminar la categoría «otros» de la base",
+    "Esperar un año antes de tocar la clasificación",
+    "Dejar de registrar los incidentes menores"
+   ],
+   "e": "La regla del libro es que, si el 80 % de los reportes mensuales cae en «otros», hay que crear categorías nuevas. La dirección debe ser flexible y revisar los datos periódicamente; al cargar incidentes puede ser necesario modificar las clasificaciones, así que esperar un año no procede."
+  },
+  "security-5-q0": {
+   "q": "Un ingeniero clave conoce de memoria un proceso de fabricación propietario y el laboratorio guarda un prototipo físico de un nuevo dispositivo. Desde la perspectiva de la protección de activos de información (Information Asset Protection, IAP), ¿qué describe MEJOR estos dos elementos?",
+   "o": [
+    "Ambos son formas en que existe la información y deben entrar en el programa",
+    "Solo el prototipo es un activo de información, porque es un objeto tangible",
+    "Solo el proceso es un activo de información, porque está en la mente de alguien",
+    "Ninguno lo es hasta que se registre en un sistema de tecnologías de la información"
+   ],
+   "e": "El libro enumera entre las formas de la información el conocimiento de una persona, un proceso o procedimiento y un objeto como un modelo o prototipo, además de los datos en sistemas de TI. La IAP no se limita a datos electrónicos: es la seguridad de la información (information security) en todas sus formas."
+  },
+  "security-5-q1": {
+   "q": "¿Qué efecto tuvo la Economic Espionage Act (EEA) de 1996 en Estados Unidos?",
+   "o": [
+    "Hizo del robo de secretos comerciales un delito federal y facultó al FBI para investigar espionaje económico",
+    "Creó el programa DECA del FBI para educar a los contratistas de defensa con habilitación sobre el espionaje",
+    "Implantó la seguridad de operaciones (OPSEC) en todo el poder ejecutivo federal de Estados Unidos",
+    "Tipificó como delito penal la infracción de patentes cometida por competidores extranjeros en el país"
+   ],
+   "e": "La EEA de 1996 hizo del robo de secretos comerciales (trade secrets) un delito federal y dio al FBI autoridad para investigar el espionaje económico; se redactó con aportes de ASIS International. DECA es un programa del FBI de los años 1970, y OPSEC se implantó en el ejecutivo federal en 1988."
+  },
+  "security-5-q2": {
+   "q": "Una nueva directora de seguridad debe crear desde cero el programa de IAP de su empresa con el enfoque de gestión de riesgos de seguridad empresarial (Enterprise Security Risk Management, ESRM). ¿Qué debe hacer PRIMERO?",
+   "o": [
+    "Identificar y priorizar los activos de información",
+    "Identificar y priorizar los riesgos para la información",
+    "Mitigar los riesgos que la empresa ya conoce",
+    "Mejorar de forma continua las medidas existentes"
+   ],
+   "e": "El ESRM aplicado a IAP sigue cuatro pasos: identificar y priorizar activos, identificar y priorizar riesgos, mitigar los riesgos priorizados y mejorar de forma continua el programa. Identificar los riesgos es el segundo paso, no el primero."
+  },
+  "security-5-q3": {
+   "q": "Una pequeña empresa de una sola sede, sin una función robusta de seguridad y riesgos, opera en una zona de huracanes. Según el capítulo, ¿qué medida protege MEJOR su supervivencia frente a esta amenaza natural (natural threat)?",
+   "o": [
+    "Respaldo de datos críticos fuera del sitio y sitios alternos tibios o calientes",
+    "Acuerdos de no divulgación firmados con todos sus empleados y proveedores",
+    "Inspecciones regulares de contramedidas de vigilancia técnica en sus oficinas",
+    "Evaluación de la capacidad y la intención de sus adversarios conocidos"
+   ],
+   "e": "Muchas empresas desaparecen tras un desastre por perder su información, no sus instalaciones, porque su plan de continuidad del negocio no incluía respaldo fuera del sitio (off-site backup) ni sitios alternos tibios o calientes (warm or hot sites). Evaluar capacidad e intención corresponde a las amenazas intencionales."
+  },
+  "security-5-q4": {
+   "q": "Según el capítulo, ¿qué categoría de amenaza es quizá la MÁS ignorada y también la más difícil de identificar y evaluar?",
+   "o": [
+    "Las amenazas inadvertidas (inadvertent threats)",
+    "Las amenazas intencionales (intentional threats)",
+    "Las amenazas naturales (natural threats)",
+    "Las ciberamenazas de actores estatales (nation-state actors)"
+   ],
+   "e": "Las amenazas inadvertidas, los errores sin intención, son quizá las más ignoradas y las más difíciles de identificar y evaluar; según Winkler (2005), las mayores pérdidas vienen de «la gente en el espejo». Las intencionales son, históricamente, las más atendidas."
+  },
+  "security-5-q5": {
+   "q": "Al evaluar amenazas intencionales (intentional threats) contra los activos de información, ¿qué dos aspectos de cada adversario identificado se valoran?",
+   "o": [
+    "Su capacidad (capability) y su intención (intention) de atacar activos clave",
+    "Su ubicación geográfica actual y su posible vínculo con gobiernos extranjeros",
+    "La frecuencia de sus ataques y el impacto económico de cada ataque",
+    "Su acceso interno y su nivel de habilitación (clearance) en la empresa"
+   ],
+   "e": "Para las amenazas intencionales se identifican los adversarios (competidores, gobiernos extranjeros, activistas, terroristas, empresas criminales, brokers de información y vándalos) y se evalúa su capacidad e intención de atacar activos clave. El libro pide pensar en amplio al identificarlos."
+  },
+  "security-5-q6": {
+   "q": "Un técnico de un proveedor tercerizado con acceso a la red de la empresa copia datos financieros de clientes. La organización nunca consideró a terceros en su análisis de amenazas. Según el capítulo, ¿qué debió hacer?",
+   "o": [
+    "Incluir a los insiders en la evaluación de riesgos y exigir al contratista filtrar a su personal",
+    "Limitar el análisis de insiders a los empleados directos, únicos con relación de confianza",
+    "Tratar al proveedor como amenaza inadvertida y reforzar la capacitación del personal propio",
+    "Clasificar el incidente como piratería (piracy) y recurrir a la vía penal de propiedad intelectual"
+   ],
+   "e": "Además de los empleados, son posibles insiders los proveedores, clientes, socios de joint venture, visitantes, subcontratistas y proveedores tercerizados. La evaluación de riesgos debe incluirlos, y hay que exigir a los contratistas que filtren bien a su personal, protejan los datos y apliquen las políticas de seguridad de la información."
+  },
+  "security-5-q7": {
+   "q": "Una empresa descubre que un taller fabrica y distribuye fármacos con su nombre comercial, sin su permiso. ¿Cómo clasifica el capítulo esta amenaza?",
+   "o": [
+    "Falsificación (counterfeiting)",
+    "Piratería (piracy)",
+    "Minería de datos (data mining)",
+    "Amenaza interna (insider)"
+   ],
+   "e": "La falsificación es fabricar o distribuir bienes con el nombre de otro sin su permiso, y tiene impacto económico y en la seguridad de las personas (safety). La piratería es copiar, robar, reproducir, transmitir o vender la propiedad intelectual de otro sin consentimiento, como software, música o libros."
+  },
+  "security-5-q8": {
+   "q": "Según el capítulo, ¿qué debe hacer la evaluación de riesgos (risk assessment) de los activos de información?",
+   "o": [
+    "Identificar los riesgos, cuantificarlos y priorizarlos según la aceptación de riesgo de la organización",
+    "Identificar los riesgos y transferirlos a aseguradoras antes de cuantificar su impacto económico",
+    "Priorizar los riesgos según el criterio del área de TI, que custodia la mayor parte de los datos",
+    "Cuantificar solo los riesgos intencionales, porque los inadvertidos no se pueden medir con fiabilidad"
+   ],
+   "e": "Bajo el principio «no se puede gestionar lo que no se puede medir», la evaluación debe identificar, cuantificar y priorizar los riesgos según los criterios de aceptación de riesgo (risk acceptance) de la organización. Se hace con regularidad e incluye un monitoreo de cambios en activos, amenazas, vulnerabilidades e impactos."
+  },
+  "security-5-q9": {
+   "q": "Según el estudio Trends in Proprietary Information Loss (2007), ¿cuál es el PRIMER impacto de negocio de una pérdida de información en la lista del libro?",
+   "o": [
+    "Pérdida de reputación, imagen o buena voluntad de la empresa",
+    "Pérdida de ventaja competitiva en un producto o servicio concreto",
+    "Menores retornos o rentabilidad proyectados",
+    "Pérdida de una tecnología o proceso central del negocio"
+   ],
+   "e": "El libro presenta en primer lugar la pérdida de reputación, imagen o buena voluntad (goodwill). La pérdida de ventaja competitiva en un producto o servicio aparece en segundo lugar, seguida de los menores retornos proyectados y de la pérdida de una tecnología o proceso central."
+  },
+  "security-5-q10": {
+   "q": "Según Moberly (2007), ¿cuál de los siguientes es un beneficio de negocio de un programa de IAP?",
+   "o": [
+    "Sirve de palanca para negociar coberturas y primas de seguros de propiedad intelectual y de TI",
+    "Traslada al área de TI la responsabilidad final de proteger la información de la empresa",
+    "Elimina la necesidad de medidas legales como patentes, marcas y acuerdos de no divulgación",
+    "Sustituye al plan de continuidad del negocio en la respuesta y la recuperación ante crisis"
+   ],
+   "e": "Entre los beneficios de Moberly figuran mejorar la custodia (stewardship) de intangibles, alinear la información con la estrategia, asignar mejor los recursos de seguridad y de TI, y servir de palanca para negociar seguros de propiedad intelectual y de TI. La responsabilidad final es del liderazgo, y la IAP combina medidas de seguridad y legales."
+  },
+  "security-5-q11": {
+   "q": "Tras una fuga de información, el comité de dirección afirma que proteger la información es responsabilidad exclusiva del departamento de seguridad. Según el capítulo, ¿qué es lo correcto?",
+   "o": [
+    "La responsabilidad final es del liderazgo, pero debe asumirla toda persona con acceso",
+    "La responsabilidad final es del departamento de seguridad y de nadie más en la empresa",
+    "La responsabilidad final es del área de TI, porque custodia los sistemas de información",
+    "La responsabilidad final es del creador (originator) de cada documento comprometido"
+   ],
+   "e": "La responsabilidad final de proteger la información es del liderazgo de la organización, pero debe asumirla toda persona, interna o externa, con acceso a los activos de información. El creador suele fijar el nivel de clasificación, pero no carga con la responsabilidad final."
+  },
+  "security-5-q12": {
+   "q": "La declaración de política (policy statement) de IAP debe exigir medidas que aseguren siete atributos en el entorno físico y en el cibernético. Además de confidencialidad, integridad y disponibilidad, ¿cuál de estos atributos forma parte de la lista?",
+   "o": [
+    "No repudio (non-repudiation)",
+    "Disuasión (deterrence)",
+    "Compartimentación (compartmentalization)",
+    "Agregación (aggregation)"
+   ],
+   "e": "Los siete atributos son confidencialidad, integridad, disponibilidad, rendición de cuentas (accountability), recuperabilidad (recoverability), auditabilidad (auditability) y no repudio. La compartimentación es una medida de protección física y la agregación es el principio que justifica OPSEC."
+  },
+  "security-5-q13": {
+   "q": "Una empresa solo da capacitación en IAP durante la orientación de nuevos empleados y no guarda registro de ella. Según los pasos vitales para desarrollar la política, ¿qué debería cambiar?",
+   "o": [
+    "Repetir la capacitación en varios momentos y documentar la concienciación",
+    "Sustituir la orientación por auditorías aleatorias de cumplimiento",
+    "Limitar la capacitación al personal de TI, que maneja la mayor parte de la información",
+    "Delegar la capacitación en los proveedores y contratistas con acceso"
+   ],
+   "e": "La capacitación en IAP debe darse de forma repetida: en la orientación, durante inspecciones, en reuniones generales, en la intranet, en boletines y dentro de la capacitación de TI o de recursos humanos; además, los esfuerzos deben documentarse. Las auditorías aleatorias verifican el cumplimiento, pero no sustituyen la capacitación."
+  },
+  "security-5-q14": {
+   "q": "Según el capítulo, ¿cuántos niveles de sensibilidad usa la mayoría de las organizaciones para clasificar su información?",
+   "o": [
+    "De 2 a 4 niveles",
+    "Siempre 3 niveles",
+    "De 4 a 6 niveles",
+    "De 5 a 7 niveles"
+   ],
+   "e": "La mayoría de las organizaciones usa de 2 a 4 niveles de sensibilidad. El ejemplo de 3 categorías (aprobada para divulgación externa, interna y confidencial) es solo un caso común, no una regla fija."
+  },
+  "security-5-q15": {
+   "q": "El vicepresidente de ventas pide acceso a un expediente confidencial de investigación y desarrollo que no tiene relación con sus funciones, alegando su rango. Según el capítulo, ¿cómo debe resolverse?",
+   "o": [
+    "Negar el acceso: se basa en la función actual y la necesidad de saber",
+    "Concederlo: su nivel jerárquico supera la clasificación del expediente",
+    "Concederlo si antes firma un acuerdo de no divulgación (NDA)",
+    "Concederlo si supera una investigación de antecedentes reciente"
+   ],
+   "e": "El acceso se basa en la función actual y la necesidad de saber (need to know), no solo en el puesto o nivel jerárquico. El NDA y la investigación de antecedentes (background investigation) pueden exigirse además, pero no sustituyen la necesidad de saber."
+  },
+  "security-5-q16": {
+   "q": "En un centro de investigación, el personal de mantenimiento solo puede entrar a las áreas exteriores, mientras que el director de investigación y desarrollo accede hasta las capas más internas. ¿Qué perspectiva de la protección por capas (defense in depth) ilustra MEJOR este ejemplo?",
+   "o": [
+    "Las capas como niveles crecientes de confianza",
+    "Las capas como tecnologías que operan juntas",
+    "Las capas para retrasar, detectar y disuadir",
+    "Las capas como familias de medidas coordinadas"
+   ],
+   "e": "Una de las tres perspectivas es que las capas representan niveles crecientes de confianza para quien accede a capas sucesivas; el libro usa justo el ejemplo de mantenimiento frente al director de I+D. Las otras dos son medidas diversas que operan juntas y capas que retrasan, detectan y disuaden (delay, detect, deter) al intruso."
+  },
+  "security-5-q17": {
+   "q": "Una auditoría encuentra borradores de ofertas y malas impresiones en las bandejas de reciclaje junto a las copiadoras. ¿Qué medida de manejo de documentos y registros (handling of documents and records) atiende MEJOR el problema?",
+   "o": [
+    "Trituradoras o contenedores seguros junto a impresoras y copiadoras, con letreros",
+    "Vaciar las bandejas de reciclaje con más frecuencia en cada uno de los turnos",
+    "Vender el papel a un reciclador certificado al final de cada mes de operación",
+    "Prohibir que se impriman documentos sensibles en las copiadoras compartidas"
+   ],
+   "e": "El libro recomienda poner trituradoras (shredders) o contenedores seguros junto a impresoras, copiadoras y faxes, y letreros que recuerden destruir sobrantes (overruns) y malas impresiones. Reciclar no es alternativa adecuada a la destrucción: el papel se regala o se vende y no se puede probar si se destruyó."
+  },
+  "security-5-q18": {
+   "q": "El gerente de IAP descubre que recursos humanos a veces se salta la verificación de antecedentes de nuevos consultores porque toma demasiado tiempo. Según el capítulo, ¿qué debe hacer PRIMERO?",
+   "o": [
+    "Abrir un canal de comunicación eficaz con las áreas que hacen el filtrado",
+    "Asumir directamente el control de todo el filtrado previo al empleo",
+    "Prohibir que los consultores accedan a cualquier información interna",
+    "Sustituir la verificación por acuerdos de no divulgación más estrictos"
+   ],
+   "e": "El filtrado a menudo lo llevan legal o recursos humanos, no seguridad, y por su duración a veces se saltan los procedimientos. El profesional de IAP debe abrir un canal de comunicación eficaz con esas áreas, asegurar que la verificación (vetting) cubra a todos los terceros de confianza y revisar periódicamente los procedimientos."
+  },
+  "security-5-q19": {
+   "q": "Según el capítulo, la información privada, como la información de identificación personal (personally identifiable information, PII), debe marcarse con claridad. ¿Qué debe indicar esa marca?",
+   "o": [
+    "Cómo se usará y a quién, qué avisos habrá si se compromete y cómo destruirla",
+    "Quién la creó, en qué fecha y en qué sistema de TI se almacena actualmente",
+    "El nivel jerárquico mínimo para consultarla y el responsable de privacidad",
+    "El país de origen de los datos y la directiva de privacidad que les aplica"
+   ],
+   "e": "La marca de la información privada indica cómo se usará y a quién se pondrá a disposición, qué avisos y acciones habrá si se compromete, y cómo destruirla o disponer de ella cuando ya no se necesite. El acceso no se basa en el nivel jerárquico, sino en la función y la necesidad de saber."
+  },
+  "security-5-q20": {
+   "q": "Una empresa extranjera poco conocida propone una alianza que exige compartir datos técnicos sensibles. Según el capítulo, ¿qué debe hacerse ANTES de asociarse?",
+   "o": [
+    "Hacer debida diligencia (due diligence) sobre la empresa",
+    "Firmar el acuerdo y aplicar después las políticas de IAP",
+    "Compartir solo información pública durante la alianza",
+    "Confiar en la reputación del país de origen de la empresa"
+   ],
+   "e": "Las relaciones con otras empresas plantean riesgos especiales porque se baja la guardia sin darse cuenta; en EE. UU. existen miles de empresas fachada (front companies), a menudo creadas por gobiernos extranjeros para obtener información. Por eso es esencial hacer debida diligencia antes de asociarse y compartir información."
+  },
+  "security-5-q21": {
+   "q": "Un analista advierte que los pedidos de suministros, los planes de contratación y las mejoras de instalaciones que publica la empresa, inofensivos por separado, permitirían a un competidor deducir el lanzamiento de un producto secreto. ¿Qué principio describe este riesgo?",
+   "o": [
+    "Agregación, base de la seguridad de operaciones (OPSEC)",
+    "Compartimentación de la información por niveles de clasificación",
+    "Protección por capas (defense in depth)",
+    "Necesidad de saber (need to know)"
+   ],
+   "e": "El principio de agregación dice que pequeños datos de varias fuentes, combinados, pueden revelar información sensible; OPSEC vigila que la información periférica, como pedidos de suministros o planes de contratación, no dé inteligencia a un adversario. La compartimentación separa información de distinta clasificación, pero no atiende la combinación de datos públicos."
+  },
+  "security-5-q22": {
+   "q": "Una directiva viajará al extranjero para negociar un contrato y necesita llevar información sensible. Según las medidas para viajes, ¿qué es lo MÁS adecuado?",
+   "o": [
+    "Llevar solo lo necesario, encima y en equipos limpios de datos innecesarios",
+    "Documentar la laptop en el equipaje para reducir el riesgo de robo a bordo",
+    "Imprimir los documentos en el business center del hotel al llegar al destino",
+    "Usar el Wi-Fi del hotel solo para enviar archivos protegidos con contraseña"
+   ],
+   "e": "El viajero debe llevar solo la información estrictamente necesaria, encima y no en equipaje documentado, y borrar los datos innecesarios o viajar con equipos limpios. El libro desaconseja usar Wi-Fi público, fax de hotel, copiadoras o business centers para información sensible."
+  },
+  "security-5-q23": {
+   "q": "Un ingeniero con acceso a un proyecto clave regresa de un congreso técnico en el extranjero, donde varios asistentes le hicieron preguntas insistentes sobre su trabajo. Según el capítulo, ¿qué medida corresponde a su regreso?",
+   "o": [
+    "Hacerle un debriefing y reportar los intentos de obtener información",
+    "Someterlo de inmediato a una nueva investigación de antecedentes completa",
+    "Retirarle el acceso al proyecto hasta el cierre del ejercicio",
+    "Pedir una inspección de contramedidas de vigilancia técnica"
+   ],
+   "e": "Para ferias y congresos el libro recomienda identificar a los viajeros de alto riesgo por puesto, proyecto, acceso o habilitación, y hacer un debriefing al regreso cuando proceda; también deben reportarse los intentos reales o sospechosos de obtener información. Las preguntas insistentes encajan con las técnicas de elicitación (elicitation) que debe tratar el programa de concienciación."
+  },
+  "security-5-q24": {
+   "q": "La empresa celebrará su reunión anual de estrategia en la sala de un hotel. Al planear la inspección de contramedidas de vigilancia técnica (technical surveillance countermeasures, TSCM), ¿cuál de estas es una vulnerabilidad típica que señala el libro?",
+   "o": [
+    "Micrófonos inalámbricos sin cifrar",
+    "Gafetes de visitantes sin fotografía",
+    "Planos de la sede con salidas de emergencia",
+    "Señalización mínima del evento en el hotel"
+   ],
+   "e": "Las vulnerabilidades típicas son micrófonos inalámbricos sin cifrar, audífonos inalámbricos, fuga de audio (audio leakage), equipos electrónicos que traen los participantes y equipos o cables de telecomunicaciones no asegurados. La señalización mínima no es una vulnerabilidad, sino una medida recomendada para eventos de bajo perfil."
+  },
+  "security-5-q25": {
+   "q": "Bajo el derecho internacional, ¿qué afirmación sobre los derechos de autor (copyright) es correcta según el capítulo?",
+   "o": [
+    "No necesitan registro para estar protegidos; registrarlos ayuda a hacerlos valer",
+    "Solo quedan protegidos después de registrarlos ante el gobierno de cada país",
+    "Quedan protegidos durante 20 años contados desde su registro ante la autoridad",
+    "Su protección exige divulgar públicamente todos los elementos de la obra"
+   ],
+   "e": "El copyright no necesita registro para estar protegido; el titular puede registrarlo para formalizar la titularidad, lo que ayuda en acciones posteriores. Los 20 años y la divulgación pública obligatoria corresponden a la patente."
+  },
+  "security-5-q26": {
+   "q": "Una empresa planea vender su producto en un nuevo país. Según el capítulo, ¿cuál es el medio PRINCIPAL para proteger allí su marca (trademark)?",
+   "o": [
+    "Registrarla antes de que el producto entre al comercio de ese país",
+    "Registrarla cuando aparezcan las primeras imitaciones en el país",
+    "Tratarla como secreto comercial hasta consolidar las ventas allí",
+    "Apoyarse en el registro de la marca hecho en el país de origen"
+   ],
+   "e": "El medio principal es registrar la marca antes de que el producto entre al comercio (stream of commerce) del país, para que sea elegible para protección y la infracción pueda remediarse por vía administrativa o judicial. También conviene crear una versión en el idioma local y registrarla en países vecinos."
+  },
+  "security-5-q27": {
+   "q": "Un inventor duda entre patentar su invento o mantenerlo como secreto comercial (trade secret). ¿Qué afirmación es correcta según el capítulo?",
+   "o": [
+    "La patente exige divulgación pública y dura 20 años; el secreto puede durar indefinidamente",
+    "La patente dura indefinidamente; el secreto comercial vence a los 20 años de su creación",
+    "Infringir una patente es delito penal; robar un secreto comercial solo tiene vía civil",
+    "El secreto comercial se registra ante una agencia; la patente no requiere ningún registro"
+   ],
+   "e": "La patente da beneficios pero exige divulgar públicamente el invento y dura solo 20 años; el secreto comercial no se divulga, no se registra y puede durar indefinidamente. Además, no hay leyes penales sobre infracción de patentes, mientras que robar un secreto comercial sí puede violar leyes penales."
+  },
+  "security-5-q28": {
+   "q": "El resumen del capítulo distingue entre medidas de seguridad y medidas legales para proteger la información. ¿Cuál de estas es una medida LEGAL?",
+   "o": [
+    "Cláusulas contractuales",
+    "Capacitación de concienciación",
+    "Personal de seguridad",
+    "Equipos de protección"
+   ],
+   "e": "Las medidas legales son copyrights, patentes, marcas, acuerdos de no divulgación y cláusulas contractuales; las de seguridad son personal, equipos y capacitación de concienciación. La mezcla correcta varía en cada organización, pero normalmente combina ambos tipos."
+  },
+  "security-5-q29": {
+   "q": "En un juicio por robo de un secreto comercial, la empresa demuestra que la fórmula le daba valor y que estaba identificada específicamente, pero no tiene evidencia de medidas de protección definidas y aplicadas. Según el capítulo, ¿cuál es el MAYOR problema de su caso?",
+   "o": [
+    "No puede probar un nivel razonable de protección, que es un estándar alto",
+    "No registró la fórmula ante una agencia externa antes de que la robaran",
+    "No patentó la fórmula, que era la única vía penal disponible para ella",
+    "No marcó la fórmula con uno de los 2 a 4 niveles de sensibilidad usuales"
+   ],
+   "e": "El dueño debe probar tres cosas: que la información aportó valor, que fue identificada específicamente y que le dio un nivel razonable de protección. «Razonable» es un estándar alto que exige un programa robusto con medidas definidas, comunicadas y aplicadas con consistencia; los secretos comerciales no se registran."
+  },
+  "security-5-q30": {
+   "q": "Según el capítulo, ¿cómo deben quedar obligados los contratistas, consultores y proveedores que tienen acceso a la información de la empresa?",
+   "o": [
+    "Por contrato, a protegerla al mismo nivel que dentro de la empresa",
+    "Por su propio código de ética, sin cláusulas específicas de protección",
+    "Solo durante la vigencia del contrato, sin obligaciones posteriores",
+    "Por un acuerdo verbal ratificado por el responsable de compras"
+   ],
+   "e": "Los contratistas, subcontratistas, consultores y proveedores con acceso quedan obligados por contrato a proteger la información al mismo nivel que dentro de la empresa. Los empleados firman un acuerdo de no divulgación (NDA) como condición de empleo y, al terminar, se les recuerdan sus obligaciones continuas."
+  },
+  "security-5-q31": {
+   "q": "Un equipo debe tratar un tema sensible en una conferencia web y no logra validar cómo protege el proveedor la información ni cuál es su política de contraseñas. Según el capítulo, ¿qué debe asumir?",
+   "o": [
+    "Que la conversación no es privada",
+    "Que el proveedor cifra la transmisión",
+    "Que basta con una contraseña robusta",
+    "Que el riesgo es aceptable si es interna"
+   ],
+   "e": "Las reuniones por video, teléfono o web (web conferencing) no son necesariamente seguras; hay que averiguar cómo protege el proveedor la información y cifrar la transferencia cuando sea posible. Si no se pueden validar las medidas, se asume que la conversación no es privada."
+  },
+  "security-5-q32": {
+   "q": "Una empresa va a tercerizar su centro de soporte técnico en otro país. Según el capítulo, ¿qué paso de debida diligencia corresponde con este proveedor?",
+   "o": [
+    "Revisiones de seguridad en sitio antes de firmar y después con regularidad",
+    "Una revisión documental única al firmar, sin visitas posteriores al sitio",
+    "Confiar la evaluación de seguridad al propio proveedor y a sus auditores",
+    "Firmar solo un NDA corporativo, sin incluir a sus subcontratistas"
+   ],
+   "e": "La debida diligencia incluye revisar desempeño financiero y reputación, firmar NDA individuales y corporativos con el proveedor y sus subcontratistas, hacer revisiones de seguridad en sitio antes de firmar y después con regularidad, ubicar dónde trabajará el personal y consultar las leyes de todos los países. La tercerización (outsourcing) transfiere control y rendición de cuentas, y algunos riesgos vienen de cláusulas ocultas."
+  },
+  "security-5-q33": {
+   "q": "Se confirma que un exempleado se llevó documentos de diseño. En la fase de evaluación de daños (damage assessment), ¿qué debe hacerse PRIMERO?",
+   "o": [
+    "Determinar cuanto antes, y por completo, qué información se comprometió",
+    "Activar las partes aplicables del plan de continuidad del negocio",
+    "Hacer un análisis de causa raíz (root cause analysis) del incidente",
+    "Informar del impacto potencial a todos los accionistas de la empresa"
+   ],
+   "e": "La evaluación de daños empieza por determinar cuanto antes y por completo qué información se comprometió; luego se determinan sus implicaciones y se informan al nivel de dirección adecuado. Activar el plan de continuidad y el análisis de causa raíz pertenecen a la fase de recuperación y seguimiento."
+  },
+  "security-5-q34": {
+   "q": "Una empresa contrata un servicio de destrucción de documentos y recibe un certificado de destrucción (certificate of destruction) firmado y fechado. Meses después, información de clientes aparece en un basurero. Según el Apéndice 5A, ¿qué es lo correcto?",
+   "o": [
+    "La empresa sigue respondiendo: el certificado no transfiere la responsabilidad",
+    "El contratista asume toda la responsabilidad, porque firmó el certificado de destrucción",
+    "La responsabilidad se reparte a partes iguales entre empresa y contratista",
+    "Nadie responde, porque el certificado prueba que hubo destrucción"
+   ],
+   "e": "El certificado es un registro legal importante, pero no transfiere al contratista la responsabilidad por la confidencialidad; un tribunal puede cuestionar cómo se eligió al contratista y, sin debida diligencia, la empresa puede ser declarada negligente. Esa diligencia incluye revisar sus políticas y hacer auditorías en sitio iniciales y de seguimiento."
+  },
+  "security-6-q0": {
+   "q": "Según Blanchard y Peale (1988), ¿cuál de estas preguntas forma parte del test de conducta ética?",
+   "o": [
+    "¿Es equilibrado? (Is it balanced?)",
+    "¿Es rentable para la empresa?",
+    "¿Lo hace también la competencia?",
+    "¿Se enterará alguien de ello?"
+   ],
+   "e": "El test tiene tres preguntas: ¿es legal?, ¿es equilibrado? y ¿cómo me hará sentir conmigo mismo? El profesional de seguridad debe hacérselas durante todo su trabajo; la rentabilidad o lo que haga la competencia no forman parte del test."
+  },
+  "security-6-q1": {
+   "q": "El comité de ética de una empresa debe decidir si es correcto aceptar regalos de un proveedor durante una licitación concreta y qué debe hacerse al respecto. ¿Qué tipo de ética está aplicando?",
+   "o": [
+    "Ética aplicada (applied ethics)",
+    "Ética descriptiva (descriptive ethics)",
+    "Ética analítica (analytical ethics)",
+    "Ética situacional (situation ethics)"
+   ],
+   "e": "La ética aplicada es activa: aplica conceptos éticos a situaciones concretas de negocio, juzga qué está bien y qué está mal y dice qué debe hacerse; es la más relevante para la empresa. La descriptiva solo explica hechos éticos y la analítica examina el significado y la justificación de los conceptos."
+  },
+  "security-6-q2": {
+   "q": "Un supervisor justifica haber alterado un informe de rondas diciendo que «en esta situación concreta» era lo correcto, aunque en otro caso no lo haría. ¿Qué causa de malas decisiones éticas ilustra MEJOR su razonamiento?",
+   "o": [
+    "Relativismo (relativism)",
+    "Comodidad (convenience)",
+    "Ganar (winning)",
+    "Ceguera motivada (motivated blindness)"
+   ],
+   "e": "El relativismo, también llamado ética situacional, sostiene que casi cualquier acto puede racionalizarse como correcto en cierta situación, porque no hay valores éticos verdaderos que guíen la conducta. La comodidad reduce la decisión a «lo correcto» frente a «lo más fácil», y la ceguera motivada es actuar mal por interés propio sin darse cuenta."
+  },
+  "security-6-q3": {
+   "q": "Según los psicólogos que cita el capítulo, ¿qué tres factores motivan los actos no éticos o deshonestos?",
+   "o": [
+    "Deseo, racionalización y oportunidad",
+    "Comodidad, ganar y relativismo",
+    "Deseo, comodidad y oportunidad",
+    "Ganar, racionalización y relativismo"
+   ],
+   "e": "Los factores motivadores que señalan los psicólogos son deseo (desire), racionalización (rationalization) y oportunidad (opportunity). Ojo: comodidad, ganar y relativismo son otra tríada, la de las causas de malas decisiones éticas en los negocios."
+  },
+  "security-6-q4": {
+   "q": "Una empresa implanta un código de conducta que prohíbe aceptar regalos de proveedores, pero exime a los altos directivos «por las relaciones propias de su cargo». Según el capítulo, ¿cuál es el MAYOR riesgo?",
+   "o": [
+    "Que la regla acabe sin aplicarse a nadie, porque no aplica a todos",
+    "Que los proveedores dejen de ofrecer regalos al resto de la empresa",
+    "Que el código resulte demasiado largo y complicado para cumplirse",
+    "Que los empleados denuncien más faltas por la línea de ética"
+   ],
+   "e": "Nada socava más la ética que aplicar las reglas solo a algunos: un valor que no aplica a todos acaba por no aplicar a nadie. Por eso el código debe hacerse cumplir a todos, desde el director general hacia abajo, y el empleado debe ver el cambio como beneficioso y equitativo."
+  },
+  "security-6-q5": {
+   "q": "¿Qué distingue MEJOR un programa de ética (ethics program) de un código de ética (ethics code)?",
+   "o": [
+    "El programa da la estructura continua de apoyo y supervisión para cumplir el código",
+    "El programa enuncia los valores compartidos y las creencias éticas de la organización",
+    "El programa sustituye al código cuando la ética ya forma parte de la cultura corporativa",
+    "El programa es la versión pública del código que se exhibe ante clientes y accionistas"
+   ],
+   "e": "El código enuncia los valores y principios de fondo; el programa es la estructura continua de apoyo y supervisión que convierte la preocupación ética en conducta operativa diaria. Sin programa, el código acaba ignorado y olvidado; y aunque la ética ya forme parte de la cultura, los documentos siguen sirviendo como prueba visible de intención."
+  },
+  "security-6-q6": {
+   "q": "El comité terminó de redactar el código de ética con el apoyo activo del consejo de administración. Según los seis conceptos del capítulo, ¿qué debe hacer ANTES de difundirlo a toda la organización?",
+   "o": [
+    "Probarlo en campo (field test) para asegurar que sea completo y comprensible",
+    "Publicarlo en la web para que clientes y proveedores lo comenten primero",
+    "Pedir a cada empleado que firme su aceptación durante la inducción",
+    "Sustituir sus valores propios por los de un código modelo del sector"
+   ],
+   "e": "El quinto concepto es probar el código en campo antes de difundirlo, para asegurar que sea completo, exhaustivo y comprensible; después se anuncia y distribuye ampliamente. Los códigos de otras organizaciones sirven de modelo, pero el código debe reflejar los valores propios, no conceptos genéricos."
+  },
+  "security-6-q7": {
+   "q": "Según la literatura empírica que cita el capítulo, ¿qué influye MÁS en el nivel ético de la conducta dentro de una organización?",
+   "o": [
+    "Los principios del negocio y la conducta de los ejecutivos",
+    "La conciencia y los valores personales de cada empleado",
+    "La existencia de un código de ética publicado y visible",
+    "La severidad de las sanciones previstas en el reglamento"
+   ],
+   "e": "La mayoría de la literatura empírica resta peso al individuo: los principios del negocio y la conducta de los ejecutivos influyen más que la conciencia individual, junto con el clima de la organización y la cultura corporativa. Un código publicado no garantiza por sí solo una operación ética."
+  },
+  "security-6-q8": {
+   "q": "Al hacer una evaluación de riesgos éticos (ethical-hazards risk assessment), el gerente descubre que la compensación de los vendedores se basa 100 % en metas financieras. ¿Cómo clasifica el capítulo este hallazgo?",
+   "o": [
+    "Un incentivo perverso (perverse incentive)",
+    "Una consecuencia no intencionada (unintended consequence)",
+    "Un caso de responsabilidad vicaria",
+    "Una violación del deber fiduciario"
+   ],
+   "e": "El ejemplo que da el libro de incentivo perverso es justamente una compensación basada 100 % en metas financieras. Las consecuencias no intencionadas son efectos de políticas o expectativas que llevan a decidir mal «por buenas razones», como justificar una falta para salvar empleos."
+  },
+  "security-6-q9": {
+   "q": "¿Por qué se puede exigir al profesional de seguridad un estándar ético MÁS alto que a sus compañeros?",
+   "o": [
+    "Porque evalúa los actos de otros y debe igualar o superar lo que les exige",
+    "Porque su contrato de trabajo lo obliga a cumplir el Código de Ética de ASIS",
+    "Porque es el único responsable del programa de ética de la empresa",
+    "Porque sus faltas generan responsabilidad vicaria para su empleador"
+   ],
+   "e": "Quien evalúa los actos de otros debe igualar o superar lo que se exige a esos otros; por eso, por la naturaleza de su trabajo, se le puede exigir un estándar más alto. Puede recibir el encargo de crear el programa y el código o de vigilar su cumplimiento, pero la dirección ética la da el liderazgo corporativo."
+  },
+  "security-6-q10": {
+   "q": "Un gerente de seguridad debe redactar una política sobre si sus oficiales pueden portar pistolas eléctricas (stun guns) en Massachusetts. ¿En qué fuente debe basarse para saber cuál es la ley?",
+   "o": [
+    "En la ley de Massachusetts, como fuente primaria, investigada por abogados",
+    "En un artículo de revista jurídica (law review) que compara varios estados",
+    "En un fallo reciente de otro estado sobre la posesión de armas eléctricas",
+    "En una publicación del sector escrita por un fabricante de estas armas"
+   ],
+   "e": "La fuente primaria (primary source), la ley o el caso del propio estado, es obligatoria para saber cuál es la ley y es la más fuerte; el gerente debe encargar la investigación a abogados. El fallo de otro estado y el artículo de law review son fuentes secundarias, y la publicación del sector es la última opción como referencia legal."
+  },
+  "security-6-q11": {
+   "q": "¿Qué describe MEJOR la función de un tribunal de apelación (appellate court) en la formación de la jurisprudencia (case law)?",
+   "o": [
+    "Acepta los hechos del tribunal inferior y solo revisa la ley; sus fallos son precedente",
+    "Vuelve a juzgar los hechos del caso y dicta fallos que solo se consideran autoridad persuasiva",
+    "Lleva casos penales y civiles en primera instancia y publica sus fallos en los reporters",
+    "Resuelve disputas privadas entre las partes sin crear precedente en su jurisdicción"
+   ],
+   "e": "El tribunal de apelación acepta los hechos fijados por el tribunal inferior y solo revisa si el juez aplicó o interpretó bien la ley; sus fallos publicados en los reporters son la base de la jurisprudencia y, por stare decisis, deben seguirse en esa jurisdicción. Los fallos del tribunal de distrito (district court), que lleva ambos tipos de caso, se consideran solo persuasivos."
+  },
+  "security-6-q12": {
+   "q": "Una empresa planea monitorear el ritmo cardíaco y las conversaciones de sus empleados con dispositivos portátiles para detectar robos internos. Según el capítulo, ¿qué debe considerar el gerente de seguridad ANTES de implantarlo?",
+   "o": [
+    "Cómo reaccionaría ante su uso un jurado de 12 ciudadanos promedio",
+    "Si un artículo de una publicación del sector respalda esa tecnología",
+    "Si el proveedor garantiza la precisión técnica de todos los sensores",
+    "Si un aviso por correo a los empleados basta para usar esos datos"
+   ],
+   "e": "La secuencia probable de una tecnología nueva es implantarse, impugnarse en un tribunal civil y ser regulada por el gobierno; una buena política considera cómo reaccionarían 12 ciudadanos promedio, porque quien no llega a un acuerdo suele ir a juicio con jurado. En el caso hipotético de ABC Corp., el aviso por correo no evitó la demanda."
+  },
+  "security-6-q13": {
+   "q": "Un consultor miembro de ASIS es citado a declarar en un juicio sobre información que su cliente le confió, y el abogado del cliente se opone. Según el Código de Ética de ASIS, ¿qué es lo correcto?",
+   "o": [
+    "Esa información no es privilegiada ante la ley y puede tener que declararla",
+    "Esa información es privilegiada y el consultor debe negarse a declarar",
+    "El consultor solo debe declarar si la relación de negocio ya terminó",
+    "El consultor solo puede declarar con permiso del Ethical Standards Council"
+   ],
+   "e": "Según el Artículo V, lo que el mandante (principal) confía al miembro no es información privilegiada ante la ley; en un juicio puede tener que declararlo aunque se oponga el abogado del mandante. La confidencialidad, además, continúa tras terminar la relación de negocio, así que ese no es el criterio."
+  },
+  "security-6-q14": {
+   "q": "Un gerente de seguridad, miembro de ASIS, debe recomendar un proveedor de vigilancia y su cuñado es socio de uno de los candidatos. Según el Código de Ética de ASIS, ¿qué debe hacer?",
+   "o": [
+    "Revelar el conflicto de interés y obtener la aprobación adecuada",
+    "Recomendar al proveedor de su cuñado si su oferta es objetivamente la mejor",
+    "Actuar sin revelarlo si no obtiene ningún beneficio económico personal",
+    "Informar del caso al Ethical Standards Council antes de cualquier decisión"
+   ],
+   "e": "El Artículo III (fidelidad y diligencia) prohíbe actuar en asuntos con conflicto de interés (conflict of interest) sin revelarlo y obtener la aprobación adecuada. Informar al Ethical Standards Council corresponde al Artículo VI, cuando se sabe o se cree que otro miembro incumplió el código."
+  },
+  "security-6-q15": {
+   "q": "Una empresa duda entre una aseguradora admitida (admitted) y una no admitida (non-admitted), y le preocupa que la aseguradora quiebre antes de pagar un siniestro. ¿Qué ventaja ofrece la admitida?",
+   "o": [
+    "El fondo de garantía estatal paga sus siniestros, hasta un límite, si quiebra",
+    "Cubre los riesgos que el resto de las aseguradoras del mercado no quieren asumir",
+    "No está sujeta a la revisión de formatos y tarifas del departamento de seguros del estado",
+    "Es propiedad de la empresa asegurada y solo cubre sus riesgos"
+   ],
+   "e": "La aseguradora admitida presenta sus pólizas ante el departamento de seguros del estado y tiene el respaldo del fondo de garantía estatal (state guaranty fund): si quiebra, el estado paga sus siniestros hasta un límite. Cubrir riesgos que otras no aceptan es el origen del mercado no admitido, y ser propiedad de la asegurada describe a la aseguradora cautiva (captive carrier)."
+  },
+  "security-6-q16": {
+   "q": "Según el capítulo, ¿a quién representa un corredor de seguros (insurance broker)?",
+   "o": [
+    "A los compradores de seguros de propiedad y responsabilidad",
+    "A una o más compañías aseguradoras de una industria",
+    "Al departamento de seguros del estado en que opera",
+    "A un grupo de empresas del mismo giro que se asegura a sí mismo"
+   ],
+   "e": "El corredor representa a los compradores y trabaja con más de una compañía para sugerir la más adecuada. Ojo: la lista inicial del libro lo describe de forma contradictoria; para el examen, quien representa a una o más aseguradoras es el agente general gestor (managing general agent, MGA), y el grupo de empresas similares es un grupo de retención de riesgos (risk retention group)."
+  },
+  "security-6-q17": {
+   "q": "Un auditor descubre que el cajero de una empresa desvió fondos durante dos años. ¿Qué tipo de seguro cubre este tipo de pérdida?",
+   "o": [
+    "Seguro de fidelidad (fidelity coverage)",
+    "Responsabilidad civil general (commercial general liability)",
+    "Seguro de consejeros y directivos (directors and officers)",
+    "Seguro de interrupción de negocio (business interruption)"
+   ],
+   "e": "El seguro de fidelidad cubre pérdidas por actos fraudulentos o deshonestos de los propios empleados. La responsabilidad civil general cubre daños a la propiedad o lesiones personales de los que la empresa sea responsable, y el de interrupción de negocio cubre ingresos perdidos y gastos extra tras un desastre."
+  },
+  "security-7-q0": {
+   "q": "Un analista describe una industria con muchas empresas, bajo costo de entrada y salida, y productos que no son homogéneos en costo ni en atributos, como el champú. Según el libro, ¿qué tipo de competencia es?",
+   "o": [
+    "Competencia monopolística (monopolistic competition)",
+    "Oligopolio (oligopoly)",
+    "Competencia perfecta (perfect competition)",
+    "Monopolio (monopoly)"
+   ],
+   "e": "La competencia monopolística tiene muchas empresas, bajo costo de entrada y salida y productos no homogéneos; la ventaja se gana por costo o por diferenciación. El oligopolio, en cambio, tiene pocas empresas, productos homogéneos y costos altos de entrada y salida, como el cereal de desayuno en EE. UU., donde 4 empresas producen cerca del 90 %."
+  },
+  "security-7-q1": {
+   "q": "Un conglomerado con negocios de seguridad, logística e inmuebles analiza cómo encajan y se afectan esas unidades entre sí para crear el mayor valor del conjunto. ¿Qué nivel de estrategia está aplicando?",
+   "o": [
+    "Estrategia corporativa (corporate-level), con enfoque de cartera",
+    "Estrategia de negocio (business-level), centrada en la cadena de valor",
+    "Estrategia internacional, basada en recursos raros y difíciles de imitar",
+    "Estrategia de ejecución, impulsada por las operaciones de cada unidad"
+   ],
+   "e": "La estrategia corporativa busca ventaja competitiva operando en varios mercados a la vez (Porter 1996), con un enfoque de cartera (portfolio) que mira cómo encajan y se afectan los negocios. La estrategia de negocio se limita a competir en un solo mercado entregando al cliente más valor que los rivales, y es la base sobre la que se construye la corporativa."
+  },
+  "security-7-q2": {
+   "q": "Según el libro, ¿qué afirmación describe MEJOR el pensamiento crítico (critical thinking)?",
+   "o": [
+    "Un proceso neutral e imparcial para evaluar afirmaciones, opiniones y hechos",
+    "Un proceso lineal, paso a paso, que garantiza llegar a conclusiones correctas",
+    "La habilidad de encontrar fallas y defectos en los argumentos de los demás",
+    "Un método científico que deja de lado las emociones para ser del todo objetivo"
+   ],
+   "e": "El libro presenta el pensamiento crítico como un proceso neutral e imparcial; no es buscar fallas ni un proceso lineal que garantice la verdad, y las emociones deben reconocerse, no dejarse de lado. Ojo: la toma de decisiones (decision making) sí se presenta como un proceso paso a paso, pero el pensamiento crítico no."
+  },
+  "security-7-q3": {
+   "q": "El director de seguridad anuncia por correo una nueva estrategia de protección y, semanas después, nota que los supervisores siguen trabajando igual. Según el capítulo, ¿qué error cometió?",
+   "o": [
+    "Suponer que anunciar la estrategia basta para que la gente la adopte",
+    "Formular la estrategia con análisis en lugar de basarla en las operaciones",
+    "Asignar los recursos a las unidades antes de anunciar la estrategia",
+    "Definir qué no hacer en lugar de centrarse solo en qué hay que hacer"
+   ],
+   "e": "Una causa común de disfunción es que los altos ejecutivos no reconocen que anunciar una estrategia no hace que la gente la adopte. La dirección debe comunicar de forma convincente la estrategia y sus razones, vencer las dudas, asegurar el compromiso del personal clave y crear consenso sobre cómo implantarla; formular sí debe basarse en el análisis."
+  },
+  "security-7-q4": {
+   "q": "Al repartir el presupuesto para ejecutar la estrategia, un gerente da a una unidad mucho más de lo que necesita «para no quedarse corto». Según el capítulo, ¿cuál es una consecuencia de este sobrefinanciamiento (overfunding)?",
+   "o": [
+    "Otros gerentes exigirán su «parte justa» (fair share) de recursos",
+    "Se frena el avance y se impide el éxito de la estrategia",
+    "La empresa tendrá que vender acciones adicionales a inversionistas",
+    "La unidad pierde capacidad de transformar insumos en productos"
+   ],
+   "e": "Sobrefinanciar desperdicia recursos, reduce el desempeño financiero y envía un mensaje equivocado a otros gerentes, que exigirán su «parte justa». Frenar el avance e impedir el éxito son efectos de la subfinanciación; la cantidad correcta se define con pensamiento crítico y datos objetivos, no con una decisión política."
+  },
+  "security-8-q0": {
+   "q": "Un fabricante debe retirar del mercado un producto defectuoso (product recall). No hay daños físicos en sus instalaciones, pero la marca y la confianza de los clientes están en juego. ¿Qué disciplina debe dirigir principalmente la respuesta?",
+   "o": [
+    "Gestión de crisis (crisis management)",
+    "Gestión de emergencias (emergency management)",
+    "Continuidad del negocio (business continuity)",
+    "Evaluación de amenazas (threat evaluation)"
+   ],
+   "e": "La gestión de crisis es el proceso estratégico que atiende lo que amenaza la viabilidad a largo plazo, incluidas la reputación y la marca, y empieza con cualquier evento disruptivo, físico o no físico, como un retiro de producto. La gestión de emergencias atiende el impacto inmediato (vidas, propiedad, contención) y la continuidad devuelve la operación a la normalidad."
+  },
+  "security-8-q1": {
+   "q": "En una sede ubicada en zona sísmica, el gerente de seguridad ordena atornillar a la pared todos los gabinetes y estanterías. ¿A qué fase del ciclo de gestión de emergencias corresponde esta medida?",
+   "o": [
+    "Mitigación (mitigation)",
+    "Preparación (preparedness)",
+    "Respuesta (response)",
+    "Recuperación (recovery)"
+   ],
+   "e": "La mitigación son medidas protectoras que reducen la probabilidad de un desastre o su impacto antes del evento; el libro cita justo atornillar gabinetes en zonas sísmicas. La preparación también ocurre antes del incidente, pero consiste en actividades, programas y sistemas que apoyan la mitigación, la respuesta y la recuperación."
+  },
+  "security-8-q2": {
+   "q": "El plan del equipo de gestión de crisis (crisis management team, CMT) lista a sus miembros solo por nombre. Cuando el director de finanzas renuncia, nadie sabe quién lo cubre. Según el capítulo, ¿cómo debieron identificarse los miembros?",
+   "o": [
+    "Por puesto, con un titular y suplentes para cada uno",
+    "Por nombre, con una lista de contactos personales",
+    "Por su antigüedad en la empresa y en el equipo",
+    "Por el nivel de capacitación en gestión de crisis que recibieron"
+   ],
+   "e": "Los miembros del CMT se identifican por puesto (position), con titular y suplentes (primary and alternates); así, si falta el titular, el equipo sabe quién puede cubrirlo. El primer paso del programa es nombrar al personal crítico que atenderá cualquier evento disruptivo."
+  },
+  "security-8-q3": {
+   "q": "Una empresa va a iniciar el ciclo de evaluación de riesgos de su plan de continuidad del negocio (business continuity). Según el capítulo, ¿qué debe identificar ANTES de iniciar cualquier parte del ciclo?",
+   "o": [
+    "Misión, metas, funciones y activos críticos, y quién decide sobre riesgos",
+    "La probabilidad de cada incidente según el perfil cambiante de la empresa",
+    "Las consecuencias de cada amenaza para los activos que están en riesgo",
+    "Las ubicaciones alternas y los recursos necesarios para la recuperación"
+   ],
+   "e": "Antes de iniciar el ciclo de riesgo hay que identificar la misión, las metas, las funciones y activos críticos y el stakeholder que toma las decisiones sobre riesgos: sin saber qué hay que proteger, no se puede proteger la empresa. Estimar probabilidad y consecuencias viene después, para elegir las medidas de prevención y respuesta."
+  },
+  "security-8-q4": {
+   "q": "Tras un evento de agresor activo (active assailant), ya se contabilizó a todas las personas en el sitio y se comunicó con empleados, familias y medios. Según el capítulo, ¿qué acción corresponde a la fase de corto plazo?",
+   "o": [
+    "Preservar la escena del crimen y vigilar señales de trauma psicológico",
+    "Hacer la sesión de análisis posterior (post-incident debrief) con los stakeholders",
+    "Reponer los suministros usados por el personal de respuesta",
+    "Definir los miembros del equipo de gestión de amenazas"
+   ],
+   "e": "En el corto plazo se preserva la escena del crimen, se vigilan señales de trauma psicológico, se ayuda en la reunificación y se sigue comunicando. La sesión de análisis posterior y la reposición de suministros son de largo plazo, y definir el equipo de gestión de amenazas (threat management team) es una consideración previa al incidente."
+  },
+  "security-9-q0": {
+   "q": "Según el capítulo, ¿cómo se mide principalmente el valor de las investigaciones del sector privado, frente a las del sector público?",
+   "o": [
+    "Por recuperación, restitución, mitigación de litigios y reducción de riesgo",
+    "Por el número de arrestos y condenas logrados en cada periodo",
+    "Por el número de violaciones penales concretas que se resuelven cada año",
+    "Por la cantidad de casos cerrados en relación con el personal de la unidad"
+   ],
+   "e": "La investigación privada existe para proteger los intereses de la empresa y se mide por recuperación (recovery), restitución (restitution), mitigación de litigios y reducción de riesgo. Los arrestos y condenas son la medida típica del sector público, que sirve a la sociedad en general y se centra en violaciones penales concretas."
+  },
+  "security-9-q1": {
+   "q": "Una investigación sobre acoso fue muy completa y exacta, pero el informe llegó después de que la empresa ya había tomado la decisión disciplinaria. ¿Qué atributo de una investigación eficaz y fiable falló?",
+   "o": [
+    "Oportunidad (timeliness)",
+    "Exhaustividad (thoroughness)",
+    "Exactitud (accuracy)",
+    "Objetividad (objectivity)"
+   ],
+   "e": "Los cinco atributos son objetividad, exhaustividad, pertinencia (relevance), exactitud y oportunidad, y la dirección debe asegurarlos a nivel estratégico y en cada caso. Aquí la investigación fue completa y exacta, pero no llegó a tiempo para servir a la decisión."
+  },
+  "security-9-q2": {
+   "q": "¿Qué documento da a la unidad de investigación (investigative unit, IU) credibilidad y autoridad, y quién lo emite?",
+   "o": [
+    "La carta funcional (functional charter), emitida por el director general",
+    "La declaración de política (policy statement), emitida por el asesor legal",
+    "Los objetivos anuales, aprobados por el jefe de la propia unidad",
+    "La declaración de misión, firmada por el consejo de administración"
+   ],
+   "e": "La carta funcional es el primer nivel de definición de la unidad: la emite el director general (CEO) o un cargo equivalente, es concisa y fija propósito, metas estratégicas, responsables y relaciones internas. La declaración de política cubre procedimientos, canales de reporte y disposición final, y los objetivos se revisan normalmente cada año."
+  },
+  "security-9-q3": {
+   "q": "Un gerente propone colocar un operativo encubierto (operative) en planta para averiguar quién organiza reuniones sindicales protegidas por la ley. Según el capítulo, ¿qué debe responder el director de seguridad?",
+   "o": [
+    "Que no debe usarse con actividades sindicales protegidas",
+    "Que puede usarse si antes se descartaron las demás opciones razonables",
+    "Que puede usarse si el operativo no oculta su presencia en la planta",
+    "Que puede usarse si los supervisores no son capaces de intervenir"
+   ],
+   "e": "La investigación encubierta (undercover investigation) no debe considerarse para investigar actividades sindicales protegidas o permitidas por ley, ni para sustituir otra investigación igual de eficaz, y nunca para invadir una expectativa razonable de privacidad. Haber descartado otras opciones es una condición para usarla en casos legítimos, no una excepción a estas prohibiciones."
+  },
+  "security-9-q4": {
+   "q": "Al contratar a un tesorero, la empresa solo confirma el título universitario y los empleos que declaró el candidato. Más tarde descubre que había sido despedido por fraude en un empleo que omitió. Según el capítulo, ¿qué tipo de revisión hizo la empresa?",
+   "o": [
+    "Una verificación de antecedentes (background check), que confirma lo declarado",
+    "Una investigación de antecedentes (background investigation), que busca lo oculto",
+    "Una selección previa al empleo (preemployment screening) con pruebas completas",
+    "Una investigación de due diligence sobre la legitimidad del candidato"
+   ],
+   "e": "El background check es confirmatorio: verifica lo que declara el candidato, como educación e historial laboral. La background investigation hace una búsqueda activa de lo que el candidato podría ocultar, como actividad delictiva o despidos previos, y el preemployment screening añade pruebas para determinar si es confiable o capaz."
+  },
+  "security-9-q5": {
+   "q": "Un oficial recoge un arma en la escena de una agresión y la deja una noche en un cajón sin llave al que acceden varias personas antes de entregarla. Si el caso va a juicio, ¿qué requisito de la evidencia física queda MÁS comprometido?",
+   "o": [
+    "La cadena de custodia (chain of custody)",
+    "La correcta identificación de la evidencia",
+    "La pertinencia (relevance) para el caso",
+    "La competencia que valora el juez"
+   ],
+   "e": "La cadena de custodia es el control ininterrumpido de la evidencia, y mostrarla con claridad es uno de los tres requisitos de la evidencia física en juicio, junto con identificarla correctamente y que sea pertinente. Sin ella, la evidencia puede no llegar al tribunal; estas prácticas se siguen aunque el caso no vaya a juicio."
+  },
+  "security-9-q6": {
+   "q": "El gerente de seguridad declarará en un juicio. Primero relatará lo que vio y oyó la noche del incidente y después, como especialista acreditado, opinará sobre si el control de acceso cumplía los estándares. ¿Qué describe MEJOR su papel?",
+   "o": [
+    "Testigo de hechos en lo primero y testigo de opinión en lo segundo",
+    "Testigo de opinión en ambas partes, por ser un especialista acreditado",
+    "Testigo de hechos en ambas partes, por haber estado presente",
+    "Testigo de oídas en lo primero y testigo experto en lo segundo"
+   ],
+   "e": "El testigo de hechos (fact witness) declara solo lo que percibió con sus sentidos; el testigo de opinión (opinion witness), también llamado experto o forense, da una opinión y debe demostrar capacitación, educación y experiencia en el tema. El personal de seguridad puede ser cualquiera de los dos; el testimonio de oídas (hearsay) es contar lo que dijo otra persona."
+  },
+  "security-9-q7": {
+   "q": "Según el capítulo, ¿qué relación hay entre la debida diligencia (due diligence) y la negligencia (negligence)?",
+   "o": [
+    "La diligencia es el lado positivo del cuidado debido; la negligencia, su falta",
+    "La debida diligencia es reactiva; la negligencia se investiga de forma proactiva",
+    "Omitir la debida diligencia solo tiene costo cuando otra parte resulta perjudicada",
+    "La debida diligencia tiene un estándar absoluto; la negligencia depende de cada caso"
+   ],
+   "e": "La debida diligencia es el lado positivo del cuidado debido (due care) y la negligencia describe su falta; además, es un proceso investigativo proactivo. Omitirla puede causar daños legales a otros, pero también sale caro aunque no dañe a nadie, y no tiene estándar absoluto: depende del objetivo, la situación, las jurisdicciones, las leyes de privacidad y el plazo."
+  },
+  "security-10-q0": {
+   "q": "Un director financiero propone elegir entre vigilantes propios (proprietary), subcontratados (contract) o un esquema híbrido (hybrid) según cuál resulte más barato. Según el libro, ¿en qué debe basarse PRINCIPALMENTE esta decisión?",
+   "o": [
+    "En el tipo de activos protegidos, el nivel de riesgo y lo que se espera de los vigilantes",
+    "En el costo total del servicio, ya que el modelo híbrido se justifica por el ahorro que genera",
+    "En la flexibilidad que da cada modelo para subir o bajar la plantilla cuando haga falta",
+    "En la lealtad, la menor rotación y el mejor desempeño que suelen mostrar los vigilantes propios"
+   ],
+   "e": "El libro dice que la decisión se toma según el tipo de activos, el nivel de riesgo y lo que se espera de los vigilantes, no según el costo. Aunque el libro justifica el modelo híbrido por el ahorro, en el examen el costo no es el criterio de decisión."
+  },
+  "security-10-q1": {
+   "q": "¿Qué afirmación describe MEJOR la diferencia entre las órdenes generales (general orders) y las órdenes de puesto (post orders)?",
+   "o": [
+    "Las generales describen los procedimientos de emergencia de cada puesto; las de puesto fijan normas de conducta para toda la fuerza",
+    "Las generales fijan principios básicos de conducta para toda la fuerza; las de puesto dan instrucciones específicas de un puesto",
+    "Las generales las redacta la agencia contratista para sus vigilantes; las de puesto las redacta el cliente para cada instalación",
+    "Las generales se archivan en la bitácora de control (control log); las de puesto se archivan en la bitácora de cada puesto"
+   ],
+   "e": "Las órdenes generales recogen principios básicos de conducta y operación para toda la fuerza, como no dejar el puesto sin el relevo adecuado. Las de puesto tratan un solo tema, están en cada puesto e incluyen procedimientos diarios o ante emergencias. La primera opción invierte ambos conceptos."
+  },
+  "security-10-q2": {
+   "q": "Un gerente recién llegado quiere diseñar el programa de formación (training) de los vigilantes. Según el libro, ¿qué debe hacer PRIMERO para detectar las necesidades de formación (training needs)?",
+   "o": [
+    "Revisar las fallas señaladas en los informes posteriores a incidentes (after-action reports)",
+    "Buscar normas, guías o buenas prácticas del sector que fijen los parámetros de la formación",
+    "Verificar si la ley exige alguna formación específica para los vigilantes",
+    "Elegir el método de formación según los horarios, la tecnología y el número de alumnos"
+   ],
+   "e": "El libro fija el orden: primero ver si la ley exige alguna formación, después buscar normas o buenas prácticas del sector y, además, revisar los informes posteriores a incidentes. Detectar las necesidades es lo primero, antes de impartir nada o de elegir cómo hacerlo."
+  },
+  "security-10-q3": {
+   "q": "Al preparar un contrato de servicios de vigilancia, la agencia proveedora se ofrece a fijar ella misma las tarifas por hora (hourly pay rates) de los vigilantes. Según el libro, ¿cuál es la postura correcta del cliente?",
+   "o": [
+    "Aceptar la oferta, porque la agencia conoce mejor el mercado laboral de la zona",
+    "Fijar él mismo las tarifas por hora, sin dejar esa decisión en manos de la agencia",
+    "Dejar que las tarifas se acuerden en la junta con los licitantes (bidders' conference)",
+    "Pedir que las tarifas figuren en el acuerdo operativo (operating agreement) de la agencia"
+   ],
+   "e": "El libro es explícito: el cliente debe fijar las tarifas por hora y no dejar que las fije la agencia. Las demás opciones dejan la decisión a la agencia o la posponen; el acuerdo operativo, además, lo prepara la propia agencia a partir de la RFP."
+  },
+  "security-10-q4": {
+   "q": "Según el libro, al contratar a un consultor de seguridad, el alcance y el objetivo deben explicarse desde el principio. Además de en el contrato escrito, ¿en qué documento inicial deben aparecer?",
+   "o": [
+    "En la solicitud de propuestas (RFP, request for proposal)",
+    "En el resumen de la licitación (solicitation summary)",
+    "En el acuerdo operativo (operating agreement)",
+    "En la solicitud de cotización (request for quote)"
+   ],
+   "e": "Para consultores el libro habla de la solicitud de cotización (request for quote) inicial y del contrato escrito. La RFP, el resumen de la licitación y el acuerdo operativo pertenecen al proceso de contratación de vigilantes; confundir RFP y request for quote es la trampa típica."
+  },
+  "security-10-q5": {
+   "q": "Durante un evento público, alguien empieza a disparar cerca del ejecutivo protegido (principal). Según el libro, ¿qué reacción distingue al agente de protección (protection agent) de un policía?",
+   "o": [
+    "Correr hacia el agresor para neutralizarlo antes de que hiera a más personas",
+    "Mantener la posición y cubrir al protegido hasta que llegue la policía local",
+    "Sacar al protegido del peligro y alejarse con él del lugar",
+    "Asegurar la escena y preservar las pruebas para la investigación formal"
+   ],
+   "e": "Ante un incidente, el agente de protección saca al protegido del peligro y huye con él; es el policía quien corre hacia el problema. Además, con una buena planificación previa el agente busca no poner al protegido en peligro."
+  },
+  "security-10-q6": {
+   "q": "En un programa de protección ejecutiva (EP, executive protection), ¿qué dos aspectos componen el perfil de riesgo final del protegido según el libro?",
+   "o": [
+    "Las vulnerabilidades físicas del protegido y la capacidad de respuesta de la policía local",
+    "Lo atractivo que es el blanco (attractiveness of the target) y la probabilidad de éxito de una amenaza",
+    "La imagen pública del protegido y la influencia de la entidad que representa sobre su riesgo",
+    "El nivel de amenaza actual y el retorno de la inversión (ROI) del programa de protección"
+   ],
+   "e": "El libro dice que el perfil de riesgo final tiene dos aspectos: lo atractivo que es el blanco y la probabilidad de que una amenaza tenga éxito. Las vulnerabilidades y la capacidad de respuesta de la policía pertenecen a la evaluación de vulnerabilidades, que alimenta el análisis pero no es el perfil final."
+  },
+  "security-10-q7": {
+   "q": "Un supervisor sospecha que un vigilante consume alcohol. Durante meses ha aceptado sus excusas por las faltas y el bajo rendimiento, y cree sus justificaciones. ¿Cómo llama el libro a esta conducta del supervisor?",
+   "o": [
+    "Codependencia (codependency)",
+    "Intervención (intervention)",
+    "Negación (denial)",
+    "Facilitación (enabling)"
+   ],
+   "e": "Facilitar (enabling) es permitir o fomentar, a sabiendas o no, la conducta destructiva de otro; el libro pone justo el ejemplo del jefe que acepta excusas por faltas o bajo rendimiento. La negación suele estar en el origen de la facilitación, pero la conducta descrita es facilitar."
+  },
+  "security-10-q8": {
+   "q": "Una investigación en el trabajo (workplace investigation) sobre un posible consumo de drogas concluye que los hallazgos no justifican una sanción, pero el desempeño del empleado sigue empeorando. Según el libro, ¿qué respuesta es la MÁS adecuada?",
+   "o": [
+    "Aplicar una sanción disciplinaria leve que deje constancia en su expediente",
+    "Hacer una intervención que interrumpa de forma planeada sus conductas destructivas",
+    "Cerrar el caso y dar tiempo a que el desempeño mejore por sí solo",
+    "Exigirle una prueba de drogas de regreso al trabajo (return to duty)"
+   ],
+   "e": "Cuando los hallazgos no justifican sanción, el libro indica la intervención: una interrupción planeada de las conductas destructivas que es un acto de cuidado, no disciplina. Suponer que mejorará solo es justo lo que el libro dice que los jefes no deben hacer."
+  },
+  "security-10-q9": {
+   "q": "Un empleado le dice a su supervisor directo (first-line supervisor) que un compañero amenazó con agredirlo. El supervisor no escala la queja y semanas después ocurre la agresión. Según el libro, ¿en qué situación queda la empresa?",
+   "o": [
+    "Queda protegida, porque la alta dirección nunca recibió una queja formal",
+    "Se considera que el hecho era previsible y que la empresa lo sabía",
+    "Solo responde el supervisor, porque actuó al margen de la política interna",
+    "Solo responde si tenía una política escrita contra la violencia laboral"
+   ],
+   "e": "Por la previsibilidad (foreseeability), una queja recibida por el supervisor directo hace que la situación se considere previsible y conocida por la empresa, aunque el supervisor no la haya escalado. Si la lesión era previsible y evitable y la empresa no actuó, puede ser demandada."
+  },
+  "security-10-q10": {
+   "q": "En un programa de concienciación en seguridad (security awareness), ¿qué describe MEJOR la función propia de la concienciación frente a la educación y la formación?",
+   "o": [
+    "Dar conocimiento general sobre los riesgos de la organización",
+    "Desarrollar habilidades concretas para las tareas de seguridad",
+    "Producir un cambio positivo en la conducta en el trabajo",
+    "Buscar la atención consciente de la persona"
+   ],
+   "e": "El libro distingue: la educación da conocimiento general, la formación desarrolla habilidades concretas y la concienciación busca la atención consciente de la persona. «Cambio positivo en la conducta en el trabajo» es la definición de aprendizaje (learning) de 10.2, el otro trío del capítulo (educación, formación y desarrollo)."
+  },
+  "security-11-q0": {
+   "q": "Según este libro, ¿cuáles son las cuatro D (four Ds) que deben ser la base de todo proyecto de seguridad física?",
+   "o": [
+    "Disuadir, detectar, retardar y responder (deter, detect, delay, respond)",
+    "Detectar, retardar, negar y responder (detect, delay, deny, respond)",
+    "Disuadir, detectar, retardar y negar (deter, detect, delay, deny)",
+    "Disuadir, negar, detectar y defender (deter, deny, detect, defend)"
+   ],
+   "e": "En este libro la cuarta D es negar (deny): impedir al adversario el acceso al objetivo. La respuesta no forma parte de las cuatro D; aparece aparte, en el punto crítico de detección."
+  },
+  "security-11-q1": {
+   "q": "La fuerza de respuesta tarda 5 minutos en llegar. Si un intruso es detectado en el sensor A, aún debe vencer barreras con 8 minutos de retardo; si es detectado en el sensor B, le quedan 3 minutos de retardo. Según el concepto de punto crítico de detección (critical detection point), ¿qué conclusión es correcta?",
+   "o": [
+    "La detección en B es la oportuna, porque ocurre más cerca del activo protegido",
+    "Ambas detecciones son oportunas, porque las dos ocurren antes de llegar al objetivo",
+    "Ninguna es oportuna, porque el retardo restante siempre debe duplicar la respuesta",
+    "La detección en A es la oportuna, porque el retardo restante supera la respuesta"
+   ],
+   "e": "El punto crítico de detección es donde el tiempo de retardo restante supera el tiempo de la fuerza de respuesta. En A quedan 8 minutos frente a 5 de respuesta; en B solo quedan 3, así que la respuesta llegaría tarde aunque B esté más cerca del activo."
+  },
+  "security-11-q2": {
+   "q": "En una evaluación de riesgos integral (comprehensive security risk assessment), el equipo ya identificó los activos y les asignó un valor relativo. Según la secuencia del libro, ¿cuál es el SIGUIENTE paso?",
+   "o": [
+    "Evaluar las amenazas relevantes para esos activos",
+    "Hacer la evaluación de vulnerabilidades (vulnerability assessment)",
+    "Considerar el impacto potencial de un evento de pérdida (loss event)",
+    "Recomendar medidas de mitigación dentro de una estrategia integral"
+   ],
+   "e": "La secuencia es: activos y su valor, amenazas, vulnerabilidades, impacto de un evento de pérdida, resumen y priorización, y recomendaciones. La evaluación de vulnerabilidades viene justo después de evaluar las amenazas, no antes."
+  },
+  "security-11-q3": {
+   "q": "Un equipo de CPTED (crime prevention through environmental design, prevención del delito mediante el diseño ambiental) clasifica medidas para un complejo de oficinas. Según la clasificación del libro, ¿cuál es una medida NATURAL?",
+   "o": [
+    "Una cerca (fencing) perimetral alrededor del estacionamiento",
+    "Un muro con portón en la entrada principal",
+    "Un programa de vigilancia vecinal (neighborhood watch)",
+    "Cámaras de CCTV (closed-circuit television) en los accesos"
+   ],
+   "e": "El libro clasifica portones y muros como medidas naturales, junto con el terreno, la distribución y el paisajismo; las cercas, en cambio, figuran como mecánicas, igual que las cerraduras y el CCTV. La vigilancia vecinal es una medida organizacional."
+  },
+  "security-11-q4": {
+   "q": "Para una sala de servidores crítica, el gerente necesita que el control de acceso compruebe que quien entra es realmente la persona autorizada, y no alguien que usa sus medios de acceso. Según el libro, ¿qué método cumple MEJOR este requisito?",
+   "o": [
+    "Una credencial válida (lo que tienes, what you have)",
+    "Un PIN válido (lo que sabes, what you know)",
+    "Un lector de huella dactilar (lo que eres, what you are)",
+    "Credencial y PIN combinados en el mismo lector"
+   ],
+   "e": "Solo la biometría verifica la identidad de la persona; la credencial y el PIN solo prueban que alguien porta una credencial válida o sabe un número válido, y pueden usarse sin que esté la persona autorizada. Combinarlos hace el sistema más difícil de vencer, pero sigue sin verificar la identidad."
+  },
+  "security-11-q5": {
+   "q": "La alta dirección quiere acortar la fase de diseño de un sistema de protección física (PPS, physical protection system) asignando más personal y más presupuesto. Según el libro, ¿por qué esta medida no lo logra de forma sustancial?",
+   "o": [
+    "Porque el presupuesto se fija al inicio y solo puede cambiarse durante la implementación",
+    "Porque es un proceso en serie: cada fase y tarea debe terminar antes de empezar la siguiente",
+    "Porque el diseño lo supervisa un arquitecto certificado y no el equipo de seguridad",
+    "Porque las pruebas de aceptación (acceptance tests) fijan la duración mínima del proyecto"
+   ],
+   "e": "El diseño es un proceso en serie (serial process): la salida de cada fase es la entrada de la siguiente, así que más personal o presupuesto no lo acorta de forma sustancial. Solo una relación de diseño-construcción (design/build) con un contratista lo acorta un poco."
+  },
+  "security-11-q6": {
+   "q": "Una empresa instalará un sistema de seguridad sofisticado en una planta remota de un país donde ningún proveedor local puede darle soporte. Según el libro, ¿qué debe hacer el gerente para evitar que el sistema se degrade?",
+   "o": [
+    "Confiar en reparaciones bajo demanda (on-call repairs) a cargo del instalador original del sistema",
+    "Prever presupuesto de mantenimiento, repuestos en el programa original y un técnico dedicado",
+    "Elegir la tecnología más avanzada disponible, aunque el mercado local no pueda darle soporte",
+    "Dar el mayor esfuerzo de soporte a los equipos más baratos, que son los que fallan con más frecuencia"
+   ],
+   "e": "Si ningún proveedor local puede dar soporte, el libro pide prever presupuesto de mantenimiento, repuestos en el programa original y un técnico de mantenimiento dedicado. Depender de reparaciones bajo demanda lleva a la muerte prematura del sistema por mantenimiento diferido (deferred maintenance)."
+  },
+  "security-12-q0": {
+   "q": "Según el capítulo, y en línea con The Global Risks Report 2021 del Foro Económico Mundial (WEF, World Economic Forum), ¿qué cuatro tendencias globales pueden volverse más críticas en los próximos años?",
+   "o": [
+    "Disturbios civiles, terrorismo, pandemias y riesgo geopolítico",
+    "Terrorismo, ciberseguridad, guerra comercial y crisis de medios de vida",
+    "Disturbios civiles, terrorismo, violencia laboral y ciberseguridad",
+    "Violencia laboral, ciberseguridad, inmigración ilegal y narcotráfico"
+   ],
+   "e": "Las cuatro tendencias del capítulo son disturbios civiles (civil unrest), terrorismo, violencia en el lugar de trabajo y ciberseguridad, y el WEF coincide en que serán grandes disruptores. La pandemia y el riesgo geopolítico aparecen como contexto o agravantes, no como tendencias de la lista."
+  },
+  "security-12-q1": {
+   "q": "Una marcha por justicia social pasará frente a la sede de la empresa. Un vicepresidente pide al director de seguridad que impida que los manifestantes se concentren allí. Según el libro, ¿cuál es el enfoque MÁS adecuado?",
+   "o": [
+    "Coordinar con la policía para arrestar a quienes se acerquen al edificio",
+    "Bloquear la calle con vigilantes para obligar a la marcha a cambiar de ruta",
+    "Negociar con los organizadores para que cancelen o aplacen la protesta",
+    "Centrarse en proteger personas, bienes, información y reputación"
+   ],
+   "e": "La tarea del director de seguridad no es impedir que la gente proteste; si la empresa está en el camino de la protesta, se centra en proteger personas, bienes, información y reputación. Arrestar tampoco es la meta: la seguridad no es aplicación de la ley (security is not law enforcement) y busca prevenir problemas."
+  },
+  "security-12-q2": {
+   "q": "El director de seguridad se entera de que habrá protestas en la ciudad la próxima semana. Según la secuencia que propone el libro para los disturbios civiles, ¿qué debe hacer PRIMERO?",
+   "o": [
+    "Evaluar la amenaza con base en la recolección de inteligencia (intelligence collection)",
+    "Elegir el enfoque de protección que mejor encaje con el tipo de evento",
+    "Aplicar conceptos para mitigar el impacto del evento y prevenir daños",
+    "Reforzar de inmediato la seguridad física de todas las instalaciones"
+   ],
+   "e": "La secuencia es: evaluar la amenaza con base en la recolección de inteligencia, luego elegir el enfoque de protección que mejor encaje y después aplicar conceptos para mitigar el impacto. Elegir el enfoque o reforzar medidas antes de entender la amenaza invierte el orden."
+  },
+  "security-12-q3": {
+   "q": "Además de la protección física de las instalaciones y de la seguridad de empleados y clientes, ¿qué otro impacto de los disturbios civiles destaca el libro para el profesional de seguridad?",
+   "o": [
+    "El riesgo de ciberguerra (cyberwarfare) contra la empresa",
+    "El riesgo reputacional (reputational risk) para la empresa",
+    "La responsabilidad legal por negligencia (negligence)",
+    "El robo de propiedad intelectual por actores externos"
+   ],
+   "e": "El libro señala un impacto inmediato, la protección física y la seguridad de empleados y clientes, y además el riesgo reputacional. La responsabilidad por negligencia es la principal preocupación de negocio en la violencia laboral, no en los disturbios civiles."
+  },
+  "security-12-q4": {
+   "q": "¿Qué definición de terrorismo citada en el libro exige que el acto promueva una causa política, religiosa, racial o ideológica, y cubre actos dentro o fuera del país?",
+   "o": [
+    "La del panel de Naciones Unidas (United Nations)",
+    "La de la Convención Árabe para la Supresión del Terrorismo",
+    "La del FBI para el terrorismo doméstico (domestic terrorism)",
+    "La del Crown Prosecution Service del Reino Unido"
+   ],
+   "e": "La definición británica del Crown Prosecution Service exige una causa política, religiosa, racial o ideológica y cubre actos dentro o fuera del Reino Unido. La del FBI para el terrorismo doméstico también habla de fines ideológicos, pero se define por influencias internas."
+  },
+  "security-12-q5": {
+   "q": "Un grupo con base en EE. UU. comete actos violentos inspirado por una organización terrorista extranjera designada. Según la definición del FBI basada en el U.S. Code, ¿cómo se clasifica?",
+   "o": [
+    "Terrorismo doméstico, porque los actos ocurren dentro de EE. UU.",
+    "Terrorismo internacional, porque lo inspira una organización extranjera",
+    "Terrorismo doméstico, porque los autores son residentes del país",
+    "Terrorismo internacional solo si lo patrocina una nación extranjera"
+   ],
+   "e": "El FBI distingue por el origen de la inspiración: el terrorismo internacional (international terrorism) lo cometen individuos o grupos inspirados por, o asociados con, organizaciones terroristas extranjeras designadas o naciones; el doméstico responde a influencias internas. No hace falta patrocinio estatal, y el lugar de los hechos o la residencia de los autores no es el criterio."
+  },
+  "security-12-q6": {
+   "q": "Un profesional protege edificios de oficinas en varios países. Según el libro, ¿cuál es el vector principal del terrorismo que debe tener presente al valorar sus inmuebles?",
+   "o": [
+    "Causar el mayor daño económico posible a la infraestructura crítica",
+    "Atacar la sensación de seguridad del público donde vive o trabaja",
+    "Obligar a un gobierno a cambiar su política mediante rehenes",
+    "Reclutar nuevos miembros para conflictos antiguos de la región"
+   ],
+   "e": "El objetivo primario del terrorismo es atacar la sensación de seguridad del público donde vive o trabaja, y también en lugares familiares que visita; por eso todo edificio cercano a un símbolo económico o político importante es un blanco posible. Los ataques a infraestructura crítica son solo una de las tácticas."
+  },
+  "security-12-q7": {
+   "q": "La norma ASIS de 2020 sobre violencia en el lugar de trabajo y agresor activo (active assailant) propone un enfoque holístico y estratégico. ¿Cuáles son sus cuatro fases?",
+   "o": [
+    "Prevención, detección, respuesta y recuperación (recovery)",
+    "Disuasión, detección, retardo y respuesta",
+    "Prevención, intervención, respuesta y secuelas (aftermath)",
+    "Evaluación, intervención, respuesta y continuidad del negocio"
+   ],
+   "e": "Las cuatro fases de la norma ASIS son prevención (prevention), intervención (intervention), respuesta (response) y secuelas (aftermath). «Recuperación» suena parecido a secuelas, pero no es el término de la norma, y la detección no figura entre sus fases."
+  },
+  "security-12-q8": {
+   "q": "A una gerente de seguridad le encargan crear desde cero un programa de prevención e intervención de la violencia laboral (WVPI, workplace violence prevention and intervention). Según el libro, ¿cuál es el paso MÁS importante para iniciarlo?",
+   "o": [
+    "Capacitar a todos los empleados para reconocer señales de riesgo",
+    "Abrir varias vías de reporte confidencial para los empleados",
+    "Crear una política respaldada por la alta dirección",
+    "Reforzar el control de acceso en todas las instalaciones"
+   ],
+   "e": "El libro dice que el paso más importante es crear una política respaldada por la alta dirección, que además aporta los recursos, fondos y autorizaciones. Ofrecer varias vías de reporte es algo que la política debe establecer, no el punto de partida."
+  },
+  "security-12-q9": {
+   "q": "Recursos Humanos presenta un borrador de política contra la violencia laboral titulado «Tolerancia cero». Según el libro, ¿qué debe recomendar el profesional de seguridad?",
+   "o": [
+    "Mantener el título, porque deja claro que la violencia es una prioridad seria",
+    "Evitar ese término, porque reduce los reportes y disminuye la seguridad",
+    "Mantenerlo solo si la política también prohíbe las armas en el predio",
+    "Evitarlo, porque la política no debe sancionar las amenazas verbales"
+   ],
+   "e": "El libro pide evitar el término «tolerancia cero» (zero tolerance) porque reduce los reportes y disminuye la seguridad. La política sí debe definir la conducta prohibida e imponer medidas disciplinarias, así que la última opción es falsa."
+  },
+  "security-12-q10": {
+   "q": "Una empleada informa que su expareja la ha amenazado y que tiene una orden de restricción contra él. El gerente de la sucursal opina que es un asunto personal y externo a la empresa. Según el libro, ¿cuál es la postura correcta?",
+   "o": [
+    "El gerente tiene razón: la obligación del empleador cubre solo amenazas internas",
+    "El gerente tiene razón, salvo que la amenaza llegue a cumplirse dentro del predio",
+    "El empleador debe proteger a la víctima potencial, sea la amenaza interna o externa",
+    "Basta con remitir el caso a la policía, porque la seguridad no es aplicación de la ley"
+   ],
+   "e": "La obligación de dar un lugar de trabajo seguro en general no distingue entre fuentes de peligro internas y externas; si hay causa razonable para creer que alguien puede cometer violencia, el empleador debe proteger a la víctima potencial. Por eso la política exige reportar las órdenes de protección o de restricción (protective or restraining orders)."
+  },
+  "security-12-q11": {
+   "q": "Según la definición de la norma ASIS, ¿qué debe existir para que una conducta se considere violencia en el lugar de trabajo (WPV, workplace violence)?",
+   "o": [
+    "Un acto de violencia evidente (overt act), como una agresión física",
+    "Una relación laboral interna entre el agresor y la víctima",
+    "Un vínculo (nexus) entre la conducta y la seguridad física de los empleados",
+    "Una amenaza reportada formalmente al área de Recursos Humanos"
+   ],
+   "e": "La norma ASIS define la violencia laboral como un espectro de conductas que generan preocupación razonable por la seguridad, y exige un vínculo (nexus) entre la conducta y la seguridad física de los empleados. No requiere un acto evidente, porque incluye amenazas y otras conductas, y puede venir de cualquier relación interna o externa."
+  },
+  "security-12-q12": {
+   "q": "Tras un ataque de ransomware, la dirección pide estimar su costo. Según el libro, ¿qué componente suele pesar MÁS?",
+   "o": [
+    "El tiempo y gasto de TI para eliminar el malware y restaurar los sistemas",
+    "El valor que tenían para la empresa los secretos comerciales afectados",
+    "La pérdida de productividad del personal mientras dura la interrupción",
+    "Las primas de seguro que suben tras el incidente de ciberseguridad"
+   ],
+   "e": "El costo de un virus o ransomware suma la pérdida de productividad del personal y el tiempo y gasto de TI para limpiarlo y restaurar la disponibilidad; la productividad perdida suele costar más que la limpieza. El valor del secreto comercial (trade secret) es la medida de otro incidente: su robo por un ciberladrón."
+  },
+  "security-12-q13": {
+   "q": "Un contador recibe un correo urgente que parece del director general: le pide transferir fondos de inmediato a una cuenta nueva. Según el libro, ¿qué tipo de ataque describe MEJOR este patrón?",
+   "o": [
+    "Phishing para obtener los datos de la tarjeta corporativa",
+    "Ataque a la cadena de suministro (supply chain attack)",
+    "Ransomware que cifra los archivos del área de finanzas",
+    "Compromiso del correo empresarial (BEC, business email compromise)"
+   ],
+   "e": "En el BEC el atacante se hace pasar por un ejecutivo para iniciar una transferencia a una cuenta controlada por criminales. El phishing, en cambio, suplanta a una organización confiable para pedir información personal, no para ordenar una transferencia."
+  },
+  "security-12-q14": {
+   "q": "¿Qué describe MEJOR el mecanismo del ataque a SolarWinds que reveló FireEye en diciembre de 2020?",
+   "o": [
+    "Cifrar los archivos de agencias federales y exigir un pago para descifrarlos",
+    "Comprometer el software de un proveedor para llegar a los sistemas de sus clientes",
+    "Suplantar a ejecutivos por correo para ordenar transferencias a cuentas criminales",
+    "Usar una cuenta de administrador privilegiada para ver cámaras de seguridad"
+   ],
+   "e": "SolarWinds fue un ataque a la cadena de suministro (supply chain attack): el actor infiltró la cadena de suministro de software del proveedor, comprometió un producto y accedió a sistemas de FireEye y de otros clientes. La cuenta de administrador privilegiada corresponde al caso de las 150,000 cámaras de 2021."
+  },
+  "security-12-q15": {
+   "q": "Un empleado en trabajo remoto suele conectarse con su computadora de trabajo desde el Wi-Fi público de cafeterías. Según el libro, ¿qué medida corresponde?",
+   "o": [
+    "Desalentar el Wi-Fi público y, si lo usa, exigir una VPN (virtual private network)",
+    "Prohibir el trabajo remoto hasta que el empleado tenga una red doméstica segura",
+    "Permitirle trabajar desde su dispositivo personal para no exponer el equipo de la empresa",
+    "Darle un filtro de privacidad para la pantalla de la laptop y mantener la conexión"
+   ],
+   "e": "El libro pide desalentar el Wi-Fi público y, si se usa con la computadora de trabajo, exigir una red privada virtual (VPN). Los dispositivos personales no aprobados son justamente un riesgo, porque evaden las defensas de la red; el filtro de privacidad protege la pantalla, no la conexión."
+  },
+  "security-12-q16": {
+   "q": "Según el libro, ¿cuál es el objetivo de un programa de prevención para proteger la información sensible de la organización?",
+   "o": [
+    "Eliminar por completo el riesgo de intrusión en las redes y sistemas de la empresa, cueste lo que cueste",
+    "Asignar a un ejecutivo concreto la responsabilidad de gestionar todos los incidentes de información",
+    "Gestionar con costo-eficacia el riesgo de que la información crítica se comprometa, se altere o no esté disponible",
+    "Reducir el costo de recuperación tras un incidente mediante respaldos frecuentes y seguros contra ataques"
+   ],
+   "e": "El objetivo es gestionar con prudencia y costo-eficacia el riesgo de que la información crítica se vea comprometida, se altere sin autorización o deje de estar disponible. Que un ejecutivo específico tenga la responsabilidad de gestión es el rasgo de un programa formal, no su objetivo."
+  },
+  "security-12-q17": {
+   "q": "Una persona bien vestida y amable se presenta en recepción como técnico de reparación, muestra una credencial y pide acceso al cuarto de telecomunicaciones. Según la definición de CISA que cita el libro, ¿qué táctica es la MÁS probable?",
+   "o": [
+    "Phishing por correo o sitio web falso",
+    "Ingeniería social (social engineering)",
+    "Compromiso del correo empresarial (BEC)",
+    "Suplantación con voz sintética"
+   ],
+   "e": "La ingeniería social usa la interacción humana para obtener o comprometer información o sistemas; el atacante puede parecer modesto y respetable, decir que es técnico de reparación e incluso mostrar credenciales. El phishing aprovecha la ingeniería social, pero por correo o sitios maliciosos, no en persona."
+  },
+  "security-A-q0": {
+   "q": "Los organismos acreditados de desarrollo de estándares (SDOs, standards developing organizations) siguen cuatro principios al desarrollar un estándar. ¿Cuáles son según el libro?",
+   "o": [
+    "Consenso, apertura, interoperabilidad y mejora continua",
+    "Consenso, apertura, debido proceso y transparencia",
+    "Consenso, independencia, debido proceso y rendición de cuentas",
+    "Apertura, transparencia, resiliencia y consistencia"
+   ],
+   "e": "Los cuatro principios de desarrollo son consenso (consensus), apertura (openness), debido proceso (due process) y transparencia (transparency). La interoperabilidad y la mejora continua sí aparecen en el capítulo, pero como beneficio de los estándares y como fin de los sistemas de gestión."
+  },
+  "security-A-q1": {
+   "q": "Un municipio incorpora a su código de construcción (building code) un estándar de la NFPA (National Fire Protection Association) que nació como voluntario. Según el libro, ¿cómo se clasifica ahora ese estándar?",
+   "o": [
+    "Voluntario, porque lo emitió un organismo privado del sector",
+    "Legal o regulatorio puro, porque ya lo hacen cumplir las autoridades",
+    "Mixto, porque un estándar voluntario se incorporó a un reglamento",
+    "De sistema de gestión, porque regula los procesos de la organización"
+   ],
+   "e": "Cuando un estándar voluntario se incorpora a leyes o reglamentos, la frontera se difumina y se habla de estándar mixto (mixed standard); el libro da como ejemplos incendio, construcción y seguridad de la vida (life safety). Por eso no todos los estándares de la NFPA son voluntarios."
+  },
+  "security-A-q2": {
+   "q": "Un gerente de seguridad sabe que cierto estándar es técnicamente voluntario. Aun así, según el libro, ¿qué situación puede volverlo obligatorio en la práctica?",
+   "o": [
+    "Que la aseguradora fije la disponibilidad y el costo del seguro según su cumplimiento",
+    "Que lo publique ISO, cuyos estándares hacen cumplir autoridades formales",
+    "Que ASIS International lo incluya en su biblioteca de estándares y guías",
+    "Que un organismo acreditado (SDO) lo apruebe por consenso de los stakeholders"
+   ],
+   "e": "Las aseguradoras fijan la disponibilidad y el costo del seguro de daños (casualty insurance) según el uso de materiales aprobados o prácticas estandarizadas, y los contratos pueden exigir estándares; así la adopción es cada vez más impulsada por el cliente (client driven). Los estándares ISO son voluntarios: los que hacen cumplir autoridades formales son los legales o regulatorios."
+  },
+  "security-A-q3": {
+   "q": "Un equipo implantó un nuevo procedimiento de control de visitantes y comprobó que produce resultados coherentes con el plan y resuelve el problema. Según el ciclo PDCA (Plan-Do-Check-Act), ¿qué corresponde hacer a continuación?",
+   "o": [
+    "Identificar y analizar los problemas y activos, y ordenarlos por importancia",
+    "Elaborar un plan de acción detallado para implantar el procedimiento",
+    "Estandarizar la solución en toda la organización y definir nuevos problemas",
+    "Comparar los resultados con el plan para identificar desviaciones"
+   ],
+   "e": "La verificación (Check) ya se hizo; en la fase Act, si las soluciones resuelven los problemas, se estandarizan en toda la organización, se revisa la lista de problemas y se definen otros nuevos, y el ciclo vuelve a empezar. Comparar con el plan es la fase Check, que el equipo ya completó."
+  },
+  "security-A-q4": {
+   "q": "Un gerente busca estándares técnicos para seleccionar cerraduras, alarmas y sistemas de control de acceso. Según el libro, ¿qué organismo emite varios estándares sobre este tipo de equipo de seguridad?",
+   "o": [
+    "NFPA (National Fire Protection Association)",
+    "Illuminating Engineering Society",
+    "Electronic Industries Association",
+    "UL (Underwriters Laboratories)"
+   ],
+   "e": "El libro atribuye a UL varios estándares sobre equipo de seguridad como cerraduras, alarmas y sistemas de control de acceso. La Electronic Industries Association cubre componentes y productos electrónicos en general, y la Illuminating Engineering Society, la iluminación."
+  }
+ }
 }

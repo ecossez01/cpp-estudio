@@ -1,0 +1,2482 @@
+{
+ "1": [
+  [
+   "En un ciclo ESRM (Enterprise Security Risk Management), el director de seguridad identificó un riesgo priorizado sobre el centro de datos y recomendó tres controles posibles. El gerente de operaciones del centro, responsable directo de que funcione, debe elegir. ¿Quién tiene la decisión final sobre la mitigación?",
+   [
+    "El gerente de operaciones, como dueño del activo (asset owner)",
+    "El director de seguridad, como experto en la materia (subject matter expert)",
+    "La alta dirección (top management), que está por encima del CSO",
+    "El órgano de gobierno de seguridad, que fija la política de riesgo"
+   ],
+   0,
+   "En ESRM el dueño del activo es el dueño del riesgo (risk owner): decide y aprueba los controles. El profesional de seguridad recomienda, documenta y ejecuta el plan, pero no decide por el dueño."
+  ],
+  [
+   "Según el libro, ¿cuál de las siguientes afirmaciones sobre ESRM es CORRECTA?",
+   [
+    "Puede funcionar con líderes distintos para seguridad física y de la información",
+    "Requiere la convergencia (convergence) de seguridad física y ciberseguridad bajo un solo líder",
+    "Equivale a ERM, pues abarca riesgos financieros, operativos y estratégicos",
+    "Solo puede implantarse si la organización tiene una función ERM formal"
+   ],
+   0,
+   "ESRM no es convergencia: gestiona el riesgo con cualquier estructura, y la convergencia no es imprescindible. Tampoco es ERM (Enterprise Risk Management), que cubre todos los riesgos clave; ESRM es un sistema independiente que funciona con o sin ERM."
+  ],
+  [
+   "Un director de seguridad recién contratado quiere adoptar ESRM en una cadena hospitalaria. Según el libro, ¿qué suele ser el PRIMER paso al adoptar este enfoque?",
+   [
+    "Reforzar su conocimiento de la misión y la visión (mission and vision) de la organización",
+    "Elaborar con cada dueño el plan de gestión de riesgos de seguridad",
+    "Identificar y priorizar los riesgos según su potencial de impacto en la misión",
+    "Redactar los estándares y procedimientos del órgano de gobierno de seguridad"
+   ],
+   0,
+   "Entender la organización es un paso inicial del Contexto de ESRM; la misión y la visión son la cima de la estrategia, y reforzar ese conocimiento suele ser el primer paso. Identificar y priorizar riesgos forma parte del Ciclo y viene después de priorizar los activos."
+  ],
+  [
+   "Al estudiar el entorno operativo (operating environment), un profesional de seguridad analiza la intensidad de la competencia, la fase de crecimiento de la empresa y la velocidad de toma de decisiones. ¿Qué tipo de entorno está evaluando?",
+   [
+    "El entorno no físico (nonphysical)",
+    "El entorno físico (physical)",
+    "El entorno lógico (logical)",
+    "El entorno de gobernanza organizacional"
+   ],
+   0,
+   "El entorno no físico incluye el entorno geopolítico, las presiones del sector, los requisitos legales, la competencia, la fase de crecimiento y la velocidad de decisión. El físico se refiere a ubicación, edificio, tráfico y procesos en sitio; el lógico, a información, activos digitales y redes."
+  ],
+  [
+   "Para conseguir presupuesto, un gerente de seguridad presenta al dueño del activo solo los peores escenarios posibles, sin métricas, con el fin de generar alarma. ¿Qué concepto del Fundamento de ESRM está incumpliendo MÁS directamente?",
+   [
+    "La transparencia del riesgo (risk transparency)",
+    "La transparencia del proceso (process transparency)",
+    "La gestión holística del riesgo (holistic risk management)",
+    "La gobernanza ESRM (ESRM governance)"
+   ],
+   0,
+   "La transparencia del riesgo exige presentar los riesgos tal como son, ni exagerados ni minimizados, con afirmaciones objetivas y métricas cuantificables; el libro pide basarse en riesgo medido y no en miedo, incertidumbre o duda. La transparencia del proceso trata de que las partes entiendan los pasos de la gestión de riesgos, no de cómo se dimensiona el riesgo."
+  ],
+  [
+   "Un documento táctico de seguridad recomienda que los contratistas 'deberían' (should) ir escoltados en áreas operativas y que 'pueden' (may) usar el comedor general. ¿Qué tipo de documento de gobernanza es MÁS probable que sea?",
+   [
+    "Una directriz (guideline)",
+    "Un estándar (standard)",
+    "Una política (policy)",
+    "Un procedimiento (procedure)"
+   ],
+   0,
+   "Las directrices son documentos tácticos como los estándares, pero menos rígidos: recomiendan lo que 'should/may' hacerse. Los estándares fijan lo que 'shall/must' hacerse; las políticas son de alto nivel y los procedimientos dan instrucciones paso a paso."
+  ]
+ ],
+ "2": [
+  [
+   "A las 2:00 a. m. se activa un sensor perimetral. El operador del centro de control revisa la cámara correspondiente para determinar si se trata de un animal o de un intruso y decidir si envía una patrulla. ¿Qué función de la seguridad física está ejecutando el operador?",
+   [
+    "Evaluación (assessment)",
+    "Detección (detection)",
+    "Respuesta (response)",
+    "Control de acceso (access control)"
+   ],
+   0,
+   "La evaluación es la capacidad del sistema de determinar qué se detectó y decidir si se inicia una respuesta. La detección ya ocurrió al activarse el sensor (percibir un posible intruso), y la respuesta sería el envío de la patrulla para neutralizar o contener el evento."
+  ],
+  [
+   "Según el capítulo, ¿qué debe constituir la base conceptual de TODO proyecto de seguridad física?",
+   [
+    "Las 4 D: disuadir, detectar, retrasar y negar (deter, detect, delay, deny)",
+    "Las siete funciones básicas, del control de acceso a la obtención de pruebas",
+    "Controlar el acceso, observar, detectar eventos y responder",
+    "Las capas de seguridad aplicadas como bloques de construcción (building blocks)"
+   ],
+   0,
+   "El libro dice que las 4 D deben ser la base de todo proyecto: cada medida se valora por su capacidad de disuadir, detectar, retrasar y negar. Las siete funciones son la forma de ejecutar la estrategia, no su base conceptual; el libro advierte expresamente que no hay que confundirlas."
+  ],
+  [
+   "¿Qué definición de seguridad física menciona expresamente la defensa contra espionaje, sabotaje, daño y robo?",
+   [
+    "La del Departamento de Seguridad Nacional de EE. UU. (DHS)",
+    "La de la norma Physical Asset Protection (PAP) de ASIS",
+    "La del volumen Physical Security de Protection of Assets",
+    "La definición de 'security' (seguridad) de ese mismo volumen"
+   ],
+   0,
+   "Solo la definición del DHS nombra espionaje, sabotaje, daño y robo. La de la norma PAP habla de proteger a las personas e impedir el acceso no autorizado a equipos, material y documentos frente a un incidente; la del volumen es igual, pero dice 'información' en lugar de 'documentos'."
+  ],
+  [
+   "Durante la remodelación de un edificio de oficinas, el diseño de control de acceso propuesto bloquea puertas que los sistemas de seguridad humana (life safety systems) necesitan para la evacuación. Según el libro, ¿cuál es el MEJOR enfoque?",
+   [
+    "Apoyarse en normas y códigos, y recomendar medidas compensatorias dentro de la planeación",
+    "Mantener el diseño y delegar la evacuación en el departamento de instalaciones del inmueble",
+    "Excluir los sistemas de seguridad humana del alcance del proyecto de seguridad física",
+    "Posponer la decisión hasta las pruebas regulares que se hacen tras instalar los sistemas"
+   ],
+   0,
+   "El libro señala el conflicto entre sistemas de seguridad y de seguridad humana como un gran reto en obras y remodelaciones; las normas y los códigos suelen aliviarlo y, cuando hace falta, se recomiendan medidas compensatorias dentro de la planeación. Excluir o posponer el tema contradice que todos los periféricos merecen mucha atención en cualquier proyecto."
+  ],
+  [
+   "En la fase de diseño de un nuevo campus corporativo, el director financiero cuestiona por qué incluir CPTED (prevención del delito mediante el diseño ambiental) desde el inicio. ¿Cuál es el MEJOR argumento según el libro?",
+   [
+    "Actúa como multiplicador de fuerza (force multiplier) y puede reducir otras medidas físicas más caras",
+    "Sustituye por completo la vigilancia electrónica y la fuerza de oficiales de seguridad",
+    "Es la medida más fácil de medir, por lo que justifica mejor el presupuesto",
+    "Elimina los conflictos con los sistemas de seguridad humana y los controles del edificio"
+   ],
+   0,
+   "El libro llama a CPTED multiplicador de fuerza: potencia el sistema y puede reducir otras medidas físicas, a menudo más caras; por eso conviene considerarla en casi todo proyecto y desde el inicio. No sustituye otras medidas: la selección del sitio debe cubrir todas las funciones con medidas en capas."
+  ]
+ ],
+ "3": [
+  [
+   "Un consultor realiza una evaluación de riesgos completa (comprehensive risk assessment). Ya identificó los activos, les asignó un valor y evaluó las amenazas relevantes. Según la secuencia del libro, ¿cuál es el SIGUIENTE paso?",
+   [
+    "Evaluar las vulnerabilidades (vulnerability assessment)",
+    "Considerar el impacto de un evento de pérdida (loss event)",
+    "Resumir y priorizar los riesgos encontrados",
+    "Recomendar medidas de mitigación y fusionarlas en una estrategia"
+   ],
+   0,
+   "La secuencia es: activos y valor → amenazas → vulnerabilidades → impacto de un evento de pérdida → resumir y priorizar → recomendar mitigación. El impacto se considera después de evaluar las vulnerabilidades, no antes."
+  ],
+  [
+   "Una empresa ubicada en una zona costera inundable nunca ha sufrido una inundación. Su gerente propone calificar como baja la probabilidad (likelihood) de inundación por falta de historial. ¿Qué es lo MÁS correcto según el libro?",
+   [
+    "La probabilidad sigue siendo mayor que tierra adentro, porque la ubicación la favorece",
+    "La probabilidad es baja, porque los datos históricos del sitio son el único criterio válido",
+    "La probabilidad no aplica, porque solo se calcula para amenazas provocadas por el hombre",
+    "La probabilidad debe fijarla el dueño del activo según su propio apetito de riesgo"
+   ],
+   0,
+   "El libro usa este ejemplo: una empresa en zona inundable o costera tiene más probabilidad de inundación que una tierra adentro aunque nunca se haya inundado, porque la ubicación geográfica es uno de los factores de la probabilidad. Los datos históricos del sitio son solo uno de varios factores."
+  ],
+  [
+   "Se destruye un equipo crítico. Reemplazo permanente: $50,000; sustituto temporal: $5,000; costos relacionados (retirar el viejo e instalar el nuevo): $3,000; ingreso perdido: $12,000; el seguro cubre $40,000. Con la fórmula del costo de la pérdida (cost-of-loss formula) del libro, ¿cuál es el costo total de la pérdida (K)?",
+   [
+    "$30,000",
+    "$70,000",
+    "$110,000",
+    "$22,000"
+   ],
+   0,
+   "K = Cp + Ct + Cr + Ci − I = 50,000 + 5,000 + 3,000 + 12,000 − 40,000 = $30,000. El seguro o indemnización (I) se resta: ignorarlo da $70,000 y sumarlo da $110,000."
+  ],
+  [
+   "Al ordenar activos por criticidad (criticality), un analista observa que la caída de una subestación eléctrica dejaría sin operar a otros tres activos de la organización. ¿Qué criterio de criticidad del libro refleja MEJOR esta observación?",
+   [
+    "Dependencias (dependencies)",
+    "Prestación del servicio (service delivery)",
+    "Plantilla (workforce)",
+    "Misión y objetivos (mission/objectives)"
+   ],
+   0,
+   "El criterio de dependencias mide la importancia del activo para otros activos de la organización o de la red. La prestación del servicio mide el porcentaje del servicio total que depende del activo, y misión y objetivos combina todos los factores en una importancia global."
+  ],
+  [
+   "Al evaluar la vulnerabilidad de una planta frente a huracanes con el enfoque de observabilidad y explotabilidad (observability, exploitability), ¿qué representa la observabilidad?",
+   [
+    "La capacidad del personal de seguridad de detectar y seguir la amenaza que se acerca",
+    "La capacidad del adversario de ver e identificar la vulnerabilidad de la planta",
+    "La capacidad del huracán de dañar la instalación, la misión o la organización",
+    "Si el personal de seguridad conoce de antemano las vulnerabilidades de la planta"
+   ],
+   0,
+   "En amenazas naturales la observabilidad se invierte: es la capacidad del personal de seguridad de observar, detectar o seguir la amenaza que se acerca, lo que exige alerta temprana. La capacidad de la amenaza natural de causar daño corresponde a la explotabilidad."
+  ],
+  [
+   "Un analista usa la fórmula del libro Riesgo = (Amenaza × Vulnerabilidad × Impacto)^1/3, con cada factor calificado de 0 a 100. En un escenario califica amenaza = 90, impacto = 100 y vulnerabilidad = 0, porque el activo no es accesible en ese momento. ¿Cuál es el resultado?",
+   [
+    "0, porque los factores se multiplican",
+    "63.3, el promedio de los tres factores",
+    "95, porque dominan los factores más altos",
+    "190, la suma de los tres factores"
+   ],
+   0,
+   "La fórmula multiplica en vez de sumar: si cualquier factor vale 0, el riesgo es 0 en ese momento y lugar. La raíz cúbica (cube root) solo devuelve el producto a la escala 0–100; no promedia ni suma los factores."
+  ],
+  [
+   "Un gerente propone gastar $100,000 en equipo para evitar el robo de un artículo valorado en $1,000. Según el análisis costo-beneficio (cost-benefit analysis) del libro, ¿qué es lo MÁS adecuado?",
+   [
+    "Asegurar el artículo o trasladarlo a un lugar más seguro",
+    "Comprar el equipo, pues el valor del artículo incluye costos indirectos",
+    "Instalar el equipo y transferir el riesgo restante con una cláusula de indemnización",
+    "Hacer primero una prueba de penetración de fuera hacia dentro"
+   ],
+   0,
+   "El libro (Patterson, 2013) usa este ejemplo: no tiene sentido gastar $100,000 para evitar el robo de un artículo de $1,000; es mejor asegurarlo o moverlo a un lugar más seguro. El costo real de una medida debe compararse con su impacto proyectado, como la reducción de pérdidas."
+  ],
+  [
+   "¿Qué distingue PRINCIPALMENTE a un estudio de seguridad (security survey) de una evaluación de riesgos completa (comprehensive risk assessment)?",
+   [
+    "El estudio pone más énfasis en las vulnerabilidades",
+    "El estudio pesa por igual activos, amenazas y consecuencias",
+    "El estudio se centra en la probabilidad de los eventos de pérdida",
+    "El estudio sustituye la valoración de activos por listas de verificación"
+   ],
+   0,
+   "La evaluación completa se enfoca por igual en activos, amenazas, vulnerabilidades y consecuencias; el estudio de seguridad pone más énfasis en las vulnerabilidades, y su valoración (appraisal) consiste en elaborar y comunicar recomendaciones. Además, el libro advierte que las listas de verificación no deben ser el centro del estudio."
+  ],
+  [
+   "Un equipo de evaluación empieza en la bóveda de valores y avanza hacia el perímetro. En cada capa analiza cómo operan las medidas y se pregunta, por ejemplo, cuántas capas cruzaría un intruso con una llave maestra robada antes de ser detectado. ¿Qué metodología está aplicando?",
+   [
+    "De dentro hacia fuera (inside-outward)",
+    "De fuera hacia dentro (outside-inward)",
+    "Funcional o por disciplinas (functional/security discipline)",
+    "Prueba de penetración (penetration test)"
+   ],
+   0,
+   "En la metodología de dentro hacia fuera el equipo actúa como defensor, parte del activo hacia el perímetro exterior y analiza interdependencias en cada capa, como el robo de una llave maestra. La de fuera hacia dentro adopta el rol del adversario y es, en sí, una prueba de penetración que avanza del exterior hacia el activo."
+  ],
+  [
+   "El informe de un estudio de seguridad contiene datos correctos, pero adopta un tono de 'te pillé' (gotcha) que resalta lo mala que es la postura del cliente y se detiene en detalles menores. ¿Qué criterio de un buen informe según Broder (2012) incumple MÁS directamente?",
+   [
+    "Enfoque o tono (slant or pitch)",
+    "Claridad (clarity)",
+    "Concisión (conciseness)",
+    "Exactitud (accuracy)"
+   ],
+   0,
+   "El enfoque o tono exige un informe cortés, no quisquilloso, sin tono de 'te pillé' y centrado en cómo mejorar y por qué importa. La concisión se refiere a la extensión del informe, no a su actitud hacia el cliente."
+  ],
+  [
+   "Según el libro, ¿en qué situación son MÁS útiles las herramientas automatizadas de evaluación (automated assessment tools)?",
+   [
+    "En escenarios de bajo riesgo, o para fijar una línea base (baseline) de mejores prácticas",
+    "En escenarios de alto riesgo donde pesan mucho la cultura y la personalidad de la organización",
+    "Cuando se busca sustituir al profesional en el cálculo de amenaza, vulnerabilidad y consecuencia",
+    "Cuando hay que valorar el carácter o la naturaleza de un riesgo, más que su magnitud"
+   ],
+   0,
+   "El libro dice que son útiles en escenarios de bajo riesgo o cuando el evaluador sabe poco y quiere una línea base según mejores prácticas; la palabra clave es 'asistir' (assist), y no deben ser el único elemento. Su principal problema es que manejan mal factores intangibles, como el carácter del riesgo o la cultura de la organización."
+  ]
+ ],
+ "4": [
+  [
+   "El jefe de vigilancia presume de que sus oficiales completaron el 100 % de las rondas programadas en el trimestre. Sin embargo, la ruta de rondas no incluye el estacionamiento, donde ocurren la mayoría de los robos. Según Williams y Schultz (2016), ¿qué problema ilustra esta situación?",
+   [
+    "Ejecutar bien un proceso malo: buenas cifras que miden un proceso deficiente",
+    "Falta de una línea base (baseline), sin la cual los totales no dan información útil",
+    "Una métrica que no supera la prueba '¿a quién le importa?' (who cares?)",
+    "Una métrica sin repetibilidad, que no puede compararse ni siquiera consigo misma"
+   ],
+   0,
+   "Williams y Schultz advierten del riesgo de ejecutar bien un proceso malo: las cifras lucen bien, pero miden un proceso inmaduro o roto, como el ejemplo de TI que limpió 17,000 virus y dejó escapar 5,000. La lección es saber qué se mide, la calidad de las métricas y qué NO se mide."
+  ],
+  [
+   "En la Security Metrics Evaluation Tool (Security MET) de la ASIS Foundation, ¿a qué grupo de criterios pertenecen el coste, la oportunidad (timeliness) y la manipulación (manipulation)?",
+   [
+    "Criterios operativos (operational/security criteria)",
+    "Criterios técnicos (technical criteria)",
+    "Criterios estratégicos (strategic/corporate criteria)",
+    "Criterios conductuales (behavioral criteria)"
+   ],
+   0,
+   "El Security MET tiene 9 criterios en tres grupos: técnicos (fiabilidad, validez, generalizabilidad), operativos (coste, oportunidad, manipulación) y estratégicos (ROI, relevancia para la organización, comunicación). 'Conductual' alude a la escala de resumen conductual que acompaña a cada criterio, no a un grupo."
+  ],
+  [
+   "En el modelo de métricas SMART de Payne (2006) que usa el libro, ¿qué significan la R y la T?",
+   [
+    "Repetible y dependiente del tiempo (repeatable, time-dependent)",
+    "Relevante y con plazo definido (relevant, time-bound)",
+    "Fiable y oportuna (reliable, timely)",
+    "Realista y rastreable (realistic, trackable)"
+   ],
+   0,
+   "En el SMART de Payne, R = repeatable (producirse de forma consistente y uniforme para poder compararse) y T = time-dependent (recolectarse siempre con los mismos periodos). 'Relevant' y 'time-bound' no son los términos del modelo que recoge el libro."
+  ],
+  [
+   "Un gerente de seguridad quiere distribuir a todos los departamentos una métrica semanal que solo es útil para su propio equipo. Según el libro, ¿qué principio está pasando por alto?",
+   [
+    "Recolectar datos relevantes: la métrica debe superar la prueba '¿a quién le importa?'",
+    "Empezar pequeño (start small): unos pocos datos iniciales muestran el esfuerzo que exigirá",
+    "Medible (measurable): la fórmula debe dar un número natural o un porcentaje",
+    "Alcanzable (attainable): si reunirla lleva demasiado tiempo, pierde eficacia"
+   ],
+   0,
+   "El principio de recolectar datos relevantes (collect relevant data) exige que la información le sirva a alguien; algunas métricas solo interesan al gerente y su equipo y no deben difundirse. Sin un consumidor con una necesidad definida, la métrica solo añade ruido (Rathburn, 2009)."
+  ],
+  [
+   "Por decisión ejecutiva, una empresa deja de exigir tarjeta para salir por los torniquetes. Desde entonces, cada salida genera una alarma de puerta forzada (forced door) en el SOC. ¿Cuál es la causa MÁS probable según el ejemplo del libro?",
+   [
+    "No se programó el modo de salida libre (free egress) en los torniquetes",
+    "El interruptor de posición de puerta (door position switch) está desalineado",
+    "Los usuarios no sostienen la tarjeta el tiempo suficiente ante el lector",
+    "Venció el tiempo de puenteo (bypass) configurado para los torniquetes"
+   ],
+   0,
+   "En el ejemplo del libro se quitó la salida con tarjeta, pero no se programó el modo de salida libre, así que cada salida disparaba una alarma; corregido, solo alarmaba el lado de entrada. Las lecturas fallidas por no sostener la tarjeta ocurren al presentarla para entrar y no explican alarmas en todas las salidas."
+  ],
+  [
+   "En el cumplimiento de instalaciones del sector público, ¿qué indica PRINCIPALMENTE la métrica MTTMV (mean time to mitigate vulnerabilities)?",
+   [
+    "Cómo reacciona la organización ante vulnerabilidades detectadas, en unidades de tiempo",
+    "El porcentaje de instalaciones que tienen una evaluación de seguridad vigente en el periodo",
+    "El coste medio de mitigación de cada hallazgo de una auditoría",
+    "El número de vulnerabilidades identificadas en cada evaluación inicial"
+   ],
+   0,
+   "El MTTMV promedia, sobre las vulnerabilidades mitigadas, el tiempo entre su detección y su mitigación; muestra cómo reacciona la organización y qué procesos deben acelerarse. El porcentaje de instalaciones con evaluación vigente es una fórmula distinta, cuya meta es el 100 %."
+  ],
+  [
+   "Un contrato de vigilancia exige un tiempo máximo de respuesta a alarmas. Según el libro, ¿cómo se verifica ese requisito dentro de un plan de supervisión del contrato (contract surveillance plan)?",
+   [
+    "El COR activa una alarma, p. ej. de coacción, y cronometra la respuesta",
+    "El integrador entrega cada mes un reporte de llamadas de servicio como entregable",
+    "Los empleados califican la respuesta en una encuesta anónima de satisfacción",
+    "El SOC calcula el tiempo medio entre detección y mitigación de cada vulnerabilidad"
+   ],
+   0,
+   "Para la respuesta de la fuerza de vigilancia basta un cronómetro: el COR (contracting officer representative) activa una alarma, como una de coacción (duress alarm), mide cuánto tarda la respuesta adecuada y la compara con los requisitos del contrato. El reporte mensual de llamadas de servicio corresponde a la respuesta del integrador de sistemas, no a la de los vigilantes."
+  ],
+  [
+   "La oficina de seguridad mide cuántas necesidades de capacitación identificó, cuántos cursos de prevención de la violencia laboral impartió a los empleados y qué porcentaje de ellos asistió. ¿Qué tipo de métrica está usando?",
+   [
+    "Métrica de capacitación hacia fuera (outward-facing)",
+    "Métrica de capacitación hacia dentro (inward-facing)",
+    "Métrica de respuesta a solicitudes de clientes",
+    "Métrica de cumplimiento de las instalaciones"
+   ],
+   0,
+   "Las métricas hacia fuera miden la capacitación que la oficina de seguridad diseña e imparte a empleados u otras audiencias: necesidades identificadas, cursos desarrollados e impartidos, y porcentaje de asistencia. Las métricas hacia dentro miden la capacitación exigida al propio personal de seguridad."
+  ],
+  [
+   "Las métricas del sistema electrónico de seguridad (ESS) de un campus muestran un sistema integrado complejo con una alta tasa de fallas. Según el libro, ¿qué tipo de contrato de mantenimiento conviene MÁS?",
+   [
+    "Precio fijo (fixed-price)",
+    "Tiempo y materiales (time-and-material)",
+    "Valor ganado (earned value)",
+    "Acuerdo por orden de trabajo (work order)"
+   ],
+   0,
+   "El libro indica que un sistema integrado complejo con alta tasa de fallas pide un contrato de mantenimiento a precio fijo, mientras que un sistema estable con pocas fallas pide uno por tiempo y materiales. El valor ganado es una técnica de gestión de proyectos, no un tipo de contrato."
+  ]
+ ],
+ "5": [
+  [
+   "Un campus de investigación con propiedad intelectual y materiales controlados opera con perímetro laxo y controles fuertes en cada edificio. La inteligencia advierte de una nueva amenaza de activistas radicales contra el sitio. Según el libro, ¿qué ajuste es MÁS adecuado?",
+   [
+    "Pasar a seguridad de área: perímetro fuerte y entrada estricta por un único acceso",
+    "Reforzar la seguridad puntual añadiendo más lectores dentro de las áreas restringidas",
+    "Mantener el esquema actual, porque la seguridad puntual basta en cualquier condición",
+    "Retirar los controles de cada edificio y concentrarlos todos en el centro de control"
+   ],
+   0,
+   "La elección entre seguridad puntual (point security) y de área (area security) depende de la naturaleza de la amenaza: en condiciones normales puede bastar la puntual, pero ante una amenaza de activistas radicales conviene pasar a seguridad de área, con perímetro fuerte y control estricto en un único acceso (single portal). Lo habitual es combinar un poco de ambas."
+  ],
+  [
+   "Un instituto instala magnetómetros en sus dos entradas principales, pero varias entradas secundarias quedan abiertas o con cerraduras rotas. ¿Qué dimensión del equilibrio (balance) descrita en el libro se incumple?",
+   [
+    "Equilibrio entre puntos o métodos de acceso",
+    "Equilibrio entre tipos de medidas",
+    "Equilibrio entre objetivos o activos",
+    "Equilibrio entre amenazas"
+   ],
+   0,
+   "El equilibrio entre puntos de acceso exige protección equivalente en todos ellos; el libro usa este caso del instituto como ejemplo de puerta principal muy controlada y accesos traseros abiertos. El equilibrio entre tipos de medidas se refiere a orquestar medidas electrónicas, estructurales, humanas y de procedimiento, no a la cobertura de cada acceso."
+  ],
+  [
+   "Una norma interna de detección perimetral exige 'instalar un sensor de movimiento y un sensor montado en valla' en todos los sitios. Según los criterios de diseño (design criteria) del libro, ¿cuál es la MEJOR crítica?",
+   [
+    "Es un criterio por características que lleva a checklists; debe fijar el desempeño global",
+    "Es un criterio por desempeño, que solo sirve para comparar el sistema actual con el mejorado",
+    "Es correcta, porque el sensor montado en valla es siempre la mejor opción para el perímetro",
+    "Debería exigir más tipos de sensores para cubrir los falsos negativos de cada tecnología"
+   ],
+   0,
+   "Exigir componentes concretos es un criterio por características (feature criteria): mide la eficacia por la presencia de elementos y lleva al método de checklist, por lo que conviene evitarlo en normas. El libro prefiere el criterio por desempeño (performance criteria), p. ej., 'detectar a un intruso corriendo con cualquier método de ataque'; aunque el libro llame 'el mejor' al sensor de valla, en el examen prima la lógica de desempeño."
+  ],
+  [
+   "Al planificar un sistema electrónico de seguridad, el equipo de diseño discute cómo abordar el fallo de componentes (component failure). Según el libro, ¿qué es lo MÁS importante?",
+   [
+    "Planes de contingencia que mantengan la operación o la seguridad un tiempo determinado",
+    "Identificar la causa exacta de cada fallo antes de intentar restaurar el sistema",
+    "Diseñar un sistema complejo que opere toda su vida útil sin ningún fallo",
+    "Limitar el plan de fallos a las acciones del adversario que superan la amenaza de diseño"
+   ],
+   0,
+   "El libro dice que conocer la causa sirve para restaurar el sistema, pero es más importante contar con planes de contingencia que mantengan la operación o el nivel de seguridad durante un tiempo determinado, p. ej., equipo redundante automático como generadores o baterías. Además, es improbable que un sistema complejo opere toda su vida sin fallos."
+  ],
+  [
+   "Según la definición de este libro, ¿qué es el punto crítico de detección (critical detection point)?",
+   [
+    "El punto donde el tiempo de retardo restante supera el tiempo de la fuerza de respuesta",
+    "El punto donde la probabilidad de detección de cada una de las barreras es exactamente igual",
+    "El primer sensor del perímetro exterior que detecta el avance del adversario",
+    "El punto donde el adversario decide abortar y buscar un objetivo más fácil"
+   ],
+   0,
+   "El libro define el punto crítico de detección como aquel donde el retardo restante supera el tiempo de la fuerza de respuesta (response force time). La igualdad de tiempo de penetración y de probabilidad de detección en cada barrera describe un sistema equilibrado (balanced system), no este punto."
+  ],
+  [
+   "En un punto de control, la barrera vehicular retráctil impidió que un coche con explosivos entrara pegado a otro vehículo (tailgating). El atacante bajó con los explosivos y corrió a pie hacia el edificio mientras el controlador seguía centrado en el coche. ¿Qué lección destaca el libro?",
+   [
+    "Una barrera vehicular puede no parar a un peatón; hay que pensar los escenarios de forma integral",
+    "La barrera falló en su misión, por lo que debe sustituirse por una de cierre más lento",
+    "El controlador debió priorizar el vehículo, porque la amenaza principal era el coche con explosivos",
+    "Debieron instalarse bolardos en media entrada para ampliar la distancia de separación"
+   ],
+   0,
+   "La barrera cumplió su misión, pero no detuvo el ataque: una barrera vehicular puede no parar a un peatón, y viceversa. El libro pide pensar fuera de lo convencional en amenazas y escenarios y evitar el enfoque fragmentado (piecemeal o silo approach)."
+  ]
+ ],
+ "6": [
+  [
+   "Una planta depende de entregas día y noche y tiene una sola vía de acceso, que pasa junto a un centro cultural amenazado por grupos de odio. Al revisar la estrategia, ¿qué riesgo destaca MÁS el libro con un caso similar?",
+   [
+    "Que un incidente del vecino corte la única ruta de acceso y paralice la operación propia",
+    "Que el vecino aumente la probabilidad de robo hormiga en los muelles de la planta",
+    "Que el centro cultural alargue el tiempo de respuesta de los primeros intervinientes locales",
+    "Que la planta herede la responsabilidad legal (liability) por los incidentes del vecino"
+   ],
+   0,
+   "En el caso del museo, un tirador entró al museo vecino y la policía acordonó el barrio varias horas, dejando inaccesible la única ruta de transporte de la planta. Los vecinos casi nunca se eligen, pero deben entrar en la evaluación de riesgos, incluido su efecto sobre las entradas y salidas (ingress and egress)."
+  ],
+  [
+   "Una corporación financiera construye un edificio a su medida que ocupará unos pocos años antes de venderlo, quizá a varios inquilinos. Según el libro, ¿qué enfoque de diseño de seguridad es MÁS adecuado?",
+   [
+    "Elementos arquitectónicos y de seguridad fáciles de quitar o instalar",
+    "Medidas permanentes de máxima seguridad, ajustadas solo a la corporación",
+    "Retrasar toda medida de seguridad hasta conocer al próximo ocupante",
+    "Delegar el diseño de seguridad en cada futuro inquilino del edificio"
+   ],
+   0,
+   "El libro cita a una corporación que construía, ocupaba unos años y vendía: sus edificios eran a su medida, pero pensados para el siguiente ocupante, con elementos fáciles de quitar o instalar. El caso de las dos agencias de EE. UU. muestra el error contrario: retirar y reinstalar el mismo equipo generó gran costo, desperdicio y retrasos."
+  ],
+  [
+   "Una empresa evalúa ubicar un centro de distribución en una zona rural remota. Según el libro, ¿qué implicación de seguridad debe considerar PRINCIPALMENTE por esa ubicación?",
+   [
+    "Mayor tiempo de respuesta de los primeros intervinientes, que exige más autosuficiencia",
+    "Mayor riesgo de cierres por incidentes de vecinos con una sola vía de acceso",
+    "Mayor necesidad de puertas de doble salida (dual-egress) por código local",
+    "Menor dependencia de los servicios públicos y de la infraestructura de apoyo"
+   ],
+   0,
+   "El libro señala que, según sea zona urbana densa, suburbio o zona rural o remota, el tiempo de respuesta de los primeros intervinientes (first responders) varía mucho y puede exigir más autosuficiencia (self-reliance) ante un incidente; la evaluación de riesgos ayuda a determinar esas necesidades."
+  ],
+  [
+   "Según el libro, ¿cuál es el MAYOR predictor del éxito o fracaso de la planificación de la continuidad del negocio (business continuity planning)?",
+   [
+    "El compromiso de la alta dirección",
+    "La calidad del análisis de impacto en el negocio (BIA)",
+    "La flexibilidad del plan para adaptarse a la situación",
+    "La relación con proveedores y centrales receptoras"
+   ],
+   0,
+   "El libro afirma que el mayor predictor del éxito o fracaso de la planificación de continuidad es el compromiso de la alta dirección (senior management commitment). La evaluación de riesgos, el BIA y la flexibilidad forman parte del principio rector del plan, pero no se presentan como el mayor predictor."
+  ],
+  [
+   "Según este capítulo, ¿con qué cuatro criterios se evalúa toda opción de mitigación para la operación de la empresa?",
+   [
+    "Disponibilidad, asequibilidad, viabilidad y aceptación del riesgo",
+    "Disponibilidad, asequibilidad, viabilidad y transferencia del riesgo",
+    "Probabilidad, impacto, viabilidad y aceptación del riesgo",
+    "Asequibilidad, eficacia, legalidad y responsabilidad legal"
+   ],
+   0,
+   "El capítulo evalúa cada opción por disponibilidad (availability), asequibilidad (affordability), viabilidad (feasibility) y aceptación del riesgo (risk acceptance); además, pregunta si la estrategia interfiere sustancialmente con la operación. La transferencia del riesgo (seguros o cláusulas de indemnización) es una opción de tratamiento, no un criterio de evaluación."
+  ]
+ ],
+ "7": [
+  [
+   "Un cliente gubernamental no comparte el detalle de su evaluación de riesgos con el diseñador y le entrega solo la amenaza base de diseño (design basis threat, DBT). ¿Qué información contiene ese documento?",
+   [
+    "El perfil del adversario: tipo, capacidades, tácticas, metas e intención",
+    "Los códigos, normas y permisos aplicables al proyecto de construcción",
+    "Los niveles de riesgo aceptables y el presupuesto de mitigación del cliente",
+    "La clasificación de FEMA de peligros naturales y causados por el ser humano"
+   ],
+   0,
+   "El DBT es el perfil del adversario sobre el que se basan la ingeniería y las operaciones de seguridad: tipo, composición y capacidades; métodos (tácticas, técnicas y procedimientos); y metas, intención y motivación. Los niveles aceptables de riesgo los fija el cliente como parte de su evaluación, que puede no compartir."
+  ],
+  [
+   "En una renovación compleja, arquitectos, ingenieros, contratista y seguridad hacen ajustes al diseño por separado, y nadie tiene una visión completa de lo modificado. Según el libro, ¿qué mecanismo resuelve MEJOR esta situación?",
+   [
+    "Un comité de revisión de cambios (change review board) que centralice todos los cambios",
+    "Un análisis de puntos de falla (failure points) para saber qué fallará primero",
+    "Una amenaza base de diseño actualizada que el cliente entregue a cada disciplina",
+    "Unas especificaciones de diseño que exijan sistemas certificados mediante pruebas reales"
+   ],
+   0,
+   "El change review board reúne a representantes de cada socio principal del proyecto, y su deber más importante es ser el punto central (clearinghouse) de todos los cambios. El análisis de puntos de falla responde a qué fallará primero en un evento catastrófico, no a la coordinación de cambios."
+  ],
+  [
+   "Al diseñar el perímetro de una planta, el equipo debe decidir dónde colocar la cerca respecto al lindero de la propiedad. Según la buena práctica del libro, ¿qué conviene?",
+   [
+    "Un poco hacia dentro del lindero, para mantenimiento y visibilidad del límite",
+    "Justo sobre el lindero, para ganar la máxima distancia de separación (standoff)",
+    "Pegada al edificio, para que la vegetación exterior oculte la instalación",
+    "Sobre el lindero y con remate de púas, que basta para frenar a un intruso decidido"
+   ],
+   0,
+   "La buena práctica es no poner la cerca justo en el lindero, sino un poco hacia dentro: el espacio exterior permite mantenimiento y visibilidad del límite, y evita que los vecinos pongan plantas u objetos que sirvan para vulnerarla. Además, una cerca estándar con púas se escala en segundos: solo 'mantiene honestos a los honestos'."
+  ],
+  [
+   "Un sitio usará CCTV a color en su estacionamiento por la noche. Según el libro, ¿qué tipo de lámpara favorece MEJOR la percepción del color en las cámaras?",
+   [
+    "Halogenuro metálico (metal halide), por su luz blanca",
+    "Sodio de alta presión (high-pressure sodium), por su luz amarillenta",
+    "Cualquier lámpara que maximice los lúmenes y el derrame de luz (spillover)",
+    "Iluminación infrarroja, porque no genera contaminación lumínica"
+   ],
+   0,
+   "El libro indica que el halogenuro metálico emite luz blanca y es el mejor para CCTV a color, mientras que el sodio de alta presión da luz amarillenta. Además, el diseño debe seguir el código local, que busca limitar la contaminación lumínica y el derrame de luz hacia predios vecinos."
+  ],
+  [
+   "Una sede corporativa está en el centro de una ciudad, rodeada de edificios altos. Al analizar el riesgo de un coche bomba, ¿qué efecto de presión de la explosión agrava MÁS el daño en este entorno urbano?",
+   [
+    "La presión reflejada (reflective pressure)",
+    "El efecto térmico incendiario (incendiary thermal effect)",
+    "La sobrepresión (overpressure)",
+    "La fragmentación (fragmentation)"
+   ],
+   0,
+   "En entornos urbanos la onda se redirige al chocar con objetos y produce impactos múltiples desde varios ángulos y en distintos momentos; la presión reflejada puede ser mucho más fuerte que la onda inicial a la misma distancia. El efecto térmico incendiario es insignificante salvo que haya materiales muy combustibles."
+  ],
+  [
+   "¿Qué describe MEJOR el colapso progresivo (progressive collapse) y cuándo se considera, según el libro?",
+   [
+    "Falla en cadena desproporcionada al daño inicial; se considera en edificios de 3 o más pisos",
+    "Falla en cadena desproporcionada al daño inicial; se considera solo en edificios de 10 o más pisos",
+    "Rotura de la fachada por presión reflejada; se considera en edificios de 3 o más pisos",
+    "Caída de equipo suspendido sin anclaje sísmico; se considera en cualquier edificio"
+   ],
+   0,
+   "Según ASCE/SEI 59-11, el colapso progresivo es la falla en cadena del sistema estructural, desproporcionada al daño local inicial (p. ej., una explosión): cae un soporte, fallan los de arriba y el edificio colapsa sobre sí mismo. Es poco común y se considera en edificios de 3 o más pisos."
+  ],
+  [
+   "En una prueba basada en la tabla de condiciones de desempeño de ventanas de la GSA, el vidrio se agrieta y sus fragmentos entran y caen al piso a no más de 3.3 ft (1 m) de la ventana. ¿Qué condición de desempeño corresponde?",
+   [
+    "3a: protección alta, peligro muy bajo",
+    "2: protección muy alta, sin peligro",
+    "3b: protección alta, peligro bajo",
+    "4: protección media, peligro medio"
+   ],
+   0,
+   "En la tabla de la GSA, la condición 3a describe vidrio agrietado con fragmentos en el piso a no más de 3.3 ft; la 3b amplía esa distancia a 10 ft. En la condición 2 el vidrio se agrieta, pero el marco lo retiene. Regla: a mayor número de condición, menos protección y más peligro."
+  ],
+  [
+   "En un retrofit, un cliente quiere aplicar película (film) antiexplosión a las ventanas existentes de su fachada principal. Según el libro, ¿qué debe verificarse ANTES de darlo por resuelto?",
+   [
+    "Que la estructura que sostiene la ventana resista lo mismo que el vidrio reforzado",
+    "Que la película deje pasar suficiente luz natural para obtener puntos LEED",
+    "Que la ventana tenga además una cortina antiexplosión fija al techo y al piso",
+    "Que el vidrio original sea recocido (annealed), que es el tipo más resistente"
+   ],
+   0,
+   "Al reforzar el vidrio en un retrofit, el libro exige verificar que la estructura que sostiene la ventana resista lo mismo; si es más débil, falla y la ventana entera entra como un gran proyectil. El vidrio recocido de obra estándar se fragmenta con facilidad, así que no es una ventaja."
+  ],
+  [
+   "Tras varios robos durante simulacros, el gerente de una planta pide que las puertas de salida de emergencia permanezcan bloqueadas durante cualquier alarma de incendio. Según el libro, ¿cuál es la respuesta CORRECTA del profesional de seguridad?",
+   [
+    "Rechazarlo: la seguridad no anula el código de life safety; las cerraduras deben fallar abiertas",
+    "Aceptarlo si las puertas tienen alarma y monitoreo, con respuesta para volver a asegurar el área",
+    "Aceptarlo si se instalan señales fotoluminiscentes a baja altura que guíen hacia otras salidas",
+    "Aceptarlo solo en las puertas que dan a áreas sensibles, peligrosas o hacia el exterior del edificio"
+   ],
+   0,
+   "La regla de oro es que la seguridad no puede anular el código de seguridad humana (life safety): ninguna cerradura puede impedir que el ocupante llegue a una salida, y todo sistema debe fallar abierto (fail open) o ser failsafe en emergencia. La alarma y el monitoreo de puertas a áreas sensibles complementan esa liberación, pero no la sustituyen."
+  ]
+ ],
+ "8": [
+  [
+   "Para ahorrar costos, el área de TI propone que el nuevo sistema de videovigilancia y control de acceso funcione sobre la red empresarial existente. Según el libro, ¿cuál es la MEJOR recomendación?",
+   [
+    "Usar una red independiente; la empresarial puede limitar el ancho de banda y complicar permisos",
+    "Usar la red empresarial, porque así TI asume el mantenimiento preventivo y correctivo",
+    "Usar la red empresarial, porque una red propia impediría la interoperabilidad entre los distintos sistemas",
+    "Usar una red independiente, porque así no hace falta coordinar con el equipo de TI"
+   ],
+   0,
+   "El libro señala la red troncal (network backbone) independiente como enfoque preferido; usar la red empresarial trae problemas de desempeño por ancho de banda limitado o picos de tráfico y dificultades de permisos. Aun así, la clave del éxito es una relación abierta y cooperativa entre el integrador y el equipo de TI, así que la coordinación no desaparece."
+  ],
+  [
+   "En un sistema integrado, cada falla termina en discusiones entre el proveedor de cámaras, el de control de acceso y el de red sobre quién es responsable. Según el libro, ¿qué opción ayuda MÁS?",
+   [
+    "Encargar a una sola fuente (single source) el mantenimiento preventivo y correctivo",
+    "Formar un equipo de partes interesadas para elegir nuevos sistemas que sean interoperables",
+    "Migrar todos los sistemas de seguridad a la red empresarial de la organización",
+    "Sustituir a los proveedores por personal propio de puesto fijo y patrullaje"
+   ],
+   0,
+   "El libro propone una sola fuente responsable del mantenimiento preventivo y correctivo (preventive and remedial): como punto único de contacto, diagnostica la causa y gestiona la solución. El equipo de partes interesadas sirve para elegir sistemas en una renovación o proyecto nuevo, no para resolver la responsabilidad del mantenimiento."
+  ],
+  [
+   "Ante una baja inesperada, el supervisor cubre el turno del centro de operaciones de seguridad (SOC) con un oficial excelente en puesto fijo y patrullaje, pero sin experiencia en el SOC. Según el libro, ¿cuál es el riesgo PRINCIPAL?",
+   [
+    "Que no sepa manejar ni interpretar los sistemas electrónicos o de control del edificio",
+    "Que su ausencia reduzca el efecto disuasorio de los puestos fijos y las patrullas",
+    "Que la tecnología del SOC sustituya su criterio y elimine los controles cruzados",
+    "Que el cambio obligue a rehacer los procedimientos operativos por nivel de amenaza"
+   ],
+   0,
+   "El libro usa este ejemplo de desajuste de personal (staffing mismatch): un oficial bueno en puesto fijo o patrullaje puede no estar preparado para el SOC, porque quizá no sepa manejar ni interpretar los sistemas. Lo crítico es asignar a la persona correcta al rol; un desajuste, incluso por falta de personal, puede ser desastroso."
+  ],
+  [
+   "Una empresa compró e instaló un sistema avanzado de control de acceso y video, y ahora planea redactar sus procedimientos operativos. Según el libro, ¿cuál es el principal problema de este orden?",
+   [
+    "Los procedimientos por nivel de amenaza debían fijarse antes de comprar o instalar el sistema",
+    "La tecnología debía reemplazar al personal antes de redactar cualquier procedimiento",
+    "Los procedimientos solo deben redactarse tras una evaluación de la red empresarial",
+    "El elemento humano debía integrarse una vez implantado el sistema, y no durante la fase de diseño"
+   ],
+   0,
+   "El libro indica que los procedimientos operativos por nivel de amenaza se definen antes de comprar o instalar cualquier sistema, y que el elemento humano se integra en la fase de diseño. Instalar equipo y software sin filosofía operativa puede dejar sistemas que aumentan el riesgo de daño; además, la tecnología es un multiplicador de fuerza (force multiplier), no un reemplazo del personal."
+  ],
+  [
+   "Un director coordina la seguridad física de su organización con la seguridad del personal, la seguridad de TI, las investigaciones y la protección ejecutiva. ¿Qué nivel de integración del capítulo describe MEJOR este trabajo?",
+   [
+    "Programas de seguridad integrados (integrated security programs)",
+    "Elementos de seguridad física integrados (integrated physical security elements)",
+    "Sistemas electrónicos de seguridad integrados (integrated electronic security systems)",
+    "Integración en la gestión de riesgos empresariales (enterprise risk management)"
+   ],
+   0,
+   "El nivel de programas de seguridad integrados reconoce que la seguridad física es solo un elemento de la estrategia total y la integra con otras disciplinas, como seguridad del personal, de TI, investigaciones y protección ejecutiva. Los elementos de seguridad física integrados combinan sistemas electrónicos, medidas estructurales y capital humano dentro del propio dominio físico."
+  ]
+ ],
+ "9": [
+  [
+   "Un diseñador dispone de la misma cantidad total de concreto reforzado (reinforced concrete) para el cerramiento de un cuarto con activos sensibles. Según el capítulo, ¿qué configuración ofrece MÁS retardo (delay) frente a un intruso?",
+   [
+    "Dos o más muros separados en serie que sumen ese mismo grosor total",
+    "Un solo muro monolítico con todo el grosor, que resiste más por su masa",
+    "Un solo muro con todo el grosor y la varilla (rebar) más separada entre centros",
+    "Un solo muro con todo el grosor, diseñado según las cargas estructurales del edificio"
+   ],
+   0,
+   "Dos o más muros en serie retardan más que uno solo del mismo grosor total, porque obligan a repetir el esfuerzo y a transportar herramientas a través de cada muro. Diseñar el muro solo para cargas estructurales es justamente la razón por la que el concreto reforzado ordinario se penetra rápido, y separar más la varilla reduce el retardo en vez de aumentarlo."
+  ],
+  [
+   "Una instalación tiene muros de concreto pesado, pero sus puertas son huecas de acero, con marcos y bisagras ordinarios. ¿Qué recomendación refleja MEJOR el principio aplicable del capítulo?",
+   [
+    "Mejorar el conjunto de la puerta hasta igualar el retardo de muros, pisos y techos (diseño equilibrado, balanced design)",
+    "Engrosar aún más los muros, porque a veces son la ruta preferida del adversario para una entrada forzada",
+    "Instalar barras antipánico (panic bars) para convertir las puertas en barreras de un solo sentido",
+    "Cambiar solo las cerraduras, porque la cerradura es la que determina el valor final de toda la barrera"
+   ],
+   0,
+   "La parte más débil de una barrera determina su valor final y suele ser la puerta; por eso el diseño equilibrado exige que puerta, marco, bisagras, pernos y cerradura den el mismo retardo que pisos, muros y techos. Engrosar los muros no sirve mientras la puerta siga siendo el eslabón débil: si el conjunto de la puerta no puede mejorarse lo suficiente, quizá ni siquiera sea rentable mejorar la estructura."
+  ],
+  [
+   "¿Qué tipo de vidrio comercial señala el capítulo como el preferido contra explosiones?",
+   [
+    "Laminado (laminated): hojas unidas a capas de plástico que mantienen pegados los trozos",
+    "Templado (tempered): tratado para resistir la rotura y romperse en trozos pequeños si falla",
+    "Armado con alambre (wired): su uso principal es mantener la clasificación de fuego de la abertura",
+    "Recocido (annealed): fabricado para controlar tensiones residuales y poder cortarse y trabajarse"
+   ],
+   0,
+   "El vidrio laminado mantiene los trozos adheridos a las capas de plástico y, instalado en un marco fijado a la estructura, es el tipo preferido contra explosiones. El templado lo exigen los códigos porque se rompe en trozos pequeños, pero cae en segundos con herramientas de impacto; el armado sirve sobre todo para mantener la clasificación de fuego."
+  ],
+  [
+   "Al proteger un puerto de servicio (utility port), como un ducto de ventilación, con rejas de malla de acero, ¿dónde deben colocarse esas cubiertas respecto a la detección?",
+   [
+    "En el punto de detección o después de él",
+    "Antes del punto de detección, lo más lejos posible del sensor",
+    "En lugar de los sensores, ya que la reja hace innecesaria la detección",
+    "Solo en el extremo exterior del ducto, sin importar dónde esté el sensor"
+   ],
+   0,
+   "El capítulo indica que estas cubiertas (rejillas, barras, malla de metal expandido) se colocan en el punto de detección o después de él. Como los puertos de servicio son rutas ocultas, necesitan barricada y sensores a la vez, así que la reja no sustituye a la detección."
+  ],
+  [
+   "El análisis de un almacén con cubierta metálica con aislante indica que un adversario podría entrar por el techo. ¿Qué mejora suele ofrecer el MEJOR valor según el capítulo?",
+   [
+    "Una barrera secundaria (secondary barrier) bajo la cubierta, a 10–12 in (25–30 cm)",
+    "Reforzar la propia cubierta con varias pulgadas de aislante rígido sobre la lámina",
+    "Una barrera secundaria bajo la cubierta, separada al menos 36 in (0.9 m) de ella",
+    "Sustituir la cubierta por una membrana con malla embebida en toda la superficie"
+   ],
+   0,
+   "Las mejoras por debajo de la cubierta suelen dar el mejor valor: las pruebas sugieren que una barrera bajo el techo es más eficaz que reforzar el propio techo. La distancia óptima es de 10–12 in, porque el espacio reducido crea un «efecto hoyo» y obliga a una segunda penetración en un espacio estrecho, quizá con otras herramientas."
+  ],
+  [
+   "Durante una ronda, un supervisor ve tarimas apiladas y un contenedor junto a la cerca perimetral de malla ciclónica (chain link), y ramas de árbol que cuelgan sobre ella. ¿Qué deficiencia describe MEJOR lo observado?",
+   [
+    "No mantener la zona despejada (clear zone), uno de los errores más comunes",
+    "Orientar el remate de púas (top guard) hacia dentro en lugar de hacia fuera",
+    "Usar postes y rieles ligeros de pared delgada, que debilitan toda la cerca",
+    "No fijar la tela a los postes de línea a intervalos de 15 in (38 cm)"
+   ],
+   0,
+   "La zona despejada exige retirar cajas, escaleras, contenedores, vehículos y equipos junto a la cerca y podar las ramas que cuelgan, que sirven de escalera natural. No mantenerla es uno de los errores más comunes y anula la eficacia de la cerca; las otras opciones son defectos reales, pero no lo que se observó."
+  ],
+  [
+   "En el acceso vehicular principal de un campus, cada vehículo autorizado debe pasar después de que un oficial lo revise. ¿Qué barrera de bloqueo (blocking barrier) es la MÁS adecuada para ese punto?",
+   [
+    "Bolardos retráctiles (retractable bollards) operados desde la caseta",
+    "Una hilera de jardineras diseñadas (engineered planters) bien ancladas",
+    "Barreras tipo Jersey empotradas y ancladas con acero de refuerzo",
+    "Bolardos fijos (fixed bollards) con funda decorativa de acero inoxidable"
+   ],
+   0,
+   "Las barreras activas (operables) se colocan en los puntos de control de acceso vehicular y se abren y cierran para dejar pasar a los vehículos autorizados; el bolardo retráctil es una de ellas. Jardineras, barreras Jersey y bolardos fijos son barreras pasivas: fijas y pensadas para el perímetro, lejos de los accesos vehiculares."
+  ],
+  [
+   "Un arquitecto propone bolardos decorativos en la banqueta de un edificio urbano. Según las pautas del capítulo, ¿qué afirmación sobre su altura es correcta?",
+   [
+    "Lo típico es no más de 30 in (0.76 m), y nunca más de 38 in (≈1 m) con funda incluida",
+    "Lo típico es 38 in (≈1 m), y el máximo absoluto es 48 in (1.2 m) con funda incluida",
+    "Deben medir entre 36 y 48 in (0.9–1.2 m) para resistir el impacto de un vehículo",
+    "La altura es libre siempre que el modelo se haya probado en un laboratorio independiente"
+   ],
+   0,
+   "Para reducir el impacto visual, la altura típica no pasa de 30 in y en ningún caso debe superar 38 in, incluida la funda decorativa. Los 36–48 in son la separación recomendada entre bolardos, no su altura; y la prueba en laboratorio independiente se exige a los diseños a medida, pero no elimina el límite de altura."
+  ],
+  [
+   "Tras una amenaza, un gerente coloca barreras tipo Jersey (Jersey barriers) de concreto apoyadas sobre el pavimento frente a la entrada, confiando en su peso. ¿Cuál es la evaluación MÁS acertada?",
+   [
+    "Así son ineficaces: deben ir empotradas y ancladas con acero de refuerzo vertical",
+    "Son eficaces, porque una barrera de 12 ft (3.6 m) pesa unas 5,700 lb (2,585 kg)",
+    "Son eficaces solo si el vehículo impacta con un ángulo menor de 30 grados",
+    "Son adecuadas si se colocan en tramos de 12.5 o 20 ft (3.8 o 6 m) sin traslapes"
+   ],
+   0,
+   "Se creía que protegían por su masa, pero apoyadas sobre el suelo son ineficaces contra un ataque vehicular: deben ir empotradas y con anclaje vertical de acero de refuerzo a través de la barrera hasta el pavimento. El límite de ángulo menor de 30° corresponde al guardarraíl metálico de carretera, no a la barrera Jersey."
+  ],
+  [
+   "Una especificación exige una barrera vehicular con clasificación K12 del Department of State. ¿Qué clasificación ASTM y qué condición de prueba le corresponden?",
+   [
+    "M50: vehículo de 15,000 lb (6,800 kg) a 50 mph (80 km/h)",
+    "M40: vehículo de 15,000 lb (6,800 kg) a 40 mph (64 km/h)",
+    "M30: vehículo de 15,000 lb (6,800 kg) a 30 mph (48 km/h)",
+    "M50: vehículo de 12,000 lb (5,440 kg) a 50 mph (80 km/h)"
+   ],
+   0,
+   "En la Figura 9.9, K4, K8 y K12 equivalen a M30, M40 y M50: un vehículo de prueba de 15,000 lb a 30, 40 y 50 mph, respectivamente. M40 corresponde a K8, no a K12, y el peso del vehículo de prueba es el mismo en las tres clasificaciones."
+  ],
+  [
+   "Una empresa guarda contratos originales en papel dentro de una caja antirrobo (burglary-resistant safe) de paredes gruesas de acero sólido, convencida de que también los protege del fuego. ¿Cuál es el riesgo PRINCIPAL?",
+   [
+    "El acero transmite rápido el calor al interior y el papel se destruye pronto en un incendio",
+    "El aislante de la caja resiste poco un golpe de martillo y no sirve contra la entrada forzada",
+    "La humedad del aislante se evapora con los años y la caja pierde su clasificación de fuego",
+    "Por pesar más de 750 lb (340 kg), UL exige anclarla y no podrá retirarse en una emergencia"
+   ],
+   0,
+   "La caja antirrobo protege con paredes gruesas de acero sólido, que transmiten rápido el calor al interior; en un incendio el papel se destruye pronto. La debilidad ante el martillo y la pérdida de humedad del aislante son propias de la caja contra incendio, no de la antirrobo; y UL exige anclar las cajas de menos de 750 lb, no las de más."
+  ],
+  [
+   "¿Qué significa la etiqueta UL «350-4 Hours» en una caja ignífuga (fire-resistant safe)?",
+   [
+    "Con el exterior a 1,700 °F (927 °C), el interior no llega a 350 °F (177 °C) durante al menos 4 horas",
+    "Con el exterior a 350 °F (177 °C), el papel del interior no se carboniza durante al menos 4 horas",
+    "El interior se mantiene bajo 350 °F (177 °C) y bajo 80 % de humedad relativa durante 4 horas",
+    "Resiste la entrada forzada durante 350 minutos netos de trabajo y el fuego durante 4 horas"
+   ],
+   0,
+   "350 es la temperatura interior máxima (a esa temperatura se daña casi todo el papel) y 4 son las horas de protección con el exterior a 1,700 °F. El límite de 80 % de humedad corresponde a la clase 150 para medios magnéticos; la clase 350 admite como máximo 65 %."
+  ],
+  [
+   "Un centro de datos necesita guardar cintas magnéticas de respaldo en un contenedor resistente al fuego. ¿Qué equipo es el MÁS apropiado?",
+   [
+    "Equipo de protección de registros (Record Protection Equipment) clase 150",
+    "Caja ignífuga clase 350-4, porque protege durante más horas que cualquier otra clase",
+    "Archivador aislado (insulated filing device) clase 350-1 en un edificio resistente al fuego",
+    "Caja antirrobo TL-30, cuyas paredes gruesas de acero protegen los medios del calor"
+   ],
+   0,
+   "Los medios magnéticos se deterioran desde 150 °F (66 °C), y antes con humedad mayor del 80 %, así que un contenedor para papel no basta: la clase 150 mantiene el interior bajo 150 °F con humedad de hasta 80 %. Una caja 350-4 deja subir el interior hasta 350 °F, límite pensado para papel."
+  ],
+  [
+   "Un cliente afirma que su caja TL-30 garantiza que ningún ladrón podrá abrirla en menos de 30 minutos. ¿Qué describe MEJOR el significado de esa clasificación?",
+   [
+    "En la prueba no lograron abrir la puerta ni hacer una abertura de 6 in por lado en 30 min netos",
+    "Es el tiempo promedio que tarda un abridor profesional (safe cracker) en abrir ese modelo de caja",
+    "La caja resistió 30 minutos de ataque con soplete y con herramientas en sus seis lados",
+    "La caja resistió 30 minutos de reloj corrido, incluidas las pausas para cambiar de herramienta"
+   ],
+   0,
+   "TL-30 significa que los técnicos, con las herramientas definidas, no abrieron la puerta ni hicieron la abertura de 6 in por lado en 30 minutos de tiempo neto de trabajo (net working time): cuando la herramienta sale de la caja, el reloj se para. No es el tiempo de apertura real: cualquier caja puede abrirse, y un abridor profesional lo logra tras varias horas según su habilidad."
+  ],
+  [
+   "¿Qué indica la clasificación UL TRTL-30-X6 de una caja para valores?",
+   [
+    "Resistencia a soplete y a herramientas durante 30 minutos de prueba en los seis lados",
+    "Resistencia a herramientas durante 30 minutos solo en la puerta, ante seis tipos de ataque",
+    "Resistencia a explosivos y a herramientas durante 30 minutos de prueba en los seis lados",
+    "Resistencia a soplete durante 30 minutos y a herramientas durante 6 minutos de prueba"
+   ],
+   0,
+   "Según la Figura 9.19, TR es resistente a soplete (torch resistant), TL resistente a herramientas (tool resistant), 30 son los minutos de la prueba y X6 indica que se probó en los seis lados. TR no se refiere a explosivos: el libro atribuye la resistencia a explosivos a la TRTL-60-X6."
+  ],
+  [
+   "Una empresa construye una bóveda (vault) contra entrada forzada: instala una puerta pesada y conserva los muros de concreto existentes, uno de ellos exterior. ¿Cuál es el error PRINCIPAL?",
+   [
+    "Confiar en los muros: las seis superficies deben proteger por igual y conviene evitar el muro exterior",
+    "Usar concreto reforzado en vez de concreto sin refuerzo, que resiste mejor la penetración forzada",
+    "No instalar una cerradura de tiempo (time lock), que por sí sola impide cualquier ataque por el piso",
+    "Ubicarla sobre el nivel del suelo, cuando las bóvedas contra robo deben ir siempre en el sótano"
+   ],
+   0,
+   "Las seis superficies de la bóveda deben proteger por igual; el error típico es poner una puerta pesada y suponer que los muros de concreto bastan, y un muro exterior da al intruso un punto cómodo para atacar desde fuera. Además, nunca debe usarse concreto sin refuerzo contra la penetración forzada."
+  ],
+  [
+   "Tras cambiar la combinación de una bóveda sin un cerrajero, el custodio quiere comprobar que la cerradura no quedó fijada en un solo número. ¿Qué prueba debe hacer?",
+   [
+    "Girar el disco tres veces a la izquierda, parar en el tercer número y girar a la derecha hasta el índice de apertura (opening index)",
+    "Marcar los dos primeros números y pedir a una segunda persona que marque el tercero y el cuarto sin que nadie más lo vea",
+    "Girar el disco cuatro veces a la derecha, parar en el primer número y luego girar a la izquierda hasta el índice de apertura",
+    "Probar al azar menos de 40 combinaciones distintas y verificar que ninguna de ellas consiga retraer el cerrojo de la puerta"
+   ],
+   0,
+   "La prueba del libro consiste en girar tres veces a la izquierda, parar en el tercer número y girar a la derecha hasta el índice de apertura; si el cerrojo abre, la combinación quedó en un solo número y debe cambiarse de inmediato. Repartir «tercero y cuarto» número fue justamente el error del caso: la cerradura solo tenía tres números, porque el índice de apertura no forma parte de la combinación."
+  ],
+  [
+   "Una cerradura de combinación de disco (dial combination lock) tiene 3 discos de 100 posiciones cada uno. ¿Cuál es su número máximo teórico de combinaciones?",
+   [
+    "1,000,000 (100^3)",
+    "300 (100 × 3)",
+    "100,000,000 (100^4)",
+    "970,200 (100 × 99 × 98)"
+   ],
+   0,
+   "El máximo teórico es el número de posiciones por disco elevado al número de discos: 100^3 = 1,000,000. La cifra de 100,000,000 corresponde al candado de 4 discos del ejemplo del libro, y la fórmula p^t no descuenta posiciones ya usadas en otros discos."
+  ],
+  [
+   "¿Cuál de los siguientes es uno de los tres problemas de seguridad del amaestramiento (master keying) que señala el capítulo?",
+   [
+    "Crea varias líneas de corte (shear lines), con más puntos para la apertura subrepticia",
+    "Obliga a cada usuario con acceso amplio a llevar una llave distinta por cada cerradura",
+    "Impide recombinar las cerraduras mediante núcleos intercambiables (interchangeable cores)",
+    "Exige sustituir los cilindros de pernos por cerraduras de guardas (warded locks), más simples"
+   ],
+   0,
+   "Los tres problemas son el control de las llaves maestras, la creación de varias líneas de corte o aberturas de ranura que facilitan la apertura subrepticia, y más mantenimiento por piezas maestras frágiles. Que cada usuario cargue una llave por cerradura es justo lo que el amaestramiento evita."
+  ],
+  [
+   "En una salida exigida por código se instalará una barra de salida electrificada (electrified exit device) configurada como fail secure. ¿Por qué puede aceptarse esa configuración?",
+   [
+    "Porque al empujar la barra la puerta abre mecánicamente, haya o no energía",
+    "Porque las cerraduras fail secure se abren solas cuando se corta la energía",
+    "Porque el código acepta pulsar un botón antes de empujar la barra como acción única",
+    "Porque la barra está conectada a una alarma que avisa a la central de monitoreo"
+   ],
+   0,
+   "Una cerradura fail secure solo se admite en la ruta de salida si la salida libre está garantizada sea cual sea el estado de la energía o de los controles; la barra electrificada lo cumple porque al empujarla abre mecánicamente. Abrirse al cortar la energía describe al fail safe, y pulsar un botón no cuenta como acción única."
+  ],
+  [
+   "¿Qué conjunto de requisitos corresponde a una barra con salida retardada (delayed egress) en una puerta solo de salida de emergencia?",
+   [
+    "Retardo de 15 o 30 s, señalización especial, conexión a la alarma de incendio y sin retardo en un incendio",
+    "Retardo de 60 s, sin conexión a la alarma de incendio para no alertar a quien intenta salir por ella",
+    "Retardo de 15 o 30 s que se mantiene incluso durante una alarma de incendio o una evacuación general",
+    "Retardo suficiente para que el oficial intercepte siempre al ladrón antes de que logre abrir la puerta"
+   ],
+   0,
+   "Al empujar la barra empieza un retardo de 15 o 30 segundos; se exige señalización que avise del retardo, conexión a la alarma de incendio y que no haya retardo en un incendio u otra emergencia de seguridad humana. Normalmente no da tiempo para interceptar al ladrón, pero activa una alarma local y la reporta a una central de monitoreo."
+  ],
+  [
+   "Al auditar el sistema de cierre (locking system) de una sede, el gerente descubre que nadie sabe con certeza quién tiene acceso a qué y que no existen niveles de acceso distintos. Según la prueba rápida del capítulo, ¿cómo se califica el sistema?",
+   [
+    "No es seguro ni cómodo y, por ambas cosas, tampoco es económico",
+    "Es seguro pero no cómodo, porque un solo nivel de acceso simplifica el control",
+    "Es cómodo pero no seguro, y sigue siendo económico porque usa pocas llaves",
+    "Solo tiene un problema de privacidad, que se corrige agregando cerraduras según se necesiten"
+   ],
+   0,
+   "Si no está claro quién accede a qué, el sistema no es seguro; si no hay varios niveles de acceso, no es cómodo; y con ambos fallos no es económico, porque el dinero se aplica mal. Agregar o quitar cerraduras «según se necesite» no es un concepto de cierre: el sistema se diseña, no solo se instala."
+  ],
+  [
+   "Según Purpura (2013), ¿cuáles son los tres propósitos de seguridad de la iluminación?",
+   [
+    "Disuasión psicológica, permitir la detección y potenciar la videovigilancia",
+    "Disuasión, demora del intruso y reducción de la responsabilidad legal (liability)",
+    "Detección, reconocimiento e identificación de personas a distancia",
+    "Distinguir espacio público de privado, apoyar la respuesta y reducir costos"
+   ],
+   0,
+   "Los tres propósitos son disuasión psicológica, permitir la detección y potenciar la videovigilancia. Distinguir lo público de lo privado, apoyar la respuesta o reducir la responsabilidad legal aparecen entre los beneficios generales de la iluminación, y detección, reconocimiento e identificación son las tareas de la regla práctica de luz reflejada."
+  ],
+  [
+   "Para «reforzar» un estacionamiento, un gerente instala proyectores muy potentes que dejan zonas muy brillantes junto a otras oscuras. ¿Cuál es el efecto MÁS probable según el capítulo?",
+   [
+    "Menos seguridad: el contraste extremo crea zonas negras donde la gente se esconde y las cámaras no ven",
+    "Más seguridad, porque más luz siempre mejora la detección del intruso y la calidad de las imágenes de video",
+    "Más seguridad, porque el deslumbramiento (glare) afecta al intruso pero nunca a los oficiales ni a las cámaras",
+    "Ningún efecto relevante, porque el ojo humano se adapta al instante a los cambios bruscos de iluminación"
+   ],
+   0,
+   "La sobreiluminación y el deslumbramiento reducen la seguridad: el contraste extremo crea zonas negras donde la gente se esconde, las cámaras no ven y el personal no observa, y el ojo tarda de 20 a 60 segundos en reenfocar tras un deslumbramiento. Más luz no es necesariamente mejor."
+  ],
+  [
+   "Una cámara normal debe permitir la identificación (identification) de las personas que cruzan un acceso peatonal de noche. Según la regla práctica del capítulo, ¿qué nivel mínimo de luz reflejada se necesita?",
+   [
+    "2.0 fc",
+    "1.0 fc",
+    "0.5 fc",
+    "0.2 fc"
+   ],
+   0,
+   "La regla práctica pide 0.5 fc (foot-candles) para detección, 1.0 fc para reconocimiento y 2.0 fc para identificación. El valor de 0.2 fc es el que la NRC indica para el perímetro y la zona despejada entre vallas."
+  ],
+  [
+   "Al comparar tecnologías de lámparas para un gran estacionamiento, ¿qué factor debe pesar MÁS en el costo de operación, según el capítulo?",
+   [
+    "La eficacia (efficacy) en lúmenes por vatio, porque la energía es cerca del 88 % del costo",
+    "El precio de lámparas y balastros, porque los bienes de capital son cerca del 88 % del costo",
+    "La mano de obra de limpieza y reemplazo, porque el mantenimiento es cerca del 88 % del costo",
+    "La uniformidad de la distribución, porque la energía es solo cerca del 8 % del costo total"
+   ],
+   0,
+   "La energía representa cerca del 88 % del costo de operar la iluminación, frente a 8 % de bienes de capital y 4 % de mantenimiento; por eso lo más importante es la eficacia de la lámpara, es decir, lúmenes emitidos por vatio consumido."
+  ],
+  [
+   "Un sitio usará cámaras a color para identificar el color de vehículos y ropa en un patio exterior. Según la Figura 9.25 del índice de reproducción de color (CRI), ¿qué fuente de luz es la MÁS adecuada?",
+   [
+    "LED",
+    "Vapor de mercurio (mercury vapor)",
+    "Sodio de alta presión (high-pressure sodium)",
+    "Sodio de baja presión (low-pressure sodium)"
+   ],
+   0,
+   "El LED tiene un CRI de 75 a 90, mientras que el vapor de mercurio tiene 50, el sodio de alta presión 20 y el de baja presión 5. Estas tres tienen CRI muy bajo y no deben usarse con cámaras a color ni donde identificar el color sea crítico; bajo sodio de baja presión, por ejemplo, una camisa verde se ve azulada."
+  ],
+  [
+   "En el área de cajas de una tienda, las luminarias de halogenuro metálico (metal halide) se apagan por una baja breve de voltaje. ¿Qué debe prever el profesional de seguridad?",
+   [
+    "Que el reencendido (restrike) puede tardar hasta unos 20 minutos, por lo que conviene respaldo con baterías, generador o UPS",
+    "Que se reencenderán al instante en cuanto vuelva el voltaje, igual que las lámparas LED y las incandescentes de la tienda",
+    "Que solo tardarán en dar su luz plena si hace mucho frío, como les ocurre sobre todo a las lámparas fluorescentes del local",
+    "Que la causa real es la suciedad acumulada en la luminaria, que reduce su salida cerca de un 20 % cada año en ambientes sucios"
+   ],
+   0,
+   "Las lámparas HID (descarga de alta intensidad), como el halogenuro metálico, dependen de un arco que se apaga si baja el voltaje, y el tubo debe enfriarse antes de reencender: puede tardar hasta 20 minutos. En áreas de alta seguridad o de seguridad humana, como las cajas registradoras, conviene prever baterías, generadores o UPS."
+  ]
+ ],
+ "10": [
+  [
+   "Según la clasificación de medidas CPTED (Crime Prevention Through Environmental Design, prevención del delito mediante el diseño ambiental) de Crowe (1991), ¿cuál de estos ejemplos corresponde a una medida natural?",
+   [
+    "Muros y portones integrados en la distribución (layout) del sitio",
+    "Una cerca (fencing) de malla instalada a lo largo del perímetro",
+    "Patrullas policiales y un programa de vigilancia vecinal",
+    "Cámaras de CCTV conectadas a un centro de monitoreo"
+   ],
+   0,
+   "Crowe clasifica como naturales el terreno, la distribución, el paisajismo, los portones y los muros. Ojo: la cerca (fencing) aparece entre las medidas mecánicas, junto con cerraduras y CCTV, mientras que las patrullas y la vigilancia vecinal son medidas organizativas."
+  ],
+  [
+   "En un complejo de oficinas se acumulan grafiti, basura y muebles abandonados, y un coche lleva semanas estacionado con una ventana rota. ¿Qué herramienta CPTED atiende MÁS directamente esta situación?",
+   [
+    "Gestión y mantenimiento (management and maintenance), basada en la teoría de las ventanas rotas",
+    "Apoyo a la actividad legítima (legitimate activity support), con una subestación de policía en el lugar",
+    "Control de acceso natural (natural access control), con arbustos espinosos bajo las ventanas bajas",
+    "Refuerzo territorial natural (natural territorial reinforcement), con setos bajos que marquen cada propiedad"
+   ],
+   0,
+   "Según la teoría de las ventanas rotas (broken windows, Wilson y Kelling, 1982), el deterioro sin reparar da impresión de abandono y de que no hay un guardián capaz, lo que aumenta la oportunidad delictiva; la respuesta es mantener y reparar el espacio. El apoyo a la actividad legítima sirve para reclamar lugares difíciles de proteger por su ubicación o geografía."
+  ],
+  [
+   "¿Qué tres objetivos definen la prevención situacional del delito (situational crime prevention)?",
+   [
+    "Aumentar el esfuerzo del agresor, aumentar su riesgo y reducir la recompensa que percibe",
+    "Disuadir, detectar y demorar al agresor, y además negarle el acceso al objetivo",
+    "Reforzar la territorialidad, la vigilancia y el control de acceso del lugar",
+    "Mejorar la cohesión, la cultura comunitaria y la conectividad del barrio"
+   ],
+   0,
+   "La prevención situacional gestiona, diseña o manipula el entorno de forma sistemática y lo más permanente posible para aumentar el esfuerzo y el riesgo del agresor y reducir la recompensa que percibe. Las otras opciones corresponden a las 4 D, a los tres elementos de CPTED y a estrategias del CPTED de segunda generación."
+  ],
+  [
+   "En un barrio, el exceso de propiedades abandonadas empieza a inclinar la zona hacia el delito, y un programa busca equilibrar comercio legítimo, recreación y vivienda diversa. ¿Qué estrategia del CPTED de segunda generación (second generation CPTED) aplica?",
+   [
+    "Umbral de capacidad (capacity threshold), o teoría del punto de inflexión",
+    "Cohesión (cohesion), mediante asociaciones vecinales y desarrollo personal",
+    "Conectividad (connectivity), con apoyo político de niveles superiores de gobierno",
+    "Cultura comunitaria (community culture), con actividades artísticas y deportivas"
+   ],
+   0,
+   "Según Saville y Cleveland (2013), el umbral de capacidad (teoría del punto de inflexión, tipping point) equilibra usos de suelo y elementos urbanos: demasiadas propiedades abandonadas inclinan la zona al delito, y un equilibrio de comercio, recreación y vivienda diversa mejora la habitabilidad. La cohesión trabaja con grupos y habilidades personales, no con la mezcla de usos de suelo."
+  ],
+  [
+   "Al evaluar un espacio con la herramienta CPTED 3-D, un consultor pregunta: «¿Está clara su propiedad? ¿Dónde están sus límites? ¿Los letreros indican los límites de acceso?». ¿A qué factor corresponden estas preguntas?",
+   [
+    "Definición (definition)",
+    "Designación (designation)",
+    "Diseño (design)",
+    "Disuasión (deterrence)"
+   ],
+   0,
+   "El factor definición pregunta cómo se define el espacio, si su propiedad está clara, dónde están sus límites y si los letreros indican el uso correcto o los límites de acceso. La designación se ocupa del propósito del espacio, y el diseño, de si la forma física apoya la función y las conductas previstas."
+  ],
+  [
+   "Un departamento sufrió un robo: el marco de la puerta quedó dañado y una luz exterior está fundida. Para evitar la victimización repetida (repeat victimization), ¿qué debe hacer PRIMERO la administración?",
+   [
+    "Eliminar rápido los signos del robo: reparar el marco, cambiar cerraduras y llaves y reponer la luz",
+    "Regular el acceso al edificio exigiendo credenciales o permisos a todos los que quieran entrar",
+    "Proteger los objetivos vulnerables con cortinas metálicas y cercas que nieguen el acceso fuera de horario",
+    "Bloquear el acceso fácil reubicando los bienes valiosos a un lugar menos expuesto del edificio"
+   ],
+   0,
+   "El primer paso contra la victimización repetida es eliminar rápido los signos de victimización: en departamentos, cambiar vidrios, reparar marcos, cambiar cerraduras y llaves y reparar luces rotas o fundidas. Bloquear el acceso fácil, proteger objetivos vulnerables y regular el acceso son pasos posteriores de la misma secuencia."
+  ],
+  [
+   "Una empresa acaba de encargar a un arquitecto su nueva sede. ¿En qué fase del proceso tradicional de planificación de un edificio deben tratarse las necesidades de seguridad?",
+   [
+    "Programación (programming), cuando el dueño explica el propósito del edificio y sus ocupantes",
+    "Diseño esquemático (schematic design), cuando se trazan los diagramas de burbuja del edificio",
+    "Desarrollo del diseño (design development), cuando los planos suman ingenierías y mayor escala",
+    "Documentos de construcción (construction documents), cuando se fijan las especificaciones finales"
+   ],
+   0,
+   "La seguridad debe tratarse en la fase de programación, cuando el dueño informa al arquitecto el propósito del edificio y sus ocupantes. Una vez que el arquitecto fija circulación, acceso, materiales y ventanaje, cada cambio de seguridad exige modificar planos y especificaciones, con más tiempo y dinero."
+  ],
+  [
+   "Al aplicar la zonificación de seguridad (security zoning) a un edificio corporativo, ¿cómo clasifica el capítulo el comedor del personal y el muelle de carga?",
+   [
+    "Ambos son zonas controladas (controlled zones)",
+    "Ambos son zonas sin restricción (unrestricted zones)",
+    "Ambos son zonas restringidas (restricted zones)",
+    "El comedor es zona sin restricción y el muelle, zona restringida"
+   ],
+   0,
+   "Las zonas controladas exigen un motivo válido para entrar y, ya dentro, permiten circular sin restricción severa; el libro incluye ahí oficinas administrativas, comedores del personal, oficinas de seguridad y muelles de carga. Sin restricción son lobbies, recepciones y cafeterías; restringidas, bóvedas, áreas mecánicas o laboratorios."
+  ],
+  [
+   "Según el capítulo, ¿cuál es la herramienta MÁS básica para reforzar la territorialidad (territoriality) entre los usuarios de un edificio?",
+   [
+    "Un buen programa de capacitación y concienciación (training and awareness)",
+    "Señalización (signage) con reglas claras en todas las áreas críticas del edificio",
+    "Cercas y muros reales que marquen con claridad los límites de la propiedad",
+    "Videovigilancia visible en entradas, pasillos y estacionamientos del sitio"
+   ],
+   0,
+   "La herramienta más básica es un buen programa de capacitación y concienciación: la gente sabe qué buscar y se siente con poder para participar. La señalización es la herramienta sencilla que comunica el uso designado del entorno, pero no es la más básica."
+  ],
+  [
+   "Un administrador coloca letreros de «Entre bajo su propio riesgo» y «Guarde sus objetos de valor» en un estacionamiento. ¿Qué efecto legal atribuye el capítulo a esa señalización?",
+   [
+    "Traslada parte de la responsabilidad al usuario que incumple, pero no libera al dueño de su responsabilidad legal",
+    "Libera al dueño de toda responsabilidad legal (liability) siempre que el letrero sea visible y esté bien iluminado",
+    "No tiene efecto alguno, porque la conducta del usuario siempre queda sujeta a la interpretación personal",
+    "Hace que cualquier delito futuro deje de considerarse previsible (foreseeable) para el dueño del inmueble"
+   ],
+   0,
+   "Los letreros ponen sobre aviso a los usuarios e intentan trasladarles parte de la responsabilidad: si incumplen reglas claras, la carga pasa a ellos. Sin embargo, poner un letrero no libera al dueño de responsabilidad legal; y es la falta de aviso, no el letrero, la que deja la conducta a interpretación personal."
+  ],
+  [
+   "Un paisajista propone un diseño para los caminos de un parque corporativo. ¿Qué combinación cumple las reglas de paisajismo seguro del capítulo?",
+   [
+    "Arbustos bajos de hasta 32 in (81 cm) y copas de árboles podadas desde abajo hasta 8 ft (2.4 m)",
+    "Arbustos bajos de hasta 4 ft (1.2 m) y copas de árboles podadas desde abajo hasta 5 ft (1.5 m)",
+    "Arbustos bajos de hasta 32 in (81 cm) y grava suelta como cubresuelo junto a los caminos",
+    "Setos macizos de 6 ft (1.8 m) junto al camino para dar privacidad y marcar el territorio"
+   ],
+   0,
+   "Las reglas fijan un máximo de 32 in para arbustos bajos, retirados 1 yd del borde del camino, y la poda de las copas desde abajo hasta 8 ft, para mantener líneas de visión y reducir escondites. El paisajismo duro (hard landscaping) no debe incluir grava suelta ni adoquines que sirvan de proyectiles."
+  ],
+  [
+   "En el programa arquitectónico de una oficina corporativa, ¿dónde conviene ubicar las salas de juntas que usan visitantes externos?",
+   [
+    "Fuera de la zona restringida, junto al lobby y antes del punto de control de acceso",
+    "Dentro de la zona restringida, junto a las oficinas ejecutivas, para supervisar a los asistentes",
+    "Junto a la sala de cómputo, para facilitar las presentaciones que requieren equipo sensible",
+    "En un piso VIP con elevador exclusivo y control de acceso en el propio elevador"
+   ],
+   0,
+   "Las salas de juntas van fuera de la zona restringida, normalmente junto al lobby y antes del punto de control de acceso; así no hay que dar gafete a los asistentes y se les mantiene fuera de las áreas privadas o semiprivadas."
+  ],
+  [
+   "En una planta industrial hay una rejilla de ventilación de 12 × 12 in (30 × 30 cm) a 10 ft (3 m) del suelo. Según el capítulo, ¿qué procede?",
+   [
+    "Reforzarla, porque supera 96 sq in (619 cm²) y está a menos de 18 ft (5.5 m) del suelo",
+    "Dejarla así, porque cualquier abertura a más de 8 ft (2.4 m) del suelo queda fuera de alcance",
+    "Dejarla así, porque mide menos de 96 sq in (619 cm²) y no permite el paso de una persona",
+    "Eliminarla, porque toda abertura a menos de 18 ft (5.5 m) del suelo está prohibida en la envolvente"
+   ],
+   0,
+   "Hay que reforzar toda abertura mayor de 96 sq in (619 cm²) que esté a menos de 18 ft del suelo, con policarbonato, láminas para ventana, mallas u otros. La rejilla mide 144 sq in y está a 10 ft, así que cumple ambas condiciones; la regla pide reforzar, no eliminar."
+  ],
+  [
+   "Los ingenieros de tráfico prefieren varios accesos a un estacionamiento. Desde el enfoque CPTED, ¿qué se prefiere y qué se exige si el volumen obliga a tener más accesos?",
+   [
+    "Una sola entrada y salida; cada acceso extra necesita caseta atendida, pluma, cortina, video y buena luz",
+    "Varios accesos para repartir el tráfico; basta con que cada uno tenga video y buena iluminación nocturna",
+    "Una sola entrada y varias puertas de solo salida, sin necesidad de casetas atendidas en ninguna de ellas",
+    "Dos accesos separados, uno vehicular y otro peatonal que cruce el paso de los coches frente a la caseta"
+   ],
+   0,
+   "CPTED prefiere una sola entrada y salida para todos los vehículos, porque más entradas dificultan controlar usuarios y usos. Si el volumen exige más, cada acceso necesita caseta con encargado, pluma (gate arm), cortina enrollable para cerrar fuera de horario, video y buena iluminación; además, la regla primaria es no obligar al peatón a cruzar el paso de los coches."
+  ],
+  [
+   "Para ahorrar, un banco propone instalar solo cámaras falsas (dummy cameras) en un cajero automático (ATM) aislado. ¿Cuál es la MEJOR respuesta del profesional de seguridad?",
+   [
+    "Rechazarlo: sin cámaras reales, las falsas crean una ilusión de seguridad y riesgo de demanda por negligencia",
+    "Aceptarlo, porque las cámaras visibles disuaden más que las ocultas, aunque sufran más actos de vandalismo",
+    "Aceptarlo si además se fijan límites diarios de retiro que reduzcan la pérdida en caso de un robo al usuario",
+    "Aceptarlo si las cámaras falsas se instalan dentro de domos oscuros de policarbonato resistentes al vandalismo"
+   ],
+   0,
+   "Las cámaras falsas solo deben usarse si también hay cámaras reales; si no, dan falsa seguridad y exponen a una demanda por negligencia por «ilusión de seguridad» (illusion of security). Es cierto que las cámaras visibles disuaden más, pero eso no justifica que ninguna grabe."
+  ],
+  [
+   "¿Qué serie de mínimos típicos de iluminación para un cajero automático, medidos a 3 ft (1 m) del suelo, recoge el capítulo?",
+   [
+    "25 fc (269 lux) en el frente; 10 fc dentro de 5 ft (1.5 m); 2 fc a 50–60 ft (15–18 m)",
+    "10 fc (107 lux) en el frente; 5 fc dentro de 5 ft (1.5 m); 2 fc a 50–60 ft (15–18 m)",
+    "25 fc (269 lux) en el frente; 2 fc dentro de 5 ft (1.5 m); 10 fc a 50–60 ft (15–18 m)",
+    "50 fc (538 lux) en el frente; 25 fc dentro de 5 ft (1.5 m); 10 fc a 50–60 ft (15–18 m)"
+   ],
+   0,
+   "Los mínimos típicos son 25 fc (foot-candles) en el frente del cajero, 10 fc dentro de 5 ft y 2 fc a 50–60 ft, medidos a 3 ft del suelo. El capítulo aclara que EE. UU. no tiene normas nacionales de iluminación bancaria y que estos mínimos no cubren sombras, deslumbramiento ni uniformidad."
+  ],
+  [
+   "Al diseñar un nuevo edificio federal de EE. UU. contra atentados con bomba, ¿qué combinación de medidas sigue las recomendaciones del capítulo?",
+   [
+    "Retranqueo (setback) de 100 ft (30 m), planta rectangular simple y jardineras de concreto separadas menos de 4 ft (1.2 m)",
+    "Retranqueo de 100 ft (30 m), planta en forma de U que encierre un patio y revestimiento exterior pesado contra la onda",
+    "Retranqueo de 30 ft (9 m), planta en forma de L y jardineras de concreto separadas unos 6 ft (1.8 m) entre sí",
+    "Aproximaciones vehiculares perpendiculares a la fachada y estacionamiento abierto bajo el propio edificio"
+   ],
+   0,
+   "El capítulo recomienda un perímetro seguro lo más lejos posible, con retranqueo de 100 ft, y barreras disfrazadas de jardineras separadas menos de 4 ft para impedir el paso de vehículos. La planta rectangular simple reduce la difracción de la onda que rebota en edificios en U o en L, y el revestimiento exterior debe ser ligero."
+  ],
+  [
+   "¿Qué afirmación describe MEJOR la relación entre CPTED y la seguridad tradicional, según el capítulo?",
+   [
+    "Rara vez basta por sí solo, pero es un complemento costo-efectivo que puede reducir guardias y primas de seguro",
+    "En la mayoría de los casos sustituye a la seguridad tradicional, porque sus medios naturales no tienen costo",
+    "Solo sirve contra delitos comunes, ya que no reduce en ningún caso la oportunidad de un ataque terrorista",
+    "Encarece la protección, porque obliga a sumar guardias y a ampliar el alcance de los sistemas de video"
+   ],
+   0,
+   "Solo en casos raros CPTED basta por sí solo; es un complemento excelente y costo-efectivo que puede reducir o reasignar guardias, reducir el alcance del video, sustituir algunas barreras con control de acceso natural y bajar primas de seguro. También es una estrategia legítima para reducir la oportunidad de terrorismo, aunque quizá no detenga al terrorista más decidido."
+  ]
+ ],
+ "11": [
+  [
+   "Tras varias intrusiones, el gerente de seguridad ajusta el lector biométrico de un laboratorio para reducir al mínimo las falsas aceptaciones (false accepts). ¿Cuál es el efecto MÁS probable de ese ajuste?",
+   [
+    "Aumentarán los errores Tipo I (false reject) y a veces se negará el paso a usuarios autorizados.",
+    "Bajarán a la vez los errores Tipo I y Tipo II, porque un umbral estricto mejora la precisión general.",
+    "El equipo quedará fijado en la tasa de error igual (equal error rate), donde ambos errores son mínimos.",
+    "Aumentarán los errores Tipo II y a veces se negará el paso a usuarios autorizados."
+   ],
+   0,
+   "No se pueden minimizar ambos errores a la vez: ajustar para pocas falsas aceptaciones da alta seguridad, pero aumenta el falso rechazo (Tipo I) y a veces se niega el paso a autorizados. La tasa de error igual sirve para comparar equipos; no es el punto donde ambos errores son mínimos."
+  ],
+  [
+   "Una empresa de alta seguridad quiere instalar cerraduras electromagnéticas (maglocks) en sus puertas de evacuación designadas y añadirles batería de respaldo para que sigan cerradas durante un apagón. ¿Qué debe recomendar el gerente de seguridad?",
+   [
+    "Cablearlas fail-safe, ligadas a la alarma de incendio, sin batería y con visto bueno previo de la AHJ.",
+    "Aceptar la batería de respaldo, ya que el libro la recomienda para maglocks en instalaciones de alta seguridad.",
+    "Configurarlas como fail-secure para que la puerta quede cerrada ante cualquier fallo de energía o del control.",
+    "Sustituirlas por cerrojos eléctricos (electric deadbolts), que pueden ser fail-secure y no dependen de un electroimán."
+   ],
+   0,
+   "En una puerta de evacuación el maglock debe ser fail-safe, liberarse con la alarma de incendio y contar con aprobación de la autoridad competente (AHJ, authority having jurisdiction); según el libro, ponerle batería de respaldo es delito en la mayoría de jurisdicciones. El respaldo de energía que el libro recomienda en alta seguridad excluye las puertas de evacuación, y el cerrojo eléctrico no se recomienda en puertas que deben abrirse con alarma de incendio."
+  ],
+  [
+   "Un sistema de control de acceso genera el código de coacción (duress code) intercambiando los dos últimos dígitos del PIN. A un empleado se le asigna el PIN 4-8-3-3. ¿Qué problema plantea este PIN para ese esquema?",
+   [
+    "Su código de coacción sería idéntico a su PIN normal, así que el sistema no podría distinguirlos.",
+    "Su código de coacción coincidiría con el PIN de otro empleado, porque solo cambian los dos últimos dígitos.",
+    "Un PIN de cuatro dígitos no basta para una plantilla de varios cientos de personas y es fácil de adivinar.",
+    "El sistema anularía su credencial al primer uso, porque tomaría el PIN por un intento fallido."
+   ],
+   0,
+   "Al intercambiar los dos últimos dígitos (3-3) se obtiene el mismo número; por eso el libro exige que esos dígitos sean distintos (los cuatro, si el código se forma invirtiendo el PIN). Cuatro dígitos dan 10,000 combinaciones, suficientes para unos cientos de personas."
+  ],
+  [
+   "¿Cuál es la principal ventaja de un sistema de credencial de intercambio (exchange badge) frente a la credencial con foto (photo identification badge) convencional?",
+   [
+    "La credencial usada dentro del área segura nunca sale de ella, lo que reduce falsificación, pérdida y robo.",
+    "Verifica la identidad de la persona al comparar un rasgo físico único con el registrado en el alta (enrollment).",
+    "Impide que un intruso se maquille o disfrace para parecerse a la foto de una credencial robada.",
+    "Permite comprobar la credencial de forma automática en el lector, sin depender de un guardia atento."
+   ],
+   0,
+   "La credencial gemela se queda en el punto de control y la del empleado se guarda allí hasta que sale, así que la que circula dentro nunca sale del área. Sigue siendo una revisión manual vulnerable al maquillaje y no es verificación de identidad, que solo da la biometría."
+  ],
+  [
+   "¿Cuál de estas opciones describe MEJOR una dificultad de seguridad del amaestramiento (master keying) que debe pesarse frente a su comodidad?",
+   [
+    "Crea líneas de corte (shear lines) adicionales que facilitan abrir la cerradura a escondidas.",
+    "Obliga a usar núcleos reutilizables, lo que encarece reponer las llaves perdidas o robadas.",
+    "Los pines partidos (split pins) aumentan mucho el número de combinaciones de llave disponibles.",
+    "Cada llave de cambio (change key) abre todas las cerraduras de su grupo maestro."
+   ],
+   0,
+   "El libro cita tres dificultades: control estricto de llaves, más puntos débiles ante la manipulación (varias líneas de corte o aberturas de muesca) y más mantenimiento de cilindros. Los pines partidos reducen las combinaciones, los núcleos reutilizables abaratan la respuesta a una pérdida y la llave de cambio abre una sola cerradura."
+  ],
+  [
+   "¿Por qué el libro desaconseja usar un magnetómetro (magnetometer) tradicional para detectar contrabando?",
+   [
+    "Es pasivo y solo detecta metales ferromagnéticos: no ve cobre, aluminio, zinc ni materiales compuestos.",
+    "Emite un campo magnético pulsado que causa alarmas molestas siempre que hay vigas de acero o varilla cerca.",
+    "Depende de radiación ionizante, así que no se considera seguro para revisar personas en un punto de acceso.",
+    "Solo responde a materiales de bajo número atómico (low-Z), por lo que no reacciona ante armas de acero."
+   ],
+   0,
+   "El magnetómetro es pasivo: vigila el campo magnético terrestre y solo detecta los cambios que causan los materiales ferromagnéticos, por lo que no ve cobre, aluminio, zinc ni muchas armas de materiales compuestos. El campo pulsado es propio de los detectores activos modernos, y la radiación ionizante, de los rayos X."
+  ],
+  [
+   "En un punto de revisión hay que buscar trazas de explosivos en el interior de contenedores y en bolsos de tela blanda, de la forma menos invasiva posible. ¿Qué técnica es la MÁS adecuada?",
+   [
+    "Muestreo por vapor (vapor sampling): aspirar el aire junto al objeto, a menudo agitándolo.",
+    "Muestreo por frotis (swipe sampling): pasar un hisopo de tela por la superficie y luego calentarlo.",
+    "Análisis Raman (Raman analysis): dirigir un láser al envase y analizar la luz dispersada.",
+    "Tomografía computarizada (CT): reconstruir el contenido en 3D para calcular masa y densidad."
+   ],
+   0,
+   "El muestreo por vapor es el mejor para el interior de contenedores y las superficies blandas, y es menos invasivo porque no toca el objeto. El frotis es más eficiente y recoge más masa, pero sirve sobre todo en superficies duras y es más invasivo; Raman requiere cantidades visibles y no sirve para paquetes, y la CT es detección masiva (bulk), no de trazas."
+  ],
+  [
+   "Según el libro, ¿cuál de estas alarmas se clasifica como falsa alarma (false alarm) y no como otro tipo de alarma molesta (nuisance alarm)?",
+   [
+    "Una alarma causada por la falla de un componente del propio sensor.",
+    "Una alarma causada por basura arrastrada por el viento a través de la zona.",
+    "Una alarma causada por la vibración del suelo al pasar un tren cercano.",
+    "Una alarma causada por un animal grande que choca de noche con la cerca."
+   ],
+   0,
+   "La falsa alarma es un tipo de alarma molesta generada por el propio equipo: mal diseño, mantenimiento inadecuado o falla de un componente. La basura arrastrada y la vibración del suelo son alarmas molestas de origen industrial, y los animales, de origen natural; ninguna la causa una intrusión."
+  ],
+  [
+   "Un diseñador combina en un mismo sector un sensor que detecta túneles y otro que detecta a quien trepa la cerca, para que cada uno cubra las deficiencias del otro. ¿Qué lógica debe usar y qué efecto tendrá en la tasa de alarmas molestas (NAR, nuisance alarm rate)?",
+   [
+    "Combinación OR; la NAR del sistema será la suma de las NAR de cada sensor.",
+    "Combinación AND; la NAR del sistema será menor que la de cada sensor.",
+    "Combinación OR; la NAR del sistema será menor que la de cada sensor.",
+    "Combinación AND; la probabilidad de detección (PD) del sistema será el producto de las de cada sensor."
+   ],
+   0,
+   "Cuando los sensores detectan tipos de intrusión distintos (sobre el suelo, por arriba y por túnel) se combinan por OR, que alarma con cualquiera de ellos; la NAR resultante es la suma de las individuales, así que cada sensor debe tener NAR baja. En AND el intruso solo tendría que vencer un sensor para evitar la alarma."
+  ],
+  [
+   "Para proteger un espacio clasificado de alta seguridad, un integrador propone un solo sensor de doble tecnología (dual-technology), de microondas e infrarrojo pasivo (PIR, passive infrared), por cuarto, en lugar de dos sensores separados. ¿Qué debe responder el gerente de seguridad?",
+   [
+    "Rechazarlo: usar microondas y PIR montados por separado, idealmente perpendiculares y combinados lógicamente.",
+    "Aceptarlo, porque la lógica AND del sensor dual eleva la probabilidad de detección por encima de cada tecnología.",
+    "Aceptarlo si cada tecnología tiene una probabilidad de detección de 0.95, porque el conjunto también tendrá 0.95.",
+    "Rechazarlo: usar un solo PIR de varios segmentos, que detecta mejor el movimiento de acercamiento al sensor."
+   ],
+   0,
+   "En alta seguridad nunca se usa un solo sensor dual en lugar de dos separados, y muchas normas gubernamentales no lo permiten en un SCIF. Con lógica AND la probabilidad de detección es el producto de ambas (0.95 × 0.95 ≈ 0.90), menor que cada una; montados por separado y perpendiculares, cada sensor aprovecha su mejor movimiento (acercamiento el microondas, cruce el PIR)."
+  ],
+  [
+   "En un almacén, la disposición de los estantes obliga a cualquier intruso a avanzar directamente hacia el punto donde se montará el sensor de movimiento. Considerando solo la dirección del movimiento, ¿qué sensor rendirá MEJOR?",
+   [
+    "Microondas monoestático, más sensible al movimiento de acercamiento o alejamiento del sensor.",
+    "Infrarrojo pasivo (PIR), más sensible al movimiento de acercamiento o alejamiento del sensor.",
+    "Infrarrojo pasivo (PIR), cuya detección no depende de la dirección del movimiento.",
+    "Microondas monoestático, más sensible al movimiento que cruza su patrón (crosswalk)."
+   ],
+   0,
+   "El microondas detecta por desplazamiento Doppler (Doppler shift) y es más sensible al acercamiento y alejamiento que al cruce. El PIR es al revés: rinde mejor con movimiento que cruza su patrón, porque el blanco debe entrar y salir de varios segmentos."
+  ],
+  [
+   "En una zona despejada (clear zone) delimitada por dos cercas paralelas, ¿dónde suelen ubicarse las barreras perimetrales de retardo y por qué?",
+   [
+    "En la cerca interior o junto a ella, para que el intruso cruce la zona de detección antes de alcanzarla.",
+    "En la cerca exterior, para que el intruso quede retrasado mucho antes de entrar en la zona de detección.",
+    "A mitad de la zona despejada, para que la cámara vea al intruso mientras trabaja sobre la barrera.",
+    "Fuera de la cerca exterior, para mantener a personas, animales y vehículos bien lejos de los sensores."
+   ],
+   0,
+   "Las barreras van en la cerca interior o cerca de ella: el intruso cruza primero la zona de detección y la respuesta empieza antes de que comience el retardo. Además, la barrera no debe degradar a los sensores ni tapar parte de la vista de la cámara."
+  ],
+  [
+   "Un diseñador quiere añadir sensores complementarios (complementary sensors) a un perímetro de alta seguridad. Según el libro, ¿cuál de estas parejas NO sería complementaria?",
+   [
+    "Microondas biestático y monoestático",
+    "Microondas biestático e infrarrojo activo",
+    "Microondas biestático y cable coaxial con puertos",
+    "Cable coaxial con puertos e infrarrojo activo"
+   ],
+   0,
+   "Para ser complementarios, los sensores deben usar tecnologías distintas con patrones de detección traslapables. El microondas biestático y el monoestático son vulnerables a los mismos métodos de ataque y a las mismas fuentes de alarmas molestas; las otras tres parejas sí son complementarias según el libro."
+  ],
+  [
+   "Un instalador en Reino Unido monta un sistema de alarma contra intrusos con panel y sirena de grado 3, pero usa detectores de movimiento de grado 2 en algunas zonas. Según las normas europeas, ¿qué grado oficial tiene el sistema?",
+   [
+    "Grado 2, porque el sistema toma el grado de su equipo de menor grado.",
+    "Grado 3, porque el grado lo fijan el panel de control y la señalización.",
+    "Grado 3, porque la mayor parte del equipo instalado es de grado 3.",
+    "Ninguno, porque las normas europeas prohíben mezclar equipos de distintos grados."
+   ],
+   0,
+   "Las normas europeas permiten mezclar equipos de distintos grados, pero el grado oficial del sistema es el del equipo de menor grado. Por eso unos detectores de grado 2 bajan todo el sistema a grado 2."
+  ],
+  [
+   "¿Cuál es la limitación MÁS importante que debe entender el profesional de protección de activos sobre las normas UL (Underwriters Laboratories) para alarmas y sistemas de detección de intrusos?",
+   [
+    "Son normas de seguridad humana (safety), no de protección (security), y no evalúan vulnerabilidades.",
+    "Solo se aplican a equipos de alta seguridad para espacios clasificados, como los que rige la UL 2050.",
+    "No son públicas, así que el profesional depende de los directorios periódicos para conocer su contenido.",
+    "Fijan cómo instalar sistemas europeos de grado 1 a 4, pero no cubren los equipos fabricados en EE. UU."
+   ],
+   0,
+   "Las normas UL son de seguridad de las personas (safety): guían una instalación correcta para reducir el riesgo de incendio u otros eventos, pero no abordan las vulnerabilidades de los equipos ni su capacidad de detectar a adversarios malintencionados. Además, son públicas; lo que UL pide es guiarse por sus directorios de equipos certificados."
+  ],
+  [
+   "En una auditoría, el gerente de seguridad descubre que el instalador colocó todas las resistencias de fin de línea (EOL, end-of-line) dentro del panel de control del sistema de detección de intrusos (IDS), en lugar de junto a cada sensor. ¿Por qué es un problema?",
+   [
+    "El tramo entre panel y sensor queda sin supervisión de línea (line supervision), que debe cubrirlo.",
+    "Las resistencias en el panel generan alarmas molestas por la interferencia electromagnética de los demás circuitos.",
+    "La supervisión de línea solo funciona con transmisores de red IP, así que las resistencias sobran de todos modos.",
+    "Las resistencias deben ir en la central receptora (central station), no en el panel ni en el campo."
+   ],
+   0,
+   "Con varios sensores en un procesador hace falta supervisión de línea entre el procesador y cada sensor; el método recomendado es una EOL colocada en el circuito junto al sensor, en campo, no en el panel. Así se detectan cortes, cortocircuitos o puenteos en ese tramo."
+  ],
+  [
+   "¿Qué describe MEJOR la ventaja de un interruptor magnético balanceado (BMS, balanced magnetic switch) frente a un contacto magnético simple?",
+   [
+    "Su imán de polarización (bias magnet) detecta cambios de intensidad del campo y frustra el uso de un imán externo.",
+    "Es totalmente electrónico, sin lengüetas mecánicas, y mide el campo magnético con su propia alimentación eléctrica.",
+    "Detecta también el corte a través de la hoja de la puerta, aunque esta nunca llegue a abrirse.",
+    "Alarma con cualquier separación de la puerta respecto al marco, incluso de 0.5 in (1.3 cm) o menos."
+   ],
+   0,
+   "El BMS lleva un imán de polarización ajustable y detecta cambios en la intensidad del campo, así que acercar un imán fuerte, que vence al contacto simple, ya no basta. Lo totalmente electrónico y con alimentación es el interruptor de efecto Hall, y cortar a través de la hoja sigue evitando el BMS."
+  ],
+  [
+   "Una cámara IP debe leer las placas de los vehículos que salen de un estacionamiento. Según las vistas de identificación digital del libro, ¿qué densidad mínima de píxeles (pixels per foot) se necesita en el punto de captura?",
+   [
+    "70 px/ft (231 px/m)",
+    "46 px/ft (150 px/m)",
+    "88 px/ft (289 px/m)",
+    "35 px/ft (118 px/m)"
+   ],
+   0,
+   "La identificación de placas exige 70 px/ft (231 px/m). 46 px/ft corresponde a identificar al sujeto sin lugar a duda, 88 px/ft al reconocimiento facial y 35 px/ft a reconocer a personas conocidas."
+  ],
+  [
+   "Una cámara va montada en el muro de un edificio a 40 ft del suelo, y el centro de la escena está a 30 ft del edificio. ¿Qué distancia cámara-escena debe usarse para calcular la distancia focal (focal length) del lente?",
+   [
+    "50 ft, la hipotenusa de la altura de montaje y la distancia horizontal",
+    "30 ft, la distancia horizontal del edificio al centro de la escena",
+    "40 ft, la altura de montaje de la cámara sobre el suelo",
+    "70 ft, la suma de la altura de montaje de la cámara y la distancia horizontal"
+   ],
+   0,
+   "La distancia se mide del frente de la cámara al sujeto principal y se calcula con Pitágoras: √(30² + 40²) = √2,500 = 50 ft. Usar solo la distancia horizontal (30 ft) subestima la distancia y lleva a elegir mal el lente."
+  ],
+  [
+   "Para cámaras cuyo fin es dar información visual de algo que está pasando o que ya pasó, ¿en qué orden deben aplicarse los criterios de selección según el libro?",
+   [
+    "Sensibilidad (sensitivity), resolución y características; la cámara se elige antes que el lente.",
+    "Resolución, sensibilidad y características; el lente se elige antes que la cámara.",
+    "Características (features), resolución y sensibilidad; la cámara se selecciona antes que el lente.",
+    "Sensibilidad, características y resolución; el lente se selecciona antes que la cámara."
+   ],
+   0,
+   "El libro fija el orden: 1.º sensibilidad (luz mínima para una imagen de calidad), 2.º resolución y 3.º características, y la cámara se elige antes que el lente. El lente es la segunda decisión más importante, después de la cámara."
+  ],
+  [
+   "Un técnico quiere reutilizar un lente de montura C (C-mount) en una cámara nueva de montura CS (CS-mount) y no tiene a mano el anillo adaptador. ¿De qué debe advertirle el gerente?",
+   [
+    "Montarlo sin el separador de 5 mm puede romper el CCD de la cámara.",
+    "Funcionará, pero con problemas de enfoque que ningún ajuste puede corregir.",
+    "Funcionará sin problemas, porque las cámaras CS aceptan cualquier lente C directamente.",
+    "Producirá visión de túnel (tunnel vision), porque el lente C no llenará el sensor de la cámara CS."
+   ],
+   0,
+   "La montura C tiene 17.526 mm entre sensor y lente y la CS 12.5 mm: un lente C en cámara CS sin anillo adaptador rompe el CCD; con el separador de 5 mm funciona bien. Los problemas de enfoque sin solución ocurren en el caso inverso (lente CS en cámara C), y la visión de túnel la causa un formato de lente menor que el de la cámara."
+  ],
+  [
+   "¿Por qué el libro considera que las cámaras falsas (dummy cameras) son una responsabilidad legal (liability)?",
+   [
+    "Crean la falsa expectativa de que alguien está mirando y de que la ayuda viene en camino.",
+    "Violan la expectativa razonable de privacidad igual que una cámara real instalada en un baño.",
+    "Obligan a colocar señalización de videovigilancia en todos los accesos del edificio.",
+    "Hacen inadmisible como prueba el video de las cámaras reales que vigilan la misma escena."
+   ],
+   0,
+   "Las cámaras falsas crean una expectativa de protección: la persona atacada cree que la están viendo y que la ayuda viene. La señalización en los accesos es una práctica legal aceptada, pero no algo que imponga la cámara falsa."
+  ],
+  [
+   "Un integrador de videovigilancia pide cobrar el total del contrato en cuanto termine de instalar las cámaras. ¿Qué es lo MÁS recomendable para asegurar que el proyecto se complete con el desempeño requerido?",
+   [
+    "Incluir pruebas de aceptación (acceptance tests) en el contrato y retener el pago final hasta superarlas.",
+    "Pagar al terminar la instalación y exigir después un rodaje (burn-in) de unos cientos de horas.",
+    "Confiar en la inspección final de fábrica y en las especificaciones de desempeño publicadas por el fabricante.",
+    "Pagar al instalar y pedir repuestos del 10 % al 20 % para cubrir las cámaras que fallen."
+   ],
+   0,
+   "El libro recomienda exigir pruebas de aceptación a todo proveedor o integrador, incluirlas en los términos y condiciones del contrato y retener el pago final hasta superarlas. La inspección final de fábrica no es constante y la literatura del fabricante no debe ser el único criterio."
+  ],
+  [
+   "Una instalación usa un circuito de lazo (loop) con configuración McCulloh (McCulloh circuit). Un intruso corta el cable del lazo en dos puntos distintos. ¿Qué ocurre?",
+   [
+    "Se pierden solo los dispositivos que quedan entre los dos cortes; los demás siguen funcionando.",
+    "Todos los dispositivos siguen funcionando, porque la corriente llega por ambos lados del circuito.",
+    "Se pierden todos los dispositivos situados más allá del primer corte, como en un lazo simple.",
+    "Se pierde todo el lazo, porque el circuito McCulloh tolera cortocircuitos, pero no cortes."
+   ],
+   0,
+   "El circuito McCulloh envía corriente por ambos lados del lazo: con un solo corte todos los dispositivos siguen funcionando, pero con dos cortes se pierden los que quedan entre ellos, porque no hay trayecto hasta ellos. En un lazo simple, en cambio, un corte interrumpe todas las señales más allá del corte."
+  ],
+  [
+   "¿Qué tipo de instalación de transmisión de alarmas hace que una falla de línea afecte a un solo detector y obliga al atacante a identificar y desactivar el cable de cada sensor?",
+   [
+    "Punto a punto (point-to-point), aunque cuesta más que el lazo porque requiere más cable.",
+    "Multiplexado (multiplexing), aunque si se corta el enlace común caen todas sus señales.",
+    "Lazo (loop), aunque un corte en el punto justo puede desactivar los detectores de un área.",
+    "Inalámbrico (wireless), aunque toda señal sin cifrar debe considerarse interceptable."
+   ],
+   0,
+   "En punto a punto cada sensor tiene su propio par de cables al centro de control: una falla afecta a un solo detector y el atacante tendría que desactivar cada cable. Su desventaja es el costo del cable adicional; en el lazo y en el multiplexado, un solo corte afecta a muchas señales."
+  ],
+  [
+   "Mientras un operador evalúa una alarma en su pantalla, llega una segunda alarma. Según la filosofía de diseño «el operador primero» (operator first), ¿cómo debe comportarse la interfaz?",
+   [
+    "Mostrar un aviso no intrusivo y dejar que el operador decida si abandona la tarea en curso.",
+    "Reemplazar la pantalla actual por la nueva alarma, porque la más reciente tiene prioridad.",
+    "Activar una alarma sonora fuerte y continua hasta que el operador reconozca la nueva alarma.",
+    "Retener por completo la nueva alarma hasta que el operador termine y cierre la evaluación en curso."
+   ],
+   0,
+   "La regla 4 del enfoque «el operador primero» pide no interrumpir operaciones en curso: la nueva alarma no reemplaza la pantalla, llega una notificación no intrusiva y el operador decide si aborta. Además, la regla 5 pide evitar alarmas fuertes y continuas."
+  ],
+  [
+   "Según el libro, ¿qué combinación de técnicas de aleatorización de voz (scramblers) da un alto grado de seguridad?",
+   [
+    "Enmascaramiento (masking) junto con un divisor de banda o un modulador de frecuencia o de fase",
+    "Un inversor de frecuencia junto con un divisor de banda de cinco bandas fijas",
+    "Enmascaramiento usado solo, con un tono único o ruido RF dentro de la banda de voz",
+    "Un divisor de banda de cinco bandas usado por sí solo, que ofrece en teoría 3,080 combinaciones"
+   ],
+   0,
+   "El enmascaramiento solo es poco seguro, porque la voz se entiende bastante fácil a través de la máscara, y el 90 % de las 3,080 combinaciones del divisor de banda no es más seguro que un inversor. Combinados, masking + divisor de banda o masking + modulador de frecuencia o fase dan alta seguridad."
+  ],
+  [
+   "Un fabricante lanza detectores de humo que integran minicámaras, micrófonos y monitoreo de gases inertes. ¿Qué tendencia de integración de sistemas electrónicos ilustra este producto?",
+   [
+    "Hibridación de productos (product hybridization)",
+    "Agregación de datos (data aggregation)",
+    "Servicios gestionados en la nube (managed services)",
+    "Datos masivos (big data)"
+   ],
+   0,
+   "La hibridación de productos fusiona productos antes independientes; el libro pone justo el ejemplo de detectores de humo con minicámaras, micrófonos y monitoreo de gases inertes. La agregación de datos, en cambio, es gestionar bases de datos diversas desde una sola interfaz."
+  ]
+ ],
+ "12": [
+  [
+   "Un gerente de seguridad evalúa si puede sustituir con tecnología un puesto de recepción. Según el concepto de «ser humano necesario» (necessary human being), ¿qué exigencia del puesto justifica MEJOR mantener a una persona?",
+   [
+    "Dialogar cara a cara con los visitantes y decidir el paso siguiente según lo hablado",
+    "Leer las tarjetas de acceso y compararlas con la base de datos de titulares autorizados",
+    "Encender la iluminación del vestíbulo cada vez que se detecta movimiento",
+    "Bloquear y desbloquear las puertas del vestíbulo según un horario diario fijo"
+   ],
+   0,
+   "Dialogar racionalmente cara a cara y decidir el siguiente paso según esa conversación es una de las cinco capacidades que exigen a un ser humano. Leer tarjetas, encender luces o bloquear puertas por horario son tareas que una lectora o un sistema automatizado hacen sin personal."
+  ],
+  [
+   "Un acceso exige reconocimiento personal y la fila es de baja densidad (low-density queuing). Según el libro, ¿cuántos accesos puede controlar un solo operador remoto en esas condiciones?",
+   [
+    "1 o 2 accesos",
+    "3 o 4 accesos",
+    "5 o 6 accesos",
+    "8 a 10 accesos"
+   ],
+   1,
+   "El libro indica que, con reconocimiento personal y fila de baja densidad, un operador remoto puede controlar 3 o 4 accesos. Es un ejemplo de cómo la tecnología permite usar al humano solo donde se necesitan capacidades humanas, sin un oficial en cada puerta."
+  ],
+  [
+   "Una empresa decide que oficiales por contrato trabajen lado a lado con sus oficiales propios para ganar control de la operación y reducir la carga administrativa. ¿Qué debe revisar ANTES de implantar este modelo?",
+   [
+    "Las normas de co-empleo (co-employment) aplicables",
+    "Las especificaciones de licitación del contrato anterior",
+    "La política de uso de la fuerza de ambos grupos",
+    "Los requisitos de uniformes del regulador estatal"
+   ],
+   0,
+   "Es el modelo híbrido (hybrid), y la desventaja que señala el libro es que hay que revisar las normas de co-empleo antes de implantarlo. Las especificaciones de licitación protegen la calidad al comprar seguridad por contrato, pero no son el requisito previo propio del modelo híbrido."
+  ],
+  [
+   "Al comprar seguridad por contrato, ¿por qué el libro advierte contra decidir solo por la oferta más baja?",
+   [
+    "Porque el mayor componente del costo es el salario del oficial, y bajar el precio suele bajar salarios y calidad",
+    "Porque la oferta más baja traslada siempre toda la responsabilidad legal (liability) del contratista al cliente",
+    "Porque el mayor componente del costo es el equipo, y bajar el precio obliga a usar equipo obsoleto",
+    "Porque las agencias de precio bajo no pueden cumplir las normas de co-empleo ni los requisitos de licencias estatales"
+   ],
+   0,
+   "El salario del oficial es el mayor componente del costo, así que recortar el precio suele recortar salarios y, con ellos, la calidad. Por eso el cliente debe redactar especificaciones de licitación (bid specifications) detalladas con requisitos, salarios, prestaciones y expectativas de desempeño; el costo principal no es el equipo."
+  ],
+  [
+   "Un oficial encuentra en el vestíbulo a una persona desorientada y agitada que podría lastimarse a sí misma o a otros. Según el libro, ¿cómo debe tratar el oficial esta situación?",
+   [
+    "Como una emergencia médica: asegurar a la persona y la escena, llamar a EMS y custodiarla hasta entregarla",
+    "Como un problema policial: retener a la persona y llamar a la policía para que la detenga y la traslade",
+    "Como un caso de intoxicación: determinar qué sustancia consumió antes de llamar a los servicios médicos de emergencia",
+    "Como un asunto disciplinario: identificarla y reportarla a recursos humanos al terminar el turno"
+   ],
+   0,
+   "Una persona con estado mental alterado (altered mental status) es una emergencia médica, no un problema policial: se asegura a la persona y la escena, se llama a los servicios médicos de emergencia (EMS, emergency medical services) y se la custodia hasta entregarla. El oficial no está calificado para determinar la causa; solo un médico puede hacerlo."
+  ],
+  [
+   "Se recibe una amenaza de bomba dirigida a un piso concreto de un edificio de oficinas, y la gerencia opta por una evacuación parcial. Según el ejemplo del libro, ¿en qué pisos debe concentrarse además del piso amenazado?",
+   [
+    "En los pisos inmediatamente superior e inferior",
+    "En todos los pisos situados por encima del amenazado",
+    "En la planta baja y en los niveles del sótano",
+    "En los pisos con mayor número de ocupantes"
+   ],
+   0,
+   "El libro pone como ejemplo de evacuación parcial (partial evacuation), ante una amenaza de bomba en un piso concreto, concentrarse en los pisos inmediatamente superior e inferior. Las demás opciones no corresponden al criterio que da el libro."
+  ],
+  [
+   "Un oficial asignado a un puesto fijo (fixed post) de control de acceso recibe la petición de acompañar a un visitante hasta una sala de juntas en otro piso. ¿Qué es lo MÁS adecuado según el libro?",
+   [
+    "Que lo escolte quien lo invitó o un oficial de puesto no estático",
+    "Que el oficial lo escolte y deje el puesto cerrado hasta su regreso",
+    "Que el oficial lo escolte tras avisar por radio a la central de control",
+    "Que el visitante suba solo, tras dejar su identificación en el puesto"
+   ],
+   0,
+   "El oficial de puesto fijo no debería escoltar a visitantes ni clientes, porque abandona su tarea de protección; la alternativa es que escolte el anfitrión o un oficial de puesto no estático. Avisar a la central no corrige el problema de dejar el puesto desatendido."
+  ],
+  [
+   "Las órdenes de puesto exigen un conteo horario de vehículos en una puerta. ¿En qué registro debe quedar la constancia de que ese conteo se reportó a la central y se recibió?",
+   [
+    "En la bitácora de control (main/control log), que reúne los eventos significativos de todos los puestos",
+    "En la bitácora de puesto (post log), que es el registro cronológico y local de los eventos de ese único puesto",
+    "En las órdenes especiales (special orders) emitidas para el periodo en que se hace el conteo",
+    "En la hoja de registro de capacitación (training log sheet) del oficial que hizo el conteo"
+   ],
+   0,
+   "El conteo mismo va en la bitácora de puesto, cronológica y local de un solo puesto; la constancia de que se reportó y se recibió va en la bitácora principal o de control, historia acumulada y consecutiva de los eventos significativos de todos los puestos. Confundir ambas bitácoras es la trampa típica."
+  ],
+  [
+   "Al revisar bitácoras, un gerente ve que un oficial escribe a diario: «Llegué 0700. Sin novedad. Relevado 1500». ¿Cuál es la MEJOR medida correctiva según el libro?",
+   [
+    "Que las órdenes de puesto exijan registrar hechos concretos, como salidas de llaves y escoltas",
+    "Eliminar el puesto de inmediato, porque varios días sin novedad demuestran que el puesto sobra",
+    "Sustituir la bitácora en papel por una electrónica con campos de datos personalizados y obligatorios",
+    "Pedir al oficial que reescriba las entradas anteriores de la bitácora con más detalle descriptivo"
+   ],
+   0,
+   "Ese patrón sugiere que el puesto sobra, que el oficial no cumple o que no fue capacitado para reportar; por eso las órdenes de puesto deben exigir registrar hechos concretos (llaves, escoltas, ayuda a visitantes o contratistas). Eliminar el puesto salta a una sola de las tres explicaciones, y reescribir entradas viola la regla de no alterar la bitácora."
+  ],
+  [
+   "En un centro comercial se detecta actividad de bandas de robo en tiendas (retail theft rings). ¿Qué rol del oficial cobra más importancia y qué capacitación exige?",
+   [
+    "Recolección de información; fundamentos de investigación, entrevista y reporte investigativo",
+    "Relaciones públicas; expectativas y cultura corporativa, y trato con los medios de comunicación",
+    "Consultor legal; responsabilidad civil, negligencia, contratos y derecho laboral y regulatorio",
+    "Especialista en seguridad física; aspectos técnicos de los equipos y aprendizaje de por vida"
+   ],
+   0,
+   "El rol de recolección de información (information collection) crece cuando hay crimen organizado, como las bandas de robo en tiendas, y exige fundamentos de investigación, técnicas de entrevista y redacción de reportes investigativos. El especialista en seguridad física asesora sobre protección y prevención, pero no es el rol centrado en detectar y reportar actividad criminal."
+  ],
+  [
+   "Si la normativa lo permite, ¿en qué condición justifica el libro armar a los oficiales con armas de fuego?",
+   [
+    "Cuando es razonable esperar que el oficial deba usar fuerza letal",
+    "Cuando el cliente desea proyectar una imagen más autoritaria",
+    "Cuando el oficial ya posee un arma propia con licencia vigente",
+    "Cuando el arma permite reducir los costos de seguro y de capacitación del sitio"
+   ],
+   0,
+   "Armar solo se justifica si sin el arma hay mayor peligro para la vida o si es razonable esperar que el oficial deba usar fuerza letal. Armar aumenta, no reduce, la responsabilidad legal y los costos de capacitación, seguros y cumplimiento regulatorio."
+  ],
+  [
+   "Un oficial de hospital debe elegir qué herramienta menos que letal (less than lethal) portar en una sala de urgencias que suele estar llena. ¿Cuál considera el libro irresponsable en ese entorno?",
+   [
+    "Los irritantes en aerosol (gas pimienta), por su mayor riesgo residual para terceros",
+    "Las esposas, porque técnicamente no se consideran armas de autodefensa",
+    "El stun baton, porque exige contacto directo y puede causar dolor sin incapacitar",
+    "El bastón expandible, porque solo puede usarse sobre masas musculares grandes del sujeto"
+   ],
+   0,
+   "Los irritantes en aerosol tienen mayor riesgo residual para terceros, y el libro pone como ejemplo de uso irresponsable una sala de urgencias llena; además obligan a dar cuidados posteriores y custodia. Las limitaciones del bastón o del stun baton son reales, pero el libro no las presenta como impropias de ese lugar."
+  ],
+  [
+   "Según la sección 5.3 (Selection of Personnel) de la guía ASIS PSO (Private Security Officer Selection and Training Guideline), ¿qué debe hacer la organización con un candidato cuya competencia no cumple los criterios mínimos del puesto?",
+   [
+    "Descartarlo o darle la capacitación necesaria para que los cumpla",
+    "Contratarlo a prueba y evaluarlo al cumplir un año en el puesto",
+    "Asignarlo solo a puestos fijos, donde la supervisión es más directa",
+    "Rebajar los criterios del puesto para ajustarlos a la oferta del mercado"
+   ],
+   0,
+   "La PSO pide fijar criterios mínimos coherentes con las obligaciones legales, regulatorias y contractuales, evaluar a cada persona contra ellos y descartar a quien no los cumpla o darle la capacitación necesaria. Rebajar los criterios contradice el propósito de fijar estándares mínimos."
+  ],
+  [
+   "¿Qué factor de la conducta (behavior) del oficial debe enfatizarse en la capacitación y consiste en actuar sin prisa ni emoción excesiva, evitando lenguaje abusivo, discusiones y, si es posible, la fuerza?",
+   [
+    "La cortesía (courtesy)",
+    "La contención (restraint)",
+    "El interés (interest)",
+    "La disciplina (discipline)"
+   ],
+   1,
+   "La contención es el factor que el libro pide enfatizar en la capacitación: conducta calmada y digna, tolerancia a otras opiniones y evitar discusiones y, si es posible, la fuerza. La cortesía es expresar consideración por los demás, y la disciplina es un rasgo del carácter (obedecer órdenes y no dejar el puesto), no un factor de conducta."
+  ],
+  [
+   "Un nuevo gerente de capacitación debe identificar los requisitos de capacitación de los oficiales de un sitio. Según el libro, ¿qué fuente debe revisar PRIMERO?",
+   [
+    "Los requisitos legales: estatuto estatal, reglamentos y contratos con clientes y sindicatos",
+    "Las guías de capacitación de vigilantes publicadas por ASIS International, NASCO y la IACP",
+    "Los calendarios de capacitación de instalaciones similares de la misma zona",
+    "Las prioridades que señalen los propios oficiales en un análisis de tareas del puesto (job task analysis)"
+   ],
+   0,
+   "El primer paso es identificar los requisitos legales (estatuto estatal, reglamentos administrativos, contratos con clientes y sindicales; las aseguradoras también pueden imponerlos); después se consultan normas, guías y mejores prácticas como las de ASIS, NASCO e IACP. Los estándares de la comunidad y el análisis de tareas del puesto (job task analysis) con los oficiales son fuentes complementarias."
+  ],
+  [
+   "Un gerente quiere capacitar a sus oficiales en uso de la fuerza y ética, temas que requieren juicio discrecional. ¿Qué método es el MÁS adecuado según el libro?",
+   [
+    "Ayudas de trabajo (job aids) colocadas en cada uno de los puestos",
+    "Estudio de caso (case study) con discusión activa en grupo",
+    "Clase expositiva (lecture) larga apoyada en diapositivas",
+    "Capacitación en el puesto (OJT) con lista de verificación"
+   ],
+   1,
+   "El estudio de caso, creado en Harvard en la década de 1880, es útil donde se requiere juicio discrecional (manejo de crisis, uso de la fuerza y ética) y funciona mejor en grupos con discusión activa. Las ayudas de trabajo solo complementan la capacitación, y la clase expositiva es ineficaz si no es corta y dinámica."
+  ],
+  [
+   "¿Qué distingue a un programa de oficial de capacitación de campo (FTO, field training officer) de un programa de mentoría (mentoring)?",
+   [
+    "El FTO solo enseña; el mentor evalúa y puede recomendar retener o despedir al nuevo",
+    "El FTO también evalúa y puede recomendar retener o despedir; el mentor solo enseña",
+    "El FTO actúa solo antes de la asignación; el mentor actúa ya en el puesto de trabajo",
+    "El FTO es más sencillo de implantar; la mentoría exige planeación y capacitación del guía"
+   ],
+   1,
+   "En el programa FTO el guía es también supervisor: evalúa el desempeño y en algún momento recomienda retener o despedir; el mentor enseña pero no evalúa ni decide. Por eso el FTO es un rol complejo que exige planeación, y el libro considera que la mentoría funciona mejor en la mayoría de entornos de seguridad."
+  ],
+  [
+   "Un programa busca que los oficiales entiendan otras culturas, traten adecuadamente a personas con discapacidad y comprendan la mentalidad criminal y la velocidad de un ataque. ¿Qué dominio del aprendizaje trabaja principalmente?",
+   [
+    "El dominio cognitivo (cognitive)",
+    "El dominio psicomotor (psychomotor)",
+    "El dominio afectivo (affective)",
+    "La socialización formal (socialization)"
+   ],
+   2,
+   "El dominio afectivo cambia cómo la persona ve una situación (actitudes y percepción): entender otras culturas, tratar a personas con discapacidad y captar la mentalidad criminal. El cognitivo se centra en el conocimiento y su teoría, y el psicomotor en habilidades físicas que requieren repetición."
+  ],
+  [
+   "Un gerente decide escribir cada plan de clase e impartir él mismo todos los cursos; al ver la carga, abandona y la capacitación se detiene. ¿Con qué obstáculo para capacitar relaciona el libro este «síndrome de la rana» (Frog Syndrome)?",
+   [
+    "Los límites de presupuesto",
+    "La falta de pericia gerencial",
+    "Los estereotipos del vigilante",
+    "El ego del gerente"
+   ],
+   3,
+   "Hertig (1993) llamó «síndrome de la rana» al gerente que «salta» a capacitar a todos en persona y «salta fuera» al ver la carga; el libro lo sitúa en el obstáculo del ego. La falta de pericia es otro obstáculo distinto: no saber diagnosticar necesidades, redactar objetivos o diseñar exámenes."
+  ],
+  [
+   "Según el libro, ¿por qué «la experiencia es la mejor maestra» no es necesariamente cierto en el desarrollo (development) del oficial?",
+   [
+    "Porque solo sirve si va precedida de un título universitario en seguridad privada",
+    "Porque sustituye a la capacitación, pero nunca a la educación formal",
+    "Porque debe ser guiada; si no se entiende, se aprenden lecciones erróneas",
+    "Porque solo cuenta cuando la valida un inspector independiente"
+   ],
+   2,
+   "El libro resume: educación + capacitación + experiencia guiada = desarrollo. Supervisores y gerentes deben guiar la experiencia para que sea formativa; si no se entiende, se aprenden lecciones erróneas que luego se repiten."
+  ],
+  [
+   "Por obras, una puerta se cerrará durante tres semanas, lo que cambia las tareas de un puesto cercano. ¿Qué tipo de orden corresponde y qué debe indicar con claridad?",
+   [
+    "Una orden general (general order) aplicable a toda la fuerza",
+    "Una orden especial (special order) con su periodo de vigencia",
+    "Una orden de puesto permanente que sustituya a la anterior",
+    "Una instrucción verbal del supervisor en el cambio de turno"
+   ],
+   1,
+   "Las órdenes especiales atienden eventos temporales, como el cierre temporal de otra puerta que afecta un puesto, y deben indicar con claridad su periodo de vigencia. Las órdenes generales aplican a toda la fuerza, y las instrucciones de boca en boca son justo lo que las órdenes escritas buscan evitar."
+  ],
+  [
+   "En una planta, el primer turno es de 0700 a 1500 y el segundo de 1500 a 2300. La gerencia necesita más oficiales durante el cambio de turno de la planta sin pagar horas extra. ¿Qué medida propone el libro?",
+   [
+    "Pedir a dos oficiales del primer turno que se queden una hora más, pagada como tiempo extra",
+    "Que el supervisor cubra con regularidad un puesto fijo durante cada cambio de turno de la planta",
+    "Incluir una hora de comida en el primer turno (0700–1600), que se traslapa con el segundo",
+    "Adelantar la entrada del segundo turno a 1400 y pagar a cada oficial la hora adicional"
+   ],
+   2,
+   "Maximizar el horario en tiempo ordinario (straight time schedule) consiste en traslapar turnos de forma planeada: una comida de 1 hora dentro del turno alarga la presencia a 0700–1600, y de 1500 a 1600 ambos turnos están completos sin horas extra. Que el supervisor haga con regularidad el trabajo del oficial puede causar una queja formal (grievance) si hay contrato colectivo."
+  ],
+  [
+   "Una empresa de seguridad por contrato quiere probar cómo reacciona un oficial ante un paquete sospechoso introducido en la instalación. ¿Quién debe hacer la prueba según el libro?",
+   [
+    "El supervisor inmediato del oficial, que conoce mejor el puesto",
+    "El gerente del cliente, para que la prueba tenga validez contractual",
+    "Un compañero de turno, para que la prueba resulte más realista",
+    "Un inspector independiente, ajeno a la cadena de mando de la fuerza"
+   ],
+   3,
+   "Los inspectores independientes aportan tres ventajas: el oficial no los conoce, son más objetivos y permiten mejores pruebas de reacción, como introducir un paquete sospechoso. El supervisor inmediato puede estar influido por sesgos personales y el oficial lo reconocería."
+  ],
+  [
+   "En el programa Business Watch de la policía de Prince William County (Virginia), ¿cuál es uno de los requisitos para que una organización sea Certified Crime Prevention Business?",
+   [
+    "Contratar al menos un oficial de seguridad propio en cada turno de operación",
+    "Instalar videovigilancia conectada a la central de la policía del condado",
+    "Aceptar una evaluación de seguridad en sitio por personal que conozca CPTED",
+    "Afiliar a su gerente de seguridad a la IASIR o a una asociación similar"
+   ],
+   2,
+   "Los cuatro requisitos son: políticas y procedimientos escritos contra el delito, capacitar a los empleados en prevención del delito, aceptar una evaluación en sitio por personal de la Crime Prevention Unit que conozca CPTED (prevención del delito mediante el diseño ambiental) y designar un enlace con la policía. El programa aprovecha al personal que no es de seguridad, así que no exige contratar oficiales."
+  ]
+ ],
+ "13": [
+  [
+   "En el proyecto de un edificio nuevo, el director financiero y el comité de obra controlan el alcance y los fondos; el gerente de seguridad aporta sus necesidades, pero no decide ni administra el presupuesto. Según el libro, ¿qué rol tiene el gerente de seguridad en ese proyecto?",
+   [
+    "Influyente del proyecto (project influencer)",
+    "Parte interesada (project stakeholder)",
+    "Controlador de fondos (funding controller)",
+    "Decisor principal (principal decision maker)"
+   ],
+   1,
+   "El libro asigna al gerente de seguridad el rol de project stakeholder cuando otros controlan el alcance y los fondos. Como project influencer (junto con el jefe jurídico o un consultor) sí influiría en el alcance y el presupuesto, que no es el caso descrito."
+  ],
+  [
+   "Según la lista de áreas de proceso que cita el libro (Project Management Institute), ¿a qué área pertenecen los subprocesos de selección de fuentes (source selection) y cierre del contrato (contract closeout)?",
+   [
+    "Project integration management",
+    "Project communications management",
+    "Project procurement management",
+    "Project risk management"
+   ],
+   2,
+   "Source selection y contract closeout son subprocesos de project procurement management, junto con procurement planning, solicitation planning, solicitation y contract administration. El distractor más tentador es communications management, que incluye el cierre administrativo (administrative closure), no el cierre del contrato."
+  ],
+  [
+   "Un director general quiere mejorar la seguridad de visitantes y pide al gerente de seguridad que empiece de inmediato a cotizar cámaras y lectoras. ¿Qué debe hacer PRIMERO el gerente según el capítulo?",
+   [
+    "Emitir una solicitud de propuestas (RFP) a licitantes calificados",
+    "Basar el proyecto en un análisis de riesgo (security risk assessment)",
+    "Fijar el presupuesto preliminar con cotizaciones de varios proveedores",
+    "Convocar la reunión de arranque (kick-off meeting) con el contratista"
+   ],
+   1,
+   "Todo proyecto de seguridad debe basarse en un análisis de riesgo; sin él, el alcance se decide sin conocer amenazas, probabilidades, vulnerabilidades ni consecuencias, solo con suposiciones. Cotizar, licitar o arrancar con el contratista son pasos posteriores que dependen de ese alcance."
+  ],
+  [
+   "Las pruebas de aceptación (acceptance testing) de un sistema de protección física (PPS) están programadas para el 30 de junio. Según el proceso del capítulo, ¿cuándo debe impartirse la capacitación en monitoreo del sistema?",
+   [
+    "Hacia el 31 de mayo, unos 30 días antes de las pruebas",
+    "Hacia el 23 de junio, una semana antes de las pruebas",
+    "El 30 de junio, junto con las propias pruebas de aceptación",
+    "En julio, al arrancar el periodo de garantía de 12 meses"
+   ],
+   0,
+   "El libro sitúa la capacitación en monitoreo del sistema 30 días antes del acceptance testing, dentro de la gestión de la implantación. La semana es el plazo de otro evento: el bidder's conference o site visit, una semana después de emitir la RFP."
+  ],
+  [
+   "Según el capítulo, cuando un proyecto de seguridad excede alguna de sus restricciones (alcance, cronograma, presupuesto o calidad), ¿a qué se debe normalmente?",
+   [
+    "A amenazas nuevas que surgen durante la construcción",
+    "A cambios en los códigos y regulaciones aplicables",
+    "A una mala concepción o mala gestión del proyecto",
+    "Al incumplimiento del contratista durante la garantía"
+   ],
+   2,
+   "El libro afirma que exceder las restricciones suele deberse a mala concepción o mala gestión; un proyecto bien concebido permite al project manager equilibrar las cuatro sin excederlas. Las demás causas pueden ocurrir, pero no son la explicación que da el libro."
+  ]
+ ],
+ "14": [
+  [
+   "El diseño de un sistema de seguridad va retrasado y un directivo propone duplicar el equipo de diseño y el presupuesto para acelerarlo. ¿Qué debe explicarle el gerente de seguridad según el libro?",
+   [
+    "Es un proceso en serie: en general, más personal o presupuesto no lo acorta sustancialmente",
+    "El diseño admite fases en paralelo: duplicar el equipo reduce el plazo casi a la mitad",
+    "Solo un proyecto llave en mano (turnkey) acorta el diseño, a cambio de omitir el análisis de riesgo",
+    "El plazo depende del método de compra: una IFB elimina la fase de documentos de construcción"
+   ],
+   0,
+   "En el proceso en serie (serial process) cada fase se completa antes de la siguiente y su salida es la entrada de la otra; por eso añadir personal o presupuesto, en general, no lo acorta sustancialmente. Solo una relación design/build con un contratista lo acorta un poco."
+  ],
+  [
+   "¿Cuál es la primera y más importante salida de la fase de planeación y evaluación (planning and assessment) en un proyecto de diseño de seguridad?",
+   [
+    "La especificación de desempeño (performance specification)",
+    "El security basis of design",
+    "El juego de documentos de construcción (construction documents)",
+    "El estimado de diseño final (final design estimate)"
+   ],
+   1,
+   "La planeación y evaluación siempre culmina en un security basis of design, la primera y más importante salida del proceso, centrado en requisitos concretos y en una solución conceptual basada en ellos. Especificaciones, documentos de construcción y estimado final llegan en fases posteriores."
+  ],
+  [
+   "Un diseñador redacta este requisito: «El sistema impedirá el 100 % de las entradas no autorizadas al centro de datos». ¿Cómo debería reformularlo según el libro?",
+   [
+    "Mantener el objetivo absoluto, pero duplicar las barreras físicas y las lectoras del perímetro",
+    "En términos de detectar y retrasar (detect, delay), con un nivel de confianza por requisito",
+    "Sustituir «impedirá» por «disuadirá», porque la disuasión no necesita un nivel de confianza",
+    "Expresarlo como número de intentos tolerados al año, sin vincularlo a las consecuencias de la entrada"
+   ],
+   1,
+   "El factor de nivel de confianza (level-of-confidence factor) lleva a decir detect y delay en vez de prevent, porque un PPS con objetivos absolutos es imposible o imprácticamente caro. Además, el peligro real no es la entrada no autorizada sino sus consecuencias, así que los requisitos deben enfocarse en ellas."
+  ],
+  [
+   "Al diseñar un sistema de control de acceso para 2,000 titulares de tarjeta, ¿qué capacidad de reserva (spare capacity) recomienda el libro prever desde el inicio?",
+   [
+    "Del 3 al 5 %: unos 60 a 100 titulares adicionales",
+    "Del 25 al 30 %: aproximadamente 500 a 600 titulares adicionales",
+    "Ninguna; la capacidad se ajusta a mitad del diseño",
+    "Del 10 al 15 %: unos 200 a 300 titulares adicionales"
+   ],
+   3,
+   "El libro recomienda estimar pronto la capacidad y prever expansión con típicamente 10 a 15 % de reserva (200 a 300 sobre 2,000). Dejar el ajuste para mitad del proceso es justo lo que más complica un diseño."
+  ],
+  [
+   "Un proyecto prevé una cerradura electrónica de alta calidad en una puerta de madera hueca. ¿Qué criterio de diseño (design criteria) viola principalmente?",
+   [
+    "Capacidad (capacity), que debe prever un 10–15 % de reserva",
+    "Funciones (features), que deben preferir lo de catálogo",
+    "Calidad (quality), que debe ser uniforme entre componentes",
+    "Cultura e imagen, que deben reflejar a la organización"
+   ],
+   2,
+   "El criterio de calidad exige equilibrar calidad y costo con calidad uniforme; el libro pone como error típico una cerradura de alta calidad en una puerta de madera hueca, igual que una puerta metálica rodeada de tablaroca. Los otros criterios existen, pero no describen ese desequilibrio."
+  ],
+  [
+   "Mientras se prepara el basis of design, un miembro del equipo quiere debatir marcas de cámaras y cifras de presupuesto. Según el libro, ¿qué es lo apropiado en esta etapa?",
+   [
+    "Cerrar los detalles de ingeniería y elegir las contramedidas concretas de cada puerta",
+    "Preparar el presupuesto definitivo con las cantidades exactas de dispositivos",
+    "Lograr consenso sobre metas y alcance, y describir funcionalmente los subsistemas",
+    "Redactar la especificación en tres partes y entregarla a los licitantes"
+   ],
+   2,
+   "El basis of design sirve para lograr consenso del equipo sobre metas, qué incluye el proyecto y cómo protegerá los activos, derivando requisitos de un risk assessment riguroso y describiendo funcionalmente los subsistemas. No es momento de detalles de ingeniería, presupuestos ni debates sobre contramedidas concretas."
+  ],
+  [
+   "Según el libro, ¿cuál es el momento ideal para pedir a la dirección la aprobación de un sistema de protección física (PPS)?",
+   [
+    "Al completar el 90 % de los documentos de construcción",
+    "Al terminar el diseño conceptual (conceptual design)",
+    "Tras recibir y evaluar las ofertas de los licitantes",
+    "Al iniciar la evaluación de riesgo (risk assessment)"
+   ],
+   1,
+   "El nivel conceptual es el momento ideal: ya hay consenso de alcance y detalle suficiente para un presupuesto inicial, pues el diseño conceptual incluye un estimado presupuestal inicial de diseño y construcción. Las entregas del 90 % y la evaluación de ofertas son etapas muy posteriores."
+  ],
+  [
+   "Al seleccionar contramedidas, ¿qué conjunto de estrategias principales atribuye el libro a los diseñadores de seguridad?",
+   [
+    "Preparation, prevention, detection, response y recovery",
+    "Deter, detect, delay, respond y recover",
+    "Prevention, detection, control e intervention",
+    "Prevention, control y recovery"
+   ],
+   2,
+   "Para los diseñadores de seguridad son cuatro: prevention, detection, control e intervention (prevención, detección, control e intervención). El enfoque de homeland security usa cinco: preparation, prevention, detection, response y recovery; es el distractor más tentador."
+  ],
+  [
+   "Durante la obra, el contratista ve que los planos muestran una lectora de proximidad en una puerta, pero la especificación pide en esa puerta tarjeta más teclado (keypad). ¿Qué documento prevalece?",
+   [
+    "La especificación, porque tiene prioridad sobre los planos",
+    "Los planos, porque muestran qué se construye en cada lugar",
+    "El hardware schedule, porque detalla cada dispositivo de puerta",
+    "El riser, porque es el plano maestro de cada subsistema"
+   ],
+   0,
+   "Regla clave: ante discrepancias, las especificaciones tienen prioridad sobre los planos. Los planos muestran QUÉ se construye, pero la especificación recoge la intención del owner y CÓMO se construye."
+  ],
+  [
+   "¿Por qué el libro insiste en que los planos de montantes (risers) sean exactos y completos?",
+   [
+    "Porque muestran las alturas de montaje de cámaras y lectoras",
+    "Porque sustituyen a la especificación cuando hay discrepancias",
+    "Porque el arquitecto los usa como fondo de sus planos de planta",
+    "Porque los contratistas cuentan ahí los dispositivos al cotizar"
+   ],
+   3,
+   "El riser muestra subsistemas completos (video, control de acceso) con sus dispositivos y cables de interconexión; es el plano maestro donde los contratistas cuentan dispositivos y, como cotizan con esos conteos, debe ser exacto y completo. Las alturas de montaje aparecen en los alzados (elevations)."
+  ],
+  [
+   "Un PPS forma parte de una obra mayor y el equipo llega a la revisión del 50 % del diseño. ¿Qué tipo de estimado se prepara y con qué contingencia?",
+   [
+    "Budgetary estimate, con ±10 a 20 %",
+    "Preliminary design estimate, con ±10 %",
+    "Final design estimate, con ±5 %",
+    "Estimado de orden de magnitud, con 15 a 20 %"
+   ],
+   1,
+   "El preliminary design estimate se prepara en la revisión del 50 % con borradores de especificaciones, planos y schedules, y lleva ±10 %. El budgetary estimate (±10–20 %) corresponde a la planeación inicial y el final design estimate (±5 %) al 100 % del diseño."
+  ],
+  [
+   "En el costo del ciclo de vida (life-cycle cost) de un sistema de seguridad, ¿qué componente suele representar el mayor porcentaje?",
+   [
+    "El hardware y las refacciones de arranque",
+    "Los honorarios de ingeniería y diseño",
+    "Los costos de instalación (installation costs)",
+    "Los costos de operación (personal, energía y consumibles)"
+   ],
+   2,
+   "El libro señala que los costos de instalación (mano de obra, inspección, pruebas y commissioning, renta de equipo, permisos, fianzas, supervisión y overhead) son el mayor porcentaje del sistema. El hardware incluye solo el equipo original y las refacciones de arranque."
+  ],
+  [
+   "Aplicando el formato del estimado de ejemplo del libro: componentes $10,000; mano de obra de instalación $5,000; impuestos y envío del 12 % (solo sobre componentes); utilidad del 10 % y fianza de cumplimiento (performance bond) del 4 %. ¿Cuál es el costo total estimado?",
+   [
+    "Unos $19,219",
+    "Unos $18,533",
+    "Unos $18,468",
+    "Unos $17,820"
+   ],
+   1,
+   "El 12 % se aplica solo a componentes ($11,200), se suma la mano de obra ($16,200), la utilidad del 10 % se calcula sobre ese subtotal ($17,820) y la fianza del 4 % sobre el subtotal con utilidad: ≈ $18,533. Aplicar el 12 % también a la mano de obra da $19,219, y sumar 10 % + 4 % de una sola vez da $18,468."
+  ],
+  [
+   "Un contratista propone 85 puertas con lectora en cuatro corredores junto al lobby para que las visitas no entren solas a zonas de empleados, aunque el edificio casi no recibe visitas. Un consultor propone, en cambio, puertas automáticas con lectoras en cada corredor, donde antes no había puertas. ¿Qué lección extrae el libro de este caso?",
+   [
+    "El contratista se enfocó en el largo plazo; el consultor, solo en el proyecto actual del owner",
+    "El contratista resolvió dentro de las condiciones existentes; el consultor modificó el entorno",
+    "El consultor redujo el alcance porque no tenía capacitación en análisis de riesgo",
+    "Un proyecto llave en mano (turnkey) resulta siempre más barato que el diseño de un consultor"
+   ],
+   1,
+   "En el caso de la empresa Fortune 500, el consultor cambió el alcance y ahorró más de $100,000: el contratista resolvió dentro de las condiciones existentes y el consultor modificó el entorno para resolver el problema. Es el contratista, no el consultor, quien se centra en el proyecto actual; el consultor aporta la visión de largo plazo."
+  ],
+  [
+   "¿Qué tipo de analítica de video (video analytics) observa la escena durante un tiempo, aprende lo normal y luego alerta sobre cualquier cosa fuera de lo ordinario?",
+   [
+    "Analítica preprogramada (preprogrammed), con reglas de conducta específicas",
+    "Algoritmo de aprendizaje (learning algorithm), basado en una línea base",
+    "Video procesado (processed video), que mejora la claridad de la imagen",
+    "Persecución por video (video pursuit), que sigue al sujeto entre cámaras"
+   ],
+   1,
+   "El learning algorithm aprende una línea base (baseline: patrones de tráfico, clima, día y noche, conductas normales) y alerta sobre lo que no es normal. La analítica preprogramada, en cambio, busca conductas muy específicas definidas de antemano, como caminar en sentido contrario o dejar un paquete."
+  ],
+  [
+   "Una organización sustituye cámaras de resolución estándar por cámaras megapíxel y, para ahorrar, conserva los lentes estándar existentes. ¿Qué advierte el libro sobre esta decisión?",
+   [
+    "La imagen mejora igual, porque la resolución depende solo del sensor de la cámara",
+    "Solo se pierde el zoom digital; las demás capacidades megapíxel se mantienen",
+    "No sirve de nada: una cámara megapíxel necesita lentes de calidad megapíxel",
+    "El lente estándar obliga a comprimir con MPEG-4 en lugar de hacerlo con H.265"
+   ],
+   2,
+   "Entre los requisitos de infraestructura del megapíxel, el libro señala que se necesitan lentes de calidad megapíxel: un lente estándar en una cámara megapíxel no sirve de nada. También exigen más red (1 Gbps o más) y mucho más almacenamiento."
+  ],
+  [
+   "Para que un producto sea conforme con ONVIF debe cumplir al menos un perfil. ¿Qué perfil cubre la grabación y el almacenamiento de video?",
+   [
+    "Perfil S",
+    "Perfil T",
+    "Perfil C",
+    "Perfil G"
+   ],
+   3,
+   "El perfil G cubre la grabación y el almacenamiento de video. El S es streaming de video básico, el T streaming avanzado y el C control de acceso físico y gestión de eventos."
+  ],
+  [
+   "En un campus, un sistema de control de acceso obsoleto usa una base de datos propietaria que no es SQL y debe reportar sus alarmas al sistema del centro de monitoreo. ¿Qué método de integración prefiere el libro?",
+   [
+    "Por hardware: un relé de contacto seco (dry contact) por alarma",
+    "Enlace directo entre las bases de datos de ambos sistemas",
+    "Puerto RS-232 de impresora de alarmas con una base de datos SQL",
+    "Convertir todos los sistemas a una misma versión de software"
+   ],
+   0,
+   "Si el sistema monitoreado no usa base SQL, se prefiere el método por hardware: un relé de contacto seco por alarma, cableado a una entrada del sistema del centro, que además es inmune a las actualizaciones de software. El enlace de bases de datos y el método RS-232 dependen de programación SQL."
+  ],
+  [
+   "Un switch de la red de seguridad tiene puertos de 1 Gbps. Según la recomendación del libro, ¿cuánto ancho de banda de video, como máximo, debería pasar por cualquiera de esos puertos?",
+   [
+    "Unos 250 Mbps (25 %)",
+    "Unos 700 Mbps (70 %)",
+    "Unos 450 Mbps (45 %)",
+    "Unos 900 Mbps (90 %)"
+   ],
+   2,
+   "El libro recomienda usar no más del 45 % del ancho de banda en cualquier puerto, switch o segmento, sumando lo que el fabricante recomienda para la resolución y el frame rate de cada cámara. Así no hay cuadros perdidos, artefactos ni impacto en otros datos."
+  ],
+  [
+   "¿Qué distingue a un sistema de control de acceso de 5.ª generación de uno de 4.ª generación?",
+   [
+    "Usa un lazo de corriente de 20 mA vigilado con amperímetros para anunciar las alarmas",
+    "Toma todas las decisiones de acceso en una minicomputadora central con terminal dedicada",
+    "Se programa en firmware EPROM y solo hace lo que se programó de fábrica",
+    "Cada punto de entrada y salida es programable, como un PLC, y no se desperdician puntos"
+   ],
+   3,
+   "La 5.ª generación casi no usa EPROM: la programación se descarga al panel y cada punto de entrada y salida es programable, como un PLC (programmable logic controller). La 4.ª es la de firmware EPROM con flexibilidad limitada y cuatro puntos de hardware por lector, que se desperdician en puertas con lector de entrada y salida."
+  ],
+  [
+   "Una empresa mediana quiere comprar su nuevo sistema por proveedor único (sole source) para ahorrar tiempo y honorarios de diseño. ¿En qué caso lo recomienda el libro?",
+   [
+    "Siempre que el proyecto sea pequeño, aunque el dueño desconozca los precios del mercado",
+    "Solo si el dueño hace su propio análisis de necesidades y conoce sistemas y precios",
+    "Cuando la normativa exige adjudicar al postor calificado más bajo que cumple",
+    "Cuando el dueño quiere comparar precios entre varios contratistas calificados"
+   ],
+   1,
+   "El sole source se recomienda solo si el dueño puede hacer su propio análisis de necesidades de seguridad y conoce bien sistemas y precios: sin licitación no hay forma de comparar precios y el dueño puede fiarse de un contratista interesado en vender equipo. Adjudicar al postor calificado más bajo es propio de la IFB."
+  ],
+  [
+   "Una agencia de gobierno debe adjudicar la compra de un sistema de video al postor calificado más bajo que cumpla (lowest qualified, responsive bidder). ¿Qué forma de compra corresponde y qué exige del diseño?",
+   [
+    "RFP; especificaciones genéricas de desempeño con «or approved equal» y alternativas permitidas",
+    "IFB; documentos extremadamente explícitos, sin resquicios, con marcas y modelos ya elegidos",
+    "Sole source; documentos simples que complementen lo que el proveedor ya sabe del sitio",
+    "RFP; propuesta técnica y de costo, con adjudicación al mejor valor tras negociar"
+   ],
+   1,
+   "La invitación a licitar (IFB, invitation for bid) se adjudica por precio, normalmente sin negociación, así que el diseño debe ser extremadamente explícito y sin resquicios (loopholes), con marcas y modelos elegidos por el equipo de diseño; si deja resquicios, los postores sustituyen equipo inferior. La RFP busca el mejor valor y admite alternativas."
+  ],
+  [
+   "En una solicitud de propuestas (RFP), ¿qué condición es común exigir a una solución alternativa (alternate) para que pueda considerarse?",
+   [
+    "Que sustituya por completo al diseño especificado, sin cotizar la oferta base",
+    "Que use las mismas marcas y modelos de la oferta base, pero con menor plazo",
+    "Que cueste al menos un 10 % menos, aunque el desempeño sea algo menor",
+    "Que mejore el desempeño de forma medible y no cueste más que la oferta base"
+   ],
+   3,
+   "Para comparar costos con sentido, todos responden primero al diseño especificado y luego pueden ofrecer alternates; es común exigir que mejoren el desempeño de forma medible y cuesten igual o menos que la oferta base (base bid). Ofrecer solo la alternativa impediría comparar las propuestas."
+  ]
+ ],
+ "15": [
+  [
+   "Durante la visita al sitio, el contratista de instalación descubre que varios contactos de puerta existentes, que deben integrarse al nuevo sistema de protección física (PPS, physical protection system), no funcionan. ¿Qué debe hacer el contratista?",
+   [
+    "Reemplazarlos de inmediato por su cuenta para no retrasar el cronograma, y avisar por escrito al cliente al terminar",
+    "Documentarlo por escrito con fichas técnicas y costo estimado, y esperar el permiso escrito del cliente",
+    "Desconectar las líneas de señal existentes para aislar la falla y después informar al representante del propietario",
+    "Sacar esos contactos del paquete de diseño y seguir con la instalación de los componentes nuevos"
+   ],
+   1,
+   "En la preparación del sitio (site preparation), el contratista respalda por escrito los elementos que no funcionan con fichas técnicas (specification sheets) o requisitos funcionales y el costo estimado de corregirlos, y no toma ninguna acción correctiva sin permiso escrito del cliente. Desconectar líneas de señal o provocar tiempo fuera de servicio (downtime) también exige aprobación escrita previa."
+  ],
+  [
+   "El contratista de seguridad llega al proyecto con una fecha final fija, pero el trabajo previo de otros contratistas (precursor work) que necesita para instalar no está terminado. ¿Qué debe hacer PRIMERO?",
+   [
+    "Instalar solo en las áreas listas y absorber el retraso sin informarlo, para no afectar la relación con los demás",
+    "Pedir al diseñador del sistema que cambie el paquete de diseño para evitar las áreas que siguen pendientes",
+    "Avisar de inmediato al representante del propietario (owner's representative) y gestionar que el trabajo previo se termine",
+    "Suspender su obra y reclamar a los otros contratistas las penalidades por retraso previstas en el contrato"
+   ],
+   2,
+   "Como el contratista de seguridad suele ser el último en llegar, el libro indica avisar de inmediato al representante del propietario y gestionar que el trabajo previo se termine; si hace falta, pedir extensión del cronograma o exención (waiver) de sus penalidades por retraso. Absorber el retraso en silencio no resuelve la coordinación del cronograma (project schedule)."
+  ],
+  [
+   "Según los requisitos de instalación, ¿qué enunciado distingue MEJOR un cerradero eléctrico (electric door strike) de una cerradura electromagnética (electromagnetic lock)?",
+   [
+    "El cerradero puede ser fail safe o fail secure; la electromagnética siempre se libera al fallar la energía",
+    "La electromagnética puede ser fail secure; el cerradero siempre se libera al fallar la energía",
+    "El cerradero cambia de estado en máximo 300 ms; la electromagnética, en máximo 500 ms",
+    "La electromagnética requiere corriente de arranque de 1 A; el cerradero, retención de 1,200 lb"
+   ],
+   0,
+   "Según la aplicación, el cerradero se libera (fail safe) o queda cerrado (fail secure), mientras que la cerradura electromagnética siempre se libera automáticamente ante una falla de energía. Los distractores invierten los datos: el cerradero cambia de estado en máximo 500 ms y la electromagnética en 300 ms; la corriente de arranque (inrush current) de 1 A es del cerradero y la retención de 1,200 lb (544 kg), de la electromagnética."
+  ],
+  [
+   "Un almacén tiene contactos en una puerta con un panel de vidrio. El análisis indica que un intruso podría romper el vidrio y pasar sin abrir la puerta. ¿Qué medida es MÁS adecuada?",
+   [
+    "Cambiar el contacto de superficie por uno empotrado de alta seguridad con clasificación de fuego",
+    "Supervisar la línea del contacto con una resistencia de fin de línea (end-of-line resistor)",
+    "Sustituir el contacto por un detector de doble tecnología orientado hacia el muro exterior",
+    "Complementar los contactos con sensores de impacto (shock sensors) o un detector infrarrojo pasivo (PIR)"
+   ],
+   3,
+   "Los contactos de puerta y ventana (door and window contacts) detectan la apertura, pero no necesariamente la rotura; si el intruso puede patear un panel o romper un vidrio, el libro pide complementarlos con sensores de impacto o PIR. Un contacto de mejor calidad sigue sin detectar la rotura, y el detector de doble tecnología no debe usarse donde sus microondas detecten a través de muros delgados."
+  ],
+  [
+   "Un integrador propone cablear las cámaras IP con cable categoría 5, porque TIA-568 categoría 5 es la norma que el libro pide para la red local (LAN, local area network). ¿Cuál es la MEJOR respuesta del gerente de seguridad?",
+   [
+    "Aceptarlo, porque la categoría 5 de TIA-568 cubre todo el cableado de red del sistema",
+    "Exigir coaxial RG-59/U en los tramos de cámara de hasta 328 ft (100 m)",
+    "Exigir categoría 6 aumentada (Augmented Category 6) UTP con RJ-45 para video, probando cada cable",
+    "Aceptarlo solo si ninguna conexión individual supera los 25 ft (7.6 m)"
+   ],
+   2,
+   "El libro pide TIA-568 categoría 5 para el cableado LAN, pero el cableado de video de cámaras exige CAT 6A con par trenzado sin blindaje (UTP) y conectores RJ-45, probando cada cable contra los estándares del fabricante. El límite de 328 ft (100 m) es por conexión de video digital TCP/IP, y el RG-59/U es para video analógico de 25 ft o menos."
+  ],
+  [
+   "Al recibir los paneles de control, el gerente de seguridad nota que todas las cerraduras de mantenimiento usan la llave estándar de fábrica, la misma que el fabricante entrega a otros clientes. ¿Qué debe hacer?",
+   [
+    "Conservarlas, porque el libro recomienda llave común (keyed alike) en las cerraduras de mantenimiento",
+    "Dar a cada envolvente una llave distinta para que ninguna llave abra más de un panel",
+    "Cambiarlas por cerraduras con llave común propia de la instalación, bajo un plan de control de llaves",
+    "Conservarlas y compensar el riesgo con interruptores antisabotaje en una zona de 24 horas"
+   ],
+   2,
+   "El libro recomienda llave común (keyed alike) para las cerraduras de mantenimiento, pero propia del edificio o instalación, nunca la de fábrica que reciben otras instalaciones; las llaves se gestionan con un plan de control de llaves (key control plan). Conservar la llave de fábrica confunde 'keyed alike' con cualquier llave común, y los interruptores antisabotaje (tamper switches) no corrigen ese riesgo."
+  ],
+  [
+   "El cliente quiere programar el curso de evaluación de alarmas y despacho (alarm assessment and dispatch) para los operadores, pero aún no existen procedimientos de evaluación y respuesta a alarmas. ¿Qué debe hacer PRIMERO?",
+   [
+    "Dar el curso de inmediato y redactar los procedimientos a partir de lo que surja en clase",
+    "Que cliente y contratista elaboren primero los procedimientos de evaluación y respuesta a alarmas",
+    "Sustituirlo por el curso de respuesta a incidentes (incident response) para la fuerza de respuesta",
+    "Posponerlo para después de la prueba de confiabilidad, junto con el curso de diagnóstico y mantenimiento"
+   ],
+   1,
+   "El curso de evaluación de alarmas y despacho supone que cliente y contratista ya tienen procedimientos de evaluación y respuesta a alarmas, y se basa en los tipos de alarma que pueden dar los subsistemas. El de respuesta a incidentes es para otra audiencia (la fuerza de respuesta) y también exige procedimientos ya desarrollados."
+  ],
+  [
+   "En horario laboral, la puerta del andén de carga (loading dock) envía alarmas sin parar al centro de monitoreo y distrae a los operadores. Según el ajuste del sistema de alarmas (tuning), ¿cuál es la MEJOR medida?",
+   [
+    "Pasar el monitoreo de ese punto al personal del área del andén en horario laboral",
+    "Anular (shunt) las alarmas de cada empleado que usa esa puerta para que no se generen a ninguna hora",
+    "Reemplazar el contacto de la puerta por un sensor de microondas de mayor alcance",
+    "Exigir una llamada a la central cada vez que alguien abra la puerta del andén"
+   ],
+   0,
+   "Para una puerta de andén que llega sin parar al centro de monitoreo en horario laboral, el libro propone pasar el monitoreo de ese punto al personal del área. La llamada obligatoria a la central es el procedimiento para puertas aseguradas con movimiento controlado de material, y la anulación (shunt) se reserva para personal autorizado de confianza."
+  ],
+  [
+   "Tras un año de operación, el gerente de seguridad quiere confirmar con instrumentos calibrados que los sensores perimetrales siguen cumpliendo la probabilidad de detección especificada. ¿Qué prueba posterior a la implementación necesita?",
+   [
+    "Prueba operativa (operational test)",
+    "Prueba posmantenimiento (post-maintenance test)",
+    "Prueba de alcance limitado (limited scope test)",
+    "Prueba de desempeño (performance test)"
+   ],
+   3,
+   "La prueba de desempeño verifica que el equipo cumple sus especificaciones, midiendo parámetros como la probabilidad de detección, y puede requerir instrumentos calibrados. La operativa solo prueba que el sistema funciona (p. ej., que el sensor se activa al caminar) sin verificar especificaciones, y la posmantenimiento es una prueba operativa."
+  ],
+  [
+   "El contratista terminó la prueba de aceptación en sitio y quiere iniciar al día siguiente la prueba de confiabilidad (reliability test), aunque la capacitación especificada en el contrato no ha terminado. ¿Qué debe hacer el cliente?",
+   [
+    "Autorizarla, porque la capacitación especificada solo se exige antes del certificado de terminación práctica",
+    "No autorizarla hasta avisar por escrito que aceptación, capacitación y correcciones pendientes están completas",
+    "Autorizar la Fase I y exigir que la capacitación termine durante la evaluación de esa fase",
+    "Sustituirla por una prueba de evaluación (evaluation test) independiente al cabo del primer año"
+   ],
+   1,
+   "La prueba de confiabilidad no empieza hasta que el cliente avise por escrito tres cosas: aceptación completada, capacitación terminada (si se especificó) y deficiencias pendientes corregidas. Después corren dos fases de 24 h al día durante 15 días naturales consecutivos cada una; la prueba de evaluación es posterior a la implementación y no la sustituye."
+  ],
+  [
+   "Por el tamaño y la complejidad de su sistema, un cliente pide al contratista armar un sistema de prueba en fábrica (factory acceptance test). ¿Qué condición debe cumplir esta prueba?",
+   [
+    "Hacerse después de instalar, con el sistema completo en su ubicación definitiva",
+    "Diseñarla siempre el contratista; el cliente solo recibe un resumen de resultados",
+    "Durar 24 h al día durante 15 días naturales consecutivos, festivos incluidos",
+    "Programarse antes de cualquier instalación, con modelos idénticos a los que se entregarán"
+   ],
+   3,
+   "La prueba de aceptación en fábrica se programa antes de cualquier instalación, el cliente asiste y observa, y los números de modelo probados deben ser idénticos a los que se entregarán en sitio; los originales de datos y resultados van al cliente. La diseña el cliente (o el contratista si el cliente se lo exige), y los 15 días consecutivos corresponden a cada fase de la prueba de confiabilidad."
+  ],
+  [
+   "Durante el periodo de garantía falla una lectora de tarjeta. El contratista avisa que la cambiará cuando el fabricante le envíe la refacción, en tres semanas. ¿Cómo debe valorarlo el gerente de seguridad?",
+   [
+    "Es aceptable, porque la garantía solo obliga a llegar al sitio en 4 horas, no a la reparación en sí",
+    "Es aceptable si la falla queda anotada en la base de datos de visitas de servicio",
+    "Es inaceptable: el contratista debe tener inventario de refacciones para reparar o reemplazar rápido",
+    "Es inaceptable solo si los 12 meses de garantía empezaron con la prueba en fábrica"
+   ],
+   2,
+   "La garantía cubre reparar, corregir o reemplazar cualquier defecto y exige inventario suficiente de refacciones; esperar al fabricante no es aceptable. Llegar en 4 horas es el tiempo habitual de respuesta, pero no sustituye la reparación, y los 12 meses corren desde el certificado de terminación práctica (certificate of practical completion)."
+  ]
+ ],
+ "16": [
+  [
+   "Una empresa tiene contratos separados para el hardware, el software, la red y los servicios de su sistema integrado de seguridad. Cada vez que hay una falla, los proveedores se culpan entre sí y la reparación se retrasa. ¿Cuál es a menudo la MEJOR solución según el libro?",
+   [
+    "Asignar a un técnico propio para que diagnostique cada falla y decida a qué proveedor llamar",
+    "Contratar a un solo contratista o integrador como punto único de contacto (single point of contact)",
+    "Agregar a cada contrato penalidades por incumplir el tiempo de respuesta de 2 a 4 horas",
+    "Dividir los contratos por subsistema para que cada proveedor responda solo por su parte"
+   ],
+   1,
+   "Con sistemas complejos e integrados, los contratos separados dificultan identificar la falla y generan culpas cruzadas (finger-pointing). A menudo la mejor solución es un solo contratista o integrador que diagnostique la causa y gestione la solución, involucrando a terceros si hace falta; dividir más los contratos agrava el problema."
+  ],
+  [
+   "Al negociar el acuerdo de nivel de servicio (SLA, service level agreement), el cliente exige respuesta garantizada en menos de 4 horas para todos los componentes, incluidas las cámaras individuales. ¿Cuál es el MEJOR consejo?",
+   [
+    "Aceptarlo, porque el libro fija 4 horas como respuesta máxima para cualquier componente",
+    "Excluir las cámaras del acuerdo, porque la falla de una sola cámara nunca justifica ningún soporte",
+    "Fijar el nivel de cada componente según el impacto de su falla; bajar de 4 horas encarece rápido",
+    "Exigir un ingeniero destacado en sitio con todos los repuestos para cualquier componente"
+   ],
+   2,
+   "La regla es que a mayor impacto de la falla, mayor nivel de soporte; cliente y contratista fijan juntos el nivel de cada componente, y garantizar respuesta en menos de 4 horas dispara rápido los costos de personal, viajes y equipo. Lo más probable es una devolución inmediata de la llamada y llegada en 2 a 4 horas; el ingeniero en sitio es el caso extremo."
+  ],
+  [
+   "El equipo de seguridad de un sitio tiene un costo de capital de USD 2,000,000. Según la regla práctica del libro, ¿cuánto conviene presupuestar para comprar repuestos?",
+   [
+    "Unos USD 100,000 cada año",
+    "Unos USD 100,000 una sola vez, en la compra original",
+    "Unos USD 20,000 cada año",
+    "Unos USD 200,000 cada año"
+   ],
+   0,
+   "La regla práctica es destinar alrededor del 5 % del costo de capital del equipo de un sitio, cada año, a repuestos: 5 % de 2,000,000 son 100,000 anuales. No es un gasto único: el presupuesto se repite cada año, y la cantidad concreta depende del tiempo para conseguirlos, el costo de inventario y la probabilidad de reemplazo."
+  ],
+  [
+   "Un sitio tiene un generador de emergencia como único respaldo de energía para su sistema de control de acceso y alarmas. ¿Cuál es la principal deficiencia de este arreglo?",
+   [
+    "El generador debe probarse solo cuando falla la fuente principal, para no desgastarlo",
+    "El cambio al respaldo debería ser manual, para evitar arranques del generador en falso",
+    "Falta un segundo generador, porque el respaldo de energía exige redundancia con la misma tecnología",
+    "El generador casi nunca da un cambio (switchover) inmediato; se requieren baterías hasta que alcance potencia plena"
+   ],
+   3,
+   "El cambio al respaldo debe ser inmediato y automático, y con un generador como único respaldo casi nunca lo es; las baterías cubren el hueco hasta que el generador alcanza potencia plena. Además, el respaldo se prueba periódicamente y cada prueba se registra con fecha, nombre de quien la hizo y resultados."
+  ],
+  [
+   "Al reemplazar su software de monitoreo, una organización evalúa una plataforma PSIM (physical security information management). ¿Qué describe MEJOR su ventaja frente al software propietario tradicional?",
+   [
+    "Une alarmas, video, audio bidireccional, mapas y recursos de respuesta en una imagen coherente del incidente",
+    "Permite llevar varias credenciales en una sola tarjeta y añadir lectoras biométricas al control de acceso",
+    "Da al operador visibilidad completa de un solo sistema, ya sea de alarma y acceso o de video",
+    "Sustituye las cámaras analógicas por digitales y mejora la calidad del video grabado"
+   ],
+   0,
+   "El PSIM de conciencia situacional (situational awareness) une alarmas, video, audio bidireccional, mapas y recursos de respuesta en una imagen coherente, y ayuda a ver si incidentes simultáneos están relacionados o separados. La visibilidad de un solo sistema es justo lo que caracteriza al software propietario que el PSIM supera; varias credenciales en una tarjeta (multi-credentialing) es otra tendencia, del control de acceso."
+  ]
+ ],
+ "A": [
+  [
+   "Durante un recorrido, el gerente de seguridad comprueba que el personal de limpieza deja abierta con frecuencia la puerta trasera del edificio para sacar la basura. Según las definiciones del libro, ¿qué representa esta práctica?",
+   [
+    "Una amenaza (threat)",
+    "Un vector de amenaza (threat vector)",
+    "Una vulnerabilidad (vulnerability)",
+    "Un incidente de seguridad (security incident)"
+   ],
+   2,
+   "Una vulnerabilidad es una debilidad, condición o práctica organizacional que facilita o permite que una amenaza cause daño. La amenaza es la entidad o acción que podría causar la pérdida (un actor o una acción de amenaza), y el vector de amenaza es la vía concreta por la que se ejecuta esa acción."
+  ],
+  [
+   "Antes de diseñar un edificio, el equipo define que debe resistir a un grupo de cuatro agresores con herramientas manuales, armas cortas y un vehículo con explosivos. ¿Qué término describe MEJOR esta definición?",
+   [
+    "Perfil de riesgo (risk profile)",
+    "Amenaza base de diseño (design basis threat, DBT)",
+    "Evaluación de riesgos (risk assessment)",
+    "Distancia de retiro (standoff distance)"
+   ],
+   1,
+   "La amenaza base de diseño es la amenaza contra la que se protege el activo y sobre la que se diseña el sistema de protección: el tipo y tamaño de amenaza que debe resistir el edificio, incluidas las tácticas de los agresores y sus herramientas, armas y explosivos. El perfil de riesgo describe los riesgos de una entidad, no la amenaza que fija el diseño."
+  ],
+  [
+   "Un consultor visita una planta, entrevista al personal, observa las operaciones y revisa documentos para conocer su estado de seguridad, hallar deficiencias o excesos de protección y recomendar mejoras. ¿Qué está realizando?",
+   [
+    "Una evaluación de riesgos (risk assessment)",
+    "Una gestión de riesgos (risk management)",
+    "Un levantamiento de métricas (metrics)",
+    "Un estudio de seguridad (security survey)"
+   ],
+   3,
+   "El estudio de seguridad (security survey o physical security assessment) es un examen crítico en sitio de un edificio o instalación para conocer su estado de seguridad, hallar deficiencias o excesos, fijar la protección necesaria y recomendar mejoras, con datos de entrevistas, observación y revisión de documentos. La evaluación de riesgos es otro proceso: identifica y valora activos, enumera amenazas, documenta vulnerabilidades, describe impactos y analiza los riesgos."
+  ],
+  [
+   "Un documento indica, paso a paso, cómo el recepcionista registra al visitante, verifica su identificación, le entrega el gafete y llama al anfitrión para que lo escolte. Según las definiciones del libro, ¿qué es este documento?",
+   [
+    "Un procedimiento (procedure)",
+    "Una política (policy)",
+    "Una medida de seguridad física (physical security measure)",
+    "Una estrategia de defensa en profundidad (defense-in-depth)"
+   ],
+   0,
+   "Un procedimiento son instrucciones detalladas para aplicar políticas o una práctica de negocio de una función específica. Una política es solo un enunciado general del principio según el cual la organización realiza sus funciones, sin el detalle paso a paso."
+  ],
+  [
+   "¿Qué término define el libro como la disciplina de negocio que identifica, analiza y comunica el riesgo, y luego lo acepta, evita, transfiere o controla hasta un nivel aceptable, ponderando costos y beneficios?",
+   [
+    "Evaluación de riesgos (risk assessment)",
+    "Perfil de riesgo (risk profile)",
+    "Gestión de riesgos (risk management)",
+    "Endurecimiento del sitio (site hardening)"
+   ],
+   2,
+   "La gestión de riesgos es la disciplina de negocio que identifica, analiza y comunica el riesgo y después lo acepta, evita, transfiere o controla según costos y beneficios. La evaluación de riesgos es el proceso sistemático que analiza los riesgos y los reporta por prioridad o severidad; la decisión de aceptarlos, evitarlos, transferirlos o controlarlos corresponde a la gestión de riesgos."
+  ]
+ ],
+ "B": [
+  [
+   "Según el libro, ¿qué define a un edificio de gran altura (high-rise structure)?",
+   [
+    "Un edificio de más de 40 pisos con ocupación mixta de oficinas y comercio",
+    "Una estructura más alta que el alcance máximo del equipo de bomberos disponible",
+    "Un edificio cuya evacuación total exige usar elevadores además de escaleras",
+    "Un edificio con más de 150 ocupantes por piso y varios bancos de elevadores"
+   ],
+   1,
+   "El libro define el high-rise como la estructura más alta que el alcance máximo del equipo de bomberos disponible, por lo que el fuego se combate desde dentro. En cifras absolutas varía entre 75 y 100 ft (23 a 30 m), unos 7 a 10 pisos, según los códigos locales; los 40 pisos y 150 ocupantes por piso son datos del edificio modelo de la Figura B-1, no la definición."
+  ],
+  [
+   "En un high-rise empieza un fuego en el piso 4. Un ocupante baja y activa la estación manual de alarma (manual pull station) del lobby; el sistema reporta \"Fire in Lobby\" y la respuesta se dirige al lugar equivocado. ¿Cuál es la MEJOR solución?",
+   [
+    "Retirar las estaciones manuales del lobby para que las alarmas solo se originen en los pisos",
+    "Reubicar las estaciones manuales dentro de las oficinas, lejos de la ruta normal de salida",
+    "Añadir más estaciones manuales en cada piso a lo largo de la ruta normal de salida",
+    "Conservar las estaciones manuales y añadir detección automática en todo el edificio"
+   ],
+   3,
+   "La estación manual permite avisar al escapar, pero no ubica con precisión el área de la emergencia; el libro indica no eliminarlas ni reubicarlas, sino complementarlas con detección automática distribuida por todo el edificio. Añadir más estaciones manuales mantiene el mismo problema de localización."
+  ],
+  [
+   "Se necesita detección automática en un cuarto pequeño y confinado donde se esperan fuegos de alto calor y crecimiento rápido, sus condiciones ambientales impiden usar otros detectores y no se requiere aviso muy temprano. ¿Qué dispositivo es el MÁS adecuado?",
+   [
+    "Detector de calor (heat detector)",
+    "Detector de humo (smoke detector)",
+    "Alarma de flujo de agua (water-flow alarm)",
+    "Estación manual de alarma (pull station)"
+   ],
+   0,
+   "El detector de calor detecta una temperatura dada o un cambio rápido de temperatura; el libro lo describe como muy confiable, con la tasa de falsas alarmas más baja de los detectores automáticos, y su mejor uso son justo estos espacios. El detector de humo se usa cuando se busca un aviso más temprano, que aquí no se requiere y que las condiciones ambientales impedirían."
+  ],
+  [
+   "La autoridad local prohíbe que la alarma de incendio vigile o controle dispositivos de seguridad. Aun así, las cerraduras eléctricas que restringen la salida deben liberarse en un incendio. ¿Cuál es la solución típica?",
+   [
+    "Que la alarma de incendio envíe una señal directa al sistema de seguridad para liberar las cerraduras",
+    "Que la alarma de incendio controle un relevador aprobado conectado a la fuente de poder aprobada de la cerradura",
+    "Que el operador del centro de control libere las cerraduras a mano al recibir la alarma de incendio",
+    "Integrar ambos sistemas en un mismo panel direccionable (addressable) para compartir dispositivos de campo"
+   ],
+   1,
+   "Como algunos códigos prohíben que la alarma de incendio haga funciones ajenas a fire life safety, la solución típica es que no mande señal directa al sistema de seguridad, sino que controle un relevador aprobado (approved relay) conectado a una fuente de poder aprobada de la cerradura. Integrar ambos en un panel compartido es justo lo que esos códigos impiden."
+  ],
+  [
+   "Según el libro, ¿qué factores predominan en el movimiento del humo en edificios altos, a diferencia de los bajos?",
+   [
+    "Calor del fuego, movimiento convectivo y presiones del fuego",
+    "Presurización de escaleras, compuertas cortafuego y tomas de aire fresco",
+    "Efecto chimenea (stack effect), viento externo y movimiento forzado de aire",
+    "Material combustible, rociadores automáticos y compartimentación por piso"
+   ],
+   2,
+   "En edificios altos predominan el efecto chimenea (movimiento vertical natural del aire por diferencias de temperatura y densidad entre el aire interior y el exterior), el viento externo y el movimiento forzado de aire de los equipos de manejo de aire. Calor, movimiento convectivo y presiones del fuego son lo que mueve el humo en edificios bajos."
+  ],
+  [
+   "En un high-rise, las puertas de escalera están cerradas al reingreso y se desbloquean con la alarma de incendio. Seguridad teme que un intruso active una estación manual como distracción (diversion) para entrar al piso que elija. ¿Qué enfoque es el MÁS adecuado?",
+   [
+    "Mantener el desbloqueo en emergencia y añadir alarmas de intrusión y video activado por alarma",
+    "Programar las puertas para que sigan cerradas hasta que seguridad confirme que el fuego es real",
+    "Retirar las estaciones manuales de los pisos con activos sensibles para evitar activaciones falsas",
+    "Confiar en las puertas cerradas al reingreso, porque una alarma de incendio rara vez es una distracción"
+   ],
+   0,
+   "El sistema sí debe desbloquear las puertas en emergencia: life safety tiene prioridad, salvo que se sepa claramente que es una falsa alarma (hoax). La lección es no confiar solo en puertas de escalera con desbloqueo automático y añadir protección, como alarmas de intrusión y videovigilancia con despliegue de cámara activado por alarma y grabación."
+  ],
+  [
+   "En un edificio de oficinas, un inquilino mayor ocupa gran parte de los pisos. Los bancos de elevadores que lo sirven exigen verificación de credencial, mientras que los bancos que sirven a varios inquilinos tienen acceso libre. ¿En qué modo de operación funciona el edificio?",
+   [
+    "Abierto (open)",
+    "Cerrado (closed)",
+    "Fuera de horario (after-hours)",
+    "Híbrido (hybrid)"
+   ],
+   3,
+   "En el modo híbrido, un inquilino mayor ocupa gran parte del edificio: uno o más bancos operan cerrados y los bancos multiinquilino, abiertos. Aunque el libro anuncia el concepto como \"open o closed\", describe tres modos; \"fuera de horario\" es un modo por horario, no una configuración del acceso."
+  ],
+  [
+   "Un high-rise existente en una zona urbana densa quiere reducir su riesgo ante un coche bomba. Reforzar la estructura tendría un costo prohibitivo. ¿Qué medidas son las MÁS adecuadas según el libro?",
+   [
+    "Diseñar de nuevo la estructura para resistir una carga explosiva definida sin falla progresiva",
+    "Ganar distancia con macetones, bolardos y límites de estacionamiento, más película en ventanas",
+    "Maximizar la distancia de retiro (setback) con un nuevo diseño del sitio y de las ventanas",
+    "Confiar solo en la inspección de ocupantes y visitantes, ya que el coche bomba no es controlable"
+   ],
+   1,
+   "Para edificios existentes, el libro propone ganar distancia con macetones pesados (planters), bolardos, otras barreras y restricciones de estacionamiento, y película de seguridad (security film) en ventanas contra esquirlas. Diseñar para una carga explosiva sin falla progresiva y maximizar el retiro son medidas de edificios nuevos; en uno existente, las soluciones estructurales pueden tener costo prohibitivo."
+  ],
+  [
+   "¿Qué enunciado sobre las cerraduras de salida retardada (delayed-egress locking devices) en la puerta de escalera a planta baja es correcto según el libro?",
+   [
+    "Retrasan la salida 15 a 30 s también durante un incendio, para que seguridad intercepte al delincuente",
+    "Retrasan la salida 3 a 4 minutos, el tiempo crítico para que seguridad llegue a la puerta",
+    "Algunas autoridades permiten 15 a 30 s fuera de emergencia, con liberación si falla la energía o hay alarma",
+    "Quedan cerradas si falla la energía de la cerradura, para mantener la puerta segura (fail secure)"
+   ],
+   2,
+   "Algunas autoridades permiten, fuera de una emergencia, 15 a 30 segundos de retraso, útil junto con una alarma que avisa a seguridad, un intercomunicador y una cámara que graba; la cerradura debe liberarse sola si falla su energía o se activa el sistema de fire life safety. Por eso nunca retrasa la salida en un incendio ni queda cerrada ante falla de energía; los 3 a 4 minutos son los críticos al inicio de un incendio."
+  ],
+  [
+   "Suena una alarma de intrusión en la puerta del piso 18 de una escalera cuyas puertas están cerradas al reingreso. ¿Cómo debe responder seguridad?",
+   [
+    "Enviar un oficial al piso 18 por elevador y revisar después el video de las demás puertas",
+    "Enviar un oficial a la puerta de planta baja de esa escalera y otro que entre al cubo por encima del piso 18",
+    "Desbloquear a distancia todas las puertas de la escalera para que el intruso salga a algún piso",
+    "Enviar dos oficiales que entren juntos al cubo por la puerta de planta baja y suban hasta el piso 18"
+   ],
+   1,
+   "Con puertas cerradas al reingreso, el libro indica que un oficial vaya a la puerta de planta baja de esa escalera y otro entre al cubo por encima del punto de la alarma, para interceptar al intruso dentro. Para saber exactamente qué puerta se violó, toda alarma de intrusión debe estar zonificada."
+  ],
+  [
+   "Tras la operación de Fase I (Phase I), en la que las cabinas regresan a un nivel designado, los elevadores quedan en Fase II (Phase II) para servicio de emergencia con una llave especial. ¿Quién debe usar esa llave?",
+   [
+    "El personal de ingeniería del edificio",
+    "Solo los bomberos",
+    "El supervisor de seguridad en turno",
+    "El director de seguridad contra incendios del edificio (building fire safety director)"
+   ],
+   1,
+   "En la Fase II los elevadores quedan para servicio de bomberos con una llave especial, que es solo para bomberos y no para ingeniería ni seguridad; su uso se controla estrictamente. La Fase I es el regreso automático de las cabinas al activarse un detector de humo del lobby de elevadores, del cubo o del cuarto de máquinas."
+  ],
+  [
+   "Para ahorrar costos, la administración propone instalar el centro de operaciones de seguridad (security operations center) en el mostrador del lobby principal, donde el operador también atendería a los visitantes. ¿Cuál es la MEJOR respuesta?",
+   [
+    "Aceptarlo, porque sumar puestos fijos al operador da un ahorro sin costo para la seguridad",
+    "Aceptarlo si el lobby tiene videovigilancia, porque entonces las cámaras protegerían al propio centro",
+    "Rechazarlo: el centro debe usarse de forma dedicada y ser el lugar más seguro del edificio",
+    "Aceptarlo solo en horario regular y trasladar el centro al sótano fuera de horario"
+   ],
+   2,
+   "El centro debe usarse de forma dedicada y, con un sistema bien diseñado, ser el lugar más seguro del edificio. Instalarlo en el lobby y sumarle puestos fijos puede causar desatención a eventos de pérdida mucho mayor y expone el control del sistema a compromiso o ataque."
+  ],
+  [
+   "Según el libro, ¿cuáles son las tres funciones de las barreras físicas (physical barriers) en un high-rise?",
+   [
+    "Disuadir, detectar y retrasar al intruso",
+    "Detectar al intruso, evaluar la alarma y responder",
+    "Definir un área, iluminar el perímetro y vigilar accesos",
+    "Retrasar al intruso, definir un área y dirigir la conducta"
+   ],
+   3,
+   "Las barreras físicas sirven para retrasar al intruso, definir un área y dirigir la conducta, y desalientan la penetración por accidente, fuerza y sigilo (accident, force, and stealth). Disuadir, detectar y retrasar forman parte de la secuencia deter, detect, delay, respond con la que se planifica life safety, no de las funciones de la barrera."
+  ]
+ ],
+ "C": [
+  [
+   "Ninguna ley obliga a un centro comercial a usar cierta norma de cerraduras, pero su aseguradora solo le ofrece seguro de daños (casualty insurance) a buen precio si usa materiales aprobados según esa norma. ¿Cómo clasifica el libro esta situación?",
+   [
+    "Norma voluntaria (voluntary standard), porque ninguna ley la impone",
+    "Norma legal o regulatoria (statutory or regulatory standard), porque la aseguradora la hace cumplir",
+    "Norma mixta (mixed standard): voluntaria en teoría pero obligatoria en la práctica",
+    "Norma de sistema de gestión (management system standard), porque fija requisitos de desempeño"
+   ],
+   2,
+   "Una norma mixta sigue siendo voluntaria en teoría pero es obligatoria en la práctica, como cuando las aseguradoras fijan la disponibilidad y el costo del seguro de daños según materiales aprobados, o cuando un contrato la exige. Una norma legal o regulatoria obliga por ley y la hacen cumplir autoridades formales, no una aseguradora."
+  ],
+  [
+   "¿Cuáles son los cuatro principios con los que los organismos acreditados de desarrollo de normas (SDOs, standards developing organizations) elaboran las normas?",
+   [
+    "Consenso, confidencialidad, debido proceso y resiliencia",
+    "Apertura, interoperabilidad, mejora continua y transparencia",
+    "Consenso, competitividad, consistencia y apertura",
+    "Consenso, apertura, debido proceso y transparencia"
+   ],
+   3,
+   "Los cuatro principios de desarrollo de normas son consenso (consensus), apertura (openness), debido proceso (due process) y transparencia (transparency). Términos como interoperabilidad, consistencia o mejora continua aparecen en el apéndice como beneficios de las normas o rasgos de los sistemas de gestión, no como principios de desarrollo."
+  ],
+  [
+   "Un equipo de seguridad aplicó un plan de acción contra el acceso por arrastre (tailgating) y comprobó que los resultados coinciden con el plan: el problema quedó resuelto. Según el ciclo Plan-Do-Check-Act (PDCA), ¿qué debe hacer ahora?",
+   [
+    "Estandarizar la solución en toda la organización, revisar la lista de problemas y definir los siguientes",
+    "Priorizar los siguientes pasos y elaborar un plan de acción detallado para aplicarlo",
+    "Examinar si las soluciones dan resultados acordes con el plan e identificar desviaciones",
+    "Identificar y analizar los problemas y activos de la organización y ordenarlos por importancia"
+   ],
+   0,
+   "Ya pasó la verificación (Check), así que corresponde la fase Act: si las soluciones resuelven los problemas, se estandarizan en toda la organización, se revisa la lista de problemas y se definen nuevos, y el ciclo reinicia. Examinar resultados frente al plan es la fase Check, que el equipo ya completó."
+  ],
+  [
+   "Según el apéndice, ¿qué caracteriza a las normas de sistemas de gestión (management system standards), como ISO 9001 e ISO 14001?",
+   [
+    "Son obligatorias por ley y las hacen cumplir autoridades formales",
+    "Dan un marco de mejora continua cuyo principio operativo es el ciclo PDCA",
+    "Documentan requisitos de desempeño de cerraduras, alarmas y control de acceso",
+    "Las desarrolla solo ASIS International para la gestión de seguridad"
+   ],
+   1,
+   "Las normas de sistemas de gestión analizan los requisitos de la organización y de los interesados, definen procesos que llevan al éxito y dan el marco para la mejora continua; su principio operativo es el ciclo PDCA. Las más destacadas, ISO 9001 (calidad) e ISO 14001 (ambiental), son de ISO y voluntarias, no obligatorias por ley."
+  ],
+  [
+   "Un gerente de seguridad quiere verificar que las cerraduras, alarmas y sistemas de control de acceso que va a comprar cumplen normas reconocidas. ¿Qué organización cita el apéndice por sus normas sobre este tipo de equipo?",
+   [
+    "Illuminating Engineering Society (IES)",
+    "Electronic Industries Association (EIA)",
+    "National Fire Protection Association (NFPA)",
+    "Underwriters Laboratories (UL)"
+   ],
+   3,
+   "El apéndice cita a UL por varias normas sobre equipo de seguridad: cerraduras, alarmas y sistemas de control de acceso. La IES cubre iluminación, la EIA componentes y productos electrónicos, y la NFPA se menciona porque algunas de sus normas se incorporan a reglamentos como los códigos de construcción."
+  ]
+ ]
+}

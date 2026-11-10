@@ -217,6 +217,8 @@ def parse_domain(dom, md_text, quizzes):
                 pre.append(ln)
 
         cards, ojo, toc, parts = [], [], [], []
+        words = len(" ".join(pre).split()) + sum(len(" ".join(sl).split()) for t, sl in sections
+                                                  if not t.lower().startswith("preguntas de repaso"))
         if "\n".join(pre).strip():
             parts.append(md_to_html("\n".join(pre)))
             for ln in pre:
@@ -244,7 +246,7 @@ def parse_domain(dom, md_text, quizzes):
             c["id"] = f"{cid}-k{j}"
         out.append({
             "id": cid, "num": ch["num"], "label": ch["label"], "short": ch["short"],
-            "title": ch["title"], "pages": ch["pages"],
+            "title": ch["title"], "pages": ch["pages"], "words": words,
             "idea": md_inline(idea) if idea else "",
             "toc": toc, "html": "".join(parts),
             "cards": cards, "ojo": ojo, "quiz": [],

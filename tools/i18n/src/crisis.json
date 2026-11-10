@@ -402,5 +402,636 @@
   "crisis-6": "El libro agrupa las crisis en cuatro familias de amenaza. Los planes generales de continuidad y de respuesta sirven para todas, pero cada amenaza pide acciones propias. El capítulo da, para cada evento, qué hacer antes, durante y después.",
   "crisis-A": "Una norma (standard) reúne criterios y buenas prácticas para mejorar la calidad y la fiabilidad; puede ser voluntaria, obligatoria por ley o mixta. Las normas de sistemas de gestión funcionan con el ciclo PDCA (Plan-Do-Check-Act). El Appendix B es una lista de lecturas sobre continuidad, emergencias, violencia y ciberseguridad."
  },
- "quiz": {}
+ "quiz": {
+  "crisis-1-q0": {
+   "q": "Tras una brecha cibernética, el equipo de TI aísla la red (lock down) para contener el daño. Mientras, la dirección ejecutiva se ocupa de los efectos en la reputación y de los asuntos que amenazan la viabilidad de la empresa a largo plazo. ¿Qué área describe MEJOR la labor de la dirección?",
+   "o": [
+    "Gestión y respuesta a emergencias (emergency management/response)",
+    "Gestión de crisis (crisis management)",
+    "Continuidad del negocio (business continuity)",
+    "Recuperación de TI (IT recovery)"
+   ],
+   "e": "La gestión de crisis es estratégica y de largo plazo: atiende la reputación y los asuntos que amenazan la viabilidad. Aislar la red es respuesta a emergencias (impacto inmediato y táctico), y la continuidad del negocio se ocupa de volver a operar con normalidad."
+  },
+  "crisis-1-q1": {
+   "q": "Meses después de una inundación, una empresa termina de restablecer sus procesos, recursos y capacidades, y aprovecha para reorientar algunos de sus objetivos estratégicos. ¿A qué fase del ciclo de gestión de emergencias corresponde esta actividad?",
+   "o": [
+    "Mitigación (mitigation)",
+    "Preparación (preparedness)",
+    "Respuesta (response)",
+    "Recuperación (recovery)"
+   ],
+   "e": "Según ASIS BCM 2021, la recuperación restablece procesos, recursos y capacidades para cubrir los requisitos operativos continuos, y puede incluir mejoras organizativas importantes, incluso reorientar objetivos estratégicos u operativos. La respuesta, en cambio, ejecuta el plan para preservar la vida y los bienes y atender a la población superviviente."
+  },
+  "crisis-1-q2": {
+   "q": "Un empleado descubre un evento disruptivo cuya gravedad todavía no está clara. Según los principios de gestión de crisis, ¿qué es lo MEJOR?",
+   "o": [
+    "Reportarlo de inmediato para que el equipo de gestión de crisis (CMT) lo evalúe",
+    "Reportarlo al CMT solo si se confirma que necesita apoyo de otras funciones",
+    "Esperar a reunir información completa para no activar al CMT sin necesidad",
+    "Dejar que el comandante del incidente lo gestione y decida si es una crisis"
+   ],
+   "e": "Como la dirección decide con información limitada y poco tiempo, todo evento disruptivo debe comunicarse al CMT (crisis management team) en cuanto ocurre para que lo evalúe y, con criterios preestablecidos, distinga si es una crisis o un incidente rutinario. Esperar a confirmar si necesita apoyo de otras funciones invierte el orden, porque esa evaluación corresponde al CMT."
+  },
+  "crisis-1-q3": {
+   "q": "Tras un incendio, una empresa traslada sus funciones críticas y a su personal a un sitio contratado a un tercero mientras repara su edificio. ¿Qué estrategia de continuidad está aplicando?",
+   "o": [
+    "Reanudación y recuperación en el sitio (resumption and recovery in place)",
+    "Subcontratación (contracting out)",
+    "Reubicación (relocation)",
+    "Recuperación de TI (IT recovery)"
+   ],
+   "e": "La reubicación traslada funciones críticas y personal a uno o más sitios, propios o contratados a terceros. La subcontratación consiste en externalizar funciones seleccionadas; aquí el personal propio sigue haciendo el trabajo, solo que en otro lugar."
+  },
+  "crisis-1-q4": {
+   "q": "Una empresa anuncia la retirada de un producto (product recall). No hay daños físicos en sus instalaciones, pero el caso afecta a su marca. ¿Qué describe MEJOR cómo debe actuar la gestión de crisis?",
+   "o": [
+    "No se activa, porque no hay una emergencia física; el caso queda en manos del área legal",
+    "Se activa con la notificación del evento y, de forma holística, implica a todas las funciones",
+    "Se activa, pero la dirige solo el área de comunicación, porque el problema es de reputación",
+    "Se activa solo si la retirada provoca una interrupción del negocio en la producción"
+   ],
+   "e": "La gestión de crisis empieza al notificarse cualquier evento disruptivo, físico o no físico, como una retirada de producto, y es holística: participan todas las funciones. Un programa sano evita que un área funcional, como comunicación, domine el programa, aunque los impactos en marca y reputación exijan coordinar a la dirección y a los equipos de comunicación."
+  },
+  "crisis-2-q0": {
+   "q": "En las emergencias de una empresa, los límites entre departamentos frenan una y otra vez la respuesta. Según el libro, ¿cuál es la MEJOR medida estructural?",
+   "o": [
+    "Nombrar a un único directivo operativo como coordinador de emergencias, con su autoridad documentada",
+    "Crear una organización nueva dedicada solo a las emergencias, separada de la operación diaria",
+    "Repartir la coordinación a partes iguales entre los jefes de los departamentos críticos",
+    "Encargar al equipo de gestión de crisis la dirección táctica de cada emergencia"
+   ],
+   "e": "Se designa a un único directivo operativo como coordinador de emergencias (emergency coordinator), alguien que gestione emergencias de forma habitual, como el jefe de seguridad o de ingeniería, para evitar que los límites entre departamentos frenen la respuesta; su nombramiento se documenta en el plan de operaciones de emergencia y en una política. No se crea una organización nueva: la existente se reconfigura de forma temporal, y el comité de departamentos críticos apoya al coordinador, no lo sustituye."
+  },
+  "crisis-2-q1": {
+   "q": "Un derrame químico en una planta afecta a dos municipios, y responden bomberos y policía de ambas jurisdicciones. Según el libro, ¿qué describe MEJOR cómo debe organizarse el mando?",
+   "o": [
+    "Decisiones compartidas en un solo puesto de mando, con cada agencia presente o con un enlace",
+    "Mando único del incidente (single-incident command) a cargo de la agencia con más recursos",
+    "Un puesto de mando por agencia, coordinados entre sí mediante enlaces interagencias",
+    "Mando a cargo del equipo de gestión de crisis de la empresa, por ser la dueña de la planta"
+   ],
+   "e": "Con varias agencias o jurisdicciones, el libro describe una decisión colaborativa con un solo puesto de mando (incident command post), en el que las agencias participan con representación directa o mediante un enlace (liaison). El libro lo llama «single command», aunque en el ICS y en NIMS se conoce como unified command; el single-incident command corresponde a una sola agencia y una sola jurisdicción."
+  },
+  "crisis-2-q2": {
+   "q": "Una emergencia en una instalación crece hasta requerir que alguien dirija la respuesta en la escena, aunque no interviene ninguna agencia de seguridad pública. Según el libro, ¿qué es lo MÁS adecuado?",
+   "o": [
+    "Activar el sistema de gestión de incidentes: un comandante en la escena, con apoyo del CMT",
+    "Que el equipo de gestión de crisis (CMT) acuda a la escena y dirija la respuesta táctica",
+    "Que el gerente de la instalación la atienda solo, sin activar una operación mayor",
+    "Esperar a que llegue una agencia de seguridad pública para que nombre al comandante"
+   ],
+   "e": "Si hace falta un comandante o gestor en la escena, se activa el sistema de gestión de incidentes (incident management system) de la organización: el comandante y su personal dirigen en la escena y el CMT da apoyo, porque su rol es estratégico, no táctico. Que el gerente de la instalación la atienda solo es la respuesta prevista para una emergencia limitada."
+  },
+  "crisis-2-q3": {
+   "q": "Al revisar el plan de emergencias, el gerente de seguridad ve que solo nombra al decisor principal y a los titulares de cada función. ¿Qué debe hacer PRIMERO para corregir esta debilidad?",
+   "o": [
+    "Nombrar suplentes, por nombre o por puesto, para el decisor y cada responsable del plan",
+    "Pedir a la alta dirección que asuma las decisiones cuando falte algún titular",
+    "Dejar que el CMT designe sustitutos en el momento, según quién esté disponible",
+    "Ampliar el comité de apoyo con más departamentos críticos para cubrir las ausencias"
+   ],
+   "e": "La designación de suplentes (alternate designations) es de las consideraciones más importantes: se nombran para el decisor principal y para toda persona con responsabilidad en el plan, por nombre o por puesto, si es posible más de uno por titular, y se les informa, forma y pone a prueba antes del incidente. Improvisar sustitutos durante el evento deja sin formar a quien tendría que actuar."
+  },
+  "crisis-2-q4": {
+   "q": "Una multinacional sufre una crisis en una de sus plantas en otro país. Un equipo situado en esa planta ejecuta las instrucciones de recuperación que recibe. ¿Qué tipo de equipo de crisis es?",
+   "o": [
+    "Operativo (operational)",
+    "Táctico (tactical)",
+    "Estratégico (strategic)",
+    "Equipo de alta dirección (senior leadership team)"
+   ],
+   "e": "El equipo táctico está más cerca del nivel de la crisis, en la ubicación geográfica donde ocurrió, y ejecuta las instrucciones tácticas de recuperación. El operativo se limita a un segmento funcional, como manufactura o logística, y el estratégico da el mando general, casi siempre a nivel ejecutivo."
+  },
+  "crisis-3-q0": {
+   "q": "Al diseñar su programa, una empresa debate cómo relacionar el equipo de continuidad del negocio (business continuity team) con el equipo de gestión de crisis (crisis management team). Según el libro, ¿qué describe MEJOR esa relación?",
+   "o": [
+    "Se tratan por separado; el de continuidad apoya al de crisis, que está por encima",
+    "Son el mismo equipo, que asume la crisis y después la recuperación del negocio",
+    "Se tratan por separado; el de crisis apoya al de continuidad, que dirige la recuperación",
+    "El de continuidad está por encima y coordina a los equipos de crisis de cada sitio"
+   ],
+   "e": "El libro trata el equipo de continuidad por separado del de gestión de crisis y lo presenta como su apoyo: el de crisis es el equipo general que está por encima. El de continuidad ejecuta el plan para recuperar las actividades tras el evento, pero no dirige al de crisis."
+  },
+  "crisis-3-q1": {
+   "q": "Una empresa guarda copias de respaldo de sus registros vitales (vital records) en soportes antiguos en su sede de emergencia. Según el libro, ¿qué es lo MÁS importante para que esas copias sirvan?",
+   "o": [
+    "Que todas estén en el mismo soporte, para simplificar su gestión",
+    "Tener equipo suficiente para recuperarlas, también las electrónicas",
+    "Que se guarden en papel, porque es el soporte más duradero",
+    "Que incluyan los 37 registros de la lista del libro, sin adaptarla"
+   ],
+   "e": "El libro dice que importa menos el soporte del registro que tener equipo suficiente para recuperarlo, también en el caso de los registros electrónicos. Además, cada organización adapta la lista de registros vitales a sus necesidades, así que no se copia la lista del libro tal cual."
+  },
+  "crisis-3-q2": {
+   "q": "Una organización acaba de lanzar su programa de gestión de la continuidad del negocio (BCM) y va a hacer su primer ejercicio. Según el libro, ¿qué tipo de ejercicio es el MÁS adecuado para empezar?",
+   "o": [
+    "De orientación (orientation): una sesión introductoria o educativa",
+    "De mesa (tabletop): un ejercicio simulado presentado en forma narrativa",
+    "Funcional (functional): un escenario lo más real posible en un entorno controlado",
+    "A escala completa (full scale): en vivo, en tiempo real y con agencias externas"
+   ],
+   "e": "El alcance y el detalle de los ejercicios maduran con la experiencia, los recursos y las capacidades; las primeras pruebas pueden ser checklists, ejercicios simples y componentes pequeños. El orden de menor a mayor madurez es orientación, de mesa, funcional y a escala completa, así que empezar a escala completa salta toda la progresión."
+  },
+  "crisis-3-q3": {
+   "q": "En una evaluación de riesgos conforme a ANSI/ASIS/RIMS RA.1-2015, el equipo ya fijó el nivel de cada riesgo. Ahora compara esos niveles con los criterios de riesgo para decidir cuáles son aceptables con los tratamientos actuales. ¿Qué paso está realizando?",
+   "o": [
+    "Identificación del riesgo (risk identification)",
+    "Análisis del riesgo (risk analysis)",
+    "Evaluación del riesgo (risk evaluation)",
+    "Informe de evaluación de riesgos (risk assessment report)"
+   ],
+   "e": "La evaluación del riesgo usa los criterios de riesgo y los resultados de la identificación y el análisis para decidir qué riesgos son aceptables y cuáles necesitan más tratamiento. El análisis es el paso anterior: valora probabilidad y consecuencia para fijar el nivel de riesgo."
+  },
+  "crisis-3-q4": {
+   "q": "La investigación previa a cualquier crisis revela que la reputación de una empresa ante sus audiencias clave es débil frente a otras del mismo sector. Según el libro, ¿qué debe hacer la empresa?",
+   "o": [
+    "Mejorarla de forma proactiva ya, antes de que ocurra cualquier evento",
+    "Reservar recursos para reforzarla con comunicación cuando estalle una crisis",
+    "Centrarse en los analistas de negocio, que son quienes deciden la marca",
+    "Confiar en el plan de comunicación de crisis, que protegerá la marca en su momento"
+   ],
+   "e": "La protección de marca y reputación empieza antes del evento: si la investigación pre-crisis muestra una reputación débil, hay que mejorarla de forma proactiva, porque quien ya tiene una percepción negativa se recupera con más dificultad. Además, la marca y la reputación las mueven a menudo los consumidores, no los analistas de negocio."
+  },
+  "crisis-3-q5": {
+   "q": "En una entrevista del análisis de impacto en el negocio (BIA), el gerente de finanzas dice que, si cae el sistema, la unidad puede tolerar perder como máximo las transacciones de las últimas dos horas. ¿Qué métrica de recuperación está definiendo?",
+   "o": [
+    "Objetivo de punto de recuperación (recovery point objective, RPO)",
+    "Objetivo de tiempo de recuperación (recovery time objective, RTO)",
+    "Periodo máximo tolerable de disrupción (maximum tolerable period of disruption)",
+    "Atraso de trabajo (work backlog)"
+   ],
+   "e": "El RPO es la cantidad máxima de datos que se puede perder durante la recuperación, medida en horas: la pérdida tolerable de información. El RTO es el tiempo máximo tolerable para devolver los sistemas críticos a operar, y debe quedar dentro del tiempo máximo tolerable."
+  },
+  "crisis-3-q6": {
+   "q": "Una empresa quiere valorar la reputación de su marca para priorizarla en el BIA. Para ello averigua cuánto se pagó hace poco en el mercado público por una marca similar. ¿Qué método de valoración aplica?",
+   "o": [
+    "Método del costo (cost method)",
+    "Método del valor de mercado (market value method)",
+    "Método de mercado (market method)",
+    "Método del ingreso (income method)"
+   ],
+   "e": "El market method valora un intangible buscando si un activo similar se compró o vendió hace poco en el mercado público, y por cuánto. El market value method se aplica a tangibles y usa su precio actual de reemplazo o de venta; el libro advierte expresamente que no hay que confundirlos."
+  },
+  "crisis-3-q7": {
+   "q": "Cada gerente de una empresa insiste en que su área es la más crítica para la recuperación. ¿Qué herramienta da a la dirección la MEJOR base para decidir las prioridades?",
+   "o": [
+    "El cuestionario BIA, que mide la criticidad con métricas",
+    "Una votación entre los gerentes para consensuar el orden de recuperación",
+    "El registro de riesgos (risk register), que recoge todos los riesgos evaluados",
+    "El análisis SWOT, que identifica fortalezas y debilidades de cada área"
+   ],
+   "e": "El cuestionario BIA (BIA questionnaire) da a la dirección una medida objetiva de la criticidad, basada en métricas y no en la opinión de cada gerente sobre su área, y así normaliza esa visión. El risk register solo compila los riesgos identificados, analizados y evaluados; no fija la prioridad de recuperación de los procesos."
+  },
+  "crisis-3-q8": {
+   "q": "Para ahorrar tiempo a la dirección, una empresa propone comprar un software de planificación y contratar a un consultor para que redacte él solo el plan de emergencias. Según el libro, ¿cuál es el principal problema?",
+   "o": [
+    "Ni el software ni el consultor sustituyen la participación responsable de la dirección",
+    "El software de planificación no sirve para capturar la información que necesita el plan",
+    "Los consultores no pueden participar en la redacción del plan de emergencias",
+    "El plan debe redactarlo el equipo de gestión de crisis, no la dirección"
+   ],
+   "e": "El software reduce mucho el trabajo de capturar información y los consultores ayudan a completar el plan, pero ninguno sustituye la participación responsable de la dirección, que debe identificar y evaluar directamente los activos de la organización. El error no es usar software o consultores, sino delegarles todo."
+  },
+  "crisis-4-q0": {
+   "q": "Una empresa de distribución con varias sedes está expuesta a huracanes, inundaciones, incendios y amenazas de bomba. Según el libro, ¿qué formato de plan de operaciones de emergencia (emergency operations plan, EOP) le conviene MÁS?",
+   "o": [
+    "Un EOP básico común, con listas de verificación por peligro para los eventos más probables",
+    "Un plan específico y completo para cada amenaza, como el de un centro de salud",
+    "Un único plan de evacuación, ya que es casi igual para todas las emergencias",
+    "Listas de verificación por peligro, sin plan básico, para que el plan sea lo más simple posible"
+   ],
+   "e": "Con muchos tipos de amenazas y peligros, el enfoque para todos los riesgos (all-hazards approach) es la mejor opción: un EOP básico con secciones comunes, como las listas del equipo y de contactos, más listas de verificación por peligro (hazard-specific checklists) para los eventos más probables. Los planes por amenaza específica son para organizaciones cuya respuesta cambia mucho según el evento, como el centro de salud del ejemplo."
+  },
+  "crisis-4-q1": {
+   "q": "Tras evacuar un edificio por una amenaza, los servicios de emergencia no encuentran daños y opinan que se puede volver a entrar. Según el libro, ¿quién suele tomar la decisión final de reocupar el sitio (reoccupation)?",
+   "o": [
+    "El jefe de los servicios de emergencia que atendió el incidente",
+    "La dirección de la organización, con el asesoramiento de esos servicios",
+    "El jefe de brigadistas (chief warden), por conocer la situación en el sitio",
+    "El líder del equipo de evaluación de amenazas, que valoró el riesgo inicial"
+   ],
+   "e": "En la reocupación, los servicios de emergencia pueden asesorar, pero la decisión final suele recaer en la dirección de la organización. Antes de volver puede convenir revisar el sitio o ciertas zonas para asegurar un entorno físico seguro."
+  },
+  "crisis-4-q2": {
+   "q": "En la lista de prioridades del plan de operaciones de emergencia, la seguridad por diseño (design safety) y la capacitación (training) son los principios asociados a una prioridad concreta. ¿A cuál?",
+   "o": [
+    "Proteger la vida humana",
+    "Prevenir o minimizar las lesiones personales",
+    "Reducir la exposición de los activos",
+    "Optimizar el control de pérdidas de los activos cuya exposición no se puede reducir"
+   ],
+   "e": "La seguridad por diseño elimina de antemano las condiciones que aumentan la probabilidad de lesiones, y la capacitación evita que quienes atienden el desastre se expongan por ignorancia o ineptitud: ambas sirven a la segunda prioridad, prevenir o minimizar lesiones. Proteger la vida humana, la primera, se apoya en evacuación y refugio, protección personal y rescate y auxilio."
+  },
+  "crisis-4-q3": {
+   "q": "En los simulacros de incendio de un edificio de oficinas, todos salen siempre por la escalera principal y llegan rápido al punto de reunión. ¿Qué es lo MEJOR para preparar al personal ante una salida bloqueada?",
+   "o": [
+    "En cada simulacro, bloquear la salida principal de otro piso con un letrero o un monitor",
+    "Explicar las salidas alternas en una charla anual, sin alterar la rutina de los simulacros",
+    "Avisar antes de cada simulacro qué salidas alternas deben usarse ese día",
+    "Acortar el recorrido hasta un punto de reunión más cercano para repetir más simulacros"
+   ],
+   "e": "La técnica del libro es bloquear en cada simulacro la salida principal de un piso o zona distinta, con un letrero de «salida bloqueada por humo» (exit blocked due to smoke) o un monitor, para obligar a usar las alternas; solo con práctica la gente sabe qué hacer. Acortar el recorrido va contra la regla de recorrer la distancia real hasta los puntos de reunión designados."
+  },
+  "crisis-4-q4": {
+   "q": "¿Qué describe MEJOR la diferencia entre las comunicaciones de emergencia (emergency communications) y la comunicación de crisis (crisis communications)?",
+   "o": [
+    "Capacidad técnica de comunicar frente a mensajes y respuesta pública ante el incidente",
+    "Mensajes a los medios frente a capacidad técnica de los sistemas de aviso",
+    "Avisos internos a empleados frente a mensajes externos a clientes y medios",
+    "Mensajes del equipo de crisis frente a mensajes del comandante del incidente"
+   ],
+   "e": "Según el libro, las comunicaciones de emergencia se centran en la capacidad técnica de comunicarse y difundir información sobre la emergencia, y la comunicación de crisis en los mensajes y la respuesta pública ante el incidente. La distinción no es entre interno y externo, sino entre capacidad técnica y mensaje."
+  },
+  "crisis-4-q5": {
+   "q": "Tras una inundación, el equipo de restauración ve que una zona de producción y sus equipos no se pueden salvar, mientras que otra zona aún es recuperable. Según el libro, ¿qué debe hacer?",
+   "o": [
+    "Repartir el esfuerzo entre ambas zonas para no abandonar ningún activo",
+    "Concentrarse en la zona recuperable, por dolorosa que sea la decisión",
+    "Empezar por la zona perdida, porque sus activos tienen mayor costo de reposición",
+    "Mantener a las cuadrillas de apagado en la zona perdida hasta rescatar sus equipos"
+   ],
+   "e": "El libro pide no gastar esfuerzos en zonas o equipos que no se pueden salvar: es mejor concentrarse y salvar algo que dispersarse y perderlo todo, aunque la decisión sea dolorosa. Repartir el esfuerzo entre ambas zonas es justo la dispersión que desaconseja; para decidir qué salvar sirve el esquema de prioridades de salvamento (salvage priority scheme) fijado antes de la emergencia."
+  },
+  "crisis-4-q6": {
+   "q": "Un terremoto ocurre a las 2:00 a. m. No hay teléfonos ni electricidad y las carreteras están cortadas, así que ningún directivo puede llegar. El supervisor de seguridad de turno es la persona de más rango en el sitio. Según el libro, ¿qué debe ocurrir?",
+   "o": [
+    "Él arranca el plan y controla el sitio hasta que llegue un directivo de alto nivel",
+    "Espera instrucciones del director general, que es el primero en la lista de sucesión",
+    "Se limita a evacuar y deja el control a los servicios públicos cuando lleguen",
+    "Espera a que se reúna el equipo de gestión de crisis para activar el plan"
+   ],
+   "e": "Fuera de horario puede no haber teléfono, electricidad ni carreteras, así que el arranque del plan y el control de la instalación pueden recaer en el directivo de más rango presente, que puede ser un gerente, un supervisor o un oficial de seguridad. El plan debe definir cómo asume el mando hasta que llegue un directivo de alto nivel."
+  },
+  "crisis-4-q7": {
+   "q": "Durante un gran incendio en una planta, el gerente de seguridad recibe la petición de asignar a todos sus guardias a contener el fuego. Según el libro, ¿qué debe hacer?",
+   "o": [
+    "Asignarlos a todos, porque proteger la vida y la instalación es la prioridad",
+    "Mantener guardias suficientes para seguir protegiendo activos y personas",
+    "Asignarlos a todos y pedir a la policía que asuma la protección del perímetro",
+    "Retirar a los guardias del sitio hasta que los bomberos controlen el incendio"
+   ],
+   "e": "No hay que usar a todo el personal de seguridad en el control del desastre o del fuego: debe quedar suficiente para seguir protegiendo activos y personas, porque las barreras físicas pueden dañarse y hay riesgo de saqueo (looting) por empleados y externos. Contar con la policía es arriesgado, ya que el libro advierte que puede no llegar."
+  },
+  "crisis-4-q8": {
+   "q": "Para ahorrar tiempo, el diseñador de un simulacro propone que los participantes sigan unos pasos más simples que los del plan real, ya que «solo es una prueba». Según el libro, ¿qué es lo MÁS adecuado?",
+   "o": [
+    "Aceptarlo, porque no hace falta probar todo el plan en cada uno de los ejercicios",
+    "Seguir el plan real al máximo, salvo por razones de seguridad física",
+    "Aceptarlo, siempre que el ejercicio se haga sin aviso previo al personal",
+    "Sustituir el simulacro por un recorrido (walkthrough) del plan con todo el personal"
+   ],
+   "e": "Los ejercicios son ensayos del evento real y, salvo por razones de seguridad física, deben seguir el plan real al máximo: entrenar según el plan y ejercitar el plan (train to the plan and exercise the plan). No hace falta probar todo el plan a la vez, pero lo que se ejercita debe hacerse como dice el plan, y que el personal piense «es solo una prueba» es uno de los peores resultados."
+  },
+  "crisis-5-q0": {
+   "q": "El equipo de gestión de crisis (crisis management team, CMT) de una empresa se activa por una crisis en redes sociales. Tras evaluarla, decide que no hace falta declarar una crisis para toda la organización. Según el plan de crisis, ¿qué debe ocurrir con los directivos?",
+   "o": [
+    "Se les avisa de que el equipo se activó, aunque no se haya declarado una crisis",
+    "Solo se les avisa si la crisis se escala a la organización matriz (parent organization)",
+    "Se les avisa únicamente cuando se declara la crisis para toda la organización",
+    "No se les avisa: el equipo de crisis actúa solo hasta que se declare la crisis"
+   ],
+   "e": "El método de activación debe definir cómo se avisa a los directivos de que el equipo se activó, se declare o no una crisis. Avisar solo al declarar la crisis o al escalarla a la matriz dejaría a la dirección sin saber de una activación real."
+  },
+  "crisis-5-q1": {
+   "q": "Un gerente de seguridad presenta su «estrategia» de comunicación de crisis (crisis communications): comunicados de prensa, publicaciones en redes sociales, una sección en el sitio web y reuniones abiertas con el personal (town halls). ¿Qué describe MEJOR el problema de este enfoque?",
+   "o": [
+    "Confunde las tácticas, que solo llevan mensajes a audiencias concretas, con la comunicación estratégica",
+    "Omite al asesor sénior de comunicación, que debe aprobar cada comunicado antes de que salga",
+    "Usa demasiados canales; el libro pide una sola fuente y un solo canal de contacto con los medios",
+    "Debería centrarse en los medios, porque la comunicación de crisis se dirige al público en general"
+   ],
+   "e": "Comunicados, redes sociales, sitio web y town halls son tácticas de comunicación (communications tactics), es decir, herramientas para llevar mensajes; la comunicación de crisis es estratégica y sostiene la resiliencia, el modelo de negocio y los planes futuros. Además, en una crisis no existe el «público en general», sino audiencias específicas."
+  },
+  "crisis-5-q2": {
+   "q": "En una organización grande, durante una crisis, ¿quién se sienta con el equipo de alta dirección (senior leadership team) mientras discute la estrategia y es el responsable último de la comunicación de crisis?",
+   "o": [
+    "El asesor o líder sénior de comunicación (Senior Communications Advisor/Lead)",
+    "El líder del equipo de comunicación de crisis (Crisis Communications Team Lead)",
+    "El miembro del equipo de comunicación de crisis que hace de enlace con el CMT",
+    "El miembro del equipo de comunicación de crisis asignado al comandante del incidente"
+   ],
+   "e": "El Senior Communications Advisor/Lead suele ser el comunicador de mayor rango: acompaña a la alta dirección y lleva sus deliberaciones al equipo de comunicación. El líder del equipo de comunicación de crisis dirige el equipo, ejecuta el plan y vigila los plazos, pero no es el responsable último."
+  },
+  "crisis-5-q3": {
+   "q": "Tras el derrumbe de una nave industrial con víctimas, los periodistas exigen de inmediato los nombres de los muertos y heridos. ¿Qué debe hacer la organización?",
+   "o": [
+    "Publicar los nombres lo antes posible, pero solo después de informar a los familiares",
+    "Responder «sin comentarios» (no comment) hasta que concluya la investigación oficial",
+    "Publicar los nombres de inmediato para frenar rumores, y avisar después a las familias",
+    "Remitir a los medios a los empleados que estaban en la zona para que den los nombres"
+   ],
+   "e": "El libro pide publicar los nombres de muertos y heridos lo antes posible, pero después de informar a los familiares, algo que la prensa entiende. El «sin comentarios» se desaconseja: lleva a los medios a buscar personas con poca información y propaga rumores."
+  },
+  "crisis-5-q4": {
+   "q": "Un simulacro revela que varios miembros del equipo no entienden sus responsabilidades en el plan de crisis. Se reasignan funciones y se vuelve a capacitar al personal. ¿Qué debe hacerse a continuación?",
+   "o": [
+    "Volver a probar el plan, porque la planificación es un proceso continuo",
+    "Archivar el plan corregido hasta que una activación real exija revisarlo",
+    "Contratar a un consultor que sustituya la participación del equipo directivo",
+    "Comprar software de planificación para que capture y mantenga el plan solo"
+   ],
+   "e": "Tras revisar el plan, reasignar responsabilidades o recapacitar, el plan se vuelve a probar: la planificación nunca termina mientras el plan exista. Archivarlo es justo el error que el libro critica, y ni el software ni los consultores sustituyen la participación de la dirección."
+  },
+  "crisis-6-q0": {
+   "q": "Se reporta un agresor activo (active assailant) en una sede corporativa. Según la respuesta general a una crisis, ¿qué ocurre PRIMERO?",
+   "o": [
+    "Se avisa a los empleados afectados con instrucciones iniciales: evacuar, refugiarse o confinarse",
+    "El equipo de gestión de amenazas (threat management team) se reúne para coordinar toda la respuesta",
+    "Se establece un perímetro para contener el incidente e impedir la entrada a la zona de peligro",
+    "Se activa el centro de operaciones de emergencia (EOC) para coordinarse con la policía que llega al sitio"
+   ],
+   "e": "Primero se emiten avisos, notificaciones y comunicaciones a los empleados afectados, con instrucciones de acción inicial: evacuación, refugio en el lugar (shelter-in-place) o confinamiento (lockdown). Después, el equipo de gestión de amenazas coordina y dirige la respuesta y establece el perímetro."
+  },
+  "crisis-6-q1": {
+   "q": "Tras un ataque con tirador en una planta, la policía terminó las entrevistas. La empresa da salida a los empleados del día, ofrece consejería, planifica cuándo reocupar el sitio y contrata limpieza ambiental cuando la policía libera la instalación. ¿En qué fase de la recuperación está?",
+   "o": [
+    "Corto plazo (short-term)",
+    "Inmediata (immediate)",
+    "Largo plazo (long-term)",
+    "Transición (transition)"
+   ],
+   "e": "Estas acciones pertenecen a la fase de corto plazo, centrada en preservar la escena, vigilar el trauma psicológico, apoyar la reunificación y seguir comunicando. La fase inmediata se centra en la seguridad de la vida y el recuento de personas, y la de largo plazo, en el análisis posterior (debrief), la asistencia al empleado y el impacto financiero."
+  },
+  "crisis-6-q2": {
+   "q": "Una instalación mantendrá a 20 personas en sitio durante un huracán. Según la lista de suministros del libro, ¿cuánta agua debe tener como mínimo?",
+   "o": [
+    "60 galones (1 galón por persona y día, durante 3 días)",
+    "20 galones (1 galón por persona, para todo el evento)",
+    "40 galones (2 galones por persona, para 1 día)",
+    "140 galones (1 galón por persona y día, durante 7 días)"
+   ],
+   "e": "El libro pide agua para 3 días para todo el personal en sitio, a razón de 1 galón por persona y día: 20 × 1 × 3 = 60 galones. Los 7 días corresponden a otra cifra del capítulo: la prueba con carga (load test) de los generadores."
+  },
+  "crisis-6-q3": {
+   "q": "Durante una tormenta invernal, el equipo de mantenimiento abre un poco los grifos para que goteen en las tuberías que pueden congelarse. Según el libro, ¿por qué?",
+   "o": [
+    "El grifo abierto libera presión y evita que el tubo reviente, aunque se forme hielo",
+    "El agua en movimiento impide por completo que se forme hielo dentro de la tubería",
+    "Permite vaciar las tuberías antes de que la temperatura baje de 40 °F (4 °C)",
+    "Mantiene presurizado el sistema de rociadores para que funcione si hay un incendio"
+   ],
+   "e": "El libro aclara que puede formarse hielo igual, pero el grifo abierto libera la presión y evita que el tubo reviente. La idea de que el agua en movimiento impide del todo el hielo es la más tentadora, pero el texto dice lo contrario."
+  },
+  "crisis-6-q4": {
+   "q": "Un planificador de gestión de crisis dimensiona el equipo de respuesta a sismos (earthquake response team) de una sede en zona sísmica. Según el libro, ¿qué supuesto debe guiar ese dimensionamiento?",
+   "o": [
+    "Que la ayuda pública tardará mucho, así que la recuperación tendrá menos apoyo externo",
+    "Que los bomberos llegarán en minutos, así que basta con un equipo mínimo de enlace",
+    "Que el sismo podrá predecirse con días de aviso gracias a los mapas de peligro sísmico",
+    "Que el impacto se limitará a la instalación, así que la comunidad de alrededor podrá prestar ayuda"
+   ],
+   "e": "Los sismos son de las crisis más difíciles: el impacto es amplio y se supone que la ayuda pública tardará mucho, así que el equipo debe dimensionarse para una recuperación con menos apoyo externo y con personal formado siempre disponible en cada instalación. Los mapas de peligro sísmico sirven para entender el riesgo, no para predecir el evento."
+  },
+  "crisis-6-q5": {
+   "q": "Un empleado está en su oficina cuando empieza un sismo fuerte. Según el libro, ¿qué debe hacer?",
+   "o": [
+    "Cubrirse bajo un escritorio o junto a una pared interior y agarrarse hasta que pare",
+    "Ponerse bajo el marco de la puerta, porque es el punto más resistente de la estructura",
+    "Salir corriendo del edificio por la escalera más cercana mientras dura el temblor",
+    "Colocarse junto a una ventana exterior para poder evacuar en cuanto pare el temblor"
+   ],
+   "e": "Dentro del edificio hay que cubrirse bajo un escritorio o mesa, o junto a una pared interior, y agarrarse hasta que pare el movimiento; el libro dice expresamente que no bajo el marco de una puerta. Tampoco hay que salir corriendo mientras tiembla ni acercarse a las ventanas."
+  },
+  "crisis-6-q6": {
+   "q": "Tras un sismo, el equipo de respuesta revisa un edificio. No hay olor a gas ni ninguna otra señal de fuga. Según el libro, ¿qué debe hacer con el suministro de gas?",
+   "o": [
+    "No cortarlo: el gas se corta solo si se detecta una fuga",
+    "Cortarlo siempre después de un sismo, por precaución",
+    "Cortarlo solo si el edificio tiene daños estructurales visibles",
+    "Cortarlo hasta que la autoridad local autorice volver a entrar"
+   ],
+   "e": "El libro indica cortar el gas solo si se detecta una fuga, no por sistema. Cortarlo siempre por precaución es la respuesta intuitiva, pero el Ojo para el examen subraya que no es lo que dice el libro."
+  },
+  "crisis-6-q7": {
+   "q": "En una evacuación por incendio, ¿qué dos papeles suele cumplir el personal de seguridad según el libro?",
+   "o": [
+    "Jefes de piso (floor wardens) y quien atiende el panel de alarma contra incendio",
+    "Extinción inicial del fuego y rescate de personas atrapadas en las plantas",
+    "Mando del incidente y comunicación con los medios en el punto de reunión",
+    "Corte de servicios del edificio y recuento final en el punto de reunión"
+   ],
+   "e": "Seguridad suele actuar como jefes de piso, que dirigen a la gente fuera del edificio, y como representantes de mantenimiento que atienden el panel de alarma contra incendio (fire alarm panel). Por eso debe participar en los protocolos de evacuación, los puntos de reunión y la relación con los bomberos locales."
+  },
+  "crisis-6-q8": {
+   "q": "Una empresa tiene una planta química en una zona rural, lejos del hospital más cercano, y un centro comercial en plena ciudad. Según el libro, ¿de qué depende el nivel de formación médica de los oficiales de seguridad en cada sitio?",
+   "o": [
+    "De la atención médica profesional cercana y del nivel de atención que pida el perfil de riesgo",
+    "Del número de oficiales en cada turno y del presupuesto de capacitación de cada instalación",
+    "De la normativa local de primeros auxilios y de la antigüedad de los oficiales en el puesto",
+    "Del número de visitantes diarios y de la cantidad de DEA ya instalados en todo el sitio"
+   ],
+   "e": "El libro dice que el nivel exacto de formación depende de la disponibilidad de atención médica profesional cerca de la instalación y del nivel de atención especializada que pida su perfil de riesgo. Por eso en la planta química se forma en exposición a químicos, y en el centro comercial, en caídas, infartos e incidentes parecidos."
+  },
+  "crisis-6-q9": {
+   "q": "Una planta prepara su equipo de crisis ante un posible derrame químico que podría extenderse fuera del sitio. Ya incluye seguridad, mantenimiento, salud laboral y legal. Según el libro, ¿qué función suele olvidarse y debería añadir?",
+   "o": [
+    "Relaciones públicas",
+    "Compras y abastecimiento",
+    "Tecnologías de la información",
+    "Recursos humanos"
+   ],
+   "e": "En incidentes con materiales peligrosos (HAZMAT), lo que más se olvida en el equipo de crisis son las relaciones públicas: si el derrame abarca un área grande o daña a la comunidad, hará falta comunicación de crisis inmediata. Por eso el equipo debe incluir a quienes protegen tanto los activos físicos como los reputacionales."
+  },
+  "crisis-6-q10": {
+   "q": "En un almacén se produce un derrame químico grande de mercurio. Un empleado sin formación en derrames propone limpiarlo de inmediato con material absorbente. ¿Qué indica el libro?",
+   "o": [
+    "No limpiarlo sin formación: contenerlo y llamar a una empresa de limpieza de derrames o a los bomberos",
+    "Limpiarlo de inmediato siguiendo la hoja de datos de seguridad (safety data sheet) y con el equipo de protección personal adecuado",
+    "Acordonar con cinta de precaución y avisar solo al supervisor, porque el derrame no es urgente",
+    "Evacuar el edificio y esperar a que el mercurio se evapore antes de que alguien vuelva a entrar"
+   ],
+   "e": "En un derrame grande no se intenta limpiar salvo con formación: se contiene con el equipo disponible, se asegura la zona y se llama a una empresa local de limpieza de derrames o a los bomberos (si hay acuerdo previo), por ejemplo con mercurio. Tratarlo con la hoja de datos de seguridad y el EPP (equipo de protección personal) corresponde al derrame pequeño."
+  },
+  "crisis-6-q11": {
+   "q": "Según el libro, ¿qué fase de alerta pandémica de la OMS (Organización Mundial de la Salud, WHO) es la señal para que la empresa empiece a aplicar las estrategias de su plan de continuidad del negocio?",
+   "o": [
+    "Fase 3",
+    "Fase 1",
+    "Fase 5",
+    "Fase 6"
+   ],
+   "e": "La fase 3 (infección humana con un subtipo nuevo y poco o ningún contagio a contactos cercanos) es la señal para empezar a aplicar las estrategias del plan de continuidad. En las fases 1 y 2 se prepara (servicios esenciales, sucesión, tecnología), y la fase 6 ya es la pandemia, con transmisión sostenida en la población general."
+  },
+  "crisis-6-q12": {
+   "q": "Al planear la continuidad ante una pandemia, una empresa de 500 empleados quiere fijar un supuesto de ausentismo. Según el libro, ¿cuál es el supuesto de planificación (planning assumption)?",
+   "o": [
+    "Hasta 200 empleados (40 %) ausentes en distintos periodos",
+    "Hasta 100 empleados (20 %) ausentes durante toda la pandemia",
+    "Hasta 125 empleados (25 %) ausentes solo en la fase 6",
+    "Hasta 300 empleados (60 %) ausentes en el pico de contagios"
+   ],
+   "e": "El libro asume que hasta el 40 % de la plantilla puede faltar durante distintos periodos de una pandemia, por cuarentenas, cuidado de familiares o hijos con clases a distancia: el 40 % de 500 son 200. Por eso pide prever suficiente personal de respaldo ante un alto ausentismo."
+  },
+  "crisis-6-q13": {
+   "q": "¿Cómo clasifica el libro la violencia dirigida o intencionada (targeted / intended violence)?",
+   "o": [
+    "Planificada, sin emoción y depredadora",
+    "Impulsiva, emocional y reactiva",
+    "Planificada, emocional y expresiva",
+    "Espontánea, sin emoción y situacional"
+   ],
+   "e": "El libro define la violencia dirigida como la decisión consciente de matar o dañar físicamente a víctimas concretas o simbólicas, y la clasifica como planificada, sin emoción y depredadora (planned, emotionless, predatory). Las opciones que la presentan como impulsiva o emocional describen lo contrario."
+  },
+  "crisis-6-q14": {
+   "q": "Un exempleado con un agravio contra la empresa ya consiguió un arma. Ahora lo ven fotografiando los accesos y probando si el personal de seguridad reacciona cuando intenta entrar. ¿En qué etapa del camino hacia la violencia (pathway to violence) está?",
+   "o": [
+    "Sondeo / vigilancia (probing / surveillance)",
+    "Adquisición (acquisition)",
+    "Planificación (planning)",
+    "Acción / ejecución (action / implementation)"
+   ],
+   "e": "Las etapas del libro son ideación, planificación, adquisición, sondeo/vigilancia y acción/ejecución; fotografiar accesos y probar la reacción de seguridad, tras conseguir el arma, es sondeo o vigilancia. El agravio es el origen del camino, no una etapa, y la meta es romperlo lo antes posible atendiendo los indicadores previos (pre-incident indicators)."
+  },
+  "crisis-6-q15": {
+   "q": "Un empleado falta al respeto y grita a sus compañeros en las reuniones, pero no amenaza con dañar a nadie ni hay peligro inmediato. Según la respuesta proporcional del libro, ¿qué corresponde?",
+   "o": [
+    "Observar, documentar y reportar; un supervisor se reúne con él y coordina acciones según las políticas",
+    "Avisar de inmediato a la policía y activar los protocolos de violencia laboral para peligro inmediato",
+    "Evacuar la zona y activar al equipo de respuesta a incidentes de violencia laboral",
+    "Despedirlo de inmediato en aplicación de la política de tolerancia cero (zero tolerance)"
+   ],
+   "e": "Ante intimidación, acoso, falta de respeto o abuso verbal, el libro pide observar, documentar y reportar para evaluación, y que un supervisor se reúna con el empleado y coordine acciones según las políticas. Llamar a la policía o evacuar corresponde a conductas más graves, como amenazas de dañar a otros o peligro inmediato."
+  },
+  "crisis-6-q16": {
+   "q": "Una empleada revela que sufre violencia doméstica y que su expareja la ha amenazado. Seguridad propone pedir de inmediato una orden de alejamiento corporativa (corporate restraining order) contra él. Según Brunell, ¿qué condición debe cumplirse?",
+   "o": [
+    "Pedirla solo con la participación y la opinión de la víctima",
+    "Pedirla solo si el agresor ya se presentó en la oficina",
+    "Pedirla solo después de que la víctima obtenga su propia orden",
+    "Pedirla sin informar a la víctima, para no aumentar su angustia"
+   ],
+   "e": "Brunell indica que las órdenes de alejamiento corporativas solo se piden con la participación y la opinión de la víctima. Actuar sin ella choca además con la confidencialidad y el trabajo conjunto con el empleado que el libro recomienda."
+  },
+  "crisis-6-q17": {
+   "q": "Se oyen disparos en otra planta del edificio. Un grupo de empleados tiene a la vista una salida de emergencia libre que lleva lejos del atacante. Según la respuesta basada en opciones (options-based response), ¿qué deben hacer?",
+   "o": [
+    "Evacuar, separándose en lugar de salir en grupo y dejando sus pertenencias",
+    "Esconderse en una oficina cerrada con llave, porque es la primera opción del modelo del libro",
+    "Mantenerse juntos y salir como un solo grupo, para que nadie se quede atrás",
+    "Prepararse para luchar contra el atacante juntos, como un grupo coordinado"
+   ],
+   "e": "El libro presenta primero esconderse, pero aclara que uno se esconde si no puede escapar; cuando escapar es posible, es preferible evacuar. Al huir no se sale en grupo: hay que separarse y dejar las pertenencias."
+  },
+  "crisis-6-q18": {
+   "q": "Durante un ataque armado, una empleada debe elegir dónde protegerse en una oficina. ¿Qué opción le da cubierta (cover) y no solo ocultación (concealment)?",
+   "o": [
+    "Un archivador metálico lleno de papeles",
+    "Una cortina gruesa de ventana",
+    "Una mampara de tela entre escritorios",
+    "Una puerta de cristal esmerilado"
+   ],
+   "e": "La cubierta protege de los disparos, y el ejemplo del libro es un archivador metálico lleno de papeles; la ocultación solo impide que el atacante vea, y su ejemplo es una cortina de ventana."
+  },
+  "crisis-6-q19": {
+   "q": "Durante un ataque, un grupo de empleados logra reducir al atacante y quitarle el arma. Según el libro, ¿qué deben hacer con ella?",
+   "o": [
+    "No usarla y asegurarla lejos del atacante",
+    "Usarla para mantener al atacante bajo control",
+    "Entregarla al primer guardia que llegue al lugar",
+    "Sostenerla a la vista para que la policía la vea al llegar"
+   ],
+   "e": "Si se consigue el arma del atacante, no se usa para defenderse: se asegura lejos de él. Además, cuando llega la policía hay que soltar lo que se lleve en las manos y mantenerlas visibles, lo que descarta recibirla con el arma en la mano."
+  },
+  "crisis-6-q20": {
+   "q": "Una organización sabe que una protesta pasará frente a su sede. El equipo de gestión de crisis ya evaluó su naturaleza, tamaño, alcance y «ánimo» (mood). Según el libro, ¿qué enfoque es el MÁS adecuado?",
+   "o": [
+    "Contactar a los «capitanes» de la protesta para acordar tiempo, lugar y forma",
+    "Pedir a la policía que impida la protesta, porque amenaza las operaciones",
+    "Desplegar siempre un perfil de seguridad muy visible para disuadir a los manifestantes",
+    "Prohibir a los empleados que participen en la protesta durante la jornada"
+   ],
+   "e": "Muchas protestas tienen «capitanes» que organizan a la multitud, y contactarlos para acordar tiempo, lugar y forma puede beneficiar a todos; no es responsabilidad de seguridad impedir que la gente proteste. Un perfil muy visible no siempre conviene: a veces un enfoque discreto calma más la situación."
+  },
+  "crisis-6-q21": {
+   "q": "Una empresa recibe por teléfono una amenaza de bomba (bomb threat). La policía local acude, pero no se ha localizado ningún artefacto. En la mayoría de jurisdicciones, ¿quién toma la decisión final de evacuar?",
+   "o": [
+    "La dirección de la organización",
+    "El mando de la policía local",
+    "El jefe de bomberos de la zona",
+    "El equipo de evaluación de amenazas"
+   ],
+   "e": "En la mayoría de jurisdicciones, la decisión final de evacuar la toma la dirección de la organización, salvo que se localice un artefacto. La policía apoya y puede ayudar a evacuar, pero no decide en este supuesto."
+  },
+  "crisis-6-q22": {
+   "q": "Al preparar el plan ante amenazas de bomba, un gerente propone usar las mismas zonas de reunión que en la evacuación por incendio. ¿Qué indica el libro?",
+   "o": [
+    "Las zonas deben quedar más allá del radio potencial de explosión y no son las de incendio",
+    "Es correcto, porque así los empleados no tienen que aprender dos rutas distintas",
+    "Es correcto si las zonas están a la vista del edificio para seguir el incidente",
+    "Las zonas las fija siempre la policía al llegar, así que no se planean antes"
+   ],
+   "e": "El libro pide fijar zonas de evacuación más allá del radio potencial de explosión (blast radius) y subraya que no son las mismas que las de evacuación por incendio. La comodidad de una sola ruta no justifica ignorar esa diferencia."
+  },
+  "crisis-6-q23": {
+   "q": "Durante un ciberataque en curso, un analista propone contraatacar (hack back) los servidores del atacante y coordinar al equipo por el correo corporativo comprometido. Según el libro, ¿qué es lo correcto?",
+   "o": [
+    "Vigilar el ataque sin contraatacar y no usar sistemas comprometidos para comunicarse",
+    "Contraatacar solo si el atacante está en otro país, y usar el correo con cifrado",
+    "Contraatacar para desescalar, pero coordinar al equipo por teléfono personal",
+    "Desconectar toda la red y no avisar a nadie fuera de TI hasta acabar el análisis forense"
+   ],
+   "e": "Durante el ataque hay que vigilarlo, pero no enfrentarse ni contraatacar, porque puede ser delito y la meta es desescalar; tampoco se usan sistemas comprometidos para comunicarse. Además, el plan exige notificar a la dirección, la policía, el DHS u otra agencia similar y otras posibles víctimas."
+  },
+  "crisis-6-q24": {
+   "q": "Una empresa organiza ejercicios colaborativos (collaborative exercises) para comprobar su plan de respuesta a incidentes cibernéticos. Según el libro, ¿cuál es su propósito?",
+   "o": [
+    "Potenciar las fortalezas de cada área para compartirlas entre funciones",
+    "Exponer las debilidades de cada área ante la alta dirección",
+    "Identificar a las personas responsables de las brechas para poder sancionarlas",
+    "Certificar el plan conforme al NIST Cybersecurity Framework"
+   ],
+   "e": "El libro aclara que los ejercicios colaborativos no buscan exponer debilidades, sino potenciar las fortalezas de un área para compartirlas entre funciones; sus aprendizajes ayudan a diseñar un manual de crisis (crisis management playbook). Exponer debilidades es justo lo que el libro descarta."
+  },
+  "crisis-A-q0": {
+   "q": "Las organizaciones desarrolladoras de normas (standards developing organizations, SDO) elaboran las normas siguiendo cuatro principios. ¿Cuáles son?",
+   "o": [
+    "Consenso, apertura, debido proceso y transparencia",
+    "Consenso, confidencialidad, debido proceso y mejora continua",
+    "Apertura, transparencia, obligatoriedad legal y coherencia",
+    "Consenso, apertura, interoperabilidad y control regulatorio"
+   ],
+   "e": "Según el Apéndice A, las normas se elaboran con consenso, apertura, debido proceso y transparencia (consensus, openness, due process, transparency). La mejora continua y la interoperabilidad aparecen en el apéndice, pero como marco de los sistemas de gestión y como beneficio de las normas, no como principios de elaboración."
+  },
+  "crisis-A-q1": {
+   "q": "Una norma de ASIS International es voluntaria, pero un cliente la incorpora como requisito obligatorio en el contrato de servicios de seguridad. Según el Apéndice A, ¿cómo se clasifica esa norma en la práctica?",
+   "o": [
+    "Mixta (mixed): es voluntaria en teoría, pero obligatoria en la práctica",
+    "Estatutaria: pasa a ser vinculante por ley al firmarse el contrato",
+    "Voluntaria: un contrato no cambia el carácter de una norma de ASIS",
+    "Regulatoria: la hace cumplir una autoridad formal designada por el cliente"
+   ],
+   "e": "Las normas mixtas incluyen las que siguen siendo voluntarias en teoría pero son obligatorias en la práctica, como cuando un contrato las exige; el libro señala que su adopción la impulsa cada vez más el cliente. Una norma estatutaria es vinculante por ley y la hacen cumplir autoridades formales, lo que no ocurre aquí."
+  },
+  "crisis-A-q2": {
+   "q": "Una empresa implantó un nuevo procedimiento de control de visitas y comprobó que los resultados coinciden con lo planeado. Ahora lo va a estandarizar en todas sus sedes y a revisar su lista de problemas para definir los siguientes. ¿En qué fase del ciclo PDCA (Plan-Do-Check-Act) se encuentra?",
+   "o": [
+    "Act (actuar)",
+    "Check (verificar)",
+    "Do (hacer)",
+    "Plan (planificar)"
+   ],
+   "e": "En Act, si las soluciones resuelven los problemas, se estandarizan en toda la organización, se revisa la lista de problemas y se definen otros nuevos; ahí el ciclo vuelve a empezar. Check es la fase anterior: examinar si los resultados coinciden con el plan, algo que la empresa ya hizo."
+  },
+  "crisis-A-q3": {
+   "q": "Un gerente de seguridad debe especificar cerraduras, alarmas y un sistema de control de acceso para una nueva sede. Según el Apéndice A, ¿qué organismo emite normas sobre este tipo de equipos de seguridad?",
+   "o": [
+    "Underwriters Laboratories (UL)",
+    "Illuminating Engineering Society",
+    "National Fire Protection Association (NFPA)",
+    "Electronic Industries Association"
+   ],
+   "e": "El libro atribuye a UL las normas sobre equipos de seguridad como cerraduras, alarmas y sistemas de control de acceso. La Electronic Industries Association se ocupa de componentes y productos electrónicos en general, y la Illuminating Engineering Society, de iluminación."
+  },
+  "crisis-A-q4": {
+   "q": "Según el Apéndice A, ¿qué dos normas de sistemas de gestión (management system standards) son las más destacadas?",
+   "o": [
+    "ISO 9001 (calidad) e ISO 14001 (gestión ambiental)",
+    "ISO 22301 (continuidad del negocio) e ISO 22300 (terminología)",
+    "ISO 9001 (calidad) y ASIS ORM.1-2017 (resiliencia)",
+    "ISO 14001 (gestión ambiental) y NFPA 1600 (emergencias)"
+   ],
+   "e": "El libro señala ISO 9001 (sistemas de gestión de la calidad) e ISO 14001 (sistemas de gestión ambiental) como las normas de sistemas de gestión más destacadas. ASIS ORM.1-2017 aparece como fuente de la figura que aplica el PDCA a la resiliencia, e ISO 22301 e ISO 22300 solo figuran en la lista de lecturas del Appendix B."
+  }
+ }
 }

@@ -446,3 +446,11 @@ body.has-mini #toast { bottom: calc(var(--tabbar) + var(--safe-b) + 100px); }
 .day .kv span:first-child { color: var(--ink-2); font-variant-numeric: tabular-nums; }
 .day .kv span:last-child { font-variant-numeric: tabular-nums; }
 .day .fact { font-size: 11px; padding: 4px 6px; }
+
+/* ---------- examen tipo real y plan ---------- */
+.opt.sel { border-color: var(--red); background: var(--red-bg); }
+.opt.sel .l { background: var(--red); border-color: var(--red); color: #fff; }
+.xtime { font: 700 15px var(--display); color: var(--ink); font-variant-numeric: tabular-nums; }
+.xtime.low { color: var(--red-ink); }
+.tstats.grid2 { display: grid; grid-template-columns: 1fr 1fr; }
+.hero .chips .chip { font-size: 13.5px; }
