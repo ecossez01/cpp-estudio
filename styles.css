@@ -460,3 +460,64 @@ body.has-mini #toast { bottom: calc(var(--tabbar) + var(--safe-b) + 100px); }
 .stack > * + * { margin-top: 12px; }
 #lErr:empty { display: none; }
 #lErr { color: var(--red-ink); }
+
+/* ---------- pantalla grande (compu, iPad en horizontal) ---------- */
+#tabbar .side-brand, .ttl-d { display: none; }
+@media (min-width: 1024px) {
+  :root { --side: 236px; }
+  body { padding-left: var(--side); padding-bottom: 48px; }
+  body.has-mini { padding-bottom: 128px; }
+
+  /* menú lateral en lugar de la barra inferior */
+  #tabbar {
+    top: 0; bottom: 0; right: auto; width: var(--side);
+    display: flex; flex-direction: column; gap: 4px; padding: 18px 14px;
+    border-top: 0; border-right: 1px solid var(--line); background: var(--sunk);
+  }
+  #tabbar .side-brand { display: flex; align-items: center; gap: 12px; height: auto; padding: 8px 10px 22px; margin-bottom: 10px; border-bottom: 1px solid var(--line); }
+  #tabbar .side-brand .sbm { height: 18px; width: auto; fill: var(--red); stroke: none; flex: none; }
+  .side-brand span { font: 500 11.5px/1 var(--display); letter-spacing: .24em; text-transform: uppercase; color: var(--ink-2); }
+  #tabbar a[data-tab] { flex-direction: row; justify-content: flex-start; height: 46px; gap: 14px; padding: 0 12px; border-radius: 8px; font: 500 15px var(--ui); }
+  #tabbar a[data-tab]:hover { background: var(--panel); color: var(--ink); }
+  #tabbar a.on { background: var(--panel-2); }
+  #tabbar a.on::before { top: 10px; bottom: 10px; left: 0; right: auto; width: 3px; height: auto; border-radius: 0 2px 2px 0; }
+  #tabbar svg { width: 22px; height: 22px; }
+
+  #top { padding-left: 28px; padding-right: 28px; }
+  #ttl .brand { display: none; }
+  #ttl .ttl-d { display: inline; }
+  #view { max-width: 1200px; padding: 28px 28px 0; }
+  #view[data-page=ajustes], #view[data-page=tiempo], #view[data-page=audios], #view[data-page=buscar], #view[data-page=fichas] { max-width: 880px; }
+
+  /* inicio, simulacro y plan en dos columnas */
+  .home-top, .sim-top, .plan-top { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 24px; align-items: start; }
+  .home-top .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .home-top .tile { min-height: 96px; }
+  .plan-side > .label:first-child, .quick > .label:first-child { margin-top: 4px; }
+  .list.cols { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  #view[data-page=test] #quizArea, .pane-fichas, .pane-test, .pane-ojo { max-width: 800px; margin-left: auto; margin-right: auto; }
+
+  /* capítulo: el resumen a la izquierda y el índice fijo a la derecha */
+  .tabs-wrap { margin: -28px -28px 20px; padding: 12px 28px; }
+  .tabs { max-width: 560px; }
+  .pane-resumen { display: grid; grid-template-columns: minmax(0, 1fr) 270px; column-gap: 44px; align-items: start; }
+  .pane-resumen > * { grid-column: 1; }
+  .pane-resumen > .toc {
+    grid-column: 2; grid-row: 1 / span 20; position: sticky; top: calc(var(--hdr) + 88px);
+    display: flex; flex-direction: column; gap: 2px; margin: 0; padding: 0 0 0 14px;
+    border-left: 1px solid var(--line); overflow-y: auto; max-height: calc(100vh - var(--hdr) - 120px);
+  }
+  .pane-resumen > .toc a { max-width: none; white-space: normal; background: none; border: 0; padding: 7px 10px; border-radius: 6px; line-height: 1.35; color: var(--muted); }
+  .pane-resumen > .toc a:hover { color: var(--ink); background: var(--panel); }
+  .pane-resumen > .toc a.on { color: var(--ink); background: var(--panel-2); box-shadow: inset 2px 0 0 var(--red); }
+  .prose { font-size: 17px; max-width: 74ch; }
+
+  #mini { left: calc(var(--side) + 24px); right: 24px; bottom: 20px; }
+  #toast { bottom: 32px; left: calc(50% + var(--side) / 2); }
+  body.has-mini #toast { bottom: 118px; }
+  #update { left: calc(var(--side) + 24px); right: 24px; }
+}
+@media (min-width: 1500px) {
+  #view { max-width: 1320px; }
+  .list.cols { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}

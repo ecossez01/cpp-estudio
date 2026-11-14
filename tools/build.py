@@ -85,6 +85,7 @@ def formula_html(tex: str) -> str:
 def fix_markdown(md: str, lang="es") -> str:
     lab = re.escape(LANG[lang]["ojo"])
     md = re.sub(r"(?m)^  (?=(\d+\.|-) )", "    ", md)  # listas anidadas con 2 espacios
+    md = md.replace("\\~", "~")  # «\~» que dejó la exportación
     md = LATEX_RE.sub(lambda m: "\n" + formula_html(m.group(1)) + "\n", md)
     md = re.sub(r"(?m)^(\s*(?:-\s*)?)(?:\*\*)?" + lab + r"(?:\*\*)?", lambda m: m.group(1) + "**" + LANG[lang]["ojo"] + "**", md)
     return md

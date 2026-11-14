@@ -304,7 +304,7 @@ const meter = (p, cls = '') => `<div class="meter ${cls}"><i style="width:${p}%"
 // ---------- cabecera y navegación ----------
 function header(title, back, brand = false) {
   const h = $('#ttl');
-  if (brand) h.innerHTML = `<span class="brand">${SBM_MARK}<span>${esc(t('app'))}</span></span>`;
+  if (brand) h.innerHTML = `<span class="brand">${SBM_MARK}<span>${esc(t('app'))}</span></span><span class="ttl-d">${esc(t('tab_home'))}</span>`;
   else h.textContent = title;
   const b = $('#back');
   if (back) { b.hidden = false; b.href = back; } else b.hidden = true;
@@ -313,11 +313,12 @@ function header(title, back, brand = false) {
 }
 function syncHeader() { document.documentElement.style.setProperty('--hdr', ($('#top').offsetHeight - (parseFloat(getComputedStyle($('#top')).paddingTop) || 0)) + 'px'); }
 window.addEventListener('resize', syncHeader);
-function setTab(tb) { $$('#tabbar a').forEach(a => a.classList.toggle('on', a.dataset.tab === tb)); }
+function setTab(tb) { $$('#tabbar a[data-tab]').forEach(a => a.classList.toggle('on', a.dataset.tab === tb)); }
 
 function applyLang() {
   document.documentElement.lang = L();
-  $$('#tabbar a').forEach(a => { $('span', a).textContent = t('tab_' + a.dataset.tab); });
+  $$('#tabbar a[data-tab]').forEach(a => { $('span', a).textContent = t('tab_' + a.dataset.tab); });
+  const sb = $('#sideBrand'); if (sb) sb.innerHTML = `${SBM_MARK}<span>${esc(t('app'))}</span>`;
   $$('#lang span').forEach(s => s.classList.toggle('on', s.dataset.l === L()));
   $('#lang').setAttribute('aria-label', t('langAria'));
   $('#back').setAttribute('aria-label', t('back'));
@@ -344,15 +345,17 @@ async function setLang(l) {
 }
 
 let SESSION = null;
-let scrollSaver = null;
+let scrollSaver = null, tocScroll = null;
 function route(keepScroll) {
   SESSION = null;
   clockFlush(Date.now()); READING = null;
   if (scrollSaver) { window.removeEventListener('scroll', scrollSaver); scrollSaver = null; }
+  if (tocScroll) { window.removeEventListener('scroll', tocScroll); tocScroll = null; }
   const h = location.hash.replace(/^#\/?/, '');
   const [path, qs] = h.split('?');
   const p = path.split('/').filter(Boolean).map(decodeURIComponent);
   const q = new URLSearchParams(qs || '');
+  view.dataset.page = p[0] || 'home';
   if (keepScroll !== true) window.scrollTo(0, 0);
   try {
     switch (p[0]) {
@@ -385,6 +388,7 @@ function home() {
   const first = IDX.find(d => d.ready) && DATA[IDX.find(d => d.ready).id]?.chapters[0];
   const metric = (label, a, b, shown) => `<div class="metric"><div class="top"><span>${esc(label)}</span><b>${shown}</b></div>${meter(pct(a, b))}</div>`;
   view.innerHTML = `
+    <div class="home-top">
     <section class="panel stripe hero">
       <div class="kicker">Certified Protection Professional</div>
       <h2>${esc(S.name ? t('hello', S.name) : t('yourProgress'))}</h2>
@@ -397,15 +401,16 @@ function home() {
       ${last ? `<a class="btn red block cont" href="#/c/${last.id}/resumen"><small>${esc(t('cont'))}</small><span>${esc(chShort(last))}: ${esc(chT(last))}</span></a>`
         : first ? `<a class="btn red block cont" href="#/c/${first.id}/resumen"><small>${esc(t('startStudy'))}</small><span>${esc(chShort(first))}: ${esc(chT(first))}</span></a>` : ''}
     </section>
-    <h3 class="label">${esc(t('quick'))}</h3>
+    <div class="quick"><h3 class="label">${esc(t('quick'))}</h3>
     <div class="tiles">
       <a class="tile" href="#/test">${icon('sim')}<b>${esc(t('qSim'))}</b><span>${esc(t('qSimS'))}</span></a>
       <a class="tile" href="#/fichas/pend">${icon('cards')}<b>${esc(t('qCards'))}</b><span>${esc(t('qCardsS', pend))}</span></a>
       <a class="tile" href="#/test?scope=fallos">${icon('wrong')}<b>${esc(t('qWrong'))}</b><span>${esc(t('qWrongS', wrong))}</span></a>
       <a class="tile" href="#/plan">${icon('plan')}<b>${esc(t('qPlan'))}</b><span>${esc((() => { const p = planInfo(); return p.leftMs ? t('qPlanH', fmtHM(p.leftMs)) : t('qPlanS', p.unread.length); })())}</span></a>
+    </div></div>
     </div>
     <h3 class="label">${esc(t('volumes'))}</h3>
-    <div class="list">${IDX.map(d => {
+    <div class="list cols">${IDX.map(d => {
       if (!d.ready || !DATA[d.id]) return '';
       const cs = DATA[d.id].chapters;
       const cards = cs.flatMap(c => c.cards), qs = cs.flatMap(c => c.quiz);
@@ -441,7 +446,7 @@ function domainView(id) {
       <div class="row"><a class="btn red" href="#/test?scope=${d.id}">${esc(t('simVol'))}</a><a class="btn" href="#/fichas/${d.id}">${esc(t('cardsN', pendingCards(cards).length))}</a></div>
     </section>
     <h3 class="label">${esc(t('chapters'))}</h3>
-    <div class="list">${cs.map(c => {
+    <div class="list cols">${cs.map(c => {
       const r = !!S.read[c.id], best = S.best[c.id], k = known(c.cards);
       return `<a class="item" href="#/c/${c.id}/resumen">${r ? icon('check', 'ok') : `<span class="ic num">${esc(c.num.length > 2 ? c.num.slice(0, 2) : c.num)}</span>`}
         <div class="grow"><div class="t">${esc(chT(c))}</div><div class="s">${esc(chLabel(c))}${c.pages ? ', ' + esc(t('pages', c.pages)) : ''}</div>
@@ -463,6 +468,7 @@ function chapterView(id, tab, q, keepScroll) {
     <div class="tabs-wrap"><nav class="tabs">${tabs.map(([k, l, n]) => `<a href="#/c/${id}/${k}" class="${k === tab ? 'on' : ''}">${esc(l)}${n !== '' ? ` <small>${n}</small>` : ''}</a>`).join('')}</nav></div>
     <div id="pane"></div>`;
   const pane = $('#pane');
+  pane.className = 'pane-' + tab;
   const prev = d.chapters[i - 1], next = d.chapters[i + 1];
   const nav = `<div class="chnav">${prev ? `<a class="btn" href="#/c/${prev.id}/${tab}">‹ ${esc(chShort(prev))}</a>` : ''}${next ? `<a class="btn" href="#/c/${next.id}/${tab}">${esc(chShort(next))} ›</a>` : ''}</div>`;
   const meta = `<div class="kicker">${esc(chLabel(c))}${c.pages ? '&ensp;&ensp;' + esc(t('pages', c.pages)) : ''}</div>`;
@@ -481,6 +487,21 @@ function chapterView(id, tab, q, keepScroll) {
       <div class="readbox"><button class="btn block ${S.read[id] ? 'okb' : 'red'}" id="readBtn">${esc(S.read[id] ? t('isRead') : t('markRead'))}</button></div>
       ${nav}`;
     $$('[data-jump]', pane).forEach(a => a.addEventListener('click', e => { e.preventDefault(); document.getElementById(a.dataset.jump)?.scrollIntoView({ behavior: 'smooth', block: 'start' }); }));
+    // Marca en el índice la sección que estás leyendo (se ve en la compu, con el índice a la derecha)
+    const tocLinks = $$('.toc a', pane), heads = $$('#prose h3', pane);
+    if (tocLinks.length && heads.length) {
+      let raf = 0;
+      const mark = () => {
+        raf = 0;
+        let curId = heads[0].id;
+        for (const h of heads) { if (h.getBoundingClientRect().top < 180) curId = h.id; else break; }
+        tocLinks.forEach(l => l.classList.toggle('on', l.dataset.jump === curId));
+      };
+      const onScroll = () => { if (!raf) raf = requestAnimationFrame(mark); };
+      tocScroll = onScroll;
+      window.addEventListener('scroll', tocScroll, { passive: true });
+      mark();
+    }
     $('#readBtn').onclick = () => {
       if (S.read[id]) delete S.read[id]; else S.read[id] = Date.now();
       save();
@@ -801,7 +822,7 @@ function testSetup(q) {
     SESSION = null;
     const P = pool();
     const X = S.exam;
-    view.innerHTML = `
+    view.innerHTML = `<div class="sim-top"><div>
       ${X ? `<section class="panel stripe hero" id="simHero"><div class="kicker">${esc(t('examKicker'))}</div><h2>${esc(t('examOn'))}</h2>
           <p class="sub">${esc(t('examOnSub', X.i + 1, X.ids.length, fmtClock(X.t0 + X.lim - Date.now())))}</p>
           <div class="row" style="margin-top:16px"><button class="btn red" id="xGo">${esc(t('examContinue'))}</button><button class="btn" id="xDrop">${esc(t('examDrop'))}</button></div></section>`
@@ -809,6 +830,7 @@ function testSetup(q) {
           <p class="sub">${esc(t('examSub'))}</p>
           <div class="chips" id="xs" style="margin-top:16px">${EXAM_SIZES.map(v => `<button class="chip ${size === v ? 'on' : ''}" data-v="${v}">${esc(t('examSize', v, fmtHM(examMs(v))))}</button>`).join('')}</div>
           <button class="btn red block" id="xGo" style="margin-top:16px">${esc(t('examStart'))}</button></section>`}
+      </div><div>
       <h3 class="label" id="pLabel">${esc(t('practice'))}</h3>
       <section class="panel setup" id="simSetup">
         <p class="note" style="margin-top:0">${esc(t('simSub'))}</p>
@@ -822,6 +844,7 @@ function testSetup(q) {
         <div class="chips" id="nn">${[10, 25, 50, 0].map(v => `<button class="chip ${n === v ? 'on' : ''}" data-v="${v}">${v || esc(t('allQ'))}</button>`).join('')}</div>
         <button class="btn red block" id="go" ${P.length ? '' : 'disabled'}>${esc(t('startN', n ? Math.min(n, P.length) : P.length))}</button>
       </section>
+      </div></div>
       <div id="quizArea"></div>
       ${S.sims.length ? `<div id="hist"><h3 class="label">${esc(t('recent'))}</h3><div class="list">${S.sims.slice(0, 8).map(s => `<div class="item"><span class="ic num" style="width:auto;padding:0 10px;min-width:52px">${pct(s.ok, s.n)}%</span><div class="grow"><div class="t">${esc(labelOf(s.s))}</div><div class="s">${s.ok}/${s.n}, ${new Date(s.t).toLocaleDateString(locale(), { day: 'numeric', month: 'short' })}, ${fmtTime(s.secs)}</div></div></div>`).join('')}</div></div>` : ''}`;
     $$('#sc .chip').forEach(b => b.onclick = () => { scope = b.dataset.v; draw(); });
@@ -895,7 +918,7 @@ function planView() {
       examBox = `<p class="note">${esc(t('planDaysLeft', days))} ${esc(t('planChWeek', perWeek < 10 ? perWeek.toFixed(1) : Math.round(perWeek)))}${leftMs ? ' ' + esc(t('planMinDay', Math.ceil(leftMs / days / 60000))) : ''}</p>`;
     } else examBox = `<p class="note">${esc(t('planPast'))}</p>`;
   }
-  view.innerHTML = `
+  view.innerHTML = `<div class="plan-top">
     <section class="panel stripe hero">
       <div class="kicker">${esc(t('planTitle'))}</div><h2>${esc(t('planSize'))}</h2>
       <div class="tstats grid2">
@@ -906,6 +929,7 @@ function planView() {
       </div>
       <div class="metric" style="margin-top:16px"><div class="top"><span>${esc(t('mRead'))}</span><b>${readN}/${chs.length}</b></div>${meter(pct(readN, chs.length))}</div>
     </section>
+    <div class="plan-side">
     <h3 class="label">${esc(t('planPace'))}</h3>
     <section class="panel">${pace ? `
       <p style="margin:0">${esc(t('planWpm', Math.round(pace.wpm), pace.n))}</p>
@@ -918,8 +942,9 @@ function planView() {
       <label class="field">${esc(t('planExamLbl'))}<input type="date" id="exDate" value="${esc(S.examDate || '')}"></label>
       ${examBox || `<p class="note" style="margin-bottom:0">${esc(t('planExamNote'))}</p>`}
     </section>
+    </div></div>
     <h3 class="label">${esc(t('volumes'))}</h3>
-    <div class="list">${IDX.filter(d => d.ready && DATA[d.id]).map(d => {
+    <div class="list cols">${IDX.filter(d => d.ready && DATA[d.id]).map(d => {
       const cs = DATA[d.id].chapters, r = cs.filter(c => S.read[c.id]).length;
       return `<a class="item" href="#/d/${d.id}">${icon(d.id, r === cs.length ? 'ok' : '')}<div class="grow"><div class="t">${esc(domT(d))}</div>
         <div class="s">${esc(t('planVol', nf(cs.reduce((n, c) => n + pagesOf(c), 0)), cs.length))}</div>${meter(pct(r, cs.length))}</div><span class="pct">${r}/${cs.length}</span></a>`;
