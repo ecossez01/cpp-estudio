@@ -18,7 +18,7 @@ function toast(msg) { const el = $('#toast'); el.textContent = msg; el.classList
 
 // ---------- avance (localStorage) ----------
 const KEY = 'cpp-estudio-v1';
-const blank = () => ({ read: {}, cards: {}, qa: {}, best: {}, last: {}, apos: {}, adone: {}, scroll: {}, sims: [], speed: 1, lastCh: null, lang: 'es', name: '', time: [], chTime: {}, rday: {}, examDate: '', exam: null });
+const blank = () => ({ read: {}, cards: {}, qa: {}, best: {}, last: {}, apos: {}, adone: {}, scroll: {}, sims: [], speed: 1, lastCh: null, lang: 'es', name: '', time: [], chTime: {}, rday: {}, examDate: '', examDateT: 0, exam: null, resets: {}, owner: '', others: {} });
 let S = blank();
 try { S = Object.assign(blank(), JSON.parse(localStorage.getItem(KEY) || '{}')); } catch (e) { /* sin datos */ }
 let saveT;
@@ -54,6 +54,13 @@ const T = {
     planNoPace: 'Lee un capítulo en la app y márcalo como leído: con el tiempo que pasaste en él calculo tu ritmo y cuántas horas te faltan.',
     planExam: 'Fecha de examen', planExamLbl: 'Fecha (opcional)', planExamNote: 'Cuando la tengas, ponla aquí y te digo cuánto te toca por semana.',
     planDaysLeft: n => `Faltan ${n} días.`, planChWeek: n => `Para leer lo que falta: ${n} capítulos por semana.`, planMinDay: m => `A tu ritmo, unos ${m} min de lectura al día.`,
+    account: 'Cuenta', accNote: 'Entra para tener el mismo avance en la compu y en el celular. Sin internet la app sigue funcionando y se pone al día al volver la conexión.',
+    email: 'Correo', pass: 'Contraseña', signIn: 'Iniciar sesión', signingIn: 'Entrando…', signedAs: 'Sesión', lastSync: 'Última sincronización', syncNever: 'Todavía no',
+    syncNote: 'Se sincroniza sola al abrir y cerrar la app y cada pocos minutos.', syncNow: 'Sincronizar ahora', signOut: 'Cerrar sesión',
+    signOutQ: '¿Cerrar sesión? Tu avance se queda en este dispositivo.', syncOk: 'Avance sincronizado', syncFail: 'No se pudo sincronizar. Revisa tu conexión.',
+    syncOffline: 'Sin internet: se sincronizará al volver la conexión', syncExpired: 'Tu sesión expiró. Vuelve a entrar.',
+    errCred: 'Correo o contraseña incorrectos.', errMany: 'Demasiados intentos. Espera unos minutos.', errDisabled: 'Esta cuenta está desactivada.',
+    errNet: 'Sin conexión: conéctate para entrar.', errOther: 'No se pudo entrar. Inténtalo de nuevo.',
     planPast: 'Esa fecha ya pasó.', planVol: (p, n) => `${p} páginas, ${n} capítulos`,
     volumes: 'Tomos', nChapters: n => `${n} capítulos`, factRead: (a, b) => `${a}/${b} leídos`, factCards: (a, b) => `${a}/${b} fichas`, factTest: p => `${p}% test`,
     simVol: 'Simulacro del tomo', cardsN: n => `Fichas (${n})`, chapters: 'Capítulos',
@@ -130,6 +137,13 @@ const T = {
     planNoPace: 'Read a chapter in the app and mark it as read: from the time you spent on it I calculate your pace and how many hours you have left.',
     planExam: 'Exam date', planExamLbl: 'Date (optional)', planExamNote: 'Once you have it, set it here and I will tell you how much to cover each week.',
     planDaysLeft: n => `${n} days left.`, planChWeek: n => `To read what is left: ${n} chapters per week.`, planMinDay: m => `At your pace, about ${m} min of reading a day.`,
+    account: 'Account', accNote: 'Sign in to have the same progress on your computer and your phone. Without internet the app keeps working and catches up when you are back online.',
+    email: 'Email', pass: 'Password', signIn: 'Sign in', signingIn: 'Signing in…', signedAs: 'Signed in as', lastSync: 'Last sync', syncNever: 'Not yet',
+    syncNote: 'It syncs on its own when you open and close the app, and every few minutes.', syncNow: 'Sync now', signOut: 'Sign out',
+    signOutQ: 'Sign out? Your progress stays on this device.', syncOk: 'Progress synced', syncFail: 'Could not sync. Check your connection.',
+    syncOffline: 'No internet: it will sync when you are back online', syncExpired: 'Your session expired. Please sign in again.',
+    errCred: 'Wrong email or password.', errMany: 'Too many attempts. Wait a few minutes.', errDisabled: 'This account is disabled.',
+    errNet: 'No connection: connect to sign in.', errOther: 'Could not sign in. Please try again.',
     planPast: 'That date has passed.', planVol: (p, n) => `${p} pages, ${n} chapters`,
     volumes: 'Volumes', nChapters: n => `${n} chapters`, factRead: (a, b) => `${a}/${b} read`, factCards: (a, b) => `${a}/${b} cards`, factTest: p => `${p}% test`,
     simVol: 'Volume mock exam', cardsN: n => `Flashcards (${n})`, chapters: 'Chapters',
@@ -836,20 +850,24 @@ function labelOf(s) {
 // ---------- plan de estudio ----------
 const pagesOf = c => { const m = /(\d+)\s*[–-]\s*(\d+)/.exec(c.pages || ''); return m ? Math.max(0, +m[2] - +m[1] + 1) : 0; };
 const dayKey = ms => { const d = new Date(ms); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
+const devMaps = key => [S[key] || {}, ...Object.values(S.others || {}).map(o => (o && o[key]) || {})];
+const chTimeAll = id => devMaps('chTime').reduce((n, m) => n + (m[id] || 0), 0);
+const rdayAll = () => { const out = {}; for (const m of devMaps('rday')) for (const [k, v] of Object.entries(m)) out[k] = (out[k] || 0) + v; return out; };
 function readingPace() {
-  const done = Object.values(CH).map(x => x.c).filter(c => S.read[c.id] && (S.chTime[c.id] || 0) >= 180000 && c.words);
+  const done = Object.values(CH).map(x => x.c).filter(c => S.read[c.id] && chTimeAll(c.id) >= 180000 && c.words);
   if (!done.length) return null;
-  const w = done.reduce((n, c) => n + c.words, 0), ms = done.reduce((n, c) => n + S.chTime[c.id], 0);
+  const w = done.reduce((n, c) => n + c.words, 0), ms = done.reduce((n, c) => n + chTimeAll(c.id), 0);
   return { wpm: w / (ms / 60000), n: done.length };
 }
 function dailyReading() {
-  const keys = Object.keys(S.rday || {}).filter(k => S.rday[k] > 0).sort();
+  const RD = rdayAll();
+  const keys = Object.keys(RD).filter(k => RD[k] > 0).sort();
   if (!keys.length) return 0;
   const today = new Date(); today.setHours(12, 0, 0, 0);
   const first = new Date(keys[0] + 'T12:00:00');
   const days = Math.min(14, Math.round((today - first) / 864e5) + 1);
   let tot = 0;
-  for (let i = 0; i < days; i++) tot += S.rday[dayKey(today.getTime() - i * 864e5)] || 0;
+  for (let i = 0; i < days; i++) tot += RD[dayKey(today.getTime() - i * 864e5)] || 0;
   return tot / days / 60000;
 }
 function planInfo() {
@@ -906,7 +924,7 @@ function planView() {
       return `<a class="item" href="#/d/${d.id}">${icon(d.id, r === cs.length ? 'ok' : '')}<div class="grow"><div class="t">${esc(domT(d))}</div>
         <div class="s">${esc(t('planVol', nf(cs.reduce((n, c) => n + pagesOf(c), 0)), cs.length))}</div>${meter(pct(r, cs.length))}</div><span class="pct">${r}/${cs.length}</span></a>`;
     }).join('')}</div>`;
-  $('#exDate').addEventListener('change', e => { S.examDate = e.target.value || ''; save(true); planView(); });
+  $('#exDate').addEventListener('change', e => { S.examDate = e.target.value || ''; S.examDateT = Date.now(); save(true); sync(); planView(); });
 }
 
 // ---------- búsqueda ----------
@@ -1246,10 +1264,188 @@ function timeView(all) {
     if (!confirm(t('timeDelQ'))) return;
     const running = runStart != null;
     if (running) runStart = null;
-    S.time = []; cur = null; save(true);
+    S.time = []; cur = null; S.resets.time = Date.now(); save(true); sync();
     if (running) clockOn(Date.now());
     toast(t('timeDelOk')); timeView(false);
   });
+}
+
+// ---------- cuenta y sincronización (opcional: Firebase, config.js) ----------
+// Inicio de sesión con correo y contraseña; el avance se guarda en Firestore en progreso/<usuario>.
+// Sin internet todo sigue local; al volver la conexión se fusiona con lo de los otros dispositivos.
+const FB = window.CPP_FIREBASE && window.CPP_FIREBASE.apiKey ? window.CPP_FIREBASE : null;
+const AKEY = 'cpp-estudio-auth', DKEY = 'cpp-estudio-dev';
+let AUTH = null;
+try { AUTH = JSON.parse(localStorage.getItem(AKEY) || 'null'); } catch (e) { /* sin sesión */ }
+let DEV = null;
+try { DEV = localStorage.getItem(DKEY); } catch (e) { /* opcional */ }
+if (!DEV) { DEV = 'd' + Date.now().toString(36) + Math.random().toString(36).slice(2, 8); try { localStorage.setItem(DKEY, DEV); } catch (e) { /* opcional */ } }
+const saveAuth = () => { try { AUTH ? localStorage.setItem(AKEY, JSON.stringify(AUTH)) : localStorage.removeItem(AKEY); } catch (e) { /* opcional */ } };
+let syncing = null;
+
+async function fbJSON(r) { try { return await r.json(); } catch (e) { return {}; } }
+async function fbToken() {
+  if (!AUTH) throw new Error('NO_AUTH');
+  if (AUTH.idToken && AUTH.exp > Date.now() + 60000) return AUTH.idToken;
+  const r = await fetch(`https://securetoken.googleapis.com/v1/token?key=${encodeURIComponent(FB.apiKey)}`, {
+    method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: 'grant_type=refresh_token&refresh_token=' + encodeURIComponent(AUTH.refresh),
+  });
+  const j = await fbJSON(r);
+  if (!r.ok) {
+    const m = j.error?.message || 'TOKEN';
+    if (/TOKEN_EXPIRED|USER_DISABLED|USER_NOT_FOUND|INVALID_REFRESH_TOKEN/.test(m)) { AUTH = null; saveAuth(); }
+    throw new Error(m);
+  }
+  AUTH.idToken = j.id_token; AUTH.refresh = j.refresh_token; AUTH.exp = Date.now() + (+j.expires_in) * 1000; saveAuth();
+  return AUTH.idToken;
+}
+async function fbLogin(email, pass) {
+  const r = await fetch(`https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${encodeURIComponent(FB.apiKey)}`, {
+    method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ email, password: pass, returnSecureToken: true }),
+  });
+  const j = await fbJSON(r);
+  if (!r.ok) throw new Error(j.error?.message || 'LOGIN');
+  AUTH = { email: j.email, uid: j.localId, idToken: j.idToken, refresh: j.refreshToken, exp: Date.now() + (+j.expiresIn) * 1000, last: 0 };
+  saveAuth();
+}
+const docUrl = () => `https://firestore.googleapis.com/v1/projects/${encodeURIComponent(FB.projectId)}/databases/(default)/documents/progreso/${encodeURIComponent(AUTH.uid)}`;
+async function pull() {
+  const r = await fetch(docUrl(), { headers: { Authorization: 'Bearer ' + await fbToken() } });
+  if (r.status === 404) return null;
+  const j = await fbJSON(r);
+  if (!r.ok) throw new Error(j.error?.status || 'PULL');
+  try { return JSON.parse(j.fields?.data?.stringValue || 'null'); } catch (e) { return null; }
+}
+async function push(data) {
+  const r = await fetch(docUrl(), {
+    method: 'PATCH', headers: { Authorization: 'Bearer ' + await fbToken(), 'Content-Type': 'application/json' },
+    body: JSON.stringify({ fields: { data: { stringValue: JSON.stringify(data) }, t: { integerValue: String(Date.now()) } } }),
+  });
+  if (!r.ok) { const j = await fbJSON(r); throw new Error(j.error?.status || 'PUSH'); }
+}
+function payload() {
+  clockFlush(Date.now());
+  const devs = Object.assign({}, S.others || {});
+  devs[DEV] = { chTime: S.chTime, rday: S.rday };
+  return { v: 1, read: S.read, cards: S.cards, qa: S.qa, best: S.best, last: S.last, sims: S.sims, time: S.time,
+    devs, examDate: S.examDate, examDateT: S.examDateT || 0, resets: S.resets || {} };
+}
+// Fusiona lo que hay en la nube con lo de este dispositivo, sin perder nada de ninguno.
+function mergeRemote(R) {
+  if (!R) return;
+  const L = S.resets || (S.resets = {}), RR = R.resets || {};
+  const newer = k => (RR[k] || 0) > (L[k] || 0), older = k => (RR[k] || 0) < (L[k] || 0);
+  // Reinicios hechos en otro dispositivo
+  if (newer('all')) { S.read = {}; S.cards = {}; S.qa = {}; S.best = {}; S.last = {}; S.sims = []; }
+  if (newer('cards')) S.cards = {};
+  if (newer('tests')) { S.qa = {}; S.best = {}; S.last = {}; S.sims = []; }
+  if (newer('time')) for (let i = S.time.length - 1; i >= 0; i--) if (S.time[i].s < RR.time) S.time.splice(i, 1);
+  for (const k of Object.keys(RR)) L[k] = Math.max(L[k] || 0, RR[k]);
+  if (!older('all')) {
+    for (const [k, v] of Object.entries(R.read || {})) if (!S.read[k]) S.read[k] = v;
+    if (!older('cards')) for (const [k, v] of Object.entries(R.cards || {})) S.cards[k] = Math.max(S.cards[k] || 0, v);
+    if (!older('tests')) {
+      for (const [k, v] of Object.entries(R.qa || {})) if (!S.qa[k] || (v.t || 0) > (S.qa[k].t || 0)) S.qa[k] = v;
+      for (const [k, v] of Object.entries(R.best || {})) S.best[k] = Math.max(S.best[k] ?? 0, v);
+      for (const [k, v] of Object.entries(R.last || {})) if (S.last[k] == null) S.last[k] = v;
+      const seen = new Set(S.sims.map(x => x.t));
+      for (const x of R.sims || []) if (!seen.has(x.t)) S.sims.push(x);
+      S.sims.sort((a, b) => b.t - a.t); S.sims = S.sims.slice(0, 40);
+    }
+  }
+  if (!older('time')) {
+    const byS = new Map(S.time.map(x => [x.s, x]));
+    for (const x of R.time || []) {
+      if (RR.time && x.s < (L.time || 0)) continue;
+      const m = byS.get(x.s);
+      if (m) { m.a = Math.max(m.a, x.a); m.e = Math.max(m.e, x.e); } else S.time.push({ s: x.s, e: x.e, a: x.a });
+    }
+    S.time.sort((a, b) => a.s - b.s);   // ordena en su sitio: la sesión en curso sigue siendo el mismo objeto
+  }
+  S.others = {};
+  for (const [d, v] of Object.entries(R.devs || {})) if (d !== DEV && v) S.others[d] = { chTime: v.chTime || {}, rday: v.rday || {} };
+  if ((R.examDateT || 0) > (S.examDateT || 0)) { S.examDate = R.examDate || ''; S.examDateT = R.examDateT; }
+}
+function syncLabel() {
+  if (!AUTH) return '';
+  return AUTH.last ? new Date(AUTH.last).toLocaleString(locale(), { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }) : t('syncNever');
+}
+function sync(manual) {
+  if (!FB || !AUTH) return Promise.resolve(false);
+  if (!navigator.onLine) { if (manual) toast(t('syncOffline')); return Promise.resolve(false); }
+  if (syncing) return syncing;
+  syncing = (async () => {
+    try {
+      const R = await pull();
+      mergeRemote(R);
+      await push(payload());
+      AUTH.last = Date.now(); saveAuth(); save(true);
+      if (manual) toast(t('syncOk'));
+      const w = $('#syncWhen'); if (w) w.textContent = syncLabel();
+      if (R && !SESSION && /^(#\/?)?(plan|tiempo)?$/.test(location.hash)) route(true);
+      return true;
+    } catch (e) {
+      console.warn('sync', e);
+      if (manual) toast(AUTH ? t('syncFail') : t('syncExpired'));
+      return false;
+    } finally { syncing = null; }
+  })();
+  return syncing;
+}
+function loginError(m) {
+  if (/INVALID_LOGIN_CREDENTIALS|INVALID_PASSWORD|EMAIL_NOT_FOUND|INVALID_EMAIL/.test(m)) return t('errCred');
+  if (/TOO_MANY_ATTEMPTS/.test(m)) return t('errMany');
+  if (/USER_DISABLED/.test(m)) return t('errDisabled');
+  if (/Failed to fetch|NetworkError|Load failed/i.test(m)) return t('errNet');
+  return t('errOther');
+}
+async function doLogin(email, pass) {
+  await fbLogin(email, pass);
+  if (S.owner && S.owner !== AUTH.uid) {
+    // Otro usuario usó antes este dispositivo: su avance no se mezcla con el tuyo
+    const keep = { speed: S.speed, lang: S.lang };
+    runStart = null; cur = null;
+    S = Object.assign(blank(), keep);
+    clockOn(Date.now());
+  }
+  S.owner = AUTH.uid; save(true);
+  await sync(false);
+}
+function accountPanel() {
+  if (!FB) return '';
+  if (!AUTH) return `
+    <h3 class="label">${esc(t('account'))}</h3>
+    <section class="panel">
+      <p class="note" style="margin-top:0">${esc(t('accNote'))}</p>
+      <form id="login" class="stack" autocomplete="on">
+        <label class="field">${esc(t('email'))}<input type="email" id="lEmail" autocomplete="username" inputmode="email" autocapitalize="none" required></label>
+        <label class="field">${esc(t('pass'))}<input type="password" id="lPass" autocomplete="current-password" required></label>
+        <button class="btn red block" type="submit" id="lGo">${esc(t('signIn'))}</button>
+      </form>
+      <p class="note" id="lErr" role="alert" style="margin-bottom:0"></p>
+    </section>`;
+  return `
+    <h3 class="label">${esc(t('account'))}</h3>
+    <section class="panel">
+      <div class="kv"><span>${esc(t('signedAs'))}</span><span>${esc(AUTH.email)}</span></div>
+      <div class="kv"><span>${esc(t('lastSync'))}</span><span id="syncWhen">${esc(syncLabel())}</span></div>
+      <p class="note">${esc(t('syncNote'))}</p>
+      <div class="row"><button class="btn" id="syncNow">${esc(t('syncNow'))}</button><button class="btn" id="logout">${esc(t('signOut'))}</button></div>
+    </section>`;
+}
+function bindAccount() {
+  const f = $('#login');
+  if (f) f.addEventListener('submit', async e => {
+    e.preventDefault();
+    const b = $('#lGo'), err = $('#lErr');
+    b.disabled = true; b.textContent = t('signingIn'); err.textContent = '';
+    try { await doLogin($('#lEmail').value.trim(), $('#lPass').value); toast(t('syncOk')); settingsView(); }
+    catch (x) { err.textContent = loginError(String(x.message || x)); b.disabled = false; b.textContent = t('signIn'); }
+  });
+  $('#syncNow')?.addEventListener('click', () => sync(true));
+  $('#logout')?.addEventListener('click', () => { if (!confirm(t('signOutQ'))) return; AUTH = null; saveAuth(); settingsView(); });
 }
 
 // ---------- ajustes ----------
@@ -1266,7 +1462,7 @@ async function settingsView() {
   try { est = await navigator.storage?.estimate?.(); persisted = await navigator.storage?.persisted?.(); } catch (e) { /* opcional */ }
   if (!location.hash.startsWith('#/ajustes')) return;
   const standalone = matchMedia('(display-mode: standalone)').matches || navigator.standalone;
-  view.innerHTML = `
+  view.innerHTML = `${accountPanel()}
     <h3 class="label">${esc(t('timeTitle'))}</h3>
     <a class="item" href="#/tiempo">${icon('clock')}<div class="grow"><div class="t bigt">${esc(fmtDur(timeTotal()))}</div><div class="s">${esc(t('timeKicker'))}</div></div><span class="s">${esc(t('seeLog'))}</span><span class="chev">›</span></a>
     <h3 class="label">${esc(t('language'))}</h3>
@@ -1293,6 +1489,7 @@ async function settingsView() {
     <p class="note" style="text-align:center;margin-top:22px">${esc(t('version', window.CPP_VERSION || '—'))}</p>`;
   offlineStatus().then(s => { const e = $('#offst'); if (e) e.innerHTML = `<span class="dot ${s.ok ? 'ok' : ''}"></span>${esc(s.text)}`; });
   $$('#langSeg button').forEach(b => b.onclick = () => setLang(b.dataset.l));
+  bindAccount();
   let nt;
   $('#nm').addEventListener('input', e => { clearTimeout(nt); nt = setTimeout(() => { S.name = e.target.value.trim(); save(); }, 300); });
   $('#persist').onclick = async () => { const ok = await navigator.storage?.persist?.(); toast(ok ? t('persistOk') : t('persistNo')); settingsView(); };
@@ -1310,9 +1507,9 @@ async function settingsView() {
   };
   $('#exp').onclick = exportProgress;
   $('#impf').onchange = e => importProgress(e.target.files[0]);
-  $('#rCards').onclick = () => { if (confirm(t('rCardsQ'))) { S.cards = {}; save(true); toast(t('rCardsOk')); } };
-  $('#rTests').onclick = () => { if (confirm(t('rTestsQ'))) { S.qa = {}; S.best = {}; S.last = {}; S.sims = []; save(true); toast(t('rTestsOk')); } };
-  $('#rAll').onclick = () => { if (confirm(t('rAllQ'))) { const keep = { speed: S.speed, lang: S.lang, name: S.name, time: S.time, chTime: S.chTime, rday: S.rday, examDate: S.examDate }; S = Object.assign(blank(), keep); save(true); toast(t('rAllOk')); } };
+  $('#rCards').onclick = () => { if (confirm(t('rCardsQ'))) { S.cards = {}; S.resets.cards = Date.now(); save(true); sync(); toast(t('rCardsOk')); } };
+  $('#rTests').onclick = () => { if (confirm(t('rTestsQ'))) { S.qa = {}; S.best = {}; S.last = {}; S.sims = []; S.resets.tests = Date.now(); save(true); sync(); toast(t('rTestsOk')); } };
+  $('#rAll').onclick = () => { if (confirm(t('rAllQ'))) { const keep = { speed: S.speed, lang: S.lang, name: S.name, time: S.time, chTime: S.chTime, rday: S.rday, examDate: S.examDate, examDateT: S.examDateT, owner: S.owner, others: S.others, resets: Object.assign({}, S.resets, { all: Date.now() }) }; S = Object.assign(blank(), keep); save(true); sync(); toast(t('rAllOk')); } };
 }
 async function exportProgress() {
   const name = `cpp-avance-${new Date().toISOString().slice(0, 10)}.json`;
@@ -1330,7 +1527,8 @@ async function importProgress(f) {
     if (j.app !== 'cpp-estudio' || !j.data) throw new Error('formato');
     if (!confirm(t('impQ'))) return;
     runStart = null; cur = null;
-    S = Object.assign(blank(), j.data); if (!Array.isArray(S.time)) S.time = []; save(true); clockOn(Date.now()); applyLang(); toast(t('impOk')); settingsView();
+    const owner = S.owner, others = S.others;
+    S = Object.assign(blank(), j.data, { owner, others }); if (!Array.isArray(S.time)) S.time = []; save(true); clockOn(Date.now()); applyLang(); toast(t('impOk')); settingsView();
   } catch (e) { toast(t('impBad')); }
 }
 
@@ -1354,8 +1552,10 @@ function registerSW() {
       w?.addEventListener('statechange', () => { if (w.state === 'installed' && navigator.serviceWorker.controller) ask(w); });
     });
   }).catch(e => console.warn('SW', e));
+  // Recargar solo cuando se aplica una versión nueva, no en la primera instalación
+  const hadController = !!navigator.serviceWorker.controller;
   let reloaded = false;
-  navigator.serviceWorker.addEventListener('controllerchange', () => { if (!reloaded) { reloaded = true; location.reload(); } });
+  navigator.serviceWorker.addEventListener('controllerchange', () => { if (hadController && !reloaded) { reloaded = true; location.reload(); } });
 }
 
 // ---------- arranque ----------
@@ -1376,6 +1576,12 @@ async function start() {
   route();
   registerSW();
   initClock();
+  if (FB && AUTH) {
+    sync();
+    setInterval(() => { if (visible()) sync(); }, 180000);
+    document.addEventListener('visibilitychange', () => sync());
+    window.addEventListener('online', () => sync());
+  }
   loadScript('assets.js').catch(() => {});
   if (S.lastAudio) ADB.getMeta(S.lastAudio).then(m => m && loadAudio(m.id, false)).catch(() => {});
   player.addEventListener('play', () => { if (current) { S.lastAudio = current.id; save(); } });

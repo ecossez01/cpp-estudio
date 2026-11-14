@@ -398,7 +398,7 @@ def main():
 
     fonts = sorted(f"vendor/katex/fonts/{p.name}" for p in (ROOT / "vendor/katex/fonts").glob("*.woff2"))
     fonts += sorted(f"vendor/fonts/{p.name}" for p in (ROOT / "vendor/fonts").glob("*.woff2"))
-    assets = ["./", "index.html", "styles.css", "app.js", "assets.js", "manifest.webmanifest",
+    assets = ["./", "index.html", "styles.css", "config.js", "app.js", "assets.js", "manifest.webmanifest",
               "vendor/katex/katex.min.css", *fonts,
               "icons/icon-180.png", "icons/icon-192.png", "icons/icon-512.png",
               "icons/icon-maskable-512.png", "data/index.js"] + data_files

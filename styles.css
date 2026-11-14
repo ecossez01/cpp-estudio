@@ -455,3 +455,8 @@ body.has-mini #toast { bottom: calc(var(--tabbar) + var(--safe-b) + 100px); }
 .xtime.low { color: var(--red-ink); }
 .tstats.grid2 { display: grid; grid-template-columns: 1fr 1fr; }
 .hero .chips .chip { font-size: 13.5px; }
+
+/* ---------- cuenta ---------- */
+.stack > * + * { margin-top: 12px; }
+#lErr:empty { display: none; }
+#lErr { color: var(--red-ink); }
