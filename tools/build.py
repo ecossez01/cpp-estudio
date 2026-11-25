@@ -52,6 +52,70 @@ LATEX_RE = re.compile(r"```latex\n(.*?)\n```", re.S)
 
 KATEX = {}  # tex -> html (se llena en main)
 
+# ---------- secciones esenciales ----------
+# tools/core.json: prioridad de cada capítulo y qué apartados son lo esencial para el examen.
+CORE_PATH = TOOLS / "core.json"
+CORE = json.loads(CORE_PATH.read_text("utf-8")) if CORE_PATH.exists() else {}
+CORE_FLAGS = {}  # capítulo -> [bool por unidad], se reutiliza para el resumen en inglés
+SUB_RE = re.compile(r"^\*\*(\d+(?:\.\d+)+\.? .*?)\*\*:?\s*$")
+
+
+def split_units(title, lines):
+    """Parte una sección «### » en unidades: la propia sección y cada subapartado
+    («#### » o línea en negritas numerada). Devuelve [[nivel, título, líneas]]."""
+    units = [[3, title, []]]
+    for ln in lines:
+        m = SUB_RE.match(ln)
+        if ln.startswith("#### "):
+            units.append([4, ln[5:].strip(), [ln]])
+        elif m:
+            units.append([5, m.group(1), [ln]])
+        else:
+            units[-1][2].append(ln)
+    return units
+
+
+def core_flags(cid, units):
+    """units: [(nivel, título)] de todo el capítulo, en orden. Marca las esenciales."""
+    picks = (CORE.get(cid) or [3, []])[1]
+    flags = [False] * len(units)
+    for pick in picks:
+        sub = pick.endswith("+")
+        key = pick[:-1] if sub else pick
+        hits = []
+        for i, (_, t) in enumerate(units):
+            t = t.strip("* ")
+            if t == key or (t.startswith(key) and not re.match(r"[\w.]", t[len(key)])):
+                hits.append(i)
+        if len(hits) != 1:
+            raise SystemExit(f"core.json: «{pick}» en {cid} coincide con {len(hits)} apartados (debe ser 1)")
+        i = hits[0]
+        flags[i] = True
+        if sub:
+            j = i + 1
+            while j < len(units) and units[j][0] > units[i][0]:
+                flags[j] = True
+                j += 1
+    return flags
+
+
+def render_sections(cid, secs, flags, prefix, lang):
+    """secs: [(n, título, unidades)]. Devuelve (html, índice) con las unidades envueltas."""
+    parts, toc, k = [], [], 0
+    for n, title, units in secs:
+        fl = flags[k:k + len(units)] if flags else [False] * len(units)
+        k += len(units)
+        sid = f"{prefix}{n}"
+        entry = {"id": sid, "t": short_title(title)}
+        if any(fl):
+            entry["k"] = 1
+        toc.append(entry)
+        for j, (lvl, _, lines) in enumerate(units):
+            cls = "u core" if fl[j] else ("u hc" if j == 0 and any(fl) else "u")
+            head = f'<h3 id="{cid}-{sid}">{html.escape(title)}</h3>' if j == 0 else ""
+            parts.append(f'<div class="{cls}">{head}{md_to_html(chr(10).join(lines), lang)}</div>')
+    return "".join(parts), toc
+
 
 # ---------- fórmulas ----------
 def latex_to_text(tex: str) -> str:
@@ -226,6 +290,7 @@ def parse_domain(dom, md_text, quizzes):
                 mo = OJO_RE.match(ln)
                 if mo:
                     ojo.append({"s": ch["title"], "h": md_inline(mo.group(1))})
+        secs = []
         for n, (title, sl) in enumerate(sections):
             if title.lower().startswith("preguntas de repaso"):
                 for ln in sl:
@@ -238,9 +303,14 @@ def parse_domain(dom, md_text, quizzes):
                 mo = OJO_RE.match(ln)
                 if mo:
                     ojo.append({"s": short_title(title), "h": md_inline(mo.group(1))})
-            sid = f"s{n}"
-            toc.append({"id": sid, "t": short_title(title)})
-            parts.append(f'<h3 id="{cid}-{sid}">{html.escape(title)}</h3>' + md_to_html("\n".join(sl)))
+            secs.append((n, title, split_units(title, sl)))
+        flat = [(u[0], u[1]) for _, _, us in secs for u in us]
+        flags = core_flags(cid, flat)
+        CORE_FLAGS[cid] = flags
+        body, toc = render_sections(cid, secs, flags, "s", "es")
+        parts.append(body)
+        uw = [len(" ".join(u[2]).split()) for _, _, us in secs for u in us]
+        core_words = sum(w for w, f in zip(uw, flags) if f)
         if not cards:  # sin preguntas de repaso: usa las tablas de glosario («Término | …»)
             cards = glossary_cards(ch["lines"])
         for j, c in enumerate(cards):
@@ -248,6 +318,7 @@ def parse_domain(dom, md_text, quizzes):
         out.append({
             "id": cid, "num": ch["num"], "label": ch["label"], "short": ch["short"],
             "title": ch["title"], "pages": ch["pages"], "words": words,
+            "pri": (CORE.get(cid) or [3])[0], "corew": core_words,
             "idea": md_inline(idea) if idea else "",
             "toc": toc, "html": "".join(parts),
             "cards": cards, "ojo": ojo, "quiz": [],
@@ -310,13 +381,20 @@ def parse_en_summary(dom, md_text):
         if "\n".join(pre).strip():
             parts.append(md_to_html("\n".join(pre), "en"))
             ojo += [{"s": ch["title"], "h": md_inline(mo.group(1))} for mo in map(ore.match, pre) if mo]
+        secs = []
         for n, (title, sl) in enumerate(sections):
             if title.lower().startswith(L["skip"]):
                 continue
             ojo += [{"s": short_title(title), "h": md_inline(mo.group(1))} for mo in map(ore.match, sl) if mo]
-            sid = f"e{n}"
-            toc.append({"id": sid, "t": short_title(title)})
-            parts.append(f'<h3 id="{cid}-{sid}">{html.escape(title)}</h3>' + md_to_html("\n".join(sl), "en"))
+            secs.append((n, title, split_units(title, sl)))
+        flags = CORE_FLAGS.get(cid, [])
+        levels = [u[0] for _, _, us in secs for u in us]
+        if len(flags) != len(levels):
+            if any(flags):
+                print(f"Aviso: {cid} en inglés no tiene los mismos apartados que en español; sin marcas de esencial.")
+            flags = []
+        body, toc = render_sections(cid, secs, flags, "e", "en")
+        parts.append(body)
         out[cid] = {"html": "".join(parts), "toc": toc, "ojo": ojo}
     return out
 

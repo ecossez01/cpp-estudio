@@ -36,6 +36,8 @@ desde la app instalada (pestaña Audios → «Añadir audios desde Archivos»).
 - Inglés: resúmenes en `tools/src/en/<dominio>.md` (mismas líneas «## » que el español);
   fichas, tests e ideas en `tools/i18n/en/<dominio>.json`. `npm run build` deja en `tools/i18n/src/` los textos
   en español con las mismas claves, para traducir lo nuevo.
+- Prioridad de capítulos y apartados esenciales: `tools/core.json` (1 = clave, 2 = importante,
+  3 = repaso rápido; cada apartado se indica por el inicio de su título y «+» incluye sus subapartados).
 - Sin archivo de tests, el test de cada capítulo se arma solo con sus preguntas de repaso.
 - Después: `npm run build` (requiere Python 3 con el paquete `markdown`; para dibujar
   las fórmulas, `npm install` dentro de `tools/`). Regenera `data/`, `assets.js` y `sw.js`;

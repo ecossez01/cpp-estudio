@@ -18,7 +18,7 @@ function toast(msg) { const el = $('#toast'); el.textContent = msg; el.classList
 
 // ---------- avance (localStorage) ----------
 const KEY = 'cpp-estudio-v1';
-const blank = () => ({ read: {}, cards: {}, qa: {}, best: {}, last: {}, apos: {}, adone: {}, scroll: {}, sims: [], speed: 1, lastCh: null, lang: 'es', name: '', time: [], chTime: {}, rday: {}, examDate: '', examDateT: 0, exam: null, resets: {}, owner: '', others: {} });
+const blank = () => ({ read: {}, cards: {}, qa: {}, best: {}, last: {}, apos: {}, adone: {}, scroll: {}, pos: {}, lastT: 0, coreOnly: 0, sims: [], speed: 1, lastCh: null, lang: 'es', name: '', time: [], chTime: {}, rday: {}, examDate: '', examDateT: 0, exam: null, resets: {}, owner: '', others: {} });
 let S = blank();
 try { S = Object.assign(blank(), JSON.parse(localStorage.getItem(KEY) || '{}')); } catch (e) { /* sin datos */ }
 let saveT;
@@ -39,7 +39,12 @@ const T = {
     loadFail: 'No se pudo cargar el contenido. Abre la app una vez con internet.',
     hello: n => `Hola, ${n}`, yourProgress: 'Tu avance', heroSub: 'Los seis tomos de Protection of Assets (2021)',
     mRead: 'Capítulos leídos', mCards: 'Fichas dominadas', mQs: 'Preguntas acertadas',
-    cont: 'Continuar', startStudy: 'Empezar a estudiar', startSub: 'Abre el primer capítulo',
+    cont: 'Continuar', contAt: p => `Continuar donde lo dejaste, ${p}%`,
+    pri1: 'Clave', pri2: 'Importante', pri3: 'Repaso rápido', priAll: 'Todos',
+    priNote: 'Prioridad según el peso de cada dominio en el examen y lo que suele preguntarse. Es un criterio de estudio: ASIS no publica pesos por capítulo.',
+    coreTag: 'Esencial', coreOnly: 'Ver solo lo esencial', coreAll: 'Ver todo el capítulo',
+    coreNote: p => `Lo esencial va resaltado en amarillo: es el ${p}% del capítulo.`,
+    resumed: 'Retomas donde lo dejaste', toTop: 'Ir al inicio', here: 'Vas aquí', readPct: p => `${p}% leído`, startStudy: 'Empezar a estudiar', startSub: 'Abre el primer capítulo',
     quick: 'Acceso rápido', qSim: 'Simulacro', qSimS: 'Preguntas mezcladas', qCards: 'Fichas', qCardsS: n => `${n} pendientes`,
     qWrong: 'Mis fallos', qWrongS: n => n ? `${n} por repasar` : 'Ninguno todavía', qAudio: 'Audios', qAudioS: 'Escucha sin conexión', qPlan: 'Plan', qPlanS: n => `${n} capítulos por leer`, qPlanH: h => `~${h} de lectura`,
     examKicker: 'Examen tipo real', examH: 'Mismo formato que el examen de ASIS',
@@ -122,7 +127,12 @@ const T = {
     loadFail: "Couldn't load the content. Open the app once with an internet connection.",
     hello: n => `Hi, ${n}`, yourProgress: 'Your progress', heroSub: 'All six volumes of Protection of Assets (2021)',
     mRead: 'Chapters read', mCards: 'Flashcards mastered', mQs: 'Questions answered right',
-    cont: 'Continue', startStudy: 'Start studying', startSub: 'Open the first chapter',
+    cont: 'Continue', contAt: p => `Continue where you left off, ${p}%`,
+    pri1: 'Key', pri2: 'Important', pri3: 'Skim', priAll: 'All',
+    priNote: 'Priority based on each domain\'s weight in the exam and what is usually asked. It is a study criterion: ASIS does not publish weights per chapter.',
+    coreTag: 'Core', coreOnly: 'Show core only', coreAll: 'Show whole chapter',
+    coreNote: p => `The core is highlighted in yellow: ${p}% of the chapter.`,
+    resumed: 'Picking up where you left off', toTop: 'Go to top', here: "You're here", readPct: p => `${p}% read`, startStudy: 'Start studying', startSub: 'Open the first chapter',
     quick: 'Quick access', qSim: 'Mock exam', qSimS: 'Mixed questions', qCards: 'Flashcards', qCardsS: n => `${n} to review`,
     qWrong: 'My mistakes', qWrongS: n => n ? `${n} to review` : 'None yet', qAudio: 'Audio', qAudioS: 'Listen offline', qPlan: 'Plan', qPlanS: n => `${n} chapters to read`, qPlanH: h => `~${h} of reading`,
     examKicker: 'Exam simulation', examH: 'Same format as the ASIS exam',
@@ -338,17 +348,64 @@ async function setLang(l) {
   applyLang();
   if (l === 'en') await loadEN();
   KEEP = SESSION;
-  const y = window.scrollY;
+  const y = window.scrollY, rp = READING && posReady ? readPosNow() : null;
   route(true);
   KEEP = null;
-  requestAnimationFrame(() => window.scrollTo(0, y));
+  requestAnimationFrame(() => { if (!(rp && applyPos(rp))) window.scrollTo(0, y); });
 }
 
 let SESSION = null;
 let scrollSaver = null, tocScroll = null;
+
+// ---------- punto de lectura ----------
+// Se guarda como «apartado + fracción dentro del apartado», no en píxeles: así vale igual
+// en el iPhone y en la compu, en español y en inglés, y con «solo lo esencial».
+let posReady = false, posTimer = 0;
+const posOff = () => (parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--hdr')) || 56) + 72;
+const absTop = el => el.getBoundingClientRect().top + window.scrollY;
+function readPosNow() {
+  const prose = $('#prose');
+  if (!prose) return null;
+  const max = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
+  const P = { u: -1, f: 0, p: Math.max(0, Math.min(100, Math.round(100 * window.scrollY / max))), t: Date.now() };
+  if (window.scrollY < 40) { P.p = 0; return P; }
+  const line = window.scrollY + posOff();
+  const us = $$('.u', prose);
+  for (let i = 0; i < us.length; i++) {
+    if (us[i].offsetParent === null) continue;
+    if (absTop(us[i]) > line) break;
+    P.u = i; P.f = Math.max(0, Math.min(1, Math.round(1000 * (line - absTop(us[i])) / Math.max(1, us[i].offsetHeight)) / 1000));
+  }
+  return P;
+}
+function applyPos(P) {
+  const prose = $('#prose');
+  if (!P || !prose) return false;
+  const us = $$('.u', prose);
+  let y = 0;
+  if (P.u >= 0 && us[P.u]) {
+    let i = P.u, f = P.f || 0;
+    while (us[i] && us[i].offsetParent === null) { i++; f = 0; }   // apartado oculto en «solo lo esencial»: salta al siguiente visible
+    if (us[i]) y = absTop(us[i]) + f * us[i].offsetHeight - posOff();
+  } else if (P.p) y = P.p / 100 * (document.documentElement.scrollHeight - window.innerHeight);
+  if (y < 60) return false;
+  window.scrollTo(0, Math.round(y));
+  return true;
+}
+function flushPos() {
+  clearTimeout(posTimer);
+  if (!READING || !posReady || !$('#prose')) return;
+  const P = readPosNow();
+  if (P) { S.pos[READING] = P; save(true); }
+}
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') flushPos(); });
+window.addEventListener('pagehide', flushPos);
+const posPct = id => (S.pos[id] && S.pos[id].p) || 0;
+const priTag = c => `<span class="fact pri p${c.pri || 3}">${esc(t('pri' + (c.pri || 3)))}</span>`;
 function route(keepScroll) {
   SESSION = null;
-  clockFlush(Date.now()); READING = null;
+  flushPos();
+  clockFlush(Date.now()); READING = null; posReady = false;
   if (scrollSaver) { window.removeEventListener('scroll', scrollSaver); scrollSaver = null; }
   if (tocScroll) { window.removeEventListener('scroll', tocScroll); tocScroll = null; }
   const h = location.hash.replace(/^#\/?/, '');
@@ -398,7 +455,7 @@ function home() {
         ${metric(t('mCards'), kn, ALLCARDS.length, `${pct(kn, ALLCARDS.length)}%`)}
         ${metric(t('mQs'), ok, ALLQ.length, `${pct(ok, ALLQ.length)}%`)}
       </div>
-      ${last ? `<a class="btn red block cont" href="#/c/${last.id}/resumen"><small>${esc(t('cont'))}</small><span>${esc(chShort(last))}: ${esc(chT(last))}</span></a>`
+      ${last ? `<a class="btn red block cont" href="#/c/${last.id}/resumen"><small>${esc(posPct(last.id) && !S.read[last.id] ? t('contAt', posPct(last.id)) : t('cont'))}</small><span>${esc(chShort(last))}: ${esc(chT(last))}</span></a>`
         : first ? `<a class="btn red block cont" href="#/c/${first.id}/resumen"><small>${esc(t('startStudy'))}</small><span>${esc(chShort(first))}: ${esc(chT(first))}</span></a>` : ''}
     </section>
     <div class="quick"><h3 class="label">${esc(t('quick'))}</h3>
@@ -446,22 +503,33 @@ function domainView(id) {
       <div class="row"><a class="btn red" href="#/test?scope=${d.id}">${esc(t('simVol'))}</a><a class="btn" href="#/fichas/${d.id}">${esc(t('cardsN', pendingCards(cards).length))}</a></div>
     </section>
     <h3 class="label">${esc(t('chapters'))}</h3>
-    <div class="list cols">${cs.map(c => {
+    <div class="prif" id="prif">${[0, 1, 2, 3].map(n => { const k = n ? cs.filter(c => (c.pri || 3) === n).length : cs.length; return k ? `<button class="chip ${(DOMF[id] || 0) === n ? 'on' : ''} ${n ? 'p' + n : ''}" data-p="${n}">${esc(t(n ? 'pri' + n : 'priAll'))} <small>${k}</small></button>` : ''; }).join('')}</div>
+    <p class="note prinote">${esc(t('priNote'))}</p>
+    <div class="list cols" id="chlist" data-f="${DOMF[id] || 0}">${cs.map(c => {
       const r = !!S.read[c.id], best = S.best[c.id], k = known(c.cards);
-      return `<a class="item" href="#/c/${c.id}/resumen">${r ? icon('check', 'ok') : `<span class="ic num">${esc(c.num.length > 2 ? c.num.slice(0, 2) : c.num)}</span>`}
+      const here = S.lastCh === c.id && !r, pp = r ? 0 : posPct(c.id);
+      return `<a class="item ${here ? 'here' : ''}" data-p="${c.pri || 3}" href="#/c/${c.id}/resumen">${r ? icon('check', 'ok') : `<span class="ic num">${esc(c.num.length > 2 ? c.num.slice(0, 2) : c.num)}</span>`}
         <div class="grow"><div class="t">${esc(chT(c))}</div><div class="s">${esc(chLabel(c))}${c.pages ? ', ' + esc(t('pages', c.pages)) : ''}</div>
-        <div class="facts"><span class="fact ${k === c.cards.length && k ? 'ok' : ''}">${esc(t('factCards', k, c.cards.length))}</span>
+        ${pp ? meter(pp, 'rd') : ''}
+        <div class="facts">${priTag(c)}${here ? `<span class="fact here">${esc(t('here'))}</span>` : ''}${pp ? `<span class="fact">${esc(t('readPct', pp))}</span>` : ''}<span class="fact ${k === c.cards.length && k ? 'ok' : ''}">${esc(t('factCards', k, c.cards.length))}</span>
         <span class="fact ${best >= 80 ? 'ok' : ''}">${esc(best != null ? t('testBest', best) : t('testNone'))}</span>
         ${ojoOf(c).length ? `<span class="fact warn">${esc(t('ojoN', ojoOf(c).length))}</span>` : ''}</div></div><span class="chev">›</span></a>`;
     }).join('')}</div>`;
+  $$('#prif .chip').forEach(b => b.onclick = () => {
+    DOMF[id] = +b.dataset.p;
+    $$('#prif .chip').forEach(x => x.classList.toggle('on', x === b));
+    $('#chlist').dataset.f = DOMF[id];
+  });
 }
+const DOMF = {};   // filtro de prioridad elegido en cada tomo (solo durante la sesión)
 
 // ---------- capítulo ----------
 function chapterView(id, tab, q, keepScroll) {
   const x = CH[id];
   if (!x) { location.hash = '#/'; return; }
   const { c, d, i } = x;
-  S.lastCh = id; save();
+  if (S.lastCh !== id || tab === 'resumen') { S.lastCh = id; S.lastT = Date.now(); }
+  save();
   header(`${chShort(c)}: ${chT(c)}`, `#/d/${d.id}`);
   const tabs = [['resumen', t('tResumen'), ''], ['fichas', t('tFichas'), c.cards.length], ['test', t('tTest'), c.quiz.length], ['ojo', t('tOjo'), ojoOf(c).length]];
   view.innerHTML = `
@@ -477,13 +545,16 @@ function chapterView(id, tab, q, keepScroll) {
   if (tab === 'resumen') {
     READING = id;
     const idea = ideaOf(c);
+    const hasCore = c.corew > 0 && /class="u core"/.test(sumHtml(c));
+    const only = hasCore && !!S.coreOnly;
     pane.innerHTML = `
-      <section class="panel stripe chead">${meta}<h2>${esc(chT(c))}</h2>
+      <section class="panel stripe chead">${meta}<h2>${esc(chT(c))}</h2><div class="facts">${priTag(c)}</div>
         ${idea ? `<div class="idea"><div class="kicker">${esc(t('idea'))}</div><p class="txt">${idea}</p></div>` : ''}
       </section>
       ${hasEN(c) ? '' : langNote('langNoteSum')}
-      ${sumToc(c).length > 1 ? `<div class="toc">${sumToc(c).map(s => `<a href="#" data-jump="${id}-${s.id}">${esc(s.t)}</a>`).join('')}</div>` : ''}
-      <article class="prose" id="prose" lang="${hasEN(c) ? 'en' : 'es'}">${sumHtml(c)}</article>
+      ${sumToc(c).length > 1 ? `<div class="toc ${only ? 'only-core' : ''}" id="toc">${sumToc(c).map(s => `<a href="#" class="${s.k ? 'k' : ''}" data-jump="${id}-${s.id}">${esc(s.t)}</a>`).join('')}</div>` : ''}
+      ${hasCore ? `<div class="corebar"><span class="swatch"></span><span class="grow">${esc(t('coreNote', pct(c.corew, c.words)))}</span><button class="btn sm" id="coreBtn">${esc(t(only ? 'coreAll' : 'coreOnly'))}</button></div>` : ''}
+      <article class="prose ${only ? 'only-core' : ''}" id="prose" lang="${hasEN(c) ? 'en' : 'es'}" style="--core-tag:'${esc(t('coreTag'))}'">${sumHtml(c)}</article>
       <div class="readbox"><button class="btn block ${S.read[id] ? 'okb' : 'red'}" id="readBtn">${esc(S.read[id] ? t('isRead') : t('markRead'))}</button></div>
       ${nav}`;
     $$('[data-jump]', pane).forEach(a => a.addEventListener('click', e => { e.preventDefault(); document.getElementById(a.dataset.jump)?.scrollIntoView({ behavior: 'smooth', block: 'start' }); }));
@@ -512,11 +583,28 @@ function chapterView(id, tab, q, keepScroll) {
     if (term) {
       const firstHit = highlight($('#prose'), term);
       if (firstHit) setTimeout(() => firstHit.scrollIntoView({ block: 'center' }), 60);
-    } else if (S.scroll[id] && !keepScroll) {
-      setTimeout(() => window.scrollTo(0, S.scroll[id]), 30);
+    } else if (!keepScroll) {
+      // Vuelve al punto exacto donde se quedó (y lo repite una vez por si las fuentes movieron el texto)
+      const P = S.pos[id];
+      if (P ? applyPos(P) : S.scroll[id] > 60 && (window.scrollTo(0, S.scroll[id]), true)) {
+        const y0 = window.scrollY;
+        if (P) setTimeout(() => { if (READING === id && Math.abs(window.scrollY - y0) < 4) applyPos(P); }, 350);
+        toast(t('resumed'));
+      }
     }
-    let tm;
-    scrollSaver = () => { clearTimeout(tm); tm = setTimeout(() => { S.scroll[id] = Math.round(window.scrollY); save(); }, 400); };
+    $('#coreBtn')?.addEventListener('click', () => {
+      const P = readPosNow();
+      S.coreOnly = S.coreOnly ? 0 : 1; save();
+      $('#prose').classList.toggle('only-core', !!S.coreOnly);
+      $('#toc')?.classList.toggle('only-core', !!S.coreOnly);
+      $('#coreBtn').textContent = t(S.coreOnly ? 'coreAll' : 'coreOnly');
+      if (!applyPos(P)) window.scrollTo(0, 0);
+    });
+    setTimeout(() => { if (READING === id) posReady = true; }, 500);
+    scrollSaver = () => {
+      clearTimeout(posTimer);
+      posTimer = setTimeout(() => { if (READING === id && posReady) { const P = readPosNow(); if (P) { S.pos[id] = P; save(); } } }, 300);
+    };
     window.addEventListener('scroll', scrollSaver, { passive: true });
   } else if (tab === 'fichas') {
     const pend = pendingCards(c.cards);
@@ -1355,6 +1443,7 @@ function payload() {
   const devs = Object.assign({}, S.others || {});
   devs[DEV] = { chTime: S.chTime, rday: S.rday };
   return { v: 1, read: S.read, cards: S.cards, qa: S.qa, best: S.best, last: S.last, sims: S.sims, time: S.time,
+    pos: S.pos, lastCh: S.lastCh, lastT: S.lastT || 0,
     devs, examDate: S.examDate, examDateT: S.examDateT || 0, resets: S.resets || {} };
 }
 // Fusiona lo que hay en la nube con lo de este dispositivo, sin perder nada de ninguno.
@@ -1363,13 +1452,16 @@ function mergeRemote(R) {
   const L = S.resets || (S.resets = {}), RR = R.resets || {};
   const newer = k => (RR[k] || 0) > (L[k] || 0), older = k => (RR[k] || 0) < (L[k] || 0);
   // Reinicios hechos en otro dispositivo
-  if (newer('all')) { S.read = {}; S.cards = {}; S.qa = {}; S.best = {}; S.last = {}; S.sims = []; }
+  if (newer('all')) { S.read = {}; S.cards = {}; S.qa = {}; S.best = {}; S.last = {}; S.sims = []; S.pos = {}; S.scroll = {}; }
   if (newer('cards')) S.cards = {};
   if (newer('tests')) { S.qa = {}; S.best = {}; S.last = {}; S.sims = []; }
   if (newer('time')) for (let i = S.time.length - 1; i >= 0; i--) if (S.time[i].s < RR.time) S.time.splice(i, 1);
   for (const k of Object.keys(RR)) L[k] = Math.max(L[k] || 0, RR[k]);
   if (!older('all')) {
     for (const [k, v] of Object.entries(R.read || {})) if (!S.read[k]) S.read[k] = v;
+    // Punto de lectura: gana el más reciente, salvo el capítulo que se está leyendo ahora mismo
+    for (const [k, v] of Object.entries(R.pos || {})) if (v && k !== READING && (!S.pos[k] || (v.t || 0) > (S.pos[k].t || 0))) S.pos[k] = v;
+    if (R.lastCh && (R.lastT || 0) > (S.lastT || 0) && !READING) { S.lastCh = R.lastCh; S.lastT = R.lastT; }
     if (!older('cards')) for (const [k, v] of Object.entries(R.cards || {})) S.cards[k] = Math.max(S.cards[k] || 0, v);
     if (!older('tests')) {
       for (const [k, v] of Object.entries(R.qa || {})) if (!S.qa[k] || (v.t || 0) > (S.qa[k].t || 0)) S.qa[k] = v;
